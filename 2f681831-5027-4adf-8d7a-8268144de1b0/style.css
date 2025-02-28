@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav-container {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+    font-size: 6px;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    height: 50px
+}
+
+.img1 {
+    height: 30px;
+    padding: 8px;
+}
+
+.sec-2 {
+    flex-direction: row;
+    display: flex;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+.h1 {
+    margin-top: 12px;
+    padding: 5px;
+}
+
+.fa {
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: 3px;
+    height: 10vh;
+}
+
+.sec-1 {
+    flex-direction: row;
+    display: flex;
+    margin-left: 20px;
+}
+
+.s {
+    margin-left: 4px;
+}
+
+.hlo {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 55vh;
+    text-align: start;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-size: 10px;
+    background-size: cover;
+}
+
+.text {
+    padding: 60px;
+    margin-left: 100px;
+}
+
+.btn {
+    background-color: #4B9EFF;
+    border: 3px;
+    border-radius: 3px;
+    height: 30px;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.img2 {
+    height: 45vh;
+    width: 60vw;
+    border-radius: 20px;
+    text-align: start;
+}
+
+.ser {
+    text-align: center;
+    font-family: "Bree Serif";
+}

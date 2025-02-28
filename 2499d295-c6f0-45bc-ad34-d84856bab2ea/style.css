@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    box-sizing: border-box;
+    font-family: Bree Serif;
+}
+
+body{
+    margin: 0px;
+}
+.container{
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+.nav{
+    background-color: #0A1426;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+.home{
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    height: 90vh;
+    margin: 0px;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+.submit{
+    background-color: #4A90E2;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.para{
+    
+}
+.logo{
+    display: flex;
+}
+.img-logo{
+    height: 60%;
+    margin-top: 20%;
+}
+.sections{
+    text-align: center;
+    
+}
+.inage{
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+}
+.logo-head{
+    font-size: 20px;
+    padding-top: 10%;
+    color: #ffffff;
+}
+.contact{
+    background-color: #e0dfdc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    padding: 0px;
+    margin: 0px;
+}
+.int{
+    width: 90%;
+    
+}
+#search1{
+    width: 90%;
+    height: 30px;
+    border: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#search2{
+    width: 90%;
+    height: 150px;
+    border: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.but2{
+    width: 80%;
+    text-align: center;
+    border: 0px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #4A90E2;
+    color: #ffffff;
+}
+span{
+    color: red;
+}
+.img-footer{
+    height: 70px;
+}
+footer{
+    background-color: #0A1426;
+    padding: 20px;
+    color: #ffffff;
+}
+.logoes{
+    font-size: 25px;
+}
+.nav{
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    left: 0px;
+}
+@media (max-width: 768px){
+    .nav-bar{
+        display: none;
+    }
+    .nav-2{
+        color: #ffffff;
+        font-size: 40px;
+        padding: 10px;
+    }
+}
+@media (min-width:768px){
+    .nav-2{
+        display: none;
+        
+    }
+    a{
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        
+    }
+    .s1,.s2{
+        width: 50%;
+    }
+    .secound{
+        display: flex;
+        width: 50%;
+        margin: 20px;
+    }
+    .logo-head{
+        font-size: 30px;
+    }
+    .sections{
+        display: flex;
+    }
+    .section1{
+        width: 30%;
+    }
+}

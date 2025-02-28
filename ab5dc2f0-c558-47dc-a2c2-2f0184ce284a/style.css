@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    font-family: "Bree Serif";
+
+    height: 50px;
+    text-align: right;
+
+    background-color: #0A1525;
+    color: #FFFFFF;
+}
+
+.ok1 {
+    font-family: "Bree Serif";
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 30px;
+    color: #FFFFFF;
+}
+
+.sec2 {
+    font-family: "Bree Serif";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: #FFFFFF;
+    height: 400px;
+    background-size: cover;
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+p {
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+    height: 200px;
+}
+
+.but1 {
+    font-family: "Bree Serif";
+    background-color: translucent;
+}
+
+.cards {
+    display: flex;
+    background-size: cover;
+}
+
+.sec3 {
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.contact_us {
+    background-size: cover;
+    font-family: "Bree Serif";
+
+    background-color: #dfe3eb;
+}
+
+.name {
+    text-align: start;
+    background-color: #FFFFFF;
+    height: 20px;
+}
+
+.fa {
+    color: white;
+}
+
+.bi {
+    padding: 5px;
+    margin: 3px;
+    color: #FFFFFF;
+}
+
+.last {
+    display: flex;
+    align-self: center;
+    height: 100px;
+    background-size: cover;
+    background-color: #1A2942;
+}
+
+.lastbtn {
+    background-color: #4B84F3;
+}

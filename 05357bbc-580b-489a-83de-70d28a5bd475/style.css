@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #0A1525;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.logo {}
+
+.logo-img-size {
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+}
+
+.nav-options {
+    padding: 25px;
+    color: white;
+    display: flex;
+}
+
+.nav-option {
+    padding: 10px;
+}
+
+.main-toogle-bar {
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.toogle-bar {
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    margin: 3px;
+}
+
+.bg-1 {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-heading {
+    font-weight: bold;
+    padding-right: 90px;
+    padding-left: 70px;
+}
+
+.para-heading {
+    padding-right: 90px;
+    padding-left: 70px;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+
+}
+
+.main-heading-2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.main-para-2 {
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    padding: 20px;
+    width: 300px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    margin: 10px;
+}
+
+.card-3-duplicate {
+    margin: 10px;
+}
+
+.card-img {
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card-heading {
+    padding: 8px;
+    font-weight: bold;
+}
+
+.card-para {
+    padding: 8px;
+}
+
+.color {
+    color: red;
+}
+
+.third-head,
+.third-para {
+    padding: 10px;
+}
+
+.third-sec {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contactus {
+    padding-right: 280px;
+}
+
+.emptyspace {
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    margin-right: 120px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    padding: 2px;
+}
+
+.footer-sub-2,
+.footer-sub-3 {
+    margin: 10px;
+}
+
+.footermain {
+    padding: 3px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.logos {
+    padding: 10px;
+}
+
+.footer-sub {
+    color: #dfe3eb;
+    font-size: 14px;
+}
+
+.sub-footer-1,
+.sub-footer-2 {
+    display: flex;
+}
+
+@media (max-width : 767px) {
+    .bg-1 {
+        background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+        background-size: cover;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .main-heading {
+        font-weight: bold;
+        padding-right: 30%;
+        padding-left: 20%;
+    }
+
+    .para-heading {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .nav-option {
+        padding: 10px;
+        display: none;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-3-duplicate {
+        display: none;
+    }
+
+    .sub-footer-1 {
+        display: none;
+    }
+}
+
+@media (max-width : 576px) {
+    .bg-1 {
+        background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+        background-size: cover;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .main-heading {
+        font-weight: bold;
+        padding-right: 30%;
+        padding-left: 20%;
+        font-size: 18px;
+    }
+
+    .para-heading {
+        padding-right: 20%;
+        padding-left: 20%;
+        font-size: 14px;
+    }
+
+    .btn {
+        margin-right: 80px;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+    .logo-img-size {
+        height: 30px;
+        width: 50px;
+        padding: 10px;
+    }
+
+    .main-toogle-bar {
+        padding: 1px;
+        margin: -5px;
+    }
+
+    .card-img {
+        background-size: cover;
+        height: 100px;
+        width: 270px;
+        border-radius: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media (min-width : 768px) {
+    .bg-1 {
+        background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
+    }
+
+    .main-heading {
+        font-weight: bold;
+        padding-right: 40%;
+        padding-left: 30%;
+    }
+
+    .para-heading {
+        padding-right: 30%;
+        padding-left: 30%;
+    }
+
+    .card-3 {
+        display: none;
+    }
+}
+
+@media (min-width : 992px) {
+    .card-3 {
+        display: block;
+    }
+
+    .card-3-duplicate {
+        display: none;
+    }
+}
+.last-footer-main,.last-footer{
+    color:#dfe3eb;
+}
+.last-footer{
+    text-decoration: underline;
+}
+.last{
+    background-color: #0A1525;
+    padding:20px;
+}

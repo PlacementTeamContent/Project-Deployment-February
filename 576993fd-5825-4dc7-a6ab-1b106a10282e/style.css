@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1525;
+    height: 12vh;
+    width: 104vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-first{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-second{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 8vh;
+    width: 10vw;
+    margin: 10px;
+}
+
+.nav-para{
+    color: #ffffff;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.card-advanced{
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    color: #ffffff;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.advanced-head{
+    font-weight: bold;
+     font-size: 80px;
+}
+
+.advanced-para{
+    font-size: 40px;
+}
+
+.advanced-button{
+    background-color: #4B84F3;
+    color: #ffffff;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 4vh;
+    width: 15vw;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.our-services-card{
+   /*  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center; */
+    text-align: center;
+    
+}
+
+.our-services-ihp{
+    display: flex;
+    flex-direction: row;
+}
+
+.our-services-head-top{
+    font-size: 4vh;
+}
+
+.our-services-para-top{
+    font-size: 2vh;
+}
+
+.our-services-img{
+    height: 19vh;
+    width: 33vw;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.contact-us-card{
+    margin-top: 40px;
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.contact-us-hp{
+    text-align: center;
+}
+
+.contact-us-para1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contact-us-para2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contact-us-para3{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.contact-us-para3-input{
+    margin-left: 10px;
+}
+
+.contact-us-para4{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.star{
+    padding-top: 15px;
+    color: red;
+}
+.input{
+    border-radius: 5px;
+    border-width: 0px;
+    border-color: gray;
+}
+
+.input1{
+    width: 28vw;
+    border-radius: 5px;
+    border-width: 0px;
+    border-color: gray;
+}
+
+.input4{
+    height: 10vh;
+    width: 28vw;
+    border-radius: 5px;
+    border-width: 0px;
+    border-color: gray;
+}
+
+.contact-us-emailphone{
+    display: flex;
+    flex-direction: row;
+}
+.contact-us-btn{
+    background-color: ;
+}
+
+@media (max-width:576px) {
+    .advanced-head{
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .advanced-para{
+        font-size: 30px;
+    }
+    .advanced-button{
+       background-color: #4B84F3;
+       color: #ffffff;
+       border-radius: 5px;
+       border-width: 0px;
+       height: 4vh;
+       width: 20vw;
+       font-size: 15px;
+    }
+    .our-services-ihp{
+        display: flex;
+        flex-direction: column;
+    }
+    .our-services-img{
+        height: 40vh;
+        width: 80vw;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .our-services-head-top{
+        font-size: 5vh;
+    }
+
+    .our-services-para-top{
+        font-size: 2vh;
+    }
+    .our-services-head{
+        font-size: 3vh;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .our-services-para{
+        font-size: 2vh;
+    }
+    .contact-us-card{
+        margin-top: 40px;
+        background-color: #dfe3eb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+       .contact-us-hp{
+       text-align: center;
+    }
+
+    .contact-us-para1{
+       display: flex;
+       flex-direction: row;
+    }
+
+    .contact-us-para2{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .contact-us-para3{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-us-para3-input{
+        margin-left: 10px;
+    }
+
+    .contact-us-para4{
+        display: flex;
+        flex-direction: row;
+    
+     }
+
+    .contact-us-emailphone{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us-para3-input{
+        margin-left: 0px;
+    }
+}

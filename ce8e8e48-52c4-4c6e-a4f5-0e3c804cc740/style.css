@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A1525;
+    color: white;
+    padding: 10px;
+
+}
+
+.logo_section {
+    display: flex;
+    align-items: center;
+}
+
+.about_us {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+@media (max-width:576px) {
+    .about_us {
+        display: flex;
+        align-items: center;
+        display: none;
+
+    }
+}
+
+@media (min-width:577px) {
+    .hii {
+
+        display: none;
+
+    }
+}
+
+
+.logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nav {
+    margin-right: 20px;
+}
+
+.middle_container {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
+
+}
+
+.btn-1 {
+    background-color: #FFD700;
+    color: white;
+    border: solid 0px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.our {
+    margin: 0px;
+}
+
+.pic-1 {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.head-2 {
+    font-weight: bold;
+}
+
+@media (min-width:992px) {
+    .card-1 {
+
+        height: 100%;
+        width: 400px;
+        padding: 20px;
+    }
+
+    .cards {
+        display: flex;
+    }
+
+
+
+}
+
+@media (max-width:991px) {
+    .card-1 {
+        height: 100%;
+        width: 90%;
+        padding: 20px;
+
+    }
+}
+
+.userdetails_container {
+    background-color: pink;
+}
+
+.Contact_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-3 {
+    margin-bottom: 0px;
+}
+
+.name_container {
+    margin: 30px;
+    padding-top: 0px;
+}
+
+.name_space {
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+.messege_space {
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+.btn-2 {
+    background-color: #FFD700;
+    color: white;
+    border: solid 0px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+
+
+}
+
+@media (min-width:992px) {
+    .email {
+        display: flex;
+    }
+
+    .email_space {
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 5px;
+    }
+
+    .email_container {
+        width: 50%;
+        margin: 30px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email_space {
+        background-color: white;
+        height: 30px;
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 5px;
+
+    }
+
+    .email_container {
+        margin: 30px;
+        padding-top: 0px;
+
+    }
+
+}
+
+@media (max-width:991px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #1E293B;
+        color: white;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .contactusaboutus {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+}
+
+@media (min-width:992px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #1E293B;
+        color: white;
+        margin: 20px;
+        padding: 20px;
+
+    }
+
+    .contactusaboutus {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

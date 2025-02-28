@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card{
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    width: 150vh;
+    height: 100vh;
+    background-size:cover;
+    
+}
+.a{
+    text-align: center;
+    padding-top:60px;
+    display: flex;
+}
+.b{
+    text-align: center;
+    display: flex;  
+}
+.c{
+   
+    background-color: #00E5BE ;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    box-shadow: none;
+    height: 30px;
+}
+.d{
+    text-align: center;
+    padding-left:300px;
+}
+.girl{
+    display: flex;
+    
+}
+.container{
+  
+  
+}
+.e{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+    
+}
+.container-2{
+    padding-left:30px;
+}
+.container-3{
+    padding-left: 30px;
+}
+.arf{
+    font-family: "Bree Serif";
+    font-size:20px;
+    font-weight: normal;
+    text-align: start;
+    
+}
+.boy{
+    padding-top: 300px;
+    padding-left:100px;
+    font-size: 10px;
+}
+.w{
+    color:black;
+    font-family: "Roboto";
+    font-size: 40px;
+   
+}
+.p{
+    background-color: #0A1220;
+    width:150vh;
+    display: flex;
+    
+}
+.aura{
+    width:30px;
+    padding-left:30px;
+    height: 30px;
+}
+.me{
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+.mf{
+        color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: normal;
+    padding-left: 600px;
+    
+}
+.mg{
+          color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: normal;
+    padding-left: 20px;
+}
+.mh{
+          color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: normal;
+    padding-left: 20px;
+}
+.mi{
+          color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: normal;
+    padding-left: 20px;
+}
+.mz{
+          color: white;
+   padding-top:10px;
+    padding-left: 20px;
+}
+.pellow{
+    background-color: #1E293B;
+    height: 300px;
+    width:1500px;
+    display:flex;
+   
+}
+.aurah{
+    padding-left:90px;
+    padding-top: 60px;
+    width:70px;
+    height:70px;
+}
+.meh{
+    padding-left:90px;
+    color:white;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight:normal;
+
+}
+.blue{
+     padding-left:90px;
+     color: white;
+}
+.violet{
+    color: white;
+    padding-left: 600px;
+    
+}
+.cute{
+    color:white;
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-left:80px;
+}
+.maa{
+    padding-left:10px;
+    
+    
+}
+.maah{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.grey{
+    color:white;
+    padding-left:90px;
+    
+}
+.arfg{
+    font-size: 30px;
+}
+.aha{
+    font-size: 15px;
+}
+.k{
+    background-color: #00E5BE;
+    color:white;
+    height:30px;
+    border-radius:5px;
+    border-color:#00E5BE;
+    font-family: "Bree Serif";
+    
+
+}
+.ka{
+    font-family: "Roboto";
+}

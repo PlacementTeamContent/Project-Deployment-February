@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color:#0A1525 ;
+    display:flex;
+    padding: 10px;
+}
+.navitems{
+    display:flex;
+    margin-left:55px ;
+    margin-right:35px ;
+    align-content: flex-end;
+}
+.navlogo{
+    display:flex;
+   
+}
+.navimage{
+    height: 45px;
+    width: 45px;
+    padding:5px;
+}
+.navpara{
+    color:white;
+    padding-right: 5px;
+    font-family: Bree Serif;
+}
+.bg-image{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height:40vh;
+    text-align: center;
+    width:100%;
+}
+.bg-head{
+    font-family: Bree Serif;
+    color:white;
+    font-size: 55px;
+}
+.bg-para{
+    color:white;
+    font-size: 20px;
+    font-family: Bree Serif;
+}
+.bg-button{
+    background-color: #FFD700;
+    border-radius: 5px;
+    border-width:0px;
+    padding:10px;
+}
+.services-sec{
+    background-color: white;
+    
+}
+.service-header{
+    text-align: center;
+}
+.service-h1{
+    font-family: Bree Serif;
+}
+.service-card-head{
+    font-family: Bree Serif;
+}
+.service-card-para{
+    font-family: Bree Serif;
+}
+.service-img{
+    width:35vw ;
+    height:30vh ;
+    border-radius:25px;
+}
+.service-card-container{
+    display:flex;
+    padding:15px;
+    
+}
+.services-card{
+    padding:10px;
+}
+.Contact-Us{
+    background-color: lightgrey;
+}
+.contact-header{
+    text-align: center;
+}
+.name{
+    width:60vh;
+    border-radius:8px;
+    border-width:1px;
+    height: 3vh;
+}
+.span{
+    color:red;
+}
+.flexdiv{
+    display:flex;
+    justify-self: center;
+}
+.email{
+    margin-right:18px;
+    border-radius:8px;
+    border-width:1px;
+    width:30vh;
+    height: 3vh;
+}
+.phno{
+    border-radius:8px;
+    border-width:1px;
+    width:30vh;
+    height: 3vh;
+}
+.message{
+    width:60vh;
+    border-radius:8px;
+    border-width:1px;
+    height: 15vh;
+}
+.contact-sec{
+    text-align: center;
+}
+.ser-btn{
+    margin-top: 7px;
+    width:60vh;
+    background-color: #FFD700;
+    border-radius:8px;
+    border-width:0px;
+    padding:10px;
+}
+.last{
+    background-color:#0A1525 ;
+}
+.footerpara{
+    color:white;
+}
+.iconb{
+    color:white;
+    font-size: 30px;
+    padding:8px;
+}
+.footercontact{
+    font-family: Bree Serif;
+    color:white;
+}
+.footerpara{
+    color:white;
+}
+.last{
+    display: flex;
+    height: 40vh;
+    margin-top: 8px;
+}
+.icons{
+    margin: 40px;
+}
+.contactfooter{
+    margin: 40px;
+}
+.menufooter{
+    margin: 40px;
+}
+@media (max-width:991px){
+    .service-card-container{
+        flex-direction: column;
+        justify-self: center;
+    }
+    .flexdiv{
+        flex-direction: column;
+    }
+    .last{
+        width:100vh;
+    }
+}
+@media (max-width:767px){
+    .bg-head{
+        font-size:5px;
+    }
+}

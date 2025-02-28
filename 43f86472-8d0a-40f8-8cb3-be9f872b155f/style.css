@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    display: flex;
+
+}
+
+.nav-paras {
+    display: flex;
+    align-items: center;
+
+}
+
+.para-element {
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.nav-heading {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.abtus {
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    margin-left: 240px;
+}
+
+.nav-img {
+    margin-left: 60px;
+}
+
+
+
+.section-2 {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    margin-top: 0px;
+    height: 70vh;
+}
+
+.sec-2-heading {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.section-2-content {
+    padding: 200px;
+    color: #ffffff;
+}
+
+.sec-2-para {
+    font-size: 30px;
+}
+
+.sec-2-btn {
+    background-color: #FF7A2E;
+    font-size: 25px;
+    color: White;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 180px;
+}
+
+
+.section-3 {}
+
+.sec-3-header-content {
+    text-align: center;
+}
+
+.sec-3h1 {
+    color: black;
+}
+
+.sec-3p {
+    color: black;
+}
+
+.sec-3-img-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    border-radius: 20px;
+    height: 30vh;
+    width: 30vw;
+}
+
+.contact-section {
+    background-color: #dfe3eb;
+}
+
+.head-con-sec {
+    text-align: center;
+
+}
+
+.main-content-contact {
+    text-align: center;
+}
+
+.contact-text-btn {
+    height: 50px;
+    width: 90vh;
+    border-radius: 10px;
+    border-color: gray;
+    margin-right: 98px;
+}
+
+.name {
+    color: black;
+    display: flex;
+    margin-left: 100px;
+}
+
+.email-phn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-2 {
+    height: 50px;
+    width: 40vh;
+    border-radius: 10px;
+}
+
+.msg-btn {
+    height: 30vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+.msg-cmnt {
+    margin-left: 100px;
+}
+.lets-talk{
+    text-align: center;
+}
+.letstalk{
+    background-color:#FF7A2E;
+    height:40px;
+    width:80vw;
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #0A1525;
+    display: flex;
+}
+.nd{
+    color:#ffffff;
+}
+.menu-bar{
+    color:#ffffff;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.foo{
+    display: flex;
+    
+}
+@media screen and (min-width:576px){
+.navbar {
+    background-color: #0A1525;
+    display: flex;
+
+}
+
+.nav-paras {
+    display: flex;
+    align-items: center;
+
+}
+
+.para-element {
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.nav-heading {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.abtus {
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    margin-left: 240px;
+}
+
+.nav-img {
+    margin-left: 60px;
+}
+
+
+
+.section-2 {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    margin-top: 0px;
+    height: 70vh;
+}
+
+.sec-2-heading {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.section-2-content {
+    padding: 200px;
+    color: #ffffff;
+}
+
+.sec-2-para {
+    font-size: 30px;
+}
+
+.sec-2-btn {
+    background-color: #FF7A2E;
+    font-size: 25px;
+    color: White;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 180px;
+}
+
+
+.section-3 {}
+
+.sec-3-header-content {
+    text-align: center;
+}
+
+.sec-3h1 {
+    color: black;
+}
+
+.sec-3p {
+    color: black;
+}
+
+.sec-3-img-content {
+    text-align: center;
+    
+}
+
+.img {
+    border-radius: 20px;
+    height: 30vh;
+    width: 30vw;
+}
+
+.contact-section {
+    background-color: #dfe3eb;
+}
+
+.head-con-sec {
+    text-align: center;
+
+}
+
+.main-content-contact {
+    text-align: center;
+}
+
+.contact-text-btn {
+    height: 50px;
+    width: 90vh;
+    border-radius: 10px;
+    border-color: gray;
+    margin-right: 98px;
+}
+
+.name {
+    color: black;
+    display: flex;
+    margin-left: 100px;
+}
+
+.email-phn {
+    
+}
+
+.btn-2 {
+    height: 50px;
+    width: 40vh;
+    border-radius: 10px;
+}
+
+.msg-btn {
+    height: 30vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+.msg-cmnt {
+    margin-left: 100px;
+}
+.lets-talk{
+    text-align: center;
+}
+.letstalk{
+    background-color:#FF7A2E;
+    height:40px;
+    width:80vw;
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #0A1525;
+    display: flex;
+}
+.nd{
+    color:#ffffff;
+}
+.menu-bar{
+    color:#ffffff;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.foo{
+    display: flex;
+    
+}}

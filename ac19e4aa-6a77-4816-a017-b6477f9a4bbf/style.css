@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.NavBar {
+    height: 10vh;
+    width: 100vw;
+    background-color: #0A1525;
+}
+
+.NavImg {
+    padding-top: 30px;
+}
+
+.NavIcon {
+    color: white;
+    /* padding-top:30px; */
+    padding-left: 90vw;
+}
+
+.Section2 {
+    height: 60vh;
+    width: 100vw;
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section2Content {
+    color: #FFFFFF;
+}
+
+.Section2Btn {
+    height: 30px;
+    width: 100px;
+    background-color: #6C63FF;
+    color: white;
+    border-radius: 5px;
+}
+
+.OurServicesSection {
+    text-align: center;
+    font-family: "Bree Serif";
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media screen and (min-height:1200px) {
+    .LargeScreens {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .OurServicesSubContainer{
+        padding: 10px;
+    }
+}
+
+.OurServicesSubContainer {
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    font-family: "Bree Serif";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.OurServicesImg {
+    border-radius: 50px;
+}
+
+.ContactUsSection {
+    /*    height: 80vh;
+ width: 100vw; */
+    background-color: #dfe3eb;
+    text-align: center;
+}
+
+.ContactUsContent {
+    font-family: "Bree Serif";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.ContactUsContentPara {
+    font-family: "Bree Serif";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.ContactBtn {
+    background-color: #FFFFFF;
+    height: 20px;
+    width: 200px;
+    border-color: #dfe3eb;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.ContactBtn2 {
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 200px;
+    border-color: #dfe3eb;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.ContactBtn3 {
+    background-color: #6C63FF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    border-color: #6C63FF;
+}
+
+.FooterSection {
+    /*     height:50vh;
+width:100vh; */
+    background-color: #0A1525;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.FooterContent {
+    color: #dfe3eb;
+    text-align: left;
+}
+
+.FooterIcon {
+    color: #dfe3eb;
+}
+
+.StarLetter {
+    color: red;
+}
+
+.SingleLineSpan {
+    text-decoration: underline;
+}
+
+/* 
+@media screen and (max-height:992px) {
+    .LastSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+} */
+@media screen and (min-height:992px) {
+    .LastSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

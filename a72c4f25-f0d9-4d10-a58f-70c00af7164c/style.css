@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color:#0A1220;
+}
+.container{
+    font-family:bree Serif;
+}
+.main-page{
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height:60vh;
+    width:100vw;
+    background-size:cover;
+    justify-content: center;
+    align-content: center;
+    padding-left:30px;
+    color:#FFFFFF;
+}
+.head{
+    font-family:bree Serif;
+    
+}
+.gery{
+    color:#dfe3eb;
+    font-weight:normal;
+}
+.btn{
+    background-color:#00e5be;
+    border-radius:5px;
+    color:#ffffff;
+    border-style: none;
+    height:5vh;
+    font-weight:bold;
+}
+.mid-page{
+     justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.glasses{
+    border-radius:15px;
+}
+.second-page{
+      justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color:#dfe3eb;
+}
+.accent{
+    background-color:#00e5be;
+    border-radius:5px;
+    color:#ffffff;
+    border-style: none;
+    height:5vh;
+    width:80vw;
+    font-weight:bold;
+
+}
+.footer{
+    background-color:#0a1220;
+    color:grey;
+}
+span{
+    color:red;
+}
+.line{
+    text-decoration: underline;
+    color:grey;
+}

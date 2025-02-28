@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container-1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    height: 60vh;
+    width: 90vw;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hh1 {
+    color: #FFFFFF;
+    margin-top: 250px;
+}
+
+.b {
+    background-color: #4B84F3;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.container-2 {
+    text-align: center;
+}
+
+.nav {
+    background-color: #0A1525;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navim {
+    height: 20px;
+}
+
+.img1 {
+    height: 20vh;
+    width: 50vw;
+    border-radius: 20px;
+}
+
+.h2 {
+    font-size: 20px;
+}
+
+.imm {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container-3 {
+    background-color: #dfe3eb;
+
+}
+
+.h11 {
+    text-align: center;
+
+}
+
+.p11 {
+    text-align: center;
+
+}
+
+.bt {
+    width: 70vw;
+    background-color: white;
+    height: 20px;
+    margin-left: 90px;
+}
+
+.pp {
+    margin-left: 90px;
+}
+
+.bt1 {
+    width: 35vw;
+    background-color: white;
+    height: 20px;
+    margin-left: 90px;
+}
+
+.bt3 {
+    width: 70vw;
+    background-color: white;
+    height: 30vh;
+    margin-left: 90px;
+}
+
+.bt5 {
+    width: 70vw;
+    background-color: #4B84F3;
+    height: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.container-4 {
+    background-color: #1A2942;
+    padding: 20px;
+
+}
+
+.p0 {
+    color: #FFFFFF;
+}
+
+.bii {
+    background-color: #FFFFFF;
+}

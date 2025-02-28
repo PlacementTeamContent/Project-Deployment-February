@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Bree Serif";
+}
+
+li {
+    color: white;
+    margin: 10px;
+    list-style-type: none;
+
+}
+
+#website_logo {
+    height: 60px;
+    margin-left: 200px;
+
+
+}
+
+.container {
+    height: 80px;
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_logo {
+    display: flex;
+}
+
+#logo_name {
+    color: white;
+    font-size: 16px;
+    align-self: center;
+}
+
+
+.carousel_section {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    height: 300px;
+}
+
+.carousel_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Serif;
+    padding-right: 200px;
+
+}
+
+#carousel_btn {
+    border: solid 0px;
+    height: 30px;
+    text-align: center;
+    background-color: #FF7A2E;
+    border-radius: 5px;
+    color: white;
+    font-family: Serif;
+    margin: -145px;
+}
+
+.carousel_paragraph {
+    margin-left: 120px;
+    margin-bottom: 20px;
+    font-family: Serif;
+}
+
+.our_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_services_image {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.our_services_cards_container {
+    display: flex;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card h1 {
+    font-size: 16px;
+}
+
+.contact_us_section{
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+span{
+    color: red;
+}
+#input_text{
+    border-radius: 5px;
+    border:solid 1px grey;
+    
+}
+.contact_us_inputs{
+    display: flex;
+}
+.contact_us_input{
+    margin-right: 10px;
+    
+}
+
+/* .name_input{
+    margin-left: -200px;
+} */
+#meesage{
+    margin-left: -20px;
+}
+.Message_heading{
+    margin-left: -20px;
+    
+}
+.input_text_1{
+    width: 350px;
+    
+}
+.input_text_2{
+    width: 170px;
+    
+}
+
+.contact_us_button{
+    width: 359px;
+    margin: 10px;
+    border: solid 0px;
+    background-color: #FF7A2E;
+    color: white;
+    font-family: bree Serif;
+    
+    
+}
+
+.footer_section{
+    color: grey;
+    background-color:#0A1525;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+i {
+    color: white;
+    margin: 5px;
+    
+}
+.footer_section_heading{
+    color: white;
+}

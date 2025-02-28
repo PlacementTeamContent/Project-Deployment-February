@@ -1,0 +1,201 @@
+.navbar{
+    background-color: #0a1525;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+a{
+    color: white;
+}
+
+.logo{
+    height: 54px;
+    width: 54px;
+}
+
+.logo-title{
+    color: white;
+    font-family: "Bree serif";
+    font-size: 35px;
+}
+
+.home-page{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 100vh;
+    background-size: cover;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.home-title{
+    color: white;
+    font-family: "Bree serif";
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.home-para{
+    color: white;
+    font-family: "Bree serif";
+    font-size: 23px;
+}
+
+.home-btn{
+    color: white;
+    background-color: #ffd700;
+    border-radius: 8px;
+    font-weight: bold;
+    border-width: 0px;
+    padding: 15px;
+    width: 100px;
+}
+
+.ourservices-page{
+    background-color: white;
+}
+
+.description{
+   text-align: center; 
+}
+
+.ourservices-title{
+    color: #0a1525;
+    font-family: "Bree serif";
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.ourservices-description{
+    color: #1e293b;
+    font-family: "Bree serif";
+    font-size: 18px;
+}
+
+.ourservices-heading{
+    color: #0a1525;
+    font-family: "Bree serif";
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.ourservices-para{
+    color: #1e293b;
+    font-family: "Bree serif";
+    font-size: 15px;
+}
+
+.image{
+    height: 175px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.ourservices-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+
+
+.contactus-page{
+    background-color: #f0f0f0;
+    width: 100vh;
+    padding: 33px;
+}
+
+.contactus-title{
+    color: #0a1525;
+    font-family: "Bree serif";
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.contactus-para{
+    color: #1e293b;
+    font-family: "Bree serif";
+    font-size: 20px;
+}
+
+.contactus-heading{
+    color: #0a1525;
+    font-family: "Bree serif";
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.contactus-card{
+    background-color: white;
+    height: 45px;
+    width: 80vh;
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+.contactus-card1{
+    background-color: white;
+    height: 145px;
+    width: 80vh;
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+.contactus-btn{
+     color: white;
+    background-color: #ffd700;
+    border-radius: 8px;
+    font-weight: bold;
+    border-width: 0px;
+    padding: 15px;
+    width: 80vw;
+}
+
+.footer{
+    background-color: #0a1525;
+    height: 50vh;
+}
+
+.footer-para{
+    color: #1e293b;
+    font-family: "Bree serif";
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.icons1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #1e293b;
+    font-size: 40px;
+}
+
+.footer-heading{
+    color: #1e293b; 
+    font-family: "Bree serif";
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.footer-para1{
+    color: #1e293b;
+    font-family: "Bree serif";
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    color: #1e293b;
+    font-size: 30px;
+}

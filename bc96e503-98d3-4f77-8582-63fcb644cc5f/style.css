@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    background-color: #0a1426;
+    height: 60px;
+    width: 200vw;
+    border-radius: 4px;
+    display: grid;
+    column-gap: 3px;
+color: #ffffff;
+margin: auto;
+    
+}
+
+.imge{
+    height: 40px;
+  
+}
+.c-1{
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height: 40vh;
+}
+.btn{
+    background-color: #4a90E2;
+    border: 4px;
+    height: 40px;
+    border-radius: 8px;
+}
+.text{
+    
+    justify-content: center;
+    margin: 70px;
+    color: #ffffff;
+   
+    align-content: center;
+    
+}
+.c-2{
+   text-align: center;
+    justify-content: center;
+        font-family: "Bree Serif";
+}
+.p-1{
+    color: #1E293B;
+}
+.c-3{
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.pp{
+    color: white;
+    margin-top: 20vh;
+}
+.main{
+    padding: 20px;
+}
+.img{
+    height: 30vh;
+    border-radius: 5px;
+}
+.c-4{
+    background-color: #e0dfdc;
+    height: 100vh;
+    width: 200vw;
+}
+.search{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    font-family: "Bree Serif";
+}
+.inputt{
+   height: 40px; 
+   width: 80vw;
+   border-radius: 10px;
+}
+.star{
+    color: red;
+}
+.bar{
+    text-align: center;
+}
+.name{
+    margin-right: 52vh;
+}
+.input{
+    height: 20vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+.nam{
+    margin-right: 40vh;
+}
+.button{
+   
+    background-color: #4a90E2;
+    border: 4px;
+    height: 40px;
+    width: 80vw;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 3vh;
+    
+}
+.c-5{
+   background-color: #0a1426; 
+   height: 50vh;
+   width: 200vw;
+   padding: 30px;
+   text-align: center;
+  display: flex;
+  
+}
+.foot{
+    color: white;
+    font-size: 30px;
+}
+.spa{
+    border: solid;
+    border-radius: 30px;
+    font-family: 28px;
+}
+.h{
+    color: white;
+    
+}
+.hh{
+    color: white;
+}
+.ppp{
+    color: #e0dfdc;
+}
+.cl{
+
+    display: flex;
+    padding: 30px;
+    gap: 60px;
+}
+.c-6{
+    color: #e0dfdc;
+}
+.pa{
+    color: white;
+
+}
+.sp{
+    border: solid;
+    border-radius: 20px;
+}
+.ss{
+    
+}
+.cc{
+    margin-top: 40vh;
+    margin-right: 40vh;
+}

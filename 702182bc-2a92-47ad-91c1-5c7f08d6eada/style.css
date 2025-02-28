@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+    font-family: "Bree Serif";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar-icon {
+    font-size: 25px;
+    color: #e0dfdc;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.navbar-heading2 {
+    color: #ffffff;
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-section {
+    background-color: #0A1426;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.navbar-logo {
+    height: 40px;
+    width: 40px;
+    padding-right: 7px;
+}
+
+.first-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar-heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-page-h1 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.home-page-p1 {
+    color: #e0dfdc;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.home-page-btn {
+    width: 115px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #4A90E2;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 7px;
+}
+
+.second-section-h1 {
+    color: #1E293B;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.second-section-p1 {
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.second-section-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.images {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.second-section-h2 {
+    color: #1E293B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.second-section-p2 {
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e0dfdc;
+    padding: 15px;
+}
+
+.third-section-p1 {
+    color: #1E293B;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.third-section-h1 {
+    color: #1E293B;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.third-section-h1::after {
+    content: " *";
+    color: red;
+}
+
+.name-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    height: 35px;
+}
+
+.email-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    height: 35px;
+    width: 100%;
+}
+
+.message-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.third-section-btn {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #4A90E2;
+    border-radius: 6px;
+    border-width: 0px;
+    margin-bottom: 25px;
+}
+
+.fourth-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #0A1426;
+}
+
+
+.fourth-section-p1 {
+    color: #e0dfdc;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 25px;
+    color: #e0dfdc;
+    padding: 5px;
+}
+
+.fourth-section-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.fourth-section-med-devices {
+    padding: 1px;
+}
+
+.fourth-section-margin {
+    margin-right: 100px;
+}
+
+.rounded {
+    border-radius: 5px;
+    border: 1px solid #e0dfdc;
+    padding: 0px;
+}
+
+.fourth-section-p2 {
+    color: #e0dfdc;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.text1 {
+    text-decoration: underline;
+}
+
+
+.navbar-med-devices {
+    display: flex;
+    flex-direction: row;
+}
+
+.third-section-med-devices {
+    padding: 1px;
+}
+
+@media (min-width:768px) {
+    .navbar-heading2 {
+        display: flex;
+        margin-right: 15px;
+        margin-top: 25px;
+    }
+
+    .navbar-icon {
+        margin-top: 20px;
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .home-page-btn {
+        align-self: center;
+    }
+
+    .home-page-h1 {
+        align-self: center;
+    }
+
+    .home-page-p1 {
+        width: 530px;
+        align-self: center;
+    }
+
+    .second-section-card {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    .images {
+        width: 210px;
+        margin-right: 15px;
+    }
+
+    .second-section-h2 {
+        width: 210px;
+    }
+
+    .second-section-p2 {
+        width: 210px;
+    }
+
+    .third-section-med-devices {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .email-card {
+        width: 45vw;
+    }
+
+    .fourth-section-med-devices {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

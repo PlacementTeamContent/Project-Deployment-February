@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-color: #0A1525;
+    height: 60px;
+}
+
+.image {
+    height: 35px;
+    margin: 10px;
+}
+
+.bg-container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph {
+    color: white;
+    font-family: "Bree Serif";
+    margin-left: 5px;
+    text-align: center;
+}
+
+.card {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.heading {
+    margin: 0px;
+}
+
+.heading1 {
+    color: white;
+    margin: 0px;
+    font-family: "Bree Serif";
+}
+
+.paragraph1 {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.button {
+    background-color: #4B84F3;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: "Bree Serif";
+    border-width:0px;
+
+}
+
+.heading2 {
+    color: #0A1525;
+}
+
+.paragraph2 {
+    color: #dfe3eb;
+}
+
+.card3 {
+    text-align: center;
+}
+
+.image2 {
+    height: 140px;
+    border-radius: 10px;
+
+}
+
+.paragraph3 {
+    color: #dfe3eb;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.bg-container2 {
+    background-color: #dfe3eb;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.span {
+    color: red;
+}
+.card5{
+    height:30px;
+    width:500px;
+    background-color:white;
+    border-radius:5px;
+}
+.card6{
+    height:30px;
+    width:400px;
+    background-color:white;
+    border-radius:5px;
+}
+.card7{
+    height:200px;
+    width:550px;
+    background-color:white;
+    border-radius:5px;
+
+}
+.button2{
+    background-color:#4B84F3;
+    height:30px;
+    width:550px;
+    margin:2px;
+    border-radius:5px;
+    border-width: 0px;
+}

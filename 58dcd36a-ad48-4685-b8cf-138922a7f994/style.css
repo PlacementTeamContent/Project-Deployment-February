@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-container{
+    background-color: #0A1525;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    margin-top: 5px;
+    
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+.logo-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-right: 8px;
+    margin-top: 9px;
+}
+.logo-name{
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+.nav-bar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: auto;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+    /* justify-content: flex-start;
+    align-items: flex-end; */
+}
+.para{
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    margin-right: 10px;
+}
+.bar{
+    color: #FFFFFF;
+    margin-bottom: 23px;
+    margin-right: 10px;
+}
+.bg-container{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    height: 50vh;
+    
+}
+.main-heading-name{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+}
+.main-para{
+    color: #FFFFFF;
+  
+    font-size:20px;
+}
+.button{
+    background-color:#FFD700 ;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0px;
+    
+}
+.services-heading{
+    color:black;
+    font-weight:bold;
+    font-size: 30px;
+    font-family: "Bree Serif";
+    
+}
+.services-para{
+    color: gray;
+    font-weight: bold;
+    
+}
+
+.bg-services{
+    text-align: center;
+}
+.services-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.services-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 10px;
+}
+.services-img{
+    height: 20vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: left;
+}
+.head{
+    color: black;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    text-align: left;
+}
+.para{
+    color: gray;
+    margin-bottom:20px;
+    text-align: left;
+    
+}
+.Contact-Us{
+    background-color:lightgray;
+    text-align: center;
+    padding: 20px;
+    
+}
+.contact-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    color: red;
+}
+.name-para1{
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+.para4{
+    color: black;
+}
+.email-para{
+    width:40vw;
+    height: 3vh;
+    background-color: #FFFFFF;
+    border:2px solid gray;
+    border-radius:5px;
+}
+.name-para{
+    width:85vw;
+    height: 3vh;
+    background-color: #FFFFFF;
+    border:2px solid gray;
+    border-radius:5px;
+}
+.bg2{
+    margin-right: 23px;
+    
+}
+.msg-para{
+    width:85vw;
+    height: 15vh;
+    background-color: #FFFFFF;
+    border:2px solid gray;
+    border-radius:5px;
+}
+.bg-email-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button2{
+    background-color: #FFD700;
+    color: #FFFFFF;
+    padding: 10px;
+    border: 0px;
+    width: 85vw;
+    border-radius:10px;
+}
+.footer{
+    background-color:#0A1525 ;
+    padding: 20px;
+
+}
+.f-2{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+.footer1{
+    background-color:#0A1525 ;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-para{
+    color: #FFFFFF;
+    
+}
+.icons{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.bg-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+.icons-1{
+    font-size: 20px;
+    margin: 10px;
+}
+.footer-head{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+.contact-footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.f-1{
+    text-decoration: underline;
+}
+p{
+    color: #FFFFFF;
+}
+.footer11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:576px){
+    .nav-bar{
+        display: none;
+    }
+    .main-heading-name{
+        font-size: 25px;
+    }
+    .services-content{
+        flex-direction:column;
+    }
+    .services-bg{
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 60px;
+    }
+    .services-img{
+        width: 80vw;
+        height: 40vh;
+    }
+    .para{
+        text-align: left;
+    }
+    .bg-email-con{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .email-para{
+        width: 85vw;
+    }
+   .footer{
+       display: none;
+   }
+   .footer11{
+       justify-content: space-between;
+   }
+   
+}
+
+@media screen and (min-width:577px){
+    .footer1{
+        display: none;
+    }
+}

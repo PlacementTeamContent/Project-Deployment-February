@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: #0A1525;
+    padding: 20px;
+    /* width:100vw;
+    background-size:cover; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar1 {
+    background-color: #0A1525;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    display: none;
+}
+
+.p1 {
+    display: flex;
+}
+
+.p {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    padding: 5px
+}
+
+.c {
+    display: flex;
+}
+
+.nav-head {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-size: 18px
+}
+
+.img1 {
+    height: 30px;
+    padding: 10px;
+}
+
+.burger {
+    color: #FFFFFF;
+}
+
+.container-1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 50vh;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c1-head,
+.c1-para {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.c1-btn {
+    color: #FFFFFF;
+    background-color: #F6B252;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.container-2 {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.c2-head {
+    color: #0A1525;
+    font-family: "Bree Serif";
+}
+
+.c2-para {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.card {
+    background-color: #ffffff;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.image {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.card-head {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    font-size: 25px;
+}
+
+.card-para {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.container-3 {
+    background-color: #dfe3eb;
+    padding: 20px;
+    text-align: center;
+}
+
+.c3-head {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.c3-para {
+    color: #1E293B;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.input-head {
+    color: #0A1525;
+    font-family: "Bree Serif";
+}
+
+.c3-btn {
+    background-color: #F6B252;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.container-4 {
+    background-color: #0A1525;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image2 {
+    width: 100px;
+}
+
+.c4-para {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+}
+
+.icons {
+    display: flex;
+}
+
+.ic {
+    color: #dfe3eb;
+    padding: 5px;
+}
+
+.inner-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-head {
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.foot-para {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+}
+.footer{
+    color:#dfe3eb;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+@media screen and (min-width:992px){
+    .navbar {
+    background-color: #0A1525;
+    padding: 20px;
+    /* width:100vw;
+    background-size:cover; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.navbar1 {
+    background-color: #0A1525;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.inner-cards{
+    display: flex;
+    margin-top:10px;
+}
+.card {
+    background-color: #ffffff;
+    width: 30%;
+    margin-bottom: 50px;
+    padding:20px;
+}
+.inner-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.innet-footer1{
+    display: flex;
+    flex-direction: column;
+}
+.inner-foot {
+    display: flex;
+    justify-content: space-around;
+}
+.fh1,.fp1{
+    margin-left: 60px;
+}
+}

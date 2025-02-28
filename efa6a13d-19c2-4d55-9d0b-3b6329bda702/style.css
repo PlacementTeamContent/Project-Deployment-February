@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-container{
+    background-color: #1E293B;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    width: 150vw;
+    
+}
+.para{
+    color:#ffffff;
+    padding-top: 20px;
+    font-family: Bree serif;
+    
+}
+.image{
+    height: 50px;
+    padding-left:60px;
+    padding-top:20px;
+}
+.para1{
+    color:#ffffff;
+    padding-top: 20px;
+    font-family: Bree serif;
+    padding-left:160px;
+    
+}
+.para2{
+    color:#ffffff;
+    padding-top: 20px;
+    font-family: Bree serif;
+    padding-left:40px;
+    
+}
+.para3{
+    color:#ffffff;
+    padding-top: 20px;
+    font-family: Bree serif;
+    padding-left:40px;
+    
+}
+.para4{
+    color:#ffffff;
+    padding-top: 20px;
+    font-family: Bree serif;
+    padding-left:40px;
+    
+}
+.image-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    width:136vw;
+    height: 50vh;
+    margin-top:0px ;
+    align-content: center;
+    justify-content: center;
+    padding-left: 80px;
+    background-size: cover;
+    
+    
+    
+}
+.main-heading{
+    color:#ffffff;
+    font-family: Bree serif;
+    
+    
+}
+.paragraph{
+    color:#ffffff;
+    font-family: Bree serif;
+    
+    
+}
+.button{
+    background-color: #00E5BE;
+    color:#ffffff;
+    height: 30px;
+    width: 100px;
+    border-color:#00E5BE;
+    border-radius: 3px;
+    
+}
+.heading{
+    text-align: center;
+    font-family: Bree serif;
+    color:#0A1220;
+    
+   
+}
+.paragraph1{
+    text-align: center;
+    font-family: Bree serif;
+    color:#1E293B;
+    
+}
+.Servise-container{
+    width: 150vw;
+}
+.container1{
+    height: 40vh;
+    width:60vw;
+    
+}
+.image2{
+    height: 150px;
+}
+.heading1{
+    font-size:20px;
+    
+    font-family: Bree serif;
+    color:#0A1220;
+    
+    
+    
+}
+.para6{
+    font-size: 20px;
+    font-family: Bree serif;
+    color:#1E293B;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    
+}
+.contact-container{
+    background-color: #dfe3eb;
+    height:85vh;
+    width:150vw;
+}
+.header2{
+    color:#1E293B;
+    font-family: Bree serif;
+    text-align: center;
+    padding-top:60px;
+}
+.para7{
+    text-align: center;
+    font-family: Bree serif;
+    color:#0A1220;
+}
+.p8{
+    padding-left:160px;
+    font-family: Bree serif;
+    color:#0A1220;
+}
+.input{
+    padding-left:400px;
+    margin-left:160px;
+    border-color:#dfe3eb;
+    border-radius: 5px;
+}
+.input1{
+    margin-left:160px;
+    padding-left:100px;
+}
+.input2{
+    margin-left: 160px;
+    padding:60px;
+    padding-left:400px;
+}
+.button1{
+    margin-left:160px;
+    margin-top:20px;
+    width:100vw;
+    
+    text-align: center;
+    background-color: #00E5BE;
+    border-color:#00E5BE;
+    border-radius: 3px;
+    color:#ffffff;
+    
+}
+.footer-container{
+    background-color: #0A1220;
+    height: 50vh;
+    width: 150vw;
+    
+    display: flex;
+    flex-direction: row;
+}
+.card1{
+    color:#ffffff;
+    font-family: bree serif;
+     margin: 20px;
+    padding-left:40px;
+    
+    
+    
+}
+.image6{
+    height: 70px;
+    
+}
+.p2{
+    color: #dfe3eb;
+    font-family: bree serif;
+}
+.fa{
+    color:#ffffff;
+    font-family: bree serif;
+    padding:10px;
+    margin: 10px;
+    color: #dfe3eb;
+}
+.card2{
+    color:#ffffff;
+    font-family: bree serif;
+    margin: 20px;
+    padding-left:40px;
+    
+}
+.p1{
+    color: #dfe3eb;
+    font-family: bree serif;
+}

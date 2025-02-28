@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-bar{
+    background-color: #0A1525;
+    height: 70px;
+    width: 100%;
+}
+.logo{
+    height: 50px;
+    padding: 10px;
+}
+.logos{
+    display: flex;
+}
+.logo-name{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+.names{
+    color:#FFFFFF; 
+    font-weight: bold;
+    margin: 10px;
+    font-family: "Bree Serif";
+}
+.aboutus{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sec-1{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding: 20px;
+}
+.matter{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+    
+}
+.mainheading{
+    color: #FFFFFF; 
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Bree Serif";
+}
+.sec-1para{
+    color: #FFFFFF; 
+    font-size: 20px;
+    
+}
+.sec-1button{
+    background-color: #FFD700;
+    color: #FFFFFF; 
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+    
+}
+.sec-2{
+    background-color: #FFFFFF;
+    height: 70vh;
+    width: 100%;
+}
+.image{
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    
+}
+.box{
+    padding: 40px;
+     font-family: "Bree Serif";
+     
+}
+.center{
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+.fotter{
+    background-color: #1E293B;
+    height: 50vh;
+    width: 100%;
+    
+}
+.symbols{
+    color: #FFFFFF;
+    height: 50px;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    padding: 90px;
+    margin: 20px;
+    justify-content: space-between;
+    
+    
+}
+.para{
+    color: #FFFFFF;
+    
+}
+.boldpara{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.lopalalogo{
+    height: 100px;
+}
+.bottom-line{
+    color: #FFFFFF;
+    padding: 60px;
+}
+.underline{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width:766px){
+    
+
+}
+.paina{
+    text-align: center;
+    padding: 80px;
+}
+.sec-3{
+    background-color: grey;
+    height: 80vh;
+    width: 100%;
+}
+.red {
+    color: red;
+}
+.Name{
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+}

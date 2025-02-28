@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.heading{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+height: 500px;
+width:500px;
+text-align:left;
+    }
+.img-url{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin:10px;
+}
+.para{
+    text-align: center;
+   }
+ .para1{
+     margin:25px;
+ }
+ .contact-section{
+     background-color: #dfe3eb;
+ }

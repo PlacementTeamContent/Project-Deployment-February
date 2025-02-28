@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.top-part {
+    background-color: #0A1525;
+    height: 12vh;
+}
+
+.icon {
+    height: 60px;
+    padding: 12px;
+    margin-left: 70px;
+}
+
+.second-part {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+.mini-part-in-second-part {
+    padding: 20px;
+    padding-left: 60px;
+
+
+}
+
+.h1-1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 120px;
+
+}
+
+.p1-1 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Bree Serif";
+}
+
+.b1-1 {
+    background-color: #4B9EFF;
+    border-width: 0px;
+    color: #ffffff;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.third-part {
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.h2-1 {
+    color: #0A1525;
+    font-size: 44px;
+}
+
+.p2-1 {
+    font-family: "Bree Serif";
+}
+
+.mini-part {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.mini-img-1 {
+    height: 240px;
+    border-radius: 12px;
+}
+
+.h3-1 {
+    color: #0A1525;
+}
+
+.p3-1 {
+    margin-left: 240px;
+    margin-right: 240px;
+}

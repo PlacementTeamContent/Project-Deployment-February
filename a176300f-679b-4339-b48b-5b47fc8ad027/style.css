@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.img{
+    height: 50px;
+    
+}
+.nxt {
+    color: white;
+    text-align: center;
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    height: 400px;
+    width: 100vh;
+    font-family: "Sans-Serif";
+
+}
+
+.btn {
+    color: white;
+    background-color: #6C63FF;
+    border-radius: 5px;
+}
+
+.content {
+    text-align: center;
+
+}
+.cyber{
+    text-align: center;
+}
+.ai{
+    text-align: center;
+}

@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #1E293B;
+    padding: 20px;
+    width: 100%;
+}
+
+.bg-container {
+    width: 100vw;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.bars {
+    display: flex;
+    color: #ffffff;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-bars {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.logosec {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.heading {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.background {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.head {
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.button {
+    background-color: #FFD700;
+    color: #ffffff;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sevices {
+    padding: 10px;
+}
+
+.service1 {
+    text-align: center;
+}
+
+.headu {
+    color: #0A1525;
+    font-family: "Bree Serif";
+}
+
+.para1 {
+    opacity: 0.6;
+    font-family: "Bree Serif";
+}
+
+.headuu {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contact-head {
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.contact-para {
+    opacity: 0.6;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.contact-section {
+    padding: 20px;
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.input {
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.inputhead {
+    font-size: 20px;
+    font-family: "Bree Serif";
+}
+
+span {
+    color: red;
+}
+
+.inputmessage {
+    width: 80%;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.button1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.butt {
+    width: 85%;
+    background-color: #FFD700;
+    border-width: 0px;
+    height: 30px;
+    color: #ffffff;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.inputsec {
+    text-align: center;
+}
+
+.footer {
+    background-color: #0A1525;
+    padding: 100px 20px 100px 20px;
+    width: 100%;
+}
+
+.paras {
+    color: #ffffff;
+}
+
+.bi {
+    color: #ffffff;
+}
+
+.awesome {
+    gap: 20px;
+    font-size: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.navpara {
+    display: flex;
+    color: #ffffff;
+}
+
+.navparas {
+    padding: 10px;
+}
+
+@media screen and (min-width:992px) {
+    .servicelu {
+        display: flex;
+    }
+
+    .img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+
+    .navpara {
+        display: flex;
+        color: #ffffff;
+    }
+}

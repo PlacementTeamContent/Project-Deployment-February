@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height:100vh;
+    background-size: cover;
+    color:white;
+    padding:50px;
+}
+.button{
+    background-color: #6C63FF;
+    border-radius: 10px;
+    font-family: Bree Serif;
+    color:white;
+}
+.heading{
+    text-align: center;
+}

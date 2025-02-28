@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.NavBar{
+    background-color: #0A1525;
+    height: 50px;
+    width: 100vw;
+    
+}
+.bg_image{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 200px;
+    width: 100vw;
+    color: white;
+    
+}
+.button{
+    background-color: #FFD700;
+    color: white;
+}
+.aligning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: #0A1525;
+    height: 300px;
+    color: white;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.alignment{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Contact_us{
+    background-color: #1E293B;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.btn_name{
+    background-color: white;
+    width: 80vw;
+    height: 30px;
+    margin: 10px;
+}
+.btn_email{
+    background-color: white;
+    width: 30vw;
+    height: 30px;
+    margin: 10px;
+}
+.btn_phone{
+    background-color: white;
+    width: 30vw;
+    height: 30px;
+    margin: 10px;
+}
+.btn_message{
+    background-color: white;
+    width: 80vw;
+    height: 160px;
+    margin: 10px;
+}
+.align_btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button2{
+    background-color: #FFD700;
+    color: white;
+    width: 80vw;
+    height: 40px;
+}
+@media screen and (max-width:767px) {
+    .images{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+    
+}
+@media screen and (max-width:767px) {
+    .btn_email{
+    background-color: white;
+    width: 80vw;
+    height: 30px;
+    margin: 10px;
+}
+.btn_phone{
+    background-color: white;
+    width: 80vw;
+    height: 30px;
+    margin: 10px;
+}
+    .align_btn{
+    display: flex;
+    flex-direction: column;
+}
+    
+}
+.align_foot{
+    display:flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:767px) {
+    .alignment{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+}
+}

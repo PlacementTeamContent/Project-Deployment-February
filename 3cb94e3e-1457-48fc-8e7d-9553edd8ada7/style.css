@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "Roboto";
+    color: #00000;
+}
+.nav{
+    background-color: #0A1525;
+    height: 100px;
+    padding: 0.1px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.logo-cont{
+   display: flex; 
+   margin-top: 20px;
+   margin-left: 35px;
+   
+}
+.f-cu-h{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.f-m-menu{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.links-cont{
+    display: flex;
+}
+.link{
+    margin-right: 20px;
+    margin-top: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.toggle{
+    margin-right: 50px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.fv-head{
+    font-family: "Bree Serif";
+}
+.front-view{
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    height: 35vh;
+    padding: 0.1px;
+    color: #FFFFFF;
+    background-size: cover;
+}
+.fv-cont{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    max-width:300px;
+    justify-content: center;
+    margin:0px 20px 0px 150px;
+}
+.fv-contact{
+    background-color: #4B9EFF;
+    border: 0px solid;
+    border-radius: 5px;
+    height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100px;
+}
+.content-starter{
+    margin: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.cs-each-card{
+    text-align: left;
+}
+.cs-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+.cs-all-text{
+    width: 200px;
+    padding-left: 5px;
+}
+.cs-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.f-cu-pl{
+    color: #dfe3eb;
+    text-decoration: none;
+}
+.f-cu-num{
+    color: #dfe3eb;
+    text-decoration: none;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact{
+    background-color: #dfe3eb;
+    padding-top: 30px;
+    padding: 0.1px;
+}
+.cu-starter{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title-p{
+    font-weight: bold;
+}
+span{
+    color:red;
+}
+input{
+    border-color: #dfe3eb;
+    border-radius: 5px;
+    border-style: solid;
+}
+.cu-inputs{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    grid-template-columns: repeat(100px,2);
+    grid-template-areas: 
+    "name name"
+    "mail num"
+    "msg msg"
+    "but but";
+}
+.name{
+    grid-area: name;
+    
+}
+.rights{
+    color: #dfe3eb;
+}
+.mnu{
+    color: #dfe3eb;
+    
+}
+.f-m-au{
+  color: #dfe3eb;
+  text-decoration: none;
+}
+.f-m-au{
+    color: #dfe3eb;
+    text-decoration: none;
+}
+.f-m-os{
+    color: #dfe3eb;
+    text-decoration: none;
+}
+.name-in{
+    width: 100%;
+}
+.mail{
+    grid-area: mail;
+}
+.mail-in{
+    width: 90%;
+}
+.num{
+    grid-area: num;
+}
+.num-in{
+    width: 99%;
+}
+.bi{
+    margin-right: 3px;
+}
+.msg{
+    grid-area: msg;
+}
+.gpt{
+    text-decoration: underline;
+    color: #dfe3eb;
+}
+.msg-in{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.but{
+    grid-area: but;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: #4B9EFF;
+    height: 35px;
+    color: #FFFFFF;
+}
+.all{
+    color: #dfe3eb;
+    display: grid;
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    grid-template-columns: repeat(1fr,2);
+    grid-template-areas: 
+    "sm contact-us mnu"
+    ;
+}
+.footer{
+    background-color: #0A1525;
+    padding-bottom: 60px;
+}
+.sm{
+    grid-area:sm ;
+    max-width: 200px;
+    
+}
+.contact-us{
+    grid-area: contact-us;
+}
+.rights{
+    margin-left: 50px;
+    width: 100%;
+    
+}
+.mnu{
+    grid-area: mnu;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+    
+}
+.content-starter{
+
+    padding-bottom: 0px;
+}
+.cs-desc{
+    margin-bottom: 40px;
+}
+@media screen and (max-width:767px){
+    .link{
+        display: none;
+    }
+    .front-view{
+        height: 60vh;
+    }
+    .fv-cont{
+        margin:0px 20px 0px 110px;
+        max-width: 350px;
+    }
+    .content-starter{
+
+        padding-bottom: 20px;
+    }
+    .cs-cards{
+        display: flex;
+        flex-direction:column ;
+    }
+    .cs-img{
+        width: 100%;
+        height: 35vh;
+        border-radius: 20px;
+    }
+    .cs-all-text{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .cs-head{
+        margin-top: 40px;
+    }
+    .cs-each-card{
+        margin-top: 30px;
+    }
+    .cu-inputs{
+        grid-template-areas: 
+        "name name"
+        "mail mail"
+        "num num"
+        "msg msg"
+        "but but";
+    }
+    .mail-in{
+        width: 100%;
+    }
+    .sm{
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+    .all{
+        grid-template-areas: 
+        "sm sm"
+        "contact-us mnu"
+        ;    
+    }
+}

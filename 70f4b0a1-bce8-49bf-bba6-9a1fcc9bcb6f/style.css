@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+
+.msg {
+    height: 15vh;
+    width: 50vw;
+
+}
+
+.mad {
+    background-color: #dfe3eb;
+}
+
+.simba {
+    background-color: #0a1525;
+    height: 100vh;
+}
+
+.scar {
+    height: 50px;
+    width: 50px;
+
+    margin-top: 20px;
+}
+
+.logo {
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+    
+.msg {
+        height: 15vh;
+        width: 50vw;
+
+    }
+
+    .mad {
+        background-color: #dfe3eb;
+    }
+
+    .simba {
+        background-color: #0a1525;
+        height: 100vh;
+    }
+
+    .scar {
+        height: 50px;
+        width: 50px;
+
+        margin-top: 20px;
+    }
+
+    .logo {
+        color: white;
+    }
+
+
+
+    .dragon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}

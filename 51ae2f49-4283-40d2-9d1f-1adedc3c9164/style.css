@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-color:#0A1525 ;
+    height:70px;
+    display:flex;
+}
+.img{
+    height:50px;
+ }
+ .container{
+     background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg ") ;
+     height:500px ;
+     background-size:cover;
+ }
+ .heading1{
+     color:#ffffff;
+     font-family: "Bree Serif";
+ }
+ /* .cent{
+     text-align: center;
+  }*/
+ .para{
+     color:#ffffff;
+     font-family: "Bree Serif";
+ }
+ .btn{
+     background-color: #FFD700;
+     border-color:#FFD700;
+     color:#ffffff;
+     height:38px;
+     border-radius:5px;
+ }
+ .card{
+     text-align:center;
+ }
+ .card1{
+     background-color:gray;
+ }
+ .para9{
+     font-family: "Bree Serif";
+     color:#ffffff;
+ }
+ .pp{
+     text-align: center;
+ }
+ .heading2{
+     font-family: "Bree Serif";
+}
+.fa {
+    color:white;
+    display:flex;
+    align-self:end ;
+}
+.sp1{
+    text-decoration:underline ;
+}
+.zz{
+    display:flex;
+}
+
+.sp{
+    color:orange;
+}
+.heading3{
+    font-family:"Bree Serif" ;
+    font-size:16px;
+}
+.par{
+    color:white;
+}
+.oo{
+    display:flex;
+    color:#ffffff;
+}
+.hh{
+    font-size:15px;
+    display:flex;
+    color:#ffffff;
+    font-family:"Bree Serif" ;
+}
+.dd{
+    background-color: #ffffff;
+    height:40px;
+    width:260px;
+    border-radius:7px;
+    text-align: center;
+}
+.dd1{
+    background-color: #ffffff;
+    height:170px;
+    width:260px;
+    border-radius:7px;
+    text-align: center;
+}
+.footer{
+    background-color:#0A1525 ;
+}
+.img3{
+    height:50px;
+}
+.img1{
+    height:200px;
+    width:260px;
+    border-radius:7px;
+}
+.btn1{
+    background-color:#FFD700 ;
+    border-color:#FFD700 ;
+    color:#ffffff;
+    width:250px;
+    border-radius:5px;
+    text-align: center;
+}
+
+.heading{
+   font-family: "Bree Serif";
+    font-size:20px ;
+    color:#ffffff;
+}
+
+@media (orientation:landscape),(min-heigth:768px){
+    .sad{
+        display:flex;
+        
+    }
+}

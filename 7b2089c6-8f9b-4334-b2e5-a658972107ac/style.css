@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.secondsection {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-size: cover;
+    height: 40vh;
+    padding: 5px;
+}
+
+.heading {
+    color: white;
+    font-weight: Bold;
+    font-size: 28px;
+    font-family: "Bree Serif";
+}
+
+.para {
+    color: white;
+    font-weight: Normal;
+    font-family: "Bree Serif";
+    font-size: 22px;
+}
+
+.btn1 {
+    color: white;
+    background-color: #00E5BE;
+    height: 2vh;
+    width: 10vw;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.thirdsection {
+    background-color: white;
+    height: 70vh;
+    padding: 5px;
+    text-align: center;
+}
+
+.servicesheading {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Bree Serif";
+    color: #1E292B;
+}
+
+.servicepara {
+    color: black;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.imagessection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.eachone {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.img {
+    height: 7vh;
+    width: 12vw;
+    border-radius: 3px;
+}
+
+.head {
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: "Bree Serif";
+}
+
+.paragraph {
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: "Bree Serif";
+}
+
+.contactussection {
+    background-color: #dfe3eb;
+    height: 80vh;
+    padding: 10px;
+}
+
+.contactusheading {
+    color: black;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    font-size: 24px;
+}
+
+.contactuspara {
+    color: white;
+    font-weight: normal;
+    font-family: "Bree Serif";
+    font-size: 21px;
+}
+
+/* .detailssection{
+    display:flex;
+    font-family:"Roboto";
+} */
+.eachdetails {
+    display: flex;
+}
+
+.detailshead {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: "Bree Serif";
+}
+
+.keyicon {
+    color: red;
+}
+
+.empty1 {
+    background-color: white;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 50vw;
+    height: 2vh;
+}
+
+.bothdetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.empty2 {
+    background-color: white;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 30vw;
+    height: 2vh;
+}
+
+.empty3 {
+    background-color: white;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 30vw;
+    height: 7vh;
+}
+
+.clrbtn {
+    color: white;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    font-size: 18px;
+    height: 2vh;
+    width: 30vw;
+    background-color: #00E5BE;
+    text-align: center;
+}

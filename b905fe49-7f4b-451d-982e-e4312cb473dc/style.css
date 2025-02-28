@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.NxtSpark_page_container{
+    font-family:Bree Serif;
+}
+.phone_page {
+    background-color: #0A1525;
+    display: flex;
+    color: #FFFFFF;
+    width: 162%;
+}
+
+.nav_image {
+    width: 60px;
+}
+
+.logo_heading {
+    padding-top: 20px;
+}
+
+.fa {
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+.Desktop_page {
+    background-color: #0A1525;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.nav_bar {
+    padding-top: 20px;
+    padding:20px;
+}
+.text-nav{
+    display: flex;
+    align-content: flex-end;
+}
+@media screen and (min-width:768px) {
+    .phone_page {
+        display: none;
+    }
+    .Desktop_page{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:768px) {
+    .Desktop_page {
+        display: none;
+    }
+}
+
+.bg_container {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    padding:20px;
+    color: white;
+}
+
+.content_of_the_image {
+    text-align: center;
+    padding-top: 250px;
+    font-family: Bree Serif;
+}
+@media screen and (min-width:768px){
+    .content_of_the_image {
+    padding-top: 250px;
+    font-family: Bree Serif;
+}
+}
+.page_button {
+    background-color: #FF7A2E;
+    color: white;
+    border: 1px solid #dfe3eb;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Our_service_page {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+
+.image2{
+    height:250px;
+}
+.image3{
+    height:250px;
+}
+.service_cards{
+    margin:10px;
+}
+.cards_image {
+    width: 250px;
+    border-radius: 10px;
+}
+@media screen and (min-width:768px){
+    .service_cards_container{
+        display:flex;
+    }
+}
+.contact_container{
+    background-color: #dfe3eb;
+    padding:5px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    margin: 10px;
+    padding:5px;
+}
+.star{
+    color:red!important;
+}
+.message{
+    height: 120px;
+}
+.page_buttons{
+    background-color: #FF7A2E;
+    color: white;
+    border: 1px solid #dfe3eb;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    margin:15px;
+}
+@media screen and (min-width:768px){
+    .email{
+        width:25%;
+    }
+    .phone_no{
+        width:25%; 
+    }
+}
+.footer_container{
+    background-color:#1E293B;
+    color:white;
+    padding:15px;
+}
+i{
+    padding: 10px;
+}
+.footer_menu_cards{
+    display:flex;
+}
+.menu{
+  padding-left:200px;
+}
+@media screen and (min-width:768px){
+    .footer_container{
+        display: flex;
+    }
+    .contact_cards{
+        padding :30px;
+    }
+    .menu{
+      padding-left:200px;
+      padding:30px;
+}
+}
+.footer_para{
+    background-color:#1E293B;
+    color:white;
+    padding:15px;
+    margin:0px;
+}
+.footer{
+    text-decoration: underline;
+}
+.footer_logos{
+    border:3px solid #dfe3eb;
+    border-radius: 200px;margin: 5px;
+}

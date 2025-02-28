@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.box1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: "Bree Serif";
+}
+
+.Innovative {
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+
+.Contact {
+    color: white;
+    background-color: #00e5be;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+}
+
+.Our {
+    text-align: center;
+    font-family: "Bree Serif";
+
+}
+
+.top-notch {
+    color: grey;
+}
+
+.card {
+    display: flex;
+    font-family: "Bree Serif";
+
+}
+
+.para {
+    color: grey;
+}
+
+.img1 {
+    height: 180px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.Contact-us {
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfe3eb;
+}
+
+.name {
+    padding-right: 340px;
+}
+
+.name-box {
+    width: 400px;
+    background-color: white;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: #dfe3eb;
+}
+
+.star {
+    color: red;
+}
+
+.e-p {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.email-box {
+    width: 150px;
+    background-color: white;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: #dfe3eb;
+    padding-right: 25px;
+}
+
+.Phone {
+    width: 150px;
+    background-color: white;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: #dfe3eb;
+}
+
+.message-box {
+    width: 400px;
+    background-color: white;
+    height: 150px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: #dfe3eb;
+    padding-right: 25px;
+}
+
+.message {
+    padding-right: 280px;
+}
+.foot{
+    background-color: #1e293b;
+    background-size:cover;
+    height: 15vh;
+    display:flex;
+}
+.eye{
+    height:50px;
+    
+}

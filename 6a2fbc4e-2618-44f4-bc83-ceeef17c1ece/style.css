@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Bree serif";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #0a1525;
+    color: white;
+    padding: 20px;
+    width: 108vw;
+}
+.hello{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lii {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Bree serif";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #0a1525;
+    color: white;
+}
+
+.main-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-1 {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.h1-1 {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.p1-1 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+.page-2{
+    width: 100vw;
+}
+
+
+.cards {
+    margin: 50px;
+}
+
+.card-1 {
+    padding: 20px;
+}
+
+.card-2 {
+    padding: 20px;
+}
+
+.card-3 {
+    padding: 20px;
+}
+
+.img-1 {
+    height: 200px;
+    border-radius: 30px;
+}
+
+.img-2 {
+    height: 200px;
+    border-radius: 30px;
+}
+
+.img-3 {
+    height: 200px;
+    border-radius: 30px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.butto {
+    width: 90vw;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.page-3 {
+    justify-content: center;
+    align-content: center;
+    background-color: #dfe3eb;
+    width: 100vw;
+    padding: 20px;
+}
+
+.empty {
+    height: 20px;
+    width: 90vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.empty-spec {
+    height: 20px;
+    width: 40vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.empty-new {
+    height: 100px;
+    width: 90vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.contact {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.flexed-2 {
+    padding-right: 40px;
+}
+
+.page-4 {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #FFFFFF;
+    background-color: #1E293B;
+    padding: 70px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.pado {
+    padding: 30px;
+}
+
+.flexed-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width:992px) {
+    
+    .cards {
+        justify-content: center;
+    align-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .lii {
+        display: none;
+    }
+
+    .flexed {justify-content: center;
+    align-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .page-4 {
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: #1E293B;
+        color: #FFFFFF;
+    }
+}

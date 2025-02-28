@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-color: #0A1426;
+    display: flex;
+}
+
+.nav-img {
+    height: 40px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.nav-head {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-elements-style {
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.nav-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.landing-page {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size: cover;
+    height: 40vh;
+}
+
+.landing-page-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.head {
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: 100;
+    margin: 20px;
+}
+
+.descreption {
+    color: white;
+    font-size: 15px;
+    font-family: "Bree Serif";
+    font-weight: 100;
+    margin: 20px;
+}
+
+.btn-style {
+    background-color: #4A90E3;
+    color: white;
+    border-style: solid;
+    border-color: #4A90E3;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 98px;
+    height: 30px;
+    margin: 20px;
+}
+
+.Services-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Services-head {
+    color: #1E293B;
+    font-weight: bold;
+}
+
+.Services-para {
+    text-align: center;
+    margin: 10px;
+}
+
+.img-style {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.img-head {
+    color: #1E293B;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.img-para {
+    font-size: 13px;
+    margin: 8px;
+}
+
+.Services-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact-us {
+    background-color: #e0dfdc;
+    height: 45vh;
+}
+
+.Contact-head {
+    color: #1E293B;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Contact-para {
+    text-align: center;
+}
+
+.span-style {
+    color: red;
+}
+
+.Contact-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.Contact-style-1 {
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+}
+
+.Contact-style-2 {
+    height: 80px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer-content {
+    background-color: #0A1426;
+    width: 100%;
+}
+
+.footer-img {
+    height: 50px;
+    width: 60px;
+    margin: 20px;
+}
+
+.footer-para {
+    color: white;
+    font-size: 10px;
+    margin: 5px;
+}
+.footer-icons{
+    color: white;
+    margin: 10px;
+}
+.footer-head{
+    color: white;
+    font-size: 20px;
+}
+.footer-lay{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}

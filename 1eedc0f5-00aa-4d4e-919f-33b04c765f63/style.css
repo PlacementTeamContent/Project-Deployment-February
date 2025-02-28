@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.section-1{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 70vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Bree Serif;
+
+}
+@media (min-width:769px){
+.NxtCrowd{
+    margin: 10px;
+}
+.navbar{
+    background-color: #0A1525;
+    color: #ffffff;
+    height: 60px;
+    padding: 30px;
+    font-family: Bree Serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+.NavEle{
+    margin: 10px;
+}
+.logo{
+    display: flex;
+}
+.nav-elements{
+    display: flex;
+    padding: 10px;
+}
+.nav-img{
+    height: 50px;
+    width: 50px;
+}
+
+.callUs-button{
+    background-color: #ffd700;
+    color: #ffffff;
+    padding: 10px;
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 15px;
+    font-family: Bree Serif;
+}
+
+.section-2{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+.sec2-img{
+    height: 80%;
+    width: 100%;
+}
+.section-2-head{
+    text-align: center;
+}
+.section-2-body{
+    display: flex;
+    padding: 10px;
+    
+}
+.card1{
+    margin: 10px;
+    
+}
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    
+}
+.section-3-head{
+    text-align: center;
+}
+
+.mesbo{
+    width: 80vw;
+    border-radius: 5px;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.email-box{
+    height: 15px;
+    border-style:solid;
+    width: 100%;
+}
+.mess-box{
+    height: 15px;
+    border-style:solid;
+}
+.comments{
+    height: 100px;
+}
+.btn-3{
+    width: 70vw;
+    margin: 25px;
+}
+.footer-Bg{
+    background-color: #0A1525;
+    color: #ffffff;
+    padding: 20px;
+    
+}
+.BG-1{
+    display: flex;
+    justify-content: space-around;
+}
+span{
+    text-decoration: underline;
+}
+}
+
+@media (max-width:768px){
+    .NxtCrowd{
+    margin: 10px;
+}
+.navbar{
+    background-color: #0A1525;
+    color: #ffffff;
+    height: 60px;
+    padding: 30px;
+    font-family: Bree Serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+.NavEle{
+    display: none;
+}
+.logo{
+    display: flex;
+}
+.nav-elements{
+  padding: 10px;
+}
+.nav-img{
+    height: 50px;
+    width: 50px;
+}
+
+.callUs-button{
+    background-color: #ffd700;
+    color: #ffffff;
+    padding: 10px;
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 15px;
+    font-family: Bree Serif;
+}
+
+.section-2{
+    background-color: #ffffff;
+    
+}
+.sec2-img{
+    height: 300px;
+    width: 100%;
+}
+
+.section-2-head{
+    text-align: center;
+    font-size: 25px;
+}
+.section-2-body{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    margin: 10px;
+    
+}
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    
+}
+.section-3-head{
+    text-align: center;
+}
+
+.mesbo{
+    width: 80vw;
+    border-radius: 5px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.LA{
+    width: 80vw;
+    border-style: solid;
+}
+.comments{
+    height: 100px;
+}
+.btn-3{
+    width: 70vw;
+    margin: 25px;
+}
+.footer-Bg{
+    background-color: #0A1525;
+    color: #ffffff;
+    padding: 20px;
+    
+}
+.BG-1{
+    display: flex;
+    flex-direction: column;
+   
+}
+span{
+    text-decoration: underline;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-around;
+}
+.profile{
+    align-self: flex-start;
+    padding: 30px;
+}
+.icon{
+    margin: 20px;
+}
+}

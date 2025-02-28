@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg1{
+    background-image:url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size:cover;
+    height:70vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:start;
+    padding-left:30px;
+    
+}
+.head1{
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    
+}
+.para{
+    color:#FFFFFF;
+    font-family:"Roboto";
+    
+}
+.btn{
+    color:#FFFFFF;
+    background-color:#8B5CF6;
+    border-color:#8B5CF6;
+    border-radius:6px;
+    border-style:solid;
+    padding:6px;
+}
+.bg2{
+    text-align:center;
+}
+.head2{
+    color:#0A1525;
+    font-family:"Bree Serif";
+}
+.para1{
+    color:#0A1525;
+    font-family:"Roboto";
+    padding:10px;
+}
+.img{
+    width:70vw;
+    height:30vh;
+    border-radius:7px;
+    justify-self:center;
+}
+.para2{
+    color:#0A1525;
+    font-family:"Bree Serif";
+    font-size:15px;
+    font-weight:40px;
+    text-align:start;
+    padding-left:55px;
+}
+.para3{
+    color:#0A1525;
+    font-family:"Roboto";
+    text-align:start;
+    padding-left:55px;
+    
+}
+.bg4{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.bg5{
+    background-color:#dfe3eb;
+    background-size:cover;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.head3{
+    color:#0A1525;
+    font-family:"Bree Serif";
+}
+.para4{
+    color:#0A1525;
+    font-family:"Roboto";
+    
+    
+}
+.para5{
+    color:#0A1525;
+    font-size:15px;
+    font-weight:40px;
+    
+    
+}
+#name{
+    background-color:#FFFFFF;
+    border-color:#dfe3eb;
+    border-style:solid;
+    border-radius:5px;
+    width:70vw;
+    border-width:5px;
+    
+}
+#name1{
+    background-color:#FFFFFF;
+    border-color:#dfe3eb;
+    border-style:solid;
+    border-radius:5px;
+    width:70vw;
+}
+#name2{
+    background-color:#FFFFFF;
+    border-color:#dfe3eb;
+    border-style:solid;
+    border-radius:5px;
+    width:70vw;
+}#name3{
+    background-color:#FFFFFF;
+    border-color:#dfe3eb;
+    border-style:solid;
+    border-radius:5px;
+    width:70vw;
+    height:20vh;
+}
+.spam{
+    color:red;
+}
+.btn2{
+    background-color:#8B5CF6;
+    border-radius:6px;
+    color:#FFFFFF;
+    font-family:"Roboto";
+    border-style:solid;
+    border-color:#8B5CF6;
+}
+.bg8{
+    background-color:#1E293B;
+    background-size:cover;
+    height:60vh;
+    padding-left:30px;
+}
+.img5{
+    height:10vh;
+    width:20vw;
+}
+.para6{
+    color:#FFFFFF;
+    font-family:"Roboto";
+}
+.spam1{
+    text-decoration:underline;
+    color:#FFFFFF;
+    font-family:"Roboto";
+}
+.bg6{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+.bg7{
+    color:#FFFFFF;
+    font-family:"Roboto";
+    display:flex;
+    flex-direction:column;
+}
+.facebook{
+    color:#FFFFFF;
+}
+@media screen and (max-width:"768px"){
+    .head1{
+        font-size:80px;
+    }
+    .bg4{
+        display:flex;
+        flex-direction:row;
+    }
+    .bg3{
+        display:flex;
+        flex-direction:column;
+    }
+    .bg10{
+        display:flex;
+        flex-direction:row;
+    }
+    .bg11{
+        display:flex;
+        flex-direction:column;
+    }
+    .bg8{
+        display:flex;
+        flex-direction:row;
+    }
+    .bg12{
+        display:flex;
+        flex-direction:column;
+    }
+    #name1{
+        width:40px;
+    }
+    #name2{
+        width:40px;
+    }
+    .para{
+        font:20px;
+    }
+    .btn{
+        padding:9px;
+    }
+}

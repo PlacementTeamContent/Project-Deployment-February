@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+     font-family: "Bree Serif";
+}
+.header{
+    background-color:#0A1426 ;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+   justify-content: Space-between;  
+   align-items: center;
+   color: #ffffff;
+   font-family: "Roboto";
+}
+.h-1{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between; 
+    
+}
+.links{
+    margin-left: 10px;
+}
+.h-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: Space-between;
+}
+.h-head{
+    font-size: 20px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.home{
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+   background-size: cover;
+    height: 60vh;
+    width: 100vw;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dis{
+    padding: 30px;
+}
+.ho-head{
+    color: #ffffff;
+    font-size: 40px;
+    
+}
+.ho-para{
+    color: #e0dfdc;
+    font-size: 15px;
+    text-align: center;
+}
+.c-but{
+    background-color: #4A90E2;
+    padding: 5px;
+    border-radius: 8px;
+    color: #ffffff;
+    border-width: 0px;
+    font-weight: 600;
+}
+.our-section{
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.s-head{
+    font-size: 30px;
+    color: #1e293B;
+    
+}
+.box-1{
+    padding: 30px;
+}
+.s-para{
+    font-size: 20px;
+    color: black;
+}
+.img-s{
+    height: 200px;
+    width: 350px;
+    border-radius: 8px;
+}
+.box-h{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    
+}
+.box-p{
+   color: black;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+@media (min-width:0px),(max-width:768px){
+    .none{
+        display: none;
+    }
+}
+
+@media (min-width:769px){
+    .boxes{
+        display: flex;
+        flex-direction: row;
+        justify-content: Space-between;
+        width: 100vw;
+        padding: 10px;
+        
+        
+    }
+    .box-1{
+        flex-shrink: 2;
+    }
+    .c-head{
+    
+     text-align: center;
+     font-size: 50px;
+    color: #1e293B;
+    font-weight: 900;
+    
+}
+    .s-head{
+    font-size: 40px;
+    color: #1e293B;
+    
+}
+    .c-but{
+    background-color: #4A90E2;
+    padding: 15px;
+    border-radius: 8px;
+    color: #ffffff;
+    border-width: 0px;
+    font-weight: 600;
+    margin-right:  auto;
+
+}
+
+    .ho-head{
+    color: #ffffff;
+    font-size: 50px;
+    
+}
+.ho-para{
+    color: #e0dfdc;
+    font-size: 20px;
+    text-align: center;
+}
+    .header{
+        
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        font-family: "Bree Serif";
+    }
+    .none{
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+    .c{
+        display: none;
+    }
+    .wip{
+        width: 30px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    
+   
+    
+}
+.contact-section{
+   
+    background-color:#e0dfdc ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
+
+
+.c-head{
+    
+     text-align: center;
+     font-size: 30px;
+    color: #1e293B;
+    font-weight: 900;
+    
+}
+.c-para{
+     text-align: center;
+    font-size: 15px;
+    color: #1E293B;
+    
+}
+.i-h{
+    color: black;
+    font-size:15px;
+    font-weight: 700;
+}
+.in{
+    height: 30px;
+    width: 90%;
+    border-width: 0px;
+}
+.iin{
+    height: 200px;
+    width: 90%;
+     border-width: 0px;
+    
+}
+.l-but{
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #4A90E2;
+    border-width: 0px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.logo-2{
+    height: 80px;
+    width: 80px;
+    
+}
+.footer{
+    background-color: #0A1426;
+    padding: 20px;
+    color: #e0dfdc;
+}
+.fo-para{
+    color: #e0dfdc;
+    font-size: 18px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row ;
+  
+    color: #ffffff;
+    font-size: 30px;
+}
+.f-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: Space-between;
+}
+.f-2{
+    display: flex;
+    flex-direction: column;
+}
+.f-3{
+    display: flex;
+    flex-direction: column;
+}
+.c-r{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+.head-in-f{
+    color: white;
+    font-weight: 700;
+
+    font-size: 20px;
+}
+.small-h{
+    color: white;
+    font-size: 15px;
+}

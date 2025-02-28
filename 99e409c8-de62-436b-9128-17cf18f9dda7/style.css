@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+    font-family: "Bree Serif";
+}
+
+body {
+    margin: 0px;
+}
+
+.card1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+nav {
+    background-color: #0A1525;
+    padding: 2px;
+    width: 100vw;
+    display: flex;
+}
+
+.heading-nav {
+    color: #ffffff;
+    margin: 10px;
+    padding: 5px;
+}
+.image1 {
+    margin: 10px;
+}
+
+.button {
+    background-color: #FFD700;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.heading-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    align-content: center;
+}
+
+.hp {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.boxes {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-box {
+    border-radius: 10px;
+    width:25vw;
+    height:30%;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+.para {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.box1 {
+    margin: 10px;
+    height:40vh;
+    width:80%;
+}
+.card3{
+    text-align: center;
+    background-color: lightgray;
+    margin-top:10px;
+    padding:10px;
+}
+.card4{
+    background-color: #0a1525;
+    height:20vh;
+    width:100vw;
+    display: flex;
+    flex-direction:column;
+}
+.para-last{
+    color:#ffffff;
+    margin:10px;
+}
+.bi{
+    color: white;
+    margin:10px;
+}

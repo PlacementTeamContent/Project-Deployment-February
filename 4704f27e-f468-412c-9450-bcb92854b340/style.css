@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: flex-end;
+    background-color: #0A1525;
+    color: white;
+    height: 25px;
+    
+    
+    
+}
+.navba{
+    display: flex;
+    flex-direction:row;
+    justify-content: stretch;
+    background-color: #0A1525;
+    color: white;
+    height: 25px;
+    
+}
+.bg-image{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    
+    background-size:cover;
+}
+h1{
+    color: white;
+    font-size: 34px;
+    padding-top: 1px;
+}
+.p1{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.bg{
+    background-color: #FFd700;
+    color: white;
+    border-color:#FFd700;
+    border-radius: 5px;
+    height: 30px;
+}
+.pad{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+}
+.service{
+    display:flex;
+    flex-direction:column;
+    
+}
+h2{
+    font-size: 30px;
+}
+img{
+    border-radius: 10px;
+}
+.bgdirection{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.bg2{
+    background-color: #FFFFFF;
+    height: 100vh;
+}
+h4{
+    font-size: 24px;
+}
+.fontsize{
+    font-size: 15px;
+    font-family: blod;
+}
+.size{
+    width: 95%;
+    height:5%;
+    margin: 10px;
+    border-color:black;
+}
+.size1{
+    width: 40%;
+    height: 5%;
+    margin: 10px;
+     border-color:black;
+}
+.size2{
+    width: 95%;
+    height: 25%;
+    border-color:black;
+    
+}
+.em{
+    display: flex;
+    flex-direction:row;
+}
+.footer{
+    background-color: #1E293b;
+    height: 100vh;
+}
+.bu{
+    width: 95%;
+    background-color:#FFd700 ;
+    border-color: #FFd700;
+    color: white;
+    height:5%;
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+h5{
+    font-size: 24px;
+}
+.f1{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.hi{
+    padding: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.hi2{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+    
+}

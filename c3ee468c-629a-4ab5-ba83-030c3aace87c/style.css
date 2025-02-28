@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #0A1525;
+    padding: 10px;
+    font-family: Serif;
+    color: white;
+    margin-left: auto;
+    align-content: left;
+    display: flex;
+    gap: 15px;
+}
+
+.container2{
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    color: white;
+    padding:100px;
+    height:210px;
+    width:300px;
+    font-family:Bree-Serif;
+}
+.btn-primary {
+    color:#FF7A2E;
+}
+.head {
+    text-align: center;
+    font-family:Bree-Serif;
+}
+.paragrah {
+    text-align: center;
+    font-family:Sans-Serif;
+}

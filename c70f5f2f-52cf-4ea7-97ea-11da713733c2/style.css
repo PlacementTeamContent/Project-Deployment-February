@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1525;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+img{
+    height:65px;
+    margin:4px;
+}
+.nav-logo{
+    display:flex;
+    margin:10px;
+}
+.logo-name{
+    color:white;
+    padding:2px;
+}
+.nav-items{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color:white;
+    padding:10px;
+    font-family: "Bree Serif";
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+h1{
+    padding:5px;
+}
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size:cover;
+    height:100vh;
+    width:100vw;
+    margin:0px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading{
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    font-size:60px;
+}
+.para{
+    color:white;
+    text-align: center;
+}
+.button{
+    background-color:#dfe3eb;
+    color:white;
+    border-radius:10px;
+    height:4vh;
+    width:8vw;
+    border-color:#dfe3eb;
+    text-align: center;
+}
+.text1{
+    text-align: center;
+    font-family:"Bree";
+    padding:20px;
+}
+.para2{
+    text-align: center;
+}
+ .img-section{
+    display: flex;
+    justify-content: center;
+} 
+.img1{
+    height:220px;
+    width:300px;
+    border-radius:10px;
+}
+.details-container{
+    background-color: #dfe3eb;
+    background-size:cover;
+}
+.star{
+    color:red;
+}
+.input1{
+    width:63vw;
+    height:3vh;
+    border-radius:4px;
+    border:none;
+}
+.input2{
+    width:21vw;
+    height:3vh;
+    padding:4px;
+     border-radius:4px;
+    /*  border:none; */
+}
+.input3{
+    width:30vw;
+    height:3vh;
+     border-radius:4px;
+    /*  border:none; */
+}
+.input4{
+    width:30vw;
+    height:3vh;
+    border-radius:4px;
+}
+.input5{
+    width:63vw;
+    height:30vh;
+    border-radius:4px;
+    border:none;
+}
+.input-section{
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+    
+}
+.mail-phn-section{
+    display: flex;
+   /*  margin-left:20px; */
+    padding:5px;
+}
+.button1{
+    background-color: #4B84F3;
+    width:63vw;
+    height:3vh;
+    border-radius:4px;
+    border:none;
+    color:white;
+}
+.btn{
+    margin:30px;
+}
+.footer-section{
+    background-color: #1A2942;
+    background-size:cover;
+    height:30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.para3{
+    color:white;
+}
+i{
+    color:white;
+    font-size:25px;
+    padding:5px;
+}
+.text3{
+    color:white;
+}
+.txt{
+    text-decoration: underline;
+    color:white;
+}
+.lastsection{
+    align-self: flex-end;
+}
+.contact-section{
+    padding:50px;
+}
+.contact-section-2{
+    padding:50px;
+}
+.contact-section-3{
+    padding:50px;
+}

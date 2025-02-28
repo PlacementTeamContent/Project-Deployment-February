@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1E293B;
+    width: 1400px;
+    height: 150px;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-left: 300px;
+    background-color: #1E293B;
+}
+header i{
+    padding-top: 20px;
+}
+.main {
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 1400px;
+}
+
+.main h1 {
+    color: white;
+    margin-left: 200px;
+    font-family: "Bree Serif";
+}
+
+.main p {
+    color: grey;
+    margin-left: 200px;
+    font-family: "Bree Serif";
+}
+
+button {
+    background-color: #FF7A2E;
+    color: white;
+    border: solid #FF7A2E 10px;
+    border-radius: 5px;
+    margin-left: 200px;
+    font-family: "Bree Serif";
+}
+
+.main div {
+    padding-top: 50px;
+}
+
+/* service */
+.service {
+    background-color: white;
+    padding: 100px;
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+}
+
+.move {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: "Bree Serif";
+}
+
+p {
+    color: grey;
+    font-family: "Bree Serif";
+}
+
+.img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+    font-family: "Bree Serif";
+}
+
+
+/* contact */
+.contact {
+    padding: 100px;
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    background-color: #dfe3eb;
+}
+
+.footflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.footflex input {
+    padding-right: 200px;
+}
+
+input {
+    padding-right: 800px;
+}
+
+.fat input {
+    padding-bottom: 250px;
+}
+.b{
+    padding-left: 400px ;
+    padding-right: 400px;
+}
+footer{
+    width: 1400px;
+    background-color: #1E293B;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.icons{
+    padding-left: 180px;
+}

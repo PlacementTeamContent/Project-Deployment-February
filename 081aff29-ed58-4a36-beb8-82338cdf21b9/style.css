@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Bree Serif";
+}
+
+.logos {
+    display: flex;
+}
+
+.navbarmobile {
+    background: #0A1525;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.navbardesktop {
+    background: #0A1525;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.logo {
+    height: 30px;
+    margin: 10px;
+}
+
+.logoname {
+    color: white;
+    font-family: "Sans-Serif";
+    font-size: 22px;
+}
+
+.bars {
+    color: white;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.homepage {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100vw;
+    color: white;
+    font-family: "Bree Serif";
+    padding: 180px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.homebutton {
+    color: white;
+    background: #FFD700;
+    padding: 10px 20px;
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+.content {
+    margin-left: 30px;
+}
+
+.services {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+.servicescards{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.serviceshead {
+    color: #0A1525;
+    font-size: 36px;
+}
+
+.servicespara {
+    color: #0A1525;
+    font-size: 18px;
+}
+
+.service {
+    text-align: start;
+    font-family: "Roboto";
+}
+
+.servicescards {
+    display: flex;
+    align-items: center;
+}
+
+.serviceimage {
+    height: 230px;
+    width: 400px;
+    border-radius: 18px;
+}
+
+.servicepara {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.servicehead {
+    color: #0A1525;
+}
+
+.contactsection {
+    text-align: center;
+    background: lightgrey;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.info {
+    text-align: start;
+}
+
+.talkbutton {
+    background: #FFD700;
+    color: white;
+    border-width: 0px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+}
+
+.blankcard {
+    background: white;
+    border: 2px solid grey;
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.blankcard-2 {
+    background: white;
+    border: 2px solid grey;
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.blankcard-3 {
+    background: white;
+    border: 2px solid grey;
+    height: 200px;
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #0A1525;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.subhead {
+    font-weight: bold;
+}
+
+.icons {
+    color: white;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.iconleft {
+    font-size: 30px;
+    margin: 5px 5px 5px 0px;
+}
+
+.footerlogo {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.footerpara {
+    font-size: 18px;
+}
+
+.adjust {
+    display: flex;
+    margin: 40px 0px;
+}
+
+.menuinfo {
+    margin-left: 100px;
+}
+
+a {
+    color: white;
+    margin: 5px;
+}
+
+.c {
+    border: 1px solid white;
+    border-radius: 36px;
+    height: 10px;
+    width: 10px;
+}
+
+.homehead {
+    font-size: 36px;
+}
+
+.homepara {
+    font-size: 17px;
+}
+
+@media (max-width:767px) {
+    .navbardesktop {
+        display: none;
+
+    }
+}
+
+@media (min-width:768px) {
+    .navbarmobile {
+        display: none;
+    }
+
+    .homepage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        width: 420px;
+    }
+
+    .homehead {
+        font-size: 55px;
+    }
+
+    .homepara {
+        font-size: 20px;
+    }
+
+    .services {
+        padding: 40px 100px;
+    }
+
+    .servicescards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .serviceimage {
+        width: 300px;
+        height: 150px;
+    }
+
+    .service {
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .contactsection {
+        padding: 40px 0px 40px 100px;
+    }
+
+    .blankcard {
+        width: 75%;
+    }
+
+    .blankcard-2 {
+        width: 400px;
+    }
+
+    .additionalinfo {
+        display: flex;
+    }
+    .additionalinfo-2{
+        margin-left: 80px;
+    }
+    .blankcard-3{
+        width: 75%;
+    }
+    .talkbutton{
+        width: 75%;
+    }
+    footer{
+        padding: 60px 0px 60px 100px;
+        
+    }
+    .adjustfooter{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerpara{
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .menuinfo{
+        margin-left: 150px;
+        margin-right: 60px;
+    }
+    .info{
+        align-content: center;
+        text
+    }
+    .contactcontent{
+        
+    }
+}

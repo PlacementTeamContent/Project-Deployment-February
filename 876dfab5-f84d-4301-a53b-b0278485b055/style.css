@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    flex-direction: row;
+}
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height:376px;
+    text-align: center;
+    
+}

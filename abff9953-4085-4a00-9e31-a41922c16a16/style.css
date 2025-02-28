@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    background-image:url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    color:#FFFFFF;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    background-color:#FF7A2E;
+    color:#FFFFFF;
+    border-radius:10px;
+    height: 20px;
+    width: 100px;
+    border-color:#FF7A2E;
+    font-size: 15px;
+}
+.card{
+    text-align:center;
+ }
+.image{
+    height: 100px;
+    width: 101px;
+    padding: 10px;
+    border-radius:20px;
+    display:flex;
+    flex-direction: row;
+}
+.container{
+     font-family:"Bree Serif" ;
+     display:flex;
+    flex-direction: row;
+    
+}
+.font{
+    background-color:#dfe3eb;
+    text-align: center;
+}
+.name{
+    text-align: left;
+}
+.button{
+    height: 50px;
+}
+.spark{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+}
+.page{
+    height: 100px;
+    width: 600px;
+    border-radius: 10px;
+}
+.navbar{
+    margin: 10px;
+    background-color:#1E293B;
+    padding: 50px;
+    color: white;
+    font-family: "Bree Serif";
+}
+.button1{
+    background-color:#FF7A2E;
+    color:#FFFFFF;
+    border-radius:10px;
+    height: 50px;
+    width: 500px;
+    border-color:#FF7A2E;
+}
+.para{
+    text-align: center;
+}
+.page{
+    text-align: right;
+    color: white;
+}

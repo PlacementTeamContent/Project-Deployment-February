@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.navbar {
+    height: 70px;
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #0A1525;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.img1 {
+    height: 40px;
+    width: 40px;
+    padding-right: 15px;
+}
+
+li {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.para {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 120px;
+}
+
+.section1 {
+    height: 70vh;
+    width: 80rem;
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    background-size: cover;
+}
+
+.heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.para1 {
+    color: white;
+    font-weight: lighter;
+    margin-top: 7px;
+}
+
+.but1 {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin-right: 60px;
+}
+
+.section2 {
+    height: 100%;
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.head1 {
+    color: black;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para2 {
+    color: grey;
+    padding-top: 9px;
+}
+
+.content2 {
+    margin-top: 30px;
+}
+
+.x1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.img3 {
+    height: 150px;
+    width: 230px;
+    border-radius: 8px;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.para5 {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.head01 {
+    color: black;
+    font-family: "Bree Serif";
+    font-size: 30px;
+}
+
+.content3 {
+    margin-top: 30px;
+}
+
+.section3 {
+    height: 100%;
+    width: 80rem;
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.head10 {
+    color: black;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input0 {
+    width: 600px;
+}
+
+.input2 {
+    width: 300px;
+    margin-left: 5px;
+}
+
+.x2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.input10 {
+    height: 200px;
+    width: 600px;
+}
+
+.but3 {
+    height: 30px;
+    width: 600px;
+    color: white;
+    background-color: #6C63FF;
+    border: none;
+    margin-top: 20px;
+}
+
+.x3 {
+    color: red;
+}
+
+.footer {
+    height: 60vh;
+    width: 80rem;
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons0 {
+    display: flex;
+    flex-direction: row;
+}
+
+.part1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.img20 {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.bi {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.part2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.part3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.part23 {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+}
+
+.head9 {
+    color: white;
+    font-weight: 100;
+}
+
+.para55 {
+    color: grey;
+    padding-top: 10px;
+}
+
+.fa {
+    color: white;
+    padding-left: 10px;
+}
+
+/* .hio{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+} */
+@media (max-width:576px) {
+    .items {
+        color: #0A1525;
+    }
+
+    .cards {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .x2 {
+        flex-direction: column;
+    }
+
+    .input2 {
+        width: 600px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .part23 {
+        margin-right: 340px;
+        padding-top: 10px;
+    }
+
+    /* .section2{
+        height: 90vh;
+    } */
+}

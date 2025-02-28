@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card{
+    background-size: cover;
+    height: 600px;
+    width: 100px;
+    font-family: "Bree Serif";
+}
+.nai{
+    height: 40px;
+    width: 100px;
+    font-family: "Bree Serif";
+    
+}
+.button{
+    color: #FFD700;
+}

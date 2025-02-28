@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.one {
+    height: 50px;
+    width: 50px;
+}
+ul {
+    list-style: none;
+}
+
+.two {
+    display: flex;
+    color: #ffffff;
+    gap: 30px;
+    font-family: "Bree Serif";
+}
+
+.whole_container {
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 60px;
+}
+
+.para {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+button {
+    background-color: #FF7A2E;
+    border-radius: 10px;
+    height: 50px;
+    width: 120px;
+    border-width: 0px;
+    color: white;
+    font-size: 16px;
+}
+
+.mm {
+    transform:translate(100px,200px);
+    
+}
+
+.second_container {
+    height: 80vh;
+    
+}
+
+.heading_2 {
+    font-size: 28px;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.para_2 {
+    text-align: center;
+    font-family: "Bree Serif";
+    color: #dfe3eb;
+}
+
+.aa {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.aab {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.first {
+    margin: 80px;
+    padding-bottom: 80px;
+    height: 350px;
+    font-family: "Bree Serif";
+}
+
+.secound {
+    margin: 80px;
+    padding-bottom: 80px;
+    height: 350px;
+    font-family: "Bree Serif";
+}
+
+.final {
+    display: flex;
+}
+.third_container{
+    height:100vh;
+    background-color:#Dfe3eb;
+}
+.heading_5{
+    text-align:center;
+}
+.para_5{
+    text-align:center;
+}
+sup{
+    color:red;
+}
+.name{
+    text-align:center;
+}
+.ll{
+    display:flex;
+}
+.number{
+    height:10px;
+    width:400px;
+}
+.name{
+    width:500px;
+}
+.name2{
+    width:250px;
+}
+.oo{
+   transform:translateX(-230px);
+}
+.name3{
+    width:250px;
+}
+.name4{
+    width:500px;
+    height:300px;
+
+}
+.contact{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.talk{
+    height:30px;
+    width:500px;
+    background-color:#FF7A2E;
+    color:white;
+    font-family:"Bree Serif";
+    text-align:center;
+    transform:translateX(340px);
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+}
+.footer{
+    height:50vh;
+    background-color:#1E293B;
+    display: flex;
+}
+.rr{
+    padding:100px;
+    color:white;
+}
+.vv{
+    display:flex;
+    padding:100px;
+    color:white;
+    font-family:"Bree Serif";
+}
+.icons{
+    gap:120px;
+}
+.last{
+    font-size:16px
+}
+@media screen and (min-width:1200px){
+    .whole_container{
+       height:100vh;
+    }
+    .third_container{
+        width:150vh;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .whole_container{
+       height:100vh;
+       width:130vw;
+}
+   .talk{
+       transform:translateX(230px);
+   }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .final{
+        display:flex;
+        flex-direction:column;
+    }
+    .whole_container{
+        height:100vh;
+        width:130vw;
+    }
+    .second_container{
+        height:200vh;
+    }
+    .talk{
+        transform:translateX(120px);
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .final{
+        display:flex;
+        flex-direction:column;
+    }
+    .whole_container{
+        height:100vh;
+        width:130vw;
+    }
+    .second_container{
+        height:250vh;
+    }
+    .talk{
+        transform:translateX(120px);
+    }
+    .footer{
+        width:100vh;
+    }
+}
+.third_container{
+    width:100vh;
+}

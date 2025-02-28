@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.img {
+    height: 9vh;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.nxt {
+    font-size: 18px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.navContainer {
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.de {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.expo {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height: 50vh;
+    padding-top: 2px;
+}
+
+.next {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 28px;
+    padding-top: 50px;
+}
+
+.gen {
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+}
+
+.btnn {
+    background-color: #6c63FF;
+    color: #ffffff;
+    width: 20vh;
+    height: 7vh;
+    margin-left: 5vh;
+    border-style: solid;
+    border-color: #6c63FF;
+    border-radius: 10px;
+}
+
+.ou {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.ser {
+    color: #0A1525;
+    text-align: center;
+}
+
+.img2 {
+    height: 30vh;
+    width: 55vh;
+    border-radius: 10px;
+}
+
+.ouu {
+    color: #0A1525;
+    font-family: "Bree Serif";
+}
+
+.serr {
+    color: #0A1525;
+}
+
+.contact {
+    background-color: #dfe3eb;
+    height: 135vh;
+}
+
+.con {
+    text-align: center;
+    font-family: "Bree Serif";
+    padding-top: 10px;
+}
+
+.go {
+    text-align: center;
+    font-size: 13px;
+}
+
+.na {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Bree Serif";
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+span {
+    color: red;
+}
+
+input {
+    margin-left: 20px;
+    width: 40vh;
+    padding-top: 10px;
+}
+
+.naa {
+    height: 20vh;
+    width: 45vh;
+}
+
+.btnnn {
+    background-color: #6c63FF;
+    color: #ffffff;
+    width: 50vh;
+    height: 7vh;
+    margin-left: 2vh;
+    border-style: solid;
+    border-color: #6c63FF;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.foo {
+    background-color: #1E293B;
+    height: 100vh;
+}
+
+.img3 {
+    height: 10vh;
+    padding-top: 5vh;
+    padding-left: 2vh;
+}
+
+.in {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.icons {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.c {
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 10px;
+    font-family: "Bree Serif";
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10vh;
+}
+
+.p {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.fab {
+    padding-top: 5vh;
+}
+
+.si {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.lst {
+    text-align: center;
+    color: #ffffff;
+}
+
+@media (min-width:900px) {
+    .expoo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img2 {
+        width: 37vh;
+        padding-right: 10px;
+    }
+
+    .items {
+        padding-left: 40vh;
+        padding-top: 10px;
+    }
+
+    .nxt {
+        padding-top: 20px;
+        font-size: 28px;
+    }
+
+    .next {
+        font-size: 60px;
+    }
+
+    .gen {
+        font-size: 17px;
+    }
+
+    .btnn {
+        margin-left: 27vh;
+        margin-top: 5vh;
+        font-size: 25px;
+    }
+
+    .btnnn {
+        background-color: #6c63FF;
+        color: #ffffff;
+        width: 50vh;
+        height: 7vh;
+        font-size: 30px;
+        margin-left: 2vh;
+        margin-right: 20vh;
+        border-style: solid;
+        border-color: #6c63FF;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .img3 {
+        height: 15vh;
+    }
+
+    .in {
+        font-size: 30px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 10vh;
+        font-size: 30px;
+    }
+
+    .lst {
+        text-align: start;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+        color: #ffffff;
+    }
+
+    .icons {
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .c {
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+        padding-left: 10px;
+        font-family: "Bree Serif";
+    }
+
+    .go {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .na {
+        font-weight: bold;
+        font-size: 30px;
+        font-family: "Bree Serif";
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .de {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-size:20px;
+}
+.gen {
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+}
+}

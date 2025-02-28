@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.image {
+    height: 300vh;
+    width: 150vw;
+}
+
+.image1 {
+    height: 300vh;
+    width: 150vw;
+}
+
+.innovative {
+    color: #ffffff;
+    background-color: black;
+}
+
+.button {
+    color: white;
+    background-color: #4B9EFF;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #4B9EFF;
+    height: 35px;
+}

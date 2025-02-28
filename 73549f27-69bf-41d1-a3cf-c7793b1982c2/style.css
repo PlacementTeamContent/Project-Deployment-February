@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.font{
+    font-family: Roboto;
+}
+ 
+.navbar {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: "Bree Serif";
+}
+
+.navcontent {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.navitems{
+    display: none;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+}
+
+i {
+    padding: 20px;
+}
+
+.bg-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.button {
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #8B5CF6;
+    color: white;
+    font-size: 15px;
+}
+
+.textcontainer {
+    padding: 20px;
+}
+
+.ourservicesdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.content {
+    text-align: start;
+    padding-left: 50px;
+}
+
+.img2 {
+    border-radius: 10px;
+}
+
+.ContactUsDiv {
+    background-color: #dfe3eb;
+    height: 90vh;
+}
+
+.centertext {
+    text-align: center;
+    padding: 10px;
+}
+
+.boxesdiv {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.paddingdiv {
+    padding: 40px;
+}
+
+.p1 {
+    color: red;
+    padding-top: 5px;
+}
+
+.whitespace {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 95%;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.whitespace2 {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 95%;
+    border-width: 5px;
+    border-radius: 5px;
+    }
+
+.whitespace1 {
+    background-color: #FFFFFF;
+    height: 30vh;
+    width: 95%;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.letstalkbutton{
+          height: 30px;
+    width: 95%;
+    margin-top: 20px;
+    background-color: #8B5CF6;
+    color: white;
+    border-radius: 05px;
+    border-width: 0px;
+}
+
+.footerdiv {
+    background-color: #0A1525;
+    height: 45vh;
+    color: white;
+    padding-left: 40px;
+    padding: 30px;
+}
+
+.img3 {
+    height: 80px;
+}
+
+.i {
+    padding: 5px;
+}
+
+.footercontant {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.NxtTaskpara {
+    padding-top: 90px;
+}
+
+@media (min-width:992px){
+    .navitems{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-left: 350px;
+    }
+    .textcontainer {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+   }
+   .rowimage{
+       display: flex;
+       flex-direction: row ;
+       gap: 15px;
+   }
+   .ourservicesdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+   /*  height: 50vh;
+   width: 100vw; */
+   }
+   .img2{
+       height: 160px;
+   }
+   .content,h1 {
+    font-size: 20px;
+   }
+   .ContactUsDiv {
+    background-color: #dfe3eb;
+    height: 80vh;
+   }
+   .whitespace2 {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 40vw;
+    border-width: 5px;
+    border-radius: 5px;
+    }
+    .rowcontent{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .footerdiv {
+    background-color: #0A1525;
+    height: 40vh;
+    color: white;
+    padding-left: 40px;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .NxtTaskpara {
+ 
+   }
+}

@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.firstpage{
+    background-image:url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size:cover;
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:30px;
+    font-family:"Bree Serif";
+    height:500px;
+}
+.head1{
+    color:#ffffff;
+    font-weight:bold;
+    
+}
+.para1{
+    color:#ffffff;
+}
+.button1{
+    border-style:solid;
+    background-color:#8B5Cf6;
+    border-radius:10px;
+    border-color:#8B5Cf6;
+    padding:10px;
+    color:#ffffff;
+    font-family:"Bree Serif";
+}
+.details{
+    background-color:#ffffff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family:"Bree Serif";
+}
+.head2{
+    color:#1E293B;
+    font-weight:bold;
+    margin:0px;
+    margin-top:30px;
+    margin-left:2px;
+}
+.para2{
+    color:grey;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    padding:20px;
+    font-family:"Bree Serif";
+}
+.image{
+    width:auto;
+    border-radius:10px;
+}
+.subhead{
+    color:#1E293B;
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:0px;
+}
+.third-page{
+    display:flex;
+    flex-direction:column;
+    background-color:#dfe3eb;
+    padding:20px;
+    justify-content:center;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-style:solid;
+    border-color:#dfe3eb;
+    border-width:10px;
+    background-color:#ffffff;
+    border-radius:10px;
+    height:50px;
+    width:100%;
+    margin:0px;
+}
+.bigbox{
+    border-style:solid;
+    border-color:#dfe3eb;
+    border-width:10px;
+    background-color:#ffffff;
+    border-radius:10px;
+    height:100px;
+    width:100%;
+    margin:0px;
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.contact2{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.button2{
+    border-style:solid;
+    background-color:#8B5Cf6;
+    border-radius:10px;
+    border-color:#8B5Cf6;
+    padding:10px;
+    color:#ffffff;
+    font-family:"Bree Serif";
+    width:100%;
+    height:40px;
+    
+}
+.button-div{
+    padding:10px;
+}
+.fourth-page{
+    background-color:#0A1525;
+    display:flex;
+    flex-direction: column;
+    color:#ffffff;
+    padding:20px;
+}
+.icon{
+    height:100px;
+    width:100px;
+    margin:20px;
+}
+.rod{
+    display:flex;
+    flex-direction:row;
+   
+}
+.contact-card{
+    margin-right:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.menu-card{
+    margin-right:100px;
+}
+
+span{
+    color:#ffffff;
+    font-weight:bold;
+}
+.k{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.logos{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.last-line{
+    margin-top:60px;
+}
+@media all and (min-width:768px){
+    
+        .firstpage{
+            background-image:url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+            background-size:cover;
+            width:100vw;
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            padding:30px;
+            font-family:"Bree Serif";
+            height:500px;
+            flex-grow:2;
+        }
+        .head1{
+            color:#ffffff;
+            font-weight:bold;
+            
+        }
+        .para1{
+            color:#ffffff;
+        }
+        .button1{
+            border-style:solid;
+            background-color:#8B5Cf6;
+            border-radius:10px;
+            border-color:#8B5Cf6;
+            padding:10px;
+            color:#ffffff;
+            font-family:"Bree Serif";
+        }
+        .cards-div{
+            display:flex;
+            flex-direction: row;
+            padding:20px;
+            justify-content:center;
+        }
+        .second-page{
+            display:flex;
+            flex-direction:column;
+            
+        }
+        .card{
+            flex-shrink:2;
+            display:flex;
+            flex-direction:column;
+            margin:10px;
+            padding:20px;
+            font-family:"Bree Serif";
+            width:20vw;
+        }
+        .allentries{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            
+        }
+        .lol{
+            display:flex;
+            width:100vw;
+            flex-grow:2;
+            
+        }
+        .contact2{
+            width:45vw;
+            margin-left:10px;
+        }
+        .third-page{
+            padding:20px;
+        }
+        .sg{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+        }
+        .fourth-page{
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+        }
+        .last-line{
+            display:flex;
+            justify-content:flex-start;
+        }
+        .navbar{
+                background-color:#0A1525;
+                width:auto;
+                height:auto;
+                display:flex;
+                flex-direction:row;
+                justify-content:space-around;
+        }
+        .navbar-features{
+        display:flex;
+        flex-direction:row;
+        color:#ffffff;
+    }
+        .feat{
+        margin:10px;
+        margin-top:20px;
+    }
+        
+}
+@media all and (max-width:768px){
+    .navbar-features{
+        display:none;
+    }
+}
+.navbar-logo{
+    display:flex;
+    flex-direction:row;
+    padding:10px;
+}
+.navbar-icon{
+    height:50px;
+    width:50px;
+    margin-right:10px;
+}
+.title{
+    color:#ffffff;
+    font-weight:bold;
+}
+.navbar{
+    background-color:#0A1525;
+    width:auto;
+    height:auto;
+    
+}

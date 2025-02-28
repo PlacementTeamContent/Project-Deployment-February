@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.pr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0A1525;
+    height: 12vh;
+}
+
+
+.omg {
+    margin-left: 190px;
+    height: 10vh;
+    max-width: 15vh;
+}
+
+.content {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height: 40vh;
+    background-size: cover;
+    margin: 0px;
+
+}
+
+.sub-text {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+    padding: 25px;
+
+}
+
+.button {
+    width: 90px;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F6B352;
+    color: #FFFFFF;
+}
+
+.part-1 {
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    height: 20vh;
+    width: 27vh;
+    border-radius: 10px;
+}
+
+.part-sub-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.second {
+    padding: 10px;
+}
+
+.part-2 {
+    background-color: #dfe3eb;
+    align-items: center;
+    text-align: center;
+
+}
+
+.name {
+    margin-left: 440px;
+    padding-top: 16px;
+    width: 440px;
+}
+.nak{
+    padding: 30px;
+    width: 380px;
+    height: 120px;
+}
+.buttoa{
+     width: 270px;
+    border-width: 0px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #F6B352;
+    color: #FFFFFF;
+}
+.third{
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.para{
+    color: white;
+    margin-left: 190px;
+}
+.kmg{
+     margin-left: 190px;
+    height: 10vh;
+    max-width: 10vh;
+}
+.image{
+     margin-left: 190px;
+    height: 10vh;
+    width: 210px;
+    color: white;
+}

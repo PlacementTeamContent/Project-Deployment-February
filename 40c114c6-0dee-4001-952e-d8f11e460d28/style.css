@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.topbar {
+    background-color: #1E293B;
+    height: 40PX;
+    width: 100%;
+
+}
+
+.topbaricon {
+    height: 35px;
+}
+
+.maingpagecover {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 400px;
+    width: 100%;
+    padding: 50px;
+    background-size: cover;
+}
+
+.Mainheading {
+    color: white;
+    font-size: 25px;
+    font-family: "Bree Serif";
+}
+
+.p1 {
+    color: white;
+    font-size: 10px;
+    font-family: "Bree Serif";
+}
+
+.button1 {
+    background-color: #8B5CF6;
+    border-color: #8B5CF6;
+    border-radius: 3px;
+}
+
+.thirdpart {
+    background-color: white;
+    height: 350px;
+    width: 100%;
+}
+
+.h1class {
+    text-align: center;
+}
+
+.pclass {
+    text-align: center;
+    color: grey;
+}
+
+.img1 {
+    height: 50px;
+    border-radius: 30px;
+    width: 70px;
+}
+
+.img2 {
+    height: 50px;
+    border-radius: 30px;
+    width: 70px;
+}
+
+.img3 {
+    height: 50px;
+    border-radius: 30px;
+    width: 70px;
+}
+
+.img1h1 {
+    font-size: 10px;
+}
+
+.img1p1 {
+    font-size: 8px;
+    color: grey;
+
+}
+
+.img2h2 {
+    font-size: 10px;
+}
+
+.img2p2 {
+    font-size: 8px;
+    color: grey;
+}
+
+.img3h3 {
+    font-size: 10px;
+}
+
+.img3p3 {
+    font-size: 8px;
+    color: grey;
+}
+
+.ContactUs {
+    background-color: #dfe3eb;
+    height: 800px;
+    width: 100%;
+}
+.contactus {
+    text-align: center;
+    padding: 30px;
+}
+.para {
+    text-align: center;
+}
+.firstdabba {
+    background-color: white;
+    height: 10px;
+    width: 90px;
+    padding: 5px;
+}
+.seconddabba {
+    background-color: white;
+    height: 10px;
+    width: 90px;
+    padding: 5px;
+}
+.thirddabba {
+    background-color: white;
+    height: 10px;
+    width: 90px;
+    padding: 5px;
+}
+.fourthdabba {
+    background-color: white;
+    height: 100px;
+    width: 90px;
+    padding: 5px;
+}

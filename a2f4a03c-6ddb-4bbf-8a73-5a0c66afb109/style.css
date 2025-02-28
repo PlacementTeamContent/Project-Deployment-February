@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+
+.navbar {
+    background-color: #0A1426;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.navbar-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-logo-image {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar-logo-text {
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    font-size: 20px;
+}
+
+.navbar-items {
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 15px;
+    margin: 10px;
+    margin: auto;
+}
+
+.landing-section {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size: cover;
+    padding: 90px;
+    color: #FFFFFF;
+    width: 160vw;
+    height: auto;
+}
+
+.landing-section-heading {
+    font-family: Sans-Serif;
+}
+
+.landing-section-para {
+    font-family: Roboto;
+    width: 350px;
+}
+
+.landing-section-button {
+    color: #FFFFFF;
+    background-color: #4A90E2;
+    height: 30px;
+    width: 103px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #4A90E2;
+}
+
+.services-page {
+    text-align: center;
+    width: auto;
+}
+
+.services-page-heading {
+    font-family: Sans-Serif;
+    font-size: 27px;
+}
+
+.services-page-para {
+    font-family: Sans-Serif;
+    width: auto;
+    text-align: center;
+}
+
+.services-page-boxes-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.services-page-boxes {}
+
+.services-page-boxes-image {
+    height: 120px;
+    border-radius: 20px;
+}
+
+.services-page-boxes-heading {
+    color: #1E293B;
+    width: auto;
+    font-size: 24px;
+}
+
+.services-page-boxes-para {
+    width: auto;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.contact-us {
+    background-color: #e0dfdc;
+    width: auto;
+}
+
+.contact-us-heading {
+    color: #1E293B;
+    font-family: Sans-Serif;
+    text-align: center;
+}
+
+.contact-us-para {
+    color: #1E293B;
+    font-family: Sans-Serif;
+    text-align: center;
+}
+
+.contact-us-field-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-us-text-heading {
+    color: #1E293B;
+    font-size: 20px;
+}
+
+.contact-us-text-asterik {
+    color: red;
+}
+
+.contact-us-text-field {
+    height: 24px;
+    background-color: #FFFFFF;
+    width: 400px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+}
+
+.lets-talk {
+    color: #FFFFFF;
+    background-color: #4A90E2;
+    height: 30px;
+    width: 400px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #4A90E2;
+}
+
+.last-section {
+    background-color: #0A1426;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.last-section-topics1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e0dfdc;
+}
+
+.copyright {
+    text-decoration: underline;
+}
+
+.last-section-topics-image {
+    width: 40px;
+    padding: 10px;
+}
+
+.last-section-topics-symbols {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.last-section-topics2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+}

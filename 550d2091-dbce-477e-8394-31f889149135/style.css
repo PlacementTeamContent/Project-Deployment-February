@@ -1,0 +1,174 @@
+.mainpage {
+    height: 190vh;
+}
+
+.icon1 {
+    text-align: end;
+    padding: 5px;
+    height: 30px;
+    color: grey;
+}
+
+.navbar {
+    background-color: #1E293B;
+    background-size: cover;
+    height: 12vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.image1 {
+    height: 30px;
+    padding: 5px;
+}
+
+.image2 {
+    background-image: Url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    background-color: transparent;
+    height: 50vh;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.head1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.head2 {
+    color: #0A1525;
+}
+
+.para1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.but1 {
+    border-radius: 10px;
+    background-color: #FFD700;
+    color: #ffffff;
+    border-width: 0px;
+    padding: 7px;
+
+}
+
+.head3 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.para2 {
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    font-family: "Bree Serif";
+    padding-left: 20px;
+
+
+}
+
+.image3 {
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.head4 {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.head5 {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.contactsection {
+    background-color: grey;
+    height: 100vh;
+}
+
+.para3 {
+    text-align: center;
+    padding: 5px;
+}
+
+.box1 {
+    background-color: #ffffff;
+    height: 20px;
+    width: 55vh;
+    border-radius: 1px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 0px;
+}
+
+.box2 {
+    background-color: #ffffff;
+    height: 20vh;
+    width: 55vh;
+    border-radius: 1px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 0px;
+}
+
+.box3 {
+    background-color: #FFD700;
+    height: 23px;
+    width: 55vh;
+    border-radius: 1px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: black;
+    margin: 20px;
+    text-align: center;
+}
+
+.last-section {
+    background-color: #0A1525;
+    height: 70vh;
+    background-size: cover;
+}
+
+.para5 {
+    color: grey;
+    padding-left: 10px;
+}
+
+.head6 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+.foot1 {
+    padding: 20px;
+}
+
+.mainfoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.border-box {
+    box-sizing: 0;
+}
+
+.der {
+    text-decoration: underline;
+}
+
+.para6 {
+    text-align: end;
+    color: grey;
+}

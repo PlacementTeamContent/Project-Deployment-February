@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.img1 {
+    background-size: cover;
+}
+
+.nav {
+    font-size: 25px;
+    background-color: black;
+    height: 69px;
+    color: white;
+    font-family: roboto;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+.p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.img2 {
+    border-radius: 15px;
+}
+
+.img3 {
+     border-radius: 15px;
+}
+
+.Contact_Us {
+    background-color: #dfe3eb;
+    
+}
+
+.end {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: #0A1525;
+    width: 96vw;
+    height: 80px;
+
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    width: 400px;
+    height: 450px;
+    background-size: cover;
+
+
+}
+
+.head {
+    color: #FFFFFF;
+    margin: auto;
+    font-family: "Bree Serif";
+    padding: 10px;
+
+}
+
+.para {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    border-width: 0px;
+    background-color: #4B9Eff;
+    color: white;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.head1 {
+    font-weight: bold;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-top: 10px;
+}
+
+.para1 {
+    color: gray;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+.img2 {
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.head3 {
+    font-family: "Bree Serif";
+    font-size: 20px;
+    margin: 20px;
+
+
+}
+
+.para2 {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    color: gray;
+    margin: 20px;
+}
+.img3 {
+    height:150px;
+    width: 300px;
+    border-radius:10px;
+    margin: 30px;
+   background-size:cover;
+}
+.head4 {
+    font-family: "Bree Serif";
+    font-size: 20px;
+    margin: 20px;
+}
+.para3 {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    color: gray;
+    margin: 20px;
+}
+.img4 {
+    height:150px;
+    width: 300px;
+    border-radius:10px;
+    margin: 30px;
+   background-size:cover;
+}
+.head5 {
+    font-family: "Bree Serif";
+    font-size: 20px;
+    margin: 25px;
+}
+.para4 {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    color: gray;
+    margin: 20px;
+}
+.card {
+    background-color:#dfe3eb;
+    height: 400px;
+    width: 380px;
+    text-align:center;
+}
+.head6 {
+    font-family:"Bree Serif";
+    
+   
+}
+.para5 {
+    font-family:"Bree Serif";
+    font-size:15px;
+    
+}
+.card-container {
+    background-color:#0A1525;
+    width: 400px;
+    height: 550px;
+}
+.img5 {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    
+}
+.para6 {
+    color: white;
+    font-family:"Bree Serif";
+    font-size: 15px;
+   padding: 10px;
+}
+.bi-facebook {
+    color: #dfe3eb;
+    font-size:30px;
+    margin: 10px;
+}
+.bi-instagram {
+    color: #dfe3eb;
+    font-size:30px;
+    margin: 5px;
+}
+.bi-twitter {
+    color:#dfe3eb;
+    font-size: 30px;
+    margin: 5px;
+}
+.bi-youtube {
+    color:#dfe3eb;
+    font-size:30px;
+    margin: 5px;
+    
+}
+.bi-linkedin {
+    color:#dfe3eb;
+    font-size:30px;
+    margin:5px;
+}
+.head7 {
+    font-family: "Bree Serif";
+    color:#dfe3eb;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+.head8 {
+    font-family: "Bree Serif";
+    color: #dfe3eb;
+    font-size:15px;
+    margin: 20px;
+    
+}
+.head9 {
+    font-family:"Bree Serif";
+    color:#dfe3eb;
+    font-size:15px;
+    margin: 20px;
+}
+.head10 {
+    font-family:"Bree Serif";
+    color:#dfe3eb;
+    font-size:15px;
+    margin: 20px;
+}
+.head11 {
+    font-family:"Bree Serif";
+    color:#dfe3eb;
+    font-size:15px;
+    margin: 20px;
+    
+}
+.head12 {
+    font-family:"Bree Serif";
+    color:#dfe3eb;
+    font-size:15px;
+    margin: 20px;
+    
+
+}
+.para7 {
+    color:#dfe3eb;
+    
+}

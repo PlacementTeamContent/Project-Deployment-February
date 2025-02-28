@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.a-color{
+    background-color:#0A1525 ;
+    color:#dfe3eb ;
+    text-align: center;
+}
+.b-color{
+    text-align: center;
+    height:6vh ;
+    padding: 5px;
+    margin: 5px;
+}
+.c-color{
+    font-family: "Bree Serif";
+    font-weight: 20px;
+    font-size:30px ;
+    padding: 0px;
+    margin: 10px;
+}
+.d-color{
+   font-family: "Bree Serif";
+    font-weight: 20px;
+    font-size:30px ;
+    padding: 10px;
+    margin: auto; 
+    text-align: right;
+    space:1cm;
+    
+}
+.e-color{
+    background-image:url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg") ;
+    height:45vh;
+    width:70vh ;
+    background-size:cover;
+}
+.f-color{
+    font-family: "Bree Serif";
+    font-size:59px ;
+    padding:20px ;
+    margin:25px;
+}
+.g-color{
+   font-size:30px ; 
+}
+.h-color{
+    height: 4vh;
+    width:16.5vh ;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+}
+.i-color{
+    background-color: white;
+    text-align: center;
+}
+.j-color{
+    font-size:45px ;
+}
+.k-color{
+    font-size: 25px;
+}
+.l-color{
+    height:25vh;
+    width:30vh ;
+    border-radius: 25px;
+    padding: 10px;
+}
+.m-color{
+    background-color:#dfe3eb ;
+    text-align: center;
+    
+}
+.o-color{
+   height:5vh ; 
+   width:40vh ;
+   padding: 10px;
+}
+.p-color{
+    height: 20vh;
+    width:40vh ;
+}
+.q-color{
+    height: 5vh;
+    width:80vh ;
+    padding: 10px;
+}
+.r-color{
+    background-color:#0A1525 ;
+    height: 30vh;
+    color: #FFFFFF;
+    padding: 100px;
+    margin: 0px;
+}
+.s-color{
+    padding: 10px;
+    height: 10vh;
+    width:10vh ;
+    font-size:5vh ;
+}
+.t-color{
+    text-align: center;
+}
+.u-color{
+    padding: 10px;
+    margin: 10px;
+    height: 5vh;
+    width:90vh ;
+    background-color:#4B84F3 ;
+}

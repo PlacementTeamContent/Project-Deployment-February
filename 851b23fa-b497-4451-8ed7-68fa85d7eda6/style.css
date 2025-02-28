@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.body {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    height: 100vh;
+    width: 100vh;
+    position: absolute;
+    margin-bottom:30px ;
+    overflow:scroll;
+}
+
+.text-container {
+    color: white;
+    text-align: center;
+    position: absolute;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-family: 'Roboto';
+}
+
+.head {
+    font-weight: bold;
+    font-size: 50px;
+}
+.our-source{
+    color: black;
+    text-align: center;
+    position: absolute;
+    position: relative;
+    top: 200px;
+}
+.class-img{
+    height: 130px;
+    width: 170px;
+}
+.sound-h1{
+    font-size: 30px;
+}
+.sound{
+    background-color: white;
+    width: 190px;
+    position: absolute;
+    position: relative;
+    left: 30px;
+    top:50px;
+    
+}
+.audio-rent{
+    background-color: white;
+    width: 190px;
+    position:absolute;
+    position: relative;
+    left: 250px;
+    bottom:245px;
+}
+.consult{
+    background-color: white;
+    width: 190px;
+    position:absolute;
+    position: relative;
+    left: 470px;
+    bottom:543px;
+}

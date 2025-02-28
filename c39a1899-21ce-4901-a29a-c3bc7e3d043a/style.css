@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+
+.Navbar1 {
+    height: 50px;
+    background-color: #0A1525;
+}
+
+.navbarinner1 {
+    height: 50px;
+    background-color: #0A1525;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbarinner2 {
+    height: 50px;
+    background-color: #0A1525;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbarflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbarinner11 {
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-right: 5px;
+}
+.navbarinner12 {
+    font-family: "Bree Serif";
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+.navbarinner21 {
+    font-family: "Bree Serif";
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+    padding-top: 10px;
+}
+.navbarinner22 {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 8px;
+}
+
+.Homepage1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    padding: 120px;
+}
+
+.homepagetext1 {
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 40px;
+}
+.homepagetext2 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 10px;
+}
+.homepagetext3 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 10px;
+    padding: 5px;
+    background-color: #8B5CF6;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.homepagetext4 {
+    color: white;
+    width: 90vw;
+    font-family: "Bree Serif";
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #8B5CF6;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.Ourservices1 {
+    padding: 30px;
+}
+
+.ourservicesmatter {
+    text-align: center;
+}
+.ourservicesh1 {
+    color: black;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 40px;
+}
+.ourservicesh2 {
+    color: black;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 15px; 
+}
+.ourservicesp1 {
+    color: black;
+    font-family: "Roboto";
+    font-size: 10px; 
+}
+.ourservicesimg {
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+}
+.ourservicesflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ourservicespd {
+    padding: 10px;
+}
+
+.Contactus1 {
+    padding: 30px;
+    background-color: #dfe3eb;
+}
+
+.contactusmatter {
+    text-align: center;
+}
+.contactush1 {
+    color: black;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 40px;
+}
+.contactusp1 {
+    color: black;
+    font-family: "Roboto";
+    font-size: 10px; 
+}
+
+.btn-us-1 {
+    height: 20px;
+    width:90vw;
+}
+.email-phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-us-2 {
+    height: 20px;
+    width:40vw;
+}
+.btn-us-3 {
+    height: 120px;
+    width:90vw;
+}
+
+.Footer1 {
+    background-color: #1E293B;
+    height: 30vh;
+}

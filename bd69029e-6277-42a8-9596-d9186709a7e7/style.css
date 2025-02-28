@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.head {
+    font-family: Bree serif;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+
+.center {
+    padding: 100px;
+}
+
+.img {
+    height: 200px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.sound {
+    padding-left: 80px;
+}
+.call{
+    background-color: #dfe3eb;
+}

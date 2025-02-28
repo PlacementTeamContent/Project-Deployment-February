@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+
+.navbar {
+    background-color: #0A1525;
+    color: white;
+    padding: 10px;
+    font-family: "bree serif";
+    font-weight: bold;
+    display: flex;
+    margin: 10px;
+
+}
+
+.navimg {
+    height: 11vh;
+    width: 15vw;
+}
+
+.box1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    color: white;
+    height: 50vh;
+    width: 100%;
+    padding: 5px;
+}
+
+.para {
+    font-family: "bree serif";
+}
+
+.head1 {
+    margin: 10px;
+    font-weight: bold;
+    font-family: "bree serif";
+    text-align: left;
+
+}
+
+.but1 {
+    color: white;
+    background-color: #FFD700;
+    border-radius: 5px;
+    height: 5vh;
+    width: 20vw;
+    border: none;
+}
+
+.box2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.img9 {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.box {
+    text-align: center;
+}
+
+.last {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
+.headl {
+    margin: 10px;
+    font-weight: bold;
+    font-family: "bree serif";
+}
+
+.head {
+    font-family: "bree serif";
+    text-align: left;
+}
+
+.butl {
+    height: 3vh;
+    width: 80vw;
+}
+
+.butl1 {
+    height: 25vh;
+    width: 80vw
+}
+
+.button {
+    height: 3vh;
+    width: 80vw;
+    background-color: yellow;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bottom1 {
+    margin: 20px;
+    font-family: roboto;
+    font-weight: none;
+}
+
+.bottom {
+    display: flex;
+}
+
+.yogi {
+    background-color: #1E293B;
+    color: white;
+
+    font-family: "bree serif";
+    padding: 10px;
+}
+
+.laddu {
+    text-align: center;
+}

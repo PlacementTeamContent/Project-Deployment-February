@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+
+}
+
+.header h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: Bree Serif;
+}
+
+.header p {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Bree Serif;
+}
+
+.header button {
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #6C63FF;
+    border-width: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Bree Serif;
+}
+
+.header-2 {
+    padding: 90px;
+
+}
+
+.img-card {
+    font-family: Bree Serif;
+}
+
+.img-card p {
+    color: #dfe3eb;
+}
+
+.img {
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    border-width: 1px;
+}
+
+.service h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Bree Serif;
+}
+
+.service- @media (min-width:768 and max-width:1200) {
+    display: flex;
+    align-items: flex-start;
+}
+
+.service>p {
+    color: #dfe3eb;
+    font-family: Bree Serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact h1 {
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+#teh {
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+span {
+    color: red;
+}
+
+.contact>p {
+    text-align: start;
+    font-family: Bree Serif;
+}
+
+button {
+    border-radius: 10px;
+    height: 40px;
+    width: 450px;
+    background-color: #6C63FF;
+    border-width: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Bree Serif;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer-img {
+    height: 80px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.footer p {
+    color: #dfe3eb;
+    font-family: Bree Serif;
+    margin-left: 20px;
+}
+.bix{
+    border-radius:5px;
+    border-style:solid;
+    border-color:#e0e0e0;
+    
+    width:300px;
+    height:30px;
+}
+
+.bex{
+    border-radius:5px;
+    border-style:solid;
+    border-color:#e0e0e0;
+    
+    width:300px;
+    height:100px;
+    margin-bottom:10px
+    
+}

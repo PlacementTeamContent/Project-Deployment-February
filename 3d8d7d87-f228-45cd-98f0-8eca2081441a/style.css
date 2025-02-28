@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav-conatiner {
+    background-color: #0a1525;
+    height: 15vh;
+    color: white;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.image {
+    height: 50px;
+    padding: 10px;
+
+}
+
+.para {
+    color: white;
+    padding: 10px;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+    /* justify-content:space-between ; */
+
+}
+
+p {
+    padding: 10px;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading {
+
+    color: white;
+
+}

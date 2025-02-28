@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.headpart-items{
+    background-color:#0A1525;
+}
+
+.header-image-styling{
+    text-align: center;
+    height:50px;
+    width:50px;
+}
+
+.headpart-bars-styling{
+    color:white;
+    font-family: "Bree Serif";
+}
+
+.head-detailing{
+    color:white;
+}
+
+.main-content-page{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 500px;
+    width:auto;
+    text-align: center;
+}
+
+.main-page-content-styling{
+    color:white;
+    font-family: "Bree Serif";
+}
+
+.main-page-button-styling{
+    border-style: solid;
+    border-width:0px;
+    background-color:#FFD700;
+    padding:5px;
+    border-radius:5px;
+    color:white;
+    font-family: "Bree Serif";
+}
+
+.button-alignment{
+    text-align: left;
+    margin-left:50px;
+}
+
+.our-services-page{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+
+.oursevicespassage{
+    margin-bottom:20px;
+}
+
+.our-services-image-detailing{
+    border-radius:5px;
+    height: 100px;
+    width:250px;
+}
+
+.our-services-headings{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.our-services-passages{
+    font-size:10px;
+}
+
+.Contact-us-page{
+    padding:10px;
+    text-align: center;
+    background-color:lightgray;
+}
+
+.contact-us-page-heading-details{
+    font-size: 15px;
+}
+
+.contactus-page-input-detailing{
+    text-align: left;
+    margin-left:20px;
+}
+
+.contactus-page-comment-box{
+    height:100px;
+}
+
+.contactus-button-styling{
+    border-style:solid;
+    border-width:0px;
+    margin-top:20px;
+    background-color: #FFD700;
+    color:white;
+    font-family: "Bree Serif";
+    width:170px;
+}
+
+.footer-styling{
+    background-color:#1E293B;
+    color:white;
+    margin-top:10px;
+    padding:20px;
+}
+
+.footer-profile-image{
+    height:70px;
+}

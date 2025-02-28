@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: Sans-Serif;
+}
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A1525;
+    padding:10px;
+}
+.navbarmobile{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A1525;
+    padding:10px;
+}
+.logotext{
+    font-weight:bold;
+    color:#ffffff;
+    text-align:center;
+    margin:10px;
+    margin-bottom:10px;
+}
+.logosection{
+    display:flex;
+    flex-direction: row;
+ }  
+.logo{
+    height:40px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Robot;
+    color:#ffffff;
+    margin:5px;
+}
+.fa-bars{
+    color:white;
+}
+@media (min-width:768px){
+    
+    .navbarmobile{
+        display:none;
+    }
+    .homeheading{
+        color:#ffffff;
+        font-size: 80px;
+        
+    }
+    .homepara{
+        color:#ffffff;
+        font-size: 30px;
+        
+    }
+    .cards{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        padding:10px;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+    }
+}
+@media (max-width:767px){
+    .navbar{
+        display: none;
+    }
+    .homeheading{
+        color:#ffffff;
+        font-size: 30px;
+        
+    }
+    .homepara{
+        color:#ffffff;
+        font-size: 10px;
+        
+    }
+    .footer-section{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+.homepage{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+    height:100vh;
+    font-family: Roboto;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+    padding:20px;
+    
+    
+}
+.homepage-button{
+    background-color:#FFD700;
+    color:white;
+    border-radius:5px;
+    border-width:0px;
+    height:60px;
+    width:140px;
+    font-size: 20px;
+}
+
+.service-card{
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.service-heading, .service-para{
+    text-align: center;
+}
+.card-img{
+    height:160px;
+    border-radius:10px;
+    width:260px;
+}
+.contact-section{
+    background-color:#FFFFFF;
+    padding:10px;
+}
+.contact-heading{
+    text-align: center;
+}
+.contact-para{
+    font-weight: bold;
+}
+.input-box{
+    width:80vw;
+    margin:10px;
+    border-style:solid;
+    border-color:lightgrey;
+    border-width:1px;
+}
+.input-message-box{
+    height:20vh;
+    width:80vw;
+    border-style:solid;
+    border-color:lightgrey;
+    border-width:1px;
+}
+.star{
+    color:red;
+}
+.footer-section{
+    background-color: #0A1525;
+    padding:20px;
+    color:#FFFFFF;
+}
+.icons{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.footer-para{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.contact-footer{
+    margin-right:50px;
+}
+.footer-content{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.headcard{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+   width:100vw;
+   height:100vh;
+   font-family:"Bree Serif";
+}
+.headcardcontent{
+    color:#FFFFFF;
+    flex-direction:column;
+    justify-content:center;
+    padding-top:300px;
+    padding-left:100px;
+}
+.nav{
+    background-color:#0A1525;
+    color:#FFFFFF;
+    padding:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.img1{
+    height:40px;
+    width:40px;
+    
+}
+.navC{
+    background-color:#0A1525;
+    color:#FFFFFF;
+}
+.but1{
+    color:#FFFFFF;
+    background-color:#FFD700;
+    border-radius:5px;
+    width:80px;
+    height:35px;
+    border-width:0px;
+}
+.h1{
+    font-size:50px;
+}
+.sersection{
+    text-align:center;
+    font-family:"Bree serif";
+    color:grey;
+    font-weight:lighter;
+    
+}
+.heading{
+    font-weight:800;
+    color:#1E293B;
+}
+.heading2{
+    font-weight:800;
+    color:#1E293B;
+    font-size:20px;
+    text-align:start;
+}
+.card1{
+    text-align:start;
+    
+}
+.img2{
+    border-radius:20px;
+}
+.p1{
+    text-align:start;
+}
+.consec{
+    background-color:lightgrey;
+    text-align:center;
+    color:grey;
+    font-weight:lighter;
+    background-size:cover;
+    width:100vw;
+    height:115vh;
+    font-family:"Bree serif";
+}
+
+.box2{
+    background-color:#FFFFFF;
+    border-radius:5px;
+    border-color:grey;
+    border-width:0.25px;
+    height:250px;
+    width:550px;
+    margin:15px;
+    border-style:solid;
+    padding:5px;
+}
+.box1{
+    background-color:#FFFFFF;
+    border-radius:5px;
+    border-color:grey;
+    border-width:1px;
+    height:50px;
+    width:550px;
+    margin:15px;
+    border-style:solid;
+}
+.but2{
+    color:#FFFFFF;
+    background-color:#FFD700;
+    border-radius:5px;
+    width:550px;
+    height:35px;
+    border-width:0px;
+}
+.bbg{
+    background-color:lightgrey;
+    background-size:cover;
+}
+.img3{
+    height:50px;
+    width:50px;
+}
+.foot{
+    background-color:#0A1525;
+    background-size:cover;
+    width:100vw;
+    height:55vh;
+    color:lightgrey;
+    font-family:"Bree-serif";
+}
+.p2{
+    color:white;
+}
+.sele{
+    color:red;
+}
+.last{
+    text-decoration:underline;
+}

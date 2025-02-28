@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    color: white;
+    border-radius: 8px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+}
+
+.navbar_last {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+
+}
+
+.img {
+    height: 40px;
+
+
+}
+
+.navbar_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: space-between; */
+}
+
+.first_page {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 800px;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_page_head {
+    font-size: 50px;
+}
+
+.first_page_btn {
+    background-color: #FFD700;
+    border-radius: 5px;
+}
+
+
+.secound_page {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 100%;
+    /* text-align: center; */
+    margin-top: 40px;
+}
+
+.scd_pade {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.secound_img {
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.secound_page_flex {
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (min-width:992px) {
+    .secound_page_flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+
+.third_page {
+    background-color: lightgray;
+    background-size: cover;
+    height: 100%;
+}
+
+.third_para {
+    margin-bottom: 30px;
+}
+
+.center_third_page {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.in {
+    width: 600px;
+    border-radius: 5px;
+}
+
+.in1 {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.in2 {
+    width: 600px;
+    padding-bottom: 150px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.third_page_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    text-align: center;
+    margin: 10px;
+}
+
+.third_btn {
+    background-color: #FFD700;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.fourth_page {
+    background-color: #1E293B;
+    height: 100%;
+    /* text-align: center; */
+    color: white;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.img1{
+    height: 40px;
+    margin: 20px;
+}
+.fa{
+    height: 20px;
+}

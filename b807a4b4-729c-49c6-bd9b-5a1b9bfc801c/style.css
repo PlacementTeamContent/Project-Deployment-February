@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav{
+   /*  background-image: url("https://cdn-icons-png.freepik.com/128/16226/16226189.png"); */
+/*     height:150px;
+width:150px; */
+    background-size:cover;
+    
+    
+    background-color:#0A1525;
+    padding:10px;
+}
+.sec{
+    display: flex;
+    background-color:#0A1525;
+    align-content: flex-end;
+    align-self: flex-end;
+    justify-content:space-between;
+    color:white;
+}
+.head{
+    color:white;
+}
+.pg-1{
+    
+    background-size:cover;
+    background-image:url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    color:white;
+    padding:80px;
+}
+.cbtn{
+    background-color:transparent;
+    color:black;
+    border-radius:10px;
+    height:40px;
+}

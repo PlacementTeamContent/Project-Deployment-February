@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    height: 8vh;
+    display: flex;
+    background-color: #0A1525;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.navimg {
+    height: 90%;
+    border-radius: 50%;
+
+}
+
+.bars {
+    color: #FFFFFF;
+}
+
+.navp {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.flexnav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section2 {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+    padding: 20px;
+}
+
+.s2h {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.s2p {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+
+}
+
+.s2but {
+    background-color: #FFD700;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 0px;
+}
+
+.ourserv {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 10px;
+    height: 200vh;
+}
+
+.ourservflexh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.osh {
+    color: black;
+    font-family: "Bree Serif";
+}
+
+.osp {
+    color: grey;
+    font-family: "Bree Serif";
+}
+
+.oscard {
+    height: 35%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.osimg {
+    height: 40%;
+    border-radius: 30px;
+}
+
+.osimg2 {
+    height: 40%;
+    border-radius: 30px;
+}
+
+.paraos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.contactus {
+    background-color: lightgrey;
+    height: 95vh;
+    padding: 20px;
+}
+
+.cflex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cnflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.divvv {
+    height: 30px;
+    background: white;
+    border-radius: 7px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 5px;
+    width: 90%;
+}
+.divvvgh{
+    height: 30px;
+    background: white;
+    border-radius: 7px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 5px;
+    width: 90%;
+}
+
+.divvvpe {
+    height: 200px;
+    background: white;
+    border-radius: 7px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 5px;
+    width: 90%;
+}
+
+.p {
+    margin: 5px;
+
+}
+
+.co {
+    color: red;
+}
+
+.footer {
+    background-color: #1E293B;
+    height: 80vh;
+    padding: 30px;
+}
+
+.footdiv1 {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footimg {
+    height: 25%;
+    width: 25%;
+
+}
+
+.icon {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.footdiv2 {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footdiv3 {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foottwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.atri {
+    display: none;
+}
+
+.un {
+    text-decoration: underline;
+}
+
+.pp {
+    align-self: flex-end;
+    color: white;
+}
+
+@media (min-width:768px) {
+    .atri {
+        display: flex;
+        color: white;
+
+    }
+
+    .kkk {
+        margin-left: 20px;
+    }
+
+    .section2 {
+        height: 70vh;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        padding: 20px;
+    }
+    .ourserv {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 10px;
+    height: 40vh;
+}
+    .threemix {
+        margin-top:40px;
+        height: 100%;
+        display: flex;
+    }
+    .osimg {
+    height: 60%;
+    border-radius: 30px;
+}
+
+.osimg2 {
+    height: 60%;
+    border-radius: 30px;
+}
+.contactus {
+    background-color: lightgrey;
+    height: 60vh;
+    padding: 20px;
+}
+
+.cflex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cnflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.jkjk{
+    display: flex;
+}
+.divvvgh {
+   flex-grow:2 ;
+}
+.divvv {
+   flex-shrink:2 ;
+}
+.footer{
+    display: flex;
+    height: 30vh;
+}
+.footimg {
+    height: 45%;
+    width: 45%;
+
+}
+.footdiv2{
+    margin: 10px;
+}
+.footdiv1{
+    margin: 10px;
+}
+.footdiv3{
+    margin: 10px;
+}
+.pp{
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flexitem{
+    display: flex;
+    justify-content: space-around;
+}
+}

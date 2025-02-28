@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@media {
+    .nav-styling{
+        display: flex;
+        justify-content: space-around;
+        
+        background-color: #0A1525;
+        color: white;
+        width: 100vw;
+    }
+    .alingment{
+        display: flex;
+    }
+}
+.image-styling{
+    height: 30px;
+}
+.paddingclass{
+    margin: 8px;
+}
+.hero-section{
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+.hero-section-styling{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-styling{
+    color: white;
+    background-color: #FF7A2E;
+    border: 0px ;
+    border-radius:5px;
+    height: 30px;
+}
+.hero-styling{
+    width: 400px;
+}
+.cards-section-stylind{
+    text-align: center;
+}
+.image{
+    height: 190px;
+    width: 300px;
+    border-radius: 7px;
+}
+.cards{
+    display: flex;
+}
+.ContactUs-section{
+    text-align: center;
+    background-color: #dfe3eb;
+}
+.talk-button{
+    height: 25px;
+    width: 250px;
+    color: white;
+    background-color: #FF7A2E;
+    border: 0px;
+    border-radius: 7px;
+    margin: 7px;
+}
+.icons{
+    display: flex;
+}
+.footer-section{
+    display: flex;
+    background-color: #0A1525;
+    color: white;
+}

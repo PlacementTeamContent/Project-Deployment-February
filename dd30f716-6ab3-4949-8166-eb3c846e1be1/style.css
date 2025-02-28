@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+
+.exploring-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 50vh;
+    min-height: 50vh;
+}
+
+.Exploriing-head {
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bree Serif";
+
+}
+
+.Explorin-para {
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    flex-direction: row;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.btn-button {
+    color: #ffffff;
+    background-color: #6c63ff;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.o-head {
+    color: #0a1525;
+    text-align: center;
+    font-family: "Bree Serif";
+    margin: 30px;
+}
+
+.o-para {
+    color: #1E293B;
+    text-align: center;
+
+}
+
+.image {
+    height: 200px;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+
+
+.head-1 {
+    color: #1E293B;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+.para-1 {
+    color: #1E293B;
+    font-size: 15px;
+}
+
+.WHole-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.c-conatiner {
+    background-color: #dfe3eb;
+    height: 400px;
+}
+
+.head-2 {
+    text-align: center;
+    color: #1E293B;
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+.para-2 {
+    color: #1E293B;
+    font-size: 15px;
+    text-align: center;
+}
+
+.b-contaibner{
+    background-color:#1E293B;
+    height:600px;
+}
+
+.image-1{
+    height:80px;
+    margin:10px;
+    padding:10px;
+    padding-left:10px;
+}
+
+.para-3{
+    color:#dfe3eb;
+     margin:10px;
+    padding:10px;
+    padding-left:10px;
+}
+
+.i{
+    font-size:28px;
+    margin:10px;
+    margin-left:10px;
+    padding:10px;
+    padding-left:10px;
+    color:#dfe3eb;
+}
+.head-4{
+    color:white;
+    font-size:15px;
+     margin:10px;
+    padding:10px;
+    padding-left:10px;
+}
+
+.para-5{
+    color:#dfe3eb;
+     margin:10px;
+    padding:10px;
+    padding-left:10px;
+     display: flex;
+    flex-direction:column;
+}

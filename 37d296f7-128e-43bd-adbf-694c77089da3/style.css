@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    font-family: "Bree Serif";
+}
+.top{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    height: 50vh;
+    width:100vw;
+}
+.img1{
+    height: 20px;
+    width: 30px;
+}
+.nav_elements{
+    padding: 20px;
+}
+nav{
+    height: 30px;
+    width: 100vw;
+    background-color: #0A1525;
+    color: #ffffff;
+    
+}
+.header{
+    margin-top: 60px;
+    margin-left: 50px;
+    text-align: left;
+    color:#ffffff;
+    
+}
+.button{
+    background-color: #4b84f3;
+    border-radius:5px;
+    border-style: none;
+    height: 30px;
+    width: 100px;
+}
+.btw{
+    text-align: center;
+    
+}
+.para{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.img2{
+    height: 150px;
+    width:200px;
+    border-radius: 7px;
+}
+.end{
+    background-color:#dfe3eb;
+    height: 50vh;
+    width: 100vw;
+}
+.end2{
+    margin:70px;
+    text-align: center;
+    padding:20px;
+}
+.width{
+    width:350px;
+    
+}
+.butt{
+    background-color: #4b84f3;
+    border-radius: 5px;
+    border-style:none;
+    padding: 5px;
+}
+.in{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.footer{
+    background-color: #1a2942;
+    width: 100vw;
+    height:40vh;
+    color:#ffffff;
+}
+.star{
+    color: red;
+}
+.img3{
+    height: 70px;
+    width:90px;
+}
+.hi{
+    display: flex;
+    margin: 50px;
+    justify-content: flex-start;
+}
+.Message{
+    height:120px;
+    padding: 5px;
+}
+.list{
+    list-style: none;
+}
+@media screen and (min-width:576){
+    .row{
+        display: flex;
+        align-items: flex-start;
+    }
+}

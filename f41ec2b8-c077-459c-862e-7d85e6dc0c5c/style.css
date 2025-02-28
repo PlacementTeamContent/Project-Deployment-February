@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.home-page {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#ham-burger {
+    margin-top: 19px;
+    margin-right: 16px;
+}
+
+.logo-image {
+    height: 50px;
+    padding: 10px;
+}
+
+.home-heading {
+    color: white;
+
+}
+
+.nav-content {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /*  justify-content:space-between; */
+
+}
+
+nav {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-head {
+    font-size: 42px;
+    font-family: "Roboto";
+}
+
+.explore-para {
+    color: white;
+    font-weight: bold;
+}
+
+.contact-us {
+    background-color: #4B9EFF;
+    border-width: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+}
+
+.our-services {
+    color: #1E293B;
+    text-align: center;
+    font-family: "Bree Serif";
+
+}
+
+.section-page {
+    text-align: center;
+}
+
+.card1 {
+    background-color: white;
+
+    text-align: center;
+}
+
+.card-image {
+    height: 180px;
+    border-radius: 10px;
+}
+
+.card-heading {
+    color: #1E293B;
+    font-family: "Bree Serif";
+    font-size: 25px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.contactus-page {
+    background-color: #dfe3eb;
+    /* height:100vh; */
+}
+
+.contact-heading {
+    color: #1E293B;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.got-para {
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+
+.star {
+    color: red;
+    font-size: 30px;
+    margin-top: 17px;
+}
+
+.name-container {
+    display: flex;
+}
+
+input {
+    background-color: white;
+    border-radius: 10px;
+    border-width:2px;
+    border-style:solid;
+    border-color:lightgray;
+    margin: 10px;
+    height: 50px;
+    width: 550px;
+}
+
+.Message {
+    height: 210px;
+}
+
+.talk-button {
+    background-color: #4B9EFF;
+    border-width: 0px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    width: 505px;
+    text-align: center;
+}
+
+.footer-page {
+    background-color: #0A1525;
+}
+
+.footer-para {
+    color: gray;
+}
+
+.list-1,
+.list-2 {
+    color: gray;
+    padding: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.end {
+    background-color: black;
+    height: 30px;
+    color: gray;
+    margin: 2px;
+
+}
+
+span {
+    text-decoration: underline;
+}
+
+#Icon {
+    color: gray;
+    padding: 8px;
+    /*  background-color:white ; */
+}
+
+@media screen and (min-width:768px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contactus-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .our-services,
+    .contact-heading {
+        font-size: 50px;
+    }
+}

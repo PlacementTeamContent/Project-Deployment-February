@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+header {
+    background-color: #0A1426;
+
+    width: 100vw;
+    
+}
+
+.para {
+    color: #FFFFFF;
+    
+}
+
+.img {
+    height: 50px;
+}
+
+section {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+.head {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.par {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.btn {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    border: solid;
+    border-color: #4A90E2;
+    border-radius: 4px;
+}
+
+.Ourservices {
+    background-color: white;
+    text-align: center;
+}
+
+.img1 {
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.head1 {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.para1 {
+    color: #e0dfdc;
+    font-family: "Bree Serif";
+}
+.container{
+    background-color:#e0dfdc ;
+}
+footer{
+    background-color:#0A1426;
+}
+.era{
+    color:white;
+}
+.fa{
+    color:white;
+}
+.head2{
+    color:white;
+}

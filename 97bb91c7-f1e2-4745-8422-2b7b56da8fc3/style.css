@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    font-family: "Bree Serif";
+}
+
+.nav-bar {
+    background-color: #0a1525;
+    width: 100vw;
+}
+
+.logo {
+    height: 60px;
+}
+
+.img-111 {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 280px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.para-adv {
+    width: 70vw;
+    padding-top: 5px;
+}
+
+.brand-name {
+    color: #ffffff;
+}
+
+.nav-bar-1 {
+    color: #ffffff;
+}
+
+.invest-plan-img {
+    width: 100vw;
+}
+
+.heading-adv {
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.para-adv {
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.btn {
+    background-color: #f6b352;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 13px;
+    border: none;
+}
+
+.services-page {
+    justify-content: center;
+}
+
+.ser-img-1 {
+    height: 30vh;
+    width: 70vw;
+    border-radius: 10px;
+}
+
+.ser-img-2 {
+    height: 30vh;
+    width: 70vw;
+    border-radius: 10px;
+}
+
+.ser-img-3 {
+    height: 30vh;
+    width: 70vw;
+    border-radius: 10px;
+}
+
+.services-page {
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.ser-img-1-head {
+    font-family: "Bree Serif";
+}
+
+.ser-img-2-head {
+    font-family: "Bree Serif";
+}
+
+.ser-img-3-head {
+    font-family: "Bree Serif";
+}
+
+.ser-img-1-para {
+    font-family: "Bree Serif";
+}
+
+.ser-img-2-para {
+    font-family: "Bree Serif";
+}
+
+.ser-img-3-para {
+    font-family: "Bree Serif";
+}
+
+.contact-us-container {
+    text-align: center;
+    background-color: #dfe3eb;
+    font-family: "Bree Serif";
+}
+
+.row-1 {
+    text-align: center;
+}
+
+.row-2 {
+    text-align: center;
+}
+
+.row-3 {
+    text-align: center;
+}
+
+.con-us-cont-costu-details {
+    text-align: left;
+}
+
+.btn-box {
+    width: 80vw;
+    height: 30px;
+}
+
+.span {
+    color: red;
+}
+
+.btn-box-com {
+    height: 15vh;
+    width: 80vw;
+}
+
+.talk-btn {
+    background-color: #f6b352;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 13px;
+    border: none;
+    width: 80vw;
+    /* text-align: left; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #0a1525;
+}
+
+.footer-logo {
+    height: 60px;
+    margin-left: 10px;
+}
+
+.foot-para {
+    color: white;
+    font-size: 16px;
+
+}
+
+.fa {
+    color: white;
+}
+
+.bi {
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}

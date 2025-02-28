@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1525;
+    height: 5vh;
+    width: 100vw;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.navelements{
+    display: flex;
+    justify-content: space-around;
+}
+.backgroundimg{
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    height: 50vh;
+    width: 100vw;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    background-color: #FF7A2E;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #FFFFFF;
+    height: 3vh;
+}
+.ourservicesimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 45vh;
+}
+.img{
+    height: 25vh;
+    width: 25vw;
+}
+.ourserviceshead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dfe3eb;
+    height: 60vh;
+}
+.name:last-child{
+    color: red;
+}
+.email:last-child{
+    color: red;
+}
+.massage:last-child{
+    color: red;
+}
+.last{
+    background-color: #1E293B;
+    height: 30vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

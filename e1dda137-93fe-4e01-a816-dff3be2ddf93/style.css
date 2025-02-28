@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.img-1 {
+    height: 20px;
+    width: 20px;
+}
+
+.top-heading {
+    background-color: #0A1525;
+    height: 30%;
+    width: 100%;
+    color: white;
+}
+
+.nxt-container {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: #4B9EFF;
+    color: white;
+}
+
+.footer {
+    background-color: #1E293B;
+    color: white;
+
+
+}
+
+.one {
+    height: 10px;
+}
+
+.list {
+    list-style: none;
+}
+.last{
+    text-align: center;
+}

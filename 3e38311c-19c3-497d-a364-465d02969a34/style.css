@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-nxt{
+    background-color: #0a1525;
+}
+.image{
+    height: 30px;
+    width: 30px;
+}
+.d{
+    display: flex;
+    
+}
+.para{
+    color: #ffffff;
+}
+.back-card{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.advanced{
+    font-family: "Bree Serif";
+    text-align: left;
+    font-size: 24px;
+    color: #ffffff;
+}
+.paraa{
+    font-family: "Bree Serif";
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+}
+.blut{
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #4b84f3;
+    border-width: 0px;
+    border-radius: 4px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Bree Serif";
+}
+.our{
+    text-align: center;
+}
+.provide{
+    text-align: center;
+    font-size: 10px;
+}
+.sound-card{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.enginer{
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+.imageee{
+    height: 100px;
+    width: 150px;
+    border-radius: 4px;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.us{
+    display: flex;
+    flex-direction: row;
+}
+.got{
+    background-color: #dfe3eb;
+    
+}
+.name{
+    height: 20px;
+    width: 300px;
+    border-color: #dfe3eb;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    background-color: #ffffff;
+}
+.email{
+    height: 20px;
+    width: 150px;
+    border-color: #dfe3eb;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    background-color: #ffffff;
+}
+.phone{
+    height: 20px;
+    width: 150px;
+    border-color: #dfe3eb;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    background-color: #ffffff;
+}
+.msg{
+    height: 100px;
+    width: 300px;
+    border-color: #dfe3eb;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    background-color: #ffffff;
+}
+.let{
+    width: 300px;
+    background-color: #4b84f3;
+    color: #ffffff;
+    border-width: 0px;
+}
+.foot{
+    display: flex;
+    color: #ffffff;
+    background-color: #1a2942;
+    
+}
+.menu{
+    font-family: "Bree Serif";
+    font-size: 16px;
+}
+.symbol{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    text-align: center;
+    
+}
+.last{
+    display: flex;
+    justify-content: center;
+    background-color: #1a2942;
+    color: #ffffff;
+}

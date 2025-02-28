@@ -1,0 +1,143 @@
+.navbar {
+    background-color: black;
+
+    color: white;
+
+    text-decoration: none;
+}
+
+.nav-container {
+    background-color: black;
+    color: white;
+}
+
+.a2 {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    background-color: transparent;
+    font-family: Bree serif;
+}
+
+.head {
+    font-family: Roboto;
+}
+
+.button1 {
+    border-radius: 3px;
+    background-color: #6c63ff;
+    color: #dfe3eb;
+    border-color: transparent;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.card {
+    border-style: solid;
+    border-color: transparent;
+    padding: 10px;
+    margin: 20px;
+}
+
+.img1 {
+    height: 200px;
+    width: 70vw;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container3 {
+    margin-top: 30px;
+    background-color: #dfe3eb;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: Normal;
+
+}
+
+.blank {
+    border-style: solid;
+    height: 40px;
+    width: 94vw;
+    margin-right: 15px;
+    margin-left: 5px;
+    border-width: 3px;
+    border-radius: 2px;
+    border-color: lightgrey;
+    background-color: white;
+}
+
+.blank1 {
+    text-align: left;
+    border-style: solid;
+    height: 200px;
+    width: 94vw;
+    border-width: 3px;
+    border-radius: 2px;
+    border-color: lightgrey;
+    margin-right: 15px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.para {
+    padding-bottom: 50px;
+}
+
+.button2 {
+    background-color: #6c63FF;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    padding-top: 30px;
+    background-color: #0A1525;
+    height: 100vh;
+    text-align: left;
+    color: white;
+    padding-left: 30px;
+}
+
+.para2 {
+    margin-left: 20px;
+    font-family: Roboto;
+    color: #dfe3eb;
+}
+
+.para3 {
+    padding-top: 250px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.a1 {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+}

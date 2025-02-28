@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.li {
+    height: 40px;
+    width: 60px;
+}
+.d {
+    display: flex;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+.n {
+    background-color: #0A1525;
+    margin: 0px;
+}
+.di{
+    color: #FFFFFF;
+}
+.j {
+    color: white;
+}
+.v {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+.b {
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+.o {
+    text-align: center;
+    margin: 10px;
+}
+.oi {
+    padding-top: 20px;
+    height: 170px;
+    width: 170px;
+}
+.m {
+    display:  flex;
+    flex-direction: row;
+    
+}

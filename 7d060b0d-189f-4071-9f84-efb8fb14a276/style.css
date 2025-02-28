@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: Bree Serif;
+}
+
+i {
+    color: white;
+    padding: 5px;
+}
+
+.navbar {
+    background-color: #0A1220;
+    background-size: cover;
+
+    align-items: center;
+}
+
+.logoimg {
+    height: 40px;
+    width: 30px;
+    padding: 10px;
+}
+
+.navdiv {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    text-decoration: none;
+    align-self: center;
+    color: white;
+    font-family: Bree Serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 100px;
+}
+
+li {
+    color: white;
+    padding: 10px;
+    font-family: Bree Serif;
+    margin-left: 10px;
+}
+
+.bars {
+    color: white;
+    margin-right: 20px;
+}
+
+/* Main div  */
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+.mainheading {
+    color: white;
+    margin-left: 50px;
+}
+
+.mainpara {
+    color: #dfe3eb;
+    margin-left: 50px;
+}
+
+.mainbutton {
+    color: white;
+    border-radius: 10px;
+    background-color: #00E5BE;
+    background-size: cover;
+    padding: 7px;
+    margin-left: 50px;
+    width: 20vw;
+    border-width: 0px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+
+}
+
+.img {
+    margin: 10px;
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    margin-top: 50px;
+    background-color: #dfe3eb;
+    background-size: cover;
+}
+
+.name {
+    height: 3vh;
+    width: 40vw;
+    margin-left: 10px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.email {
+    height: 3vh;
+    width: 25vw;
+    display: inline;
+    margin-left: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.phone {
+    margin-top: 10px;
+    height: 3vh;
+    width: 25vw;
+    display: inline;
+    margin-left: 10px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.inline {
+    display: flex;
+    justify-content: space-around;
+}
+
+.comments {
+    height: 20vh;
+    width: 50vw;
+    margin-left: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.commentbutton {
+    background-color: #00E5BE;
+    height: 3vh;
+    width: 90vw;
+    border-radius: 1px;
+    color: white;
+    margin: 13px;
+    border-width: 0px;
+}
+
+.bottom {
+    background-color: #1E293B;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.lok {
+    display: flex;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottompara {
+    color: white;
+}

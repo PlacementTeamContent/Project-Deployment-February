@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.cont{
+    font-family:"Bree Serif";    
+}
+
+.card{
+    background-color:#0A1426;
+    display:flex;
+    flex-direction:row;
+}
+
+.head{
+    color:white;
+    padding-bottom:10px;
+    padding-left: 10px;
+}
+
+.hea{
+    color:white;
+    padding-bottom:10px;
+    padding-left: 15px;
+}
+
+.hea1{
+    color:white;
+    padding-bottom:10px;
+    padding-left: 15px;
+}
+
+.hea2{
+    color:white;
+    padding-bottom:10px;
+    padding-left: 15px;
+}
+
+.hea3{
+    color:white;
+    padding-bottom:10px;
+    padding-left:15px;
+}
+
+.head1{
+    color:white;
+    font-size:80px;
+    display:flex;
+    flex-direction:row;
+}
+
+.para{
+    color:white;
+    font-size:30px;
+}
+
+.button{
+    background-color:#4A90E2;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    border-radius:10px;
+    border-width:0px;
+    height:60px;
+    width:120px;
+}
+
+.bar{
+    display:flex;
+    color:white;
+    padding-left:15px;
+    padding-bottom:35px;
+    flex-direction:row;
+    align-items:flex-end;
+}
+
+.image{
+    height:60px;
+    width:80px;
+    padding:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:140px;
+}
+
+.small{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding:120px;
+}
+
+.bg-container{
+    background-image:url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size:cover;
+    height:100vh;
+}
+
+.ser{
+    text-align:center;
+}
+
+.serpar{
+    text-align:center;
+}
+
+.img{
+    border-radius:90px;
+    padding:70px;
+    height:20vh;
+    width:20vw;
+}
+
+.img1{
+    border-radius:90px;
+    padding:70px;
+    height:20vh;
+    width:20vw;
+}
+
+.img2{
+    border-radius:90px;
+    padding:70px;
+    height:20vh;
+    width:20vw;
+}

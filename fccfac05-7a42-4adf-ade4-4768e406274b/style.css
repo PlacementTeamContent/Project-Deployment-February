@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-continer {
+
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    width: 100vw;
+}
+
+.heading {
+    /*   display:flex;
+  flex-direction:column; */
+    color: white;
+    width: 24px;
+}
+
+.para1 {
+    color: white;
+    text-align: center;
+}
+
+.yellow {
+    border-color: #FFD700;
+    color: white;
+    margin-top: 10px;
+    background-color: #FFD700;
+    border-radius: 10px;
+}
+.contact{
+    text-align: center;
+}
+.yellow1 {
+    width: 100vw;
+    margin-top: 10px;
+    border-color: #FFD700;
+    color: white;
+    background-color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.inpt {
+    height: 15px;
+    width: 100vw;
+}
+
+.inpt1 {
+    width: 100vw;
+    height: 30vh;
+}
+
+.top {
+    text-align: center;
+}
+
+.photo {
+    border-radius: 25px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.black-bg {
+    width: 100vw;
+    background-color: black;
+}
+
+.smg-img {
+    padding: 15px;
+    height: 40px;
+}
+
+.bbc {
+    margin-left: 40vw;
+}
+
+.hhd {
+    color: white;
+}
+
+.pp {
+    color: white;
+}
+
+.split {
+    display: flex;
+}
+
+.imag {
+    padding: 4px;
+    height: 30px;
+}
+
+.black {
+    display: flex;
+    background-color: black;
+}
+
+.nxt {
+    color: white;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.bi {
+    color: white;
+}
+
+.fa {
+    height: 50px;
+    margin-left: 80vw;
+    color: white;
+}
+
+.onee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width-768) {
+    .onee {
+        display: none;
+    }
+}
+
+/* .dark{
+    margin-top:10px;
+    display:flex;
+    background-color:black; 
+    height:10vh;
+    width:100vw;
+}
+.ppt{
+    color:white;
+}
+.clas{
+    display:flex;
+} */

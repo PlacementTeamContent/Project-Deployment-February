@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar_styling {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    color: #ffffff;
+    display: flex;
+    justify-content:space-between;
+}
+
+.section1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #ffffff;
+    padding: 6px;
+    font-family: Bree Serif;
+}
+
+.para {
+    color: #ffffff;
+    padding: 6px;
+    font-size: 13px;
+}
+
+.btn_styling {
+    background-color: #FF7A2E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 6px;
+}
+
+.section2 {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.two_heading {
+    font-family: Bree Serif;
+}
+
+.two_paragraph {
+    font-family: Bree Serif;
+    color: #1E293B;
+}
+
+.two_img_height {
+    height: 180px;
+    width: 290px;
+    margin: 10px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+
+.img_heading {
+    font-family:Roboto;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.img_paragraph {
+    font-family: Bree Serif;
+    color: #1E293B;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 10px;
+}
+#contactus{
+    background-color:#dfe3eb;
+    width:100vw;
+    text-align:center;
+}
+.Contact_heading{
+    font-family:Times New Roman;
+    padding:10px;
+}
+.Contact_paragraph{
+    font-family:Bree Serif;
+    padding:4px;
+    font-size:13px;
+}
+.astric{
+    color:#FF7A2E;
+}
+.name{
+    font-family:Bree Serif;
+    font-size:20px;
+    text-align:left;
+}
+.contact_sec{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.user1{
+    height:200px;
+    width:280px;
+    background-color:#ffffff;
+    margin:6px;
+    border-radius:6px;
+    border-color:#1E293B;
+    border-style:solid;
+    border-width:1px;
+}
+.contact_spacing{
+    padding:12px;
+}
+.foot{
+    background-color:#0A1525;
+    width:100vh;
+}
+.footer_para{
+    color:#ffffff;
+    font-family:Bree Serif;
+    padding:10px;
+    font-size:14px;
+}
+.cl{
+    color:#ffffff;
+    padding:4px;
+}
+.footer_sub{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.container1{
+    color:#ffffff;
+    font-family:Bree Serif;
+    padding:6px;
+}
+.container2{
+    color:#ffffff;
+    font-family:Bree Serif;
+    padding:6px;
+}
+.hea1{
+    font-size:23px;
+}

@@ -1,0 +1,937 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+@media screen and (min-width:576px) {
+    .navbar {
+        background-color: #0A1525;
+        height: 10vh;
+        width: 100vw;
+        padding: 5px;
+    }
+    .name1 {
+        text-align: start;
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        margin-left: 30px;
+    }
+    .icon {
+        height: 5vh;
+        margin: 10px;
+    }
+    
+    .column {
+        display: flex;
+        color: #ffffff;
+    }
+
+    .text {
+        font-family: Bree Serif;
+        font-size: 20px;
+    }
+
+    .icon1 {
+        font-size: 20px;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .text4 {
+        color: #ffffff;
+        font-family: Tahoma;
+        font-size: 18px;
+        margin:30px;
+    }
+    .bg-container {
+        background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #ffffff;
+        font-family: Bree Serif;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .services {
+        text-align: center;
+        font-family: Bree Serif;
+    }
+
+    .text1 {
+        color: #1e293b;
+        font-family: Tahoma;
+    }
+
+    .img2 {
+        height: 25vh;
+        width: 80vw;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .heading1 {
+        text-align: start;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .text2 {
+        color: #1e293b;
+        font-family: Tahoma;
+        font-size: 18px;
+    }
+
+    .contact {
+        background-color: lightgrey;
+        padding: 5px;
+        height: 105vh;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .heading2 {
+        color: black;
+        font-family: Bree Serif;
+    }
+
+    .name {
+        text-align: start;
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        margin-left: 20px;
+    }
+
+    .star {
+        color: red;
+    }
+
+    .input {
+        height: 5vh;
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    .input1 {
+        height: 20vh;
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    .button {
+        background-color: #ffd700;
+        height: 5vh;
+        width: 90vw;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        border: 0px;
+        font-family: Tahoma;
+    }
+
+    .footer {
+        background-color: #1e293b;
+        width: 100vw;
+        height: 65vh;
+        padding: 5px;
+    }
+
+    .icon2 {
+        height: 50px;
+        width: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .para1 {
+        font-size: 20px;
+        color: #ffffff;
+        font-family: Tahoma;
+        margin-left: 30px;
+    }
+
+    .icons {
+        display: flex;
+        font-size: 30px;
+        color: #ffffff;
+        margin-left: 30px;
+    }
+
+    .icons1 {
+        margin-right: 10px;
+    }
+
+    .text3 {
+        color: #ffffff;
+        font-family: Tahoma;
+        font-size: 18px;
+        margin: 30px;
+    }
+
+    .display {
+        display: flex;
+    }
+
+    .display2 {
+        margin-left: auto;
+
+    }
+
+    .copy {
+        color: #ffffff;
+        font-family: Tahoma;
+        margin-top: auto;
+    }
+
+    .button1 {
+        background-color: #ffd700;
+        height: 5vh;
+        width: 20vw;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        border: 0px;
+        font-family: Tahoma;
+        align-self: flex-start;
+        margin-left: 30px;
+    }
+
+}
+@media screen and (max-width:575px) {
+    .navbar {
+        background-color: #0A1525;
+        height: 10vh;
+        width: 100vw;
+        padding: 5px;
+    }
+
+    .icon {
+        height: 5vh;
+        margin: 10px;
+    }
+
+    .column {
+        display: flex;
+        color: #ffffff;
+    }
+    .text4 {
+        color: #ffffff;
+        font-family: Tahoma;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .text {
+        font-family: Bree Serif;
+        font-size: 20px;
+    }
+
+    .icon1 {
+        font-size: 20px;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .bg-container {
+        background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #ffffff;
+        font-family: Bree Serif;
+        align-items: center;
+    }
+    .name1 {
+        text-align: start;
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        margin-left: 30px;
+    }
+    .heading {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .services {
+        text-align: center;
+        font-family: Bree Serif;
+    }
+
+    .text1 {
+        color: #1e293b;
+        font-family: Tahoma;
+    }
+
+    .img2 {
+        height: 25vh;
+        width: 80vw;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .heading1 {
+        text-align: start;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .text2 {
+        color: #1e293b;
+        font-family: Tahoma;
+        font-size: 18px;
+    }
+
+    .contact {
+        background-color: lightgrey;
+        padding: 5px;
+        height: 135vh;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .heading2 {
+        color: black;
+        font-family: Bree Serif;
+    }
+
+    .name {
+        text-align: start;
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        margin-left: 20px;
+    }
+
+    .star {
+        color: red;
+    }
+
+    .input {
+        height: 5vh;
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    .input1 {
+        height: 20vh;
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    .button {
+        background-color: #ffd700;
+        height: 5vh;
+        width: 90vw;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        border: 0px;
+        font-family: Tahoma;
+    }
+
+    .footer {
+        background-color: #1e293b;
+        width: 100vw;
+        height: 100vh;
+        padding: 5px;
+    }
+
+    .icon2 {
+        height: 50px;
+        width: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .para1 {
+        font-size: 20px;
+        color: #ffffff;
+        font-family: Tahoma;
+        margin-left: 30px;
+    }
+
+    .icons {
+        display: flex;
+        font-size: 30px;
+        color: #ffffff;
+        margin-left: 30px;
+    }
+
+    .icons1 {
+        margin-right: 10px;
+    }
+
+    .text3 {
+        color: #ffffff;
+        font-family: Tahoma;
+        font-size: 12px;
+        margin: 30px;
+    }
+
+    .display {
+        display: flex;
+    }
+
+    .display2 {
+        margin-left: auto;
+
+    }
+
+    .copy {
+        color: #ffffff;
+        font-family: Tahoma;
+        margin-top: auto;
+    }
+
+    .button1 {
+        background-color: #ffd700;
+        height: 5vh;
+        width: 29vw;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        border: 0px;
+        font-family: Tahoma;
+        align-self: flex-start;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .navbar {
+        background-color: #0A1525;
+        height: 10vh;
+        width: 100vw;
+        padding: 5px;
+    }
+
+    .icon {
+        height: 5vh;
+        margin: 10px;
+    }
+
+    .column {
+        display: flex;
+        color: #ffffff;
+    }
+
+    .text {
+        font-family: Bree Serif;
+        font-size: 20px;
+    }
+
+    .icon1 {
+        font-size: 20px;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .bg-container {
+        background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #ffffff;
+        font-family: Bree Serif;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .services {
+        text-align: center;
+        font-family: Bree Serif;
+    }
+
+    .text1 {
+        color: #1e293b;
+        font-family: Tahoma;
+    }
+
+    .img2 {
+        height: 15vh;
+        width: 20vw;
+        margin-top: 30px;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+
+    .heading1 {
+        text-align: start;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .text2 {
+        color: #1e293b;
+        font-family: Tahoma;
+        font-size: 15px;
+    }
+
+    .contact {
+        background-color: lightgrey;
+        padding: 5px;
+        height: 75vh;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .heading2 {
+        color: black;
+        font-family: Bree Serif;
+    }
+
+    .name {
+        text-align: start;
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        margin-left: 130px;
+    }
+
+    .star {
+        color: red;
+    }
+
+    .input {
+        height: 3vh;
+        width: 70vw;
+        border-radius: 10px;
+    }
+
+    .input2 {
+        height: 3vh;
+        width: 35vw;
+        border-radius: 10px;
+    }
+
+    .input1 {
+        height: 20vh;
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    .button {
+        background-color: #ffd700;
+        height: 5vh;
+        width: 90vw;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        border: 0px;
+        font-family: Tahoma;
+    }
+
+    .footer {
+        background-color: #1e293b;
+        width: 100vw;
+        height: 25vh;
+        padding: 5px;
+
+    }
+
+    .icon2 {
+        height: 50px;
+        width: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .para1 {
+        font-size: 20px;
+        color: #ffffff;
+        font-family: Tahoma;
+        margin-left: 30px;
+    }
+
+    .icons {
+        display: flex;
+        font-size: 30px;
+        color: #ffffff;
+        margin-left: 30px;
+    }
+
+    .icons1 {
+        margin-right: 10px;
+    }
+
+    .text3 {
+        color: #ffffff;
+        font-family: Tahoma;
+        font-size: 15px;
+        margin: 30px;
+    }
+
+    .display1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .display2 {
+        margin-left: auto;
+
+    }
+
+    .copy {
+        color: #ffffff;
+        font-family: Tahoma;
+
+    }
+
+    .button1 {
+        background-color: #ffd700;
+        height: 5vh;
+        width: 10vw;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        border: 0px;
+        font-family: Tahoma;
+        align-self: flex-start;
+        margin-left: 140px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-left: 20px;
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input2 {
+        margin-left: 130px;
+    }
+
+    .name1 {
+        text-align: start;
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        margin-left: 30px;
+    }
+
+    .input3 {
+        height: 3vh;
+        width: 35vw;
+        border-radius: 10px;
+    }
+
+    .column1 {
+        display: flex;
+    }
+
+    .display {
+        display: flex;
+    }
+
+    .text4 {
+        color: #ffffff;
+        font-family: Tahoma;
+        font-size: 15px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .navbar {
+        background-color: #0A1525;
+        height: 10vh;
+        width: 100vw;
+        padding: 5px;
+    }
+
+    .icon {
+        height: 5vh;
+        margin: 10px;
+    }
+
+    .column {
+        display: flex;
+        color: #ffffff;
+    }
+
+    .text {
+        font-family: Bree Serif;
+        font-size: 20px;
+    }
+
+    .icon1 {
+        font-size: 20px;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .bg-container {
+        background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #ffffff;
+        font-family: Bree Serif;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .services {
+        text-align: center;
+        font-family: Bree Serif;
+    }
+
+    .text1 {
+        color: #1e293b;
+        font-family: Tahoma;
+    }
+
+    .img2 {
+        height: 15vh;
+        width: 20vw;
+        margin-top: 30px;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+
+    .heading1 {
+        text-align: start;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .text2 {
+        color: #1e293b;
+        font-family: Tahoma;
+        font-size: 15px;
+    }
+
+    .contact {
+        background-color: lightgrey;
+        padding: 5px;
+        height: 75vh;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .heading2 {
+        color: black;
+        font-family: Bree Serif;
+    }
+
+    .name {
+        text-align: start;
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        margin-left: 130px;
+    }
+
+    .star {
+        color: red;
+    }
+
+    .input {
+        height: 3vh;
+        width: 70vw;
+        border-radius: 10px;
+    }
+
+    .input2 {
+        height: 3vh;
+        width: 35vw;
+        border-radius: 10px;
+    }
+
+    .input1 {
+        height: 20vh;
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    .button {
+        background-color: #ffd700;
+        height: 5vh;
+        width: 90vw;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        border: 0px;
+        font-family: Tahoma;
+    }
+
+    .footer {
+        background-color: #1e293b;
+        width: 100vw;
+        height: 30vh;
+        padding: 5px;
+
+    }
+
+    .icon2 {
+        height: 50px;
+        width: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .para1 {
+        font-size: 20px;
+        color: #ffffff;
+        font-family: Tahoma;
+        margin-left: 30px;
+    }
+
+    .icons {
+        display: flex;
+        font-size: 30px;
+        color: #ffffff;
+        margin-left: 30px;
+    }
+
+    .icons1 {
+        margin-right: 10px;
+    }
+
+    .text3 {
+        color: #ffffff;
+        font-family: Tahoma;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .display1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .display2 {
+        margin-left: 30px;
+
+    }
+
+    .copy {
+        color: #ffffff;
+        font-family: Tahoma;
+        margin-top:60px;
+    }
+
+    .button1 {
+        background-color: #ffd700;
+        height: 5vh;
+        width: 15vw;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        border: 0px;
+        font-family: Tahoma;
+        align-self: flex-start;
+        margin-left: 140px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-left: 20px;
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input2 {
+        margin-left: 110px;
+        margin-right: 20px;
+    }
+
+    .name1 {
+        text-align: start;
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        margin-left: 30px;
+    }
+
+    .input3 {
+        height: 3vh;
+        width: 35vw;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    .column1 {
+        display: flex;
+    }
+
+    .display {
+        display: flex;
+    }
+
+    .text4 {
+        color: #ffffff;
+        font-family: Tahoma;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}

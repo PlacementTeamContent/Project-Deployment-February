@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: #0A1525;
+
+
+}
+
+.heading-part {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.img-1 {
+    height: 100px;
+    padding-left: 100px;
+}
+
+.head {
+    padding: 10px;
+}
+
+.mid-section {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    padding: 50px;
+    justify-content: center;
+    height: 33vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-2 {
+    height: 100px;
+}
+
+.heading-2 {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    justify-content: center;
+    padding: 50px;
+}
+
+.btn-1 {
+    background-color: #FFD700;
+    font-family: "Bree Serif";
+    color: white;
+    width: 35vw;
+    border: 2px;
+    border-radius: 3px;
+}
+
+.para-1 {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.ourservices {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading-3 {
+    justify-content: center;
+    display: flex;
+}
+
+.para 
+{
+     justify-content: center;
+    display: flex;
+
+}
+.endsection{
+    display: flex;
+    flex-direction: column;
+}
+.imgsection{
+    background-image: url('https://img.b2bpic.net/premium-photo/creative-visual-technology-network_31965-16945.jpg');
+    height: 50vh;
+    width: 70vw;
+    background: cover;
+}
+.imgsection-1{
+    background-image: url('https://img.b2bpic.net/premium-photo/human-interact-with-ai-artificial-intelligence-virtual-assistant-nlp-robot_31965-310760.jpg');
+    height: 50vh;
+    width: 70vw;
+    background: cover;
+}
+.imgsection-2{
+    background-image: url('https://img.b2bpic.net/premium-photo/human-interact-with-ai-artificial-intelligence-virtual-assistant-nlp-robot_31965-310760.jpg');
+    height: 50vh;
+    width: 70vw;
+    background: cover;
+}

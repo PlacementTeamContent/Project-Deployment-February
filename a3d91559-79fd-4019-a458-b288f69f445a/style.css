@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "Bree Serif";
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: full;
+    
+}
+
+.containermg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: full;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.logo{
+    margin-left: 10px;
+    
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.navb{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A1525;
+    height: 70px;
+    width: 100%;
+    color: #dfe3eb;
+    position: fixed;
+   top:0px;
+}
+
+.navmage{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    color: #dfe3eb;
+}
+.l{
+    margin: 10px;
+}
+.top-space{
+    height: 100px;
+}
+.burger{
+        height: 100px;
+        width: 10px;
+        margin: 30px;
+        margin-bottom: 40px;
+    }
+.bannerSection{
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    padding: 250px;
+    background-size: cover;
+    color: #FFFFFF;
+    margin-top:60px;
+}
+.btn{
+    background-color: #8B5CF6;
+    color: #dfe3eb;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ash{
+    color: red;
+}
+.btn-2{
+    background-color: #8B5CF6;
+    color: #dfe3eb;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 250px;
+}
+.ourmg{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.cards{
+    width: 300px;
+    margin: 20px;
+}
+.section-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfe3eb;
+    height: 80vh;
+}
+.boxes{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+.boxe{
+    border: none;
+    border-radius: 5px;
+    height: 90px;
+    width: 250px;
+}
+.light{
+   color: #dfe3eb;
+}
+
+@media screen and (min-width:767px){
+    .burger{
+        display: none;
+        flex: column;
+        
+    }
+    .ourservices{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .direct{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .tm{
+        margin-left: 60px;
+     }
+     .footer{
+        background-color: #0A1525;
+        color: #dfe3eb;
+        margin: 20px;
+    }
+   }
+@media screen and (max-width:767px){
+    .container2{
+        display: none;
+    }
+    .ourservices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .bannerSection{
+    background-image:  linear-gradient(to left,red,blue('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg'));
+    padding: 30px;
+    color: #dfe3eb;
+
+    }
+    .direct{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    
+    }
+    .tm{
+        margin-left: 60px;
+    }
+    .footer{
+    background-color: #0A1525;
+    color: #dfe3eb;
+ }
+}

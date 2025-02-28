@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbg{
+    background-color: #0A1220;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.navimage{
+    height: 100px;
+    width: 100px;
+}
+.navpara{
+    font-family: "Bree Serif";
+    color: white;
+    font-size: 25px;
+}
+.navparas{
+    font-family: "Bree Serif";
+    color: white;
+    font-size: 25px;
+}
+.bg{
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    height: 50vh;
+    text-shadow: 10px;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mh{
+    color: white;
+    font-family: "roboto";
+}
+.mp{
+    color: white;
+    font-family: "roboto";
+}
+.mb{
+    background-color: #00E5BE;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-width: 0px;
+}
+.osh{
+    color: #0A1220;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.osp{
+    color: #1E293B;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.card{
+    height: 300px;
+    width: 270px;
+    
+}
+
+.cardtexth{
+    color: #0A1220;
+    font-family: "Bree Serif";
+}
+.cardtextp{
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+.cardimage{
+    height: 170px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.con{
+    display: flex;
+}
+
+.bg2{
+    background-color: #dfe3eb;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+.symbol{
+    color: red;
+}
+.button2{
+    background-color: #00E5BE;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 600px;
+    border-width: 0px;
+}
+
+.cua{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.special{
+    display: flex;
+}
+
+.special21{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+.special22{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.box1{
+    width: 600px;
+    height: 50px;
+    border-radius: 15px;
+    border-width: 0px;
+}
+
+.box2{
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border-width: 0px;
+}
+
+.box3{
+    width: 600px;
+    height: 100px;
+    border-radius: 15px;
+    border-width: 0px;
+}
+
+.bg3{
+    background-color: #0A1220;
+    width: 100vw;
+    height: 30vh;
+}
+.fcon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fp{
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+}
+.fpp{
+    color: #dfe3eb;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 10px;
+}
+.fh{
+    color: white;
+    font-family: "Bree Serif";
+}
+.ficon{
+    color: #dfe3eb;
+    margin-left: 10px;
+}
+.ficoncon{
+    display: flex;
+}
+.f{
+    text-decoration: underline;
+    color: #dfe3eb;
+}
+@media screen and (max-width:767px){
+    .bg2{
+        background-color: #dfe3eb;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 50px;
+}
+}
+@media screen and (max-width:767px){
+    .bg3{
+        background-color: #0A1220;
+        width: 100vw;
+        height: 50vh;
+    }
+}
+@media screen and (max-width:767px){
+    .button2{
+        background-color: #00E5BE;
+        border-radius: 10px;
+        color: white;
+        height: 50px;
+        width: 400px;
+        border-width: 0px;
+}
+}
+@media screen and (max-width:767px){
+    .box2{
+        width: 400px;
+        height: 50px;
+        border-radius: 15px;
+        border-width: 0px;
+    }
+}
+@media screen and (max-width:767px){
+    .box3{
+        width: 400px;
+        height: 100px;
+        border-radius: 15px;
+        border-width: 0px;
+}
+}
+@media screen and (max-width:767px){
+    .box1{
+        width: 400px;
+        height: 50px;
+        border-radius: 15px;
+        border-width: 0px;
+    }
+}
+@media screen and (max-width:767px){
+    .special{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:767px){
+    .navpara{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    .con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

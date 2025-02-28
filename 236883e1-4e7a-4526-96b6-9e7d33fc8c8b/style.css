@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg_container {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+.main_heading{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 350px;
+    padding-right: 50px;
+    font-size: 50px;
+    font-family: "Bree Serif";
+}
+.main_para{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.homepage_button{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 550px;
+}
+.homepage_buttonn{
+    color: white;
+    width: 120px;
+    background-color: #4B84F3;
+    border-radius:2px;
+    border-color: transparent;
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+.sectionServicespage_heading{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.sectionServicespage_paragraph{
+    text-align: center;
+    font-family: "Bree Serif";
+    color: #1A2942;
+    
+}
+.sectionServicespage_cards_container{
+    display: flex;
+    font-family: "Bree Serif";
+}
+.cards_container_image{
+    height: 30vh;
+    width: 30vw;
+}
+.cards_container_image{
+    border-radius: 5px;
+}
+.cards_container_heading{
+    
+}
+.cards_container_paragraph{
+    color: #1A2942;
+}
+.input{
+    font-size: 5px;
+}
+.text{
+    padding-right: 100px;
+}
+.textt{
+    padding-right: 130px;
+}
+.placeholder{
+   text-align: center;
+}
+.placeholder_message{
+    height: 50px;
+}
+.contactus_container{
+    background-color: #dfe3eb;
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+.buttonn{
+    background-color: #4B84F3;
+    border-radius: 2px;
+    border-color: #4B84F3;
+    color: white;
+    margin-top: 10px;
+    width: 17vw;
+    font-family: "Bree Serif";
+}
+.three{
+    display: flex;
+}
+.sectionEnd{
+    background-color: #1A2942;
+    color: white;
+}
+.end_heading{
+    font-size: 20px;
+}
+.two{
+    padding-right: 60px;
+}
+.span{
+    text-decoration: underline;
+    text-align: center;
+}
+.one{
+    padding-left: 100px;
+}
+.last{
+    text-align: center;
+    padding-right: 50px;
+}
+.one_para{
+    padding-top:10px;
+    
+}
+.navbar{
+    background-color: #0A1525;
+}
+.navbar_image{
+    height: 10vh;
+    margin-left:20px ;
+    margin-top: 20px;
+}
+.nav-para{
+    color: white;
+    padding-top: 30px;
+    padding-left:10px;
+}
+.navv{
+    display: flex;
+}
+.nav-items{
+    color: white;
+    text-align: right;
+}

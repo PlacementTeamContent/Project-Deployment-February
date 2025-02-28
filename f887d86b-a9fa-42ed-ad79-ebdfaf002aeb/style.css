@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.total_container{
+    height: 100%;
+    width: 100%;
+    background-color: #dfe3eb;
+}
+.navbar_container{
+    background-color: #0A1525;
+    height: 70px;
+    width: 100%;
+    color: #ffffff;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo_heading{
+    font-size: 20px;
+}
+.logo_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo_img{
+    height: 40px;
+    padding: 20px;
+}
+.logo_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+   }
+@media (max-width: 576px){
+    .logo_items>a{
+    padding: 10px;
+    align-self: center;
+    font-size: 20px;
+    max-width: 576px;
+    }
+}
+@media screen{
+    
+   .logo_items>p{
+      padding: 10px;
+    font-size: 10px;
+    align-self: center;
+    
+   }
+   .logo_items>a{
+    padding: 10px;
+    align-self: center;
+    font-size: 14px;
+   }
+}
+
+.building_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.heading{
+    font-family: "Bree-Serif";
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.img_para{
+    font-family: "Bree-Serif";
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.btn_contact{
+    align-self: flex-start;
+    margin-left: 40px;
+    background-color: #4B9EFF;
+    border-radius: 9px;
+    color: #ffffff;
+    height: 30px;
+}
+.Our_servive_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.Os_heading{
+    color: #0a1525;
+    
+}
+.os_para{
+    align-self: center;
+    padding-left: 50px;
+}
+.card_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.types_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 250px;
+    width: 170px;
+    padding: 20px;
+    margin: 10px;
+}
+.card_img{
+    height: 80px;
+    border-radius: 10px;
+}
+.card_head{
+    font-size: 20px;
+}
+.contact_us_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cs_heading{
+    font-size: 20px;
+}
+.cs_para{
+    align-self: center;
+    padding-left: 50px;
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.types_of_form_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    
+}
+.Name_element{
+    font-size: 15px;
+}
+.name_class{
+    border-radius: 7px;
+    width: 400px;
+}
+.types_of_form_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.email{
+    border-radius: 7px;
+}
+.message{
+    width: 400px;
+    height: 300px;
+    border-radius: 7px;
+}
+.button_let{
+    background-color: #4B9EFF;
+    width: 400px;
+    border-radius: 7px;
+    color: #ffffff;
+}
+footer{
+    background-color: #1e293B;
+    height: 300px;
+    width: 100%;
+}
+.footer_container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.type_1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: flex-start;
+}
+.para_footer{
+    color: #ffffff;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.bi{
+    padding: 5px;
+}
+.head_foot{
+    color: #ffffff;
+    font-size: 20px;
+}

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.navimage{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+
+.navarc{
+    margin: 1px 20px 10px 50px;
+    font-size: 19px;
+    font-style: italic;
+    font-family: Sans-Serif;
+    color: white;
+    font-weight: bold;
+    display:flex;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+
+.hero{
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    text-align: left;
+    color: white;
+    padding: 400px 10px 10px 10px;
+    font-size: 30px;
+}
+.heroheader{
+    font-size: 80px;
+}
+.herobtn{
+    color: black;
+    background-color: #dfe3eb;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+    border-color:white ;
+    font-size: 15px;
+}
+
+.se{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.seimg{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+/* .card1{
+    height: 400px;
+    width: 400px;
+} */
+
+.contactus{
+    background-color: #dfe3eb;
+}
+.plp{
+    text-align: center;
+}
+#comments{
+    height: 200px;
+    width: 500px;
+}
+.span{
+    color: red;
+}
+.usbtn{
+    background-color: #4B84F3;
+    width: 80%;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.info{
+    padding: 20px 20px 20px 20px;
+}
+
+
+.foot{
+    background-color: #1A2942;
+    color: white;
+    display: flex;
+}
+.left{
+    width: 300px;
+}
+
+.middle{
+    
+    text-align: center;
+    margin-left: 200px;
+}
+
+.right{
+    text-align: center;
+    margin-left:200px ;
+}

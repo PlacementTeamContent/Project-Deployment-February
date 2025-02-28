@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0;
+}
+
+.Nav-bar {
+    background-color: #1E293B;
+    height: 10vh;
+    margin: 0px;
+}
+
+.total-bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+
+.nav-head {
+    font-size: 15px;
+    color: white;
+    font-family: Bree Serif;
+    position: relative;
+    left: 85px;
+    top: -40px;
+}
+
+.nav-img {
+    height: 8vh;
+    position: static;
+}
+.barsnav {
+    color:white;
+    position:relative;
+    top:-120px;
+    left:96vw;
+}
+.nav-between-1{
+    color:white;
+    font-size:10px;
+    position:relative;
+    top:-5.7vh;
+    left:65vw;
+}
+.nav-between-2{
+    color:white;
+    font-size:10px;
+    position:relative;
+    top:-8vh;
+    left:75vw;
+}
+.nav-between-3{
+    color:white;
+    font-size:10px;
+    position:relative;
+    top:-10.2vh;
+    left:87vw;
+}
+.main-head {
+    color: white;
+    font-size: 50px;
+    font-family: Bree Serif;
+    position: relative;
+    top: 30vh;
+    left: 20vw;
+    right: 10vw;
+}
+.main-para{
+  color:white;  
+  font-size:20px;
+  position:relative;
+  top:30vh;
+  left:20vw;
+}
+.btn{
+    background-color:#8B5cF6;
+    border-radius:5px;
+    color:white;
+    padding:5px;
+    border-width:0;
+}
+.main-btn{
+    position:relative;
+    top:33vh;
+    left:20vw;
+}
+.services-div{
+    position:relative;
+    left:30vw;
+}
+.services-head{
+    font-family:Bree Serif;
+    padding-left:10vw;
+}
+.services-para{
+    font-family:Bree Serif;
+}
+.img-1{
+    border-radius:10px;
+    height:15vh;
+    width:28vw;
+}
+.head-1{
+    font-family:Bree Serif;
+    font-size:20px;
+}
+.para-1{
+    font-family:Bree Serif;
+    font-size:10px;
+}
+.div-1{
+    position:relative;
+    top:2vh;
+    left:2vh;
+}
+.div-2{
+    position:relative;
+    left:36vw;
+    top:-20vh;
+}
+.div-3{
+    position:relative;
+    left:73vw;
+    top:-42.3vh;
+}
+.contact-us{
+    position:relative;
+    left:30vw;
+    top:-38vh;
+}
+.head-2{
+    font-family:Bree Serif;
+    font-size:15px;
+    position:relative;
+    left:25vw;
+    top:-34vh;
+}
+.para-2{
+    height:3vh;
+    width:60vw;
+    background-color:#dfe3eb;
+    position:relative;
+    left:25vw;
+    top:-34vh;
+}
+.head-3{
+    font-family:Bree Serif;
+    font-size:15px;
+    position:relative;
+    left:25vw;
+    top:-32vh;
+}
+.para-3{
+    height:3vh;
+    width:28vw;
+    background-color:#dfe3eb;
+    position:relative;
+    left:25vw;
+    top:-32vh;
+}
+.head-4{
+    font-family:Bree Serif;
+    font-size:15px;
+    position:relative;
+    left:55vw;
+    top:-37vh;
+}
+.para-4{
+    height:3vh;
+    width:28vw;
+    background-color:#dfe3eb;
+    position:relative;
+    left:55vw;
+    top:-37vh;
+}
+.head-5{
+    font-family:Bree Serif;
+    font-size:15px;
+    position:relative;
+    left:25vw;
+    top:-34vh;
+}
+.para-5{
+    height:15vh;
+    width:60vw;
+    background-color:#dfe3eb;
+    position:relative;
+    left:25vw;
+    top:-34vh;
+}
+.btn-1{
+   background-color:#8B5cF6;
+    border-radius:5px;
+    color:white;
+    padding:5px;
+    border-width:0; 
+    width:60vw;
+}
+.btn-div-1{
+   position:relative;
+    left:24vw;
+    top:-32vh; 
+}
+.bottom-bg{
+    background-color:#0A1525;
+}
+.bottom-head{
+    color:white;
+    font-size:13px;
+}
+.color{
+    color:white;
+}
+.btm-2{
+    position:relative;
+    color:white;
+    left:50vw;
+    top:-10vh;
+}
+.btm-3{
+    position:relative;
+    color:white;
+    left:85vw;
+    top:-17vh;
+}
+.para-6{
+    color:white;
+}
+.para-6-div{
+    position:relative;
+    left:15vw;
+    top:-6vh;
+}

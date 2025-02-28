@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.top-nav-bar-container{
+    background: #0A1525;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.custom-logo{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+@media screen and (min-width:768px){
+    .custom-logo{
+        height: 75px;
+        width: 75px;
+    }
+}
+
+.nav-bar-items{
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 17px;
+}
+
+.nav-bar-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 43vw;
+}
+@media screen and (max-width:766px) {
+    .nav-bar-items{
+        display: none;
+    }
+}
+.custom-logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 19vw;
+}
+.nav-bar-logo-text{
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 26px;
+}
+.nav-top-bars-icon{
+    color: #ffffff;
+    font-size: 30px;
+}
+.banner-section-background-container{
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 86vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-section-main-heading{
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.banner-section-main-discription{
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 400;
+    text-align: center;
+}
+.banner-section-contact-us-button{
+    background-color: #4b9eff;
+    border-width: 0px;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Bree Serif';
+}
+.our-services-section-background-container{
+    background-color: #ffffff;
+    background-size: cover;
+    min-height: 60vh;
+    padding: 10px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:766px) {
+    .our-services-section-background-container{
+        background-color: #ffffff;
+        background-size: cover;
+        min-height: 140vh;
+        padding: 10px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.our-services-section-main-heading{
+    font-family: 'Bree Serif';
+    font-size: 25px;
+    color: #0a1525;
+    text-align: center;
+}
+.our-services-section-main-discription{
+    color: #1e293b;
+    font-size: 20px;
+    text-align: center;
+}
+.oursection-sub-cards{
+    background: #ffffff;
+    padding: 10px;
+    height: 30vh;
+    width: 27vw;
+}
+@media screen and (max-width:766px) {
+    .oursection-sub-cards{
+        background: #ffffff;
+        padding: 10px;
+        height: 30vh;
+        width: 77vw;
+    }
+}
+.oursection-sub-cards-images{
+    height: 20vh;
+    width: 25vw;
+    border-radius: 10px;
+}
+@media screen and (max-width:766px) {
+    .oursection-sub-cards-images{
+        height: 30vh;
+        width: 75vw;
+        border-radius: 10px;
+    }
+}
+.oursection-sub-cards-heading{
+    font-size: 20px;
+    color: #1e293b;
+    font-family: 'Bree Serif';
+}
+@media screen and (max-width:766px) {
+    .oursection-sub-cards-heading{
+        font-size: 24px;
+        color: #1e293b;
+        font-family: 'Bree Serif';
+    }
+}
+.oursection-sub-cards-discription{
+    font-family: 'Bree Serif';
+    font-size: 13px;
+    color: #1e293b;
+}
+.oursection-sub-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:766px) {
+    .oursection-sub-cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.contactus-section-background-container{
+    background-color: #dfe3eb;
+    background-size: cover;
+    min-height: 75vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactus-main-heading{
+    font-family: 'Bree Serif';
+    font-size: 40px;
+    color: #0a1525;
+    margin-bottom: 6px;
+}
+@media screen and (max-width:766px) {
+  .contactus-main-heading{
+        font-family: 'Bree Serif';
+        font-size: 25px;
+        color: #0a1525;
+        margin-bottom: 6px;
+    }  
+}
+.contactus-main-discription{
+    color: #1e293b;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+    margin-top: 0px;
+}
+@media screen and (max-width:766px) {
+    .contactus-main-discription{
+        color: #1e293b;
+        font-size: 13px;
+        font-family: 'Bree Serif';
+        margin-top: 0px;
+    }
+}
+.Contactus-input-methods-styling{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.Contactus-input-methods-heading{
+    font-family: 'Bree Serif';
+    font-size: 26px;
+    font-weight: bold;
+}
+@media screen and (max-width:766px) {
+    .Contactus-input-methods-heading{
+        font-family: 'Bree Serif';
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+.Contactus-input-method{
+    width: 70vw;
+    height: 4vh;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+.Contactus-input-method-email{
+    width: 33vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin-right: 20px;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+
+.Contactus-input-email-password-container{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:766px) {
+    .Contactus-input-method-email{
+        width: 75vw;
+        height: 4vh;
+        border-radius: 5px;
+        margin-right: 20px;
+        border-color: #ffffff;
+        border-width: 2px;
+    }
+    .Contactus-input-email-password-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.Contactus-input-methods-comments{
+    height: 20vh;
+    width: 75vw;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+.Contactus-section-lets-talk-button{
+    width: 75vw;
+    height: 4vh;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #4b9eff;
+    color: #ffffff;
+    font-size: 15px;
+}
+.footer-section-background-container{
+    background-color: #1e293b;
+    background-size: cover;
+    min-height: 30vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-section-contactus-menu-container-small-diveces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+}
+@media screen and (max-width:766px) {
+    .footer-section-background-container{
+        background-color: #1e293b;
+        background-size: cover;
+        min-height: 30vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-section-contactus-menu-container-small-diveces{
+        display: flex;
+        justify-content: space-between;
+        align-self: flex-start;
+        width: 60vw;
+    }
+    .footer-section-icon-container{
+        width: 70vw;
+        align-self: flex-start;
+    }
+}
+
+.footer-section-background-icon-image{
+    height: 60px;
+    width: 60px;
+}
+.footer-section-social-media-icons{
+    color: #ffffff;
+    font-size: 27px;
+}
+.footer-section-social-media-icons-container{
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:766px) {
+   .footer-section-social-media-icons-container{
+        width: 35vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    } 
+}
+.footer-section-icon-discription{
+    font-family: 'Bree sreif';
+    font-size: 13px;
+    color: #ffffff;
+}
+.footer-section-contactus-heading{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+}
+.footer-section-contactus-discription{
+    color: #ffffff;
+    font-family: 'Bree sreif';
+    font-size: 10px;
+}
+.footer-section-bottom-text{
+    color: #ffffff;
+    font-size: 13px;
+    align-self: flex-start;
+    text-align: left;
+}
+.footer-section-bottom-text-container{
+    background-color: #1e293b;
+    height: 4vh;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.footer-section-bottom-text-last{
+    color: #ffffff;
+    font-size: 13px;
+    align-self: flex-start;
+    text-align: left;
+    text-decoration: underline;
+}

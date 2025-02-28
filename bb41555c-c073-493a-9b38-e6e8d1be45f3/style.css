@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    height: 60px;
+    min-width: 110vw;
+}
+
+.img {
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.p {
+    color: white;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.display2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon {
+    color: white;
+    padding: 20px;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 90vh;
+    min-width: 110vw;
+    background-size: cover;
+    margin: 0px;
+}
+
+.display100 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.dd100 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+}
+
+.h1 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 50px;
+}
+
+.button {
+    color: white;
+    background-color: #FFD700;
+    border-radius: 3px;
+    border-width: 0px;
+    width: 80px;
+    height: 40px;
+
+}
+
+.bg-container1 {
+    height: 60vh;
+    width: 120vw;
+}
+
+.img1 {
+    border-radius: 20px;
+    height: 180px;
+    width: 300px;
+    padding: 5px;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+}
+
+.container100 {
+    background-color: #DFE3EB;
+    height: 100vh;
+    width: 110vw;
+    padding: 20px;
+    text-align: center;
+}
+
+span {
+    color: orange;
+}
+
+.box {
+    width: 600px;
+}
+
+.align1 {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-align: center;
+}
+
+.box2 {
+
+    width: 300px;
+    margin: 20px;
+
+}
+
+.box3 {
+    height: 200px;
+    width: 800px;
+}
+
+.button22 {
+    background-color: #FFD700;
+    border-width: 0px;
+    border-radius: 5px;
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cont {
+    background-color: #0A1525;
+    height: 50vh;
+    width: 114vw;
+}
+
+.imzz {
+    height: 60px;
+    width: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.icon1 {
+    color: #DFE3EB;
+    padding: 6px;
+
+}
+
+.p66 {
+    color: #DFE3EB;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.last1 {
+    text-decoration: underline;
+    color: #DFE3EB;
+}

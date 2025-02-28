@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 95%;
+    display: row;
+    justify-content: space-between;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bg-cont {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 352px;
+    width: 773px;
+    color: white;
+    padding: 20px;
+    display: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #00E5BE;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+    color: white;
+}
+
+.card-cont {
+    text-align: center;
+    font-family: "Robotic";
+    font-size: 15px;
+}
+
+.img1 {
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.card {
+    text-align: center;
+}
+
+.cards {
+    background-color: #dfe3eb;
+    height: 60vh;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.con {
+    font-size: 15px;
+}
+
+.out {
+    height: 25%;
+    width: 60%;
+}
+
+.ysh{
+    background-color: #00E5BE;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 60vh;
+}
+
+.heading {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.foot {
+    padding: 10px;
+    margin: 40px;
+    font-size: 15px;
+    color: white;
+}

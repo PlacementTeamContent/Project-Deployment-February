@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.side{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    
+}
+.navbar{
+   /*  margin-left:  300px; */
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+
+}
+nav{
+    background-color: #0A1525;
+    height: 10vh;
+    width: 100vw;
+    color: #ffffff;
+}
+header{
+    background-image:url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg') ;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+   background-repeat: no-repeat;
+   /* text-align: center; */
+}
+img{
+    height: 40px;
+    width: 40px;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+.main{
+    color: #ffffff;
+    padding: 20px;
+    font-family: "Bree Serif";
+    font-size: 50px;
+    
+}
+.para{
+    color: #ffffff;
+    padding:10px;
+    padding-top: 0px;
+    font-family: "Bree Serif";
+}
+.but{
+    margin: 10px;
+    border-radius: 10px;
+    height: 45px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #FFD700;
+    
+}
+.imgg{
+    height: 200px;
+    width: 260px;
+    border-radius: 20px;
+    
+}
+article{
+    text-align: center;
+    
+}
+
+.our{
+    font-family: "Bree Serif";
+    font-size: 30px;
+    text-align: center;
+}
+.we{
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.card{
+    
+}
+.cards{
+    
+}
+
+
+
+.sidee{
+    text-align: left;
+    font-family: "Bree Serif";
+
+}
+h3{
+    font-family: "Bree Serif";
+   
+}
+.paramm{
+    font-weight: 100;
+    text-align: left;
+     font-family: "Bree Serif";
+     
+}
+.box{
+    height: 5vh;
+    width: 80vw;
+    border-radius: 10px;
+    border-style: solid;
+}
+.footer1{
+    background-color: #ffffff ;
+}
+h4{
+    font-family: "Bree Serif";
+}
+.contact{
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.got{
+    font-family: "Bree Serif";
+    
+}
+.boxx{
+    height: 20vh;
+    width: 80vw;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+    align-items: center;
+}
+.butt{
+    margin: 10px;
+    border-radius: 10px;
+    height: 45px;
+    width: 80vw;
+    color: #ffffff;
+    background-color: #FFD700;
+    border-color: #ffffff;
+    text-align: center;
+    align-items: center;
+}
+
+.last{
+    height: 55px;
+    width: 55px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.footer2{
+    background-color: #1E293B;
+    color: #ffffff;
+}
+.inn{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    text-align: left;
+    padding-left: 30px;
+}
+.fs{
+    height: 150px;
+    width: 150px;
+    color: #ffffff;
+    padding-left: 5px;
+}
+.fsss{
+    padding-left: 30px;
+    
+}
+span{
+    text-decoration: underline;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: space-around; */
+    
+}
+.final{
+    font-family: "Bree Serif";
+   padding: 10px;
+}
+p{
+    font-family: "Bree Serif";
+}

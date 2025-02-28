@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    margin:0px;
+}
+.container{
+    width:90vw;
+    background-size:cover;
+}
+.navbar{
+    background-color:#1E293B;
+    width:100vw;
+    height:100px;
+    display:flex;
+    justify-content:space-around;
+    
+}
+.icon-1{
+    height:80px;
+}
+.navbar-heading{
+    color:#ffffff;
+    font-family:"Bree Serif";
+    font-weight:normal;
+}
+.navbar-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.card-toggler{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    gap:20px;
+}
+h1{
+    color:#ffffff;
+}
+i{
+    color:#ffffff;
+    height:100px;
+}
+.about-us{
+    background-image:url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height:400px;
+    width:100vw;
+}
+.about-us-heading{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.about-us-para{
+    color:#ffffff;
+    text-align:center;
+}
+.Button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+.button{
+    background-color:#F6B352;
+    border-radius:5px;
+    border-width:0px;
+    margin:0px;
+    color:#ffffff;
+    font-weight:normal;
+}
+.os-images{
+    height:300px;
+    width:400px;
+}
+.os-card-head{
+    color:#0A1525;
+    text-align:center;
+}
+.os-card-para{
+    color:#1E293B;
+    text-align:center;
+}
+.os-main-heading{
+    color:#0A1525;
+    text-align:center;
+}
+.os-main-para{
+    color:black;
+    text-align:center;
+}
+.os-cards{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+}

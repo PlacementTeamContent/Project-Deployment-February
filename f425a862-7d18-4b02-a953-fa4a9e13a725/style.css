@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.project{
+    display:flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+.image1{
+    width:50px;
+    height:50px;
+}
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: #0A1525;
+}
+.navlist{
+    color:#ffffff;
+    text-align: center;
+}
+.nav-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+}
+.nav-items1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+}
+.nav-items2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+}
+.main1{
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.box1{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+.main2{
+    background-color: #dfe3eb;
+}
+.name{
+    display:flex;
+    flex-direction:column;
+    padding-left:30px;
+    font-family: "Bree Serif";
+}
+.empty{
+   width:900px;
+   height:20px;
+   border-radius: 8px;
+   background-color: #ffffff;
+}
+.name1{
+    display:flex;
+    flex-direction:row;
+    gap:20px
+}
+.empty1{
+     width:450px;
+   height:20px;
+   border-radius: 8px;
+   background-color: #ffffff;
+}
+.empty2{
+     width:450px;
+   height:20px;
+   border-radius: 8px;
+   background-color: #ffffff;
+}
+.empty3{
+     width:900px;
+   height:300px;
+   border-radius: 8px;
+   background-color: #ffffff;
+}
+.button1{
+    border-width:0px;
+    border-radius:5px;
+    margin-left:30px;
+    background-color: #6c63ff;
+    height:20px;
+    width:900px;
+    color:#ffffff;
+    margin-bottom: 30px;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    padding-left:20px;
+    padding-top:40px;
+}
+.foot1{
+    display:flex;
+    flex-direction:column;
+}
+.foot4{
+    display:flex;
+    flex-direction: row;
+    gap:10px
+}
+.footer2{
+    display:flex;
+    flex-direction: row;
+    padding-top:20px;
+    gap:130px
+}
+.footer3{
+     display:flex;
+    flex-direction: column;
+    padding-right:30px;
+}
+.last{
+    display:flex;
+    flex-direction: column;
+    padding-right:30px;
+    
+}
+}
+
+
+@media screen and (min-width:575px) and (max-width:767px){
+  .image1{
+    width:50px;
+    height:50px;
+}
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #0A1525;
+}
+.navlist{
+    color:#ffffff;
+    text-align: center;
+}
+.nav-items1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+}  
+.nav-items2{
+    display:none;
+}
+.main1{
+    background-color: #ffffff;
+    background-size: cover;
+}
+.main1{
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.box1{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.main2{
+    background-color: #dfe3eb;
+}
+.name{
+    display:flex;
+    flex-direction:column;
+    padding-left:30px;
+    font-family: "Bree Serif";
+}
+.empty{
+   width:500px;
+   height:20px;
+   border-radius: 5px;
+   background-color: #ffffff;
+}
+.name1{
+    display:flex;
+    flex-direction:column;
+    font-family: "Bree Serif";
+  
+}
+.empty1{
+    width:500px;
+   height:20px;
+   border-radius: 8px;
+   background-color: #ffffff;
+}
+.empty2{
+     width:500px;
+   height:20px;
+   border-radius: 8px;
+   background-color: #ffffff;
+}
+.empty3{
+     width:500px;
+   height:350px;
+   border-radius: 8px;
+   background-color: #ffffff;
+}
+.button1{
+    border-width:0px;
+    border-radius:5px;
+    margin-left:30px;
+    background-color: #6c63ff;
+    height:20px;
+    width:500px;
+    color:#ffffff;
+    margin-bottom: 30px;
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    padding-left:20px;
+    padding-top:40px;
+}
+.foot1{
+    display:flex;
+    flex-direction:column;
+}
+.foot4{
+    display:flex;
+    flex-direction: row;
+    gap:10px
+}
+.footer2{
+    display:flex;
+    flex-direction: row;
+    padding-top:20px;
+    gap:130px
+}
+}
+
+
+.main{
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height:100vh;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    color:#ffffff;
+    font-size:50px;
+}
+.para{
+    color:#ffffff;
+    font-size: 40px;
+}
+.button{
+    color:#ffffff;
+    background-color: #6c63ff;
+    border-width:0px;
+    border-radius:5px;
+    height:20px;
+    width:100px;
+}
+.image2{
+    height:300px;
+    width:400px;
+    border-width:5px;
+    border-color:#dfe3eb;
+    border-radius:20px;
+}
+.span{
+    color:red;
+}
+.footer{
+    background-color: #1e293b;
+}
+.para5{
+    color:#dfe3eb;
+}
+.head5{
+    color:#ffffff;
+    
+}

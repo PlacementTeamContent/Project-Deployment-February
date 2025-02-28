@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif";
+}
+nav{
+    color: white;
+    height: 80px;
+    background-color: #0A1426;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-l{
+    display: flex;
+    justify-content: start;
+}
+.nav-p{
+    margin-right: 10px;
+}
+.nav-img{
+    height: 70px;
+    margin-right: 10px;
+}
+.home {
+    height: 100vh;
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.home-bg {
+    color: white;
+    margin-left: 90px;
+    width: 410px;
+}
+
+.home-but {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.service-head {
+    text-align: center;
+}
+
+.sp {
+    color: #1E293B;
+}
+
+.card-para {
+    color: #1E293B;
+}
+
+.service-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.service-card {
+    width: 300px;
+}
+
+.card-img {
+    border-radius: 25px;
+    height: 200px;
+}
+
+.form {
+    padding: 20px;
+    background-color: #e0dfdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #0A1426;
+    color: white;
+    padding: 25px;
+}
+
+.mid {
+    display: flex;
+}
+
+.inp {
+    width: 100%;
+}
+
+.inp1 {
+    width: 100%;
+}
+
+.mar {
+    margin-right: 50px;
+}
+
+.inp2 {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.mark {
+    color: red;
+}
+
+.foot-img {
+    height: 80px;
+}
+
+.foot-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foot-para {
+    color: #e0dfdc;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+.spn {
+    text-decoration: underline;
+}

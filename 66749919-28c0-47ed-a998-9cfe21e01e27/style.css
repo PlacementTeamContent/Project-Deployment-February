@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.top {
+    background-color: #0A1525;
+}
+
+.p1 {
+    color: #FFFFFF;
+}
+
+.page1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+
+    width: 610px;
+    height: 420px;
+
+}
+
+
+.page1h {
+    color: #FFFFFF;
+    width: 50vh;
+    font-weight: bold;
+    margin: 80px;
+}
+
+.pge1hb {
+    color: #FFFFFF;
+    background-color: #FF7A2E;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin: 80px;
+
+}
+
+.page2 {
+    background-color: white;
+    text-align: center;
+}
+
+.page2h1 {
+    color: #0A1525;
+    font-weight: bold;
+    text-align: center;
+}
+
+.page2p1 {
+    color: #0A1525;
+    width: 65vh;
+    text-align: center;
+}
+
+.page2h2 {
+    color: #0A1525;
+    font-weight: bold;
+}
+
+.page2h2 {
+    color: #0A1525;
+    width: 25vh;
+}
+
+.page2image {
+    height: 100px;
+    width: 100px;
+}
+
+.lastp {
+    background-color: #1E293B;
+}
+
+.para3 {
+    background-color: #defe3eb;
+}

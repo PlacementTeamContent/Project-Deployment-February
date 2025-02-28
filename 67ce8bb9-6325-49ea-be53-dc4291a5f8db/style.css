@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color:#0A1426;
+    height:8vh;
+    color:#ffffff;
+    display:flex;
+    font-family:"Bree Serif";
+    padding:5px;
+}
+.logo{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.imge{
+    height:40px;
+    padding-right:5px;
+    padding-top:9px;
+}
+.fa{
+    color:#ffffff;
+}
+.image{
+    background-image:url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height:50vh;
+    background-size:cover;
+    color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding:10px;
+    font-family:"Bree Serif";
+}
+.btn{
+    background-color:#4A90E2;
+    color:#ffffff;
+    border-width:0px;
+    border-radius:5px;
+    width:20vw;
+    height:5vh;
+}
+.text{
+    text-align: center;
+    font-family:"Bree Serif";
+}
+.heading{
+    color:#1E293B;
+    font-weight:bold;
+}
+.para{
+    color:#1E293B;
+}
+.image1{
+    height:15vh;
+    width:45vw;
+    border-radius:10px;
+}
+.head1{
+    color:#1E293B;
+    font-size:20px;
+}
+.para1{
+    color:#1E293B;
+    font-size:15px;
+}
+.card{
+    margin:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align:start;
+}
+.info{
+    background-color:#e0dfdc;
+    height:95vh;
+    font-family:"Bree Serif";
+    padding:10px;
+}
+.head2{
+    text-align:center;
+    color:#1E293B;
+}
+.p1{
+    color:#1E293B;
+    text-align:center;
+}
+.content{
+    color:#1E293B;
+}
+.name{
+    display:flex;
+}
+.star{
+    color:red;
+}
+.box{
+    border-style:solid;
+    border-color:#e0dfdc;
+    height:5vh;
+    background-color:#ffffff;
+    border-radius:10px;
+}
+.box2{
+    border-style:solid;
+    border-color:#e0dfdc;
+    height:5vh;
+    background-color:#ffffff;
+    border-radius:10px;
+}
+.box1{
+    border-style:solid;
+    border-color:#e0dfdc;
+    height:25vh;
+    background-color:#ffffff;
+    border-radius:10px;
+}
+.btn1{
+    background-color:#4A90E2;
+    color:#ffffff;
+    border-width:0px;
+    text-align:center;
+    font-family: "Bree Serif";
+    border-radius:5px;
+}
+.bg{
+    background-color:#1E293B;
+    height:50vh;
+    padding:15px;
+    color:#e0dfdc;
+    font-family: "Bree Serif";
+}
+.imge3{
+    height:10vh;
+}
+.text{
+    text-align:start;
+}
+.bi{
+    margin:5px;
+}
+.headf{
+    font-size:20px;
+}
+.pf{
+    font-size:15px;
+}
+.contentf{
+    display:flex;
+    justify-content: space-between;
+}
+.p1f{
+    text-align:bottom;
+}
+@media screen and (max-width:768px){
+    .values{
+        display:none;
+    }
+}
+@media screen and (min-width:768px){
+    .values{
+        display:flex;
+    }
+    .navbar{
+        display:flex;
+        justify-content: space-between;
+        width:150vw;
+    }
+    .p{
+        margin:5px;
+        padding-top:9px;
+    }
+    .image{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-content: center;
+        width:150vw;
+    }
+    .our{
+        text-align:center;
+    }
+    .cards{
+        display:flex;
+        margin-left:100px;
+    }
+    .image1{
+    height:15vh;
+    width:30vw;
+    border-radius:10px;
+   }
+   .card{
+       margin:10px;
+   }
+   .info{
+       width:150vw;
+       display:flex;
+       flex-direction:column;
+       justify-content: center;
+       align-content: center;
+   }
+   .bg{
+       width:137vw;
+       padding-left:100px;
+       display:flex;
+   }
+   .flex1{
+       display:flex;
+   }
+   .box{
+       width:80vw;
+   }
+   .flex2{
+       padding-left:190px;
+   }
+   .box2{
+        border-style:solid;
+        border-color:#e0dfdc;
+        height:5vh;
+        background-color:#ffffff;
+        border-radius:10px;
+        width:40vw;
+   }
+   .box1{
+       width:82vw;
+   }
+   .btn1{
+       width:82vw;
+   }
+   .text{
+       justify-content: center;
+   }
+   .our{
+       text-align:center;
+       margin-left:190px;
+   }
+   .contc{
+       margin:65px;
+   }
+}

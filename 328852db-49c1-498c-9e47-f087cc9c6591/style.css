@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@media screen and (min-width:768px){
+    nav{
+        justify-content:space-around;
+    }
+    .bg-container{
+        height:500px;
+        width:1000px;
+    }
+    .inheading{
+        font-size:48px;
+    }
+    .fordesk{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+}
+nav {
+    background-color: #0A1525;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+.last{
+    font-size:16px;
+}
+.images{
+    display:flex;
+    
+}
+.footer{
+    background-color: #0A1525;
+    margin-top: 25px;
+}
+.talk{
+    background-color: #FFD700;
+    color:white;
+    width:400px;
+}
+
+
+.inputs{
+    height:100px;
+    width:350px;
+    margin-left:30px;
+    border-radius:10px;
+}
+.input{
+    height:30px;
+    width:350px;
+    margin-left:30px;
+    border-radius:10px;
+}
+.clr{
+    color:black;
+}
+.star{
+    color:red;
+}
+.aboutus{
+    background-color: grey;
+}
+.contact{
+    color:black;
+    text-align: center;
+}
+.paragraph{
+    color:black;
+}
+.software {
+    color: black;
+    padding-left: 20px;
+}
+
+.cardimage1 {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+
+}
+.got{
+    color:black;
+}
+
+img {
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+}
+
+i {
+    color: white;
+}
+
+.bg-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 500px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+.container {
+    font-family: "Bree Serif";
+}
+
+button {
+    background-color: #FFD700;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    border: solid;
+    border-color: #FFD700;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.inheading {
+    padding-top: 50px;
+}
+
+.part1 {
+    background-color: white;
+
+}
+
+.service {
+    color: black;
+    text-align: center;
+}
+
+.para {
+    color: black;
+    text-align: center;
+}

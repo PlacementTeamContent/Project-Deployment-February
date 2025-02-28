@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    box-sizing: border-box;
+}
+.navbar{
+    padding:20px;
+    background-color: #0A1525;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.companylogo{
+    display:flex;
+    flex-direction: row;
+}
+.img-dimensions{
+    height:50px;
+}
+.companyname{
+    color:#ffffff;
+    font-size:20px;
+    margin-left:10px;
+}
+.hamburger{
+    font-size:22px;
+    color:white;
+    align-self:center;
+}
+.hamburger2{
+    font-size:22px;
+    color:white;
+    align-self: center;
+    margin-left:25px;
+}
+.navigation{
+    display:none;
+    color:#ffffff;
+    align-self:center;
+}
+.links{
+    margin:8px;
+    font-family: "Bree Serif";
+}
+@media (min-width:768px){
+    .navbar{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .navigation{
+        display:flex;
+    }
+    .hamburger{
+        display:none;
+    }
+}
+.landing{
+    color:#ffffff;
+    font-size: 25px;
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height:90vh;
+    background-size:cover;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.landingcontent{
+    /* width:80%; */
+    width:540px;
+    margin-left:7%;
+}
+.mainhead{
+    color:#ffffff;
+    font-size:55px;
+}
+.buttonlanding{
+    background-color: #4b9eff;
+    color:#ffffff;
+    border-radius:9px;
+    border-width:0px;
+    height:40px;
+    width:85px;
+}
+.secondpage{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.secondhead{
+    text-align: center;
+    margin-bottom:0px;
+}
+.secondpara{
+    text-align: center;
+}
+.whole-page{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin:15px;
+    background-color:#ffffff;
+    width:300px;
+}
+.card-img{
+    width:300px;
+    border-radius:12px;
+}
+.cardhead{
+    font-size:18px;
+}
+@media (max-width:576px){
+    .card{
+        margin:25px;
+        width:80%;
+    }
+    .card-img{
+        width:90%;
+        border-radius:12px;
+    }
+}
+.contactpage{
+    background-color: #dfe3eb;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+}
+.details{
+    margin-right:130px;
+}
+.symbol{
+    color:red;
+}
+.another{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.small{
+    width:70%;
+    font-weight: bold;
+}
+.textel{
+    border-radius:8px;
+    border-width:1px;
+    border-color:#1e293b;
+    width:100%;
+    height:29px;
+}
+.textemail{
+    border-radius:8px;
+    border-width:1px;
+    border-color:#1e293b;
+    width:100%;
+    height:29px;
+}
+.textphone{
+    border-radius:8px;
+    border-width:1px;
+    border-color:#1e293b;
+    width:100%;
+    height:29px;
+}
+.textel2{
+    border-radius:8px;
+    border-width:1px;
+    border-color:#1e293b;
+    width:100%; 
+    height:100px;
+}
+.contactbutton{
+    background-color: #4b9eff;
+    color:#ffffff;
+    border-width:0px;
+    margin-top:25px;
+    width:100%;
+    border-radius:10px;
+    height:30px;
+}
+@media (min-width:768px){
+    .another{
+        display:flex;
+        flex-direction: row;
+        margin-left:210px;
+    }
+    .alignment{
+        margin-right:160px;
+    }
+    .textemail{
+        width:80%;
+    }
+    .textphone{
+        width:80%;
+    }
+}
+.footer{
+    background-color: #0A1525;
+    color:#dfe3eb;
+    padding:25px;
+    font-size:25px;
+}
+.footer-logo{
+    height:90px;
+}
+.whole-contact{
+    margin-top:60px;
+}
+.footerconatct{
+    color:white;
+    font-size:25px;
+}
+.top{
+    margin:70px;
+}
+.alignment-footer{
+    display:flex;
+    justify-content: space-between;
+}
+.marginicons{
+    font-size:25px;
+    margin:8px;
+}
+@media (min-width:768px){
+    .footer{
+        display:flex;
+        flex-direction: row;
+    }
+    .content{
+        margin:60px;
+    }
+}

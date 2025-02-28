@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-con{
+    background-color: #0A1220;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+body{
+    font-family: Bree Serif;
+    margin: 0px;
+}
+.img{
+    height: 55px;
+}
+.con{
+    display: flex;
+    color: white;
+    justify-content: center;
+   
+    
+}
+.head{
+   font-size:20px ; 
+   margin-left:10px ;
+}
+.nav-2{
+    display: flex ;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+  
+}
+
+ul{
+    display: flex;
+   justify-content: center;
+}
+li{
+    margin-left: 10px;
+    color: white;
+    margin-top:5px ;
+}
+.li1{
+    color: white;
+}
+.faa{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.fa{
+    height: 80px;
+    color: white;
+    margin-left:20px ;
+    margin-right: 10px;
+    margin-top:7px ;
+   
+}
+.head2{
+    text-align: center;
+}
+
+.section-1{
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height:800px;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    background-color: #dfe3eb;
+    align-items: center;
+    
+
+    
+}
+.op{
+    width: 300px;
+    color:#FFFFFF;
+}
+.pp-sec{
+    width: 300px;
+    font-size: 15px;
+    color: white;
+}
+.bt-1{
+    background-color:  #00E5BE;
+    color: white;
+   height:30px;
+   text-align: center;
+  border-radius:5px ;
+}
+.container-cards{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px ;
+    
+    
+}
+.option-2{
+    height: 500px;
+}
+.total-con{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.fl{
+    display: flex;
+}
+.img1{
+    height: 150px;
+}
+.head12{
+    font-size: 20px;
+   
+}
+.input{
+    width: 600px;
+}
+.input2{
+    width: 300px;
+
+}
+.tp-con{
+    background-color: #dfe3eb;
+}
+.btn-let{
+    background-color:#00E5BE ;
+    width:600px ;
+    border-radius: 6px ;
+    margin-top:20px ;
+    margin-bottom:20px ;
+    color: white;
+    height: 30px;
+}
+
+.input4{
+    width: 600px;
+height: 150px;
+}
+
+.phone{
+    margin-left: 20px ;
+}
+.input3{
+    width: 250px;
+    margin-left: 30px;
+}
+
+.card-1{
+   
+    margin-left:40px ;
+}
+.card-2{
+    margin-left:40px ;
+}
+.Contact{
+    text-align: center;
+}
+.footer-con{
+    background-color: #0A1220;
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: 1;
+}
+.bi{
+    height: 120px;
+    color: white;
+    margin-left:10px ;
+}
+.yu{
+    color: white;
+}
+.con-0-1{
+    color: white;
+   
+}
+.con-1{
+     margin: 30px;
+     
+}
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+    li{
+        
+        display: none;
+    }
+    .fa{
+    height: 40px;
+    color: white;
+    margin-left:20px ;
+    margin-right: 10px;
+    margin-top:24px ;
+   
+   
+}
+.p0o{
+    margin-left:25px ;
+}
+.card-2{
+   
+}
+.container-cards{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.img1{
+    height: 100%;
+}
+.card-1{
+    
+}
+
+.section-1{
+    
+   
+     background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+   
+    background-size: cover;
+    margin: 0px;
+   display: flex;
+   flex-direction: column;
+ align-items: center;
+ justify-content: center;
+   background-color: #dfe3eb;
+  
+    height: 300px;
+    width: 100%;
+
+    
+}
+
+.tp-con{
+ margin-top: 1300px;
+
+}
+
+.total-con{
+    margin:20px ;
+    padding: 20px;
+  display:  flex;
+  flex-direction: column;
+}
+.footer-con{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+@media (min-width:767px){
+   
+    .fa{
+    height: 40px;
+    color: white;
+    margin-left:30px ;
+    margin-right: 10px;
+    margin-top:24px ;
+   
+}
+li{
+    margin-left: 25px;
+    color: white;
+    margin-top:20px ;
+}
+}

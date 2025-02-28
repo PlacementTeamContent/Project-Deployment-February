@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.image {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.h-center {
+    font-size: 20px;
+    font-family: "roboto";
+    color: white;
+    padding-left:30px;
+}
+
+.blue {
+    background-color: #0A1525;
+}
+
+.image1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 50vh;
+
+    background-size: cover;
+}
+
+.white {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: "Bree Serif";
+}
+
+.p-center {
+    color: white;
+}
+
+.btn {
+    background-color: #FFD700;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border-color: #FFD700;
+    margin-left: 30px;
+}
+
+.services {
+    color: #1E293B;
+    text-align: center;
+}
+
+.grey {
+    color: black;
+    text-align: center;
+}
+
+.container1 {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 0px;
+}
+
+.img1 {
+    height: 150px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.black {
+    color: #1E293B;
+}
+
+.blue3 {
+    color: black;
+}
+
+.ash {
+    background-color: silver;
+    height: 700px;
+    width: 500px;
+}
+
+.us {
+    color: #1E293B;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "roboto";
+
+}
+
+.ash1 {
+    color: black;
+    text-align: center;
+    ;
+    padding-bottom: 20px;
+}
+
+.empty {
+    background-color: white;
+    height: 30px;
+    width: 400px;
+    border-radius: 4px;
+    border-color: silver;
+    margin-left: 20px;
+}
+
+.name {
+    padding-left: 30px;
+}
+
+.empty1 {
+    background-color: white;
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    border-color: silver;
+    margin-left: 20px;
+}
+
+.empty2 {
+    background-color: white;
+    height: 190px;
+    width: 450px;
+    border-radius: 4px;
+    border-color: silver;
+    margin-left: 20px;
+}
+
+.btn1 {
+
+    text-align: center;
+    height: 30px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #FFD700;
+    border-color: #FFD700;
+    color: white;
+    margin-top: 20px;
+    font-family: "Bree Serif";
+    font-size: 21px;
+}
+.footer1{
+    background-color:#1E293B;
+    height: 300px;
+    width: 100vh;
+    
+}
+.h-center1{
+     
+    font-family: "roboto";
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.bi{
+    color:white;
+}
+.fa{
+   
+    color:white;
+    padding-left: 30px;
+}
+.h-center3{
+    color: white;
+    padding-left: 20px;
+}
+.nt{
+    text-decoration: underline;
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-section{
+    background-color:#0a1525;
+    height:10vh;
+}
+.nav-logo-img{
+    height:7vh;
+    padding:10px;
+}
+.nav-text{
+    color:white;
+}
+.section-cotainer{
+    background-image:url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size:cover;
+    text-align:center;
+    
+}
+.exploring-heading{
+    color:#ffffff;
+}
+.discover-para{
+    color:#ffffff;
+    padding:10px;
+}
+.contact-button{
+    background-color:#6c63ff;
+    color:white;
+    width:100px;
+    border-radius:5px;
+    margin-right:150px;
+}
+.our-services-section{
+    text-align:center;
+    padding:10px;
+}
+.our-services-heading{
+    font-weight:bold;
+    font-size:32px;
+}
+.our-serivces-img{
+    height:35vh;
+    margin:10px;
+    margin-left:20px;
+    border-radius:10px;
+    border-style:solid;
+    border-width:2px;
+}
+.cloud-computing-section{
+    margin-left:10px;
+}
+.cloud-computing-heading{
+    font-weight:bold;
+    font-size:32px;
+    margin-left:10px;
+}
+.cloud-computing-img{
+    margin:20px;
+    margin-left:10px;
+    border-radius:10px;
+    border-style:solid;
+    border-width:2px;
+    margin-top:40px;
+    width:90vw;
+    
+}
+.cyber-securtiy-section{
+    margin-left:30px;
+}
+.cyber-securtiy-heading{
+    font-weight:bold;
+    font-size:26px;
+    margin-left:10px;
+    
+}
+.cyber-securty-img{
+     margin:10px;
+    margin-left:10px;
+    border-radius:10px;
+    margin-top:10px;
+    width:80vw;
+    border-style:solid;
+    border-width:2px;
+
+    
+}
+.ai-development-section{
+    margin-left:20px;
+}
+.ai-development-heading{
+    font-size:28px;
+    font-weight:bold;
+}
+.details-card-section{
+    background-color:#dfe3eb;
+    margin-top:40px;
+    margin:10px;
+    border-radius:8px;
+    padding:10px;
+}
+.contact-us-heading{
+    text-align:center;
+    font-weight:bold;
+    font-size:26px;
+    
+}

@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: Bree Serif;
+}
+.header {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.web-logo {
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.web-head {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-item {
+    color: #ffffff;
+    margin-right: 18px;
+    text-decoration: none;
+}
+
+.fa {
+    color: #ffffff;
+}
+
+.is-section {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    background-size: cover;
+    padding: 20%;
+}
+
+.is-head {
+    color: #ffffff;
+}
+
+.is-para {
+    color: #ffffff;
+}
+
+.is-button {
+    background-color: #F6B352;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 7px;
+}
+
+.os-section {
+    padding: 25px;
+}
+
+.os-head {
+    text-align: center;
+}
+
+.os-para {
+    text-align: center;
+}
+
+.os-card {
+    padding: 20px;
+}
+
+.os-card-head {
+    font-size: 25px;
+}
+.cu-section{
+    background-color: #dfe3eb;
+    padding: 15px;
+}
+.cu-head{
+    text-align: center;
+}
+.cu-para{
+    text-align: center;
+}
+.input-cards{
+    padding: 20px;
+}
+.input-head{
+    font-weight: bold;
+}
+.input-name{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+}
+.input-mail{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+}
+.input-num{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+}
+.input-comments{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border-style: none;
+}
+.star{
+    color: red;
+}
+.cu-button{
+    background-color: #F6B352;
+    height: 40px;
+    width: 100%;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.footer{
+    background-color: #1E293B;
+    padding: 7%;
+}
+.footer-para{
+    color: #ffffff;
+}
+.bi{
+    color: #ffffff;
+    margin-right: 7px;
+    font-size: 25px;
+}
+.cu-card{
+    color: #ffffff;
+    margin-right: 30%;
+}
+.cu-cards{
+    display: flex;
+}
+.gpt{
+    text-decoration: underline;
+}
+.page-footer{
+    background-color: #0A1525;
+    padding: 10px;
+}
+.pf-para{
+    color: #ffffff;
+}
+.footer-para{
+    color: #dfe3eb;
+}
+.bi{
+    color: #dfe3eb;
+}
+.cu-card-para{
+    color: #dfe3eb;
+}
+.pf-para{
+    color: #dfe3eb;
+}
+@media (max-width:768px) {
+    .nav-items {
+        display: none;
+    }
+
+    .header {
+        align-items: center;
+    }
+
+    .os-image {
+        width: 100%;
+        height: 30vh;
+        border-radius: 20px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .cu-cards{
+        margin-top: 50px;
+    }
+    .page-footer{
+        padding-left: 6%;
+    }
+}
+
+@media (min-width: 769px) {
+    .header {
+        align-items: center;
+        justify-content: space-around;
+    }
+    .os-cards{
+        display: flex;
+        justify-content: center;
+    }
+    .os-para{
+        width: 70%;
+        justify-self: center;
+    }
+    .os-card{
+        width: 25%;
+    }
+    .os-image{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .cu-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-cards{
+        width: 60%;
+    }
+    .input-card{
+        width: 100%;
+    }
+    .input-cards-alignment{
+        display: flex;
+    }
+    .input-card-mail{
+        width: 50%;
+        margin-right: 20px;
+    }
+    .input-mail{
+        width: 100%;
+        margin-right: 50px    
+    }
+    .input-card-num{
+        width: 50%;
+    }
+    .input-num{
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-description{
+        margin-right: 10%;
+    }
+    .cu-card{
+        width: 60%;
+    }
+    .page-footer{
+        padding-left: 10%;
+    }
+}

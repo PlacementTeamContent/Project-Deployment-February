@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo-part {
+    display: flex;
+   /*  justify-content:space-between */;
+
+} 
+.nav{
+    justify-content:center;
+    flex-direction:row;
+    align-content:center;
+    margin:auto;
+}
+
+.image1 {
+    height: 35px;
+    width: 40px;
+    
+}
+
+.para-color {
+    color: #ffffff;
+    margin: 3px;
+    font-family: "Bree Serif";
+    justify-content:flex-start;
+}
+
+.head-bg {
+    background-color: #0A1525;
+    height: 10vh;
+    width: 100vw;
+}
+
+.hambaguer {
+    color: #ffffff;
+  /*   margin-left: 160px; */
+    text-align: center;
+    margin-top: 10px;
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:row;
+    align-items: flex-end;
+    margin:auto;
+}
+
+.image2 {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin: -23px;
+    text-align: center;
+}
+
+.para {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.textt {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+    margin-top: -80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.btn {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    height: 40px;
+    width: 90px;
+    background-color: #8B5CF6;
+    border-radius: 10px;
+
+}
+
+.btn-center {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex-direction: column;
+    margin-left: 33px;
+
+}
+
+.page-2 {
+    background-color: #ffffff;
+    /* height:100vh;
+    width:100vw; */
+    text-align: center;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page2-h {
+    color: black;
+    font-family: "Bree Serif";
+    text-align: center;
+    /*  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:-366px; */
+}
+
+.para-2 {
+    color: black;
+    font-family: "Bree Serif";
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.page-2-image {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.page-h-2 {
+    color: black;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.page-3 {
+    color: black;
+    font-family: "Bree Serif";
+    background-color: #dfe3eb;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+    /*  display:flex;
+   flex-direction:column;
+   justify-content:center; */
+
+}
+
+.spann {
+    color: red;
+}
+
+.form {
+    height: 30px;
+    width: 70vw;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin: auto;
+
+}
+
+.text-tags {
+    color: black;
+    font-family: "Bree Serif";
+    margin-right: 160px;
+}
+
+.text-tags2 {
+    margin-right: 110px;
+}
+
+.text-tags21 {
+    margin-right: 60px;
+}
+
+.formmm {
+    height: 10vh;
+    width: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.bg {
+    background-color: #8B5CF6;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+.padding {
+    padding: 30px;
+}
+
+.page-4 {
+    background-color: #1E293B;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.image-4 {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.para-4 {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+    font-size: 12px;
+}
+
+.icons {
+    display: flex;
+    color: #dfe3eb;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 13px;
+}
+
+.flexx {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+   align-self:center;
+    margin:auto;
+}
+
+.justify-start {
+    /*  display:flex; */
+   /*  justify-content: flex-start;
+   flex-direction:column;
+   align-items: flex-start; */
+    text-align:start;
+
+} 
+.justify-end{
+   /*  display:flex; */
+   /*  justify-content:flex-end;
+   flex-direction:column;
+   align-items:flex-end; */
+    text-align:end;
+    
+    
+} 
+.cover{
+    display:flex;
+    color:#ffffff;
+    font-family: "Bree Serif";
+    font-size:10px;
+    justify-content:space-evenly;
+    
+} 
+.spannnn{
+    color:#dfe3eb;
+    text-decoration:underline;
+} 
+.para-45{
+    color:#dfe3eb;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction:column;
+    margin:auto;
+} 
+@media (max-width:768){
+    .cover{
+        
+     
+    }
+}
+
+@media (min-width:768){
+    .para{
+     font-size:50px;
+     margin:auto;
+     
+     
+    }
+}

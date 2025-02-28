@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 200vw;
+    display: flex;
+    text-align: center;
+}
+
+
+.container{
+    text-align: center;
+}
+.heading{
+    color: white;
+}
+.para{
+    color: white;
+}
+.button-1{
+    background-color: #4B84F3;
+    border: 20px;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-family: "Bree Serif";
+    
+}
+
+.card{
+    text-align: center;
+    
+}
+
+.imges{
+    height: 20vh;
+    display: flex;
+    gap: 10px;
+    border-radius:20px;
+    
+}
+
+.end-page{
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    
+    
+}
+
+.button-end{
+    background-color: #4B84F3;
+    border: 20px;
+    border-radius: 10px;
+    height: 30px;
+    gap: 20px;
+    width: 290px;
+}

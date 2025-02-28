@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-navbar {
+  background-color: #0A1426;
+  font-family: "Bree Serif";
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  display: flex;
+}
+.img_header{
+    height: 60px;
+    width: 60px;
+    display: flex;
+}
+
+.page-body {
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+}
+.par_header{
+    padding-left: 10px;
+}
+.par_header2{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    
+}
+
+.sidebar {
+  width: 150px;
+  padding: 20px;
+  background-color: #e8edf9;
+  font-family: "Roboto";
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.content {
+  padding: 20px;
+  background-color: #f6f8fa;
+  font-family: "Roboto";
+  font-size: 18px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.page-footer {
+  background-color: #0d2436;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}

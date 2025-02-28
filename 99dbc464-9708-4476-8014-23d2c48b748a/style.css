@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    padding: 10px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-name {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+}
+
+.bar {
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.bars {
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.h {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    margin: 10px;
+    /* text-align: center; */
+}
+
+.p {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    margin: 10px;
+    font-size: 15px;
+    /* text-align: center; */
+}
+
+.btn {
+    background-color: #FF7A2E;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    border: 2px solid #FF7A2E;
+    padding: 5px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.services-container {
+    background-color: #FFFFFF;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head {
+    color: #1E293B;
+    font-family: "Bree Serif";
+    align-self: center;
+}
+
+.para {
+    color: #1E293B;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 20px;
+    align-self: center;
+}
+
+.h3 {
+    color: #1E293B;
+    font-family: "Bree Serif";
+
+
+}
+
+.p3 {
+    color: #1E293B;
+    font-family: "Bree Serif";
+
+}
+
+.image1 {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.card {
+
+    background-color: transparent;
+    margin: 40px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.p2 {
+    text-align: left;
+    margin: 10px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (min-width:1200px) {
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .row {
+        justify-content: space-around;
+    }
+
+    .image1 {
+        width: 300px;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+    .para {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+.contactus-container {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hh {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.pp {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.c {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.star {
+    color: red;
+    font-weight: bold;
+}
+
+.msg {
+    width: 400px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+}
+
+.msg1 {
+    width: 400px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+}
+
+.msgn {
+    width: 400px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+}
+
+.msg2 {
+    width: 400px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+}
+
+@media screen and (min-width:1200px) {
+    .msgn {
+        width: 600px;
+        height: 40px;
+        background-color: #FFFFFF;
+        border: 2px solid lightgrey;
+        border-radius: 7px;
+    }
+
+    .msg2 {
+        width: 280px;
+        height: 40px;
+        background-color: #FFFFFF;
+        border: 2px solid lightgrey;
+        border-radius: 7px;
+        gap: 10px;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .msg1 {
+        width: 600px;
+        height: 200px;
+        background-color: #FFFFFF;
+        border: 2px solid lightgrey;
+        border-radius: 7px;
+    }
+}
+
+.b {
+    background-color: #FF7A2E;
+    border: 2px solid #FF7A2E;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:1200px) {
+    .b {
+        background-color: #FF7A2E;
+        border: 2px solid #FF7A2E;
+        color: #FFFFFF;
+        font-family: "Bree Serif";
+        width: 600px;
+        margin-top: 10px;
+        border-radius: 5px;
+        height: 30px;
+    }
+}
+
+.footer-container {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fp {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+
+}
+
+.bi {
+    color: #dfe3eb;
+    text-align: left;
+    gap: 5px;
+}
+
+.hc {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.ul {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+
+    font-size: 15px;
+}
+
+.foo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:1200px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

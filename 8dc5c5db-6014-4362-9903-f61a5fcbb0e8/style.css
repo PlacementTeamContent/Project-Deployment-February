@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.one {
+    background-color: #0A1525;
+    height: 10vh;
+    width: 100vh;
+}
+
+.one-bg {
+    width: 100vh;
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 50vh;
+    background-size: cover;
+    ;
+}
+.one-h {
+    color: #FFFFFF;
+    padding-top:250px;
+    font-size: 50px;
+    padding-left: 170px;
+}
+.one-p {
+    color: #FFFFFF;
+    padding-left: 170px;
+    font-size: 20px;
+}
+.one-button {
+     margin-left: 170px;
+     color: #FFFFFF;
+     padding: 10px;
+     background-color: #6C63FF;
+     border: 0px;
+     border-radius: 6px;
+}
+.two {
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar{
+    background-color:#0A1525 ;
+    height: 70px;
+}
+.h{
+    color: white;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.section1{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    color: white;
+    font-family:Sans-Serif ;
+    height: 150px;
+    
+}
+.button1{
+    color: white;
+    background-color: #F6B352;
+    border-radius: 5px;
+}
+.image1{
+    height: 200px;
+    border-radius: 10px;
+}
+.section2{
+    font-family: Sans-Serif;
+    font-size: 20px;
+}
+.section3{
+    background-color: #dfe3eb;
+    height: 80vh;
+    font-family: Sans-Serif;
+    
+}
+.subsec{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    background-color: white;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+}
+.form1{
+  background-color: white;
+    height: 150px;
+    width: 400px;
+    border-radius: 5px;  
+}
+.btn{
+    background-color:#F6B352;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    color: white;
+}
+.section4{
+    background-color: #0A1525;
+    height: 80vh;
+    color: white;
+    font-family: Sans-Serif;
+}
+.img2{
+    height: 70px;
+}
+.move{
+    display: flex;
+    justify-content: center;
+}
+.fa{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}

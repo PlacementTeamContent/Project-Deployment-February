@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.img-1 {
+    height: 36px;
+    width: 36px;
+}
+.black-1{
+    background-color: black;
+    }
+    
+    
+h2{
+    color: white;
+
+}
+.b{
+    background-image:url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    width: 100vw;
+    height: 100vw;
+    
+}
+.color-2{
+    color: #ffffff;
+}
+button{
+    color: #ffffff;
+    background-color: #4B84F3;
+    margin: 6px;
+    border-color:  #4B84F3;
+    border-radius: 7px;
+}

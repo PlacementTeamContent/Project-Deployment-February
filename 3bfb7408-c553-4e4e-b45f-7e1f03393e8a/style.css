@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    width:250px;
+    height:250px;
+}
+.heading1{
+    text-align: center;
+    color:#FFFFFF;
+    
+}
+.para{
+    text-align: center;
+    color:#FFFFFF;
+    font-weight: 10px;
+}
+.button{
+    text-align: right;
+    color:#FFFFFF;
+    background-color: #4B9EFF;
+}
+.heading2{
+    text-align: center;
+    width:250px;
+    font-family: Bree Serif;
+}
+.para2{
+    text-align: center;
+    width:250px;
+}
+.image1{
+    height:200px;
+    width:200px;
+    border-radius:15px;
+}
+.image2{
+    height:200px;
+    width:200px;
+    border-radius:15px;
+}
+.image3{
+     height:200px;
+     width:200px;
+     border-radius:15px;
+}
+.heading5{
+    text-align: center;
+    width:250px;
+    font-family: Bree Serif;
+}
+.para5{
+    text-align: center;
+    width:250px;
+}
+.container4{
+    background-color: #dfe3eb;
+}
+
+.box1{
+    border-color:black;
+    border-radius:10px;
+}
+.button2{
+    width:250px;
+    color:#FFFFFF;
+    background-color: #4B9EFF ;
+}
+.container5{
+    background-color: #1E293B;
+    
+}
+.image5{
+    height:40px;
+}
+.para6{
+    color:white;
+}
+.nav-head{
+    background-color: #0A1525;
+    
+}
+.image{
+    height:60px;
+}
+.heading{
+    color:#FFFFFF;
+}

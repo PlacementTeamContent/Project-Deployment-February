@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.m {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 700px;
+    width: 600px;
+
+
+}
+
+.k {
+    font-family: Bree Serif;
+    color: #FFFFFF;
+
+}
+
+.s {
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+.a {
+    background-color: #F6B352;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-family: Bree-serif;
+    color: #FFFFFF;
+    border-radius: 10px;
+
+
+}
+
+.b {
+
+    text-align: center;
+    padding: 50px;
+    margin: 5px;
+}
+
+.u {
+    padding: 30px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.j {
+    background-image: url('https://img.b2bpic.net/premium-photo/finance-money-transaction-technology-concept-uds_31965-609167.jpg');
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.h {
+    font-family: Bree-serif;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.r {
+    text-align: left;
+
+    padding: 20px;
+}
+
+.o {
+
+    background-image: url('https://img.b2bpic.net/premium-photo/business-finance-accounting-businessman-hand-holding-financial-service-icon-virtual-screen_1296497-206.jpg');
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.m{
+  font-family: Bree-serif;  
+  padding: 10px;
+ 
+}
+.r{
+    font-family: Roboto;
+    padding: 10px;
+}
+.x{
+    background-image: url('https://img.b2bpic.net/premium-photo/business-people-working-with-business-documents-office_200402-5807.jpg');
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    margin-right: 20px;
+}

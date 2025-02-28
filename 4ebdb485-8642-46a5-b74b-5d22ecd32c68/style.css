@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+}
+.nav-items{
+    display: none;
+}
+.nav-img{
+    height: 40px;
+    width: 40px;
+}
+.img-text{
+    display: flex;
+    align-self: flex-start;
+}
+.text{
+    font-size: 15px;
+    font-family: "Bree Serif";
+}
+.bg-container-first{
+    height: 80vh;
+    width: 100%;
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    color: white;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.contact-btn{
+    background-color: #4B9EFF;
+    border-radius: 5px;
+    color: white;
+    height: 36px;
+    width: 136px;
+    border-width: 0px;
+}
+.image{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+}
+.all-images{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bree Serif";
+}
+.head-para{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.card{
+    height: 300px;
+    width: 400px;
+}
+.head{
+    color: #1E293B;
+}
+.para{
+    color: grey;
+}
+.Contact-us{
+    background-color: #dfe3eb;
+    height: 100%;
+    width: 100%;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.empty-box{
+    height: 50px;
+    width: 400px;
+    border-width: 2px;
+    border-color: #dfe3eb;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+}
+.Contact-para{
+    text-align: center;
+}
+span{
+    color: red;
+}
+.empty-box-big{
+    height: 200px;
+    width: 400px;
+    border-width: 2px;
+    border-color: #dfe3eb;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+}
+.last-btn{
+   background-color: #4B9EFF;
+   color: white;
+   border-width: 0px;
+   height: 36px;
+   width: 400px;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+.foot-img{
+    height: 100px;
+    width: 100px;
+}
+.footer-section{
+    height: 100%;
+    width: 100%;
+    background-color: #0A1525;
+    color: white;
+    font-family: "Bree Serif";
+    padding: 30px;
+    
+}
+.last-paras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.last-span{
+    color: grey;
+}
+
+
+
+@media (min-width: 768px){
+    .navbar{
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+}
+.nav-img{
+    height: 40px;
+    width: 40px;
+}
+.img-text{
+    display: flex;
+    align-self: flex-start;
+}
+.text{
+    font-size: 15px;
+    font-family: "roboto";
+}
+.bg-container-first{
+    height: 80vh;
+    width: 100%;
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    color: white;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.contact-btn{
+    background-color: #4B9EFF;
+    border-radius: 5px;
+    color: white;
+    height: 36px;
+    width: 136px;
+    border-width: 0px;
+}
+.image{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.all-images{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bree Serif";
+}
+.head-para{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.card{
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+}
+.head{
+    color: #1E293B;
+    font-size: 25px;
+}
+.para{
+    color: grey;
+}
+.Contact-us{
+    background-color: #dfe3eb;
+    height: 100%;
+    width: 100%;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.empty-box{
+    height: 50px;
+    width: 400px;
+    border-width: 2px;
+    border-color: #dfe3eb;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+}
+.Contact-para{
+    text-align: center;
+}
+span{
+    color: red;
+}
+.empty-box-big{
+    height: 200px;
+    width: 400px;
+    border-width: 2px;
+    border-color: #dfe3eb;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+}
+.last-btn{
+   background-color: #4B9EFF;
+   color: white;
+   border-width: 0px;
+   height: 36px;
+   width: 400px;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+.foot-img{
+    height: 100px;
+    width: 100px;
+}
+.footer-section{
+    height: 100%;
+    width: 100%;
+    background-color: #0A1525;
+    color: white;
+    font-family: "Bree Serif";
+    padding: 30px;
+    
+}
+.last-paras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.last-span{
+    color: grey;
+    text-decoration: underline;
+}
+.all-image{
+    display: flex;
+    flex-direction: row;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+}
+.nav-para{
+    padding-right: 7px;
+}
+.first-head{
+    font-size: 45px;
+}
+.first-para{
+    font-size: 20px;
+}
+}

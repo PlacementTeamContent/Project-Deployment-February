@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    background-color:#0A1525;
+}
+.img{
+    height:60px;
+    width:60px;
+    border-radius:30px;
+    padding:10px;
+    margin:5px;
+}
+.icon{
+    display:flex;
+    flex-direction:row;
+}
+.para{
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    font-weight:500;
+    padding:20px;
+    margin:2px;
+    text-align:center;
+}
+.para1{
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    font-weight:500;
+    padding:20px;
+    margin:6px;
+    text-align:center;
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+}
+li{
+    margin:4px;
+}
+.content{
+    display:flex;
+    flex-direction:row;
+}
+.bg-container1{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+.description{
+    /* display:flex;
+    flex-direction:column;
+    align-items:left; */
+    padding:15px;
+    margin:20px;
+}
+.heading{
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    font-size:40px;
+    font-weight:600;
+    padding:20px;
+    margin:2px;
+    text-align:left;
+}
+.paragraph{
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    font-size:16px;
+    font-weight:normal;
+    padding:10px;
+    margin:2px;
+    text-align:left;
+}
+.btn{
+    background-color:#FFD700;
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    font-size:16px;
+    font-weight:normal;
+    border-radius:5px;
+    border-width:0px;
+    padding:8px;
+    margin:10px;
+}
+.bg-container2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+}
+.heading2{
+    color:#1E293B;
+    font-family:"Bree Serif";
+    font-size:40px;
+    font-weight:600;
+    padding:5px;
+    margin:2px;
+    text-align:center;
+}
+.para2{
+    font-family:"Bree Serif";
+    font-size:16px;
+    padding:5px;
+    margin:2px;
+    text-align:center;
+}
+.cardimage{
+    height:30vh;
+    width:30vw;
+    border-radius:10px;
+    margin:5px;
+}
+.cardname{
+    color:#1E293B;
+    font-family:"Bree Serif";
+    font-size:18px;
+    font-weight:500;
+    padding:5px;
+    margin:2px;
+    text-align:left;
+}
+.cardpara{
+    font-family:"Bree Serif";
+    font-size:12px;
+    padding:5px;
+    margin:2px;
+    text-align:left;
+}
+.cardcontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.bg-container3{
+    background-color:#f3f3f3;
+}
+.heading3{
+    color:#1E293B;
+    font-family:"Bree Serif";
+    font-size:40px;
+    font-weight:600;
+    padding:5px;
+    margin:2px;
+    text-align:center;
+}
+.box{
+    font-family:"Bree Serif";
+    font-size:14px;
+    font-weight:600;
+    padding:5px;
+    margin:2px;
+}
+span{
+    color:red;
+}
+.para3{
+    font-family:"Bree Serif";
+    font-size:16px;
+    padding:5px;
+    margin:10px;
+    text-align:left;
+}
+.information{
+    margin:20px;
+    display:flex;
+    flex-direction:column;
+}
+.boxstyle{
+    padding:5px;
+    margin:10px;
+    width:auto;
+}
+.boxstyle1{
+    padding:50px;
+    margin:10px;
+    width:auto;
+}
+.boxes{
+    display:flex;
+    flex-direction:row;
+    padding:2px;
+    width:auto;
+}
+.footer{
+    background-color:#0A1525;
+}
+.contentpara{
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    font-size:14px;
+    padding:10px;
+    margin:2px;
+}
+.contenticon{
+    color:white;
+    margin:10px;
+    font-size:30px;
+}
+.headf{
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    font-size:18px;
+    font-weight:bold;
+    padding:10px;
+    margin:2px;
+}
+.footercontent{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.other{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.span{
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+.menubar{
+    color:white;
+    font-size:35px;
+    margin:25px;
+}
+.contentpara1{
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    font-size:14px;
+    padding:10px;
+    margin:10px;
+}
+@media (min-width:576px) and (max-width:768px){
+    .para1{
+        display:none;
+    }
+    .menubar{
+        color:white;
+        font-size:35px;
+        margin:25px;
+    }
+    .cardcontainer{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin:10px;
+        padding:10px;
+    }
+    .card{
+        margin:10px;
+    }
+    .cardcontent{
+        padding:5px;
+    }
+    .cardimage{
+        height:30vh;
+        width:70vw;
+        border-radius:10px;
+        margin:5px;
+    }
+    .information{
+        display:flex;
+        flex-direction:column;
+    }
+    .boxes{
+        display:flex;
+        flex-direction:column;
+    }
+    .footercontent{
+        display:flex;
+        flex-direction:column;
+        padding:10px;
+    }
+    .other{
+        display:flex;
+        flex-direction:row;
+    }
+    .content2{
+        padding:20px;
+    }
+    .content3{
+        padding:20px;
+    }
+}

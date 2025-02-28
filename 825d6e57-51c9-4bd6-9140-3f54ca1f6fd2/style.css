@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.body {
+    height: 50px;
+    width: 50px;
+}
+
+.head {
+    color: white;
+    font-family: "Roboto";
+    font-size: 3vh;
+}
+
+.img-head {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.list {
+    color: white;
+    list-style-type: none;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    padding-top: 25px;
+}
+
+.navbar_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.i {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 42px;
+}
+
+.button {
+    width: 100px;
+    padding: 1vh;
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-color: #4B9EFF;
+}
+
+.head1 {
+    font-size: 45px;
+    width: 35vw;
+}
+
+.display_1 {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Roboto";
+    justify-content: center;
+    align-items: center;
+}
+
+.head_para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.body1 {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.head2 {
+    text-align: center;
+    color: black;
+    font-family: "Roboto";
+}
+
+.para2 {
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.para1 {
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.images {
+    color: #1E293B;
+    font-family: "Roboto";
+    width: 430px;
+}
+
+.image-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact {
+    background-color: #dfe3eb;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.head3 {
+    color: #1E293B;
+    font-family: "Roboto";
+}
+
+span {
+    color: red;
+}
+
+.input_box {
+    background-color: white;
+    width: 540px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_box0 {
+    background-color: white;
+    width: 250px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input_box1 {
+    background-color: white;
+    width: 540px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input_cont1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button_cls {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    color: #FFFFFF;
+    background-color: #4B9EFF;
+    border-color: #4B9EFF;
+    border-radius: 5px;
+    width: 550px;
+    margin-top: 10px;
+    padding: 5px;
+
+
+}
+
+.footer {
+    background-color: #0A1525;
+    padding: 10px;
+    color: grey;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons {
+    color: white;
+}
+
+.cont {
+    list-style-type: none;
+}
+
+.img-content {
+    padding-top: 20px;
+}
+
+.flex-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+
+@media screen and (max-width:768px) {
+    .list {
+        display: none;
+    }
+
+    .image-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .flex-cont {
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .head_para {
+        padding-left: 5vh;
+
+    }
+}

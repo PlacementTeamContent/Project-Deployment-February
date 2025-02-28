@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+header {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    font-size: 15px;
+    font-family: "Bree Serif";
+}
+
+p {
+    padding: 10px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+}
+
+.head1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    font-family: "Bree Serif";
+
+}
+
+.i1 {
+    height: 13vh;
+}
+
+
+.main_heading {
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+h2 {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.para {
+    color: white;
+}
+
+button {
+    background-color: #FF7A2E;
+    border-radius: 5px;
+    border-color: transparent;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+}
+
+.main {
+    margin: 16px;
+    padding: 15px;
+}
+
+
+
+.para_1 {
+    font-size: 18px;
+    font-family: "Bree Serif";
+}
+
+h3 {
+    font-family: "Bree Serif";
+    font-size: 38px;
+    text-align: center;
+}
+
+.middle_content {
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .main_box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box {
+        margin: 10px;
+    }
+}
+
+.i2 {
+    height: 200px;
+    width: 260px;
+    border-radius: 23px;
+}
+
+h4 {
+    font-family: "Bree Serif";
+    font-size: 18px;
+    margin: 10px;
+}
+
+.box {
+    height: 340px;
+    width: 340px;
+}
+
+
+
+.contact {
+    background-color: #dfe3eb;
+}
+
+h5 {
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    border-color: #1E293B;
+    border-style: solid;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+span {
+    color: red;
+}
+
+.b_1 {
+    background-color: #FF7A2E;
+    border-radius: 8px;
+    border-color: transparent;
+    height: 45px;
+    width: 500px;
+    font-size: 19px;
+}
+
+
+footer {
+    background-color: #0A1525;
+    margin-top: 6px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.address_list {
+    margin: 20px;
+}

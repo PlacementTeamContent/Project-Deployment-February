@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 50vh;
+    width: 50vh;
+    color: white;
+    background-size: cover;
+    justify-content: center;
+    padding: 50px;
+    font-weight: 1200px;
+
+
+}
+
+.button {
+    color: white;
+    background-color: #4B9EFF;
+    height: 35px;
+    width: 100px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+
+.card2 {
+    text-align: center;
+}
+
+.image1 {
+    background-image:url("https://img.b2bpic.net/premium-photo/blueprint-computer-laptop-tool-equipment-desk-engineering-design-building-construction_10541-3114.jpg");
+    height:20vh;
+    width:20vh;
+    background-size:cover;
+}
+.image2 {
+    background-image:url("https://img.b2bpic.net/premium-photo/man-working-construction-site_1048944-12806982.jpg");
+    height:20vh;
+    width:20vh;
+    background-size:cover;
+}
+.image3 {
+    background-image:url("https://img.b2bpic.net/premium-photo/hard-hat-case-hands-construction-worker-uniform-safety-equipment-have-job-building_146671-48999.jpg");
+    height:20vh;
+    width:20vh;
+    background-size:cover;
+}

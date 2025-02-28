@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: #0A1220;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    text-align: center;
+    align-self: center;
+}
+
+.box1 {
+    display: flex;
+    text-align: center;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.logohead {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nav {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.fa {
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.container1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    height: 420px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.head1 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 40px;
+}
+
+.para1 {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.btn1 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    background-color: #00E5BE;
+    border-color: #00E5BE;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.boxcent {
+    text-align: center;
+    padding: 20px;
+}
+
+.headcent1 {
+    font-weight: bold;
+    color: #0A1220;
+}
+
+.paracent {
+    color: #1E293B;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.boxpic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pic {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;;
+}
+
+.pics {
+    padding: 10px;
+}
+
+.headcent {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0A1220;
+}
+
+.paracent {
+    font-size: 10px;
+}
+.container3 {
+    background-color: #dfe3eb;
+    background-size: cover;
+    max-height: 100vh;
+    margin: 0px;
+}
+.ner3 {
+    text-align: center;
+    font-family: "Bree Serif";
+    padding: 20px;
+} 
+.paracont3 {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+.headcont3 {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+.parax {
+    color: ;
+}

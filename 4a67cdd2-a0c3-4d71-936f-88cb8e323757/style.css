@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    background-color: #0A1525;
+    color: white;
+    font-size:10px;
+    margin:0px;
+    height:50px;
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    font-family: "Bree Serif";
+}
+.nav2{
+    margin-left:300px;
+}
+.imgg{
+    height:40px;
+    width:40px;
+}
+.bg{
+    background-image:url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg") ;
+    text-align: left;
+    color:white;
+    margin:0px;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-size:20px;
+    padding:30px;
+    font-family: "BreeSerif";
+}
+.btn{
+    background-color: #8B5CF6;
+    height:40px;
+    width:120px;
+    color:#FFFFFF;
+    border-radius:15px;
+    border:0px;
+}
+.bg2{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+.img1{
+    height:100px;
+    width:200px;
+    padding:20px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.img2{
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+    height:150px;
+    width:250px;
+    border-radius:25px;
+}
+.pro{
+   display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+    height:150px;
+    width:250px;
+    text-align: left;
+    border-radius:25px;
+    flex-direction:column;
+}
+.bg3{
+    text-align: center;
+    padding:30px;
+    background-color: #dfe3eb;
+    margin-top:60px;
+}
+.down{
+    text-align: left;
+}
+.sp{
+    color:red;
+}
+.cardd{
+    background-color: white;
+    height:30px;
+    width:650px;
+    border-color: grey;
+  border-radius:10px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    justify-content: space-evenly;
+}
+.bg4{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    text-align: left;
+    color:#dfe3eb;
+}
+.footer{
+    display:flex;
+    flex-wrap:wrap;
+}

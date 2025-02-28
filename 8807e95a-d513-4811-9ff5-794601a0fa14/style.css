@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-cont {
+    height: 100vh;
+    font-family: "Bree Serif";
+}
+
+.nav-cont {
+    display: flex;
+    color: #FFFFFF;
+    background-color: #0A1525;
+    justify-content: space-around;
+}
+
+.nav-img {
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.np {
+    padding: 20px;
+}
+
+.icon {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.main-page-cont {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 80vh;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-btn {
+    background-color: #8B5cF6;
+    padding: 15px;
+    color: #FFFFFF;
+    border-width: 0px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+.mar {
+    margin: 100px;
+}
+
+.service-cont {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Service-card {
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+    width: 250px;
+}
+.Service-card-cont {
+    display: flex;
+    justify-content: space-around;
+}
+.card-img {
+    border-radius: 15px;
+    height: 200px;
+    width: 250px;
+}
+.contact-cont{
+    background-color: #dfe3eb;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.col{
+    color: red;
+}
+.empty-box{
+   background-color:white;
+   padding: 30px;
+   margin:20px;
+   border-color:grey;
+   border-style:solid;
+   border-radius: 20px;
+}
+.email{
+    display: flex;
+    width:100%;
+}
+.emptybox{
+    width:470px;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    height:300px;
+}
+.btn{
+    width:95%;
+    margin:20px;
+}
+.end-cont{
+    background-color: #1E293B;
+    width: 97vw;
+    padding:10px;
+}
+.in-cont{
+    background-color: #1E293B;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.icons-cont{
+    padding:10px;
+}
+.div-3{
+    display: flex;
+    justify-content: space-between;
+}
+.mm{
+    color:white;
+}
+@media screen and (max-width:992px){
+    .contact-cont{
+    background-color: #dfe3eb;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+    .emptybox{
+    width:350px;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav-items {
+        display: none;
+    }
+
+    .nav-cont {
+        justify-content: space-around;
+    }
+
+    .nav-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mar {
+        margin: 50px;
+    }
+    .service-cont{
+    height: 270vh;
+    width: 100%;
+    }
+    .Service-card-cont {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    }
+    .Service-card {
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    }
+    .card-img {
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+    }
+    .contact-cont{
+    background-color: #dfe3eb;
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+    .boxes{
+    display: flex;
+    flex-direction: column;
+    }
+    .emptybox{
+    width:350px;
+    }
+    .email{
+    display: flex;
+    flex-direction: column;
+    }
+    .para{
+    height:200px;
+    }
+    .inside{
+    display: flex;
+    flex-direction: column;
+    } 
+    .end-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .divs{
+        display: flex;
+        justify-content: space-around;
+    }
+}

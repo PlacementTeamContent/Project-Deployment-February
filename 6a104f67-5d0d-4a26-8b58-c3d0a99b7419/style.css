@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.start {
+    background-color: #0A1525;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-self: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Bree Serif";
+}
+
+.head {
+    color: white;
+    font-family: "Bree Serif";
+
+}
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-cont {
+    text-align: center;
+    align-content: center;
+}
+
+.head2 {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.para {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+}
+
+.btn1 {
+    background-color: #8B5CF6;
+    color: white;
+    padding: 8px;
+    border: 0px;
+    border-radius: 4px;
+    font-family: "Bree Serif";
+}
+
+.another-cont {
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.head3 {
+    font-family: "Bree Serif";
+}
+
+.card-head {
+    font-family: "Bree Serif";
+}
+
+.para2 {
+    color: grey;
+    font-family: "Bree Serif";
+}
+
+.card-para {
+    color: grey;
+    font-family: "Bree Serif";
+}
+
+.img1 {
+    border-radius: 40px;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+}
+
+.card-cont {
+    display: flex;
+    padding: 16px;
+}
+
+.details {
+    background-color: #dfe3eb;
+    font-family: "Bree Serif";
+    padding: 10px;
+    text-align: center;
+}
+
+.paragraph {
+    color: grey;
+}
+
+.span {
+    color: red;
+}
+
+.end {
+    background-color: #0A1525;
+    padding: 100px;
+    margin: 0px;
+    display: flex;
+    align-self: center;
+}
+
+.end-para {
+    color: grey;
+}
+
+.text {
+    color: white;
+}

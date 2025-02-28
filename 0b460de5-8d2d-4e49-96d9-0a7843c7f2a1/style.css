@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.row1{
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    width: 100vw;
+    color: white;
+    /* text-align: center; */
+    /* margin: 25px; */
+    height: 75vh;
+}
+.h11{
+    margin: 25px;
+    font-size: 52px;
+    font-family: "Bree Serif";
+}
+.h23{
+    font-family: "Bree Serif";
+    text-align: center;
+    font-style: bold;
+}
+.btn{
+    background-color: #4B9EFF;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    border-radius: 16px;
+}
+.textdiv{
+    padding: 75px;
+}
+.row{
+    text-align: left;
+    /* margin: 50px; */
+    /* display:grid; */
+    
+}.image2{
+    width: 20vw;
+    border-radius: 12px;
+        /* margin: 50px; */
+    }
+@media (min-width:700px){
+    .image2{
+        margin: 50px;
+    }
+}
+.span1{
+    color: red;
+}
+.namebutton{
+    width: 80vw;
+    height: 50px;
+   margin-left: 12px;
+}
+.name{
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+.emailbutton{
+    width: 40vw;
+    height: 50px;
+    /* margin-left: 0px; */
+    margin-left: 12px;
+}
+.letstalk1{
+    text-align: center;
+}
+.letstalk{
+    margin: 12px;
+    text-align: center;
+    background-color: #4B9EFF;
+    color: white;
+    width: 90vw;
+    height: 50px;
+    border: 0px;
+    border-radius: 16px;
+}
+.messagebutton{
+    width:90vw;
+    height: 50vh;
+    /* margin-left: 0px; */
+    margin-left: 12px;
+}
+.navbar{
+    text-align: center;
+    background-color: #0A1525;
+}
+.contact-us{
+    background-color: #dfe3eb;
+    /* text-align: center; */
+}
+.text{
+    text-align: right;
+    background-color: #0A1525;
+}
+.text1{
+    padding: 12px;
+    text-align: left;
+    color: white;
+    background-color: #0A1525;
+}
+.logo{
+    width: 70px;
+    margin-left: 15px;
+}
+.h12{
+    margin: 25px;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.list{
+    text-decoration: none;
+    /* text-align: right; */
+    margin-left: 80vw;
+}
+.list1{
+    text-decoration: none;
+    /* text-align: right; */
+}
+.footer-image{
+    width: 70px;
+    margin: 15px;
+}
+.footer-pics{
+    font-size: 20px;
+    width: 50vw;
+    margin: 15px;
+}

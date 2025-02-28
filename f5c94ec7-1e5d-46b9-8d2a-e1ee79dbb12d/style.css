@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.home{
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+    align-items: center;
+    
+    
+}
+.heading{
+    color: #FFFFFF;
+}

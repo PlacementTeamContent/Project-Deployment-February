@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "Bree Serif";
+}
+.navbar{
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width:768px){
+.elements{
+    display: none;
+}
+}
+@media (min-width:768px){
+.elements{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+}
+}
+.bar{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.element{
+    padding: 8px;
+}
+.logo{
+    height: 50px;
+}
+.logo-cont{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 5px;
+}
+.main-cont{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: white;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+}
+.services-cont{
+    text-align: center;
+}
+@media (min-width:768px){
+.imgs-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+.img{
+    height: 150px;
+    padding: 50px;
+}
+.contact-us{
+    text-align: center;
+}
+span{
+    color: red;
+}
+.bttn1{
+    width: 100%;
+    height: 30px;
+}
+@media (min-width:768px){
+.something{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+.bttn2{
+    width: 100%;
+    height: 30px;
+}
+.bttn3{
+    width: 100%;
+    height: 30px;
+}
+.bttn4{
+    width: 100%;
+    height: 200px;
+}
+.bttn5{
+    width: 100%;
+    height: 30px;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #0A1525;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    height: 50px;
+}

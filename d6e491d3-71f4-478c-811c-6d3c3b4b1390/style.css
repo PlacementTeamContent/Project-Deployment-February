@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0A1525;
+    height: 100px;
+    width: 130%;
+
+
+}
+
+body {
+    margin: 0px;
+    font-family: "Bree Serif";
+
+}
+
+
+.logo p {
+    color: #FFFFFF;
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+
+.nav-links {
+    color: #FFFFFF;
+
+    display: flex;
+}
+
+.nav-links p {
+    padding: 10px;
+}
+
+.nav-links i {
+    align-self: center;
+}
+
+.for-small {
+    display: none;
+}
+
+.logo {
+    display: flex;
+}
+
+
+.Investment-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 90vh;
+    width: 130%;
+
+}
+
+.invest-head {
+    text-align: center;
+    font-size: 60px;
+
+
+}
+
+.invest-para {
+    /* text-align: center; */
+    padding-left: 100px;
+    font-size: 35px;
+}
+
+.invest-button {
+    background-color: #F6B352;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 150px;
+    height: 70px;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.Services-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Services-section img {
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+
+.services-head {
+    text-align: center;
+
+}
+
+.services-para {
+    text-align: center;
+    color: #1E293B;
+}
+
+.Services-section p {
+    color: #1E293B;
+}
+
+.portfolio-head {
+    font-size: 18px;
+}
+
+.portfolio {
+    margin: 20px;
+}
+
+.financial {
+    margin: 20px;
+}
+
+.risk {
+    margin: 20px;
+}
+
+
+
+.risk-head {
+    font-size: 18px;
+}
+
+.financial-head {
+    font-size: 18px;
+}
+
+.Contact-section {
+    background-color: #dfe3eb;
+    width: 130%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-head {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contact-para {
+    text-align: center;
+    color: #1E293B;
+
+}
+
+.email-phone {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+span {
+    color: red;
+}
+
+.name {
+    margin: 20px;
+}
+
+.email {
+    margin: 20px;
+
+}
+
+.phone {
+    margin: 20px;
+
+}
+
+.Contact-section p {
+    font-size: 25px;
+}
+
+.message {
+    margin: 20px;
+}
+
+.message input {
+    width: 80%;
+    height: 200px;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+}
+
+.name input {
+    width: 80%;
+    height: 50px;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+}
+
+.email input {
+    width: 170%;
+    height: 50px;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+
+}
+
+.phone input {
+    height: 50px;
+    width: 160%;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+}
+
+.contact-button {
+    color: #FFFFFF;
+    background-color: #F6B352;
+    border-width: 0px;
+    width: 75%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: "Bree Serif";
+
+}
+
+.footer-section {
+    background-color: #0A1525;
+    height: 320px;
+    width: 130%;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.footer-section p {
+    color: #dfe3eb;
+}
+
+.footer-section i {
+    color: #dfe3eb;
+}
+
+.content1 {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.content1 img {
+    height: 60px;
+    width: 60px;
+}
+
+.content2 {
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.content3 {
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.last-para {
+    color: #FFFFFF;
+    padding-left: 50px;
+
+
+}
+
+.footer i {
+    margin: 10px;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.content3-head {
+    font-size: 22px;
+}
+
+.content2-head {
+    font-size: 22px;
+}
+
+@media (max-width:768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .for-small {
+        display: inline;
+        color: #FFFFFF;
+    }
+
+    .Services-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name input {
+        width: 80%;
+        height: 35px;
+        border-color: #dfe3eb;
+        border-radius: 5px;
+    }
+
+    .email input {
+        width: 80%;
+        height: 35px;
+        border-color: #dfe3eb;
+        border-radius: 5px;
+    }
+
+    .phone input {
+        width: 80%;
+        height: 35px;
+        border-color: #dfe3eb;
+        border-radius: 5px;
+    }
+
+    .message input {
+        width: 80%;
+        height: 200px;
+        border-color: #dfe3eb;
+        border-radius: 5px;
+    }
+
+    .email-phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        margin: 20px;
+    }
+
+    .email {
+        margin: 20px;
+    }
+
+    .phone {
+        margin: 20px;
+    }
+
+    .message {
+        margin: 20px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .content1 {
+        width: 130%;
+    }
+
+    .portfolio {
+        margin: 40px;
+    }
+
+    .financial {
+        margin: 40px;
+    }
+
+    .risk {
+        margin: 40px;
+    }
+
+    .footer-section {
+        height: 500px;
+    }
+
+    .invest-button {
+        height: 40px;
+        width: 90px;
+        font-size: 10px;
+    }
+
+    .invest-para {
+        font-size: 15px;
+    }
+
+    .invest-head {
+        font-size: 27px;
+    }
+
+    .Contact-section p {
+        font-size: 15px;
+    }
+
+    .last-para {
+        font-size: 12px;
+    }
+
+}

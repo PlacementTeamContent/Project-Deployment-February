@@ -1,0 +1,102 @@
+.navbar {
+    height: 50px;
+    width: 760px;
+    background-color: #0A1525;
+    padding: 10px;
+}
+.logo {
+    height: 50px;
+    width: 40px;
+}
+.bg-img {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    height: 300px;
+    width: 720px;
+    background-size: cover;
+    padding: 30px;
+}
+.heading {
+    color: #ffffff;
+    font-family: Bree Serif;
+}
+.para {
+    color: #ffffff;
+}
+.btn {
+    background-color: #dfe3eb;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: #dfe3eb;
+}
+.head3 {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.third {
+    height: 350px;
+    width: 660px;
+    color: #ffffff;
+    padding: 10px;
+}
+.img {
+    height: 200px;
+    width: 210px;
+    border-radius: 5px;
+}
+.feed {
+    height: 410px;
+    width: 680px;
+    background-color: #dfe3eb;
+    padding: 50px;
+}
+.feedback {
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.box1 {
+    height: 30px;
+    width: 600px;
+    background-color: #ffffff;
+    border-color: #dfe3eb;
+    border-radius: 5px;
+}
+.pad1 {
+    padding: 5px;
+}
+.box2 {
+    height: 160px;
+    width: 600px;
+    background-color: #ffffff;
+    border-color: #dfe3eb;
+    border-radius: 5px;
+}
+.pad2 {
+    padding: 5px;
+}
+.btn1 {
+    height: 30px;
+    width: 600px;
+    color: #ffffff;
+    background-color: #4B84F3;
+    border-color: #4B84F3;
+    border-radius: 5px;
+}
+.but {
+    padding: 5px;
+}
+.end {
+    height: 200px;
+    width: 580px;
+    background-color: #1A2942;
+    padding: 100px;
+}
+.end-img {
+    height: 100px;
+    width: 100px;
+}
+.endp {
+    color: white;
+}

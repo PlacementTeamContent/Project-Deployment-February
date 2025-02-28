@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.class-high{
+    height: 50vh;
+    width: 90vw;
+    background-size: cover;
+}
+.class-low{
+    background-color:#4B9EFF;
+    height: 30px;
+    width: 50px;
+}
+.class-dead{
+    text-align: center;
+    align-items: center;
+}
+.class-low{
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+}
+.class-deadly{
+    font-family: Bree Serif;
+    color:#dfe3eb;
+}
+.class-rare{
+    font-family: Bree Serif;
+    font-size: 14px;
+}
+.gear-head{
+    font-family: Bree Serif;
+}
+.gear-low{
+    font-family: Bree Serif;
+}
+.function{
+    height: 180px;
+    width: 200px;
+    border-radius: 10px;
+}
+.gear-pitch{
+    font-family: Bree Serif;
+    font-size: 20px;
+}
+.gear-deadly{
+    font-family: Bree Serif;
+    color: #dfe3eb;
+}
+.AA{
+    height: 180px;
+    width: 200px;
+    border-radius: 10px;
+}
+.q{
+    font-family: Bree Serif;
+    font-size: 20px;
+}
+.goat{
+    font-family: Bree Serif;
+    color: #dfe3eb;
+}
+.healing{
+    height: 180px;
+    width: 200px;
+    border-radius: 10px;
+}
+.medkit{
+    font-family: Bree Serif;
+    font-size: 20px;
+}
+.Gloo-Wall{
+    font-family: Bree Serif;
+    color: #dfe3eb;
+}
+.beat-it{
+    background-color: #dfe3eb;
+    height: 30vh;
+}
+.HTML{
+    font-family: Bree Serif;
+}
+.JS{
+    font-family: Bree Serif;
+    font-size: 16px;
+}
+.box{
+    height: 40px;
+    width: 180px;
+    color: white;
+}
+.class{
+    height: 50px;
+    width: 40px;
+}

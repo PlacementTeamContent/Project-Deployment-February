@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+header {
+    background-color: #0A1525;
+    height: 100px;
+    width: auto;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+.logotype {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#homepage {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+}
+
+.main-heading {
+    color: white;
+    font-size: 100px;
+    padding-left: 150px;
+}
+
+.main-para {
+    color: #dfe3eb;
+    font-size: 30px;
+    padding-left: 150px;
+}
+
+.btn {
+    background-color: #FF7A2E;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    margin-right: 750px;
+}
+#ourservicespage {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img1 {
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.img2 {
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.img3 {
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#contactuspage {
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 55vh;
+    text-align: center;
+}
+
+.namesec {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 360px;
+}
+
+.fill1 {
+    height: 20px;
+    width: 500px;
+    background-color: white;
+}
+
+.emailsec {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 360px;
+}
+
+.fill2 {
+    height: 20px;
+    width: 220px;
+    background-color: white;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.phonesec {
+    margin-left: 15px;
+}
+
+.fill3 {
+    height: 20px;
+    width: 220px;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.messagesec {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 360px;
+}
+
+.fill4 {
+    height: 120px;
+    width: 500px;
+    background-color: white;
+}
+
+.p {
+    color: #dfe3eb;
+}
+
+span {
+    color: red;
+}
+
+.btn2 {
+    background-color: #FF7A2E;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+
+footer {
+    background-color: #0A1525;
+    color: white;
+}
+
+.site {
+    color: white;
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@media all and (width: 576px){
+    .namesec{
+        margin-right: 220px;
+    }
+}

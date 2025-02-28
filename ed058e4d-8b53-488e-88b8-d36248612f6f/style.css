@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-color: #0A1525;
+    width:100vh;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content{
+    background-image:url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    height:100vh;
+    width:100vh;
+    background-size:cover;
+}
+.content{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+.contact-btn{
+    background-color:#FF7A2E;
+    color:white;
+    padding: 3px;
+    border-radius:4px;
+    border-color:#FF7A2E;
+    margin-top:5px;
+    width:70vh;
+}
+.content-btn{
+    background-color:#FF7A2E ;
+    color:white;
+    padding: 3px;
+    border-radius:4px;
+    border-color:#FF7A2E;
+}
+.pic{
+    height:150px;
+    width:200px;
+    background-size: cover;
+    border-radius:15px;
+}
+.service-box{
+    text-align: center;
+    width:80vh;
+}
+.box{
+    max-width: 250px;
+}
+.service-dabba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact-us{
+    background-color:#dfe3eb;
+    width:100vh;
+    text-align: center;
+    padding-top:30px ;
+    padding-bottom:30px ;
+}
+.star{
+    color:#FF7A2E;
+}
+.blank{
+    background-color:white;
+    height:10px;
+    width:70vh;
+    margin-left:85px;
+}
+.footer{
+    background-color:#0A1525;
+    width:100vh;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:#FFFFFF;
+    padding-left:10px;
+}
+.img{
+    height:50px;
+}
+i{
+    margin:5px;
+}
+.arrange{
+    display:flex;
+    justify-content: space-around;
+}
+span{
+    text-decoration: underline;
+}

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: Bree Serif;
+}
+
+nav {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-1 {
+    height: 40px;
+}
+
+.nav-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-height:767px) {
+    .nav-2 {
+        display: none;
+    }
+}
+
+button {
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.main-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    color: #ffffff;
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    padding: 30px;
+}
+
+img {
+    height: 150px;
+    border-radius: 20px;
+}
+
+.main-2 {
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px;
+}
+
+@media screen and (max-height:767px) {
+    .card-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.main-3 {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 50px;
+}
+
+.d {
+    background-color: #ffffff;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.p-1 {
+    text-align: left;
+}
+
+.p-3 {
+    text-align: left;
+}
+
+.p-2 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: left;
+}
+
+.d-1 {
+    background-color: #ffffff;
+    height: 20px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.d-2 {
+    background-color: #ffffff;
+    height: 100px;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+@media (max-height:720px) {
+    .p-2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.main-4{
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.ions{
+    display: flex;
+    flex-direction: row;
+    
+}

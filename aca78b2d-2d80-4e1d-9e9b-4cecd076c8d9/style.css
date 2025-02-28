@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    margin:0;
+    font-family:"Bree Serif";
+    
+}
+nav{
+    background-color:#0A1525;
+    color:white;
+    font-size:12px;
+    display:flex;
+    justify-content:space-around;
+}
+.nav-img{
+    display:flex;
+    padding:10px;
+}
+.nav-img img{
+    width:15%;
+    height:50%;
+    margin:4px;
+    margin-top:8px;
+}
+.nav-class{
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+    gap:10px;
+}
+.fa{
+    margin-top:25px;
+    font-size:20px;
+}
+@media screen and (max-width:577px){
+    .nav-class{
+        display:none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .fa{
+        margin-right:10px;
+    }
+}
+.home-page{
+    background-image:url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    background-size:cover;
+    height:70vh;
+    width:100%;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.home-page button{
+    background-color:#6C63FF;
+    color:white;
+    border-width:0;
+    border-radius:5px;
+    padding:5px;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.cards-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+  
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0px;
+}
+.card img{
+    width:50%;
+    border-width:1px;
+    border-color:#dfe3eb;
+    border-radius:7px;
+    border-style:solid;
+}
+
+@media screen and (min-width:768px){
+    .cards-container{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows:1fr;
+    }
+    .ai{
+    height:35%;
+}
+}
+article{
+    background-color: #dfe3eb;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:10px;
+}
+input{
+    border-radius:5px;
+    border-width:1px;
+    border-color:#dfe36b;
+    width:70vw;
+    height:3vh;
+}
+@media screen and (min-width:768px){
+    .info-card{
+        display:flex;
+        
+    }
+    .info{
+        margin-right:160px;
+    }
+    .info-card input{
+        width:34vw;
+    }
+    .info-1{
+        margin-right:80px;
+    }
+    article button{
+         margin-right:160px;
+    }
+}
+span{
+    color:red;
+}
+.msg{
+    height:10vh;
+}
+article button{
+    background-color:#6C63FF;
+    color:white;
+    border-width:0;
+    border-radius:5px;
+    padding:5px;
+    width:70vw;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.last{
+    background-color:#0A1525;
+    color:white;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+footer{
+    background-color:#0A1525;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+}
+footer p{
+    font-size:10px;
+}
+footer img{
+    width:8%;
+    height:30%;
+    margin:4px;
+    margin-top:8px;
+}
+i{
+    margin:4px;
+    font-size:22px;
+}
+.footer-content{
+    display:flex;
+    gap:30px;
+}
+.footer-content h1{
+    font-size:14px;
+}
+@media screen and (min-width:768px){
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .line-1{
+        display:none;
+    }
+
+}
+@media screen and (max-width:767px){
+    .line{
+        display:none;
+    }
+}
+.line,.line-1{
+    font-size:8px;
+}
+.line-1 span{
+    color:white;
+    text-decoration: underline;
+}
+.line span{
+    color:white;
+    text-decoration: underline;
+}

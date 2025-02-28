@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.maincontainer {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    height: 90vh;
+    padding-left: 10%;
+    padding-top: 40%;
+}
+
+.mainheading {
+    color: white;
+    font-family: Roboto;
+    font-size: 50px;
+}
+
+.subheading {
+    color: white;
+    font-family: Roboto;
+}
+
+.contact {
+    background-color: #dfe3eb;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+}
+
+.contactus {
+    background-color: #dfe3eb;
+    height: 90vh;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.btn {
+    background-color: #4B84F3;
+    color: white;
+    width: 30%;
+    border: none;
+    height: 30px;
+}
+
+.navbar {
+    background-color: #0A1525;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 70px;
+    margin-left: 10%;
+}
+
+.navitems {
+    color: white;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: row;
+    font-family: Bree Serif;
+
+}
+
+
+.name {
+    color: white;
+    font-family: Bree Serif;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.navitemsin {
+    margin-left: 20px;
+}
+.info{
+    background-color:#1A2942 ;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+.card{
+    margin-left: 60px;
+}
+.license{
+    color: #dfe3eb;
+    margin-top:90px;
+}
+@media(max-width:768px;){
+    container{
+        display: flex;
+        flex-direction: row;
+    }
+}

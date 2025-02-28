@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.background {
+    background-color: #0A1426;
+    height: 6Vh;
+    width: 110vw;
+}
+
+.nxtplus-color {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 30px;
+}
+
+.main-icon {
+    height: 100px;
+    width: 100px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.background-img {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    height: 80vh;
+    width: 100Vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-left: 10vw;
+}
+
+.page-1-head-1 {
+    color: white;
+    font-size: 70px;
+}
+
+.page-1-para-1 {
+    color: white;
+    font-size: 25px;
+}
+
+.page-1-button-1 {
+    background-color: #4a90E2;
+    border: solid, #4a90E2;
+    border-radius: 5px;
+    color: white;
+    width: 20vw;
+}
+
+.page-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 60px;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+.page-2-heading-2 {
+    font-size: 20px;
+    font-family: Bree Serif;
+}
+
+.page-2-para-2 {
+    padding-left: 13vw;
+    padding-right: 13vw;
+}
+
+.page-2-services {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+}
+.page-3-heading-3{
+   font-size: 20px;
+   font-family: Bree Serif;  
+}
+.Contact-Us-section{
+    background-color:#e0dfdc ;
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    text-align: center;
+    padding-left: 90px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-bottom:80px; 
+}
+.page-3-name{
+    text-align: left;
+    font-weight: bold;
+    margin: 5px;
+}
+spam{
+    color: red;
+}
+.input-box-1{
+   width: 85vw;
+}
+.Contact-Us-section-Sub-div{
+    display: flex;
+    flex-direction: row;
+ 
+    
+}
+.Contact-Us-section-Sub-sub-div{
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+}  
+.input-box-2{
+   width: 41vw;
+}

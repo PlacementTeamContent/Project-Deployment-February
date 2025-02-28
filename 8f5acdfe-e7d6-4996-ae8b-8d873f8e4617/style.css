@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-color{
+    background-color:#0A1525 ;
+    height: 11vh;
+}
+.imghe{
+    height: 60px;
+    width:60px;
+    margin: 5px;
+}
+
+.item{
+    color:#ffffff;
+    margin-left:10px ;
+     margin-right:10px ;
+     text-align: center;
+}
+@media (max-width:768px){
+    .item{
+    color:black;
+    }
+    .imghe{
+    height: 40px;
+    width:40px;
+    margin: 5px;
+    }
+    .indiv1{
+        width:576px;
+    }
+}
+.indiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.items-nav{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    color:white;
+}
+.imgdivnav{
+    display: flex;
+    flex-direction: row;
+}
+.back-img{
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+.inov{
+    color:white;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 70px;
+    text-align: center;
+} 
+@media (max-width:768px){
+    .inov{
+    color:white;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 30px;
+    }
+    .button1{
+        padding:10px;
+    }
+    
+}
+.elements-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height: 80vh;
+     
+    
+}
+.para{
+    color:white;
+    text-align: center;
+    margin: 20px;
+    
+}
+.button1{
+    background-color:#FFD700 ;
+    text-align: center;
+    color:white;
+    border:0px;
+    padding:20px;
+    border-radius:10px;
+}
+.b-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.black-our{
+    color:#E293B;
+    font-family: "Bree Serif";
+}
+.our{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.black{
+color:grey;
+font-family: "Bree Serif";
+}
+
+.k{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+}
+.div-1{
+    width: 30%;
+    margin: 10px;
+}
+
+.multi-div{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:768px){
+    .multi-div{
+    display: flex;
+    flex-direction: column;
+    } 
+    .div-1{
+        width: 100%;
+    }
+}
+.c-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us{
+    background-color:lightgrey ;
+    
+}
+.i-name{
+    height: 50px;
+    width: 80%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-2{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.button2{
+    background-color:#FFD700 ;
+    text-align: center;
+    color:white;
+    border:0px;
+    padding:20px;
+    border-radius:10px;
+    margin: 20px;
+    width: 80%;
+}
+.main-foot{
+    background-color:#1E293B;
+    height: 45vh;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.main-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foot-div1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.icon{
+    height: 100vh;
+}
+.fa{
+    height: 100px;
+}
+.foot-div2{
+    display: flex;
+    flex-direction: column;
+}
+.head-1{
+    color:white;
+}
+@media (max-width:768px){
+    
+}

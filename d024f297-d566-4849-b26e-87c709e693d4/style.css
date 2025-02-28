@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1426;
+}
+.fa-bars{
+    color:#e0dfdc;
+}
+
+.heading {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Bree Serif;
+}
+
+.card1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.heading1 {
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.passage1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: Bree Serif;
+}
+
+.button1 {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 10px;
+    height: 60px;
+    width: 100px;
+    font-family: Bree Serif;
+}
+
+.card2 {
+    background-color: white;
+    height: 200vh;
+}
+
+.card3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.card4 {
+    text-align: center;
+}
+
+.image {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
+.card6 {
+    background: #e0dfdc;
+    text-align: center;
+}
+
+.card7 {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.btn1 {
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.color {
+    color: red;
+}
+
+.btn2 {
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.button3 {
+    background-color: #4A90E2;
+    border-width: 0px;
+    margin:10px;
+}
+.card8{
+    background-color:#1E293B;
+    height:80vh;
+    padding:20px;
+    color:#e0dfdc;
+}
+.bi{
+    font-size: 30px;
+    padding:5px;
+}

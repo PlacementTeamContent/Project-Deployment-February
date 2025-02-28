@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    display: flex;
+}
+
+.bg-cont {
+    background-color: #0A1525;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.head {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.nav-bg {
+    color: white;
+    padding:250px;
+}
+.container{
+    background-image:url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height:50vh;
+    width:98vw;
+    background-size:cover;
+    margin-top:-15px;
+}
+.head1{
+    padding:20px;
+    font-family:"Roboto";
+    color:white;
+    font-size:20px;
+    align-items:center;
+    text-align:center;
+    font-weight:bold;
+    
+}
+.para{
+    color:white;
+    font-family:"Roboto";
+    margin-top:-20px;
+    margin:10px;
+}
+.btn{
+    background-color:#6C63FF;
+    color:white;
+    border-radius:3px;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    font-weight:bold;
+    margin:20px;
+    
+}
+.head2{
+    align-items:center;
+    flex-direction:row;
+    text-align:center;
+    font-family:"Roboto";
+}
+.services{
+    align-items:center;
+    flex-direction:row;
+    margin:10px;
+    text-align:center;
+}
+.img1{
+    background-size:cover;
+    height:30vh;
+    width: 80vw;
+    border-radius:10px;
+    margin:10px;
+    border:solid #dfe3eb 2px;
+}
+.head3{
+    font-size:20px;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-top:-10px;
+    align-content:flex-start;
+    text-align:left;
+    color:black;
+}
+.para3{
+    color:#1E293B;
+    font-family:Roboto;
+}
+.card2{
+    background-color:#dfe3eb;
+    height:80vh;
+    width:90vw;
+}
+.head4{
+    align-content: center;
+    flex-direction:row;
+    text-align:center;
+    font-family:"Roboto";
+}
+.para4{
+    font-family:"Roboto";
+    margin:12px;
+    font-size:11px;
+}
+.span{
+    color:red;
+}
+.contact{
+    height:20px;
+    width:70vw;
+    color:white;
+    border:1px solid #dfe3eb;
+    background-color:white;
+    margin:20px;
+    border-radius:5px;
+}
+.contact2{
+    height:110px;
+    width:70vw;
+    color:white;
+    border:1px solid #dfe3eb;
+    background-color:white;
+    margin:20px;
+    border-radius:5px;
+    border-style:solid;
+}
+.button{
+    background-color:#6C63FF;
+    height:30px;
+    width:80vw;
+    color:white;
+    border-radius:10px;
+    border:2px;
+    margin:10px;
+    margin-top:-5px;
+}
+.footer{
+    background-color:#0A1525;
+    height:100vh;
+    width: 90vw;
+   
+}
+@media(width:20px){
+    .footer{
+        background-image:url("https://cdn-icons-png.freepik.com/128/4744/4744242.png");
+        height:20px;
+        width:20px;
+    }
+}
+.icon{
+    background-image:url("https://cdn-icons-png.freepik.com/128/4744/4744242.png");
+    height:25vh;
+    width:25vw;
+    background-size:cover;
+    margin:10px;
+    margin-bottom:10px;
+    padding:10px;
+}
+.para5{
+    color:#dfe3eb;
+    margin:30px;
+    font-family:"Roboto";
+    font-size:10px;
+}
+.icons{
+    color:white;
+    margin:20px;
+    flex-direction:row;
+    align-content:center;
+    align-items:center;
+}
+.head5{
+    color:white;
+    margin:30px;
+    font-family:"Roboto";
+}
+.unorder{
+    color:#dfe3eb;
+   
+}
+.pop{
+    color:#dfe3eb;
+    margin:10px;
+    font-size:10px;
+}

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    font-family:"Roboto";
+}
+span{
+    color:red;
+}
+.span{
+    color:#ffffff;
+    text-decoration: underline;
+}
+.header{
+    background-color: #0A1525;
+    color:#ffffff;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.logo{
+    padding:10px;
+    display: flex;
+    flex-direction:row;
+    gap:10px;
+}
+.nav{
+    padding:10px;
+    display: flex;
+    flex-direction:row;
+    gap:20px;
+}
+.home-page{
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size:cover;
+    height:100vh;
+    color:#ffffff;
+}
+.home-page-content{
+    display: flex;
+    flex-direction:column;
+    padding:50px;
+    margin:auto;
+}
+.home-page-button{
+    background-color: #4B9EFF;
+    color:#ffffff;
+    width:100px;
+    border-width:0px;
+    padding:15px;
+    border-radius:5px;
+}
+.our-service-page{
+    padding:50px;
+}
+.our-service-page-header{
+    text-align: center;
+    padding-bottom:30px;
+}
+.img{
+    height:200px;
+    width:300px;
+    border-radius:10px;
+}
+.our-service-page-body{
+    animation:service;
+    display:flex;
+    gap:10px;
+    flex-direction: row;
+}
+.contact-us-page{
+    background-color: #dfe3eb;
+    padding:50px;
+}
+.contact-us-page-div{
+    text-align: center;
+}
+.box-1{
+    background-color: #ffffff;
+    height:50px;
+    margin-right:10px;
+    border-radius:5px;
+}
+.box-message{
+    background-color: #ffffff;
+    height:150px;
+    margin-right:10px;
+    border-radius:5px;
+}
+.contact-us-page-button{
+    background-color: #4B9EFF;
+    color:#ffffff;
+    width:100%;
+    border-width:0;
+    padding:15px;
+    border-radius:5px;
+}
+.btn{
+    margin-right:10px;
+    margin-top:10px;
+}
+.footer{
+    background-color: #0A1525;
+    color:#ffffff;
+}
+.footer-main{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:50px;
+    animation:footer;
+    /* justify-content: space-between; */
+}
+.footer-div1{
+    padding:50px;
+}
+.footer-div2{
+    padding:50px;
+}
+.footer-div3{
+    padding:50px;
+}
+.footer-div4{
+    padding-left:100px;
+    padding-bottom:50px;
+}

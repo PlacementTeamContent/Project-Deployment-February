@@ -1,0 +1,123 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"); */
+.back{
+    background-color: #0A1525;
+    background-size:cover;
+    height: 100px;
+    width: 130vw;
+    margin: 10px;
+}
+h5{
+    color:white;
+    font-family: Bree Serif;
+}
+.back2{
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 60vh;
+    width: 130vw;
+    text-align: center;
+    
+}
+.hh{
+    color: white;
+    font-size: 70px;
+    text-align:center;
+    font-family: 'Bree Serif';
+}
+.pp{
+    color:white;
+    text-align: center;
+}
+.but{
+    display: flex;
+    background-color: #8B5CF6;
+    color:white;
+    align-items: center ;
+    border-color:#8B5CF6 ;
+}
+.backkk{
+    text-align: center;
+}
+.io{
+    color:#1E293B;
+}
+.boo{
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 100vh;
+}
+.box1{
+    background-color: white;
+    height: 40px;
+    width:190px;
+    margin:40px;
+    border-radius: 5px;
+}
+.yoo{
+    font-weight: bold;
+}
+.box2{
+ background-color: white;
+    height: 40px;
+    width:190px;
+    margin:40px;
+    border-radius: 5px;
+}   
+.box3{
+    background-color: white;
+    height: 40px;
+    width:190px;
+    margin:40px;
+    border-radius: 5px;
+}
+.box4{
+    background-color: white;
+    height: 80px;
+    width:190px;
+    margin:40px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #0A1525;
+    background-size:cover;
+    height: 70vh;
+    width: 130vw;
+}
+i{
+    background-color:silver;
+    background-size:cover;
+    height: 60px;
+    width: 40px;
+    margin: 3px;
+}
+.op{
+    color:white;
+}
+.aish{
+    color:white;
+    font-weight: bold;
+}
+.kk{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:10px;
+    margin: 20px;
+}
+.kk{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:20px;
+    margin: 30px;
+    color:white;
+}
+.butt{
+    display: flex;
+    background-color: #8B5CF6;
+    color:white;
+    align-items: center ;
+    border-color:#8B5CF6 ;
+    height: 30px;
+    width:150px;
+}

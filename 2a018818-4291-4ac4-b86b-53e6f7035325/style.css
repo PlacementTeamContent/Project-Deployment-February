@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.top-container {
+    background-color: #0A1220;
+    height: 130px;
+    width: 700px;
+    /* background-image: url("https://cdn-icons-png.freepik.com/128/15909/15909516.png"); */
+}
+
+/* .main-heading{
+    color:#ffffff;
+} */
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 690px;
+}
+
+.flex-container {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.para {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.button {
+    background-color: #00E5BE;
+    color: #ffffff;
+    height: 50px;
+    width: 95px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #00E5BE;
+    border-width: 10;
+}
+
+.text-center {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.image {
+    text-align: center;
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+}
+
+.image-container {
+    padding-bottom: 20px;
+}
+
+.contact-page {
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 850px;
+    width: 690px;
+}
+
+.contact-page {
+    padding: 40px;
+
+}
+
+.con-head {
+    padding-bottom: 30px;
+}
+
+.h {
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+.p {
+    font-size: 18px;
+}
+
+.details {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.empty {
+    height: 36px;
+    width: 600px;
+    border-radius: 5px;
+    border-color: grey;
+    border-width: 2px;
+
+}
+
+.empty-1 {
+    height: 300px;
+    width: 600px;
+    border-radius: 5px;
+    border-color: grey;
+    border-width: 2px;
+}
+
+.btn {
+    background-color: #00E5BE;
+    color: #ffffff;
+    height: 50px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #00E5BE;
+    border-width: 10;
+    margin-top: 20px;
+}
+
+.container-2 {
+    background-color: #0A1220;
+    background-size: cover;
+    height: 800px;
+    width: 690px;
+}
+
+.c {
+    padding: 60px;
+}
+
+.in {
+    color: #dfe3eb;
+    font-size: 20px;
+}
+
+.icons {
+    background-color: #dfe3eb;
+}
+
+.sec {
+    color: #dfe3eb;
+    padding: 60px;
+}
+
+.fl {
+    display: flex;
+    flex-direction: row;
+}
+
+.lp {
+    color: #dfe3eb;
+    padding: 60px;
+    /* display: flex;
+    flex-direction: row; */
+    /*   justify-content: center; */
+    /*  align-self: flex-end; */
+}
+
+.sp {
+    text-decoration: underline;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width:778px) {
+    .container-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .n {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .con-head {
+        text-align: center;
+    }
+
+    .partial {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .colu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .empty_ {
+        height: 30px;
+        width: 300px;
+        margin: 2px;
+    }
+
+    .fn {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

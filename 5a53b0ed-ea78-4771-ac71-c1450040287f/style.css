@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@media(max-width:576px) {
+h1 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+p {
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+button {
+    border-width: 0px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #4B9EFF;
+}
+
+.navbar {
+    Display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    Display: flex;
+    margin: 10px;
+}
+
+.nav-items {
+    Display: flex;
+    display: none;
+    color: white;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+
+.banner-section {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.banner-para {
+    margin-left: 100px;
+}
+
+.our-services {
+    Display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.services-heading {
+    color: #0a1525;
+}
+
+.services-para {
+    color: #0a1525;
+    margin-left: 100px;
+}
+
+.our-services-card {
+    Display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 300px;
+    margin: 15px;
+}
+
+.services-para-card {
+    color: #0a1525;
+}
+
+.contact-us-section {
+
+    background-color: #dfe3eb;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contact-us-heading {
+    Display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.Name-card {
+    background-color: #ffffff;
+    height: 25px;
+    width: 90vw;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 100px;
+
+}
+
+.footer-contact {
+    Display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #1e293b;
+    Display: flex;
+    flex-direction: column;
+
+}
+
+}
+    h1 {
+        color: #ffffff;
+        font-family: "Roboto";
+    }
+
+    p {
+        color: #ffffff;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    button {
+        border-width: 0px;
+        border-radius: 5px;
+        width: 100px;
+        background-color: #4B9EFF;
+    }
+
+    .navbar {
+        Display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-logo {
+        Display: flex;
+        margin: 10px;
+    }
+
+    .nav-items {
+        Display: flex;
+        color: white;
+        justify-content: flex-end;
+    }
+
+
+    .banner-section {
+        background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+        background-size: cover;
+        Display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    .banner-para {
+        margin-left: 100px;
+    }
+
+    .our-services {
+        Display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .services-heading {
+        color: #0a1525;
+    }
+
+    .services-para {
+        color: #0a1525;
+        margin-left: 100px;
+    }
+
+    .our-services-card {
+        Display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        max-width: 300px;
+        margin: 15px;
+    }
+
+    .services-para-card {
+        color: #0a1525;
+    }
+
+    .contact-us-section {
+
+        background-color: #dfe3eb;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .contact-us-heading {
+        Display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+    }
+
+    .Name-card {
+        background-color: #ffffff;
+        height: 25px;
+        width: 90vw;
+        border-style: solid;
+        border-color: grey;
+        border-width: 1px;
+        border-radius: 5px;
+        margin-left: 100px;
+
+    }
+
+    footer {
+        background-color: #1e293b;
+        Display: flex;
+    }
+.footer-contact {
+    Display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}

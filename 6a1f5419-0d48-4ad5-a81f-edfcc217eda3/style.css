@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #0A1525;
+    height: 50px
+}
+
+.nav4 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+.nav-logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.nav2 {
+    color: white;
+    font-family: Bree Serif;
+    margin-top: 10px;
+}
+
+.nav23 {
+    margin-right: 20px;
+    color: white;
+    font-family: Bree Serif;
+}
+
+.banner-sec {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 50vh;
+
+}
+
+.banner-sec-head {
+    color: #FFFFFF;
+    font-family: Bree Serif;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: Bree Serif;
+}
+
+.banner-sec-btn {
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: solid #4B9EFF;
+    font-family: Bree Serif;
+}
+
+.div1 {
+    margin-top: 130px;
+    margin-left: 120px;
+}
+
+.bottom-sec-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom-sec-1-para {
+    color: grey;
+    margin-top: 15px;
+}
+
+.btn-sec-photo {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.bottom-sec-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.para2 {
+    color: grey;
+}
+
+.contact-us-sec {
+    background-color: #dfe3eb;
+}
+
+.contact-us-sec-1 {
+    text-align: center;
+}
+.cc{
+    font-size: 30px;
+}
+
+.contact-us-sec-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+
+
+}
+
+span {
+    color: red;
+}
+
+.name {
+    margin-right: 390px;
+}
+
+.name-text {
+    width: 450px;
+}
+
+.email {
+    margin-right: 135px;
+}
+
+.email-text {
+    width: 200px;
+}
+
+.n000 {
+    margin-left: 10px;
+}
+
+.message {
+    margin-right: 240px;
+}
+
+.text-message {
+    width: 450px;
+    height: 100px;
+}
+
+.btn2 {
+    background-color: #4B9EFF;
+    color: white;
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: solid #4B9EFF;
+    margin-bottom: 40px;
+}
+
+.footer-div {
+    background-color: #0A1525;
+
+}
+
+.bi {
+    color: white;
+    justify-content: space-around;
+
+
+}
+
+.photo {
+    height: 60px;
+    width: 70px;
+}
+
+.footer-div-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.mm {
+    color: white;
+}
+
+.box-2 {
+    margin-left: 100px;
+   
+}
+
+.box-3 {
+    margin-left: 120px;
+    
+}
+
+.box-1 {
+    margin-left: 20px;
+    padding: 20px;
+}
+#kk{
+    text-decoration: underline;
+    margin: 10px;
+}
+.foo{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}

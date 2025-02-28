@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li{
+    margin-left: 40px;
+}
+.fa{
+    margin-left: 9px;
+    color: white;
+    margin-top:0px;
+}
+
+.icon{
+    height: 45px;
+    width: 45px;
+}
+
+.hed{
+    color: #ffffff;
+    font-size: 24px;
+}
+.frnt-pag{
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-size: cover;
+    
+}
+
+
+.btn{
+    color: white;
+    background-color: #00E5BE;
+    border-width: 0px;
+    border-radius: 5px;
+    height: 35px;
+    width: 95px;
+}
+.services{
+    text-align: center;
+    
+    
+}
+@media (min-width:990px){
+    .ser-card-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 85px;
+    }
+    .frnt-pag{
+    background-size: cover;
+    font-family: "Bree Serif";
+    padding: 185px;
+    height: 290px;
+    }
+    .para{
+    color: #FFFFFF;
+    font-size: 14px;
+    max-width: 189px;
+    }
+    .frm{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .foot-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 85px;
+    }
+    nav{
+    display: flex;
+    color: white;
+    background-color: #0A1220;
+    justify-content: space-between;
+    }
+    .con-butn{
+    color: white;
+    background-color: #00E5BE;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 35px;
+    width: 80vw;
+    margin: 15px;
+    margin-left: 95px;
+   
+    }
+    .fc{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media  {
+    .ser-card-cont{
+        flex-wrap: nowrap;
+        
+    }
+    .frnt-pag{
+    background-size: cover;
+    font-family: "Bree Serif";
+    padding: 55px;
+    color: white;
+    }
+    .para{
+    color: #FFFFFF;
+    font-size: 14px;
+    
+    }
+    .foot-cont{
+        flex-wrap: nowrap;
+    }
+    nav{
+      background-color: #0A1220;
+      
+    }
+    .btn{
+    color: white;
+    background-color: #00E5BE;
+    border-width: 0px;
+    border-radius: 5px;
+    height: 35px;
+    width: 95px;
+    }
+    .title{
+        color: white;
+        font-family: "Bree Serif";
+        font-size: 14px;
+    }
+    .con-butn{
+    color: white;
+    background-color: #00E5BE;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 35px;
+    width: 80vw;
+    margin-top: 15px;
+    }
+    .fc{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+.ser-img{
+    height: 150px;
+    border-radius: 15px;
+}
+.contact{
+    background-color: #dfe3eb;
+    padding: 25px;
+}
+input{
+    border-color: #00E5BE;
+    border-width: 4px;
+    border-radius: 9px;
+    height: 35px;
+    width: 398px;
+}
+
+.footer{
+    background-color: #0A1220;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    padding: 45px;
+}
+
+.foot-img{
+ height: 75px;
+ width: 75px;
+}
+.bi{
+    margin: 3px;
+}
+span{
+    text-decoration: underline;
+    text-decoration-color: white;
+}

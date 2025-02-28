@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav-cont{
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 99vw;
+    
+}
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-family: "Bree Serif";
+    height: 100px;
+    width: 80px;
+    font-size: 24px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.nav-items{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-para{
+    color: white;
+    padding: 5px;
+}
+.home-bg{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    width: 99vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-div{
+    margin-left: 25%;
+}
+.home-head{
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+.home-para{
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+.home-butt{
+    background-color: #4B84F3;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    border-style: none;
+    border-width: 0px;
+}
+@media screen and (min-width: 576) and (max-width: 768){
+    .ser-outdiv1{
+        display: none;
+    }
+}
+.ser-outdiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ser-indiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.ser-head{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.ser-para{
+    text-align: center;
+    color: grey;
+    font-family: "Bree Serif";
+}
+.ser-img{
+    height: 180px;
+    width: 300px;
+    border-radius: 10px;
+}
+.ser-para1{
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+.ser-para2{
+    color: grey;
+    font-family: "Bree Serif";
+}
+.contact-head{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.contact-para{
+    text-align: center;
+    color: grey;
+    font-family: "Bree Serif";
+}
+.contactus-cont{
+    background-color: #dfe3eb;
+    width: 99vw;
+}
+
+.span{
+    color: darkorange;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25%;
+}
+.outinp1{
+    display: flex;
+    flex-direction: row;
+}
+.inp1{
+    height: 20px;
+    width: 70%;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.inp2{
+    height: 20px;
+    width: 70%;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.inp3{
+    height: 100px;
+    width: 70%;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.butt{
+    text-align: center;
+    padding: 20px;
+}
+.contact-butt{
+    height: 20px;
+    width: 55%;
+    color: #FFFFFF;
+    font-family: "Bree Serf";
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #4B84F3;
+}
+footer{
+    background-color: #0A1525;
+}
+.icon{
+    color: #dfe3eb;
+}
+.foot-para{
+    color: #dfe3eb;
+}
+.p1{
+    color: #FFFFFF;
+}
+.p2{
+    color: #dfe3eb;
+}
+.indiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.indiv2{
+    display: flex;
+}
+.c-indiv{
+    margin: 20px;
+}

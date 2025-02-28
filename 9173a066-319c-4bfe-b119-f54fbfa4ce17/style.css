@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    text-align: center;
+    font-family:Bree Serif;
+    height:100vh;
+    width:100vh;
+    background-size:cover;
+}
+.nav{
+    height:8vh;
+    width:104vh;
+    background-color:#0A1220;
+}
+.navimage{
+    height:4vh;
+    width:6vh;
+    text-align:start;
+    
+}
+.head1{
+ color:#FFFFFF;   
+}
+.page1{
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-size:cover;
+    height:75vh;
+    width:100vh;
+    text-align:left;
+    color:#dfe3eb;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+.btn1{
+    background-color:#00E5BE;
+    border-color:transparent;
+    color:#FFFFFF;
+    width:90px;
+    height:50px;
+}
+.img{
+    height:20vh;
+    width:33vh;
+    background-size:cover;
+    margin:15px;
+    border-radius:10px;
+    color:gray;
+}
+.contact{
+    background-color: #dfe3eb;
+    height:80vh;
+    padding:10px;
+}
+button{
+    background-color:#FFFFFF;
+    border-color:#dfe3eb;
+    border-radius:3px;
+    width:50vh;
+    height:4vh;
+}
+.comment-box{
+    background-color:#FFFFFF;
+    border-color:#dfe3eb;
+    border-radius:3px;
+    width:50vh;
+    height:11vh;
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
+.talk{
+    background-color: #00E5BE;
+    width:50vh;
+    height:4vh;
+    border-color:transparent;
+    border-radius:8px;
+    color:#FFFFFF;
+    margin:10px;
+}
+.lastimage{
+    height:5vh;
+    width:6vh;
+    text-align:left;
+}
+.lastpage{
+    background-color:#0A1220;
+    height:15vh;
+    color:#FFFFFF;
+    text-align:left;
+    padding:80px;
+}

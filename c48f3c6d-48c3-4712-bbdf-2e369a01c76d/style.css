@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.web-page-1-conatiner {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    color: #FFFFFF;
+
+
+    padding: 40px;
+
+}
+
+.web-page-heading {
+    font-family: "Bree Serif";
+}
+
+.web-page-btn {
+    background-color: #6C63FF;
+    color: #FFFFFF;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.web-page-1-para {
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.web-page-2-con-main-header {
+    text-align: center;
+    padding: 10px;
+}
+
+.con-2-heading {
+    font-family: "Bree Serif";
+    font-size: 46px;
+    font-weight: 300;
+}
+
+.con-2-para {
+    color: #1E293B;
+}
+
+.card-text-content-para {
+    color: #1E293B;
+    font-size: 20px;
+}
+
+.card-image {
+
+    border-style: solid;
+    border-color: #dfe3eb;
+    border-width: 2px;
+    border-radius: 15px;
+    height: 300px;
+    width: 500px;
+}
+
+.cards {
+    padding: 40px;
+
+}
+
+.card-text-content-heading {
+    font-size: 25px;
+    color: #0A1525;
+}
+
+.contant-us-section {
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding: 15px;
+    width: 100vw;
+}
+
+.contact-us-header-heading {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    font-size: 46px;
+    font-weight: 300;
+}
+
+.contact-us-header-para {
+    color: #1E293B;
+    font-size: 20px;
+}
+
+.contact-us-btn {
+    background-color: #6C63FF;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    color: #FFFFFF;
+    border-width: 0px;
+
+}
+.bottom-section {
+    background-color: #0A1525;
+    height: 400px;
+    width: 100vw;
+    background-size: cover;
+    padding: 20px;
+}
+.bottom-image {
+    height: 90px;
+}
+.para-bottom{
+    color: #dfe3eb;
+    font-size: 20px;
+}

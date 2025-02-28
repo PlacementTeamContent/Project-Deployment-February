@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {}
+
+.navbar-heading{
+    color: #dfe3eb;
+    font-family: Bree Serif;
+    height: 15px;
+}
+.para3{
+     color: #dfe3eb;
+    font-family: Bree Serif;
+    height: 15px;
+}
+
+.logo {
+    height: 50px;
+    width: 40px;
+    margin: 1px;
+}
+
+.navbar {
+    background-color: #0A1525;
+    padding: 10px;
+    width: 100vw;
+    display: flex;
+    
+}
+
+.container {
+    height: 350px;
+    width: 105vw;
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    font-family: Bree Serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+.para {
+    color: #dfe3eb;
+    font-family: Bree Serif;
+    font-size: 15px;
+}
+
+.button {
+    background-color: #8B5CF6;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    
+}
+
+.para2 {
+    color: #dfe3eb;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+.images {
+    height: 180px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+.contactus {
+    text-align: center;
+    background-color: #dfe3eb;
+    /* background-color: #1E293B; */
+    height: 100%;
+    width: 95vw;
+    padding: 20px;
+}
+
+.blank {
+    height: 10px;
+    width: 100vw;
+    background-color: #ffffff;
+    align-self: center;
+}
+
+.lets {
+    height: 30px;
+    width: 100vw;
+    background-color: #8B5CF6;
+    color: #ffffff;
+
+}
+
+.details {
+    text-align: center;
+}
+
+.footer {
+    height: 500px;
+    width: 77vw;
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 10px;
+}
+.icons{
+    padding: 10px;
+    color: #ffffff;
+}
+.cont{
+    color: #ffffff;
+    
+}
+.lo{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+@media (max-width:576px){
+    .container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+    .image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+}

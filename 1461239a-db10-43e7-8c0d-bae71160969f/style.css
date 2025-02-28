@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.img-1 {
+    height: 8vh;
+    width: 10vw;
+    margin: 10px;
+}
+
+.passage {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.background {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+}
+
+.btn_ {
+    background-color: skyblue;
+    height: 10px;
+    width: 30vw;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.img-2 {
+    padding: 30px;
+    margin-right: 190px;
+    height: 40vh;
+}
+
+.our_services {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.passage_1 {
+    size: 12px;
+}
+
+.back {
+    background-color: black;
+
+}

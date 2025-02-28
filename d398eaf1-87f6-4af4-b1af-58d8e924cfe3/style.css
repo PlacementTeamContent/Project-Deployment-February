@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+}
+
+.main-heading {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.logo {
+    display: flex;
+    padding: 10px;
+
+}
+
+.log-img {
+    height: 150px;
+    display: flex;
+    align-self: center;
+}
+
+.nav-help {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-items: flex-end;
+    font-size: 30px;
+    gap: 20px;
+}
+
+.main-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+
+
+}
+
+.main-h {
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.main-p {
+    color: #Dfe3eb;
+    font-size: 30px;
+}
+
+.main-b {
+    color: white;
+    background-color: #6c63ff;
+    height: 60px;
+    width: 150px;
+    border-radius: 9px;
+
+}
+
+.srv-h {
+    font-size: 80px;
+    text-align: center;
+}
+
+.srv-p {
+    font-size: 30px;
+    text-align: center;
+}
+.card-img{
+    height: 250px;
+    border-radius: 9px;
+}
+.main-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+}
+.info-card{
+    background-color: #Dfe3eb;
+    height: 80vh;
+}
+.n-info{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.box{
+    background-color: white;
+    height: 60px;
+    border-color: #dfe3eb;
+    border-radius: 5px;
+}
+.email-phone{
+    display: flex;
+    flex-direction:row;
+}
+.box-e{
+     background-color: white;
+    height: 60px;
+    border-color: #dfe3eb;
+    border-radius: 5px;
+}

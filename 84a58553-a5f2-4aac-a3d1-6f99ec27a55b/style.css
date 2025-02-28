@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.card{
+    background-color: #0A1525;
+    color: #ffffff;
+    display: flex;
+    flex-direction:row;
+    padding: 20px;
+    width:90vw;
+}
+.hj{
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.uu{
+    margin: 6px;
+    text-align: center;
+}
+.vv{
+    display: flex;
+    flex-direction:row;
+    align-content:space-around;
+    padding: 10px;
+}
+.we{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-right: 80px;
+}
+.us{
+    display: flex;
+    flex-direction:row;
+    margin-left: 80px;
+    align-items: flex-end;
+}
+.img1{
+    height: 8vh;
+    width: 12vw;
+}
+.card1{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    padding: 20px;
+    text-align:left;
+    font-family: "Bree Serif";
+    color: #ffffff;
+    width: 90vw;
+    height: 30vh;
+}
+.btn{
+    background-color: #4b84f3;
+    border-color: transparent;
+    border-radius: 7px;
+    padding: 6px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card2{
+    text-align: center;
+    width:90vw;
+}
+.gg{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin: 20px;
+}
+.fgh{
+    width: 20vw;
+    margin: 20px;
+    margin-left: 70px;
+    text-align:left;
+}
+.img2{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 8px;
+}
+.hh{
+    font-size: 15px;
+}
+section{
+    background-color: #dfe3eb;
+    text-align: center;
+    padding: 20px;
+    
+}
+.dd{
+    display: flex;
+    flex-direction: row;
+}
+.btn3{
+    background-color: #4b84f3; 
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    width: 70vw;
+    margin-top: 15px;
+    border-color: transparent;
+}
+.btn2{
+    height: 30vh;
+    width: 70vw;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.btn1{
+    border-radius: 8px;
+    height: 4vh;
+    width: 70vw;
+    border-color: transparent;
+}
+.btn4{
+    border-radius: 8px;
+    height: 4vh;
+    width: 35vw;
+    margin:4px;
+    border-color: transparent;
+}
+.fd{
+    text-align: left;
+}
+.p{
+    color:#ffffff;
+}
+.tr{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+span{
+    color: orange;
+}
+footer{
+    background-color: #0A1525;
+    padding: 50px;
+    color: #ffffff;
+    width:90vw;
+}
+.df{
+    display: flex;
+    flex-direction: column;
+}
+.br{
+    display: flex;
+    flex-direction: row;
+}
+.hp{
+    color: #FFFFFF;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
+h1{
+    font-size: 15px;
+}
+.gf{
+    margin: 10px;
+}
+.ht{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin: 20px;
+    margin-left: 30px;
+    align-content: flex-end;
+}
+@media screen and (min-width-990px) and (max-width:992px){
+    .card2{
+    text-align: center;
+}
+.gg{
+    display: flex;
+    flex-direction:row;
+    margin: 20px;
+}
+.fgh{
+    margin: 20px;
+    text-align:left;
+}
+.img2{
+    height: 30vh;
+    width: 30vw;
+    border-radius: 8px;
+    
+}
+.hh{
+    font-size: 15px;
+}
+}

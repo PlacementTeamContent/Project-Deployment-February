@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+#Sectionpage {
+    height: 200vh;
+}
+
+.navbar {
+    height: 10vh;
+    background-color: #0A1525;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.head {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.para {
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.fa-bars {
+    margin: 6px;
+    padding-right: 40px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.navimg {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: 5px;
+}
+
+@media (min-width:576px) and (max-width:760px) {
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: start;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: start;
+        margin: 20px;
+    }
+
+    .services-card-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+}
+
+#Sectionhome {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Roboto";
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    font-family: "Bree Serif";
+    background-color: #dfe3eb;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border-color: transparent;
+}
+
+#SectionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.services-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-card-items {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.services-card-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-image {
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 20px;
+    font-family: "Bree Serif";
+    color: #0A1525;
+}
+
+.paragraph {
+    font-size: 12px;
+    font-family: "Bree Serif";
+    color: #1A2942;
+}
+
+.heading1 {
+    font-size: 14px;
+}
+
+#sectioncontact {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    height: 30px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    background-color: #FFFFFF;
+    border-color: #dfe3eb;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.box1 {
+    height: 100px;
+    width: 220px;
+}
+
+#sectioncontact {
+    margin: 30px;
+}
+
+.contact-items {
+    margin: 30px;
+}
+
+.contact-inner-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-btn {
+    height: 30px;
+    width: 220px;
+    color: #FFFFFF;
+    border-color: transparent;
+    background-color: #4B84F3;
+    border-radius: 10px;
+}
+
+#sectionfooter {
+    margin: 20px;
+    background-color: #0A1525;
+    height: 50vh;
+    width: 100%;
+    padding: 30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:768px) {
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+    }
+}

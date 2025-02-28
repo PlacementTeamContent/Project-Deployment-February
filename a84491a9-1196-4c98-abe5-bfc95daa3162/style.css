@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0a1525;
+    height: 100px;
+    display: flex;
+    margin-bottom: 0px;
+}
+.navmd{
+    display:none;
+}
+.icon1{
+    color:white;
+    padding-left:100px;
+    padding-top:30px;
+}
+
+.navimg {
+    height: 60px;
+    padding: 20px;
+}
+
+.navh {
+    color: white;
+    font-family: "Roboto";
+}
+
+.imgcard {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 400px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.imgcardh1 {
+    color: white;
+}
+
+.imgcardp {
+    color: white;
+    font-size: 24px;
+}
+
+.imgcardb {
+    height: 50px;
+    width: 100px;
+    background-color: #6c63FF;
+    border-radius: 10px;
+    color: white;
+}
+
+.ourservicesdiv {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ourseivicesp {
+    font-size: 20px;
+
+}
+.ourseivicecardsp {
+    font-size: 20px;
+    color:grey;
+}
+
+.ourserviesimg {
+    height: 250px;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.contactusdiv{
+    background-color:#dfe3eb;
+}
+.text{
+    text-align: center;
+    padding-top:40px;
+}
+.contactusp{
+    color:grey;
+    font-size:20px;
+}
+.input{
+    padding-top:30px;
+    padding-left:20px;
+}
+.input2{
+    padding-top:30px;
+    padding-left:20px;
+}
+.inputdiv{
+    background-color:white;
+    height:30px;
+    width:50vh;
+    border:solid;
+    border-color:grey;
+    border-width:1px;
+    margin-left:20px;
+    border-radius:5px;
+}
+.inputdiv2{
+    background-color:white;
+    height:30px;
+    width:50vh;
+    border:solid;
+    border-color:grey;
+    border-width:1px;
+    margin-left:20px;
+    border-radius:5px;
+}.inputdiv3{
+    background-color:white;
+    height:30px;
+    width:50vh;
+    border:solid;
+    border-color:grey;
+    border-width:1px;
+    margin-left:20px;
+    border-radius:5px;
+}
+.inputdivmessage{
+    background-color:white;
+    height:150px;
+    width:50vh;
+    border:solid;
+    border-color:grey;
+    border-width:1px;
+    margin-left:20px;
+    border-radius:5px;
+}
+.contactusbutton{
+    background-color:#6c63FF;
+    color:white;
+    height:30px;
+    width:50vh;
+    margin-top:20px;
+    border-radius:5px;
+    margin-left:20px;
+    margin-bottom:60px;
+}
+.footerdiv{
+    background-color:#0A1525;
+    padding-left:20px;
+}
+.footerimg{
+    height:80px;
+    width:80px;
+    padding-top:40px;
+}
+.footerp{
+    color:grey;
+    font-size:20px;
+}
+.icon{
+    color:white;
+    height:100px;
+}
+.footercontacttext{
+    color:white;
+    display:flex;
+}
+.contactustext{
+    padding-right:80px;
+}
+
+@media (min-width:768px){
+.navbar {
+    background-color: #0a1525;
+    height: 100px;
+    display: flex;
+    margin-bottom: 0px;
+}
+.navimg {
+    height: 60px;
+    padding: 20px;
+}
+
+.navh {
+    color: white;
+    font-family: "Roboto";
+}
+.navp1{
+    color:white;
+    font-size:15px;
+    padding:10px;
+    padding-left:220px;
+    padding-top:20px;
+}
+.navp{
+    color:white;
+    font-size:15px;
+    padding:10px;
+    padding-top:20px;
+}
+.icon1{
+    color:white;
+    padding-left:100px;
+    padding-top:30px;
+    display:none;
+}
+.navmd{
+    display:flex;
+    justify-content: flex-end;
+}
+.imgcard {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 400px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:150px;
+}
+
+.imgcardh1 {
+    color: white;
+}
+
+.imgcardp {
+    color: white;
+    font-size: 24px;
+}
+
+.imgcardb {
+    height: 50px;
+    width: 100px;
+    background-color: #6c63FF;
+    border-radius: 10px;
+    color: white;
+}
+.ourservicesdiv {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ourseivicesp {
+    font-size: 20px;
+
+}
+.ourseivicecardsp {
+    font-size: 20px;
+    color:grey;
+}
+
+.ourserviesimg {
+    height: 200px;
+    width: 280px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+.ourservicesmaincard{
+  display:flex; 
+}
+.contactusdiv{
+    background-color:#dfe3eb;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+    padding-top:40px;
+}
+.contactusp{
+    color:grey;
+    font-size:20px;
+}
+.input{
+    padding-top:30px;
+    padding-left:180px;
+    
+}
+.input{
+    padding-top:30px;
+    padding-left:140px;
+    
+}
+.inputdiv{
+    background-color:white;
+    height:30px;
+    width:50vh;
+    border:solid;
+    border-color:grey;
+    border-width:1px;
+    margin-left:160px;
+    border-radius:5px;
+}.inputdiv2{
+    background-color:white;
+    height:30px;
+    width:25vh;
+    border:solid;
+    border-color:grey;
+    border-width:1px;
+    margin-left:160px;
+    border-radius:5px;
+}.inputdiv3{
+    background-color:white;
+    height:30px;
+    width:25vh;
+    border:solid;
+    border-color:grey;
+    border-width:1px;
+    margin-left:16px;
+    border-radius:5px;
+}
+.inputdivmessage{
+    background-color:white;
+    height:150px;
+    width:50vh;
+    border:solid;
+    border-color:grey;
+    border-width:1px;
+    margin-left:160px;
+    border-radius:5px;
+}
+.contactusbutton{
+    background-color:#6c63FF;
+    color:white;
+    height:30px;
+    width:50vh;
+    margin-top:20px;
+    border-radius:5px;
+    margin-left:160px;
+    margin-bottom:60px;
+}
+.md-input{
+    display:flex;
+}
+.footerdiv{
+    background-color:#0A1525;
+    padding-left:20px;
+}
+.footerimg{
+    height:80px;
+    width:80px;
+    padding-top:40px;
+}
+.footerp{
+    color:grey;
+    font-size:20px;
+}
+.icon{
+    color:white;
+    height:100px;
+}
+.footercontacttext{
+    color:white;
+    display:flex;
+}
+.contactustext{
+    padding-right:80px;
+}
+.last{
+    display:flex;
+}
+}

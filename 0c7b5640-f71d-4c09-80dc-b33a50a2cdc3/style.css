@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.whole {
+
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.bar {
+    text-align: right;
+    background-color: #0A1525;
+    color: white;
+    height: 10%;
+    width: 100%;
+    font-size: 10px;
+    padding: 12px;
+}
+
+.wh {
+    padding: 5px;
+    margin: 13px;
+}
+
+.imge {
+    height: 15px;
+    width: 15px;
+
+}
+
+.logo {
+    text-align: left;
+    padding: 4px;
+}
+
+.head1 {
+    color: white;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.para1 {
+    color: white;
+    text-align: center;
+}
+
+.but {
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 2px;
+    box-shadow: none;
+    border: #6c63ff solid;
+    height: 12%;
+    padding: 2px;
+
+}
+
+.forbut {
+    text-align: center;
+}
+
+.txt1 {
+    margin: 105px;
+}
+
+.whole2 {
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    
+    
+}
+
+.txt2 {
+    text-align: center;
+}
+
+.head2 {
+    font-family: "Bree Serif";
+}
+
+.para2 {
+    font-family: "Robouto";
+}
+.images{
+    justify-content: space-around;
+    flex-direction: row;
+    padding:25px;
+    margin:25px;
+     
+ }
+ .cloud{
+     height:145px;
+     width:145px;
+ }
+ .whole3{
+     background-color:#dfe3eb;
+ }
+ .txt3{
+   text-align: center;  
+   padding:12px;
+ }
+ .head3{
+     font-family: "Bree Serif";
+ }
+ .para3{
+     font-family: "Bree Serif";
+}
+.msg{
+    height:200px;
+    width:95vh;
+}
+.box{
+    width:95vh;
+}
+.but2{
+    background-color:#6c63ff;
+    color:white;
+    font-family: "Bree Serif";
+    width:95vh;
+    padding:12px;
+    text-align: center;
+     border-radius: 12px;
+    box-shadow: none;
+  
+}
+.talk{
+    text-align: center;
+}
+.whole4{
+   background-color:#1E293b;
+   margin:12px;
+   width:100%;
+   text-align: center;
+}
+.imgfot{
+    height:50px;
+    width:50px;
+    padding:12px;
+    margin: 12px;
+}
+.icons{
+    color:#dfe3eb;
+}
+@media Quaries {
+    
+}

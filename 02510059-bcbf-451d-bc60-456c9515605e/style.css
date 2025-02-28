@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    height: 75vh;
+    width: 70vw;
+    color: white;
+    padding: 75px;
+    background-size: cover;
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.b {
+    background-color: transparent;
+    color: white;
+    border: white;
+    font-family: bold;
+}
+
+.pg2 {
+    text-align: center;
+}
+
+.img1 {
+    height: 150px;
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    border-radius: 20px;
+}
+
+.para1 {
+    padding: 0px;
+    float: left;
+
+}
+.contact {
+    background-color: #dfe3eb;
+    height: 40vh;
+    padding: 30px;
+}
+.last {
+    background-color: #1A2942;
+    height: 40vh;
+    width: 100vw;
+    color: white;
+    padding: 30px;
+}
+
+
+
+/* <div class="grid-container">
+  <img src="image.jpg" alt="Image" class="image">
+  <div class="text">This is some text next to the image.</div>
+</div> */
+
+
+.grid-container {
+  display: grid;             /* Use grid for layout */
+  grid-template-columns: auto 1fr;  /* Image gets its natural width, text takes remaining space */
+  gap: 41px;                 /* Space between the image and text */
+}
+
+.image {
+  width: 150px;              /* Set image width */
+  height: auto;              /* Maintain image aspect ratio */
+}
+
+.text {
+  font-size: 16px;           /* Adjust text size */
+}

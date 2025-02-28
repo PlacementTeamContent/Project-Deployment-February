@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.top {
+    background-color: #0A1220;
+    display: flex;
+    font-size: 6px;
+    color: white;
+    background-size: cover;
+    justify-content: space-between;
+    font-family: Bree Serif;
+    font-weight: lighter;
+}
+
+.imgg {
+    height: 52px;
+    width: 52px;
+}
+
+.b {
+    margin-top: 14px;
+    width: 29px;
+    margin-right: 14px;
+}
+
+.middle-2 {
+    text-align: center;
+    font-family: Bree Serif;
+    font-weight: lighter;
+}
+
+.service {
+    font-size: 18px;
+}
+
+.middle-1 {
+    padding: 20px;
+    color: grey;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 42vh;
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-color: #dfe3eb;
+}
+
+.p {
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.btnn {
+    margin-top: 100px;
+    width: 100px;
+    background-color: #00E5BE;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Bree Serif;
+
+}
+
+.imgg2 {
+    border-radius: 8px;
+    height: 250px;
+}
+
+.in {
+    font-weight: bold;
+    color: #fffff9;
+    color: grey;
+}
+
+.s {
+    font-family: Bree Serif;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.pp {
+    font-family: Bree Serif;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.contact {
+    margin-top: 50px;
+    background-color: #dfe3eb;
+    text-align: center;
+    height: 75vh;
+
+}
+
+.details {
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: Bree Serif;
+}
+
+.box1 {
+    width: 520px;
+    height: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: white;
+}
+
+.n1 {
+    color: black;
+    text-align: left;
+    padding-top: 16px;
+    margin-left: -12px;
+}
+
+.box2 {
+    width: 520px;
+    height: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: white;
+    margin-left: -4px;
+}
+
+.box3 {
+    width: 520px;
+    height: 120px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: white;
+    margin-left: -4px;
+}
+
+.btnn1 {
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 200px;
+    width: 250px;
+    background-color: #00E5BE;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Bree Serif;
+}
+
+.foot {
+    background-color: #1E293B;
+    color: white;
+    height: 30vh;
+    text-align: center
+}
+
+.hh {
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ppp {
+    padding-left: 12px;
+}

@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card-nav{
+    background-color:#0A1525;
+    height:55px;
+    display:flex;
+    justify-content:space-between;
+}
+.i{
+    color:white;
+   margin-top:10px;
+    width:50px;
+    height:30px;
+}
+.nxt-nav{
+    height:45px;
+    width:35px;
+    padding:5px;
+}
+.bg{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+    height:40vh;
+    padding:9px;
+ 
+  
+}
+.te{
+    color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+margin-top:5px;
+    padding:10px;
+}
+.b{
+   background-color:#FFD700; 
+   color:white;
+   border:0px;
+   border-radius:5px;
+   height:25px;
+   padding:5px;
+   font-weight:200;
+   
+}
+.co{
+    background-color:white;
+}
+.our{
+    font-weight:900;
+    color:#1E293B;
+}
+
+.we{
+    color:grey;
+}
+.ourser{
+    text-align:center;
+}
+.imgg{
+    border-radius:20px;
+    margin-left:19px;
+    height:200px;
+    width:400px;
+}
+.soft{
+    color:#1E293B;
+    font-family: "roboto";
+    margin-left:13px;
+    font-weight:900;
+    font-weight:bold;
+}
+.softour{
+    color:gray;
+    margin-left:13px;
+   
+    font-size:16px;
+   
+}
+.card{
+
+    margin-left:15px;
+     background-color:gray;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    height:470px;
+    width:400px;
+}
+.contact{
+    color:black;
+    text-align:center;
+}
+.got{
+    color:white;
+    text-align:center;
+}
+.loginname{
+    color:black;
+    font-weight:bold;
+  margin-left:5px;
+    margin-top:5px;
+   
+}
+.star{
+    color:red;
+}
+.login-card{
+    height:22px;
+    width:350px;
+   margin-left:9px;
+   margin-right:10px;
+     background-color:white;
+    border-style:solid;
+}
+.login-card-m{
+    height:100px;
+    width:350px;
+    margin-left:9px;
+    margin-right:10px;
+    background-color:white;
+    border-style:solid;
+}
+.lets{
+    color:white;
+ background-color:#FFD700;
+    text-align:center;
+    border-width:0px;
+    border-radius:6px;
+    padding:5px;
+  margin-top:5px;
+    margin-left:20px;
+    height:25px;
+    width:330px;
+}
+.sec{
+    background-color:#1E293B;
+    height:530px;
+    width:500px;
+}
+.sec-imgg{
+    margin-top:15px;
+    margin-left:15px;
+    height:80px;
+    width:80px;
+}
+.in{
+    margin-left:5px;
+    padding:5px;
+    font-family:"bree serif";
+    color:white;
+    font-size:15px;
+}
+.text-3xl{
+    padding:3px;
+}
+.icons{
+    color:white;
+    height:20px;
+    padding:9px;
+    margin:7px;
+}
+.contact-hy{
+    color:white;
+    width:150px;
+    margin-left:0px;
+}
+.menu-hy{
+    color:white;
+    width:150px;
+}
+.bottom-section-cm{
+    display:flex;
+    justify-content:space-around;
+}
+.gpt{
+    text-decoration:underline;
+    color:white;
+}
+.nxt{
+    color:white;
+    margin-top:50px;
+    margin-left:20px;
+}

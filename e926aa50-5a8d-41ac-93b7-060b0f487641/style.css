@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.page {
+    font-family: Bree Serif;
+}
+
+.navbar {
+    background-color: #0A1525;
+    color: #FFFFFF;
+}
+
+.img1 {
+    height: 30px;
+    width: 20px;
+}
+
+.padleft {
+    padding-left: 100px;
+
+}
+
+.card1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    color: #FFFFFF;
+
+}
+
+.bt1 {
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-radius: 4px;
+    border-color: #FFD700;
+    margin: 20px;
+}
+
+.head1 {
+    margin: 20px;
+}
+
+.para1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.head2 {
+    text-align: center;
+}
+
+.img2 {
+    width: 450px;
+    border-radius: 10px;
+}
+.fo{
+    color:#FFFFFF;
+    
+}
+.foot{
+    background-color: #0A1525;
+}
+.para10{
+    color:#FFFFFF;
+}

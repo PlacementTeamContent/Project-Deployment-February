@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bree Serif";
+}
+
+.header {
+    background-color: #0A1525;
+    width: 100%;
+    margin: auto;
+    font-family: 'Bree Serif';
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-card {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.icon-heading {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.nav-card {
+    display: flex;
+    margin-top: 10px;
+}
+
+.nav-heading {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.fa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    height: 70px;
+    width: 70px;
+}
+
+@media (max-width:767px) {
+    .nav-card {
+        display: none;
+    }
+}
+
+.home-card {
+    padding: 30px;
+}
+
+.home-heading {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.home-para {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.home-button {
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #FFD700;
+    width: 100px;
+    height: 30px;
+}
+
+/*os-section*/
+.os-container {
+    font-family: "Bree Serif";
+    text-align: center;
+    color: #1E293B;
+}
+
+.os-heading {
+    font-size: 28px;
+
+}
+
+.cards-container {
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 10px;
+    text-align: start;
+    margin-right: 15px;
+}
+
+.card-image {
+    border-radius: 10px;
+    height: 170px;
+    width: 230px;
+}
+
+.card-heading {
+    font-size: 20px;
+}
+
+.card-para {
+    font-size: 10px;
+}
+
+@media (min-width: 768px) {
+    .cards-container {
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+}
+/*cu-section*/
+
+.cu-section{
+    color: #1E293B;
+    font-family: "Bree Serif";
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 10px;
+}
+.cu-heading{
+    font-size: 28px;
+}
+.cu-para{
+    font-size: 13px;
+}
+span{
+    color: red;
+}
+.name{
+    background-color: white;
+    border-radius: 2px;
+    height: 30px;
+}
+.email{
+    background-color: white;
+    border-radius: 2px;
+    height: 30px;
+}
+.phone-number{
+    background-color: white;
+    border-radius: 2px;
+    height: 30px;
+}
+.comment{
+    background-color: white;
+    border-radius: 2px;
+    height: 100px;
+}
+@media (min-width: 768px){
+    .email-phone{
+        display: flex;
+        justify-content: stretch;
+        width: 100%;
+    }
+}
+/*footer-section*/
+.footer-section{
+    background-color: #1E293B;
+    font-family: "Bree Serif";
+    padding: 10px;
+}
+.bi{
+    color: #FFFFFF;
+    margin: 10px;
+}
+.icons-container{
+    display: flex;
+}
+.footer-card{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 768px){
+    .footer-section{
+        display: flex;
+        justify-content: space-around;
+    }
+    .margin{
+        margin-left: 30px;
+    }
+}

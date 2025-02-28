@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    display: flex;
+    background-color: #1E293B;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+}
+
+.abouts {
+    display: none;
+}
+
+.Nxt {
+    font-size: 25px;
+}
+
+.col-12 {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+.box {
+    color: #ffffff;
+    margin-left: 20px;
+    padding-top: 200px;
+}
+
+.heading {
+    font-family: Bree Serif;
+}
+
+.para {
+    font-size: 17px;
+}
+
+.button {
+    background-color: #FF7A2E;
+    padding: 10px;
+    border-width: 0px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Bree Serif;
+}
+
+.services {
+    text-align: center;
+}
+
+.heading1 {
+    font-family: Bree serif;
+}
+
+.para1 {
+    color: #1E293B;
+    font-size: 18px;
+}
+
+.image {
+    background-size: cover;
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+
+.heads {
+    font-size: 22px;
+    font-family: Bree serif;
+    padding-left: 27px;
+    text-align: left;
+}
+
+.heads1 {
+    text-align: center;
+}
+
+.headings {
+    text-align: left;
+    font-size: 19px;
+    font-family: Bree serif;
+    padding-left: 25px;
+}
+
+.paras {
+    font-size: 18px;
+    padding-left: 27px;
+    text-align: left;
+}
+
+.para1 {
+    text-align: center;
+}
+
+.contactus {
+    background-color: #dfe3eb;
+}
+
+.span {
+    color: darkred;
+}
+
+.text {
+    margin-left: 25px;
+    padding-left: 220px;
+    padding-top: 7px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.text1 {
+    margin-left: 25px;
+    padding-left: 220px;
+    padding-top: 7px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.but {
+    margin: 15px;
+    color: #ffffff;
+    background-color: #FF7A2E;
+    border-radius: 20px;
+    border-width: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #0A1525;
+    padding-left: 25px;
+    color: #ffffff;
+}
+
+.images {
+    width: 80px;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #dfe3eb;
+}
+
+.spanning {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.foot {
+    color: #dfe3eb;
+}
+
+.foo {
+    color: #dfe3eb;
+    font-size: 15px;
+}
+
+.foots {
+    font-weight: bold;
+}
+
+@media (min-width:768px) {
+
+    .box {
+        padding-left: 150px;
+    }
+
+    .heading {
+        font-size: 55px;
+    }
+
+    .para {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 20px;
+    }
+
+    .para1 {
+        padding-left: 15px;
+    }
+
+    .heading1 {
+        font-size: 55px;
+    }
+
+    .para1 {
+        font-size: 33px;
+    }
+
+    .box-container {
+        display: flex;
+        gap: 5px;
+    }
+
+    .image {
+        width: 350px;
+    }
+
+    .heads {
+        font-size: 35px;
+    }
+
+    .paras {
+        font-size: 30px;
+    }
+
+    .paras1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .heads1 {
+        padding-top: 45px;
+        font-size: 45px;
+    }
+
+    .headings {
+        font-size: 35px;
+    }
+
+    .text {
+        margin-left: 25px;
+        padding-left: 90vh;
+        padding-top: 30px;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+
+    .text1 {
+        padding-left: 38vh;
+        margin-left: 25px;
+        padding-top: 30px;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+
+    .images {
+        width: 150px;
+    }
+
+    .inputs-items {
+        display: flex;
+    }
+
+    .imp {
+        flex-direction: column;
+    }
+
+    .paragraph {
+        font-size: 30px;
+    }
+
+    .foots {
+        font-size: 30px;
+        padding-right: 30px;
+    }
+
+    .foot {
+        font-size: 30px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footers {
+        flex-direction: column;
+    }
+
+    .flexes {
+        justify-content: space-between;
+    }
+
+    .abouts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .our {
+        padding-left: 50px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .Nxt {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container-1 {
+    background-image: url("");
+    justify-content: cover;
+
+}
+
+.head-1 {
+
+    color: #FFFFFF;
+    padding: 20vh;
+}
+
+.btn-1 {
+
+    background-color: #F6B352;
+    color: #FFFFFF;
+}
+
+.para-1 {
+    color: #FFFFFF;
+    padding: 10vh;
+}

@@ -1,0 +1,206 @@
+.container {
+    font-family: "Bree serif";
+}
+
+/* nav-bar section */
+.navbar {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logo1 {
+    height: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 20px;
+}
+
+.navbar-elements {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    }
+.element{
+    padding: 5px;
+}
+
+/* first_page section */
+
+.first-page {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.heading1 {
+    font-size: 40px;
+}
+
+.para-1 {
+    font-size: 15px;
+}
+
+.button1 {
+    background-color: #4A90E2;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    font-weight: 200;
+}
+
+/* Our-services page */
+.second-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+}
+
+.card-1 {
+    text-align: center;
+}
+
+.lower-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-card {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.para-card {
+    color: gray;
+}
+
+.heading-card {
+    color: black;
+    font-family: "Bree serif";
+    font-size: 20px;
+}
+
+/* Contact us section */
+.contact-us-section {
+    background-color: #e0dfdc;
+    height: 55vh;
+}
+
+.card-contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.lower-filling-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding-left: 380px;
+}
+
+.space {
+    background-color: white;
+    height: 20px;
+    width: 360px;
+    border: 2px;
+    border-radius: 3px;
+}
+
+.start-red {
+    color: red;
+}
+
+.two-fillings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.space2 {
+    background-color: white;
+    height: 20px;
+    width: 260px;
+    border-radius: 3px;
+}
+
+.card-inside {
+    padding: 5px;
+}
+
+.space3 {
+    background-color: white;
+    height: 120px;
+    width: 600px;
+    border-radius: 3px;
+}
+
+.button-contact-us {
+    height: 30px;
+    width: 360px;
+    background-color: #4A90E2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+/* footer section */
+.iii-div-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-section {
+    padding-top: 50px;
+    background-color: #1E293B;
+}
+
+.div-1-image {
+    height: 40px;
+    width: 50px;
+}
+
+.alag {
+    font-weight: bold;
+}
+
+.div-1 {
+    padding: 90px;
+    color: white;
+}
+
+.last-word {
+    font-style: underline;
+}

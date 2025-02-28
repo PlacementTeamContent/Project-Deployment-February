@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1525;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logo_image {
+    height: 40px;
+    width: 40px;
+
+}
+
+.logo {
+    display: flex;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+
+}
+
+.home {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    color: white;
+}
+
+.home_content {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button {
+    background-color: #F6B352;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 5px;
+    width: 100px;
+    color: white;
+}
+
+.service_section {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.service_img {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.service_img2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.image_service {
+    border-radius: 24px;
+    width: 25vw;
+}
+
+.content_section {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+
+}
+
+.input {
+    width: 20vw;
+    border-width: 0px;
+
+
+}
+
+.input2 {
+    width: 30vw;
+    height: 10vh;
+    border-width: 0px;
+    margin: 10px;
+
+}
+.button2 {
+    background-color: #F6B352;
+    border-radius: 10px;
+    border-width: 0px;
+    
+    width: 200px;
+    color: white;
+}
+.follow_section{
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.follow_us{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    
+    
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    padding-left:10px ;
+}
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    color:white;
+}

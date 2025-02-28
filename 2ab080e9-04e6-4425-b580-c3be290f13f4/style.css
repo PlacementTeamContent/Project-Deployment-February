@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    height:100vh;
+    background-image:url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size:cover;
+}
+.discription{
+   text-align:center;
+   padding:70px;
+   color:#ffffff;
+   align-content:center;
+/*    align-items:center; */
+   justify-content:center;
+}
+.mainheading{
+    font-family:"Bree Serif";
+}
+.mainpara{
+    font-family:Roboto;
+}
+.btn{
+    background-color:#6c63FF;
+    height:30px;
+    color:#ffffff;
+    border-radius:10px;
+    border:hidden 1px black;
+}
+.cart_section{
+    text-align: center;
+    display:flex;
+    direction:row;
+    font-size:15px;
+    overflow-x:auto;
+    
+}
+.cart{
+    height:400px;
+    width:250px;
+    align-items:center ;
+    margin:10px;
+}
+img{
+    border-radius:10px;
+}
+.second-container{
+    height:70vh;
+    text-align:center;  
+    padding:50px;
+    align-self:center;
+   
+}
+.contact_us{
+    text-align:center;
+    font-family:Roboto;
+    background-color:#dfe3eb ;
+    height:100vh;
+    padding:10px;
+}
+.sideheading{
+    font-family:Roboto;
+     font-size:10px;
+     text-align:left;
+}
+input{
+    width:70vw;
+}
+.Message{
+    height:170px;
+    width:75vw;
+}
+.contact_btn{
+    width:300px;
+    height:30px;
+    margin-top:20px;
+    margin-left:0px;
+    align-self:auto;
+    background-color:#6c63FF;
+    border-radius:5px;
+    border:hidden ;
+    color:#ffffff;
+    
+    
+}
+footer{
+    background-color:#0A1525;
+    color:#ffffff;
+    padding:10px;
+    display:flex;
+    direction:ltr;
+    height:30vh;
+}
+.left_part{
+    display:flex;
+    direction:ltr;
+    align-self:auto;
+    gap:10px
+}
+.icons{
+    display:flex;
+    direction:ltr;
+    align-content:center;
+    gap:10px
+}
+.left{
+    display:flex;
+    flex-direction:column;
+    gap:30px
+}
+.center{
+display:grid;
+text-align:center;
+align-self:flex-end;
+}
+.menu{
+    align-self:flex-end;
+    direction:rtl;
+}
+h3{
+    font-weight:bold;
+    font-family:Roboto;
+}
+nav{
+    background-color: #0A1525;
+    color:#ffffff;
+    padding:15px;
+    display:flex;
+    flex-direction:row;
+}
+.navbar{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    gap:30px
+}
+.nav-links{
+    display:flex;
+    flex-direction:row;
+     gap:20px
+     align-items:end;
+     
+}
+
+a{
+    color:#ffffff;
+    text-decoration:none;
+    align-self:flex-end;
+    direction:rtl;
+}
+a:hover{
+    color:blue;
+}

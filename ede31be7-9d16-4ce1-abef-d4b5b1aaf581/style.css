@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {}
+
+.div1 {
+    background-color: #0A1426;
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Bree Serif;
+}
+
+.img1 {
+    width: 30px;
+}
+
+.div2 {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+    font-family: Bree Serif;
+    height: 300px;
+}
+
+.h1 {
+    color: white;
+    
+}
+
+.p1 {
+    color: white;
+    width: 400px;
+}
+
+.b1 {
+    background-color: #4A90e2;
+    color: white;
+    border-radius: 10px;
+    border-color: #4A90E2;
+    height: 30px;
+}
+
+.img2 {
+    border-radius: 20px;
+    
+}
+
+.h2 {
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.p3 {
+    font-weight: bold;
+    font-family: Bree Serif;
+}
+
+.img2 {
+    width: 200px;
+}
+
+.div5 {
+    background-color: #e0dfdc;
+    font-family: Bree Serif;
+}
+
+.h3 {
+    text-align: center;
+}
+
+.p4 {
+    text-align: center;
+}
+
+.div6 {
+    background-color: #1E293B;
+    color: white;
+    font-family: Bree Serif;
+}
+
+.img5 {
+    width: 50px;
+    margin: 20px;
+}
+
+.p5 {
+    color: white;
+    
+}
+.i1{
+    color: white;
+    gap: 50px;
+}
+.p6{
+    font-weight: bold;
+}
+.b2{
+    background-color: #4A90E2;
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    border-color: #4A90E2;
+}

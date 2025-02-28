@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1525;
+    padding: 5px;
+}
+.logo{
+    width: 80px;
+    height: 45px;
+    padding:5px;
+}
+.logo-h{
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    
+
+}
+.mainpage{
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 80vh;
+    padding: 50px;
+    text-align: center;
+}
+.heading1{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    
+    
+}
+.para1{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size:15px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    
+}
+.button1{
+    background-color: #8B5cF6;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    border-width: 0px;
+    padding: 10px;
+    border-radius:8px ;
+   font-weight: bold;
+}
+.text{
+    text-align: center;
+}
+.image-s{
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+.c-heading{
+    font-size:20px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+.c-para{
+    font-size:15px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+.card{
+    text-align: center;
+}
+.contact-us{
+    background-color: #dfe3eb;
+}
+.us{
+    text-align: center;
+    padding: 20px;
+}
+.box{
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    border-radius: 8px;
+}
+.details{
+    
+    padding: 20px;
+}
+.box2{
+    height: 300px;
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.button2{
+    background-color: #8B5cF6;
+    height: 40px;
+    width: 300px;
+    border-width: 0px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.last-se{
+    background-color: #1E293B;
+    background-size: cover;
+    padding: 30px;
+}
+.l-image{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+}
+.lpara{
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+.logo2{
+    margin-left: 10px;
+    height: 35px;
+    color: #dfe3eb;
+}
+
+.pc{
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+.fa fa-bar{
+    color: #ffffff;
+}

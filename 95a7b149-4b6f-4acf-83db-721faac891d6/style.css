@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    font-family:"Bree Serif" ;
+}
+.navy{
+    background-color: #0a1525;
+    color:white;
+    display:flex;
+}
+.im123{
+    padding-top:5px;
+    height:50px;
+    width:50px;
+}
+.nav-head{
+    padding-top:5px;
+}
+.main-container{
+    height:200vh;
+    width:100vw;}
+    
+.hero-section{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height:50vh;
+    width:100vw;
+    color:white;
+}
+.hero-btn{
+    color:#ffffff;
+    background-color:#ffd700;
+    height:40px;
+    width:100px;
+    border-width:0px;
+    border-radius:10px;
+    font-weight:bold;
+    font-family:"Bree Serif";
+}
+.hero-header{
+    padding:40px;
+    padding-bottom:0px;
+}
+.hero-para{
+    padding:40px;
+    padding-top:10px;
+}
+.ghj{
+    padding:40px;
+}
+.our-services{
+    background-color:#ffffff;
+    height:200vh;
+    width:100vw;
+}
+.services-header{
+    text-align:center;
+}
+.services-para{
+    text-align:center;
+}
+.service-img{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    border-radius:10px;
+    height:200px;
+    width:400px;
+    margin:60px;
+    margin-bottom:0px;
+}
+.category-header{
+    font-size:30px;
+    margin:60px;
+    margin-top:1px;
+    padding-top:0px;
+    margin-bottom:0px;
+}
+.category-para{
+    font-size:10px;
+    margin:60px;
+    margin-top:1px;
+}
+
+.footer{
+    background-color:#1e293b;
+    padding:550px;
+    padding-left:50px;
+    color:white;
+    height:100px;
+    width:100px;
+}
+.footereer{
+    font-size:10px;}
+.contact-us{
+    height:90vh;
+    width:100vw;
+}
+.name-box{
+    border-radius:5px;
+    border-style:solid;
+    color:black;
+    border-width:1px;
+    padding-left:10px;
+    padding:10px;
+} 
+.msg-box{
+    height:100px;
+    width:200px;
+    border-radius:5px;
+    border-style:solid;
+    color:black;
+    border-width:1px;
+    padding-left:10px;
+}
+.named-box{
+    padding-left:10px;
+}
+.c-header{
+    text-align:center;
+}
+.c-para{
+    text-align:center;
+}
+.btn{
+    padding-left:10px;
+    padding:10px;
+}
+.men{
+    display:flex;
+}
+.cont{
+    display:flex;
+}
+@media (min-width:769px){
+    .main-container{
+    height:200vh;
+    width:100vw;}
+    
+.hero-section{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height:50vh;
+    width:150vw;
+    color:white;
+    background-size:cover;
+}
+.hero-btn{
+    color:#ffffff;
+    background-color:#ffd700;
+    height:40px;
+    width:100px;
+    border-width:0px;
+    border-radius:10px;
+    font-weight:bold;
+    font-family:"Bree Serif";
+}
+.hero-header{
+    padding:40px;
+    padding-bottom:0px;
+}
+.hero-para{
+    padding:40px;
+    padding-top:10px;
+}
+.ghj{
+    padding:40px;
+}
+.our-services{
+    background-color:#ffffff;
+    height:50vh;
+    width:100vw;
+    
+}
+.services-header{
+    text-align:center;
+}
+.services-para{
+    text-align:center;
+}
+.service-img{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    border-radius:10px;
+    height:200px;
+    width:400px;
+    margin:60px;
+    margin-bottom:0px;
+}
+.category{
+    display:flex;
+    grid:2;
+}
+.category-header{
+    font-size:30px;
+    margin:60px;
+    margin-top:1px;
+    padding-top:0px;
+    margin-bottom:0px;
+}
+.category-para{
+    font-size:10px;
+    margin:60px;
+    margin-top:1px;
+}
+
+.footer{
+    background-color:#1e293b;
+    padding:550px;
+    padding-left:50px;
+    color:white;
+    height:50vh;
+    width:50vw;
+}
+.footereer{
+    font-size:10px;}
+.contact-us{
+    padding-top:0px;
+    height:80vh;
+    width:100vw;
+}
+.name-box{
+    border-radius:5px;
+    border-style:solid;
+    color:black;
+    border-width:1px;
+    padding-left:10px;
+    padding:10px;
+    margin:40px;
+    margin-top:0px;
+} 
+.msg-box{
+    height:100px;
+    width:200px;
+    border-radius:5px;
+    border-style:solid;
+    color:black;
+    border-width:1px;
+    padding-left:10px;
+    margin:40px;
+    margin-top:0px;
+}
+.named-box{
+    padding-left:40px;
+}
+.c-header{
+    text-align:center;
+}
+.c-para{
+    text-align:center;
+}
+.iop{
+    height:100px;
+    width:100px;
+}
+.btn{
+    padding-left:10px;
+    padding:10px;
+    margin:40px;
+    margin-top:0px;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+.men{
+    display:flex;
+}
+.cont{
+    display:flex;
+}
+}

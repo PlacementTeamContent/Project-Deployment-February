@@ -1,0 +1,179 @@
+.navbar {
+    background-color: #0A1525;
+    color: white;
+    width: 100%;
+}
+
+.icon {
+    height: 40px;
+    width: 50px;
+}
+
+a {
+    color: white;
+}
+
+.aboutuspage {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 40px;
+    margin: 0px;
+    font-family: "Bree Serif";
+}
+
+.aboutusbutton {
+    background-color: #8B5CF6;
+    color: white;
+    border-radius: 5px;
+    border-color: #8B5CF6;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 5px;
+    margin: 20px;
+}
+
+.ourservicespage1 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 2px;
+}
+
+.ourservicespage {
+    text-align: center;
+    margin: 0px;
+}
+
+.img1 {
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.img2 {
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.img3 {
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.card1 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.card2 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.card3 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.contactuspage {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactuspage1 {
+    background-color: #dfe3eb;
+    padding: 20px;
+}
+
+.contactusbutton {
+    background-color: #8B5CF6;
+    border-color: #8B5CF6;
+    color: white;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+
+}
+
+.footerpage {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.box1 {
+    height: 25px;
+    width: 400px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.box2 {
+    height: 25px;
+    width: 120px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: white;
+    border-style: solid;
+
+}
+
+.box3 {
+    height: 25px;
+    width: 120px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: white;
+    border-style: solid;
+}
+
+.box4 {
+    height: 250px;
+    width: 400px;
+    border-color: lightgrey;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: white;
+    border-style: solid;
+}
+
+.sidebyside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.heading {
+    font-size: 16px;
+    padding: 5px;
+    font-family: "Bree Serif";
+}
+.heading1{
+    font-family: "BreeSerif";
+    font-size: 18px;
+}

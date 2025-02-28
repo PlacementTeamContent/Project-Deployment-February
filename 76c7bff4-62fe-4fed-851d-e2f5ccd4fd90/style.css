@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-pg {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    color: white;
+    background-color: #0A1220;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-logo {
+    display: flex;
+    margin: 5px;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-elements {
+    display: flex;
+    padding-top: 10px;
+}
+
+.space {
+    margin: 5px;
+}
+
+.space-bars {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+@media(min-width:766px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        color: #dfe3eb;
+        justify-content: space-between;
+    }
+
+    .lay {
+        display: flex;
+        flex-direction: row;
+        color: #dfe3eb;
+        justify-content: space-between;
+    }
+
+    .nav-for-sm {
+        display: none;
+    }
+
+    .text-container {
+        margin-left: 0px;
+        height: auto;
+        width: 90%;
+        color: white;
+        font-size: 20px;
+    }
+
+    .txt-size {
+        width: 100px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .name-tag {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .name-box {
+        width: 50px;
+        height: 20px;
+    }
+
+    .email-phone-tags {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-elements {
+        display: none;
+    }
+
+    .navbar {
+        color: white;
+        background-color: #0A1220;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        text-align: center;
+        width: 300px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+}
+
+.home-pg {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.text-container {
+    margin-left: 200px;
+    height: auto;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    font-family: "Bree Serif";
+}
+
+.txt-size {
+    width: 400px;
+}
+
+.btn {
+    color: white;
+    background-color: #00E5BE;
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 10px;
+    height: 40px;
+}
+
+.our-service {
+
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txt2 {
+    width: 500px;
+    text-align: center;
+}
+
+.img3 {
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.cards {
+    text-align: center;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.card-head {
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-tags {
+    font-size: 10px;
+}
+
+span {
+    color: red;
+}
+
+.name-tag {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.name-box {
+    width: 700px;
+    height: 20px;
+}
+
+.email-phone-tags {
+    display: flex;
+
+}
+
+.email {
+    width: 300px;
+}
+
+input {
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.message-comments-tag {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn2 {
+    color: white;
+    background-color: #00E5BE;
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 10px;
+    height: 40px;
+    width: 700px;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #0A1220;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    color: #dfe3eb;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.he {
+    color: #dfe3eb;
+}
+
+a {
+    color: #dfe3eb;
+}

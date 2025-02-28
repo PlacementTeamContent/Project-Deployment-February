@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.navbar {
+    background-color: #0A1525;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.one {
+    background-color: #ffffff;
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-right: 20px;
+}
+@media screen and (min-width:768px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.two {
+    background-color: #ffffff;
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 280px;
+}
+
+.page {
+    text-align: left;
+}
+
+.correct {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.page1 {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 100%;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 350px 300px 300px 300px;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.card {
+    height: 80%;
+    width: 25%;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.images {
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.page2 {
+    text-align: center;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.page3 {
+    text-align: center;
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.box {
+    height: 20px;
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-color: black;
+    margin-left: 30%;
+}
+
+.bigbox {
+    height: 80px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.page4 {
+    background-color: #0A1525;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+}

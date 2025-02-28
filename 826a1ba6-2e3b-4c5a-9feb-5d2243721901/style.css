@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0a1525;
+}
+
+.bgg {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.head_div {
+    text-align: center;
+}
+
+.services_head {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+.main_para22 {
+    font-size: 40px;
+    color: white;
+}
+
+.final {
+    margin: 83px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnn {
+    background-color: #4b9eff;
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    height: 90px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 280px;
+}
+
+.mm {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.head {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#navItem2,
+#navItem1,
+#navItem3,
+#navItem4 {
+    color: white;
+}
+
+.services_para {
+    font-size: 25px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex2 {
+    display: flex;
+    margin-left: 40px;
+}
+
+.card_head {
+    text-align: center;
+    font-size: 30px;
+}
+
+.img {
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+}
+
+h1 {
+    font-family: "Bree Serif";
+}
+
+.contact {
+    margin-top: 40px;
+    background-color: #dfe3eb;
+    width: 100vw;
+}
+
+.card_para {
+    max-width: 350px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 20px;
+    height: 50px;
+    color: white;
+    margin-top: 15px;
+}
+
+.box {
+    height: 50px;
+    width: 800px;
+    margin-left: 60px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: white;
+}
+
+.boxmm {
+    height: 50px;
+    width: 400px;
+    margin-left: 60px;
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    border-color: lightgrey;
+}
+
+.mar0 {
+    margin: 40px;
+}
+
+.mar1 {
+    margin: 60px;
+}
+
+.mar2 {
+    margin: 60px;
+}
+
+.h {
+    color: white;
+}
+
+.p {
+    color: #dfe3eb;
+}
+
+.social {
+    font-size: 40px;
+    color: #dfe3eb;
+    margin-left: 30px;
+}
+
+.footer_para {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.footer_img {
+    margin-top: 30px;
+}
+
+.text {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #0a1525;
+    height: 500px;
+    width: auto;
+}
+
+.last {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #4b9eff;
+    height: 100px;
+    width: 800px;
+    margin-left: 60px;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 40px;
+    border: 0;
+}
+
+.box1 {
+    height: 420px;
+    width: 800px;
+    margin-left: 60px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: white;
+}
+
+.name {
+    margin: 10px;
+}
+
+.star {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.logo_head {
+    color: white;
+}
+
+.nxtwave_logo {
+    height: 40px;
+}

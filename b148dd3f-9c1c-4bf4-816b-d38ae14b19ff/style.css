@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.con {
+    display: flex;
+}
+
+.con1 {
+    display: flex;
+
+}
+
+.header {
+    background-color: #0A1220;
+    height: 10vh;
+    width: 122.5vw;
+
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.bdy {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    height: 50vh;
+    width: 110vw;
+    background-size: cover;
+    color: grey;
+    padding: 40px;
+}
+
+.btn {
+    background-color: #00E5BE;
+    border-radius: 5px;
+    color: white;
+    border-width: 0px;
+    height: 30px;
+
+}
+
+.spi {
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.services {
+    text-align: center;
+    width: 83.75vh;
+}
+
+.hea {
+    font-weight: bold;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.centering {
+    display: flex;
+
+}
+
+.details {
+    background-color: #dfe3eb;
+    height: 50vh;
+    width: 83.75vh;
+}
+
+.detail {
+
+    text-align: center;
+}
+
+.coloring {
+    color: red;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.bg {
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+.bg1 {
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.spacing {
+    padding: 10px;
+}
+
+.lol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #0A1220;
+    height: 30vh;
+    width: 122.5vw;
+
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 {
+    background-color: #00E5BE;
+    border-radius: 5px;
+    color: white;
+    border-width: 0px;
+    width: 200px;
+}

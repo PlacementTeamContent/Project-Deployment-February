@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.backgroundimg {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height:500px;
+    width: 500px;
+}
+.center{
+    text-align: center;
+}
+.button{
+    background-color: #4B9EFF;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bac{
+    background-image: url("https://res.cloudinary.com/dg8n2jeur/image/upload/v1739255342/rvi7r3kpdbcyzyp4kdqy.png");
+    height: 2920px;
+    width: 1800px;
+}

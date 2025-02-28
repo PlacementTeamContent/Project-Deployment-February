@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.parts {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0A1525;
+    color: #ffffff;
+}
+.para{
+    text-align: center;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-image {
+    height: 70px;
+}
+
+.bg-container {
+    font-family: "Bree Serif";
+}
+
+.heading {
+    font-size: 25px;
+}
+
+.parts {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.user-main-page {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 500px;
+    padding: 100px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.button1 {
+    height: 50px;
+    width: 100px;
+    background-color: #ff7a2e;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-top: 20px;
+    border-color: #ff7a2e;
+}
+
+.heading1 {
+    margin-top: 30px;
+}
+
+.para1 {
+    margin-top: 30px;
+}
+
+@media (orientation:potrait),
+(max-width:768px) {
+    .image1 {
+        height: 300px;
+        width: 400px;
+        border-radius: 30px;
+    }
+
+    .services-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .name {
+        width: 700px;
+        margin: 20px;
+        height: 50px;
+    }
+
+    .email {
+        margin: 20px;
+        height: 50px;
+        width: 700px;
+    }
+
+    .phone {
+        margin: 20px;
+        height: 50px;
+        width: 700px;
+    }
+
+    .message {
+        margin: 20px;
+        height: 200px;
+        width: 700px;
+    }
+
+    .footer-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .parts {
+        display: none;
+    }
+
+    .navigation-bar {
+        height: 50px;
+        margin-top: 25px;
+        margin-right: 40px;
+        font-size: 30px;
+    }
+
+}
+
+@media (orientation:landscape),
+(min-width:769px) {
+    .services-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .image1 {
+        height: 300px;
+        width: 400px;
+        border-radius: 30px;
+    }
+
+    .name {
+        width: 90vw;
+        margin: 20px;
+        height: 50px;
+    }
+
+    .part3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bg-container {
+        width: 100%;
+    }
+
+    .email {
+        width: 45vw;
+        height: 50px;
+        margin: 20px;
+    }
+
+    .phone {
+        width: 45vw;
+        height: 50px;
+        margin: 20px;
+    }
+
+    .message {
+        margin: 20px;
+        height: 200px;
+        width: 90vw;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-2 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+    }
+
+    .navigation-bar {
+        display: block;
+        align-self: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .sections {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+}
+
+.part1 {
+    text-align: center;
+}
+
+.heading2 {
+    text-align: center;
+}
+
+.heading {
+    margin: 20px;
+}
+
+.contactus-section {
+    background-color: #dfe3eb;
+}
+
+.star {
+    color: #ff7a2e;
+}
+
+.apps {
+    margin: 20px;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #0a1525;
+}
+
+.section1 {
+    margin: 20px;
+}
+
+.section2 {
+    margin: 20px;
+}
+
+.footer-1 {
+    margin: 20px;
+}

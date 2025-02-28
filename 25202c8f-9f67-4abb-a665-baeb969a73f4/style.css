@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.page{
+    font-family: Bree Serif;
+    color:white;
+}
+.top{
+    background-color: #1a2942;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.testimonals{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fa {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.page1{
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    width:100%;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Bree Serif;
+    
+}
+.btn{
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color: #2b84f3;
+}
+.page2{
+    color: black;
+}
+.image{
+    height:150px;
+    width:220px;
+    border-radius: 20px;
+}
+.p{
+    color: grey;
+}
+.heading{
+text-align: center;
+}
+@media all and (min-width:768px),(orientation:landscape){
+    .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+.page3{
+    color:black;
+}
+.b1{
+    width:200px;
+    height:20px;
+    border-radius: 5px;
+    border-color: grey;
+    
+}
+.b2{
+ border-radius: 5px;
+    border-color: grey;
+    height:80px;
+    width:200px;
+}
+.b3{
+    width:200px;
+    height:30px;
+    background-color: #4b84f3;
+    color: white;
+     border-radius: 5px;
+     border:none;
+}
+@media all and (min-width:768px),(orientation:landscape){
+   .page3{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+    .b1,.b2,.b3{
+        width:50%;
+    }
+}
+
+.star{
+    color: red;
+}
+.page4{
+    background-color: #1a2942;
+      padding:20px;
+      color: lightgrey;
+     
+}
+h3{
+    color: white;
+}
+.i{
+    height:50px;
+    padding:20px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.l{
+    text-decoration: underline;
+}

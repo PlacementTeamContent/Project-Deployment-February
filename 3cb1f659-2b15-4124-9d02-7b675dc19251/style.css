@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+}
+
+@media screen and (min-height: 1100px) {
+    .background{
+        background-color: #0a1525;
+        height: 10vh;
+    }
+    .direction{
+        display: flex;
+        justify-content: space-between;
+    }
+    .img{
+        width: 120px;
+       
+    }
+    .container {
+        background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+        background-size: cover;
+        min-height: 100Vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box-1 {
+        flex-direction: column;
+    }
+
+    .title {
+        color: #ffffff;
+        font-family: "Bree Serif";
+        font-size: 56px;
+        max-width: 550px;
+        margin-bottom: 18px;
+    }
+
+    .descrip {
+        color: #ffffff;
+        font-family: "Bree Serif";
+        font-size: 22px;
+        max-width: 768px;
+        margin-bottom: 18px;
+    }
+
+    .btn {
+        color: #ffffff;
+        font-family: "Roboto";
+        background-color: #ffd700;
+        padding: 14px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .container-2 {
+        background-color: #ffffff;
+        background-size: cover;
+        min-height: 100vh;
+        padding: 100px;
+        /* padding-top: 40px;
+        padding-bottom: 40px; */
+    }
+
+    .title-2 {
+        text-align: center;
+        margin-bottom: 16px;
+        font-family: "Bree Serif";
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .des-2 {
+        text-align: center;
+        margin-bottom: 26px;
+        font-family: "Bree Serif";
+        font-weight: 400;
+    }
+
+    .container-3 {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        padding: 16px;
+        margin: 12px;
+    }
+
+    .img1 {
+        width: 100%;
+        height: 60%;
+        border-radius: 18px;
+    }
+
+    .title-3 {
+        font-size: 22px;
+        color: #1e293b;
+        font-family: "Bree Serif";
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .des-3 {
+        color: #1e293b;
+        font-family: "Bree Serif";
+    }
+
+    .container-4 {
+        background-color: lightgrey;
+        padding: 100px;
+        text-align: center;
+    }
+
+    .box1 {
+        width: 750px;
+        height: 20px;
+    }
+
+    .con {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .input {
+        margin: 16px;
+    }
+
+    .box3 {
+        width: 800px;
+        height: 180px;
+    }
+
+    .box2 {
+        width: 390px;
+        height: 40px;
+    }
+
+    .lets {
+        color: #ffffff;
+        font-family: "Roboto";
+        background-color: #ffd700;
+        padding: 14px;
+        border: none;
+        width: 800px;
+        border-radius: 8px;
+    }
+
+    .bg-color {
+        background-color: #0a1525;
+        min-height: 50vh;
+        padding-top: 40px;
+        display: flex;
+    }
+
+    .con-2 {
+        flex-direction: column;
+    }
+
+    .icons {
+        color: #ffffff;
+    }
+
+    .para {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 22px;
+        margin: 16px;
+    }
+
+    .con-4 {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 15px;
+    }
+
+    .flexing {
+        padding: 30px;
+        
+    }
+    .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+}
+
+
+
+@media screen and (min-height: 768px) {
+    .background{
+        background-color: #0a1525;
+        height: 10vh;
+    }
+    .direction{
+        display: flex;
+        justify-content: space-between;
+    }
+    .img{
+        width: 120px;
+       
+    }
+    .container {
+        background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+        background-size: cover;
+        min-height: 100Vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 22px;
+    }
+
+    .title {
+        color: #ffffff;
+        font-family: "Bree Serif";
+        font-size: 56px;
+        margin-bottom: 18px;
+    }
+
+    .descrip {
+        color: #ffffff;
+        font-family: "Bree Serif";
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+
+    .btn {
+        color: #ffffff;
+        font-family: "Roboto";
+        background-color: #ffd700;
+        padding: 14px;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    .container-2 {
+        background-color: #ffffff;
+        background-size: cover;
+        min-height: 100vh;
+        padding: 70px;
+        /* padding-top: 40px;
+        padding-bottom: 40px; */
+    }
+
+    .title-2 {
+        text-align: center;
+        margin-bottom: 16px;
+        font-family: "Bree Serif";
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .des-2 {
+        text-align: center;
+        margin-bottom: 26px;
+        font-family: "Bree Serif";
+        font-weight: 400;
+    }
+
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 16px;
+        margin: 12px;
+    }
+
+    .img1 {
+        width: 100%;
+        height: 60%;
+        border-radius: 18px;
+    }
+
+    .title-3 {
+        font-size: 22px;
+        color: #1e293b;
+        font-family: "Bree Serif";
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .des-3 {
+        color: #1e293b;
+        font-family: "Bree Serif";
+    }
+
+    .container-4 {
+        background-color: lightgrey;
+        padding: 100px;
+        text-align: center;
+    }
+    .container-5{
+        padding: 16px;
+    }
+    .box1 {
+        width: 600px;
+        height: 20px;
+    }
+    .box4{
+        width: 600px;
+        height: 20px;
+    }
+    .con{
+        display: flex;
+        flex-direction: column;
+    }
+    .box3 {
+        width: 600px;
+        height: 180px;
+    }
+
+    .box2 {
+       width: 600px;
+        height: 20px;
+    }
+
+    .lets {
+        color: #ffffff;
+        font-family: "Roboto";
+        background-color: #ffd700;
+        padding: 14px;
+        border: none;
+        width: 500px;
+        border-radius: 8px;
+    }
+
+    .bg-color {
+        background-color: #0a1525;
+        min-height: 50vh;
+        padding-top: 40px;
+        display: flex;
+    }
+    
+    .icons {
+        color: #ffffff;
+    }
+
+    .para {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 22px;
+        margin: 16px;
+    }
+
+    .con-4 {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 15px;
+    }
+    .flexing {
+        padding: 30px;
+        
+    }
+    .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+}

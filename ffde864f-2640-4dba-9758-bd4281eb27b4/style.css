@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@media screen and (max-width:1200px){
+   
+@media screen and (min-width:578px){
+.navbar {
+    height: 102px;
+    width: 1200px;
+    background-color: #0A1426;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-bg {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.pin {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Bree Serif";
+    font-size: 10px;
+    align-self: auto;
+}
+
+.container {
+    background-size: cover;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 1200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 50px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.par {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 2px;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.but {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: auto;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 20px;
+    background-color: #4A90E2;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+}
+
+.services {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.par1 {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 2px;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: center;
+    align-content: flex-start;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 100px;
+    margin: 10px;
+    padding: 10px;
+    gap: 1%
+}
+
+.contactform {
+    background-color: #e0dfdc;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    margin: 0px;
+    padding: 190px;
+    align-items: center;
+}
+.footer{
+    background-color: #1E293B;
+    background-size:cover;
+    height: 400px;
+    width: 1200px;
+    padding: 190px;
+    gap:10%
+}
+}

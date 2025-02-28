@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-container {
+    height: 300vh;
+}
+
+.card1 {
+
+    background-color: #0A1525;
+    height: 90px;
+}
+
+.image1 {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+/* .head1{
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto";
+    width: 100px;
+} */
+.card3 {
+    height: 70vh;
+    background-size: cover;
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+}
+
+.button1 {
+    background-color: #4B9EFF;
+    height: 40px;
+    width: 110px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.card4 {
+    margin-left: 30px;
+    padding-top: 37%;
+}
+
+.para1 {
+    color: white;
+    font-family: "Roboto";
+}
+
+.head2 {
+    color: white;
+    font-family: "Roboto";
+    width: 300px;
+}
+
+.card5 {
+    text-align: center;
+}
+
+.head3 {
+
+    font-family: "Roboto";
+
+}
+
+.para2 {
+
+    font-family: "Roboto";
+    color: #1E293B;
+}
+
+.image2 {
+    height: 240px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card6 {
+    margin-left: 40px;
+}
+
+.para3 {
+
+    font-family: "Roboto";
+    color: #1E293B;
+    width: 400px;
+}
+
+.card8 {
+    margin-left: 40px;
+}
+
+.image3 {
+    height: 240px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card10 {
+    margin-left: 40px;
+}
+
+.image4 {
+    height: 240px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card12 {
+    height: 200px;
+    text-align: center;
+    background-color: #dfe3eb;
+
+}
+
+.head7 {
+    padding-top: 50px;
+}
+
+.card13 {
+    height: 800px;
+
+    background-color: #dfe3eb;
+
+}
+
+.a {
+    height: 40px;
+    background-color: white;
+    width: 89%;
+    border-radius: 6px;
+    margin-left: 40px;
+}
+
+.b {
+    height: 220px;
+    background-color: white;
+    width: 89%;
+    border-radius: 6px;
+    margin-left: 40px;
+}
+
+.head8 {
+    font-size: 17px;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.A {
+    color: red;
+
+}
+
+.button2 {
+    width: 89%;
+    background-color: #4B9EFF;
+    font-family: "Roboto";
+    height: 40px;
+    border-radius: 6px;
+    border-style: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.card14 {
+    background-color: #0A1525;
+    height: 400px;
+}
+
+.para5 {
+    color: white;
+    font-family: "Roboto";
+    width: 350px;
+    margin-left: 25px;
+}
+
+.image {
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.icon {
+    margin-left: 18px;
+
+    color: #dfe3eb;
+}
+
+.para6 {
+    color: white;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.para7 {
+    color: #dfe3eb;
+    margin-left: 25px;
+    font-size: 17px;
+}
+
+.last {
+    text-decoration: underline;
+    color: #dfe3eb;
+    font-size: 15px;
+}
+
+.para8 {
+    padding-top: 50px;
+    color: #dfe3eb;
+    margin-left: 25px;
+    font-size: 13px;
+}

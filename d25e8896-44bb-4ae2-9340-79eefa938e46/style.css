@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.contain {
+    height: 800vh;
+}
+
+.top-nav {
+    background-color: #0A1525;
+    height: 12vh;
+    width: 504px;
+}
+
+.photo {
+    height: 60px;
+    margin: 15px;
+    margin-top: 10px;
+}
+
+.twos {
+    color: #dfe3eb;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.photo-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    height: 515px;
+    width: 504px;
+    text-align: center;
+}
+
+.header {
+    color: #ffffff;
+    margin: 10px;
+    padding: 6px;
+    font-family: "Bree Serif";
+}
+
+.para {
+    color: #ffffff;
+    margin: 10px;
+    padding: 6px;
+    font-family: "Roboto";
+}
+
+.butn {
+    color: #ffffff;
+    margin: 10px;
+    padding: 6px;
+    font-family: "Roboto";
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+.imagesd {
+    text-align: center;
+    margin: 15px;
+}
+
+.head {
+    margin: 10px;
+    padding: 6px;
+    font-family: "Roboto";
+}
+
+.par {
+    margin: 10px;
+    padding: 6px;
+    font-family: "Roboto";
+}
+
+.pic {
+    height: 280px;
+    border-radius: 12px;
+    margin: 15px;
+    width: 400px;
+}
+
+.heade {
+    margin: 15px;
+    padding: 6px;
+    font-family: "Roboto";
+}
+
+.pars {
+    margin: 15px;
+    padding: 6px;
+    font-family: "Roboto";
+}
+
+.daak {
+    background-color: #dfe3eb;
+    height: 84vh;
+}
+
+.heads {
+    margin: 10px;
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+.mini {
+    height: 30px;
+    width: 400px;
+    background-color: white;
+    border-color: #ffffff;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.pard {
+    margin: 6px;
+    padding: 6px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.minis {
+    height: 230px;
+    width: 400px;
+    background-color: white;
+    border-color: #ffffff;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.shoe {
+    height: 30px;
+    width: 380px;
+    background-color: #4B84F3;
+    border-color: #4B84F3;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.last {
+    background-color: #1A2942;
+    height: 90vh;
+}
+
+.new {
+    margin: 10px;
+    color: #dfe3eb;
+    padding: 6px;
+}
+
+.two {
+    color: #dfe3eb;
+    margin: 19px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.news {
+    margin: 6px;
+    padding: 6px;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: bold;
+}

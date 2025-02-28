@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    padding: 10px;
+}
+
+.nav-icons {
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.nav-image {
+    height: 70px;
+    width: 70px;
+}
+
+.nav-img-cont {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-img-text {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-size: 25px;
+}
+
+
+
+.feed-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mid-heading {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.mid-para {
+    color: #FFFFFF;
+    font-family: "Roboto";
+}
+
+.mid-button {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    background-color: #4B9EFF;
+    height: 50px;
+    width: 135px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.namee {
+    margin: 25px;
+}
+
+.name {
+    width: 450px;
+}
+
+.email-phone {
+    display: flex;
+    padding: 20px;
+}
+
+
+
+.email {
+    margin: 10px;
+}
+
+.message-comm {
+    margin: 25px;
+}
+
+
+
+.footer {
+    background-color: #0A1525;
+    padding: 10px;
+}
+
+.contact-us {
+    padding-top: 20px;
+}
+
+@media screen and (max-width:578px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .name {
+        width: 250px;
+    }
+
+    .em {
+        width: 100px;
+    }
+
+    .nav-img-cont {
+        margin-left: 20px;
+    }
+
+    .mes {
+        height: 150px;
+        width: 250px;
+    }
+
+    .nav-icons-cont {
+        margin-top: 20px;
+        display: none;
+    }
+
+    .section-middle {
+        background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .mid-heading {
+        font-size: 45px;
+    }
+
+    .mid-para {
+        font-size: 30px;
+    }
+
+    .seciton-2 {}
+
+    .our-services {
+        text-align: center;
+    }
+
+    .services-head {
+        font-family: "Bree Serif";
+        color: #1E293B;
+    }
+
+    .services-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .midd-button {
+
+        color: #FFFFFF;
+        font-family: "Bree Serif";
+        background-color: #4B9EFF;
+        height: 50px;
+        width: 300px;
+        border-width: 0px;
+        border-radius: 20px;
+    }
+
+    .services-para {
+        font-family: "Bree Serif";
+        color: #1E293B;
+    }
+
+    .ser-img {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .ser-para {
+        font-family: "Bree Serif";
+        color: #1E293B;
+
+    }
+
+    .ser-head {
+        font-family: "Bree Serif";
+        color: #1E293B;
+        font-size: 25px;
+    }
+
+    .service {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact-us-cont {
+        background-color: #dfe3eb;
+        padding: 10px;
+    }
+
+    .hi {
+        color: #FFFFFF;
+        margin-top: 25px;
+    }
+
+    .contact-us {
+        text-align: center;
+    }
+
+    .footer-img {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .fot-par {
+        color: #dfe3eb;
+    }
+
+    .menu {
+        display: flex;
+
+    }
+
+    .foot-head {
+        color: #FFFFFF;
+        font-size: 25px;
+    }
+
+    .foot-para {
+        color: #dfe3eb;
+    }
+
+    .end {
+        color: #dfe3eb;
+    }
+}
+
+i {
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+@media screen and (min-width:578px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .nav-img-cont {
+        margin-left: 20px;
+    }
+
+    .nav-icons-cont {
+        margin-top: 20px;
+    }
+
+    .name {
+        width: 450px;
+    }
+
+    .midd-button {
+
+        color: #FFFFFF;
+        font-family: "Bree Serif";
+        background-color: #4B9EFF;
+        height: 50px;
+        width: 400px;
+        border-width: 0px;
+        border-radius: 20px;
+    }
+
+    .section-middle {
+        background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 10px;
+    }
+
+    .em {
+        width: 300px;
+    }
+
+    .mid-part {
+        box-sizing: border-box;
+        max-width: 600px;
+    }
+
+    .mes {
+        height: 150px;
+        width: 450px;
+    }
+
+    .mid-heading {
+        font-size: 45px;
+    }
+
+    .mid-para {
+        font-size: 30px;
+    }
+
+    .seciton-2 {}
+
+    .our-services {
+        text-align: center;
+    }
+
+    .services-head {
+        font-family: "Bree Serif";
+        color: #1E293B;
+    }
+
+    .services-list {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .services-para {
+        font-family: "Bree Serif";
+        color: #1E293B;
+    }
+
+    .ser-img {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .ser-para {
+        font-family: "Bree Serif";
+        color: #1E293B;
+
+    }
+
+    .ser-head {
+        font-family: "Bree Serif";
+        color: #1E293B;
+        font-size: 25px;
+    }
+
+    .service {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact-us-cont {
+        background-color: #dfe3eb;
+        padding: 10px;
+    }
+
+    .hi {
+        color: #FFFFFF;
+        margin-top: 25px;
+    }
+
+    .contact-us {
+        text-align: center;
+    }
+
+    .footer-img {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .fot-par {
+        color: #dfe3eb;
+    }
+
+    .menu {
+        display: flex;
+
+    }
+
+    .footer-cont {
+        display: flex;
+    }
+
+    .foot-head {
+        color: #FFFFFF;
+        font-size: 25px;
+    }
+
+    .foot-para {
+        color: #dfe3eb;
+    }
+
+    .end {
+        color: #dfe3eb;
+    }
+}

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card{
+    background-color:#0A1220;
+    height:5vh;
+    width:60vh;
+}
+.main-heading{
+    color:white;
+    font-family:"Bree Serif";
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+}
+.img{
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-size:cover;
+    height:40vh;
+}
+.main-heading1{
+    color:#ffffff;
+    font-family:"Bree serif";
+    font-weight:bold;
+    font-size:20px;
+}
+.cardcontainer{
+    background-color:#dfe3eb;
+    height:40vh;
+}
+.paragraph{
+    font-family:"Bree Serif";
+    font-weight:normal;
+    color:white;
+    font-size:10px;
+}
+.button{
+    background-color:#00E5BE;
+    margin:6px;
+    border-radius:7px;
+    border-width:2px;
+    margin-right: 2px;
+    margin-bottom:2px;
+    padding:5px;
+    text-align: center;
+    gap:10px;
+}
+.text-align{
+    text-align: center;
+}
+.card3{
+    height:70vh;
+    color:white;
+}
+.main-heading3{
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+}
+.paragraph3{
+    color:black;
+    font-weight:normal;
+    font-size:10px;
+}
+.img1{
+    height:20vh;
+    width:30vh;
+}
+.service-card{
+    height:100vh;
+}
+/* .carcard{
+    height:60vh;
+    background-color:#ffffff;
+} */
+.spanhead{
+    color:red;
+}
+.carbuild{
+    height:100vh;
+    background-color:green;
+}
+.carbutton{
+    height:2vh;
+    width:30vh;
+}
+.carbutton1{
+    height:10vh;
+    width:40vh;
+}
+.carcontainer{
+    height:80vh;
+    background-color:lightgray;
+}
+.imgblack{
+    height:10vh;
+}
+.blackcard{
+    height:70vh;
+    background-color:black;
+}
+.talkbutton{
+    background-color:#00E5BE;
+    margin:6px;
+    width:10px;
+    border-radius:7px;
+    border-width:2px;
+    margin-right: 2px;
+    margin-bottom:2px;
+    padding:5px;
+    text-align: center;
+    gap:10px;
+}

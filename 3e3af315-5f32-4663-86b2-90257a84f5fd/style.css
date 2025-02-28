@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.containers {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}
+
+.innovative {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: Bree Serif;
+    font-size: 50px;
+}
+
+.explore {
+    color: #ffffff;
+    text-align: center;
+    font-family: Bree Serif;
+    font-size: 20px;
+}
+
+.contact {
+    background-color: #4B9EFF;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.containerss {
+    padding-top: 200px;
+}
+
+.our {
+    color: #0A1525;
+    font-family: Bree Serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.we {
+    color: #1e293b;
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.sections {
+    display: flex;
+}
+
+.image1 {
+    margin:20px;
+}
+
+.hat {
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.project {
+    color: #0A1525;
+    font-weight: bold;
+}
+
+.third {
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+
+.on {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.got {
+    text-align: center;
+}
+
+.name {
+    color: #0a1525;
+    padding-left: 200px;
+}
+.names {
+    color: #0a1525;
+    padding-left: 250px;
+}
+.screw {
+    height: 40px;
+    width: 450px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+.screww{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.screwww{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.ham {
+    height: 150px;
+    width: 450px;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+.let {
+    height: 40px;
+    width: 450px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #4b9eff;
+    color: #ffffff;
+    border-style: none;
+}
+
+.fourth {
+    background-color: #1e293b;
+    background-size: cover;
+    height: 30vh;
+    width: 100vw;
+}
+
+.hop {
+    display: flex;
+}
+
+.png {
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.build {
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+.ons {
+    color: #ffffff;
+}
+
+.face {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.below {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.above {
+    color: #ffffff;
+}
+
+.hyd {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.menu {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.nxt {
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.top{
+    background-color: #1e293b;
+    background-size: cover;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+}
+.use{
+    height:70px ;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.cs{
+    color: #ffffff;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.rs{
+    color: #ffffff;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.jeur{
+    display: flex;
+}

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family:"Bree Serif" ;
+}
+.a{
+    background-color:#0A1525 ;
+    height: 11vh;
+    width: 120vw;
+}
+.b{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+.c{
+    font-size:24px;
+    padding-top: 20px;
+    padding-left:5px;
+}
+.d{
+    color: #ffffff;
+    align-self: center;
+    
+}
+.e{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    margin-right: 30px;
+    gap: 20px;
+}
+.f{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    height: 50vh;
+    width: 120vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+}
+.g{
+    color: #ffffff;
+    font-size: 40px;
+}
+.h{
+    color:#ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+.i{
+    background-color: #4b84f3;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.j{
+    text-align: center;
+}
+.k{
+    display: flex;
+    flex-direction:row;
+    margin-left: 40px;
+    gap: 20px;
+    
+}
+.l{
+    height: 180px;
+    width: 280px;
+    border-radius: 20px;
+}
+.m{
+    color: gray;
+}
+.n{
+    background-color:#dfe3eb;
+    height: 750px;
+    /* width: 150vw; */
+    display: flex;
+    flex-direction: column;/* 
+    justify-content:center; */
+align-content: center;
+/* align-items: center; */
+   
+}
+.o{
+    padding-top: 50px;
+     text-align: center;
+}
+.p{
+    color: gray;
+    text-align: center;
+}
+.r{
+    height: 30px;
+    width: 50vh;
+    
+}
+.q{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-left: 150px;
+}
+.s{
+    height: 150px;
+    width: 50vh;
+}
+.t{
+    margin-top: 8px;
+    height: 30px;
+    width: 50vh;
+    background-color: #4b84f3;
+    color: #ffffff;
+}
+.u{
+    background-color: #0A1525;
+    height: 340px;
+}
+.v{
+    display: flex;
+    flex-direction:row;
+    height: 60px;
+    margin-left:    130px;
+    margin-top: 25px;
+    color: #ffffff;
+    padding-top: 40px;
+}
+.w{
+    color: gray;
+    margin-left:130px;
+}
+.x{
+    color: white;
+    margin-left:130px;
+}
+.y{
+    color: white;
+    margin-left:350px;
+}
+@media screen and (min-width:576px){
+    .d{
+        display: none;
+    }
+}

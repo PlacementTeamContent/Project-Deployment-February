@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-color: #0A1525;
+    color:white;
+    padding-left:20px;
+}
+.front{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    color:#FFFFFF;
+    background-size: 100vh;
+}
+.button{
+    background-color:#4B84F3 ;
+    color:#FFFFFF;
+    padding:5px;
+    
+}
+.front-page{
+    padding:120px;
+     font-family: "Bree Serif";
+}
+.our-services{
+    text-align: center;
+   
+}
+.our{
+    text-align:center;
+     font-family: "Bree Serif";
+}
+.p{
+    text-align:center;
+}
+.image{
+    border-radius:10px;
+}
+.contact{
+    text-align:center;
+}
+.contact-us{
+    background-color: #dfe3eb;
+    padding:50px;
+}
+.a{
+    color:red;
+}
+.letstalk{
+    color:#FFFFFF;
+    background-color: #4BB4F3;
+    text-align:center;
+    padding-left:200px;
+    padding-right:200px;
+    margin-left:10px;
+    border-radius: 5px;
+}
+.white{
+    background-color:white;
+    padding:15px;
+    border-radius:2px;
+}
+.white-msg{
+     background-color:white;
+    padding:100px;
+    border-radius:2px;
+}
+.brief{
+    font-family: "Bree Serif";
+    
+}
+.underline{
+    text-decoration: underline;
+}
+.padding{
+    padding-top:40px;
+    padding-bottom:20px;
+}
+.middle{
+    text-align: center;
+}

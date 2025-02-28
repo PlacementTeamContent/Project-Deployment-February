@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body{
+    text-align: center;
+    font-family: Bree Serif;
+    color:#0A1525;
+}
+
+.heading1{
+    color:white
+}
+
+
+.heading2{
+    color:white;
+}
+
+
+
+
+
+button{
+    color:white;
+    font-family:Bree Serif;
+    background-color:#FFd700 ;
+    width:90px;
+    height:40px;
+    border-radius:10px;
+}
+.img-1{
+    height:40px;
+    width:30px;
+}

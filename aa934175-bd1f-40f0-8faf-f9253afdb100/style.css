@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+*{
+    margin: 0px;
+}
+.bg-container{
+    background-color: #1E293B;
+    height: 10vh;
+    width: 100vw;
+    background-size: cover;
+}
+.img1{
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+}
+.container{
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.head{
+    font-weight: bold;
+    color: white;
+    padding: 40px;
+    display: flex;
+    align-content: center;
+}
+.rs{
+    font-size: 24px;
+    padding: 20px;
+    margin: 40px;
+}
+.para{
+    color: #e0dfdc;
+    padding: 40px;
+    font-size: 20px;
+    
+}
+.us{
+    background-color: #4A90E2;
+    padding: 10px;
+    border-width: 0px;
+    color: white;
+    font-weight: bold;
+    margin: 40px;
+}
+.head1{
+    text-align: center;
+    padding: 10px;
+    font-family: "Bree Serif";
+}
+.exam{
+    background-color: #e0dfdc;
+    height: 70vh;
+    width: 100vw;
+}
+.para1{
+    text-align: center;
+    padding: 10px;
+    color: light-grey;
+    font-size: 20px;
+}
+.mono1{
+    border-radius: 20px;
+    height: 300px;
+}
+.li{
+    padding: 20px;
+}
+.he{
+    padding: 20px;
+}
+.baby{
+    padding: 60px;
+}
+.op{
+    text-align: center;
+    padding: 15px;
+}
+.coc{
+    background-color: #1E293B;
+    height: 60vh;
+    width: 100vw;
+}
+
+.ff{
+    color: grey;
+    padding: 20px;
+}
+.drag{
+    padding: 20px;
+}
+.icons{
+    color: grey;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+}
+.hi{
+    padding: 10px;
+}
+.arc{
+    padding: 20px;
+    font-family: "Bree serif";
+}
+.elctro{
+    background-color:  #4A90E2  ;
+    border-radius: 10px;
+    color: White;
+    font-family: "Bree serif";
+    width: 500px;
+    height: 50px;
+}
+.kelly1{
+    padding: 20px;
+    color: grey;
+    display: flex;
+    gap: 50px;
+}

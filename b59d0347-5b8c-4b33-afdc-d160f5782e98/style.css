@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    height: auto;
+    width: 200%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    padding: 20px;
+}
+
+.img-back {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 50vh;
+    width: 200%;
+    background-size: cover;
+    color: white;
+}
+
+.heading-main {
+    font-weight: bold;
+}
+
+.img-text {
+    display: flex-column;
+    
+    text-align: center;
+    padding: 100px;
+    
+
+}
+
+button {
+    background-color: #8B5CF6;
+    color: white;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.our-services {
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.img-1 {
+    height: 250px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    padding: 50px;
+    background-color: lightyellow;
+    width: 200%;
+}
+
+.head-text {
+    font-size: 25px;
+    font-family: Comic Sans MS;
+}
+
+.contact-us {
+    background-color: #dfe3eb;
+    text-align: center;
+    width: 200%;
+}
+
+.para {
+    font-size: 13px;
+}
+
+.box {
+    height: 10px;
+    width: 200%;
+    background-color: white;
+    display: flex-end;
+    border: 10px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.details {
+    background-color: #dfe3eb;
+    padding: 60px;
+    height: auto;
+    width: 200%;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+.details1{
+    width: 200px;
+}
+.details2{
+    width: 200px;
+}
+.details3{
+    width: 200px;
+}
+.details4{
+    width: 200px;
+    height: 70px;
+}
+.btn {
+    background-color: #8B5CF6;
+    margin: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+    width: 500px;
+}
+.footer {
+    background-color: #1E293B;
+    width: 200%;
+}
+.foot-img {
+    padding: 30px;
+}
+.footer {
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}

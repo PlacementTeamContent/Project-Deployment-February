@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: roboto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+    justify-content: space-between;
+    color: white;
+
+    width: 1600px;
+
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav2 {
+    flex-direction: row;
+
+}
+
+a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding: 10px;
+
+}
+
+.main {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    width: 1300px;
+    height: 100vw;
+
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-size: cover;
+    padding:150px;
+}
+
+.maincc {
+    font-size: 30px;
+}
+
+button {
+    background-color: #4B84F3;
+    color: white;
+}
+.paka{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    
+}
+.pt{
+    padding:30px;
+}
+
+.services {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.contactus {
+    background-color: #dfe3eb;
+    text-align: center;
+    width: 1600px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    background-color: #0A1525;
+    width: 1600px;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    
+
+}
+
+.info {
+    padding: 10px;
+    margin: 15px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+h1 h3 {
+    font-family: "BreeSerif";
+}
+
+input {
+    width: 70%;
+}
+
+a {
+    font-size: 25px;
+}
+
+span {
+    color: red;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.info h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.button {
+    height: 30px;
+    width: 500px;
+    text-align: center;
+    margin: 15px;
+
+}
+
+@media screen and (max-width:768px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .align {
+        flex-direction: column;
+        font-size: 20px;
+        justify-content: flex-start;
+    }
+
+    .paka {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    a {
+        display: none;
+    }
+
+    .navbar {
+        width: 100vw;
+    }
+
+    .main {
+        width: 100vw;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 40px;
+    }
+
+    .foot {
+        width: 100vw;
+    }
+
+    .contactus {
+        width: 100vw;
+    }
+}

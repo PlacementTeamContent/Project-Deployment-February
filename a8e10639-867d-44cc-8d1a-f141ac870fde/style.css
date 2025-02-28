@@ -1,0 +1,37 @@
+.Main-1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    height: 400px;
+    align-content: center;
+}
+
+.Head {
+    color: #FFFFFF;
+    height: 50px;
+}
+
+.Para {
+    color: #FFFFFF;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #6c63FF;
+    border-radius: 5px;
+    border-color: #6c63FF;
+}
+
+.Main-2 {
+    text-align: center;
+}
+
+img1 {
+    width: 50px;
+    height: 50px;
+    image-orientation: cover;
+}
+
+img2 {
+    width: 50px;
+    height: 50px;
+    image-orientation: cover;
+}

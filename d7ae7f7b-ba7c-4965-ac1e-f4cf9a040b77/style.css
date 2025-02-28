@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1426;
+    height: 50px;
+    width: 100%;
+    display:flex;
+}
+.a{
+    color:white;
+    font-size:20px;
+}
+
+
+
+.image1 {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.divtag1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.head1 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.styles {
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.para1 {
+    color: #e0dfdc;
+    font-size: 25px;
+}
+
+.btn1 {
+    color: #e0dfdc;
+    background-color: #4A90E2;
+    height: 40px;
+    width: 100px;
+    font-family: "Bree Serif";
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.divtag2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Bree Serif";
+    font-weight: normal;
+
+}
+
+.para2 {
+    color: grey;
+}
+
+.imgtag1 {
+    border: 0px solid;
+    border-radius: 60px;
+}
+
+.i1 {
+    border: 0px solid;
+    border-radius: 20px;
+    width: 520px;
+}
+
+.para3 {
+    text-align: left;
+    color: grey;
+}
+
+.head3 {
+    color: #1E293B;
+    text-align: left;
+}
+
+.divtag3 {
+    background-color: #e0dfdc;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Roboto";
+    text-align: left;
+}
+
+.contact-para1 {
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.contact-head {
+    text-align: center;
+
+}
+
+.contact-p1 {
+    font-size: 30px;
+}
+
+.color-span {
+    text-align: left;
+    color: red;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.space {
+    border: 0px solid;
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.space-1 {
+    border: 0px solid;
+
+    height: 130px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn2 {
+    color: white;
+    background-color: #4A90E2;
+    border: 0px solid;
+    padding: 10px;
+    margin: 10px;
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.divtag4 {
+    background-color: #1E293B;
+    height: 100vh;
+    background-size: cover;
+}
+
+.last-img {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.last-p1 {
+    color: grey;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.iconss {
+    height: 20px;
+    width: 30px;
+    font-size: 20px;
+    margin: 10px;
+    color: grey;
+
+
+}
+
+.last-contact {
+    color: #ffffff;
+
+}
+
+.divtag5 {
+    color: grey;
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+.divtag6 {
+    color: grey;
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+.last-menu {
+    color: #ffffff;
+
+}
+
+.p {
+    background-color: #1E293B;
+    color: white;
+ 
+   
+}
+
+.gpt {
+    text-decoration: underline;
+}
+
+@media (min-width:600px) {
+    .head1 {
+        font-size: 100px;
+    }
+
+    .para1 {
+        font-size: 40px;
+    }
+    .a{
+        font-size:40px;
+    }
+
+    .btn1 {
+        color: #e0dfdc;
+        background-color: #4A90E2;
+        height: 70px;
+        width: 200px;
+        font-family: "Bree Serif";
+        border: 0px solid;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+
+    .divtag2 {
+        font-size: 40px;
+    }
+
+    .i1 {
+        border: 0px solid;
+        border-radius: 20px;
+        width: 500px;
+    }
+
+    .contact-head {
+        font-size: 40px;
+    }
+
+    .contact-para1 {
+        font-size: 40px;
+    }
+
+    .contact-p1 {
+        font-size: 35px;
+
+    }
+
+    .color-span {
+        font-size: 40px;
+    }
+
+    .space {
+        height: 40px;
+    }
+
+    .space-1 {
+        height: 150px;
+    }
+
+    .btn2 {
+        font-size: 30px;
+        height: 50px;
+
+    }
+    .head3{
+        font-size: 30px;
+    }
+
+    .last-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .last-p1 {
+        font-size: 40px;
+    }
+
+    .iconss {
+        font-size: 40px;
+
+    }
+
+    .last-contact {
+        font-size: 60px;
+    }
+
+    .last-menu {
+        font-size: 80px;
+    }
+
+    .divtag5 {
+        font-size: 40px;
+    }
+
+    .p {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .nav {
+        ;
+        height: 100px;
+        width: 100%;
+    }
+
+    .image1 {
+        height: 80px;
+        width: 80px;
+    }
+    .imgs{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+.contact-list{
+
+    gap:50px;
+}
+
+}
+.contact-list{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}

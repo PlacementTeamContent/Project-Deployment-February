@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 35px;
+    justify-content: space-between;
+}
+
+.nav2_p {
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.nav2_i {
+    color: white;
+    font-size: 30px;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.nav_img {
+    height: 120px;
+    width: 150px;
+}
+
+.nxt_task {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.main {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.matter {
+    color: white;
+}
+
+.matter_button {
+    text-align: center;
+    background-color: #8B5CF6;
+    height: 40px;
+    width: 125px;
+    border-radius: 7px;
+    margin: 0px;
+}
+
+.our_services {
+    padding-top: 35px;
+    height: 150px;
+
+    text-align: center;
+}
+
+.o_h1 {
+    font-weight: bold;
+}
+
+.Our {
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.us {
+    text-align: center;
+}
+
+.our_image {
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+}
+
+.us_h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+
+.us_p {
+    font-size: 20px;
+}
+
+.contect_Us {
+    background-color: #dfe3eb;
+    padding: 19px;
+}
+
+.o {
+    display: flex;
+    flex-direction: column;
+}
+
+.ps {
+    color: red;
+}
+
+.name {
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.na1 {
+    font-size: 35px;
+}
+
+.space {
+    border-radius: 5px;
+    height: 60px;
+    width: 950px;
+    background-color: white;
+    margin: 1px;
+    color: black;
+}
+.main{
+    color:#FFFFFF;
+}
+.u {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.e_mail {
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.space1 {
+    border-radius: 5px;
+    height: 60px;
+    width: 450px;
+    background-color: white;
+    margin: 1px;
+    color: black;
+}
+
+.na2 {
+    font-size: 35px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.space2 {
+    border-radius: 5px;
+    height: 60px;
+    width: 400px;
+    background-color: white;
+    margin: 1px;
+    color: black;
+}
+
+.space4 {
+    border-radius: 5px;
+    height: 400px;
+    width: 950px;
+    background-color: white;
+    margin: 1px;
+    color: black;
+}
+
+.t {
+    background-color: #1E293B;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.t1 {
+    padding: 30px;
+}
+
+.img2 {
+    height: 200px;
+    width: 200px;
+}
+
+.t12 {
+    display: flex;
+    
+    flex-direction: row;justify-content: space-between;
+}
+.li{
+    color:white;
+}
+.t2{
+    padding:70px;
+}

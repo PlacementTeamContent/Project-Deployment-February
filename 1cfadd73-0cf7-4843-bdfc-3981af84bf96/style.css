@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    display: flex;
+    background-color: #0A1525;
+    width: 90vh;
+    margin: 0px;
+}
+.hh1{
+    font-size: 20px;
+    margin: 7px;
+    font-family: "Bree Serif";
+    color:white;
+}
+.nav1{
+    color:#FFFFFF;
+}
+.page1{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height: 40vh;
+    width: 90vh;
+    margin: 0px;
+    display: flex-column;
+    justify-items: center;
+    align-items: center;
+    place-items: center;
+    padding-top: 20px;
+}
+.div-part{
+    justify-items:center;
+    /* align-items: center; */
+    font-style: normal;
+}
+.div-head{
+    font-size: 40px;
+    color:#ffffff;
+    font-family: "Bree Serif";
+    /* font-weight: bold; */
+    padding-right:90px;
+    font-style: normal;
+}
+.div-text{
+    font-size: 18px;
+    font-family: "Bree Serif";
+    color:#ffffff;
+    padding-left:180px ;
+    font-style: normal;
+}
+.div-btn{
+    margin-right: 210px;
+    background-color: #F6B352;
+    color:#ffffff;
+    border-radius: 10px;
+    border-style:none;
+    padding: 10px;
+}
+.picture{
+    height: 140px;
+    border-radius: 10px;
+    width: 160px;
+}
+.images{
+    text-align: center;
+    align-content: center;
+    display: flex;
+}
+.page2{
+    align-content: center;
+    text-align: center;
+    width: 90vh;
+}
+.p-text{
+    color:grey;
+    font-size: 10px;
+}
+.h-text{
+    font-size: 16px;
+}
+.img1{
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+}
+.p1-text{
+    color:grey;
+}
+.page3{
+    background-color: #dfe3eb;
+    justify-items: center;
+    width: 90vh;
+    padding: 16px;
+}
+.ppo{
+    color:black;
+    font-weight: bold;
+}
+.star{
+    color:red;
+}
+.last-btn{
+    /* padding: 3px; */
+    margin: 10px;
+    padding-left:140px;
+    padding-right: 130px;
+    background-color: #F6B352;
+    color:#ffffff;
+    border-radius: 5px;
+    border-style: none;
+}
+.text{
+    padding-left:100px;
+    padding-right: 90px;
+}
+.div-input{
+    display: flex;
+    padding: 5px;
+}
+.dash{
+    margin: 5px;
+}
+.page4{
+    background-color: #1E293B;
+    width: 90vh;
+    padding: 20px;
+    padding-bottom: 100px;
+    /* display: flex; */
+}
+.bi{
+    color:#ffffff;
+}
+.pppp{
+    color:#ffffff;
+    font-size: 10px;
+}
+.lasth{
+    color:#ffffff;
+    font-size: 16px;
+    margin: 5px;
+}
+.lastp{
+    color:#ffffff;
+    font-size: 10px;
+    margin: 5px;
+}
+.down{
+    color:#ffffff;
+    
+}
+.icons{
+    display: flex;
+}
+.span{
+    text-decoration-line: underline;
+}
+@media screen (min-width:768px){
+    .page2{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.nav1{
+    color:#ffffff;
+    margin: 4px;
+    justify-items: right;
+}
+.fa{
+    color:#ffffff;
+}

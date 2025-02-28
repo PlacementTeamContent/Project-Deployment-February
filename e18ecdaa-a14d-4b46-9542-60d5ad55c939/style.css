@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-bar{
+    height: 10vh;
+    background-color: #0A1525;
+}
+.nav-image{
+    height: 40px;
+    padding-top: 5px;
+}

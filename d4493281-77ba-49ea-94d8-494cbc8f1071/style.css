@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: Bree Serif;
+}
+
+p {
+    font-weight: thin;
+}
+
+.nav {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: #0A1525;
+    color: #FFFFFF;
+}
+
+.nav-responsive {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-image {
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+.nav-img-container {
+    display: flex;
+    gap: 20px;
+}
+
+.padding-nav-icon {
+    padding: 20px;
+}
+
+.background-image {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 60vh;
+    background-size: cover;
+    padding: 140px;
+    padding-left: 180px;
+    color: #FFFFFF;
+}
+
+.body-heading {
+    font-size: 50px;
+}
+
+.banner-body-button {
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border: 0px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.services-heading {
+    text-align: center;
+}
+
+.service-images {
+    height: 160px;
+    width: 230px;
+    border-radius: 10px;
+
+}
+
+.service-in-row {
+    display: flex;
+    padding-left: 50px;
+}
+
+.contactus-background {
+    /* background-color:ash; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us-first-section {
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus-form-container {
+    width: 50%;
+    padding-left: 300px;
+}
+
+.email {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+
+}
+
+input textarea {
+    border-radius: 5px;
+
+}
+
+textarea {
+    margin-bottom: 30px;
+}
+
+.footer-background {
+    background-color: #0A1525;
+    color: #FFFFFF;
+
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lets-talk {
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border: 0px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+i {
+    margin: 5px;
+}
+
+.responsive-kosam {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.last-line {
+    padding-left: 100px;
+}
+
+@media (max-width:768px) {
+    .service-in-row {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        text-align: center;
+    }
+
+    .contactus-background {
+        /* background-color:ash; */
+
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+    }
+
+    .contact-us-first-section {
+        /* text-align: center; */
+    }
+
+    span {
+        color: red;
+    }
+
+    .name {
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+    .contactus-form-container {
+        width: 60%;
+        padding-left: 120px;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+        /* justify-content: space-between; */
+
+    }
+
+    input textarea {
+        border-radius: 5px;
+
+    }
+
+    textarea {
+        margin-bottom: 30px;
+    }
+
+    .responsive-kosam {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .footer-row {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+
+    .mobile-view {
+        padding: 20px;
+    }
+
+    .last-line {
+        padding-left: 12px;
+    }
+
+    .nav-responsive {
+        display: NONE;
+    }
+
+    .background-image {
+        background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+        height: 100vh;
+        background-size: cover;
+        padding: 40px;
+        padding-left: 60px;
+        color: #FFFFFF;
+        padding-top: 70px;
+    }
+
+
+}

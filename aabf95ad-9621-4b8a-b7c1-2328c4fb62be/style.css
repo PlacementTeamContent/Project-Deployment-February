@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "Bree Serif";
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.hamburger{
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    background-color: #0A1525;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-image {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin: 3px;
+}
+
+.nav-h1 {
+    color: #ffffff;
+}
+
+.homepage-btn {
+    background-color: #ffd700;
+    border: 120px;
+    padding: 20px;
+    color: #ffffff;
+    margin: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.after-nav {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    color: #ffffff;
+    padding-top: 120px;
+    justify-content: center;
+    align-content: center;
+}
+
+.after-nav-h1 {
+    padding: 15px;
+    font-size: 28px;
+}
+
+.after-nav-p {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.sec-page {
+    height:auto;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.sec-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-container-in {
+    width: 280px;
+    height: auto;
+
+}
+
+.sec-image {
+    height: 200px;
+    width: 250px;
+    border:2px;
+    border-radius: 20px;
+}
+
+.contact-us-page {
+    height: auto;
+    width: 100vw;
+}
+
+.contact-box{
+    width:98vw;
+    height:20px;
+    border:2px;
+}
+
+.talk-button{
+    background-color: #ffd700;
+    border: 120px;
+    padding: 20px;
+    color: #ffffff;
+    margin: 100px;
+    width: 100vw;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color:#0A1525;
+    color:#ffffff;
+    padding:13px;
+}
+
+i{
+    height: 20px;
+    width:20px;
+    padding:3px;
+}
+
+.end{
+    font-size:12px;
+}

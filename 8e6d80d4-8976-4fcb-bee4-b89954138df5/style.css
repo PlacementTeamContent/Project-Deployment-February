@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.banner {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.heading {
+    color: white;
+    font-family: "Bree Serif";
+
+}
+
+.h-para {
+    color: white;
+    font-family: "Bree Serif";
+
+}
+
+.h-btn {
+    border-width: 0px;
+    background-color: #FFD700;
+    color: white;
+    /* font-family:"Bree Serif"; */
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.s-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.s-img {
+    height: 120px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.s-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 20px;
+}
+
+.s-head {
+    font-family: "Bree Serif";
+    color: #0A1525;
+
+}
+
+.s-para {
+    font-family: "Bree Serif";
+    color: #1E293B;
+
+}
+
+.contact-us {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-head {
+    font-family: "Bree Serif";
+    color: #0A1525;
+}
+
+.c {
+    color: red;
+}
+
+.text-c {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.t {
+    position: relative;
+    bottom: 20px;
+}
+
+.i {
+    height: 17px;
+    position: relative;
+    bottom: 20px;
+}
+
+.inner2 {
+    position: relative;
+    bottom: 60px;
+}
+
+.m {
+    height: 100px;
+    width: 400px;
+    position: relative;
+    bottom: 20px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 410px;
+    position: relative;
+    bottom: 60px;
+}
+
+.icons {
+    display: flex;
+}
+
+.g {
+    text-decoration: underline;
+}
+
+.f-img {
+    height: 30px;
+    width: 30px;
+}
+
+footer {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f-para {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 7px;
+}
+
+.bi {
+    font-size: 15px;
+    color: white;
+    margin: 4px;
+}
+
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.sec-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.sec-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+nav{
+    background-color:#0A1525 ;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content: center;
+}
+.part1{
+    display:flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right:100px;
+}
+.part2{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.cp{
+    justify-content:flex-end;
+}
+.ma{
+    margin-left:16px;
+    font-family:"Bree Serif";
+}
+@media (max-width:576px){
+    .s-cards{
+        display:flex;
+        flex-direction: column;
+    }
+
+    
+}

@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "Bree Serif";
+}
+h1{
+    color: #FFFFFF;
+}
+.img-nav {
+    height: 80px;
+}
+.space{
+    display: flex;
+}
+nav {
+    background-color: #0A1220;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    width: 98vw;
+}
+.bar-icon {
+    display: flex;
+    align-self: center;
+    padding: 20px;
+}
+.nav-contact{
+    display: none;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.bg-img {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    height:50vh;
+    width: 100%;
+    color: #dfe3eb;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.btn{
+    background-color: #00E5BE;
+    color: #FFFFFF;
+    border-width: 0px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.our {
+    color: #1E293B;
+}
+.services-section{
+    text-align: center;
+    
+}
+.image{
+    border-radius: 20px;
+    height: 200px;
+}
+.imgs-section {
+    text-align: left;
+    margin: 30px;
+}
+.Contact-page {
+    background-color: #dfe3eb;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 45px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 3px;
+    border-width: 0px;
+}
+.mark{
+    background-color: #dfe3eb;
+    color: red;
+    text-decoration: none;
+}
+.same{
+    display: none;
+}
+.msg{
+    height: 100px;
+}
+.button{
+    background-color: #00E5BE;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 300px;
+}
+footer{
+    background-color: #0A1220;
+    padding: 20px;
+}
+.bg-col{
+    background-color: #0A1220;
+}
+.icons{
+    color: #FFFFFF;
+    height: 90px;
+}
+.combine {
+    display: flex;
+    justify-content: space-around;
+}
+mark{
+    background-color: #0A1220;
+    color: #dfe3eb;
+    text-decoration: underline;
+}
+.bg-colo{
+    background-color: #0A1220;
+    display: none;
+}
+@media screen and (min-width:992px) {
+    .nav-contact{
+        display: block;
+    }
+    .bar-icon{
+        display: none;
+    }
+    .bg-img{
+        text-align: center;
+    }
+    .bg-text{
+        text-align: left;
+        margin: 30%;
+    }
+    .img-container{
+        display: flex;
+        gap: 50px;
+    }
+    .Contact-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .same{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .input{
+        display: none;
+    }
+    .button{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 50px;
+    }
+    .combine{
+        display: flex;
+        gap: 150px;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .phn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    .bg-colo{
+        display: flex;
+        bottom: 0px;
+    }
+    .bg-col{
+        display: none;
+    }
+}

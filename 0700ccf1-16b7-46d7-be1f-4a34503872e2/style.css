@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.Navbar-section {
+    background-color: #0A1426;
+    width: 100vw;
+    height: 8vh;
+}
+
+.Nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.p {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+a {
+    margin-right: 20px;
+}
+
+.img-1 {
+    width: 100px;
+    height: 80px;
+}
+
+@media screen and (min-width:768px) {
+    .nav-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .nav-button {
+        display: block;
+    }
+}
+
+.image-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+p {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+}
+
+.bg-heading {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h {
+    margin-top: 15%;
+    margin-right: 30%;
+    width: 300px;
+    font-family: "";
+}
+
+p {
+    color: #e0dfdc;
+}
+
+button {
+    background-color: #4A90E2;
+    color: white;
+    border-width: 0px;
+    width: 100px;
+    height: 50px;
+    border-radius: 14px;
+}
+
+.Ourservice-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+    color: gray;
+    width: 800px;
+}
+
+.img-2 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-1 {
+    width: 500px;
+    margin-right: 10px;
+
+}
+
+.para1 {
+    color: gray;
+}
+
+.crds {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #e0dfdc;
+}
+
+.contact-para {
+    color: gray;
+}
+
+.footer-section {
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.footer-img {
+    width: 100px;
+    height: 100px;
+}
+
+.Footer-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.pp {
+    color: white;
+}

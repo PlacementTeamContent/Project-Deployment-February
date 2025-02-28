@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color:#0A1525;
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    display:flex;
+    flex-direction:row;
+}
+.contact{
+    display:flex;
+    flex-direction:column;
+}
+@media (min-width:768px){
+    .cards{
+    display:flex;
+    flex-direction:row;
+    width:auto;
+    }
+    .contact{
+    display:flex;
+    flex-direction:row;
+}
+    .info{
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+}
+
+.button3{
+    background-color:#FFFFFF;
+    border-color:#0A1525;
+    height:70px;
+    width:auto;
+}
+
+}
+.bg{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height:auto;
+    width:auto;
+    background-size:cover;
+    color:#FFFFFF;
+    font-family:"Bree Serif";
+    margin:auto;
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    
+}
+
+.cards{
+    display:flex;
+    padding:10px;
+    margin:auto;
+}
+.service-heading{
+    font-weight:bold;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.contact-buttons{
+    display:flex;
+
+    flex-direction:column;
+    padding:10px;
+}
+.button{
+    color:#FFFFFF;
+    background-color:#FFD700;
+    border-radius:10px;
+    padding:10px;
+    border-width:0px;
+}
+.service-page{
+    text-align:center;
+    font-family:Bree Serif;
+    height:auto;
+    width:auto;
+    
+}
+.card-1{
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    width:250px;
+    margin:auto;
+    padding:10px;
+    
+    
+}
+.card-2{
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    width:250px;
+    margin:auto;
+    padding:10px;
+    
+}
+.card-3{
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    width:250px;
+    margin:auto;
+    padding:10px;
+    
+    
+}
+
+.navbar-heading{
+    display:flex;
+    flex-direction:row;
+   align-items:flex-end;
+    }
+.logo{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding:10px;
+}
+
+.contact-us-page{
+    background-color: lightgray;
+    color:black;
+    font-family:"Bree Serif";
+    padding:10px;
+    margin:auto;
+    flex-wrap:wrap;
+}
+.icons{
+    display:flex;
+    flex-direction:row;
+    
+}
+.footer-para{
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    
+}
+.last-para{
+    font-size:10px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+.button2{
+    background-color:#FFFFFF;
+    border-color:#0A1525;
+    height:30px;
+    width:190px;
+}
+.button3{
+    background-color:#FFFFFF;
+    border-color:#0A1525;
+    height:70px;
+    width:auto;
+    width:250px;
+}
+.footer{
+    background-color:#1E293B;
+    color:#FFFFFF;
+    font-family: Bree Serif;
+    display:flex;
+    flex-direction:row;
+}
+ul{
+    list-style-type: none;
+}

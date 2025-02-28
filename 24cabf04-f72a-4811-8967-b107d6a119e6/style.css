@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.logo-img {
+    height: 40px;
+    padding: 10px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+.header-li{
+    padding: 5px;
+}
+
+.home {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+
+.home-content {
+    font-family: "Bree Serif";
+}
+
+.home-btn {
+    background-color: #4b84f3;
+    color: #ffffff;
+}
+
+@media screen and (max-width:767px) {
+    .header {
+    background-color: #1a2942;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: start;
+        color: #ffffff;
+    }
+
+    .home-content {
+        width: 250px;
+    }
+
+    .home-heading {
+        font-size: 20px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+    background-color: #1a2942;
+    text-align: center;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .header {
+    background-color: #0A1525;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: start;
+        color: #ffffff;
+    }
+    .home-content {
+        width: 500px;
+    }
+    .home-heading {
+        font-size: 50px;
+    }
+    .services{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    
+    }
+}
+.services{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+}
+.services-content{
+    padding:15px;
+    width: 270px;
+}
+.services-img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+.contact-section{
+    background-color: #dfe3eb;
+}
+.inputs-div{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+    align-items:center;
+}
+.contact-section{
+    padding: 10px;
+    margin: 10px;
+}
+.contact-btn{
+    background-color: #4b84f3;
+    color: #ffffff;
+}
+.footer {
+    color: #ffffff;
+    font-family: "Roboto";
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-ul{
+    list-style-type: none;
+}
+.span{
+    text-decoration: underline;
+}

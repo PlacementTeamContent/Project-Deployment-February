@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+nav{
+    background-color: #0A1525;
+    height: 100px;
+    width: 1500px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.nav-image{
+    height: 50px;
+    margin:15px;
+    padding-left:20px;
+}
+.image-container{
+    display: flex;
+    flex-direction:row;
+}
+.NxtBuild{
+    color: white;
+    font-family: Bree Serif;
+    padding-top:20px;
+}
+.contact-elements{
+    color: white;
+    font-family: Bree Serif;
+}
+.aboutus-nav{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    padding-top: 20px;
+    margin-left: 150px;
+}
+.bg-container{
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 1500px;
+}
+.bg-head{
+    color: white;
+    font-family: Bree Serif;
+    text-align: center;
+    font-size: 35px;
+}
+.bg-description{
+    color: white;
+    font-family: Bree Serif;
+    text-align: center;
+}
+.bg-text-container{
+    padding-top: 100px;
+}
+.btn{
+    text-align: center;
+}
+.contact-us-button{
+    color: white;
+    font-family: Bree Serif;
+    background-color: #4B9EFF;
+    border-color:#4B9EFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+.our-services-head{
+    text-align: center;
+    color: #0A1525;
+    font-family: Roboto;
+    font-size: 35px;
+}
+.our-services-description{
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+}
+.service-image-one{
+    height: 200px;
+    width:250px;
+    border-radius: 10px;
+}
+.project-head{
+    color: black;
+    font-family: Bree Serif;
+}
+.project-des{
+    color: black;
+    font-family: Roboto;
+    height: 10px;
+    width:300px;
+}
+.our-services-image-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact-us-bg-container{
+    background-color:#dfe3eb;
+    height: 700px;
+    width: 1500px;
+    margin-top: 900px;
+}
+.contact-head{
+    text-align: center;
+    font-family:Roboto;
+}
+.contact-des{
+    text-align: center;
+    font-family: Roboto;
+}
+.name-container{
+    text-align: center;
+    padding-top:50px;
+}
+span{
+    color: orange;
+}
+.name-text{
+    font-family:Roboto;
+    font-weight: bold;
+    color: #0A1525;
+    padding-right: 250px;
+}
+.name-input{
+    width: 300px;
+    border-radius:5px;
+    border-color: #dfe3eb;
+}
+.two-input{
+    display: flex;
+    flex-direction: row;
+    padding-left: 570px;
+}
+.email-container{
+    text-align: center;
+    padding-top:50px;
+}
+.phone-container{
+    text-align: center;
+    padding-top:50px;
+}
+.message-container{
+    text-align: center;
+    padding-top:50px;
+}
+.

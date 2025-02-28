@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar-header{
+    background-color:#0A1525 ;
+    height: 13vh;
+}
+@media screen and (min-width:768px) {
+    .navbar-header{
+        height: 10vh;
+    }
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width:768px){
+    .nav-items{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.nav-logo{
+    height: 6vh;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.nav-image-logo{
+    display: flex;
+    flex-direction: row;
+}
+.nav-image-name{
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.fa{
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+}
+.nav-elements{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+.nav-head-elements{
+    display: none;
+}
+@media screen and (min-width:992px){
+    .nav-head-elements{
+        display: block;
+        padding-top: 20px;
+        padding-right: 20px;
+        font-family: "Bree Serif";
+    }
+}
+
+
+
+
+
+.blue-container{
+    background-image:url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+@media screen and (min-width:768px){
+    .blue-container{
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+}
+.card-main-heading{
+    font-family: "Bree Serif";
+    color: #ffffff;
+}
+@media screen and (min-width:768px){
+    .card-main-heading{
+        font-size: 50px;
+    }
+}
+.card-main-para{
+    font-family: "Bree Serif";
+    color: #ffffff;
+}
+@media screen and (min-width:768px){
+    .card-main-para{
+        font-size: 30px;
+        padding-right: 30px;
+    }
+}
+.button{
+    background-color: #F6B352;
+    height: 40px;
+    width: 120px;
+    border-radius: 12px;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.middle-main-heading{
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: #1E293B;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+    .middle-main-heading{
+        font-size: 50px;
+        text-align: center;
+    }
+}
+.middle-main-para{
+    font-family: "Bree Serif";
+    color: #1E293B;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-bottom: 6vh;
+}
+@media screen and (min-width:768px){
+    .middle-main-para{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+.card{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px){
+    .card{
+        margin: 20px;
+    }
+}
+.middle-card-image{
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen and (min-width:768px){
+    .middle-card-image{
+        width: 18vh;
+        height: 15vh;
+        background-size: cover;
+    }
+}
+@media screen and (min-width:1200px){
+    .middle-card-image{
+        width: 30vh;
+        height: 25vh;
+        background-size: cover;
+    }
+}
+.middle-card-heading{
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: #1E293B;
+    font-size: 30px;
+}
+.middle-card-para{
+    font-family: "Bree Serif";
+}
+
+
+
+
+
+
+
+
+.bg-contact-section{
+    background-color: #dfe3eb;
+    padding: 10px;
+}
+.top{
+    text-align: center;
+}
+.contact-us-heading{
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: #1E293B;
+    font-size: 30px;
+}
+@media screen and (min-width:768px){
+    .contact-us-heading{
+        font-size: 50px;
+    }
+}
+.contact-us-para{
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+@media screen and (min-width:768px){
+    .contact-us-para{
+        font-size: 25px;
+    }
+}
+.boxes-names{
+    margin-left: 20px;
+}
+
+.boxs{
+    font-family: "Bree Serif";
+}
+@media screen and (min-width:768px){
+    .boxs{
+        font-size: 30px;
+    }
+}
+.star{
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.mt-box{
+    background-color: #ffffff;
+    height: 40px;
+    border: solid grey 2px;
+    border-radius: 8px;
+}
+@media screen and (min-width:768px){
+    .mt-box{
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+.mt-box-1{
+    background-color: #ffffff;
+    height: 40px;
+    border: solid grey 2px;
+    border-radius: 8px;
+}
+@media screen and (min-width:768px){
+    .mt-box-1{
+        width: 50vh;
+        margin: 0px;
+    }
+}
+.middle-box{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px){
+    .middle-change{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+}
+.mt-box-5{
+    background-color: #ffffff;
+    height: 30vh;
+    border: solid grey 2px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.middle-button{
+    background-color: #F6B352;
+    width: 100%;
+    border: 0px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Bree Serif";
+    margin-bottom: 10vh;
+}
+
+
+
+
+
+.first-section{
+    margin: 20px;
+    justify-content: flex-start;
+}
+.bg-container-footer{
+    background-color:#0a1525 ;
+    padding: 20px;
+}
+@media screen and (min-width:768px){
+    .bg-container-of-footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        display: flex;
+    }
+}
+.image-footer{
+    height: 10vh;
+    padding-left: 20px;
+}
+.footer-para{
+    color: white;
+    font-family: "Bree Serif";
+}
+.icons-element{
+    display: flex;
+    flex-direction: row;
+}
+.bi{
+    color: #ffffff;
+    font-size: 30px;
+    padding: 5px;
+}
+.second-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.second-in-first{
+    display: flex;
+    flex-direction: column;
+}
+.second-in-second{
+    display: flex;
+    flex-direction: column;
+}
+.footer-menu-one{
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-m-para{
+    color: white;
+}
+@media screen and (min-width:768px){
+    .second-in-first{
+        margin: 5vh;
+    }
+    .second-in-second{
+        margin: 5vh;
+    }
+}
+
+
+.last-para{
+    color: white;
+    margin-left:5vh;
+    font-family: "Bree Serif";
+}
+.last-word{
+    text-decoration: underline;
+    font-family: "Bree Serif";
+}
+
+
+
+
+
+
+
+
+
+@media orientation(landscape){
+    .bg-fff-container{
+        background-color: white;
+        justify-content: center;
+        align-content: center;
+        font-family: "roboto";
+    }
+}
+@media orientation(portrite){
+    .bg-fff-container{
+        background-color: white;
+        justify-content: center;
+        align-content: center;
+        font-family: "roboto";
+    }
+}

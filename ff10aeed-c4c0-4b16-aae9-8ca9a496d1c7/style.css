@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    width: 105vh;
+    height: 80px;
+    background-size: cover;
+
+}
+
+.container-2 {
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    width: 105vh;
+    height: 450px;
+    background-size: cover;
+}
+
+.matter {
+    color: white;
+    text-align: center;
+
+}
+
+.Our-services {
+    text-align: center;
+    font-family: Bree;
+}
+
+.img-2 {
+
+    width: 105vh;
+    height: 350px;
+
+}

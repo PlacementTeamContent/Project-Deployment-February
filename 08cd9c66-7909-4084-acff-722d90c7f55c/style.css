@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    background-color:#0A1525;
+}
+.nav-img{
+    height:50px;
+}
+.nav-brand-name{
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    font-size:23px;
+}
+.brand-icon{
+    display:flex;
+    gap:15px;
+    align-items: center;
+}
+.nav-items{
+    display:flex;
+    gap:15px;
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    font-size:20px;
+}
+.itmes{
+   margin-right:10px; 
+}
+.fa{
+    color:white;
+    font-size:20px;
+    align-self:center;
+    margin-right:20px;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+.container{
+    background-image:url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size:cover;
+    height:515px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.page1-head{
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    font-size:40px;
+    font-weight:bold;
+}
+.page1-para{
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    font-size:15px;
+}
+.btn{
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    font-size:15px;
+    background-color:#4B84F3;
+    border-width:0px;
+    width:110px;
+    height:33px;
+    border-radius: 10px;
+    padding:5px;
+}
+.page2-head{
+    color:#0A1525;
+    font-family: "Bree Serif";
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+}
+.page2-para{
+    color:#1A2942;
+    font-family: "Bree Serif";
+    font-size:20px;
+     text-align: center;
+}
+.card-img{
+    height:250px;
+    width:400px;
+    border-radius:20px;
+}
+.card-head{
+    color:#1A2942;
+    font-family: "Bree Serif";
+    font-size:25px;
+    font-weight:bold;
+}
+.card-para{
+    color:#1A2942;
+    font-family: "Bree Serif";
+    font-size:15px;
+}
+.page3-container{
+    background-color:#dfe3eb;
+    padding:40px;
+}
+.page3-head{
+    color:#0A1525;
+    font-family: "Bree Serif";
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+}
+.page3-para{
+    color:#1A2942;
+    font-family: "Bree Serif";
+    font-size:20px;
+     text-align: center;
+}
+.contact-name{
+    color:#0A1525;
+    font-family: "Bree Serif";
+    font-size:20px;
+    font-weight:bold;
+}
+.contact-box{
+    background-color:#FFFFFF;
+    height:50px;
+    width:80%;
+    border-radius:10px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#4B84F3;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:10px;
+}
+.contact-box2{
+    background-color:#FFFFFF;
+    height:200px;
+    width:80%;
+    border-radius:10px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#4B84F3;
+}
+.btn2{
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    font-size:15px;
+    background-color:#1A2942;
+    border-width:0px;
+    width:80%;
+    height:37px;
+    border-radius: 5px;
+    padding:5px;
+    margin-left:15px;
+}
+.footer{
+    background-color:#1A2942;
+    padding:20px;
+}
+.footer-para{
+    color:#dfe3eb;
+    font-family: "Bree Serif";
+    font-size:20px;
+}
+.bi{
+    color:#dfe3eb;
+    font-size:30px;
+     margin-right:10px;
+}
+.c-head{
+    color:#dfe3eb;
+    font-family: "Bree Serif";
+    font-size:25px;
+    font-weight:bold;
+}
+.c-para{
+    color:#dfe3eb;
+    font-family: "Bree Serif";
+    font-size:15px;
+}
+.footer-menu{
+   display:flex; 
+   width:60%;
+   justify-content: space-between;
+   margin-top:20px;
+}
+@media screen and (max-width:576px){
+    .nav-items{
+        display:none;
+    }
+    .page-1{
+        width:70%;
+        margin-left:50px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:50px;
+    }
+    .a{
+       width:400px; 
+    }
+    
+}
+@media screen and (min-width:578px){
+    .nav-icon{
+        display:none;
+    }
+    .container{
+        align-items:center;
+    }
+    .page-1{
+        width:50%;
+    }
+    .page2-container{
+        padding:50px;
+    }
+    .card-container{
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-between;
+        padding:10px;
+    }
+    .card-img{
+    height:200px;
+    width:270px;
+    border-radius:20px;
+}
+.a{
+       width:300px; 
+    }
+    .footer{
+        display:flex;
+        justify-content: space-between;
+        padding:70px;
+    }
+    .footer-menu{
+        width:40%;
+        padding:20px;
+    }
+}

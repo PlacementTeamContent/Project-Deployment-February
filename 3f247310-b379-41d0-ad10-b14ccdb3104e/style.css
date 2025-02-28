@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+p{
+    margin: 3px;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+a{
+    margin:3px;
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    background-color: #0A1525;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 100vw;
+}
+
+.home-section {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    width: 95vw;
+    box-sizing: content-box;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Bree Serif";
+    padding: 20px;
+}
+
+button {
+    background-color: #4B9EFF;
+    border: 0px;
+    border-radius: 5px;
+    width: 50%;
+    color: #FFFFFF;
+    height: 30px;
+    font-family: "Bree Serif";
+    padding: 5px;
+
+}
+
+.service-heading {
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1E293B;
+    padding: 5px;
+}
+
+.para {
+    color: grey;
+    align-self: center;
+}
+
+.image {
+    height: 90%;
+    width: 90%;
+    border-radius: 25px;
+    margin-top: 60px;
+}
+
+.img-head,.inputs {
+    color: #1E293B;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    font-size: 28px;
+
+}
+span{
+    color: red;
+     font-size: 28px;
+}
+input{
+    width:100%;
+    height:40px;
+    border: lightgrey 2px solid;
+    margin:10px;
+    border-radius: 10px;
+}
+.service-section {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bree Serif";
+}
+.mes-input{
+    width:100%;
+    height:130px;
+    border: lightgrey 2px solid;
+    margin:10px;
+    border-radius: 10px;
+}
+.con-head{
+    align-self: center;
+}
+.input-button{
+     background-color: #4B9EFF;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFFFFF;
+    height: 60px;
+    font-size: 28px;
+    font-family: "Bree Serif";
+    padding: 5px;
+
+}
+.contact-section{
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Bree Serif";
+    background-color: #dfe3eb;
+}
+.foot-image{
+    height: 60px;
+    width:60px;
+}
+p{
+    color:#dfe3eb;
+    font-size: 24px;
+}
+.follow-section{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Bree Serif";
+    background-color: #0A1525;
+}
+i{
+    margin:10px;
+    color: #dfe3eb;
+    font-size: 60px;
+}
+.follow-head{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 10px;
+}
+.follow-space{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@media screen and (min-width:768px) {
+    .home-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Bree Serif";
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .service-section {
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        font-family: "Bree Serif";
+    }
+    .image {
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+  
+}
+.social-icons{
+    display: flex;
+   
+    flex-direction: row;
+}
+.foot-sub{
+    display: flex;
+   
+    flex-direction: column;
+}
+.contact-section{
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Bree Serif";
+    background-color: #dfe3eb;
+}
+.follow-section{
+    padding: 25px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Bree Serif";
+    background-color: #0A1525;
+}
+i{
+    margin:10px;
+    color: #dfe3eb;
+    font-size: 50px;
+}
+}

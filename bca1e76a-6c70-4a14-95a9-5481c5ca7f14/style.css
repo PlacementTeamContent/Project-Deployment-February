@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height:8vh;
+}
+
+.nxt {
+    padding-right: 300px;
+    padding-top: 7px;
+}
+
+.van {
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+
+}
+
+.logo {
+    height: 3vh;
+    width: 6vw;
+    padding-top:15px;
+
+}
+
+.dash {
+    margin-bottom: -24px;
+
+}
+
+.dashs {
+    margin-bottom: -24px;
+}
+
+.subdiv1 {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 60vh;
+    background-size: cover;
+    color: white;
+    margin-top: -18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.imgonbtn {
+    height: 3vh;
+    width: 10vw;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+}
+.imgonh1{
+    font-size:30px;
+}
+.imgonp {
+    margin: 15px;
+    font-size: 15px;
+}
+.page2{
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page2sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:30px;
+   
+}
+.page2img{
+    height:15vh;
+    width:20vw;
+    border-radius:20px;
+}
+.bb{
+    margin-right:30px;
+    width:20vw;
+}
+.our{
+    text-align: center;
+}
+.div3{
+    background-color:#dfe3eb;
+    height:75vh;
+}
+.dot{
+    color:red;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    width:70vw;
+    height:3vh;
+}
+.email{
+    width:32vw;
+    height:3vh;
+    
+}
+.number{
+    width:32vw;
+    height:3vh;
+    
+}
+.eee{
+    padding-right:25px;
+}
+.zzz{
+    padding-left:25px;
+}
+.pan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.msg{
+    height:20vh;
+    width:70vw;
+}
+.btnv{
+  margin-top:15px;
+  text-align: center;
+}
+.run{
+    font-size: 18px;
+}
+.eye{
+  border-color:#4B9EFF;
+  height:3vh;
+  width:70vw;
+  background-color:#4B9EFF;
+  color:white;
+  font-size: 20px;
+}
+.finaldiv{
+    background-color:#1E293B;
+    height:37vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.jhon{
+    display: flex;
+    flex-direction: column;
+    
+}
+.somelogos{
+    display: flex;
+    flex-direction: row;
+}
+.xox{
+      display: flex;
+    flex-direction: column;
+}
+.imggs{
+    height:7vh;
+    width:10vw;
+}
+.pen{
+    padding-top:14px;
+}
+.mam{
+    font-size: 30px;
+    padding-right:10px;
+}

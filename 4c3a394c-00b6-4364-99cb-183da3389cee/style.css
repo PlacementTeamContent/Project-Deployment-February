@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0;
+}
+
+* {
+    /* box-sizing: border-box; */
+    font-family: "Roboto";
+}
+
+.back-image {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbars {
+    background-color: #0A1525;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    height: 120px;
+    width: 120px;
+    margin-right: 40px;
+}
+
+.images3 {
+    height: 70px;
+    width: 70px;
+}
+.nuesmo{
+    font-size: 26px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.heading {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.small-container {
+    display: flex;
+}
+
+.contanera {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.images2 {
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.back-colrs {
+    background-color: lightgrey;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.widths {
+    height: 50px;
+    width: 600px;
+    border-radius: 12px;
+    border-color: grey;
+}
+
+.widths2 {
+    height: 240px;
+    width: 600px;
+    border-radius: 12px;
+    border-color: grey;
+    display: block;
+}
+
+.paddings {
+    padding-right: 40px;
+}
+
+.thamms {
+    margin-top: 30px;
+    height: 50px;
+    width: 600px;
+    border: 0;
+    background-color: #FFD700;
+    color: white;
+    font-size: 24px;
+}
+
+.bi {
+    height: 100px;
+}
+
+.something {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+.back-colrs2 {
+    background-color: #0A1525;
+    color: white;
+}
+
+.headi {
+    text-align: center;
+    font-size: 50px;
+}
+
+.some {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+@media (max-width: 991px) {
+    .some{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
+.hi {
+    text-align: center;
+    font-size: 40px;
+}
+.hensli{
+    font-size: 23px;
+}
+.haniu{
+    padding-right: 20px;
+}
+.hee {
+    text-align: center;
+    font-size: 26px;
+    color: black;
+}
+
+.paraa {
+    text-align: center;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.emmo {
+    padding-left: 110px;
+}
+
+/* .nnnnnnd {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+
+    padding: 50px;
+} */
+@media (max-width: 991px) {
+    .nnnnnnd{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 60px;
+        padding: 50px;
+    }
+}
+@media (min-width: 991px) {
+    .nnnnnnd{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px;
+        padding: 50px;
+    }
+}
+.taeed {
+    text-align: center;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+    height: 50vh;
+    font-family: "Bree Serif";
+}
+
+.font-styling{
+    color: #FFFFFF;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-family: "Bree Serif";
+    
+}
+.heading2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+.para2{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.header{
+    background-color: #0A1426;
+}
+.header-image{
+    height: 5vh;
+    width: 5vw;
+}
+.footer{
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+.contact-us{
+    background-color: #e0dfdc;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.bg-container2{
+    background-color: #0A1426;
+}

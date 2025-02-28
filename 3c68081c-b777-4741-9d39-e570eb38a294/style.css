@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    font-family: Bree Serif;
+}
+.logo{
+    height:40px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.msg-b{
+    background-color: #4b84f3;
+    color: white;
+    margin: 10px;
+    width: 90vw;
+}
+.navbar{
+    height: 80px;
+    width: 100vw;
+    background-color: #0a1525;
+    display: flex;
+    justify-content: space-around;
+}
+.fa{
+    color: white;
+    margin: 10px;
+}
+@media screen and (max-width:578px){
+    .nav-links{
+        display: none;
+    }
+}
+@media screen and (min-width:579px){
+    .sec{
+        display: none;
+    }
+}
+.section1{
+    padding: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    height: 300px;
+    width: 100vw;
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+}
+.btn-1{
+    background-color: #4b84f3;
+    width: 150px;
+    color: white;
+}
+.section2{
+    text-align: center;
+}
+.card{
+    margin: 10px;
+    padding: 15px;
+    gap: 10px;
+    width: 330px;
+    text-align: start;
+    border-style: none;
+}
+.red{
+    color: red;
+}
+.card-img{
+    height: 200px;
+    width: 240px;
+    border-radius: 10px;
+    background-size: cover;
+}
+@media screen and (min-width:579px){
+    .cards{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        margin: auto;
+    }
+}
+
+.input{
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 30px;
+}
+@media screen and (min-width:768px){
+    .input{
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+        margin: auto;
+    }
+    
+}
+.name{
+    width: 90vw;
+}
+.name1{
+    text-align: start;
+}
+
+.input1{
+    text-align: start;
+    margin: 10px;
+}
+.email{
+    width: 40vw;
+}
+.num{
+    width: 40vw;
+}
+.msg{
+    height: 150px;
+    width: 90vw;
+}
+.section3{
+    text-align: center;
+    background-color: #dfe3eb;
+}
+.section4{
+    background-color: #0a1525;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+.f-head{
+    color: white;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.icons{
+    color: white;
+    display: flex;
+}
+.bi{
+    margin: 5px;
+}
+.p2{
+    display: flex;
+    margin-top: 50px;
+}
+.p21{
+    color: white;
+    margin-right: 100px;
+}
+@media screen and (min-width:768px){
+    .section4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .p2{
+        margin-top: 10px;
+    }
+}
+.link1{
+    color: white;
+    text-decoration: none;
+}

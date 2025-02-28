@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: #0A1525;
+}
+
+.image-1 {
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    text-align: center;
+}
+
+.mainheading {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.container-1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 100vh;
+    width: 150vw;
+    display: flex;
+}
+
+.heading {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.paragraph {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.button {
+    background-color: #6C63FF;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #6C63FF;
+}
+
+.mainheading-1 {
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.para {
+    text-align: center;
+}
+
+.image-2 {
+    height: 20vh;
+    width: 28vw;
+    justify-content: space-between;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-3{
+    background-color: #dfe3eb;
+    
+}
+.head{
+    text-align: center;
+}
+.para-1{
+    text-align: center;
+}
+.name{
+    text-align: center;
+    display:  flex;
+}
+.button-1{
+    background-color:#6C63FF ;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-color: #6C63FF;
+    border-bottom-color: #6C63FF;
+    border-left-color: #6C63FF;
+}
+.heading-1{
+    font-size: 15px;
+}
+.paragraph-1{
+    font-size: 8px;
+}
+.nikhil{
+    background-color: #1E293B;
+    color: white;
+    height: 30vh;
+    display: flex;
+    
+    flex-direction: row;
+    
+}
+.mainheading-5{
+    font-size: 5px;
+}
+.Contact{
+    font-size: 15px;
+}

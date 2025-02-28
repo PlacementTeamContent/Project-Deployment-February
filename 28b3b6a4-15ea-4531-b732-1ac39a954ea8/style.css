@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 50vh;
+    width: 40vh;
+}
+
+.logo {
+    height: 7vh;
+}
+
+.head1 {
+    color: #dfe3eb;
+}
+
+.para1 {
+    color: #dfe3eb;
+}
+
+.button1 {
+    text-align: center;
+    padding: 5px;
+    background-color: #6c63FF;
+    color: #dfe3eb;
+    border-radius: 5px;
+}
+
+.container-sub-2 {
+    text-align: center;
+}
+
+.img-2 {
+    height: 110px;
+}
+
+.i-para-1 {
+    font-family: Bree Serif;
+}
+
+.img-3 {
+    height: 110px;
+}
+
+.i-para-2 {
+    font-family: Bree Serif;
+}
+.img-4 {
+    height: 110px;
+}
+
+.i-para-3 {
+    font-family: Bree Serif;
+}

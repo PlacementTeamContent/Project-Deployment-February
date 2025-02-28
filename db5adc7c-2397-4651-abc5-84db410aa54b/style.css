@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.custombody {
+    background-color: #0A1525;
+}
+
+.customnavbar {
+    background-color: #0A1525;
+    padding: 20px;
+    padding-left: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoimg {
+    height: 120px;
+    width: 120px;
+}
+
+.logosection {
+    display: flex;
+}
+
+.logohead {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Bree Serif";
+}
+
+.customnavlinks {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    align-items: center;
+    font-family: "Bree Serif";
+}
+
+h2 {
+    margin: 10px;
+}
+
+
+
+.cc {
+    margin: 20px;
+}
+
+.displayimg {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 120px;
+}
+
+.displayhead {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 55px;
+}
+
+.displaypara {
+    color: #dfe3eb;
+    font-size: 35px;
+}
+
+.displaybutton {
+    background-color: #6c63ff;
+    border-width: 0px;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "Bree Serif";
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.ourservicessection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.ourserviceshead {
+    font-family: "Bree Serif";
+    color: #0A1525;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ourservicespara {
+    color: #1e293b;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.subcard {
+    margin: 10px;
+}
+
+.osimg {
+    height: 180px;
+    width: 320px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dfe3ed;
+}
+
+.hh3 {
+    font-family: "Bree Serif";
+    color: #0A1525;
+}
+
+.pp3 {
+    color: #1e293b;
+}
+
+@media screen and (max-width:768px) {
+    h2 {
+        display: none;
+    }
+
+    .displayimg {
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .displayhead {
+        color: #ffffff;
+        font-family: "Bree Serif";
+    }
+
+    .displaypara {
+        color: #dfe3eb;
+    }
+
+    .displaybutton {
+        background-color: #6c63ff;
+        border-width: 0px;
+        color: #ffffff;
+        font-family: "Bree Serif";
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .ourservicessection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+
+    .feedbackbtn {
+        background-color: #6c63ff;
+        border-width: 0px;
+        width: 100vw;
+        padding: 15px;
+        color: White;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .ca {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        background-color: #0A1525;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.feedbackform {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfe3eb;
+}
+
+.feedbackhead {
+    color: #0A1525;
+    font-family: "Bree Serif";
+}
+
+.feedbackpara {
+    color: #1e293b;
+    font-size: 20px;
+}
+
+.namehead {
+    color: #0A1525;
+    font-family: "Bree Serif";
+}
+
+span {
+    color: red;
+}
+
+.namebar {
+    width: 60vh;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #dfe3eb;
+    border-width: 5px;
+}
+
+.emailphn {
+    display: flex;
+}
+
+.emailbar {
+    width: 30vh;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #dfe3eb;
+    border-width: 5px;
+}
+
+.msgbar {
+    width: 60vh;
+    height: 20vh;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #dfe3eb;
+    border-width: 5px;
+}
+
+.feedbackbtn {
+    background-color: #6c63ff;
+    border-width: 0px;
+    width: 50vw;
+    padding: 15px;
+    color: White;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #0A1525;
+    padding: 25px;
+}
+
+.footer {
+    background-color: #0A1525;
+
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.fhead {
+    color: #dfe3eb;
+}
+
+.flogo {
+    color: #dfe3eb;
+}
+
+.ca {
+    display: flex;
+    flex-direction: row;
+    font-family: "Bree Serif";
+}
+
+.items {
+    color: #dfe3eb;
+}
+
+.contactus {
+    margin: 20px;
+}
+
+.Aboutus {
+    margin: 20px;
+}
+
+.footertext {
+    color: #dfe3eb;
+}

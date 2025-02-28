@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.nav-bar {
+    height: 65px;
+    width: 100vw;
+    background-color: #0A1525;
+    display: flex;
+    padding-top: 8px;
+}
+
+.nav-logo {
+    display: flex;
+    height: 7vh;
+    justify-content: left;
+}
+
+.nav-img {
+    height: 50px;
+    padding: 3px;
+}
+
+.brand-name {
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    font-family: "Bree Serif";
+}
+
+.bibi{
+    display: flex;
+    color: white;
+    list-style: none;
+    margin-left: auto;
+}
+
+.li1 {
+    font-family: "Bree Serif";
+    padding-top: 15px;
+    margin-right: 16px;
+}
+
+.bg-container-main-section {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    height: 25vh;
+    width: 63vw;
+}
+
+.main-heading {
+    font-family: "bree Serif";
+    color: white;
+    font-size: 42px;
+    padding-bottom: 23px;
+}
+
+.main-para {
+    font-family: "bree Serif";
+    color: white;
+    font-size: 21px;
+    padding-bottom: 23px;
+}
+
+.main-btn {
+    background-color: #FFD700;
+    font-family: "bree Serif";
+    border-radius: 15px;
+    color: white;
+    height: 55px;
+    width: 120px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.services-container {
+    background-color: white;
+    height: 80vh;
+    width: 100vw;
+}
+
+.services-text {
+    text-align: center;
+    font-family: "bree Serif";
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Service-heading {
+    padding-bottom: 25px;
+}
+
+.card-container-services {
+    height: 350px;
+    width: 330px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.servies-img {
+    height: 235px;
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+.services-card-heading {
+    font-weight: bold;
+    font-family: "bree Serif";
+    padding-bottom: 10px;
+}
+
+.services-card-para {
+    font-family: "bree serif";
+}
+
+.Contact-us {
+    background-color: lightgrey;
+    height: 70vh;
+    width: 100vw;
+}
+
+.Contact-us-text {
+    text-align: center;
+}
+
+.Contact-us-heading {
+    font-weight: bold;
+    font-family: "bree serif";
+    font-size: 35px;
+    padding: 10px;
+}
+
+.Contact-us-para {
+    font-family: "bree serif";
+    font-size: 22px;
+    padding: 10px;
+}
+.footer{
+    background-color: #0A1525;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 40vw;
+    height: 25vh;
+}
+.footer-logo{
+    height: 90px;
+    padding: 8px;
+}
+.footer-para{
+    color: white;
+    font-family: "bree serif";
+    padding: 13px;
+}
+.sc-logos{
+    color: white;
+    list-style: none;
+    display: flex;
+    font-size: 35px;
+}
+.sc-logo{
+    padding: 10px;
+}
+.footer-right{
+    color: white;
+    display: flex;
+    width: 40vw;
+    height: 25vh;
+    text-align: center;
+}.section1{
+    font-size: 25px;
+    width: 20vw;
+    padding-top: 55px;
+}
+.section2{
+    font-size: 25px;
+    width: 20vw;
+    padding-top: 55px;
+}
+#m2{
+    height: 60px;
+    width: 280px;
+}
+#m3{
+    height: 250px;
+    width: 280px;
+}
+.name{
+    font-weight: bold;
+}

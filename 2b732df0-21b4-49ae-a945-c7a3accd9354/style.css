@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.g1{
+    flex-direction: row;
+    
+    color: white;
+    background-color: #0A1525;
+}
+
+.g2{
+    
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    height: 415px;
+    color: white;
+    
+    
+    font-family: "Bree Serif";
+    
+    
+  }
+  
+ 
+.g3{
+    background-color: #FF7A2E;
+    color: white;
+    border-radius: 9px;
+    border: none;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Bree Serif";
+}
+
+.g4{
+   
+    text-align: center;
+    
+}
+
+.container{
+    padding: 20px;
+    padding-right: 30px;
+    border-radius: 20px;
+   
+
+
+}
+.g5{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    
+}
+
+.g6{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
+.g7{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
+.g8{
+    background-color: #dfe3eb;
+    text-align: center;
+}
+
+.g9{
+    background-color: #0A1525;
+    color: #dfe3eb;
+    padding-left: 20px;
+    
+}
+
+i{
+    padding-left: 2px;
+}
+
+span{
+    text-decoration: underline;
+}
+
+
+@media screen and (minwidth: 992px) {
+   .footer{
+       display: flex;
+       align-items: center;
+       
+   }
+   .container{
+       
+   }
+}

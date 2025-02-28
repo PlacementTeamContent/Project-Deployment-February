@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    margin: 0px;
+}
+.navbar{
+    background-color: #0A1220;
+    padding: 20px;
+    color: #ffffff;
+}
+li{
+    list-style-type: none;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+.box-2{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    color: white;
+    margin-top: 18px;
+    padding-top: 23px;
+}
+a{
+    color: white;
+    font-size: 14px;
+}
+.box-1{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: center;
+    font-family: Bree Serif;
+    padding-top: 10px;
+}
+.img-logo{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.para{
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: Bree Serif;
+}
+.container{
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.text-header{
+    margin-bottom: 140px;
+    margin-top: 200px;
+    margin-left: 260px;
+    font-size: 27px;
+    
+}
+.para-text{
+    font-size: 20px;
+    color: #dfe3eb;
+}
+.heading{
+    color: #1E293B;
+    font-family:Bree Serif ;
+}
+.btn{
+    color:white ;
+    font-family:Bree Serif ;
+    border-style: none;
+    padding: 10px;
+    background-color: #00E5Be;
+    border-color:  #00E5Be;
+    border-radius: 10px;
+}
+.Ourservices-page{
+    height: 60vh;
+}
+.heading-1{
+    text-align: center;
+    font-size: 40px;
+    font-family:Bree Serif ;
+}
+.para-1{
+    text-align: center;
+    font-size: 20px;
+}
+.card{
+    margin-right: 60px;
+}
+.ourServices-in{
+    margin-left:100px ;
+    margin-right: 100px;
+}
+.card-items{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.img{
+    border-radius: 20px;
+}
+.ContactUs-page{
+    background-color:#dfe3eb;
+    height: 70vh;
+    padding: 20px;
+}
+.para-2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+.row-wise{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Contact-information{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.blank{
+    padding: 20px;
+    background-color: white;
+    border-radius:7px;
+}
+.blank-2{
+    padding: 20px;
+    background-color: white;
+    border-radius:7px;
+    width: 360px;
+}
+.blank-3{
+    padding: 100px;
+    background-color: white;
+    border-radius:7px;
+    margin-bottom: 20px;
+}
+.last-element{
+    background-color:#00E5Be ;
+    padding: 10px;
+    border-radius:7px;
+    text-align: center;
+    color: white;
+    font-family:Bree Serif ;
+}
+footer{
+    background-color: #0A1220;
+    height:35vh;
+}
+.head{
+    color:white;
+    font-size: 26px;
+}
+.par{
+    color:#dfe3eb;
+    font-size: 16px;
+}
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 50px; */
+ 
+}
+.foot{
+    margin-right: 60px;
+}
+.Contact-informations{
+    margin-left: 150px;
+    margin-right: 120px;
+    padding-top: 100px;
+}
+i{
+    color:white;
+    margin-right: 10px;
+}
+.fa-bars{
+}
+.span-2{
+    text-decoration: underline;
+}
+.span-1{
+    color:orange;
+}

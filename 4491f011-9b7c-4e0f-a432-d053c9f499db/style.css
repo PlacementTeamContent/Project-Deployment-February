@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: roboto;
+}
+.navback{
+    background-color: #0A1525;
+    width: 100vw;
+}
+.img1{
+    height: 70px;
+}
+.navh1{
+    color: #ffffff;
+    padding-left: 15px;
+}
+.setting1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.back{
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+.p1{
+    color: #ffffff;
+    font-size: 20px;
+}
+.setting2{
+    padding: 20px;
+    padding-top: 50%;
+}
+.button1{
+    color: #ffffff;
+    background-color: #8B5CF6;
+    border-color: #8B5CF6;
+    border-radius: 7px;
+    font-weight: bold;
+    height: 35px;
+}
+.setting3{
+    text-align: center;
+    padding: 20px;
+}
+.h2{
+    font-size: 35px;
+    color: #0A1525;
+    font-family: Bree Serif;
+}
+.p2{
+    color: #0A1525;
+    font-size: 20px;
+}
+.img2{
+    border-radius: 20px;
+}
+.ch1{
+    color: #0A1525;
+    font-family: Bree Serif;
+}
+.cp1{
+    color: #0A1525;
+    font-size: 20px;
+}
+.setting4{
+    margin-top: 20px;
+    padding: 20px;
+}
+.back2{
+    background-color: #dfe3eb;
+    height: 110vh;
+}
+.p3{
+     color: #0A1525;
+     font-family: Bree Serif;
+     font-weight: bold;
+}
+.input1{
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+.input2{
+    margin: 10px;
+    width: 90%;
+    height: 170px;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+.setting5{
+    padding: 20px;
+}
+.button3{
+    background-color: #8B5CF6;
+    width: 90%;
+    color: #ffffff;
+    font-family: Bree Serif;
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #8B5CF6;
+}
+.back3{
+    background-color: #1E293B;
+    height: 70vh;
+    padding: 20px;
+    padding-top: 100px;
+}
+.color{
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+.p4{
+    
+    color: #ffffff;
+     font-family: Bree Serif;
+     font-weight: bold;
+}
+.p5{
+    color: #ffffff;
+}
+.setting7{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sec{
+    padding-left: 160px;
+}
+.setting6{
+    margin-top: 100px;
+}

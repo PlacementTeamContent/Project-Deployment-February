@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav_bar {
+    background-color: #0A1525;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    align-content: center;
+
+}
+
+.iconimg {
+    height: 70px;
+    align-content: center;
+}
+
+.heal {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.items2 {
+    color: white;
+    font-family: "Bree Serif";
+
+}
+
+.backimg1 {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+
+.box1 {
+    color: white;
+    font-family: "Bree Serif";
+    align-content: center;
+    justify-content: center;
+}
+
+.button1 {
+    color: white;
+    background-color: #4B9EFF;
+    height: 7vh;
+    border-radius: 10px;
+    width: 25vw;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    border-color: #4B9EFF;
+}
+
+.head2 {
+    text-align: center;
+    color: black;
+    font-family: "Bree Serif";
+
+}
+.head3{
+    text-align: center;
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.box2 {
+    justify-items: center;
+
+}
+
+}
+
+.images {
+    background-size: cover;
+    height: 20vh;
+    width: 40vw;
+    justify-content: center;
+}
+.box3{
+    background-color: #dfe3eb;
+    justify-items: center;
+}
+.button2{
+    color: white;
+    background-color: #4B9EFF;
+    height: 7vh;
+    border-radius: 10px;
+    width: 25vw;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    border-color: #4B9EFF;
+    align-content: center;
+    justify-content: center;
+}
+.box4{
+    justify-items:center;
+    background-color: #1E293B;
+    color: white;
+}

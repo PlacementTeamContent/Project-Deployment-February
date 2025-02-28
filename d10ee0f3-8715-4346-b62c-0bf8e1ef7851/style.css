@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    font-family: "Bree Serif";
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.page {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    height: 400px;
+    /* width: 800px; */
+}
+
+/* p{
+    color: #dfe3ed;
+} */
+.p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    height: 50px;
+    width: 50px;
+}
+
+header {
+    display: flex;
+
+}
+
+.log {
+    color: #ffffff;
+}
+
+.pp {
+    color: #ffffff;
+    display: flex;
+    gap: 50px;
+
+}
+
+.p1 {
+    color: #ffffff;
+
+}
+
+a {
+    color: #ffffff;
+}
+
+button {
+    background-color: #4B9EFF;
+    border: #4B9EFF;
+    color: #ffffff;
+    margin: 5px;
+}
+
+.button1 {
+    background-color: #4B9EFF;
+    border: #4B9EFF;
+    color: #ffffff;
+    margin: 5px;
+    width: 50vh;
+    margin: 15px;
+}
+
+.imim {
+    height: 200px;
+}
+
+.card {
+    /*     height: 200px;
+ */
+    width: 300px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:992px) {
+    .cards {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.sec3 {
+    background-color: #dfe3eb;
+    /* height: 80vh; */
+    /* width: 70vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    border: #ffffff 5px;
+    width: 50vh;
+}
+
+.box1 {
+    border: #ffffff 5px;
+    width: 50vh;
+    height: 100px;
+}
+
+@media (min-width:992px) {
+    .inside {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+
+    }
+
+    .box2 {
+        width: 25vh;
+        height: 20px;
+    }
+}
+
+footer {
+    background-color: #0A1525;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+
+.ff {
+    display: flex;
+    justify-content: space-around;
+    gap: 55px;
+}
+
+@media (min-width:992px) {
+    .inlg {
+        display: flex;
+        gap: 55px;
+    }
+}
+
+@media (max-width:768px) {
+    .pp {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .pp {
+        /* display: block; */
+        justify-content: space-around;
+    }
+
+    /* .icons{
+     /   display: none;
+    } */
+
+}

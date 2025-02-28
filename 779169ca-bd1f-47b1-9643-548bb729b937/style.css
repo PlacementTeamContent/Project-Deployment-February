@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    height: 85px;
+    width: 100vw;
+    background-color: #0A1525;
+    color: white;
+}
+
+.img {
+    height: 48px;
+
+}
+
+.nxt {
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    height: 640px;
+
+    background-size: cover;
+    margin-top: none;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+.btn2{
+    background-color: #FF7A2E;
+    color: white;
+    border-radius: 5px;
+    width: 500px;
+    border: none;
+    height: 30px;
+    
+}
+
+.btn {
+    background-color: #FF7A2E;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 79px;
+    border: none;
+}
+
+.second {
+    background-color: white;
+    color: #1E293B;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.img1 {
+    height: 190px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.images1 {
+    color: #1E293B;
+    height: 300px;
+    width: 350px;
+
+
+
+}
+
+.images2 {
+    color: #1E293B;
+    height: 300px;
+    width: 350px;
+
+
+}
+
+.images3 {
+    color: #1E293B;
+    height: 300px;
+    width: 350px;
+
+}
+
+.para {
+    width: 300px;
+    height: 600px;
+    margin: 3;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1;
+}
+
+.three {
+    background-color: #dfe3eb;
+    margin-top: 100px;
+    width: 100vw;
+    color: #0A1525;
+}
+
+span {
+    color: red;
+}
+
+.input1 {
+    width: 400px;
+    padding: 4px;
+    margin: 4px;
+
+    border: none;
+    border-radius: 3px;
+}
+
+.contact {
+    text-align: center;
+
+    padding: 45px;
+}
+
+.input2 {
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.mail {
+    display: flex;
+
+
+}
+.footer{
+    background-color: #0A1525;
+    color: white;
+}

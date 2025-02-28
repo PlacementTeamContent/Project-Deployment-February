@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.home-page-backgroundnavbar {
+    height: 10vh;
+    background-color: black;
+
+    flex-direction: column;
+
+    color: white;
+    padding: 10px;
+
+}
+
+.paragraph_of_heading {
+    margin: 10px;
+}
+
+.image_home_pagenav {
+    height: 30px;
+    width: 40px;
+}
+
+.image_pagenav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mini-image_pagenav {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    list-style-type: none;
+    display: none;
+    font-size: 12px;
+}
+
+.starting-home-page {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading_home {
+    color: white;
+    font-size: 28px;
+    font-family: "Bree Serif";
+}
+
+.para_home {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.button_home {
+    background-color: #f6B352;
+    border-radius: 10px;
+    border-color: #f6B352;
+    height: 42px;
+    width: 100px;
+    color: white;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.second_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_second {
+    color: black;
+    font-size: 28px;
+    font-family: "Roboto";
+}
+
+.para_second {
+    color: gray;
+    margin: 10px;
+}
+
+.image_second_page {
+    height: 130px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.heading_mini_second {
+    color: black;
+    font-size: 20px;
+    font-family: "Roboto";
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.para_mini_second {
+    color: gray;
+    margin: 10px;
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+.third_page {
+    background-color: #dfe3eb;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.thirdpage-heading {
+    color: black;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    margin-left: 10px;
+}
+
+.thirdpage-para {
+    color: gray;
+    margin: 10px;
+
+    font-size: 10px;
+}
+
+.thirdpage-para2 {
+    color: black;
+    margin: 10px;
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+.inputtext {
+    align-self: flex-start;
+    margin-left: 10px;
+    width: 60%;
+}
+
+.star {
+    color: red;
+}
+
+.mini-third-div {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputtext2 {
+    height: 60px;
+    width: 80%;
+    border-radius: 2px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.page3-div3 {
+    align-self: flex-start;
+}
+
+.newthird-div {
+    align-self: flex-start;
+}
+
+.fourth-page {
+    background-color: black;
+    height: 60vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph_of_heading2 {
+    color: gray;
+}
+
+.iconsize {
+    height: 20px;
+    width: 40px;
+    color: white;
+    margin: 5px;
+}
+
+.iconsize2 {
+    height: 20px;
+    width: 40px;
+    color: white;
+    margin: 5px;
+}
+
+.fourthdiv {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.foruth_head {
+    font-size: 15px;
+
+}
+
+.foruth_para {
+    font-size: 10px;
+}
+
+@media (min-width:768px) {
+    .fourth-page {
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .fourthdiv {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    a {
+        margin: 10px;
+    }
+
+    .iconsize2 {
+        height: 20px;
+        width: 40px;
+        color: white;
+        margin: 5px;
+        display: none;
+    }
+
+    .newthird-div {
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    .page3-div3 {
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    .button_home {
+        align-self: center;
+    }
+
+    .row-arrangment-of-second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image_second_page {
+        text-align: center;
+        margin: 25px;
+
+    }
+
+    .mini-third-div {
+        align-self: flex-start;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20%;
+
+        width: 60%;
+    }
+
+    .third_page {
+        background-color: #dfe3eb;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+}

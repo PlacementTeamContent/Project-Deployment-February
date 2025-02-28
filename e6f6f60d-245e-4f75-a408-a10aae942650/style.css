@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+nav{
+    display: block;
+    width: 100%;
+    top: 0;
+    background-color: #0a1220;
+    color: #ffffff;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li a{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 80px;
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+ 
+}
+.logo{
+   display: flex;
+   flex-direction: row; 
+}
+.herob{
+    margin: 0px;
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    background-color: #dfe3eb;
+    opacity: 100%;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    font-family: "Bree Serif";
+
+    
+}
+button{
+    background-color: #00E5BE;
+    border: 2px solid #00E5BE;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contactus{
+    background-color: #dfe3eb;
+    text-align: center;
+    padding: 20px;
+
+}
+input{
+    width: 80%;
+    height: 30%;
+}
+.footer{
+    background-color: #1E293B;
+    color: #dfe3eb;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+}
+.first{
+    margin: 30px;
+}
+
+@media (min-width:769px){
+    nav{
+    display: block;
+    width: 100%;
+    top: 0;
+    background-color: #0a1220;
+    color: #ffffff;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li a{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 80px;
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+ 
+}
+.logo{
+   display: flex;
+   flex-direction: row; 
+}
+
+.ourservices .scard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.ifrow{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+img{
+    width: 300px;
+    border-radius: 20px;
+}
+ .second{
+     display: flex;
+     justify-content: center;
+
+ }
+}
+@media (max-width:768px){
+    nav{
+    display: block;
+    width: 100%;
+    top: 0;
+    background-color: #0a1220;
+    color: #ffffff;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li a{
+    display: none;
+    align-items: center;
+    padding: 15px;
+    margin-left: 80px;
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+ 
+}
+.logo{
+   display: flex;
+   flex-direction: row; 
+}
+}

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bars{
+    margin-left: 400px;
+}
+.container{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 40px;
+    
+}
+.button{
+    background-color: #F6B352;
+    height: 4vh;
+    width: 16vw;
+    border-radius: 3px;
+    color: white;
+    border-width: 0px;
+}
+.services{
+    font-family: "Bree Serif";
+}
+.our{
+    
+}
+.paragraph{
+    color: #dfe3eb;
+}
+.image1{
+    height: 30vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+.head{
+    
+}
+.protofolio{
+     color: #dfe3eb;
+}
+.image2{
+    height: 30vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+.financial{
+    
+}
+.planning{
+     color: #dfe3eb;
+}
+.image3{
+    height: 30vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+.risk{
+    
+}
+.assessment{
+    color: #dfe3eb; 
+}
+.main-container{
+    background-color: #dfe3eb;
+    height: 100vh;
+    padding: 20px;
+}
+.contact{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.reach{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.future{
+    background-color: #0A1525;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+}
+.image4{
+    height: 50px;
+    
+}
+.inversting{
+    color: #FFFFFF;
+}
+.logo{
+    margin: 10px;
+    color: #FFFFFF;
+}
+.mobile{
+    color: #FFFFFF;
+}
+.contain{
+    color: #FFFFFF;
+}

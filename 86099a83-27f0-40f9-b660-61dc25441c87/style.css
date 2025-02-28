@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "roboto";
+
+}
+
+.contact-heading {
+    font-family: "Bree Serif";
+}
+
+nav {
+    background-color: #0A1220;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.homesection {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.home-heading {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.home-content {
+    margin-left: 80px;
+    color: white;
+}
+
+.home-para {
+    font-size: 20px;
+}
+
+.home-button {
+    background-color: #00E5BE;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #00E5BE;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.features {
+    padding: 20px;
+}
+
+.features-content {
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+
+
+}
+
+
+
+.card-1 {
+    margin: 6px;
+}
+
+.contact-section {
+    background-color: #dfe3eb;
+    padding: 27px;
+    /*     text-align: center;
+ */
+}
+
+input {
+    border-radius: 4px;
+    border-color: #FFFFFF;
+    width: 80vw;
+}
+
+footer {
+    background-color: #0A1220;
+    color: white;
+    padding: 20px;
+}
+
+.image-1 {
+    width: 120px;
+
+}
+
+footer div {
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.items-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.ppp {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fa-bars {
+    color: white;
+    text-align: center;
+    margin-top: 18px;
+    margin-right: 9px;
+    margin-left: 20px;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.nav-elements p {
+    margin-top: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.nav-links p {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:990px) {
+    .nav-links {
+        display: none;
+    }
+}
+
+.msg {
+    height: 80px;
+}
+
+.contact-button {
+    background-color: #00E5BE;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #00E5BE;
+    color: white;
+    font-size: 20px;
+    margin-top: 27px;
+    width: 80vw;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:992px) {
+    .cards {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .item input {
+        width: 37vw;
+    }
+
+    .item div {
+        margin-left: 30px;
+    }
+
+    .items-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+}

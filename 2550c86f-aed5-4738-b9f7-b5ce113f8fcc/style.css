@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logoimage {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    gap: 5px;
+
+}
+
+.card {
+    background-color: #dfe3eb;
+    background-size: cover;
+    font-family: "Roboto";
+    height: 300px;
+    text-align: center;
+
+}
+
+.btn {
+    background-color: #F6B352;
+    text-align: center;
+}
+
+.cardcontainer {
+    text-align: center;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.para2 {
+    text-align: center;
+}
+
+
+.card5 {
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 300px;
+}
+
+
+.btn3 {
+    /* height: 50px; */
+    width: 400px;
+    padding: 10px;
+}
+
+.btn5 {
+    width: 500px;
+    padding: 100px;
+    /* margin: 24px; */
+}
+
+.btn7 {
+    background-color: #F6B352;
+    width: 500px;
+}
+
+
+.creation {
+    background-color: #0A1525;
+    background-size: cover;
+    color: white;
+}
+
+
+@media screen and (max-width:768px){
+    .heading{
+        display:flex;
+ }
+}
+
+
+.cardcontent2{
+    background-image: url("https://res.cloudinary.com/dg8n2jeur/image/upload/v1739255339/tsdttdqxisnwpxyaioit.png");
+    background-size: cover;
+    /* width: 24px; */
+    height: 800px;
+}

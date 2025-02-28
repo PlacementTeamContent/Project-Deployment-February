@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1426;
+    height: 100vh;
+    width: 100vw;
+}
+
+.body.conatiner {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height:100vh;
+    width:100vw;
+    text-align: center;
+}
+.ourservicespage{
+     background-color: ;
+}
+.contactpage{
+     background-color: ;
+}
+.footer{
+    background-color:#0A1426 ;
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-page {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 800px;
+}
+
+.heading1 {
+    color: #FFFFFF;
+    font-family: Bree Serif;
+}
+
+.para1 {
+    color: #FFFFFF;
+    font-family: Bree Serif;
+}
+
+.button1 {
+    background-color: #FF7A2E;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 90px;
+}
+
+.main-page-section {
+    padding: 150px;
+}
+
+.heading2 {
+    text-align: center;
+}
+
+.para2 {
+    text-align: center;
+}
+
+.our-services {
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.image {
+    border-radius: 8px;
+}
+
+.heading3 {
+    font-size: 20px;
+}

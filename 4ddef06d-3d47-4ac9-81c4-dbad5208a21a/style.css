@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    background-color: #0A1436;
+    padding: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.div {
+    display: flex;
+}
+
+.h1 {
+    margin-top: 5px;
+    font-size: 24px;
+
+}
+
+.fa {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+.bg-container {
+    width: 100%;
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.head {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: "Arial";
+}
+
+.para {
+    color: #e0dfdc;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.btn {
+    background-color: #4a90e2;
+    border-radius: 10px;
+    color: #ffffff;
+    border-width: 0px;
+    height: 40px;
+    width: 96px;
+}
+
+.sr-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.sr-head {
+    color: #0A1436;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sr-para {
+    color: #1e293B;
+    font-size: 22px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.img {
+    width: 75%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sr-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-para {
+    font-size: 24px;
+}
+
+.contact-sec {
+    background-color: #e0dfdc;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login {
+    color: #0A1436;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-self: start;
+}
+
+span {
+    color: red;
+}
+
+.btn1 {
+    height: 34px;
+    width: 75%;
+    display: flex;
+    align-self: flex-start;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.btn2 {
+    height: 120px;
+    width: 75%;
+    display: flex;
+    align-self: flex-start;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.btn3 {
+    height: 30px;
+    width: 75%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 6px;
+    padding-left: 0px;
+}
+
+.footer {
+    background-color: #0A1436;
+    padding: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.img1 {
+    width: 10%;
+}
+
+.f-para {
+    color: #e0dfdc;
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.bi {
+    color: #e0dfdc;
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h2{
+    color: #ffffff;
+    font-family: "Arial";
+}
+li{
+    color: #e0dfdc;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+.foo{
+    color: #e0dfdc;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.btn4{
+    height: 34px;
+    width: 75%;
+    display: flex;
+    align-self: flex-start;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+
+}
+@media screen and (min-width:768px){
+  .sr-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer {
+    background-color: #0A1436;
+    padding: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+}

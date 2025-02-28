@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    height: 400vh;
+}
+
+.nav {
+    background-color: #1E293B;
+    height: 10vh;
+    width: 200vw;
+    display: flex;
+}
+
+.pic {
+    height: 5vh;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.head {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    justify-content: flex-start;
+}
+
+.hi {
+    display: flex;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-left: 400px;
+}
+
+p {
+    padding: 5px;
+    font-size: 10px;
+}
+
+.photo {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    width: 200vw;
+    height: 100vh;
+    padding: 1px;
+}
+
+.h {
+    font-size: 80px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 300px;
+    margin-left: 140px;
+
+}
+
+.p {
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 140px;
+    font-size: 25px;
+
+
+}
+
+.op {
+    margin-left: 140px;
+    background-color: #6C63FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px;
+
+}
+
+.cont-1 {
+    text-align: center;
+    margin-left: 150px;
+}
+.mid{
+    display: flex;
+}
+.img11{
+    width: 50vw;
+    height: 30vh;
+    padding: 30px;
+    border-radius: 50px;
+}
+.text{
+    display: flex;
+    padding: 2px;
+}
+.a1{
+    padding: 3px;
+    font-size: 20px;
+    color: #0A1525;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+.a3{
+    padding: 3px;
+    font-size: 20px;
+    color: #0A1525;
+    text-align: center;
+    margin-left: 200px;
+    
+}
+.a2{
+    padding: 3px;
+    font-size: 20px;
+    color: #0A1525;
+    text-align: center;
+    margin-left: 180px;
+}
+.gh{
+    display: flex;
+}
+
+.ma{
+    padding: 3px;
+    font-size: 10px;
+    color: #0A1525;
+    text-align: center;
+    margin-left: 100px;
+}
+.hii{
+    padding: 0px;
+    font-size: 10px;
+    color: #0A1525;
+    text-align: center;
+    margin-left: 270px;
+}
+.th{
+    padding: 0px;
+    font-size: 10px;
+    color: #0A1525;
+    text-align: center;
+    margin-left: 200px;
+}
+.ok{
+    background-color: #dfe3eb;
+    height: 90vh;
+    width: 200vw;
+
+    
+}
+.hiiii{
+    flex-direction: row;
+    padding: 10px;
+}
+.mp{
+    text-align: center;
+    color: #0A1525;
+}
+.za{
+    text-align: center;
+    color: #0A1525;
+}
+.fa{
+    align-content: center;
+    margin-bottom: 10px;
+}
+.kj{
+    background-color: #FFFFFF;
+    height: 2vh;
+    width: 100vw;
+    border: 1px grey;
+    border-radius: 10px;
+    align-content: space-around;
+    margin-left: 200px;
+}
+.okk{
+    margin-left: 200px;
+}    
+.okkk{
+    margin-left: 200px;    
+}
+.kjj{
+    background-color: #FFFFFF;
+    height: 2vh;
+    width: 50vw;
+    border: 1px grey;
+    border-radius: 10px;
+    align-content: space-around;
+    margin-left: 200px;
+}
+.kjjj{
+    background-color: #FFFFFF;
+    height: 30vh;
+    width: 100vw;
+    border: 1px grey;
+    border-radius: 10px;
+    align-content: space-around;
+    margin-left: 200px;
+    padding: 10px;
+}
+.okkkk{
+    margin-left: 200px;    
+}
+.uk{
+    background-color: #6C63FF;
+    width: 100vw;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left:200px;
+    color: #FFFFFF;
+    
+}
+.foo{
+    background-color: #0A1525;
+    background-size: cover;
+    height: 50vh;
+    width: 200vw;
+    
+}
+.kl{
+     height: 5vh;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.bi{
+    color: white;
+}
+}

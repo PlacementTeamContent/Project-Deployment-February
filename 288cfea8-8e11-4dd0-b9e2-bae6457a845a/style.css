@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+header {
+    background-color: #0A1525;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-size: 14px;
+    padding: 10px;
+}
+
+.banner_section {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 15px;
+}
+
+.banner_head {
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: 600;
+}
+
+.banner_para {
+    color: grey;
+    font-family: "Bree Serif";
+}
+
+.banner_btn {
+    color: white;
+    background-color: #F6B352;
+    font-family: "Bree Serif";
+    border-width: 0;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-self: start;
+}
+
+.services_section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.services_head {
+    color: black;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.services_para {
+    color: grey;
+    font-family: "Bree Serif";
+    font-weight: 400;
+    text-align: center;
+}
+
+.image {
+    height: 150px;
+    border-radius: 15px;
+}
+
+.head {
+    color: black;
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+
+.para {
+    font-family: "Bree Serif";
+    color: grey;
+}
+
+.services {
+    text-align: center;
+}
+
+.contactus_section {
+    background-color: #dfe3eb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact_head {
+    color: black;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.contact_para {
+    color: grey;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-family: "Bree Serif";
+    font-size: 14px;
+}
+
+span {
+    color: red;
+}
+
+.information_form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.last_btn {
+    color: white;
+    background-color: #F6B352;
+    font-family: "Bree Serif";
+    border-width: 0;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.sid {
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #0A1525;
+    padding: 10px;
+}
+
+.foot_image {
+    height: 75px;
+}
+
+.srav {
+    color: white;
+    font-size: 20px;
+}
+
+.adhead {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+
+.par {
+    color: #dfe3eb;
+}
+
+.items {
+    display: flex;
+}
+
+.menu {
+    margin: 20px;
+}
+
+.last_para {
+    color: lightgrey;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.foot {
+    text-decoration: underline;
+    color: lightgrey;
+}
+
+@media screen and (min-width:768px) {
+    .fotfoot {
+        display: flex;
+        flex-direction: row;
+        justify-content: evenly;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sekhar {
+        display: flex;
+    }
+}
+
+.logo {
+    height: 30px;
+    padding: 0px;
+}
+
+.nxt {
+    color: white;
+    padding-bottom: 10px;
+    font-family: "Bree Serif";
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.dog {
+    margin: 10px;
+    padding-left: 200px;
+}
+
+@media screen and (max-width:767px) {
+    .shiv{
+        display: none;
+    }
+}

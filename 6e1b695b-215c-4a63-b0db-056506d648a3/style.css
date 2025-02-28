@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.a1{
+    height: 80px;
+    /* width: 100vw; */
+    background-color: #0A1426;
+    margin: none;
+}
+.a2{
+    height:70px;
+    margin: none;
+}
+.a3{
+    background-image: url(https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg);
+    height: 400px;
+   /*  width: 100vw; */
+    background-size: cover;
+}
+.a4{
+    text-align: center;
+}
+.a5{
+    padding:10px;
+}
+.card1img{
+    width:400px;
+    border-radius: 20px;
+}
+.but{
+    background-color: #4A90E2;
+    color:#FFFFFF;
+    border-radius: 10px;
+}
+
+.maincard{
+    flex-direction: row;
+    color:#FFFFFF;
+    width:260px;
+    position: relative;
+    top:100px;
+    left:100px;
+    
+}
+
+
+.Contactus{
+    background-color: #e0dfdc;
+    /* width:100vw; */
+}
+.Contactustext{
+    text-align: center;
+    
+}
+.Contactustext1{
+    font-weight: bold;
+    position: relative;
+    left: 28px;
+    width:300px;
+}
+.red{
+    color:red;
+}
+#name{
+    width: 360px;
+    position: relative;
+    left:30px;
+}
+#name1{
+    width: 360px;
+    height:200px;
+    position: relative;
+    left:30px;
+    margin-bottom: 16px;
+}
+.Contactusbut{
+    background-color: #4A90E2;
+    border-radius: 16px;
+    color:#ffffff;
+    height:28px;
+    margin-bottom: 28px;
+    width:360px;
+    position: relative;
+    left:30px;
+}
+.foot{
+    background-color: #0A1426;
+}
+.footcard{
+    position: relative;
+    top:36px;
+    left:20px;
+    width:500px;
+}
+
+.foottext1{
+    color:#FFFFFF;
+    
+}
+.foottext2{
+    color:#FFFFFF;
+    font-weight: bold;
+}

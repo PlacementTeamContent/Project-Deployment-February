@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    font-family: Bree Serif;
+}
+.nav-sec{
+    display:flex;justify-content:space-around;
+}
+.hero-section{
+    padding:100px 0px 100px 0px;
+    
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size:cover;
+    width:100vw;
+}
+.hero-section div{
+    display:flex;
+    flex-direction:column;
+   place-items:center ;
+   
+}
+nav,footer{
+    background-color: #0A1525;
+    color:#ffffff;
+}
+.nav-list{
+    display: flex;
+}
+
+
+li{
+    list-style-type: none;
+    margin:20px 20px 0px 0px;
+}
+.hero-section div button{
+    background-color:#6c63ff;
+   height:50px;
+   width:150px;
+    color:#ffffff;
+    border:0px solid;
+    border-radius: 10px;
+    
+}
+
+.our-services-section-main{
+    display:flex ;
+    flex-direction: column;
+   place-items: center;
+}
+.our-services-cards{
+     display:flex ;
+  gap:30px
+    
+}
+.our-services-card{
+    display:flex;
+    flex-direction:column;
+   
+ 
+}
+.our-services-cards img{
+    height:200px;
+    width:100%;
+    border-radius:20px;
+    margin:auto;
+}
+.contact-us-sec{
+     display:flex ;
+    flex-direction: column;
+   place-items: center;
+   background-color:#dfe3eb;
+}
+.contact-us-sec-main{
+    display:flex ;
+    flex-direction: column;
+   align-items: center;
+}
+.contact-us-sec button{
+    background-color:#6c63ff;
+   height:50px;
+   width:50%;
+    color:#ffffff;
+    border:0px solid;
+    border-radius: 10px;
+}
+input{
+    border:1px solid lightgrey;
+    border-radius:10px;
+}
+.footer-sec{
+    display:flex ;
+   padding:50px;
+  place-content: center;
+  
+}
+.footer-card{
+    display:flex;
+    flex-direction: column;
+    margin-right:100px;
+    
+}
+.bars{
+    display: none;
+}
+@media screen and ( max-width:768px){
+ .our-services-cards{
+     display:flex ;
+  flex-direction:column;
+    
+}  
+.bars{
+    display: inline-block;
+    margin-top:20px;
+}
+.footer-sec{
+    display:flex ;
+   padding:50px;
+ flex-direction:column;
+  
+}
+.nav-list{
+    display:none;
+}
+.nav-sec{
+   display:flex;justify-content:space-between; 
+}
+}

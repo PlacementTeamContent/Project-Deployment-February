@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navback {
+    background-color: #0A1525;
+    width: 118vw;
+    color: white;
+    padding: 30px;
+
+
+}
+
+.butback {
+    background-color: #F6B352;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.bg-background {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height: 100vh;
+    width: 150vw;
+    color: #FFFFFF;
+}
+
+.down {
+    text-align: center;
+}
+
+.imagesize {
+    height: 30vh;
+    width: 50vw;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.imagetext {
+    text-align: start;
+    font-family: "Bree serif";
+}
+.downdown{
+    background-color: #dfe3eb;
+    width: 100vw;
+}
+.butdown{
+    height: 30px;
+    width: 500px;
+}
+.msg{
+    height: 70px;
+}
+.talk{
+    width: 500px;
+    margin: 10px;
+}
+.end{
+    background-color: #1E293B;
+    color: #FFFFFF;
+}

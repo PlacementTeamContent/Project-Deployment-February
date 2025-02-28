@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+    padding-left: 100px;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-top: 130px;
+}
+.bg-color{
+    color: #FFFFFF;
+    background-color: #F6B352;
+    height: 60px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 15px;
+    border-color: #F6B352;
+}
+.h{
+    text-align: center;
+    font-size: 20px;
+}
+.carrd{
+    width: 40vw;
+    text-align: left;
+    padding-left: 60px;
+    font-family: "Bree Serif";
+}
+.p{
+    background-color: #dfe3eb;
+    height: 105vh;
+    padding-left: 20px;
+}
+.j{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.l{
+    background-color: #FFFFFF;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+    height: 50px;
+    width: 90vw;
+}
+.k{
+    background-color: #FFFFFF;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+    height: 390px;
+    width: 90vw;
+}
+.q{
+    background-color: #F6B352;
+    width: 90vw;
+    border-color: #F6B352;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.r{
+    background-color: #1E293B;
+    height: 50vh;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.f{
+    color: #FFFFFF;
+}
+.w{
+    color: #FFFFFF;
+    padding-top: 200px;
+    padding-left: 0px;
+}

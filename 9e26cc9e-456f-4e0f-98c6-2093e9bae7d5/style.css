@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0a1525;
+    height: 50px;
+    background-size: cover;
+}
+
+.fa {
+    background-color: #ffffff;
+    text-align: right;
+}
+
+.background {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 500px;
+    width: 450px;
+    background-size: cover;
+}
+
+.h1 {
+    color: #FFFFFF;
+    margin: 20px;
+    padding-top: 120px;
+
+}
+
+.p {
+    color: #FFFFFF;
+    padding-bottom: 120px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.button_background {
+    background-color: #FFD700;
+    border-radius: 10px;
+    height: 45px;
+    width: 90px;
+    border-style: none;
+    color: #ffffff;
+    font-family: "Bree serif";
+}
+
+.second_heading {
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+.para {
+    text-align: center;
+}
+
+.img1 {
+    margin: 30px;
+    border-radius: 50px;
+    padding-bottom: 0px;
+}
+
+.img_heading {
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Bree serif";
+    padding-left: 20px;
+}
+
+.side_para {
+    font-family: "Bree serif";
+    padding-left: 20px;
+}
+
+.card {
+    border-radius: 20px;
+
+}
+
+.footer {
+    background-color: #0a1525;
+    color: #ffffff;
+}
+
+.f {
+    text-align: right;
+    font-family: "Bree serif";
+}
+
+.f2 {
+    text-align: left;
+    font-family: "bree serif";
+}
+
+@media screen (max-width> 992px) {
+    .nav {
+        background-color: #0a1525;
+        height: 50px;
+        background-size: cover;
+    }
+
+    .fa {
+        background-color: #ffffff;
+        text-align: right;
+    }
+
+    .background {
+        background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+        height: 500px;
+        width: 450px;
+        background-size: cover;
+    }
+
+    .h1 {
+        color: #FFFFFF;
+        margin: 20px;
+        padding-top: 120px;
+
+    }
+
+    .p {
+        color: #FFFFFF;
+        padding-bottom: 120px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .button_background {
+        background-color: #FFD700;
+        border-radius: 10px;
+        height: 45px;
+        width: 90px;
+        border-style: none;
+        color: #ffffff;
+        font-family: "Bree serif";
+    }
+
+    .second_heading {
+        text-align: center;
+        font-family: "Bree serif";
+    }
+
+    .para {
+        text-align: center;
+    }
+
+    .img1 {
+        margin: 30px;
+        border-radius: 50px;
+        padding-bottom: 0px;
+    }
+
+    .img_heading {
+        font-size: 20px;
+        padding: 10px;
+        font-family: "Bree serif";
+        padding-left: 20px;
+    }
+
+    .side_para {
+        font-family: "Bree serif";
+        padding-left: 20px;
+    }
+
+    .card {
+        border-radius: 20px;
+
+    }
+
+    .footer {
+        background-color: #0a1525;
+        color: #ffffff;
+    }
+
+    .f {
+        text-align: right;
+        font-family: "Bree serif";
+    }
+
+    .f2 {
+        text-align: left;
+        font-family: "bree serif";
+    }
+}

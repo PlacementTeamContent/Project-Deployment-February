@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.im{
+    display: flex;
+    margin-top:5px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ul{
+    color:white;
+    display:flex;
+    
+  
+}
+.nav-image{
+    height: 40px;
+}
+
+.backgroung{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 90vh;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 10%;
+}
+.b1{
+    color:white;
+    background-color: #f6B352;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    
+}
+.images{
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+@media (min-width:992px){
+    .media{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .footer{
+        display: flex;
+    }
+}
+
+.us{
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.flex{
+    display:flex
+    
+}
+.left{
+    margin-left: 10px;
+}
+.in1{
+    width: 400px;
+}
+
+.in4{
+    height: 200px;
+    width: 400px;
+}
+.b2{
+    width: 400px;
+    background-color: #F6B352;
+    border-style: none;
+    margin-top:5px;
+    color:white;
+    
+}
+.im-2{
+    height: 40px;
+}
+.foot{
+    display: flex;
+}
+.footer{
+   
+    background-color: #1E293B;
+    color:white;
+    height: 40vh;
+}

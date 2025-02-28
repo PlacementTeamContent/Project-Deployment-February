@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    color: #ffffff;
+    
+
+}
+
+.ion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    min-height: 60vh;
+
+
+}
+
+.header-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.button {
+    background-color: #F6B352;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.head {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image {
+    height: 5vh;
+    width: 5vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.image1{
+     height: 20vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+.image2 {
+    height: 20vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+
+.image3 {
+    height: 20vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+
+.h1 {
+    font-size: 15px;
+}
+
+.mike {
+    font-size: 10px;
+}
+
+.details-container {
+    background-color: #dfe3eb;
+
+}
+
+.box1 {
+    height: 5vh;
+    width: 90vw;
+    border: solid 2px #dfe3eb;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.box2 {
+    height: 5vh;
+    width: 45vw;
+    border: solid 2px #dfe3eb;
+    color: black;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.box3 {
+    height: 5vh;
+    width: 45vw;
+    border: solid 2px #dfe3eb;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.box4 {
+    height: 50vh;
+    width: 90vw;
+    border-radius: 10px;
+    border: solid 2px #dfe3eb;
+    background-color: #ffffff;
+}
+
+.bg-primary {
+    background-color: #F6B352;
+    height: 5vh;
+    width: 90vw;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer {
+    background-color: #0A1525;
+}
+
+.footer-image {
+    height: 5vh;
+    width: 5vw;
+    display: flex;
+
+}
+
+.simmi {
+    color: #dfe3eb;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    color: white;
+}
+
+.chay {
+    font-size: 15px;
+    color: white;
+}
+
+.sam {
+    font-size: 10px;
+    color: #dfe3eb;
+
+
+}
+
+.sobhi {
+    display: flex;
+    flex-direction: row;
+}
+
+.naga {
+    display: flex;
+    flex-direction: column;
+}

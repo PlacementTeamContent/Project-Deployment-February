@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.class_nav_icon{
+    height: 50px;
+    padding: 20px;
+    
+    
+}
+.bg_nav{
+  background-color: #0A1525;  
+  border-radius: 5px;
+  width: 100vw;
+}
+.bg{
+    height: 500px;
+    width: 480px;
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+}
+.container1{
+    padding: 20px;
+}
+.head1{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.para1{
+    color: #ffffff;
+    font-size: 20px;
+}
+.button1{
+    height: 40px;
+    width: 100px;
+    background-color: #4B9EFF;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.image1{
+    height: 300px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.head2{
+    text-align: center;
+
+    font-family: "Bree Serif";
+}
+.para2{
+   font-family: "Bree Serif";
+    font-size: 18px; 
+    color: #1E293B;
+    padding: 10px;
+}
+.head3{
+    font-size: 25px;
+    padding-left: 20px;
+    font-family: "Bree Serif";
+}
+.para3{
+    font-family: "Bree Serif";
+    font-size: 15px; 
+    color: gray;
+    padding: 15px;
+}
+.bg_2{
+    background-color: #dfe3eb;
+        padding: 20px;
+}
+.para4{
+   font-family: "Bree Serif";
+    font-size: 15px; 
+    color: gray;
+    text-align: center;
+}
+.element{
+    color: red;
+}
+.input_element{
+width: 400px;
+height: 25px;
+border-radius: 5px;
+}
+.para5{
+    font-family: "Bree Serif";
+    font-size: 18px; 
+    color: #1E293B;
+}
+.input_element1{
+    width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+.button2{
+      height: 50px;
+    width: 85vw;
+    background-color: #4B9EFF;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 0px;  
+    margin-top: 20px;
+}
+.bg_3{
+    background-color: #1E293B;
+    height: 80vh;
+}
+.icons{
+    color: #ffffff;
+    padding: 20px;
+    
+}
+.class_nav_icon2{
+       height: 80px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.para6{
+    font-family: "Bree Serif";
+    font-size: 20px; 
+    color: gray;
+    padding: 15px;
+}
+.para7{
+    font-family: "Bree Serif";
+    font-size: 15px; 
+    color: gray;
+    padding-left: 20px;
+}

@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "Bree Serif";
+}
+
+
+.img1{
+    height: 50px;
+    width: 50px;
+}
+
+.des1{
+    color: white;
+}
+.btn1{
+    background-color: #00e5be;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.msg{
+    height: 200px;
+}
+.btn2{
+    background-color: #00e5be;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+.img2{
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p3{
+    font-weight: bold;
+}
+.main3{
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.h3{
+    text-align: center;
+}
+.p5{
+    text-align: center;
+}
+.main4{
+    background-color: #0A1220;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+.img5{
+    height: 70px;
+    width: 70px;
+}
+.p7{
+    color: white;
+}
+.p11{
+    font-weight: bold;
+}
+.in-main2{
+    margin-left: 15px;
+}
+.part2{
+    color: white;
+}
+.u{
+    text-decoration: underline;
+}
+@media (min-width: 768px){
+    .nav-bar{
+        background-color: #0A1220;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        display: flex;
+        padding: 10px;
+        margin-left: 30px;
+    }
+    .logo-Name{
+        color: white;
+        
+    }
+    .t1{
+        margin-right: 10px;
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+        
+    }
+    .links{
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+    .icon1{
+        color: white;
+    }
+    .main1{
+        background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+        background-size: cover;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        
+    }
+    .main2{
+        padding: 50px;
+    }
+    .in-main2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .part1{
+        width: 300px;
+        margin-right: 50px;
+    }
+    .part2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .des1{
+         margin-left: 15%;  
+         width: 40%;
+    }
+    .box4{
+        margin-right: 50px;
+    }
+    .des2{
+        display: flex;
+        
+    }
+    .card1{
+       padding: 15px;
+    }
+    .box-1{
+        display: flex;
+        
+    }
+    .in-main2{
+        margin-left: 200px;
+    }
+}
+@media (max-width:767px){
+    .nav-bar{
+        background-color: #0A1220;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        display: flex;
+        padding: 10px;
+        
+    }
+    .part2{
+        display: flex;
+        margin-top: 30px;
+    }
+    .box4{
+        margin-right: 100px;
+    }
+    .logo-Name{
+        color: white;
+        
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        display: none;
+    }
+    .icon1{
+        color: white;
+        margin-top: 25px;
+        margin-right: 30px;
+    }
+    .main1{
+        background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+        background-size: cover;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        opacity: 0.9;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .des1{
+        width: 60vw;
+        margin-left: 15px;
+        padding: 15px;
+    }
+    
+}

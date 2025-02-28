@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    padding: 8px;
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    gap: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-text {
+    font-family: "Bree Serif";
+}
+
+i {
+    display: flex;
+    align-self: center;
+}
+
+h1 {
+    font-family: "Bree Serif";
+}
+
+.image {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+
+}
+
+.image-items {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.btn-1 {
+    border-radius: 8px;
+    border-color: #8B5CF6;
+    background-color: #8B5CF6;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 10px;
+    font-family: "Bree Serif";
+    height: 40px;
+    margin-top: 40px;
+}
+
+.p1 {
+    font-size: 16px;
+    margin: 4.8px;
+}
+
+.heading-1 {
+    font-size: 50px;
+    font-family: "Bree Serif";
+}
+
+.small-heading {
+    font-size: 22px;
+    font-family: "Bree Serif";
+    text-align: left;
+}
+
+.service-items {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+.img{
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    font-family: "Bree Serif";
+    color: #1E293B;
+}
+.para-1 {
+    margin-top: -25px;
+    display: flex;
+    text-align: center;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #dfe3eb;
+    padding:40px;
+}
+.message{
+    height:250px;
+    border-width: 2px;
+    border-radius: 4px;
+}
+.contact{
+    text-align: center;
+}
+.btns{
+    height:40px;
+    border-width: 2px;
+    border-radius: 4px;
+}
+.last-btn{
+    height:40px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    background-color: #8B5CF6;
+    margin-top: 20px;
+    font-family: "Bree Serif";
+}
+.underline{
+    text-decoration: underline;
+}
+.last-line{
+    font-size: 10px;
+}
+.l-sec{
+    padding:40px;
+    background-color: #0A1525;
+}
+.bold{
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.c-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+.c-sec2{
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+    
+    
+}
+i{
+    margin: 4px;
+}

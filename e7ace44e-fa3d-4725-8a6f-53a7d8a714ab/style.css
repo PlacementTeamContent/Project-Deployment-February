@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-1{
+    background-image:url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+}
+.image{
+    height: 70px;
+}
+.bg-2{
+    text-align: center;
+    color: white;
+    font-family: "Bree Serif";
+}
+.head{
+    font-size: 50px;
+}
+.button{
+    background-color: #4B9EFF;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    color: white;
+}
+.bg-3{
+    background-color: #FFFFFF;
+    padding:20px;
+    text-align: center;
+}
+.bg-4{
+    background-color:#dfe3eb ;
+   
+    padding-top: 10px;
+}
+.bg-5{
+    background-color: #1E293B;
+}
+.bg-6{
+    color: white;
+}

@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    height: 180vh;
+    width: 130vw;
+    font-family: "Bree Serif";
+}
+.logo{
+    height: 5vh;
+}
+.navbar{
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navsub{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+.container2{
+    height: 30vh;
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    
+    color: white;
+    padding-top: 100px;
+    align-self: center;
+    justify-items: center;
+}
+.but{
+    background-color: #4B84F3;
+    color: white;
+    padding: 5px;
+}
+.container3{
+    height: 70vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #ffffff;
+}
+.Services{
+    display: flex;
+    flex-direction: row;
+    
+}
+.card1{
+    height: 20vh;
+    width: 35vw;
+    margin: 30px;
+    text-align: start;
+}
+.card3{
+    height: 20vh;
+    width: 35vw;
+    margin: 30px;
+    text-align: start;
+    
+    flex-grow: 0;
+}
+.img{
+    height: 150px;
+    border-radius: 15px;
+}
+.container4{
+    height: 55vh;
+    width: 130vw;
+    text-align: center;
+    background-color: #dfe3eb;
+}
+.para{
+    text-align: start;
+    margin-left: 550px;
+}
+.hh{
+    height: 10vh;
+    width:auto;
+}
+.but2{
+    height: 3vh;
+    width: 30vw;
+    margin: 10px;
+    background-color: #4B84F3;
+    color: white;
+}
+.kgf{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 30vw;
+    margin: 30px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+    color: white;
+}
+.para1{
+    color: #dfe3eb;
+}
+.pp{
+    margin-top: 40px;
+    font-size: 10px;
+}
+.ss{
+    text-decoration: underline;
+}
+.head2{
+    margin-top: 50px;
+}
+@media (min-width:576px) and (max-width:767px){
+    .bg-container{
+    height: 180vh;
+    width: 130vw;
+    font-family: "Bree Serif";
+}
+.logo{
+    height: 5vh;
+}
+.navbar{
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navsub{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+.container2{
+    height: 30vh;
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    align-self: center;
+    justify-items: center;
+}
+.but{
+    background-color: #4B84F3;
+    color: white;
+    padding: 5px;
+}
+.container3{
+    height: 150vh;
+    width: 100vw;
+    text-align: center;
+}
+.Services{
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card1{
+    height: 20vh;
+    width: 35vw;
+    margin: 30px;
+    text-align: start;
+}
+.card3{
+    height: 20vh;
+    width: 35vw;
+    margin: 30px;
+    text-align: start;
+    
+    flex-grow: 0;
+}
+.img{
+    height: 150px;
+}
+.container4{
+    height: 55vh;
+    width: 130vw;
+    text-align: center;
+    background-color: #dfe3eb;
+}
+.para{
+    text-align: start;
+    margin-left: 180px;
+}
+.hh{
+    height: 10vh;
+    width:auto;
+}
+.but2{
+    height: 3vh;
+    width: 30vw;
+    margin: 10px;
+    background-color: #4B84F3;
+    color: white;
+}
+.kgf{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 30vw;
+    margin: 30px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+    color: white;
+}
+.para1{
+    color: #dfe3eb;
+}
+}

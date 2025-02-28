@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.card {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 80vh;
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+}
+
+.p {
+    color: White;
+}
+
+.btn {
+    background-color: #6C63FF;
+    color: White;
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+.para {
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+.img1 {
+    height: 20vh;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.h2 {
+    font-family: "Bree serif";
+    margin: 5px;
+}
+
+.p1 {
+    font-family: "Bree serif";
+    margin: 5px;
+    padding: 10px;
+}
+
+.img2 {
+    height: 20vh;
+    border-radius: 5px;
+}
+
+.h3 {
+    font-family: "bree serif";
+    margin: 5px;
+}
+
+.p2 {
+    font-family: "Bree serif";
+    margin: 5px;
+    padding: 10px;
+}
+
+.img3 {
+    height: 20vh;
+    border-radius: 5px;
+}
+
+.h4 {
+    font-family: "Bree serif";
+    margin: 5px;
+}
+
+.p3 {
+    font-family: "Bree serif";
+    margin: 5px;
+    padding: 10px;
+}
+
+.card2 {
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 50vh;
+    width: 100vh;
+}
+
+.header {
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+.p4 {
+    font-family: "Bree serif";
+    text-align: center;
+}
+
+.sidd {
+    margin: 10px;
+}
+
+.button {
+    text-align: center;
+    border-width: 50px;
+
+}
+
+.btn1 {
+    background-color: #6C63FF;
+    color: White;
+    border-radius: 5px;
+    width: 80vh;
+    border-color: #6C63FF;
+    margin: 5px;
+    padding: 10px;
+}
+
+.varshh {
+    background-color: #0A1525;
+    background-size: cover;
+    height: 50vh;
+    width: 100vh;
+}
+
+.img4 {
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+}
+
+.par {
+    color: White;
+    font-family: "Bree serif";
+    margin: 5px;
+}
+
+.img5 {
+    height: 10vh;
+}
+
+.navbar {
+    background-color: #1E293B;
+}
+
+.main-heading {
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    font-family: "bree serif";
+}
+
+.navi {
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.hd {
+    color: white;
+    font-family: "bree serif";
+}
+
+.Nara {
+    color: #dfe3eb;
+}
+
+.Naga {
+    color: #dfe3eb;
+}

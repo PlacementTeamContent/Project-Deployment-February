@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.main{
+    background-color: #1A2942;
+}
+.logo{
+    height: 50px;
+}
+.nxt{
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-size: 15px;
+}
+.First{
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    background-color: #000000;
+    margin:0px;
+    padding: 90px;
+}
+.Advanced{
+    color: #dfe3eb;
+    font-family: Bree Serif;
+}
+.btn1{
+    border-radius: 30px;
+    border-width: 0px;
+    background-color: #4B84F3;
+    color: #dfe3eb;
+    height: 30px;
+    width: 90px;
+}
+.service{
+    font-family: Bree Serif;
+    text-align: center;
+}
+.top{
+    font-family: Bree Serif;
+    text-align: center;
+}
+.images{
+    text-align: center;
+
+}
+.img01{
+    background-size: cover;
+    height: 30vh;
+    width: 90vw;
+    border-radius: 20px;
+    justify-content: center;
+}
+.Contact-last{
+    background-color: #dfe3eb;
+    text-align: center;
+    padding: 30%;
+}
+.color{
+    background-color: white;
+    background-size: cover;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    
+}
+.last{
+    background-color: #0A1525;
+    padding: 50px;
+}
+@media (min-width:678px){
+    
+}

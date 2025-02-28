@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+nav {
+    background-color: #0A1525;
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-image {
+    height: 5vh;
+    width: 5vw;
+    padding: 8px;
+}
+.ss{
+    text-decoration: underline;
+}
+.items {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+li {
+    padding: 5px;
+}
+
+.toggle {
+    padding: 5px;
+    margin: 3px;
+}
+
+.main-div {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    color: white;
+    background-size: cover;
+    font-weight: bold;
+    height: 60vh;
+    width: 99.9%;
+
+}
+
+.main-button {
+    background-color: #8B5CF6;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+.main-div-conetnt {
+    align-content: center;
+    padding: 5%;
+    padding-top: 10%;
+}
+
+.lim {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.kim {
+
+    font-weight: bold;
+}
+
+.image {
+    border-radius: 40px;
+    width: 98%;
+
+}
+
+.contact {
+    background-color: #dfe3eb;
+}
+
+.nim {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.mim {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.oo {
+    padding: 8px;
+    margin: 6px;
+    width: 80%;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: #1E293B;
+}
+
+.main-buttonn {
+    background-color: #8B5CF6;
+    width: 90%;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+.main-buttonn:hover {
+    color: white;
+    background-color: grey;
+}
+
+.hh {
+    padding: 2px;
+    margin-top: 15px;
+}
+
+.y {
+    padding: 5px;
+    font-size: 25px;
+}
+
+.smalll {
+    font-weight: bold;
+    color: white;
+}
+
+.foo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pop {
+    height: 20%;
+    width: 90px;
+    margin: 20px;
+    margin-bottom: 10px;
+
+}
+
+.jock {
+    color: white;
+    background-color: #0A1525;
+}

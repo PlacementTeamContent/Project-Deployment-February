@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.sai {
+    height: 40px;
+    width: 40px;
+    text-align: left;
+}
+
+.Teju {
+    text-align: right;
+    background-color: #1E293B;
+    color: white;
+    padding: 15px;
+}
+.raj{
+    height: 300px;
+    width: 380px;
+}
+.abc{
+    font-family: "Bree Serif";
+}
+.Appu {
+    height: 465px;
+    font-style: italic;
+    width: 465px;
+}
+.bay{
+    height: 300px;
+    width: 380px;
+}
+.dj {
+    text-align: left;
+    font-family: Roboto;
+}
+.sa{
+    padding: 10px;
+    font-family:  "Sans-Serif";
+}
+.sasi{
+    height: 300px;
+    width: 380px;
+}
+.pilla{
+    background-color: #dfe3eb;
+}

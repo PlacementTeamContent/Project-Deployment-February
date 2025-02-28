@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+    justify-content: space-around;
+    color: white;
+    font-family: Bree-Serif;
+    padding: 10px;
+   
+  
+
+}
+.navs {
+     padding-top: 20px;
+     font-family: 'Bree Serif';
+}
+
+.About {
+    padding:10px;
+    margin: 10px;
+}
+
+.image-1 {
+    height: 5vh;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-family: "Bree Serif";
+    padding: 15px;
+
+
+}
+
+.button {
+    background-color: #4B9EFF;
+    color: white;
+    font-family: "Bree Serif";
+    border: solid #4B9EFF;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+}
+
+.page {
+    text-align: center;
+}
+
+.head-1 {
+    color: #0A1525;
+    font-family: "Bree Serif";
+}
+
+.para-1 {
+    font-family: Roboto;
+
+
+}
+
+.image-2 {
+    height: 20vh;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+.page-container {
+    text-align: center;
+
+
+}
+
+.project {
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+
+@media (min-width: 768px) {
+    .page-container {
+        display: flex;
+        flex-direction: row;
+
+        background-size: cover;
+        
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .ground-container {
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+        }
+    .button-1 {
+        display: flex;
+       justify-content:center;
+       align-self: center;
+        
+    }
+}
+
+.ground-container {
+    background-color: #dfe3eb;
+    
+}
+.footer-section {
+    background-color: #1E293B;
+    padding: 20px;
+}
+.Contant {
+    color: white;
+    font-family: "Bree Serif";
+}
+.gain{
+    color: #dfe3eb;
+}
+.fa-bars {
+    color: white;
+}
+.ground{
+    color: white;
+}
+.inputs{
+    padding: 10px;
+}
+.button-1 {
+    width: 300px;
+    background-color: #4B9EFF;
+    color: white;
+    font-family: "Bree Serif";
+    border: solid #4B9EFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+.pare {
+    font-family: "Bree Serif";
+}

@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.main{
+   font-family: "Bree Serif"; 
+}
+nav{
+    display: flex;
+    background-color: #0A1220;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px;
+}
+i{
+    padding: 15px;
+}
+
+.aboutsec{
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size:cover;
+    padding: 50px;
+}
+.aboutbtn{
+    background-color: #00E5BE;
+    color: #FFFFFF;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.servicesec{
+    padding: 20px;
+}
+.servicehead{
+    text-align: center;
+}
+.servicepara{
+    text-align: center;
+}
+.pic{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+}
+.card{
+    margin: 10px;
+}
+
+.contactsec{
+    background-color: #dfe3eb;
+    padding: 10px;
+}
+.contacthead{
+    text-align: center;
+}
+.contactpara{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.boxeshead{
+    font-size: 15px;
+}
+span{
+    color: red;
+}
+.box{
+    height: 40px;
+    width: 80vw;
+    border: 2px solid #dfe3eb;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.boxer{
+    height: 120px;
+    width: 80vw;
+    border: 2px solid #dfe3eb;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.contactbtn{
+    color: #FFFFFF;
+    background-color: #00E5BE;
+    border: 0;
+    width: 80vw;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.numbersec{
+    background-color: #1E293B;
+    padding: 20px;
+}
+.numberpara{
+    color: #FFFFFF;
+}
+i{
+    color: #FFFFFF;
+}
+.MENU{
+    margin: 20px;
+}
+.CONTACT{
+    margin: 20px;
+}
+.dddd{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #0A1220;
+    padding: 10px;
+}
+.foopara{
+    color: #FFFFFF;
+    font-size: 10px;
+}
+.s1{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+@media (min-width:768px){
+    .cardcard{
+        display: flex;
+        flex-direction: row;
+    }
+    .numbersec{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer{
+        padding-left: 200px;
+    }
+    
+}

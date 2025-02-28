@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-bg-conatiner {
+    background-color: #0A1525;
+    height: 100px;
+    width: 80vh;
+    background-size: cover;
+}
+
+.para-color-1 {
+    color: white;
+    padding-top: 5px;
+}
+
+.bg-image-1 {
+    height: 50px;
+
+}
+
+.nav-link {
+    padding-right: 20px;
+}
+
+.bg-image-1-main {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 410px;
+    width: 80vh;
+    background-size: cover;
+}
+
+.mian-headnig-1 {
+    padding-top: 10vh;
+    text-align: center;
+    color: white;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.mian-para-ka-heading {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: roboto;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+.main-buttton-1 {
+    background-color: #8B5CF6;
+    border-color: #8B5CF6;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: "roboto";
+    padding: 10px;
+    text-align: center;
+}
+
+.main-total-items-center {
+    text-align: center;
+
+}
+
+.second-heading-2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding-top: 5px;
+}
+
+.second-para {
+    font-size: 30px;
+    color: gray;
+}
+
+.heading-12 {
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.para-12 {
+    font-size: 30px;
+    color: gray;
+}
+
+.down-image-1 {
+    border-radius: 20px;
+}
+
+.down-image-2 {
+    border-radius: 20px;
+}
+
+.down-image-3 {
+    border-radius: 20px;
+}
+
+.bg-color-1-1 {
+    background-color: #dfe3eb;
+    height: 50vh;
+    width: 80vh;
+
+}
+
+.haeing-1 {
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.para-1 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+}
+
+.para-123 {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.setting {
+    height: 100px;
+    width: 300px;
+}
+
+.btn-settings {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #8B5CF6;
+    color: white;
+    font-family: roboto;
+    border-color: #8B5CF6;
+    border-radius: 10px;
+}
+
+.btn-settings1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.last-bg-color {
+    background-color: #1E293B;
+    height: 40vh;
+    width: 80vh;
+}
+
+.img1 {
+    height: 80px;
+    padding: 10px;
+}
+
+.last-para {
+    font-family: "Bree Serif";
+    padding: 10px;
+    color: #dfe3eb;
+    font-size: 20px;
+
+}
+
+.last-last-para {
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.bars {
+    color: white;
+    padding-right: 50px;
+    font-size: 40px;
+    padding-left: 10px;
+}

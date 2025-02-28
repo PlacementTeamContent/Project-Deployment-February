@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav-bar {
+    background-color: #0A1525;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-start {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.logo-1 {
+    height: 40px;
+}
+
+.nxt-head {
+    font-family: "Bree Serif";
+    color: white;
+    font-weight: normal;
+}
+
+.nav-end {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.nav-options {
+    font-family: "Bree Serif";
+    color: white;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.top-section {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 90vh;
+}
+
+.in-top {
+    text-align: center;
+}
+
+.Innovative-heading {
+    color: white;
+    margin: auto;
+    font-size: 68px;
+    font-family: "Bree Serif";
+    padding: 190px 190px 0px 190px;
+    text-align: left;
+}
+
+@media (max-width:768px) {
+    .Innovative-heading {
+        color: white;
+        margin: auto;
+        font-size: 65px;
+        padding: 190px 60px 0px 80px;
+    }
+
+    .Innovative-para {
+        color: white;
+        font-size: 23px;
+    }
+}
+
+.Innovative-para {
+    color: white;
+    font-size: 23px;
+    padding: 0px 210px 0px 190px;
+    text-align: left;
+}
+.btn-contact{
+    background-color: #4B9EFF;
+    color: white;
+    border-radius: 9px;
+    border-width: 0px;
+    height: 30px;
+    width: 90px;
+}
+.btn-essential{
+    text-align: left;
+    padding-left: 190px;
+}
+.Our-service-section{
+    background-color: #FFFFFF;
+    background-size: cover;
+}
+.services-heading{
+    text-align: center;
+    color: #1E293B;
+    margin: auto;
+    padding: 20px;
+      font-family: "Bree Serif";
+}
+.Services-in{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+@media(max-width:768px){
+    .Services-in{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+.describe-img{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    margin-left:90px;
+}
+}
+.describe-img{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.img-des{
+    margin-left:20px;
+    margin-bottom:20px;
+    font-family: Bree Serif;
+    padding: 10px;
+}
+.describe-1{
+    display: flex;
+    flex-direction: column;
+}
+.mak-center{
+    text-align: center;
+}
+.Contact-Us-Section{
+    background-color: #dfe3eb;
+    height: 60vh;
+}
+.contact-in{
+    margin-left:200px;
+}
+@media (max-width:768px){
+    .contact-in{
+    margin-left:60px;
+}
+}
+.form-heads{
+    color: #1E293B;
+}
+span{
+    color: red;
+}
+.name-container{
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    height: 18px;
+    min-width: 350px;
+    max-width: 700px;
+}
+.both{
+    display:flex;
+    flex-direction: row;
+}
+@media (max-width:768px){
+  
+.both{
+    display:flex;
+    flex-direction: column;
+}
+}
+.comments-container{
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    height: 120px;
+    min-width: 350px;
+    max-width: 700px;
+}
+.btn-lets{
+    text-align: left;
+    padding: 20px 0px 0px 60px;
+}
+.lets-talk{
+    color: white;
+    background-color: #4B9EFF;
+    min-width: 150px;
+    width: 600px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+footer{
+    background-color: #0A1525;
+    height: 40vh;
+    color: white;
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    font-family: Bree Serif;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 20px;
+}
+.f-1{
+    margin-left: 100px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.m-2{
+    margin: 10px;
+}
+.footer-img{
+    height: 60px;
+    width: 80px;
+    padding: 15px;
+}
+.copy{
+    margin-top: 65px;
+}
+.gpt-s{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.f-2{
+     margin-left: 80px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:768px){
+
+}
+.f-3{
+ margin-left: 80px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}

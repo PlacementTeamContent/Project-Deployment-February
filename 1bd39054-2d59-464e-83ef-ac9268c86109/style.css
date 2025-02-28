@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-cont{
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    height: 500px;
+    width:100vw;
+    background-size: cover;
+    
+}
+.logo{
+    height: 50px;
+}
+.text{
+    color: white;
+    padding-left: 20px;
+}
+.button{
+    background-color:#FF7A2E;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.head{
+    padding-top:250px ;
+}
+.shead{
+    font-weight: bold;
+    padding-left: 50%;
+}
+.spara{
+    padding-left: 47%;
+    font-family: "Bree Serif";
+}
+.cimg{
+    height: 200px;
+    border-radius: 10px;
+    width: 250px;
+}
+.chead{
+    font-weight: bold;
+}
+.Contact{
+    background-color: #dfe3eb;
+    padding-left: 40%;
+    width: 100%;
+}
+footer{
+    background-color: #1e293b;
+}
+.fimg{
+    height: 40px;
+    padding-left:20px ;
+}
+i{
+    height: 80px;
+    color: white;
+    padding-left:20px ;
+}
+.btext{
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+}
+.name{
+    color: #0a1525;
+}

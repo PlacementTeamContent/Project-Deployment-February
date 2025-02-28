@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    font-family: Bree Serif;
+    background-color: #0A1426;
+    width: 150vw;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.logo-image {
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.ul-elements {
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    width: 900vw;
+}
+
+#nav1 {
+    margin-right: 35px;
+    margin-top: 15px;
+}
+
+#nav2 {
+    margin-right: 35px;
+    margin-top: 15px;
+}
+
+#nav3 {
+    margin-right: 35px;
+    margin-top: 15px;
+}
+
+#nav4 {
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+.logo-heading {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .toggle {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .toggle {
+        display: block;
+        height: 100px;
+    }
+
+    .ul-elements {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+    .navbar {
+        width: 100vw;
+    }
+
+    .main-heading {
+        padding-top: 10px;
+    }
+}
+
+.body-section {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    width: 150vw;
+    height: 100vh;
+    background-size: cover;
+    font-family: Bree Serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    font-size: 60px;
+    color: white;
+    text-align: start;
+    padding-right: 340px;
+}
+
+.para1 {
+    color: #e0dfdc;
+}
+
+.contact-btn {
+    color: white;
+    background-color: #4A90E2;
+    padding: 15px 25px;
+    border-radius: 12px;
+    margin-right: 700px;
+    border-width: 0px;
+}
+
+@media screen and (max-width:576px) {
+    .body-section {
+        width: 100vw;
+    }
+
+    .main-heading {
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .contact-btn {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .para1 {
+        margin-left: 50px;
+    }
+}
+
+.our-section {
+    font-family: Bree Serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1 {
+    margin-right: 40px;
+}
+
+.our-heading {
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 100px;
+}
+
+.text-section {
+    width: 150vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 130vw;
+    margin-left: 240px;
+}
+
+.imag1 {
+    border-radius: 26px;
+    height: 300px;
+}
+
+.para3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.para2 {
+    color: #1E293B;
+}
+
+@media screen and (max-width:576px) {
+    .our-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        width: 80vw;
+    }
+
+    .our-heading {
+        font-size: 30px;
+    }
+
+    .text-section {
+        width: 100vw;
+    }
+
+    .card1 {
+        margin-right: 0px;
+    }
+
+    .para3 {
+        font-size: 20px;
+    }
+}
+
+.contact-section {
+    background-color: #e0dfdc;
+    font-family: Bree Serif;
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 150vw;
+    text-align: center;
+}
+
+.name {
+    margin-bottom: 10px;
+    margin-right: 560px;
+    font-size: 20px;
+}
+
+.input-name {
+    width: 650px;
+}
+
+span {
+    color: red;
+}
+
+.display {
+    display: flex;
+    width: 150vw;
+    justify-content: center;
+
+}
+
+.email-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.phone-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-email {
+    width: 300px;
+    padding-right: 40px;
+    margin-right: 10px;
+}
+
+.input-phone {
+    width: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+    margin-right: 470px;
+    font-size: 20px;
+}
+
+.input-message {
+    height: 200px;
+    width: 650px;
+}
+
+.lets-btn {
+    color: white;
+    background-color: #4A90E2;
+    width: 650px;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width:576px) {
+    .contact-section {
+        width: 100vw;
+    }
+
+    .customer-details {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+    }
+
+    .display {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .input-name {
+        width: 300px;
+    }
+
+    .input-email {
+        width: 260px;
+    }
+
+    .input-phone {
+        width: 300px;
+    }
+
+    .input-message {
+        width: 450px;
+    }
+
+    .lets-btn {
+        width: 450px;
+    }
+}
+
+.footer-section {
+    background-color: #0A1426;
+    padding-top: 100px;
+    font-family: Bree Serif;
+    color: #e0dfdc;
+}
+
+.icons {
+    display: flex;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    width: 150vw;
+}
+
+.footer1 {
+    margin-right: 100px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:576px) {
+    .footer-section {
+        width: 96vw;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer1 {
+        margin-right: 0px;
+    }
+
+    .footer2 {
+        margin-right: 0px;
+    }
+}
+
+.toggle {
+    margin-right: 30px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+}

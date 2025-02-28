@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    flex-direction: ;
+    font-family: "Bree Serif";
+    color: #FFFFFF;
+    background-color: #0A1525;
+    overflow-x: scroll;
+}
+.header-2{
+    overflow: ;
+}
+.innovative{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    font-family: "Bree Serif";
+    color: #FFFFFF;
+    align-content: center;
+    background-size: 300px cover;
+    height: 300px;
+    
+}
+.a{
+    padding: 10px;
+}
+.b{
+    padding: 10px;
+}
+.Services{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.heading{
+    text-decoration: bold;
+    font-family: "Bree Serif";
+}
+.services-1{
+    border-radius: 40px;
+    height: 200px;
+}
+.services-2{
+    border-radius: 40px;
+    height: 200px;
+    width: 330px;
+}
+.services-3{
+    border-radius: 40px;
+    height: 200px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    font-family: "Bree Serif";
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-radius: 10px;
+    border-color: #FFD700;
+    padding: 10px;
+    padding: 10px;
+}
+.card-2{
+    
+}
+.Refer-box{
+     background-color: lightgrey;
+     font-family: "Bree Serif";
+}
+.details{
+    
+    
+    color: black;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.mail-box{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+}
+.name-box{
+   width: 400px;
+    height: 20px;
+    border-radius: 5px;
+}
+.num-box{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+.msg-box{
+    width: 400px;
+    height: 90px;
+    border-radius: 5px;
+}
+.talk{
+    width: 410px;
+    height: 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #FFD700;
+    
+}

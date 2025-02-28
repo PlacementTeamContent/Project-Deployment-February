@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 2px solid #eceef2;
+}
+
+.img {
+    width: 40px;
+}
+
+.nav-links {
+    margin-top: 6px;
+}
+
+.navitems {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #334155;
+    text-decoration: none;
+    margin-left: 10px;
+    color:#FFFFFF;
+
+}
+
+.sai {
+    background-color:#0A1525;
+    height: 40px;
+
+    display: flex;
+
+    justify-content:space-between;
+
+
+
+}
+.fa{
+    color: #FFFFFF;
+}
+.main2{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size:cover;
+    height:60vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+     color: #FFFFFF;
+    
+
+}
+
+
+.head1{
+    color: #FFFFFF;
+    font-size: 58px;
+}
+.btn1{
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color:#F6B352;
+}
+.sub{
+    text-align: center;
+    font-size: 38px;
+    font-family: Bree Serif;
+}
+.img1{
+ 
+   
+   border-radius: 20px;
+}
+.submain{
+    font-family: "Bree serif";
+    font-size: 14px;
+    margin: 30px;
+     padding: 30px;
+}
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.flex1{
+    display: flex;
+    flex-direction:row;
+   justify-content: center;
+   
+     gap: 20px;
+}
+.sai2{
+    text-align: center;
+    font-size: 28px;
+}
+.sai8{
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.h1{
+    color: #FFFFFF;
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #FFFFFF;
+}
+.op{
+    display: flex;
+    flex-direction: column;
+    margin: 30;
+}

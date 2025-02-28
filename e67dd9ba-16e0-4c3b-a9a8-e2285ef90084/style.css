@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    background-image:url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    height:100vh;
+    background-size:cover;
+    justify-content: center;
+    
+  
+}
+.h1{
+    color:#FFFFFF;
+    
+}

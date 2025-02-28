@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1220;
+}
+.navimg{
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+}
+.button{
+     background-color: #0A1220;
+     color: #FFFFFF;
+     align-content: center;
+}

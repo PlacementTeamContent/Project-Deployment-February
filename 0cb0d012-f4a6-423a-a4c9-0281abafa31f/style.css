@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.total{
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    height:400px;
+    background-size: cover;
+    text-align: center;
+    padding:30px;
+}
+.btn1{
+    background-color: #8B5CF6;
+    color:white;
+    border-radius: 5px;
+}
+.ser{
+    text-align: center;
+    font-family: Bree Serif;
+}
+.img1{
+    height:130px;
+   border-radius: 5px;
+}
+.card1{
+    margin:20px;
+}
+.cardt{
+    display: flex;
+    flex-direction: row;
+    
+}
+.cont{
+    
+    background-color: #dfe3eb;
+     height:500px;
+    
+}
+.p{
+    text-align: center;
+}
+.us{
+    text-align: center;
+}
+.navy{
+    background-color: #0A1525;
+    height:500px;
+    color:white;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    gap:100px;
+    margin:20px;
+    
+}

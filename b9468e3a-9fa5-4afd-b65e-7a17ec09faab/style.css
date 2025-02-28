@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo {
+    height: 40px;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.nav-bar {
+    background-color: #1e293b;
+
+}
+
+.header {
+    color: white;
+    font-size: 20px;
+}
+
+.bg-12 {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.h1 {
+    color: white;
+
+    font-size: 40px;
+}
+
+.hp {
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    background-color: #8b5cf6;
+    padding: 15px;
+    border-color: #8b5cf6;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.header1 {
+    align-items: center;
+    justify-content: center;
+
+    justify-content: center;
+    margin: 15px;
+}
+
+.h2 {
+    color: #0A1525;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+.ph {
+    color: #0A1525;
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+.card-img {
+    border-radius: 10px;
+    height: 30vh;
+    width: 90%;
+    margin: 20px;
+}
+
+.sectionbg {
+    background-color: #dfe3eb;
+    background-size: cover;
+}
+
+.ch1 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.pp1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.madf {
+    margin: 20px;
+}
+
+.name {
+    color: #1e293b;
+    font-size: 15px;
+    font-family: "Bree serif";
+}
+
+span {
+    color: red;
+}
+
+.footer {
+    background-color: #1e293b;
+    background-size: cover;
+}
+
+.logofooter {
+    height: 60px;
+    padding: 10px;
+}
+
+.ppe {
+    color: #dfe3eb;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.bi {
+    color: white;
+    margin-left: 10px;
+}
+
+h2 {
+    color: white;
+    padding-left: 20px;
+
+}
+.fp{
+color: #dfe3eb;
+ padding-left: 20px;
+}

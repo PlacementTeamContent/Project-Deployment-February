@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    text-align: right;
+    font-family: Bree Serif;
+    background-color: #0A1525;
+    color: white;
+
+}
+
+.nav-heading {
+    text-align: left;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.nav-links {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.nav-links li {
+    display: inline-block;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-links p:hover {
+    background-color: white;
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    align-items: flex-end;
+    float: left;
+
+}
+
+@media all and (width:800px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-heading {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+        background-color: white;
+    }
+}
+
+.background-image {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 600px;
+    width: 700px;
+    background-size: cover;
+
+}
+
+.first-heading {
+    top: 150px;
+    left: -30px;
+    justify-content: flex-end;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-family: Bree Serif;
+    font-weight: bold;
+
+
+}
+
+.heading {
+    justify-content: flex-end;
+    top: 150px;
+    left: -30px;
+    color: white;
+
+
+}
+
+.btn {
+    background-color: #4B9EFF;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.heading1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.para {
+    text-align: center;
+    font-weight: bold;
+}
+
+.container1 {
+    border-radius: 10px;
+
+}
+
+.image1 {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+@media all and (max-width:800px) {
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image1 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
+
+.contact-us {
+    padding: 10px;
+    margin: 10px;
+    background-color: #dfe3eb;
+    border-radius: 5px;
+}
+
+.big-box {
+    background-color: white;
+    height: 30px;
+
+}
+
+@media all and (max-width:800px) {
+    .contact-us {
+        padding: 10px;
+        margin: 10px;
+        background-color: #dfe3eb;
+        border-radius: 5px;
+    }
+
+    .medium-box {
+        display: flex;
+    }
+
+
+}
+
+.red {
+    color: red;
+}
+
+.medium-box {
+    background-color: white;
+    height: 30px;
+    width: 200px;
+
+}
+
+.medium-box1 {
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.large-box {
+    background-color: white;
+    height: 150px;
+
+}
+
+.last-container {
+    background-color: #1E293B;
+    height: 400px;
+    width: 500px;
+    color: white;
+}
+
+.last-image {
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.para {
+    color: white;
+}
+
+.bi {
+    color: white;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    height: 500px;
+}
+
+.hyd {
+    padding: 10px;
+    margin: 20px;
+}
+
+.para1 {
+    text-align: right;
+    align-items: flex-start;
+}
+
+@media all and (max-width:800px) {
+    .hyd {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+    }
+
+    .last-container {
+        background-color: #1E293B;
+        height: 400px;
+        width: 900px;
+        color: white;
+    }
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.nav-container {
+    background-color: #0A1525;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+}
+
+.logo-image {
+    height: 30px;
+    padding: 12px;
+}
+
+.heading2 {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 7px;
+    font-family: "Bree Serif";
+}
+
+.heading1 {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 84px;
+}
+
+.paragraph {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button-element {
+    background-color: #4B84F3;
+    height: 33px;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.bottom-image-container {
+    display: flex;
+    text-align: center;
+}
+
+.bottom-head {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.our-services {
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.bottom-para {
+    font-size: 10px;
+}
+
+.paragraph-2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.container-3 {
+    background-color: #dfe3eb;
+    height: 100vh;
+    width: 1000vw;
+}
+
+.img1 {
+    height: 145px;
+    padding: 35px;
+    border-radius: 22px;
+    text-align: center;
+}
+
+.para-3 {
+    text-align: center;
+
+}
+
+.name {
+    padding: 12px;
+}
+
+.name-cont {
+    background-color: #ffffff;
+    width: 70vh;
+    height: 25px;
+    padding-left: 20px;
+    margin: 12px;
+    border: 0.1px;
+    border-style: solid;
+
+}
+
+.contact-info {
+    display: flex;
+}
+
+.mobile-cont {
+    background-color: #ffffff;
+    width: 50vh;
+    height: 25px;
+    margin: 12px;
+    border: 0.1px;
+    border-style: solid;
+
+}
+.msg-cont{
+    background-color: #ffffff;
+    width: 50vh;
+    height: 125px;
+    margin: 12px;
+    border: 0.1px;
+    border-style: solid;
+}

@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar_container {
+    background-color: #0A1525;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Nav_Logo {
+    max-height: 45px;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.Logo_header {
+    font-family: "Bree Serief";
+    margin-left: 15px;
+    color: white;
+}
+
+@media(max-width:576px) {
+    .color {
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .Nav_nav {
+        display: none;
+    }
+}
+
+@media(min-width:576px) {
+    .Nav_nav {
+        font-family: "Bree Serief";
+        margin-left: 15px;
+        color: white;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .Navbar_cont {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .color {
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.Hero_Section {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Hero_Sec_Heading {
+
+    font-family: "Bree Serief";
+    font-size: 50px;
+    max-width: 570px;
+    color: white;
+
+}
+
+.Hero_Sec_description {
+    font-family: "Bree Serief";
+    max-width: 570px;
+    color: white;
+}
+
+.Hero_sec_btn {
+    background-color: #4B84F3;
+    font-family: "Bree Serief";
+    border: solid;
+    border-width: 0px;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
+.Hero_Section_content {
+    padding: 20px;
+}
+
+.Our_Services {
+    background-color: white;
+
+}
+
+@media (min-width:1200px) {
+    .Card {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        max-width: 500px;
+    }
+
+    .Card_Img {
+        height: 200px;
+        border-radius: 20px;
+
+    }
+
+    .Card_Head {
+        font-family: "Bree Serief";
+        color: black;
+
+
+    }
+
+    .Services_offered {
+        display: flex;
+
+    }
+
+}
+
+@media (min-width:576px) and (max-width:992px) {
+
+    .Card {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        max-width: 100vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .Card_Img {
+        height: 150px;
+        width: 200px;
+        border-radius: 20px;
+
+
+
+    }
+
+    .Card_Head {
+        font-family: "Bree Serief";
+        color: black;
+
+
+    }
+
+    .Services_offered {
+        display: flex;
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .Card {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        max-width: 500px;
+        align-items: center;
+    }
+
+    .Card_Img {
+        height: 150px;
+        width: 200px;
+        border-radius: 20px;
+
+
+
+    }
+
+    .Card_Head {
+        font-family: "Bree Serief";
+        color: black;
+
+
+    }
+
+    .Services_offered {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+.Head_OS {
+    display: flex;
+    justify-content: center;
+}
+
+.Para_OS {
+    display: flex;
+    justify-content: center;
+}
+
+.Conctact_Us {
+    background-color: #dfe3eb;
+    padding: 10px;
+
+}
+
+@media (min-width:768px) {
+    .N_p {
+        width: 70%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0px;
+    }
+
+    .E_P {
+        display: flex;
+
+    }
+
+    .E_p {
+        width: 60%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0px;
+
+    }
+
+    .P_p {
+        width: 60%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0px;
+    }
+
+    .M_p {
+        width: 70%;
+        height: 50%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0px;
+    }
+
+    .Key {
+        font-size: 17px;
+    }
+
+    .Astriex {
+        color: red;
+    }
+}
+
+@media (max-width:768px) {
+    .N_p {
+        width: 70%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0px;
+    }
+
+
+
+    .E_p {
+        width: 100%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0px;
+
+    }
+
+    .P_p {
+        width: 100%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0px;
+    }
+
+    .M_p {
+        width: 70%;
+        height: 40%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0px;
+    }
+
+    .Key {
+        font-size: 17px;
+    }
+
+    .Astriex {
+        color: red;
+    }
+}
+
+.Alignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Btn_1 {
+    width: 90%;
+    margin: 30px;
+    background-color: #4B84F3;
+    font-family: "Bree Serief";
+    border: solid;
+    border-width: 0px;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+   
+
+}
+.Btt{
+     text-align:center;
+}
+
+.Footer {
+    background-color: #0A1525;
+}
+
+@media (min-width:750px) {
+    .Footer_Img {
+        max-height: 60px;
+        max-width: 60px;
+
+    }
+
+    .Logo_div {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .M_footer {
+        color: white;
+        margin: 20px;
+    }
+
+    .C_footer {
+        color: white;
+        margin: 20px;
+    }
+
+    .Footer_Div{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Left_Sec {
+        display: flex;
+
+    }
+}
+
+@media (max-width:750px) {
+    .Footer_Img {
+        max-height: 60px;
+        max-width: 60px;
+
+    }
+
+    .Logo_div {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .M_footer {
+        color: white;
+        margin: 20px;
+    }
+
+    .C_footer {
+        color: white;
+        margin: 20px;
+    }
+
+    .Footer_Div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Left_Sec {
+        display: flex;
+
+    }
+}
+.rights{
+    color:grey;
+    text-align:center;
+     margin:20px;
+}
+.Sp{
+    text-decoration:underline;
+   
+}

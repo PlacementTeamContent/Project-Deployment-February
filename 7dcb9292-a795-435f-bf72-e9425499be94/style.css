@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.main-bg{
+    
+}
+.nav-bar{
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image{
+    width:80px;
+    padding: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.NxtFornature{
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    font-size: 30px;
+    padding: 10px;
+}
+.list_items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.li-li{
+    margin-left:50px;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.list_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.icon-3-slass{
+    display: none;
+}
+@media (max-width:768px){
+    .list_items{
+         display: none;
+    }.light{
+    color: white;
+    width: 30px;
+    font-size: 35px;
+
+    }.icon-3-slass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:25px ;
+}
+}
+/* nav-bar-over-done */
+
+.section-2{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height: 85vh;
+    background-size:cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Investements{
+     color: #FFFFFF;
+    font-family: Bree Serif;
+    font-size: 37px;
+}
+.Explore-para{
+     color: #FFFFFF;
+    font-family: Bree Sans-Serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px ;
+}
+.card-section-2{
+    width: 500px;
+   display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+}
+.button-contact{
+    background-color: #F6B352;
+    padding: 12px;
+    border-radius: 15px;
+    width: 155px;
+    border-width: 0px;
+    color: #FFFFFF;
+    font-family: Sans-Serif;
+    font-size: 15px;
+}
+
+/* section-2-done */
+
+
+
+
+.section-3{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap; */
+}
+.section-3-card-txt{
+    text-align: center;
+    margin-left:25px ;
+    margin-right:25px ;
+}
+.section-3-head-txt{
+    color: #000000;
+    font-family:Sans-Serif;
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+}
+.section-3-para-txt{
+    color: #000000;
+    font-family:Sans-Serif;
+    font-size: 24px;
+    font-weight: light;
+    text-align: center;
+}
+
+
+.card-sections-11{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    border-radius: 10px;
+    border-color: #000000;
+    margin: 20px;
+    margin-bottom:10px ;
+}
+.image-cards-11{
+    width:100%;
+    border-radius: 10px;
+}
+.image-cards-11-head{
+    color: #000000;
+    font-family:Sans-Serif;
+    font-size: 22px;
+    font-weight:bold;
+    margin-left: 10px ;
+}
+.image-cards-11-para{
+     color: #000000;
+    font-family:Sans-Serif;
+    font-size: 17px;
+    font-weight: light;
+    margin-left: 10px ;
+}
+  .botton-cards----44{
+    display: flex;
+    flex-direction: column;
+    justify-content: Flex-start;
+    align-items: flex-start;
+}
+
+@media (min-width:992px){
+  .botton-cards----44{
+    display: flex;
+    flex-direction: row;
+    justify-content: Flex-start;
+    align-items: flex-start;
+}
+}
+
+/* section-4 over */
+
+.last-section-fill-form{
+    background-color: #dfe3eb;
+    padding:25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#reachout{
+    font-size: 16px;
+}
+.inpur--{
+    width:500px;
+    height: 40px;
+    border-style: solid;
+    border-radius:10px;
+}
+.inpur--11{
+    width:500px;
+    height: 100px;
+    border-style: solid;
+    border-radius:10px;
+}
+.name-enter-text{
+     color: #000000;
+    font-family:Sans-Serif;
+    font-weight: light;
+    font-weight: bold;
+    align-self: flex-start;
+    
+}
+.star{
+    color: red;
+    font-size:20px;
+}
+.button-lets-talk{
+    background-color: #F6B352;
+    padding: 12px;
+    width: 100%;
+    border-width: 0px;
+    color: #FFFFFF;
+    font-family: Sans-Serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+     margin-bottom: 25px;
+}
+@media (min-width:768px){
+    *{
+        box-sizing: border-box;
+    }
+    .card-input-media-queaies{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .input-card-1-name{
+        align-self: stretch;
+        margin: 10px;
+        width:100vw;
+    }
+    .input-card-1-phone{
+             margin: 10px;
+             align-self:stretch ;
+
+    }
+        .input-card-1-email{
+                margin: 10px;
+                        align-self: stretch;
+
+
+    }
+    .input-card-1-message{
+                margin: 10px;
+                        align-self: stretch;
+        width:100vw;
+
+
+    }
+
+}
+/* over-section-last */
+
+.footer-sestion{
+    background-color: #0A1525;
+}
+.footer-sestion---card{
+    display: flex;
+    flex-direction:column;
+}
+.image22222{
+     width:60px;
+    padding: 10px;
+    align-self: flex-start;
+}
+.Explore-para11{
+    color: #FFFFFF;
+    font-family: Bree Sans-Serif;
+    font-size:15px;
+    font-weight: light;
+
+}
+.icons{
+    display: flex;
+}
+.icon-11{
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.card-footer{
+    display: flex;
+    justify-content: flex-between;
+}
+h1{
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    font-size: 30px;
+    padding: 10px; 
+    margin-right:20px ;
+}
+p{
+ color: #FFFFFF;
+    font-family: Bree Sans-Serif;
+    font-size:15px;
+    font-weight: light;  
+}

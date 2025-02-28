@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    height: 60px;
+    width: 125vw;
+    background-color: #1E293B;
+    /* text-align: center; */
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Nxt-Fortune {
+    color: white;
+    font-size: 20px;
+}
+.container-1{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height: 70vh;
+    width: 110vw;
+    text-align: center;
+    padding: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    font-family: "Bree Serif";
+    background-size: cover;
+}
+.heading-1{
+    text-align: center;
+    padding-top: 90px;
+    margin: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.button-1{
+    background-color: #F6B352;
+    height: 40px;
+    width: 110px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    border-radius: 5px;
+    border-color: #F6B352;
+}
+.container-2{
+    height: 90vh;
+    width: 110vw;
+    background-color: #ffffff;
+    text-align: center;
+    background-size: cover;
+}
+.container-2-row{
+    flex-direction: row;
+}
+.img1{
+    width: 100px;
+}
+.box-1{
+    border-color: black;
+}
+.img-information{
+    font-size: 12px;
+}
+.container-3{
+    padding-top: 160px;
+    text-align: center;
+    height: 60vh;
+    width: 110vw;
+    background-color: #dfe3eb;
+    background-size: cover;
+}
+.form{
+    text-align: start;
+    width: 100vw;
+    border-color: #0A1525;
+}
+.name{
+    font-size: 10px;
+}
+.btn-3{
+    background-color: #F6B352;
+    border-color: #F6B352;
+    width: 110vw;
+    height: 30px;
+    margin: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer{
+    height: 40vh;
+    width: 110vw;
+    background-color: #0A1525;
+    color: #FFFFFF;
+    padding: 30px;
+    background-size: cover;
+}

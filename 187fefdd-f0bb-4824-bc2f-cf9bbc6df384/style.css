@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.main{
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 400px;
+    width: 700px;
+}
+.btn{
+    background-color: #F6B352;
+    border-radius: 8px;
+    border-width: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 30px;
+    
+}
+.head{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Bree Serif;
+}
+.para1{
+    color: #FFFFFF;
+    font-family: Bree Serif;
+}
+.main2{
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 700px;
+}
+.img1{
+    height: 230px;
+    width: 100px;
+}

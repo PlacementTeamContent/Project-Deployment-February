@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.icon {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.navbar {
+    background-color: #0A1426;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150vw;
+}
+
+.small {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-family: Bree Serif;
+    font-weight: normal;
+}
+
+a {
+    color: white;
+    text-decoration-style: solid;
+    font-family: Bree Serif;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 12px;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+}
+
+.big {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+    height: 50vh;
+    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 150vw;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Bree Serif;
+}
+
+.button {
+    color: #ffffff;
+    font-family: Bree Serif;
+    background-color: #4A90E2;
+    height: 45px;
+    width: 95px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.button2 {
+    color: #ffffff;
+    font-family: Bree Serif;
+    background-color: #4A90E2;
+    height: 45px;
+    width: 350px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.Remote {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.our-servieces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: gray;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+h2 {
+    color: black;
+    font-family: Bree Serif;
+    font-size: 25px;
+}
+
+h3 {
+    color: black;
+    font-family: Bree Serif;
+}
+
+.image2 {
+    height: 35vh;
+    width: 55vw;
+    border-radius: 15px;
+}
+
+.contact-us-section {
+    background-color: #e0dfdc;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 25px;
+}
+
+.p {
+    color: black;
+}
+
+.input-element {
+    border-width: 1px;
+    border-color: #e0dfdc;
+    height: 35px;
+    width: 350px;
+    border-radius: 4px;
+}
+
+.input-element1 {
+    border-width: 1px;
+    border-color: #e0dfdc;
+    height: 35px;
+    width: 350px;
+    border-radius: 4px;
+}
+
+.message-box {
+    height: 150px;
+    width: 350px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #e0dfdc;
+}
+
+.icons {
+    color: #e0dfdc;
+    height: 25vh;
+    width: 25vw;
+}
+
+h4 {
+    color: white;
+    font-family: Bree Serif;
+}
+
+.footer-below {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.pp {
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #0A1426;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+}
+
+@media screen and (min-width:1200px) {
+    .small {
+        display: flex;
+        justify-content: center;
+        align-self: flex-start;
+        padding: 45px;
+    }
+
+    ul {
+        display: flex;
+        align-self: flex-end;
+        padding: 45px;
+    }
+
+    .big {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Remote {
+        display: flex;
+        flex-direction: row;
+        gap: 75px;
+        margin: 15px;
+    }
+
+    .contact-us-section {
+        width: 150vw;
+    }
+
+    .footer {
+        width: 150vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 45px;
+        align-content: center;
+    }
+
+    .computer {
+        display: flex;
+        align-self: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .computer2 {
+        display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .input-element1 {
+        border-width: 1px;
+        border-color: #e0dfdc;
+        height: 35px;
+        width: 729px;
+        border-radius: 4px;
+    }
+
+    .mail-and {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .message-box {
+        border-width: 1px;
+        border-color: #e0dfdc;
+        height: 150px;
+        width: 729px;
+        border-radius: 4px;
+    }
+
+    .button2 {
+        width: 729px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        display: flex;
+        gap: 45px;
+        align-items: center;
+    }
+
+    .computer {
+        margin: 15px;
+    }
+
+    .computer2 {
+        margin: 15px;
+    }
+
+    .navbar {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+    }
+
+    .big {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

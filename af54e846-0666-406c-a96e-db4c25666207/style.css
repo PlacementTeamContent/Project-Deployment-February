@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0A1525;
+    height: 50px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.logo_sec{
+    display: flex;
+}
+.logo{
+    height: 40px;
+}
+.logo_name{
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.home{
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    font-family: "Segoe UI";
+}
+.home_details{
+    padding: 60px;
+    padding-top: 120px;
+}
+.home_head{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.home_para{
+    color: #dfe3eb;
+}
+.contact_button{
+    background-color: #FF7A2E;
+    color: #FFFFFF;
+    border: 0PX;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.Services{
+    text-align: center;
+    font-family: "Segoe UI";
+    padding: 20px;
+}
+.services_mainpara{
+    font-size: 20px;
+}
+.services_mainhead{
+    font-size: 40px;
+}
+.services_img{
+    height: 250px;
+    width: 80vw;
+    border-radius: 10px;
+}
+.services_head{
+    text-align: left;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.services_para{
+   text-align: left;
+   color: black; 
+   font-size: 20px;
+   padding-left: 20px;
+}
+.sub_service{
+    padding-top: 40px;
+}
+
+.contact{
+    background-color: #dfe3eb;
+    text-align: center;
+    padding: 20px;
+    font-family: "Segoe UI";
+}
+.contact_mainhead{
+    font-size: 40px;
+}
+.contact_mainpara{
+    font-size: 15px;
+}
+.contact_para{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+.design{
+    color: red;
+}
+.contact_mainbutton{
+    border: 0px;
+    width: 67vw;
+    background-color: #FF7A2E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 5vh;
+}
+.space{
+    height: 5vh;
+    width: 67vw;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+}
+.space2{
+    height: 20vh;
+    width: 67vw;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+}
+.details{
+    padding-top: 30px;
+    padding-left: 55px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: #0A1525;
+    color: #FFFFFF;
+    padding: 40px;
+    padding-top: 70px;
+    font-family: "Segoe UI";
+}
+.logo_footer{
+    height: 70px;
+}
+.footer_mainpara{
+    font-size: 18px;
+}
+.bi{
+    padding: 5px;
+}
+.footer_head{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer_para{
+    font-size: 20px;
+}
+.both{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    padding-right: 55px;
+}
+.site{
+    text-decoration: underline;
+}
+.end{
+    display: flex;
+    align-content: flex-end;
+    padding-top: 40px;
+    font-size: 15px;
+}
+@media screen,(min-width:768){
+    .logo{
+        height: 60px;
+    }
+    .toggle{
+        height: 60px;
+        padding-top: 30px;
+    }
+    .home_details{
+        padding: 120px;
+    }
+    .home_head{
+        font-size: 60px;
+    }
+    .home{
+        height: 100vh;
+        width: 200vw;
+    }
+    .home_para{
+        font-size: 20px;
+    }
+    .sub{
+        display: flex;
+    }
+    .Services{
+        height: 100vh;
+        width: 200vw;
+    }
+    .services_img{
+        padding: 10px;
+        width: 60vw;
+    }
+    .contact{
+        height: 100vh;
+        width: 200vw;
+    }
+    .footer{
+        height: 100vh;
+        width: 200vw;
+    }
+    .details{
+        padding-left: 500px;
+    }
+    .menu{
+        padding-right: 100px;
+    }
+}

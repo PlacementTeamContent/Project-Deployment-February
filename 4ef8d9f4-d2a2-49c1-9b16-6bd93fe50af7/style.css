@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@media (max-width: 768px){
+    
+    
+
+    .logo-1 {
+        height: 30px;
+        padding: 10px;
+    }
+
+    .image-of-background {
+
+        background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        /* padding: 10px; */
+        align-self: center;
+    
+    }
+    
+    .head {
+    height: 30px;
+
+    }
+
+    .bg-load {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #0A1525;
+        color: #FFFFFF;
+        gap: 10px;
+    }
+    
+    .awesome {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        align-self: center;
+    }
+    
+    .innovating-bulidings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: flex-end;
+        margin: 40px;
+    
+    }
+    
+    .bulid {
+        color: #FFFFFF;
+    }
+    
+    .para {
+        color: #FFFFFF;
+    }
+    
+    .btn {
+        color: #FFFFFF;
+        background-color: #4B9EFF;
+        border-radius: 5px;
+        border-width: 0px;
+        padding: 5px;
+    }
+    .Our-Servies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .images-logo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+}
+
+    
+
+    .image-2{
+         height: 300px;
+        width: 500px;
+        border-radius: 10px ;
+    }
+    .image-3{
+         height: 300px;
+        width: 500px;
+        border-radius: 10px ;
+    }
+    .image-4{
+         height: 300px;
+        width: 500px;
+        border-radius: 10px ;
+    }
+    .logo-2{
+        text-align: center;
+    }
+    .logo-3{
+        text-align: center;
+    }
+    .logo-4{
+        text-align: center;
+    }
+    .Contact-section{
+        background-color: #dfe3eb;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .proof{
+    
+    }
+    .name{
+        text-align: left;
+        
+        height: 20px;
+        width: 200px;
+        border-width: 5px;
+        border-radius: 2px;
+        border-color: #1E293B;
+        background-color: #dfe3eb;
+        justify-content: center
+        ;
+        text-align: center;
+    }
+   
+    .address{
+            text-align: left;
+        
+        height: 20px;
+        width: 200px;
+        border-width: 5px;
+        border-radius: 2px;
+        border-color: #1E293B;
+        background-color: #dfe3eb;
+        justify-content: center
+        ;
+        text-align: center;
+    }
+    .number{
+            text-align: left;
+        
+        height: 20px;
+        width: 200px;
+        border-width: 5px;
+        border-radius: 2px;
+        border-color: #1E293B;
+        background-color:  #dfe3eb;
+        display: flex;
+        
+        justify-content: center
+        ;
+        text-align: center;
+    }
+    .messages{
+            text-align: left;
+        
+        height: 100px;
+        width: 200px;
+        border-width: 5px;
+        border-radius: 2px;
+        border-color: #1E293B;
+        background-color:  #dfe3eb;
+        justify-content: center
+        ;
+        text-align: center;
+    }
+       .btn-2{
+        background-color: #4B9EFF;
+        color: blue;
+        text-align: center;
+        width: 1000px;
+        border-width: 0px;
+        border-radius: 2px;
+    }
+    .image-built{
+        height: 30px;
+    }
+    .follow-us{
+        display: flex;
+        flex-direction:column ;
+        background-color: #1E293B;
+        color: #FFFFFF;
+        
+    }
+    .creator{
+     display: flex;
+        flex-direction:column ;
+        gap: 30px;
+        margin: 30px;
+        justify-content: center;
+    }
+    .hyd{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .hyd-menu{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+@media (orientation: landspace),(min-width:1200) {
+        
+
+    .logo-1 {
+        height: 30px;
+        padding: 10px;
+    }
+
+    .image-of-background {
+
+        background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        /* padding: 10px; */
+        align-self: center;
+    
+    }
+    
+    .head {
+    height: 30px;
+
+    }
+
+    .bg-load {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #0A1525;
+        color: #FFFFFF;
+        gap: 10px;
+    }
+    
+    .awesome {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        align-self: center;
+    }
+    
+    .innovating-bulidings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: flex-end;
+        margin: 40px;
+    
+    }
+    
+    .bulid {
+        color: #FFFFFF;
+    }
+    
+    .para {
+        color: #FFFFFF;
+    }
+    
+    .btn {
+        color: #FFFFFF;
+        background-color: #4B9EFF;
+        border-radius: 5px;
+        border-width: 0px;
+    }
+    .Our-Servies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images-logo{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        
+}
+
+    
+
+    .image-2{
+         height: 300px;
+        width: 500px;
+        border-radius: 10px ;
+    }
+    .image-3{
+         height: 300px;
+        width: 500px;
+        border-radius: 10px ;
+    }
+    .image-4{
+         height: 300px;
+        width: 500px;
+        border-radius: 10px ;
+    }
+    .Contact-section{
+        background-color: #dfe3eb;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .proof{
+    
+    }
+    .name{
+        text-align: left;
+        
+        height: 20px;
+        width: 200px;
+        border-width: 5px;
+        border-radius: 2px;
+        border-color: #1E293B;
+        background-color: #FFFFFF;
+        justify-content: center
+        ;
+        text-align: center;
+    }
+    .btn-2{
+        background-color: #4B9EFF;
+        color: blue;
+        text-align: center;
+        width: 400px;
+        border-width: 0px;
+        border-radius: 2px;
+    }
+    .address{
+            text-align: left;
+        
+        height: 20px;
+        width: 200px;
+        border-width: 5px;
+        border-radius: 2px;
+        border-color: #1E293B;
+        background-color: #FFFFFF;
+        justify-content: center
+        ;
+        text-align: center;
+    }
+    .number{
+            text-align: left;
+        
+        height: 20px;
+        width: 200px;
+        border-width: 5px;
+        border-radius: 2px;
+        border-color: #1E293B;
+        background-color: #FFFFFF;
+        display: flex;
+        
+        justify-content: center
+        ;
+        text-align: center;
+    }
+    .messages{
+            text-align: left;
+        
+        height: 100px;
+        width: 200px;
+        border-width: 5px;
+        border-radius: 2px;
+        border-color: #1E293B;
+        background-color: #FFFFFF;
+        justify-content: center
+        ;
+        text-align: center;
+    }
+    .image-built{
+        height: 30px;
+    }
+    .follow-us{
+        display: flex;
+        flex-direction:column ;
+        background-color: #1E293B;
+        color: #FFFFFF;
+        
+    }
+    .creator{
+     display: flex;
+        flex-direction:row ;
+        gap: 30px;
+        margin: 30px;
+        justify-content: center;
+    }
+    .hyd{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}
+}

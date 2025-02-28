@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color:#0A1525;
+    height:100px;
+    width:100vw;
+    padding:20px;
+}
+.image1{
+    height:50px;
+    width:50px;
+}
+.nav-para{
+    color:#ffffff;
+    font-family:Bree Serif;
+    font-size:20px;
+    
+}
+.nav-image{
+    display:flex;
+    gap:10px;
+    margin-left:50px;
+    margin-top:10px;
+}
+.nav-items{
+    color:#ffffff;
+    display:flex;
+    justify-content: flex-end;
+    font-size:20px;
+    gap:20px;
+    
+}
+.main-page{
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+    width:100vw;
+    height:70vh;
+    padding:20px;
+}
+.main-items{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding:20px;
+    margin-left:50px;
+    margin-right:450px;
+}
+.main-heading{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:50px;
+}
+.main-para{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:25px;
+}
+.main-button{
+    background-color: #ffd700;
+    height:50px;
+    width:100px;
+    color:#ffffff;
+    border:0px;
+    border-radius:5px;
+}
+.services-page{
+text-align:center;
+}
+.services-heading{
+    font-size:40px;
+    font-weight:bold;
+    font-family:Bree serif;
+}
+.services-para{
+    font-size:20px;
+}
+.cards-container{
+    display:flex;
+    gap:10px
+}
+.services-image{
+    height:150px;
+    width:250px;
+    border-radius:20px;
+}
+.heading{
+    font-size:20px;
+}
+.bottom-container{
+    background-color:lightblue;
+    
+}
+.container{
+    text-align:center;
+}
+.bottom-para{
+    font-size:20px;
+    font-family:bold;
+    font-family:Bree Serif;
+}
+.name-container{
+    height:30px;
+    width:600px;
+    background-color: #ffffff;
+    border-color:gray;
+    border-width:3px;
+}
+.email-container{
+    height:30px;
+    width:300px;
+    background-color: #ffffff;
+}
+.email-container{
+    height:30px;
+    width:300px;
+    background-color: #ffffff;
+}
+.btm-container{
+    display:flex;
+    gap:10px;
+}
+.message-container{
+    height:100px;
+    width:500px;
+    background-color: #ffffff;
+}
+.details-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+.btm-button{
+    height:30px;
+    width:600px;
+    background-color:#ffd700;
+    border:0px;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.footer-section{
+    background-color:#1e293b;
+    height:30vh;
+    
+    
+    
+}
+.cont{
+    margin-left:50px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.footer-para{
+    color:#ffffff;
+}
+.icons-container{
+    color:#ffffff;
+}
+.footer-para1{
+    color:#ffffff;
+    font-weight:bold;
+}
+.sub-container{
+    display:flex;
+    gap:50px
+    
+}
+.cont1{
+    display:flex;
+    flex-direction:column;
+}
+.footer-para3{
+    color:#ffffff;
+    margin-top:100px;
+}
+@media (max-width:768px){
+    .navbar{
+    background-color:#0A1525;
+    height:100px;
+    width:100vw;
+    padding:20px;
+}
+.image1{
+    height:50px;
+    width:50px;
+}
+.nav-para{
+    color:#ffffff;
+    font-family:Bree Serif;
+    font-size:20px;
+    
+}
+.nav-image{
+    display:flex;
+    gap:10px;
+    margin-left:50px;
+    margin-top:10px;
+}
+.nav-items{
+    color:#ffffff;
+    display:flex;
+    justify-content: flex-end;
+    font-size:20px;
+    gap:20px;
+    
+}
+.main-page{
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+    width:100vw;
+    height:70vh;
+    padding:20px;
+}
+.main-items{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding:20px;
+    margin-left:50px;
+    margin-right:450px;
+}
+.main-heading{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:50px;
+}
+.main-para{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:25px;
+}
+.main-button{
+    background-color: #ffd700;
+    height:50px;
+    width:100px;
+    color:#ffffff;
+    border:0px;
+    border-radius:5px;
+}
+.services-page{
+text-align:center;
+}
+.services-heading{
+    font-size:40px;
+    font-weight:bold;
+    font-family:Bree serif;
+}
+.services-para{
+    font-size:20px;
+}
+.cards-container{
+    display:flex;
+    gap:10px
+}
+.services-image{
+    height:150px;
+    width:250px;
+    border-radius:20px;
+}
+.heading{
+    font-size:20px;
+}
+.bottom-container{
+    background-color:lightblue;
+    
+}
+.container{
+    text-align:center;
+}
+.bottom-para{
+    font-size:20px;
+    font-family:bold;
+    font-family:Bree Serif;
+}
+.name-container{
+    height:30px;
+    width:600px;
+    background-color: #ffffff;
+    border-color:gray;
+    border-width:3px;
+}
+.email-container{
+    height:30px;
+    width:300px;
+    background-color: #ffffff;
+}
+.email-container{
+    height:30px;
+    width:300px;
+    background-color: #ffffff;
+}
+.btm-container{
+    display:flex;
+    gap:10px;
+}
+.message-container{
+    height:100px;
+    width:500px;
+    background-color: #ffffff;
+}
+.details-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+.btm-button{
+    height:30px;
+    width:600px;
+    background-color:#ffd700;
+    border:0px;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.footer-section{
+    background-color:#1e293b;
+    height:30vh;
+    
+    
+    
+}
+.cont{
+    margin-left:50px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.footer-para{
+    color:#ffffff;
+}
+.icons-container{
+    color:#ffffff;
+}
+.footer-para1{
+    color:#ffffff;
+    font-weight:bold;
+}
+.sub-container{
+    display:flex;
+    gap:50px
+    
+}
+.cont1{
+    display:flex;
+    flex-direction:column;
+}
+}

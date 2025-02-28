@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navv {
+    background-color: #0A1525;
+    height: 15vh;
+}
+
+.ico {
+    height: 20px;
+    width: 20px;
+
+}
+
+.fortu {
+    color: white;
+    font-family: "Bree Serif";
+    margin-left: 50px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.style {
+    color: #1E293B;
+}
+
+.mainhead {
+    display: flex;
+    flex-direction: row;
+}
+
+.us {
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.container1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height: 60vh;
+    padding: 30px;
+    font-family: "Bree Serif";
+    color: white;
+}
+.manage{
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+.but {
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    border-color: white;
+    background-color: #F6B352;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont2head {
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.img1 {
+    height: 140px;
+    border-radius: 10px;
+    width: 140px;
+    margin-left:50px;
+    padding: 10px;
+    margin: 10px;
+}
+.manag{
+    font-family: "Bree Serif";
+}
+.container3 {
+    background-color: #dfe3eb;
+    height: 120vh;
+    background-size: cover;
+}
+
+.name {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.namesection {
+    margin: 5px;
+    padding: 5px;
+}
+
+.Emailsection {
+    margin: 5px;
+    padding: 5px;
+}
+
+.box {
+    height: 7px;
+    width: 60vw;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border-style: solid;
+}
+
+.box1 {
+    height: 30vh;
+    width: 60vw;
+    background-color: white;
+    margin: 5px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.boxemail {
+    height: 7px;
+    width: 30vw;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.both {
+    display: flex;
+    flex-direction: row;
+}
+
+.both1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.talk {
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    width: 65vw;
+    border-color: white;
+    background-color: #F6B352;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.container4 {
+    background-color: #0A1525;
+    height: 60vh;
+}
+
+.img2 {
+    height: 60px;
+    width: 60px;
+}
+
+.invest {
+    color: white;
+}
+
+.future {
+    padding: 20px;
+    margin: 10px;
+}
+
+.bi {
+    color: #dfe3eb;
+    margin: 4px;
+}
+
+.both2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.con {
+    color: white;
+    display: flex;
+    margin-left: 50px;
+
+    flex-direction: column;
+}
+.all{
+    color: white;
+    margin-left: 30px;
+}

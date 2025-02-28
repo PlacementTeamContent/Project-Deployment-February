@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.maincontainer{
+    height: 15vh;
+    background-color: #0A1525;
+}
+.image1{
+    height: 8vh;
+}
+.Nxt{
+    color: white;
+    text-align: center;
+}
+.para1{
+    color: white;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.page1{
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.innovative{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.innovativepara{
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+.innovativebutton{
+    color: white;
+    background-color: #4B9EFF;
+    text-align: center;
+    height: 10vh;
+    width: 30vw;
+}
+.ourservices{
+    margin: 5px;
+    padding: 5px;
+}
+.ourserviespara{
+    margin: 5px;
+    padding: 5px;
+}
+.image2{
+    border: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    height: 50vh;
+    width: 80vw;
+}
+.image2head{
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5px;
+}
+.image2para{
+    color: #1E293B;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5px;
+}
+.contactus{
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
+.page3{
+    background-color: #dfe3eb;
+    height: 100vh;
+}
+.contactuspara{
+    color: #1E293B;
+    font-size: 28px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.name{
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px;
+}
+.boxes{
+    height: 5vh;
+    width: 90vw;
+    background-color: white;
+    border: solid;
+}
+.span{
+    color: red;
+    font-weight: 500;
+}
+.box{
+    height: 50vh;
+    width: 80vw;
+    background-color: white;
+    border: solid;
+}
+.contactusbutton{
+    background-color: #4B9EFF;
+    color: white;
+    text-align: center;
+    height: 6vh;
+    width: 90vw;
+}
+.footer{
+    background-color: #0A1525;
+    height: 80vh;
+}
+.bi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    
+}
+.footerpara{
+    color: white;
+    font-size: 26px;
+    margin: 5px;
+    
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+}
+.footerhead{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 5px;
+}
+.footermera{
+    color: white;
+    font-size: 22px;
+    margin: 3px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.last{
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+.span2{
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    margin: 5px;
+}
+.new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

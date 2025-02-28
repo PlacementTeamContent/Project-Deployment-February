@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.full-container {
+    font-family: "Bree Serif";
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo {
+    height: 60px;
+}
+
+.navbar {
+    background-color: #0A1220;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Section {
+    display: flex;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.Section-items {
+    padding: 10px;
+}
+
+.fa {
+    padding: 30px;
+}
+
+.image-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-button {
+    height: 30px;
+    width: 90px;
+    color: #FFFFFF;
+    background-color: #00E5BE;
+    border-width: 0px;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+.context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Service-container {
+    display: flex;
+
+}
+
+.service-items {
+    padding: 30px;
+}
+
+.image {
+    height: 120px;
+    border-radius: 8px;
+}
+
+.contuctUs-Section {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    height: 30px;
+    width: 300px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+}
+
+.contuctUs-items {
+    display: flex;
+}
+
+.Message-box {
+    height: 70px;
+    width: 600px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+
+}
+
+.Phone-Section {
+    padding-left: 10px;
+}
+
+.contuctUs-button {
+    height: 30px;
+    width: 600px;
+    color: #FFFFFF;
+    background-color: #00E5BE;
+    border-width: 0px;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+.Footer {
+    background-color: #0A1220;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-image {
+    height: 60px;
+}
+
+.rights {
+    padding-top: 60px;
+    font-size: 10px;
+    
+}
+
+.Footer-Contact-section {
+    margin: 40px;
+}
+
+@media screen and (max-width:576px) {
+    .Service-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contuctUs-Section {
+        background-color: #dfe3eb;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contuctUs-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contuctUs-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Message-box {
+        height: 70px;
+        width: 300px;
+        border-radius: 9px;
+        background-color: #FFFFFF;
+    }
+
+    .contuctUs-button {
+        height: 30px;
+        width: 300px;
+        color: #FFFFFF;
+        background-color: #00E5BE;
+        border-width: 0px;
+        border-radius: 9px;
+        margin-top: 10px;
+    }
+
+    .image {
+        height: 220px;
+        width: 400px;
+        border-radius: 8px;
+    }
+
+    .Footer {
+        background-color: #0A1220;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .Footer-Contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .details {
+        display: flex;
+    }
+
+}

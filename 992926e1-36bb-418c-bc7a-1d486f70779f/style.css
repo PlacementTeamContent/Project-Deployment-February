@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "Bree Serif";
+
+}  
+header {
+    background-color: #0A1525;
+}
+footer {
+    background-color: #0A1525;
+    color: white;
+    padding: 10px;
+}
+.nav-img{
+    width: 40%;
+}
+button{
+    background-color: #6C63FF;
+    color: white;
+    border-width:0px;
+    border-radius:5px;
+}
+
+.page1{
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height:100vh;
+    align-items: center;
+    display:grid;
+    grid-template-columns: 40 40 40;
+    grid-template-rows: 40 40 40;
+    grid-column:center;
+    align-content: center;
+    color: white;
+    padding: 10px;
+}
+.color{
+    color: red;
+}
+.pg1-content{
+    color: white;
+}
+
+.img-gall{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+
+.pg2-img{
+    align-self: center;
+    width: 90%;
+    height:30%;
+    border:solid;
+    border-width: 4px;
+    border-radius:10px;
+    border-color: #dfe3eb;
+    padding: 10px;
+}
+
+.page3{
+    background-color: #dfe3eb;
+    height:85vh;
+    padding: 20px;
+}
+.contact-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact-btn{
+    background-color: #6C63FF;
+    color: white;
+    border-width:0px;
+    border-radius:5px;
+    width:100vw;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.foot{
+    display: flex;
+    padding: 20px;
+}
+.paddi{
+    padding: 20px;
+    margin: 10px;
+}
+.message{
+    width:100vw;
+    height:20vh;
+}
+.name{
+    width: 100vh;
+    height:35px;
+}
+.mail{
+    width:50vw;
+    height:35px;
+}
+.number{
+    width:50vw;
+    height:35px;
+}
+.navv{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.mr{
+    margin-right: 20px;
+}

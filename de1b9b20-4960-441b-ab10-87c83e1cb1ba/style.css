@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.card-container {
+    background-color: #0A1525;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.image-container {
+    display: flex;
+    overflow: scroll;
+}
+
+.card {
+    text-align: center;
+
+}
+
+.img-card {
+    height: 260px;
+    width: 260px;
+}

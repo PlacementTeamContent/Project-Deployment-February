@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.top1-bg-container{
+    background-color: #0A1525;
+    
+}
+
+.img-1{
+    height: 100px;
+    width: 100px;
+}
+
+.heading-1{
+    color: white;
+}
+
+.bg-container-2{
+   background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+   background-size: cover;
+   justify-content: center;
+}
+
+.logos-3{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-1{
+    color: white;
+    background-color: #FFD700;
+    border-radius: 10px;
+    border-color: #FFD700;
+}
+
+.container{
+    color: white;
+    
+}
+
+.h3{
+    text-align: center;
+}
+
+.para{
+    text-align: center;
+}
+
+.our-services-1{
+    height: 400px ;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.our-services-2{
+    height: 400px ;
+    width: 350px;
+    padding: 10px;
+}
+
+.our-services-3{
+    height: 400px ;
+    width: 350px;
+    padding: 10px;
+}
+
+.class {
+    text-align: center;
+}

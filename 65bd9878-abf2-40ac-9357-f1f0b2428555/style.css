@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    margin: 0;
+}
+.image{
+    height: 50px;
+}
+.image1{
+    height: 50px;
+}
+.fa{
+    margin-left:70%;
+    margin-top: 10px;
+}
+.navbar{
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.nav-head{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Bree Serif";
+}
+.background{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 50vh;
+    padding: 30px;
+    display: flex;
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: "Bree Sarif";
+    flex-direction: column;
+    justify-content: center;
+}
+.button{
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    width: 100px;
+    
+}
+.background-head{
+    font-weight: bold;
+}
+.card{
+    padding: 10px;
+    width: 90vw;
+    text-align: center;
+    margin-top: 50px;
+}
+.card-image{
+    height: 30vh;
+    border-radius: 15px;
+}
+.card-image2{
+    height: 30vh;
+    width: 75%;
+    border-radius: 15px;
+}
+
+.container{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.contact-section{
+    background-color: Grey;
+    font-family: "Bree Serif";
+    text-align: center;
+    
+}
+.h4{
+    text-align: center;
+    color: #1E293B;
+    font-weight: bold;
+    font-size: 30px;
+}
+.para{
+    text-align: center;
+}
+.cont1{
+    background-color: #FFFFFF;
+    height: 30px;
+}
+.cont3{
+    background-color: #FFFFFF;
+    height: 30px;
+}
+.cont2{
+    background-color: #FFFFFF;
+    height: 150px;
+
+}
+.cont{
+    width: 75%;
+    margin: auto;
+}
+.button1{
+    margin: 20px;
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    width: 75%;
+}
+.footer{
+    background-color: #0A1525;
+    color:#FFFFFF;
+    padding: 20px;
+    font-family: "Bree Serif";
+}
+.bi{
+    margin: 3px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    margin: 40px;
+}
+
+.contact-us{
+    margin-top: 40px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p{
+    font-size: 10px;
+}
+h4{
+    text-align: left;
+}
+@media (min-width:768px){
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     
+    }
+    .card{
+        width: 40vh;
+        margin: 10px;
+    }
+    .card-image{
+        width: 30vw;
+    }
+    .card-image2{
+        width: 90%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        padding: 60px;
+    }
+    .contact-us{
+        margin-left: 40px;
+    }
+    .fs{
+        margin-top:40px;
+        margin-left: 40px;
+    }
+    .aot{
+        display: flex;
+        flex-direction: row;
+    }
+    .cont3{
+        width: 36vw;
+    }
+    .phone{
+        margin-left: 20px;
+    }
+    .image{
+        margin-left: 150px;
+    }
+}

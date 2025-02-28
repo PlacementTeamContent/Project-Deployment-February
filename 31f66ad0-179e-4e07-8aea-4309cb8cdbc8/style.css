@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1525;
+    color: #FFFFFF;
+}
+.image{
+    height: 5vh;
+    width: 10vw;
+}
+.container{
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    height: 50vh;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    
+}
+.container1{
+    background-color: #dfe3eb;
+    
+}
+.image3{
+    height: 100px;
+}

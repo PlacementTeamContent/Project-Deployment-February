@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-cont {
+    background-color: #0A1525;
+    height: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-head {
+    padding: 10px;
+
+}
+
+.nav-para {
+    padding: 20px;
+    justify-content: end;
+}
+
+.bg-cont1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    padding: 50px;
+    color: #ffffff;
+}
+
+.bg-button {
+    background-color: #FF7A2E;
+    border-radius: 5px;
+    color: white;
+    border-color: transparent;
+}
+
+.bg-cont2 {
+    text-align: center;
+    background-color: white;
+    height: 80vh;
+}
+
+.image {
+    height: 30vh;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.image-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-cont3 {
+    background-color: #dfe3eb;
+    height: 60vh;
+    width: 150vw;
+    padding: 30px;
+
+}
+
+.mark {
+    color: #FF7A2E;
+    background-color: transparent;
+}
+
+.button {
+    background-color: #FF7A2E;
+    color: white;
+    border-color: transparent;
+    width: 80vw;
+    border-radius: 5px;
+}
+
+.bg-cont4 {
+    background-color: #1E293B;
+    height: 50vh;
+    width: 150vw;
+    padding: 30px;
+    color: #dfe3eb;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.mark1 {
+    text-decoration: underline;
+    background-color: transparent;
+}

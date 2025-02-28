@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height: 400px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+.mar{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+}
+.ourh{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.ourp{
+    color: black;
+    text-align: center;
+}
+
+.img{
+    height: 150px;
+    width: 120px;
+}
+
+.sev{
+    display: flex;
+}
+#img{
+    padding: 10px;
+}
+
+.thank{
+    text-align: center;
+    color: black;
+    background-color: #e0dfdc;
+}
+span{
+    color: red;
+}
+.form2{
+    display: flex;
+}
+#div{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: 20px;
+}
+.btn2{
+    color: white;
+    height: 30px;
+    width: 400px;
+    background-color: #4A90E2;
+}
+#fev{
+    height: 60px;
+    width: 25px;
+}
+.book{
+    display: flex;
+    
+    
+}
+.bottom{
+    display: flex;
+    margin: 20px;
+    background-color: #1E293B;
+    color: white;
+    font-size: 20px;
+}

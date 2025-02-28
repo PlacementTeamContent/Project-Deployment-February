@@ -1,0 +1,123 @@
+.nav-img{
+    height:40px;
+    margin-left:30px;
+    margin-right:60px;
+}
+nav{
+    background-color:#0A1525;
+    height:70px;
+    font-family:"Bree Serif";
+    display:flex;
+}
+.nav-p{
+    color:#FFFFFF;
+    margin:10px;
+}
+.nav-p-div{
+    display:flex;
+    justify-content:flex-end;
+}
+.main{
+    background-image:url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height:50vh;
+    background-size:cover;
+    font-family:"Bree Serif";
+}
+.main1{
+    color:#FFFFFF;
+    padding-top:15%;
+    padding-left:10%;
+}
+.main-head{
+    width:30%;
+    font-size: 35px;
+    font-weight:bold;
+}
+.main-para{
+    width:50%;
+}
+.main-btn{
+    background-color:#F6B352;
+    height:30px;
+    border-radius:10px;
+    color:#FFFFFF;
+    border-width:0px;
+}
+.box-text{
+    text-align:center;
+    font-family:"Bree Serif";
+}
+.box-head{
+    font-weight:bold;
+
+}
+.box-img{
+    height:200px;
+    border-radius:10px;
+}
+.box-container1{
+    text-align:center;
+}
+.box-para{
+    text-align:center;
+}
+.box1{
+    text-align:center;
+}
+.Contact{
+    background-color:#dfe3eb;
+}
+.Contact1{
+    text-align:center;
+}
+.Contacts{
+    color:red;
+}
+.Contactp{
+    font-weight:bold;
+}
+#input{
+    height:30px;
+    width:80%;
+    border-radius:10px;
+    border-width:0px;
+}
+.Contact2{
+    margin:20px;
+}
+#inputb{
+    height:200px;
+    width:80%;
+    border-radius:10px;
+    border-width:0px;
+}
+.Contact-btn{
+    background-color:#F6B352;
+    height:30px;
+    border-radius:10px;
+    color:#FFFFFF;
+    border-width:0px;
+    width:80%;
+    margin-top:20px;
+}
+.fpm{
+    color:#FFFFFF;
+}
+.fp{
+    color:#dfe3eb;
+}
+.footer{
+    background-color:#1E293B;
+}
+.f2{
+    display:flex;
+}
+.f1{
+    margin:30px;
+}
+.f2-1{
+    margin:30px;
+}
+.f2-2{
+    margin:30px;
+}

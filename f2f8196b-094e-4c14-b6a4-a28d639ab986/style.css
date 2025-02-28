@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+nav {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    font-family: "Bree Serif";
+}
+
+.img1 {
+    height: 60px;
+    width: 60px;
+}
+
+.navlinks {
+    display: none;
+    gap: 2rem;
+}
+
+.bar {
+    color: white;
+    margin-top:20px;
+}
+
+@media screen and (min-width:992px) {
+    .nav {
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .navlinks {
+        display: flex;
+        gap: 2rem;
+
+    }
+    .a{
+        color:white;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .services {
+        display:flex;
+    }
+    .img2{
+       height: 100px;
+       width:50px;
+    }
+
+    .card{
+        margin-left: 14px;
+        width:200px;
+    }
+
+    .mn {
+        display: flex;
+    }
+}
+
+.bg1 {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b1 {
+    background-color: #4B9EFF;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.our {
+    text-align: center;
+}
+
+.img2 {
+    height: 300px;
+    width: 400px;
+    border-radius: 14px;
+}
+
+.card {
+    text-align: center;
+    margin-top: 20px;
+    width:100vw;
+}
+
+.form {
+    background-color: #dfe3eb;
+    height: 800px;
+    width: 100vw;
+    padding-left:30px;
+}
+
+.jk {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.gh {
+    width: 60vw;
+    height: 40px;
+   
+}
+
+.l {
+    width: 60vw;
+    height: 150px;
+}
+
+.b2 {
+    background-color: #4B9EFF;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    border-width: 0px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.o {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #0A1525;
+    color: white;
+    width: 100vw;
+}
+
+.icons {
+    display: flex;
+    color: white;
+    gap: 0.5rem;
+}
+
+.f1 {
+    margin-left: 20px;
+}
+
+.f2 {
+    display: flex;
+    gap: 3rem;
+    margin-top: 20px;
+}
+
+.a1 {
+    color: white;
+}
+
+.copy {
+    margin-top: 50px;
+}
+
+.mn {
+    gap: 10rem;
+} 
+.a:hover{
+    color:orange;
+    cursor: pointer;
+}

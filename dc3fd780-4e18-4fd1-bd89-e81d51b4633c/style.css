@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nxtCrowd-navbar{
+ background-color: #0A1525;
+ height: 15vh;
+
+
+}
+.navbar-section{
+ display: flex;
+ /* padding: 15px; */
+ /* margin-top: 20px; */
+}
+.nxtCrowd-logo{
+ height: 50px;
+ width: 50px;
+ border-radius: 50px;
+ padding: 10px;
+}
+.logo-heading{
+ font-size: 15px;
+ font-family: "Bree Serif";
+ color: #ffffff;
+ margin-top: 20px;
+}
+li{
+ 
+}
+
+/* home section description container */
+.nxtCrowd-bg-container{
+ background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+ background-size: cover;
+ height: 100vh;
+ padding: 15px;
+}
+.nxtCrowd-home-main-heading{
+ color: #ffffff;
+ font-family: "Bree Serif";
+}
+.nxtCrowd-home-page-description{
+ color: #ffffff;
+ font-family: "Bree Serif";
+ 
+}
+.homeBtn{
+ height: 30px;
+ width: 100px;
+ border-radius: 20px;
+ background-color:#ffd700;
+ border: 0px solid;
+ color: #ffffff;
+ font-size: 15px;
+ font-family: "Bree Serif";
+}
+
+/* nxtcrowd-serivices-section- 3cards */
+ .nxtCrowd-services-section{
+ background-color: #ffffff;
+ /* height: 100vh; */
+ padding: 20px;
+ text-align: center;
+ padding: 20px;
+ margin-bottom: 20px;
+ 
+}
+.Services-content{
+ margin-bottom: 20px;
+}
+.nxtCrowd-services-heading{
+ color: #0A1525;
+ font-family: "Bree serif";
+ font-size: 30px;
+}
+.nxtCrowd-services-description{
+ color: #1E293B;
+ font-family: "Roboto";
+ font-size: 15px;
+ margin-bottom: 20px;
+}
+.card-image-1{
+ width: 80%;
+ height: 25%;
+ border-radius: 20px;
+}
+.services-card-1{
+ margin-bottom: 20px;
+}
+.services-card-1-heading{
+ font-size: 15px;
+ font-family: "Roboto";
+ color: black;
+}
+.services-card-1-description{
+ font-size: 15px;
+ font-family: "Roboto";
+ color: #1E293B;
+}
+
+.services-card-2-heading{
+ font-size: 20px;
+ font-family: "Roboto";
+ color: black;
+}
+.services-card-2-description{
+ font-size: 15px;
+ font-family: "Roboto";
+ color: #1E293B;
+}
+.card-image-2{
+ width: 80%;
+ height: 25%;
+ border-radius: 20px;
+}
+.services-card-3-heading{
+ font-size: 20px;
+ font-family: "Roboto";
+ color: black;
+}
+.services-card-3-description{
+ font-size: 15px;
+ font-family: "Roboto";
+ color: #1E293B;
+}
+.card-image-3{
+ width: 80%;
+ height: 25%;
+ border-radius: 20px;
+}
+/* contact-us-section-styles-css */
+.contact-us-section{
+  height: 100vh;
+  text-align: center;
+}
+.contact-us-heading{
+  font-size: 20px;
+  font-family: "Times New Roman";
+  
+}
+.contact-us-description{
+  font-size: 15px;
+  font-family: "Roboto";
+}
+span{
+  color: red;
+}
+.styling{
+  font-size: 20px;
+  font-family: "Roboto";
+  color: black;
+  font-weight: bold;
+  margin-right: 70px;
+}
+.contact-us-button{
+  background-color: yellow;
+  border: 0px solid;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+}
+
+/* footer-section-css-styles */
+footer{
+  background-color: #1E293B;
+  padding: 20px;
+}
+.footer-logo{
+  height: 70px;
+  width: 80px;
+  border-radius: 50px;
+}
+.footer-description{
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto";
+}
+.icons-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.logo{
+height: 30px;
+width: 50px;
+color: white;
+} 
+.foot-heading-style{
+font-size: 20px;
+color: white;
+font-weight: bold;
+margin-bottom: 10px;
+
+}
+.foot-li{
+list-style-type: none;
+padding: 5px;
+color: white;
+}
+.footer-container-1{
+display: flex;
+flex-direction: row;
+margin-bottom: 20px;
+}
+.styles-con{
+color: white;
+font-size: 15px;
+font-family: "Roboto";
+}
+.footer-ending{
+color: white;
+font-size: 15px;
+font-family: "Roboto";
+}

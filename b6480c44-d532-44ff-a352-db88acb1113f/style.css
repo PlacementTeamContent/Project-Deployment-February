@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    width: 100vw;
+
+}
+
+.x {
+    font-family: "Bree Serif";
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.span {
+    color: red;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    display: flex;
+    padding: 10px;
+    width: 100vw;
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    font-weight: bold;
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .place {
+        align-items: center;
+        text-align: left;
+    }
+}
+
+.btn {
+    background-color: #6C63FF;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 30vw;
+    height: 5vh;
+    font-family: "Bree Serif";
+    color: #FFFFFF;
+}
+
+.b {
+    text-align: center;
+}
+
+.bg-2 {
+    font-family: "Bree Serif";
+}
+
+.c {
+    padding: 10px;
+}
+
+.img1 {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.bg-3 {
+    background-color: #dfe3eb;
+    font-family: "Bree Serif";
+    padding: 10px;
+}
+
+.bc {
+    text-align: center;
+}
+
+.card-container {
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-radius: 3px;
+    height: 5vh;
+    border-style: solid;
+    border-color: gray;
+}
+
+.card-container1 {
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-radius: 3px;
+    height: 26vh;
+    border-style: solid;
+    border-color: gray;
+}
+
+.btn1 {
+    background-color: #6C63FF;
+    border-radius: 3px;
+    width: 80vw;
+    margin: 3px;
+    border-width: 0px;
+    color: #FFFFFF;
+    height: 6vh;
+    font-family: "Bree Serif";
+}
+
+.bg-4 {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+}
+
+@media(max-width:991px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.q {
+    display: flex;
+    flex-direction: row;
+}
+
+.d {
+    padding: 5px;
+    margin: 3px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.span1 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: "Bree Serif";
+}
+
+.footer_para {
+    font-size: 10px;
+}
+
+.xyz {
+    display: flex;
+    flex-direction: column;
+}
+
+.marg {
+    margin: 40px;
+}

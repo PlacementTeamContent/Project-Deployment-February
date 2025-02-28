@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.back{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+  padding: 35px;
+}
+.head{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 40px;
+}
+.para{
+   color: #ffffff;
+    font-family: "roboto";
+    font-size: 20px;
+}
+button{
+    color: #ffffff;
+    background-color: #ffd700;
+    border-radius: 7px;
+    border-width: 0px;
+    width: 100px;
+    height: 30px;
+}
+.button1{
+    color: #ffffff;
+    background-color: #ffd700;
+    border-radius: 7px;
+    border-width: 0px;
+    width: 950px;
+    height: 40px;
+}
+.card{
+    font-family: "roboto";
+}
+.d-flex{
+    display: flex;
+    padding: 20px;
+}
+.img1{
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+.card-img{
+    border-radius:20px;
+}
+.card-para{
+    width: 250px
+   
+}
+.para1{
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.head1{
+    text-align: center;
+    
+}
+.back1{
+    background-color: ;
+    height: 65vh;
+    width: 100vw;
+    
+}
+.back4{
+    background-color:#1e293b;
+    height: 30vh;
+    width: 110vw;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    padding: 110px;
+    
+    padding-top:20px ;
+}
+.center{
+    text-align: center;
+}
+.center1{
+    text-align: center;
+}
+.input{
+    width: 500px;
+    border-color: black;
+    
+}
+.img3{
+    padding: 100px;
+}
+.input1{
+    width: 200px;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+.input3{
+    width: 700px;
+    height: 300px;
+    border-color: black;
+}
+.back2{
+    
+    height: 50vh;
+    width: 100vw;
+}

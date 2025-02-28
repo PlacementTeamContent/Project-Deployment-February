@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+a {
+    padding: 20px;
+    text-align: end;
+    font-weight: bold;
+    color: white;
+
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.para {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card {
+    background-color: #4B84F3;
+    border-color: #4B84F3;
+    color: white;
+}
+
+.bg-container {
+    text-align: center;
+    background-color: white;
+}
+
+.h {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img {
+    height: 150px;
+    width: 200px;
+    border-width: 10px;
+}
+
+.con {
+    background-color: #dfe3eb;
+    text-align: center;
+}
+
+.N {
+    background-color: #0A1525;
+    text-align: center;
+}

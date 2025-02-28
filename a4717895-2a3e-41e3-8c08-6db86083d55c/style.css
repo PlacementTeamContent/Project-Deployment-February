@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.n_nav {
+    background-color: black;
+    background-size: cover;
+    display: flex;
+
+}
+
+.log {
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.n_p {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.n_a {
+    color: white;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: auto;
+    margin: auto;
+
+}
+
+.nxt {
+    display: flex;
+
+}
+
+.n_a {
+    margin-right: 20px;
+}
+
+.fa-bars {
+    color: white;
+
+}
+
+.m_b {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    background-size: cover;
+    height: 50vh;
+    padding-top: 40px;
+}
+
+.m_h {
+    color: white;
+    font-family: roboto;
+}
+
+.m_p {
+    padding: 80px;
+    padding-left: 300px;
+    align-items: center;
+
+}
+
+.m_p1 {
+    color: #ffffff;
+}
+
+.m_bu {
+    background-color: #f6B352;
+    border-color: #f6B352;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.n_our {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.our_h {
+    font-family: roboto;
+}
+
+.our_p {
+    font-family: roboto;
+}
+
+.o_img {
+    display: flex;
+    align-items: center;
+}
+
+.mm {
+    height: 20vh;
+    width: 20vh;
+    padding-left: 10px;
+    margin: auto;
+
+}
+
+.con {
+    background-color: #dfe3eb;
+    height: 73vh;
+    background-size: cover;
+
+}
+#na{
+    width: 280px;
+    height: 30px;
+    align-content: center;
+}
+.con_co{
+    color: black;
+    text-align: center;
+    align-content: center;
+    padding-left: 100px;
+}
+.con_p1{
+    text-align: center;
+}
+#na1{
+    height: 30px;
+    width: 280px;
+    align-content: center;
+}
+.con_d{
+ display: flex;  
+ padding-left: 50px;
+}
+#na2{
+     height: 30px;
+    width: 280px;
+}
+.hh{
+    padding-left: 150px;
+}
+#na3{
+     height: 100px;
+    width: 280px;
+}
+.bb{
+    margin-left: 150px;
+    width: 28vh;
+    background-color: #f6B352;
+    color: white;
+    border-color: #f6B352;
+}
+.foot{
+    background-color: #1E293b;
+    height: 50vh;
+    background-size: cover;
+}
+.ll{
+    height: 50px;
+    padding-top: 20px;
+}
+.fl{
+    padding-left: 50px;
+    
+}
+.ll1{
+    color: white;
+    padding-right: 180px;
+}
+.font{
+    display: flex;
+}
+.bi{
+    color: white;
+    margin-right: 10px;
+}
+.tt{
+    color: white;
+}
+.xx{
+    display: flex;
+}

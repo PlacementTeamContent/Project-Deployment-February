@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    display: flex;
+    padding-left: 30px;
+    background-color: #0A1525;
+    color: white;
+    
+    
+} 
+.logo{
+    height:50px;
+    margin-right: 550px;
+   
+    
+    
+}
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 300px;
+    /* width: 700px; */
+    background-size: cover;
+    color:white;
+    font-weight:bold ;
+    text-align: center;
+    padding-top: 60px;
+    font-family: "Roboto";
+}
+.btn{
+    border-radius:10px ;
+    border-width: 0px;
+    background-color:#FFD700 ;
+    height: 40px;
+    width: 90px;
+    color: #FFFFFF;
+}
+
+.our-services{
+    text-align: center;
+    margin-top:20px ;
+    font-family:"Bree Serif";
+    padding : 20px;
+}
+.fl{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+.image{
+    /* width:200px; */
+    padding: 15px;
+
+}
+.img{
+    height:120px;
+    border-radius:10px ;
+    width: 200px; 
+}
+.input{
+    text-align: center;
+    background-color:lightgray ;
+    /* width: 700px; */
+}
+.input-btn{
+    border-radius:10px ;
+    border-width: 0px;
+    background-color:#FFD700 ;
+    height: 40px;
+    width: 700px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+    
+}
+@madia quiers{
+    
+}
+   
+    
+
+.footer{
+    padding: 20px;
+    
+    background-color: #1E293B;
+    color: white;
+}

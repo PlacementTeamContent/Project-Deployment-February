@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar-item{
+    background-color:#0A1426 ;
+    height: 100px;
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+     color: #ffffff;
+    font-family: Bree Serif;
+}
+ .image{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:400px ;
+    
+ }
+ .a{
+    margin: 15px; 
+    
+ }
+.imggg{
+    height:70px ;
+}
+.main-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-size: 40px;
+    
+    padding-right: 500px;
+    
+    
+}
+.page{
+    width: 900px;
+    margin-left:100px ;
+}
+
+
+.button {
+    margin-right:600px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+    height: 60px;
+    width: 120px;
+    color: #ffffff;
+    background-color: #4A90E2;
+    border-radius: 7px;
+    border: 2px solid transparent;
+}
+
+.container-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-size: 40px;
+    text-align: center;
+    font-family: Bree Serif;
+}
+.container-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.imgg{
+    height: 160px;
+    width: 170px;
+    border-radius: 5px;
+    
+}
+.health-monitoring{
+    padding: 5px;
+    font-size: 15px;
+}
+.para{
+    color: #e0dfdc;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+.contact{
+    background-color:#e0dfdc ;
+}
+.input{
+         display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+   
+    height: 40px;
+}
+.About-your{
+    margin-bottom: 0px;
+     margin-right:400px ;
+}

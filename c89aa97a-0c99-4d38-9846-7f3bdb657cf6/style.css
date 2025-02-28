@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    height: 75vh;
+    font-size: 18px;
+}
+.card1{
+    text-align: left;
+    padding: 70px;
+    color: white;
+    margin-top:20px ;
+    font-family: Bree Serif;
+}
+.btn{
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.ourservices{
+    height: 75vh;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+.cards{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.card{
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+}
+.image{
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+}
+.para{
+    color: darkgrey;
+}
+.contactus{
+    height: 75vh;
+    background-color: #dfe3eb;
+    padding: 25px;
+}
+.header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #4B84F3;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}

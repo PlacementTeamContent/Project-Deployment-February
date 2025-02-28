@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    background-image:url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.nav{
+    background-color: #0A1525;
+    padding: 20px;
+     display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.img{
+    height: 70px;
+}
+.logo-section{
+    color: #ffffff;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.nav-items{
+    color: #ffffff;
+     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.content-home{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+  height: 100vh;
+}
+.head{
+    font-size: 50px;
+   font-family: "Bree Serif"; 
+
+}
+.para{
+   font-family: "Bree Serif"; 
+}
+.button{
+    background-color: #8B5CF6;
+    color: #ffffff;
+    border-color:#8B5CF6 ;
+    border-radius: 10px;
+}
+.container-2{
+    background-color: #ffffff;
+    height: 70vh;
+}
+.content-sevices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-services{
+    font-size: 50px;
+}
+.img-services{
+    height: 150px;
+    border-radius: 20px;
+}
+.services-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.items-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.container-3{
+    background-color:#dfe3eb ;
+    height: 80vh;
+}
+.content-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-contact{
+    font-size: 40px;
+}
+.box-name{
+    height: 20px;
+    width: 500px;
+   border-color: #0A1525;
+   background-color: #ffffff;
+   margin: 20px;
+     border-radius: 10px;
+}
+.item-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name-self{
+    display: flex;
+    align-self: center;
+}
+.item-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box-email{
+  height: 20px;
+    width: 220px;
+   border-color: #0A1525;
+   background-color: #ffffff;
+   margin: 20px; 
+   display: flex;
+    gap: 20px;
+    border-radius: 10px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-mess{
+   height: 100px;
+    width: 500px;
+   border-color: #0A1525;
+   background-color: #ffffff;
+   margin: 20px;
+     border-radius: 10px;
+}
+.items-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-contact{
+   background-color: #8B5CF6;
+    color: #ffffff;
+    border-color:#8B5CF6 ;
+    border-radius: 10px;
+    width: 490px;
+}
+.container-4{
+    background-color:#1E293B ;
+    height: 100vh;
+    color: #ffffff;
+    padding: 20px;
+}
+.iconss{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+.last{
+    display: flex;
+    gap: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+@media (orientation:protrait),(max-width:786px){
+    .nav-items{
+    
+     display: none;
+    
+}
+.content-home{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: flex-start;
+  height: 100vh;
+}
+.items-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-2{
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.container{
+    background-image:url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+.last{
+    display: flex;
+
+    gap: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+}

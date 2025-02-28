@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.cont{
+height: 100vh;
+width: 100vh;
+}
+.header{
+    background-color: #1E293B;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    padding-left:20px;
+    color: #ffffff;
+    
+}
+.imgl{
+    height: 70px;
+    width:70px;
+}
+.nxt{
+    font-family: "Roboto";
+}
+.options{
+    display: flex;
+    color: #ffffff;
+}
+.About{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main{
+   height: 70vh;
+   width: 100%;
+    background-size: cover;
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg;");
+}
+.info{
+    color: #ffffff;
+   height: 50%;
+   width: 70%;
+    
+}
+.infoo{
+margin-left:30%;
+padding-top: 40%;
+}
+.exp{
+    font-family: "Roboto";
+    font-size: 40px;
+}
+.dis{
+    font-size: 30px;
+}
+.us{
+    background-color:#6c63ff;
+    border-width: 0px;
+    border-radius:5px;
+    height: 50px;
+    width: 130px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.we{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.img1{
+    height: 150px;
+    width: 170px;
+    border-radius:10px;
+}
+.cloud{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ourr{
+    font-size: 15px;
+}
+.bac{
+    background-color: #dfe3eb;
+}
+.form{
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.ford{
+   
+    display: flex;
+}
+.num1{
+    
+    width: 190px;
+}
+
+.forj{
+    display: flex;
+    flex-direction: column;
+margin-right: 10%;
+}
+.num2{
+    height: 150px;
+}
+.red{
+    color: red;
+}
+.let{
+ background-color:#6c63ff;
+    border-width: 0px;
+    border-radius:5px;
+    margin-top:20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.endp{
+    color: #ffffff;
+}
+.para{
+    font-weight: bold;
+    color: #ffffff;
+}
+.footer{
+    background-color: #1e293b;
+    padding: 10%;
+}
+.infor{
+   display: flex;
+   flex-direction: row;
+}
+.end1{
+    margin: 20px;
+}
+@media screen and (max-width:576px){
+    .card{
+        margin:20%;
+}
+}

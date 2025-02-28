@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    margin:0px ;
+}
+@media (min-width:576px) and (max-width:768px){
+    .navbar-container{
+    background-color:#0A1525 ;
+    height:80px;
+    
+}
+.main-icon{
+    height:50px;
+    margin-top:10px;
+}
+.nav-maincontainer{
+    display:flex ;
+    justify-content:space-around;
+}
+.navbar-items{
+    margin-top:10px;
+    color:white;
+    display:flex ;
+    margin-left:10px;
+    justify-content:space-between ;
+}
+.nav-items{
+    margin-left:20px ;
+}
+.page-maincontainer{
+    margin-top:0px;
+    background-image:url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg") ;
+    height:100vh ;
+    background-size:cover;
+}
+.content-head-1{
+    color:white;
+    margin-left:10px;
+}
+.btn-1{
+    height:50px;
+    width: 100px;
+    background-color:#6C63FF ;
+    color:white;
+    border-radius:5px;
+    margin-left:10px;
+    
+}
+.page-maincontainer{
+    display:flex ;
+    flex-direction: column;
+    justify-content:center ;
+}
+.card-1{
+    margin-top:5px;
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+.card-content{
+    margin-left:10px ;
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+.card-display{
+    display:flex;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+.card-para{
+    margin-top:0px;
+}
+.card-img{
+    height:250px;
+    border-radius:5px;
+}
+.item-description{
+    margin-left:10px;
+}
+.contactus-section{
+    background-color:#dfe3eb ;
+    height:100vh;
+}
+.contactus-section-description{
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+
+    
+}
+
+.Name-card{
+  margin:15px;  
+    
+    
+}
+.name-card-space{
+    background-color:white ;
+    height:30px;
+    margin:15px;
+    border-radius:5px;
+    border-color:grey;
+    border-width:1px;
+    border-style:solid;
+    
+}
+.Messages-card{
+  margin:15px;  
+    
+    
+}
+.messages-card-space{
+    background-color:white ;
+    height:150px;
+    margin:15px;
+    border-radius:5px;
+    border-color:grey;
+    border-width:1px;
+    border-style:solid;
+    
+}
+.details-button-container{
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+.btn-2{
+    margin-top:20px;
+    height:50px;
+    background-color:#6C63FF ;
+    color:white ;
+    width:90vw;
+    border-radius:5px;
+}
+.bottom-container{
+    background-color:#1E293B ;
+    height:80vh;
+}
+.img-3{
+    height:50px;
+    margin:10px;
+}
+.bottom-para{
+    color:white;
+}
+    
+}
+    
+
+@media (min-width:992px) and (max-width:1200px){
+    .navbar-container{
+    background-color:#0A1525 ;
+    height:80px;
+    
+}
+.main-icon{
+    height:50px;
+    margin-top:10px;
+}
+.nav-maincontainer{
+    display:flex ;
+    justify-content:space-around;
+}
+.navbar-items{
+    margin-top:10px;
+    color:white;
+    display:flex ;
+    margin-left:10px;
+    justify-content:space-between ;
+}
+.nav-items{
+    margin-left:20px ;
+}
+.page-maincontainer{
+    margin-top:0px;
+    background-image:url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg") ;
+    height:100vh ;
+    background-size:cover;
+}
+.content-head-1{
+    color:white;
+    margin-left:10px;
+}
+.btn-1{
+    height:50px;
+    width: 100px;
+    background-color:#6C63FF ;
+    color:white;
+    border-radius:5px;
+    margin-left:10px;
+    
+    
+}
+.page-maincontainer{
+    display:flex ;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center ;
+}
+.card-1{
+    margin-top:5px;
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+} 
+.total-card-container{
+    display:flex;
+    flex-direction:row ;
+    align-items:center ;
+}
+.card-content{
+    margin-left:10px ;
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+.card-para{
+    margin-top:0px;
+}
+.card-display{
+    display:flex;
+}
+.card-img{
+    height:250px;
+    border-radius:5px;
+}
+.item-description{
+   /*  margin-left:10px; */
+}
+.contactus-section{
+    background-color:#dfe3eb ;
+    height:100vh;
+}
+.contactus-section-description{
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+
+    
+}
+
+.Name-card{
+  margin:15px;  
+    
+    
+}
+.name-card-space{
+    background-color:white ;
+    height:30px;
+    margin:15px;
+    border-radius:5px;
+    border-color:grey;
+    width:90vw;
+    border-width:1px;
+    border-style:solid;
+    flex-shrink: 0;
+    flex-grow:1;
+    
+}
+.Email-card{
+  margin:15px;  
+    
+    
+}
+.Email-card-space{
+    background-color:white ;
+    height:30px;
+    margin:15px;
+    width:50vw;
+    border-radius:5px;
+    border-color:grey;
+    border-width:1px;
+    border-style:solid;
+    
+}
+
+.phone-card-space{
+    background-color:white ;
+    height:30px;
+    margin:15px;
+    border-radius:5px;
+    border-color:grey;
+    width:50vw;
+    border-width:1px;
+    border-style:solid;
+    flex-shrink: 0;
+    flex-grow:1;
+    
+}
+.both-card-holder{
+    display:flex ;
+}
+.Messages-card{
+  margin:15px;  
+    
+    
+}
+.messages-card-space{
+    background-color:white ;
+    height:150px;
+    margin:15px;
+    border-radius:5px;
+    border-color:grey;
+    border-width:1px;
+    border-style:solid;
+    
+}
+.details-button-container{
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+.btn-2{
+    margin-top:20px;
+    height:50px;
+    background-color:#6C63FF ;
+    color:white ;
+    width:90vw;
+    border-radius:5px;
+}
+.bottom-container{
+    background-color:#1E293B ;
+    height:80vh;
+}
+.img-3{
+    height:50px;
+    margin:10px;
+}
+.bottom-para{
+    color:white;
+}
+    
+}

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.main-sec {
+    height: 100%;
+    width: 100%;
+}
+
+.task-manag-sec {
+    font-size: 20px;
+    margin: 50px;
+    color: white;
+    font-family: Bree Serif;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.btn-1 {
+    color: white;
+    background-color: #8B5CF6;
+    /* text-align: center; */
+    font-size: 10px;
+    padding: 7px;
+    border: solid;
+    border-color: #8B5CF6;
+    border-radius: 5px;
+}
+
+.img-1 {
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+}
+.imges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-sec{
+    text-align: center;
+}
+.contact-sec{
+    background-color: #dfe3eb;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.star{
+    color: orange;
+}
+.empty-blank{
+    background-color: white;
+    height: 20px;
+    width:450px;
+}
+.empty-blank-1{
+    background-color: white;
+    height: 20px;
+    width:200px;
+}
+.empty-blank-2{
+    background-color: white;
+    height: 150px;
+    width:450px;
+}
+.btn-2{
+    color: white;
+    background-color: #8B5CF6;
+    /* text-align: center; */
+    font-size: 10px;
+    padding: 7px;
+    border: solid;
+    border-color: #8B5CF6;
+    border-radius: 5px;
+    height: 30px;
+    width:450px;
+}
+.icon-sec{
+    background-color: #1e293B;
+    padding: 20px;
+}
+.img-2{
+    height: 100px;
+    width: 100px;
+}
+.icon-cont{
+    color: white;
+}
+.bi{
+    color: white;
+    padding-right: 10px;
+}
+.cont{
+    color: white;
+}
+.nav{
+    background-color: #0A1525;
+}
+.icon-img{
+    height: 50px;
+    width: 50px;
+}
+.icon-para{
+    color: white;
+}

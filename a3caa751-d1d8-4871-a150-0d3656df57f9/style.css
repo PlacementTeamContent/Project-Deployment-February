@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    height:300vh;
+    width:80vh;
+    background-color:#FFFFFF;
+    padding:0px;
+}
+.navbar{
+    height:10vh;
+    width:60vh;
+    background-color:#1E293B;
+}
+.img1{
+    height:30px;
+    width:30px;
+    padding:20px;
+}
+.card1{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+    height:40vh;
+    width:60vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    text-align:left;
+}
+.heading1{
+    color:#FFFFFF;
+    font-family:"Bree serif";
+    font-weight:100;
+}
+.para1{
+    color:#FFFFFF;
+    font-family:"Bree serif";
+    font-weight:100;
+}
+.bg-info{
+    background-color:#FFD700;
+    border-radius:14px;
+    border-width:0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-self:flex-start;
+    color:#FFFFFF;
+    
+}
+.bottom-section{
+    height:155vh;
+    width:60vh;
+    margin:22px;
+}
+.head2{
+    font-family:"Bree serif";
+    font-weight:100;
+}
+.para2{
+    font-family:"Bree serif";
+   
+}
+.img2{
+    height:20vh;
+    width:40vh;
+    border-radius:22px;
+    padding:22px;
+}
+.head3{
+    font-family:"Bree serif";
+    font-weight:100;
+    font-size:22px;
+}
+.para3{
+    font-family:"Bree serif";
+
+}
+.container2{
+    background-color:lightgray;
+    height:90vh;
+    width:60vh;
+}
+.h{
+    color:black;
+    text-align:center;
+}
+.h56{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-self:flex-start;
+    
+}
+.para4{
+    margin:10px;
+    font-size:15px;
+    
+}
+.para4::after{
+    content:"* ";
+    color:red;
+}
+.ph{
+ height:5vh;
+ width:45vh;
+ background-color:#FFFFFF;
+ margin:20px;
+ border-radius:8px;
+}
+.ph3{
+    height:10vh;
+    width:45vh;
+    background-color:#FFFFFF;
+    margin:20px;
+    border-radius:8px;
+    border-color:lightgray;
+    border-width:3px;
+}
+.btn{
+    height:5vh;
+    width:45vh;
+    background-color:#FFD700;
+    color:#FFFFFF;
+    border-width:0px;
+    margin:20px;
+}
+.footer{
+    height:55vh;
+    width:60vh;
+    background-color:#1E293B;
+}
+.para10{
+    color:#FFFFFF;
+    padding:10px;
+} 
+.icons{
+    color:#FFFFFF;
+    padding:20px;
+    height:30px;
+}
+.section4{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-self:flex-start;
+    
+}
+.sect1{
+    color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+}
+.sect2{
+    color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    
+}
+h1{
+    font-size:20px;
+}
+.paragraph{
+    color:#FFFFFF;
+    font-size:22px;
+}
+@media screen and (min-width:992px){
+    .navbar{
+    height:10vh;
+    width:150vh;
+    background-color:#1E293B;
+}
+    .hr{
+        display:flex;
+        flex-direction:row;
+        
+    }
+    .card1{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+    height:30vh;
+    width:150vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    text-align:left;
+    font-size:33px;
+    }
+    .heading1{
+    color:#FFFFFF;
+    font-family:"Bree serif";
+    font-weight:100;
+    font-size:33px;
+   }
+    .para1{
+    color:#FFFFFF;
+    font-family:"Bree serif";
+    font-weight:100;
+    font-size:33px;
+     }
+     .bottom-section{
+    height:40vh;
+    width:60vh;
+    margin:22px;
+    }
+    .container2{
+    background-color:lightgray;
+    height:90vh;
+    width:150vh;
+  }
+  .h{
+    color:black;
+    text-align:center;
+    font-size:20px;
+  }
+.h56{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-self:flex-start;
+    
+}
+.para4{
+    margin:10px;
+    font-size:30px;
+    
+    
+}
+.para4::after{
+    content:"* ";
+    color:red;
+}
+.ph{
+ height:5vh;
+ width:70vh;
+ background-color:#FFFFFF;
+ margin:20px;
+ border-radius:8px;
+}
+.ph3{
+    height:10vh;
+    width:70vh;
+    background-color:#FFFFFF;
+    margin:20px;
+    border-radius:8px;
+    border-color:lightgray;
+    border-width:3px;
+  }
+.btn{
+    height:5vh;
+    width:70vh;
+    background-color:#FFD700;
+    color:#FFFFFF;
+    border-width:0px;
+    margin:20px;
+    }
+    .footer{
+    height:50vh;
+    width:150vh;
+    background-color:#1E293B;
+    }
+    .section4{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-self:flex-start;
+    padding:0px;
+    
+}
+}

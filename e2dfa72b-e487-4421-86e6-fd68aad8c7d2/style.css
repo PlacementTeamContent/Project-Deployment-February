@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.nav {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    width: 100vw;
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.first {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: Roboto;
+    padding: 30px;
+}
+
+.button1 {
+    background-color: #6C63FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 30px;
+    border-width: 0px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    font-family: Bree Serif;
+    color: #0A1525;
+    align-items: center;
+    justify-content: center;
+}
+
+.boox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #dfe3eb;
+}
+
+.para {
+    color: #1E293B;
+}
+
+.third {
+    background-color: #dfe3eb;
+    font-family: Bree Serif;
+    color: #0A1525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.star {
+    color: red;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.button2 {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button3 {
+    width: 650px;
+    height: 50px;
+    background-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.button4 {
+    width: 650px;
+    height: 250px;
+    background-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.buttonn {
+    background-color: #6C63FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 40px;
+    width: 650px;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+.last {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    padding: 20px;
+}
+
+.abc {
+    display: flex;
+}
+
+.paral {
+    font-weight: normal;
+}
+
+.xyz {
+    text-decoration: underline;
+}
+
+.lasttt {
+    font-size: 10px;
+    padding: 10px;
+}

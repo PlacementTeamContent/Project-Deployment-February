@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    text-align: center;
+}
+.cont1{
+    background-color: #0A1525;
+    height:10vh;
+    display:flex;
+    flex-direction: row;
+    color:#ffffff;
+}
+.image{
+    height:40px;
+    width:50px;
+    margin:15px;
+}
+.para{
+    font-weight: bold;
+    margin-top:30px;
+}
+.icon1{
+    margin-top:27px;
+    margin-left:370px;
+}
+.cont2{
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size:cover;
+    height:90vh;
+}
+.con1{
+    text-align: left;
+    padding-top:130px;
+    padding-left:30px;
+}
+.head{
+    color:white;
+    font-family: "Bree Serif";
+    font-size: 45px;
+}
+.para2{
+    color:white;
+    font-size:20px;
+}
+.btn{
+    background-color:#4B9EFF;
+    border-style:none;
+    border-radius:5px;
+    height:35px;
+    color:white;
+    font-family: "Bree Serif";
+}
+.contact{
+    font-weight:bold;
+}
+.para3{
+    color:grey;
+}
+.con2{
+    text-align: left;
+   margin-left:30px;
+   margin-bottom:100px;
+}
+.conimage{
+    height:250px;
+    width:450px;
+    margin-left:5px;
+    border-radius:10px;
+}
+.cont4{
+    background-color: #dfe3eb;
+    height:100vh;
+}
+.head3{
+    font-weight:bold;
+    
+}
+.para4{
+    font-weight:bold;
+    color:grey;
+}
+.con5{
+    text-align: left;
+    margin-left:30px;
+    margin-top:50px;
+}
+.span1{
+    color:red;
+}
+.box{
+    background-color: white;
+    width:80vw;
+    height:5vh;
+    border-radius:5px;
+}
+.box2{
+     background-color: white;
+    width:80vw;
+    height:25vh;
+    border-radius:5px;
+}
+.btn2{
+    background-color:#4B9EFF;
+    border-style:none;
+    border-radius:5px;
+    height:35px;
+    width:80vw;
+    margin-top:20px;
+    color:white;
+    font-family: "Bree Serif";
+}
+.cont5{
+    background-color: #1e293b;
+    height:60vh;
+    text-align: left;
+}
+.para5{
+    color:grey;
+    margin-left:20px;
+}
+.con6{
+    color: white;
+    margin-left:20px;
+}
+.con7{
+    display:flex;
+    flex-direction: row;
+}
+.con8{
+    margin-left:20px;
+}  
+.para8{
+    color:grey;
+}
+.h2{
+     color:white;
+}
+.con9{
+    margin-left:150px;
+}
+.span2{
+    text-decoration: underline;
+}
+.para9{
+    color:grey;
+    margin-top:100px;
+    margin-left:20px;
+}

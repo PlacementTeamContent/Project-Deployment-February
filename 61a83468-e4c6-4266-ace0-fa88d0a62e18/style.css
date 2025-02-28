@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1426;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 120vw;
+}
+.logo{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.navbar h1 {
+    color: white;
+    
+}
+
+.listt {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+
+.listt li  {
+    margin: 10px;
+}
+.listt i  {
+    margin: 10px;
+}
+
+.nav-img {
+    height: 60px;
+    padding: 13px;
+}
+
+.main-page {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size: cover;
+    width: 110vw;
+    height: 40vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+
+.main-page button {
+    background-color: #4A90E2;
+    height: 30px;
+    width: 120px;
+    border-color: #4A90E2;
+    border-radius: 8px;
+    color: #ffffff;
+
+}
+
+.main-page p {
+    font-size: 20px;
+}
+.our-services{
+    width: 120vw;
+}
+.Middle-page-text {
+    color: #000000;
+    text-align: center;
+}
+
+.Card img {
+    height: 230px;
+    border-radius: 30px;
+}
+
+.Card {
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+span{
+    color: red;
+}
+input{
+    width: 50vw;
+    height: 25px;
+    border-radius: 5px;
+}
+.credentials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1E293B;
+    font-family:  bold;
+}
+.Contact-us{
+    background-color: #e0dfdc;
+    width: 120vw;
+}
+.message{
+    height: 8vh;
+}
+.credentials button{
+    background-color: #4A90E2;
+    height: 30px;
+    width: 120px;
+    border-color: #4A90E2;
+    border-radius: 8px;
+    color: #ffffff;
+    margin: 10px;
+    width: 52vw;
+}
+.footer img{
+    height: 60px;
+}
+h3{
+    font-size: bold;
+}
+.last-menu{
+    display: flex;
+    flex-direction: row;
+}
+.ending{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+.footer{
+    background-color: #0A1426;
+    padding: 10px;
+    width: 120vw;
+}
+.con{
+    height: 70px;
+    width: 140px;
+    padding: 20px;
+}
+.social-media{
+    width:400px;
+    padding: 22px;
+}
+.under{
+    color: #ffffff;
+    font-size: 10px;
+}

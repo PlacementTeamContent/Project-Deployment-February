@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.hokage {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.h1 {
+    color: white;
+    font-family: bree serif;
+    font-size: 10vh;
+}
+
+.p1 {
+    color: white;
+    font-family: bree serif;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: #4B9EFF;
+    color: white;
+    font-size: 20px;
+    border-color: transparent;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.h2 {
+    color: #0A1525;
+    text-align: center;
+    font-family: bree serif;
+}
+
+.p2 {
+    color: #0A1525;
+    text-align: center;
+    font-family: bree serif;
+}
+
+.image {
+    height: 20vh;
+    width: 30vw;
+    border-radius: 15px;
+}
+
+.card {
+    width: 30vw;
+    height: auto;
+}
+
+.mizukage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-wrap: normal;
+    justify-content: space-evenly;
+
+}
+
+.eren {
+    font-weight: bold;
+    font-family: bree serif;
+}
+
+@media screen and (max-width:768px) {
+    .mizukage {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-wrap: normal;
+        justify-content: space-evenly;
+    }
+}
+
+.raikage {
+    background-color: #dfe3eb;
+    background-size: cover;
+    width: 100vw;
+}
+
+.h3 {
+    color: #1E293B;
+    font-family: bree serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.p3 {
+    color: #1E293B;
+    text-align: center;
+    text-wrap: normal;
+}
+
+.armin {
+    font-weight: bold;
+    font-family: bree serif;
+    text-align: center;
+}
+
+.input {
+    width: 80vw;
+    height: 20px;
+    margin: 10px;
+}
+
+.input1 {
+    width: 40vw;
+    height: 20px;
+    margin: 10px;
+}
+
+.conny {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.text {
+    height: 20vh;
+    width: 60vw;
+    margin-bottom: 10px;
+}
+
+.john {
+    width: 80vw;
+    height: 55px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .armin {
+        font-weight: bold;
+        font-family: bree serif;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conny {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input1 {
+        width: 80vw;
+        height: 20px;
+        margin: 10px;
+    }
+
+    .text {
+        height: 20vh;
+        width: 60vw;
+        align-self: center;
+    }
+
+    .raikage {
+        background-color: #dfe3eb;
+        background-size: cover;
+        width: 100vw;
+        align-content: center;
+    }
+
+    .john {
+        width: 80vw;
+        height: 20px;
+        align-self: center;
+    }
+
+    .input {
+        width: 80vw;
+        height: 20px;
+        margin: 10px;
+        align-self: center;
+    }
+}
+
+.zeke {
+    background-color: #0A1525;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.levi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image1 {
+    height: 10vh;
+    width: 15vw;
+}
+
+.p0 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.color {
+    color: white;
+}
+
+.erwin {
+    background-color: #0A1525;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.humanity {
+    width: 10vw;
+    height: 11vh;
+}
+
+.hange {
+    color: white;
+    font-family: bree serif;
+}
+
+.logo {
+    display: flex;
+}
+
+.garbi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.p01 {
+    color: #FFFFFF;
+    margin: 10px;
+    padding-top: 130px;
+    padding-left: 120px;
+}

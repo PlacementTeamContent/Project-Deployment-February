@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.img1{
+    height: 50px;
+    width: 50px;
+}
+.bg-nav{
+    background-color: #0A1525;
+    padding: 10px;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.about-p{
+    display: none;
+}
+.em{
+    display: none;
+}
+
+@media (min-width:768px){
+    .p1{
+        color: white;
+        font-family: Bree Serif;
+        padding-right: 10px;
+    }
+    .img2{
+        width: 100px;
+    }
+    .head1{
+        font-size: 20px;
+    }
+    .con{
+        display: none;
+    }
+    .footer1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer{
+        height: 300px;
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+    }
+    .nav1{
+        display: none;
+    }
+
+   .input7{
+       width: 180px;
+       border-radius: 5px;
+       margin: 10px;
+   }
+   .em{
+       display: flex;
+   }
+    .about-p{
+        display: flex;
+        
+    }
+    .bg-nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+.head1{
+    color: white;
+    font-family: Bree Serif;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.nav-brand{
+    display: flex;
+    flex-direction: row;
+}
+.nav1{
+    background-color: white;
+    height: 20px;
+    align-self: center;
+    cursor: pointer;
+}
+.bottom{
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.head1{
+    color: white;
+    font-family: Bree Serif;
+}
+.para1{
+    color: white;
+    font-family: Bree Serif;
+}
+.btn1{
+    background-color: #6c63FF;
+    height: 34px;
+    width: 120px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.head2{
+    color: black;
+    font-family: Bree Serif;
+    text-align: center;
+}
+.para2{
+    color: black;
+    font-weight: normal;
+    font-family: Bree Serif;
+}
+.head3{
+     color: black;
+    font-family: Bree Serif;
+    text-align: left;
+}
+.para3{
+     color: black;
+    font-family: Bree Serif;
+}
+.img2{
+    height: 300px;
+    width: 550px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #dfe3eb;
+    border-style: solid;
+}
+.card1{
+    text-align: center;
+}
+.contact{
+    background-color: #dfe3eb;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head4{
+    color: black;
+    font-family: Bree Serif;
+    text-align: center;
+}
+.para4{
+    color: black;
+    font-family: Bree Serif;
+    text-align: center;
+}
+.para-t{
+    color: black;
+    font-family: Bree Serif;
+}
+.span1{
+    color: red;
+}
+.input1{
+    height: 150px;
+    width: 400px;
+    border-radius: 5px;
+}
+.input2{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn2{
+    background-color: #6c63FF;
+    height: 34px;
+    width: 400px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.img3{
+    height: 50px;
+    width: 50px;
+}
+.footer{
+    background-color: #0A1525;
+    padding: 20px;
+    height: 400px;
+    box-sizing: border-box;
+}
+.para7{
+    color: white;
+    font-family: Bree Serif;
+}
+.icon1{
+    height: 50px;
+    width: 50px;
+}
+.icons{
+    background-color: white;
+    width: 120px;
+}
+.head8{
+    color: white;
+    font-size: 20px;
+    font-family: Bree Serif;
+}
+.para9{
+    color: white;
+    font-family: Bree Serif;
+}
+.contact-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.span2{
+    text-decoration: underline;
+}
+.para10{
+    color: #dfe3eb;
+    font-family: Bree Serif;
+}

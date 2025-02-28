@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: bree Serif;
+}
+
+nav {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options {
+    padding: 30px;
+}
+
+.logo-img {
+    height: 75px;
+    padding-right: 20px;
+}
+
+.box1 {
+    padding: 30px;
+    color: white;
+    max-width: 50vw;
+}
+
+.home-pg {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us {
+    color: white;
+    background-color: #F6B352;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.services{
+    justify-content: center;
+}
+.images{
+    border-radius: 20px;
+}

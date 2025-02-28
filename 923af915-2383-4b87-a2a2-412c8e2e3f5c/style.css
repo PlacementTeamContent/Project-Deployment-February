@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-image: "https://res.cloudinary.com/dg8n2jeur/image/upload/v1739255340/baf70rlj6swxfv3vflmo.png;": background-color: #0A1525;
+    text-decoration-color: white;
+}
+
+.heading1 {
+    background-color: black;
+    font-family: "Bree-serif";
+    font-size: bold;
+    margin: 100px;
+    height: 20px;
+    width: 10px;
+}
+
+.paragraph1 {
+    font-family: "Bree-serif";
+    font-style: #FFFFFF;
+    font-size: bold;
+    margin: 100px;
+    height: 100vh;
+    width: 20px;
+
+    .button {
+        font-family: #8B5Cf6 font-size: bold;
+        font-style: "Bree-serif";
+    }
+    
+.paragraph2{
+    font-family: "Bree-serif";
+    font-style: #FFFFFF;
+    font-size: bold;
+    margin: 100px;
+    height: 100vh;
+    width: 20px;
+    }
+.paragraph3{
+    font-family: "Bree-serif";
+    font-family: #FFFFFF;
+    font-weight: bold;
+    margin: 100px;
+    height: 100vh;
+    width: 20px;
+    }

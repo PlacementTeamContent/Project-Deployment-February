@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-container{
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    background-color: black;
+    
+    
+}
+.list{
+    list-style-type: none;
+     display:flex;
+    flex-direction:row; 
+    justify-content: ;
+    color:white;
+   
+}
+.nav-icon{
+    width:15px;
+    height:20px;
+}
+.box1{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    font-family: "Bree Serif";
+    color:white;
+    padding:10px;
+}
+.b1{
+    background-color: orange;
+    border-radius:10px;
+    border-color:orange;
+    width:80px;
+    height:30px;
+    display: flex;
+    align-self: flex-start;
+}
+.context{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+    
+}
+.heading2{
+    color:#1E293B;
+    font-family: "Bree serif";
+
+}
+.p2{
+    color:#1E293B;
+    font-family: "Bree serif";
+}
+.img1{
+    width:350px;
+    height:200px;
+    border-radius: 13px;
+}
+.context2{
+    
+      font-family: "Bree serif";
+      padding:10px;
+      margin:10px;
+}
+.heading3{
+    font-size:20px;
+}
+.contact-section{
+    background-color: #dfe3eb;
+    background-size:cover;
+    
+    
+    font-family: "Bree serif";
+}
+.head{
+    text-align: center;
+    color:#1E293B;
+}
+.para{
+    color:#1E293B;
+    margin:10px;
+}
+.empty-space{
+    height:20px;
+    width:90%;
+    background-color: white;
+    border:solid;
+    border-color:grey;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+}
+.details{
+    padding:10px;
+    color:#1E293B;
+    font-size: 15px;
+}
+.star{
+    color:red;
+}
+.msg-space{
+    height:100px;
+    width:90%;
+    padding:10px;
+    background-color: white;
+    border:solid;
+    border-color:grey;
+    border-radius:10px;
+    padding-bottom: 10px;
+}
+.b{
+   margin:10px;
+   color:white;
+   background-color: orange;
+   display:flex;
+   border-color:orange;
+   border-radius:7px;
+   justify-content: stretch;
+   align-items: stretch;
+}
+.end{
+    margin:10px;
+    background-color:#1E293B;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.end-img{
+    width:30px;
+    height:80px;
+    display: flex;
+    align-self:flex-start;
+    padding:30px;
+}
+.end-para{
+    color:white;
+    font-family: "Bree serif";
+    text-align:center;
+}
+.icons{
+    color: white;
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+    align-content:flex-start;
+    
+}
+i{
+    padding:6px;
+    
+}
+li{
+    list-style-type: none;
+}

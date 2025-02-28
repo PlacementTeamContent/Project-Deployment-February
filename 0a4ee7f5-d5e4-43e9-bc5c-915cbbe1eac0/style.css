@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.a{
+    display :flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    background-color: #0A1525;
+    color:  #FFFFFF;
+}
+.b{
+    margin-left: 50px;
+    max-height: 90px;
+}
+.c{
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 400px;
+    text-align: center;
+    color: #FFFFFF;
+    display:flex;
+    flex-direction: column;
+    align-items:  center;
+    background-size:cover;
+    flex-grow: 0 ;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.d{
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-radius: 300px;
+    height: 30px;
+}
+.e{
+    text-align: center;
+   
+    
+}
+.f{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  
+}
+.g{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    font-family: "Bree Serif";
+    flex-grow: 0 ;
+    flex-shrink: 0;
+    
+    
+   
+}
+.h{
+    background-color: #FFD700;
+    border-radius: 30px;
+    color: #FFFFFF;
+    height: 30px;
+}
+.i{
+    background-color:  #1E293B;
+    color: #FFFFFF;
+    padding:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    margin:0px;
+    
+    
+}
+.j{
+    height: 50px;
+}
+.k{
+    font-family: "Bree Serif";
+}
+.l{
+    height: 100px;
+}
+@media screen and (orientation:landscape){
+    .c{
+        background-size:cover ;
+    }
+}

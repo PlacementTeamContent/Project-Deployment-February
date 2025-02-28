@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    font-family: "Bree Serif";
+}
+
+.main {
+    background-color: #0A1525;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.para1 {
+    padding-left: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: none;
+}
+
+li {
+    padding-right: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+@media screen and (min-width:768px) {
+    ul {
+        display: flex;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .first {
+        padding-left: 90px;
+    }
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.button1 {
+    align-self: flex-start;
+    background-color: #8B5CF6;
+    border-width: 0px;
+    padding: 12px 10px 12px 10px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.head1 {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.para2 {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+@media screen and (min-width:768px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        padding: 100px;
+        padding-left: 140px;
+    }
+}
+
+.services {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 {
+    height: 170px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.head2 {
+    color: #1E293B;
+    font-size: 37px;
+}
+
+.para3 {
+    color: #1E293B;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.car {
+    width: 100%;
+    padding: 20px;
+}
+
+.head3 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.para4 {
+    text-align: left;
+}
+
+@media screen and (min-width:768px) {
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img1 {
+        height: 140px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+.contact {
+    background-color: #dfe3eb;
+    padding: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bree Serif";
+    justify-content: center;
+}
+
+.head4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.para5 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.head5 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.su {
+    color: red;
+}
+
+.named {
+    width: 90%;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    padding: 10px;
+}
+
+.n1 {
+    padding-bottom: 80px;
+    width: 90%;
+}
+
+.vere {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.but {
+    margin-top: 10px;
+    align-self: stretch;
+    width: 93%;
+}
+
+.but1 {
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .vere {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one {
+        width: 46%;
+        margin-right: 10px;
+    }
+
+    .contact {
+        justify-content: center;
+        align-items: center;
+    }
+}
+.footer{
+    font-family: "Bree Serif";
+    padding: 10px;
+    padding-top:40px;
+    background-color: #0A1525;
+    color: #FFFFFF;
+}
+.img2{
+    height:60px ;
+}
+.bi{
+    margin-right:  10px;
+}
+.head6{
+    font-size: 15px;
+}
+.para7{
+    font-family: "Roboto";
+    font-weight: normal;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.co{
+    width: 50%;
+    justify-content: flex-start;
+}
+.par{
+    font-family: "Roboto";
+    font-size: 12px;
+}
+.sp{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 40px;
+    font-size: 10px;
+}
+.sr{
+    text-decoration: underline;
+}
+.all{
+        display: flex;
+        flex-direction: column;
+        
+}
+@media screen and (min-width:768px){
+    .all{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 60px;
+       
+    }
+    .con{
+       display: flex;
+       flex-direction: row;
+   }
+   .co{
+       padding-left: 40px;
+   }
+   .footer{
+       padding: 50px;
+   }
+}

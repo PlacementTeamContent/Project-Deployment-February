@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #0A1525;
+    font-family: "Bree Serif";
+    padding: 10px;
+    height: 5vh;
+}
+.p_logo{
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    color: white;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.img_logo {
+    height: 50px;
+    width: 50px;
+}
+
+.txt_navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+.main {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 90vh;
+    /*     display: flex;
+flex-direction: column;
+align-items: center; */
+
+}
+
+.txt_main {
+    height: 90vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px 0px 0px 100px;
+}
+
+.h1_main {
+    width: 30vh;
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: 800;
+}
+
+.p_main {
+    color: lightgrey;
+    padding: 10px 10px 10px 0px;
+}
+.btn_main{
+    margin-top: 30px;
+    background-color: #FFD700;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    color: white;
+    font-family: "Bree Serif";    
+    cursor: pointer;
+}
+
+
+.txt_services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 60px 60px 30px 60px;
+}
+.h1_service{
+    font-family: "Bree Serif";    
+}
+.p_service{
+    color: grey;
+    padding: 10px 10px 10px 0px;
+}
+.all_service_img{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+.first_service_img{
+    height: 90px;
+    width: 150px;
+    border-radius: 10px;
+/*     padding: 10px; */
+    margin: 10px 10px 20px 10px;
+}
+.second_service_img{
+    height: 90px;
+    width: 150px;
+    border-radius: 10px;
+/*     padding: 10px; */
+    margin: 10px 10px 20px 10px;
+}
+.third_service_img{
+    height: 90px;
+    width: 150px;
+    border-radius: 10px;
+/*     padding: 10px; */
+    margin: 10px 10px 20px 10px;
+}
+.first_service_b{
+    font-family: "Bree Serif";
+    padding: 0px 0px 8px 0px;
+}
+.second_service_b{
+    font-family: "Bree Serif";    
+    padding: 0px 0px 8px 0px;    
+}
+.third_service_b{
+    font-family: "Bree Serif";  
+    padding: 0px 0px 8px 0px;    
+}
+.first_service_p{
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+    width: 180px;
+}
+.second_service_p{
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+    width: 180px;
+}
+.third_service_p{
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+    width: 180px;
+}
+
+.contact-us{
+    height: 60vh;
+    background-color: lightgrey;
+}
+.txt_contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 60px 60px 30px 60px;
+}
+.h1_contact{
+    font-family: "Bree Serif"; 
+    margin: 30px 30px 10px 30px;
+}
+.p_contact{
+    color: grey;
+    padding: 10px 10px 10px 0px;
+}
+.contact_input{
+    height: 30vh;
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_name_p{
+    font-family: "Bree Serif"; 
+    padding: 1px;
+}
+.contact_input_1{
+    width: 500px;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 3px;    
+}
+.both_contact_input{
+    display: flex;
+    gap: 50px;
+}
+.contact_email_p{
+    font-family: "Bree Serif"; 
+    padding: 1px;
+}
+.contact_phone_p{
+    font-family: "Bree Serif"; 
+    padding: 1px;    
+}
+.contact_input_2{
+    width: 220px;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.contact_message{
+    display: flex;
+    height: 20vh;
+    width: 51vh;
+}
+.contact_message_p{
+    font-family: "Bree Serif"; 
+    padding: 1px;    
+}
+.contact_input_3{
+    height: 15vh;
+    width: 50vh;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.contact_btn{
+    display: flex;
+    width: 51vh;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #FFD700;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    color: white;
+    font-family: "Bree Serif";    
+}
+
+
+.footer{
+    height: 38vh;
+    background-color: #0A1525;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+/*     align-content: center;
+align-items: center; */
+}
+.footer_logo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.footer_img_logo{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.footer_logo_p{
+    padding: 10px;
+    color: lightgrey;
+}
+.footer_icons{
+    padding: 20px;  
+    display: flex;
+    gap: 15px;
+    color: lightgrey;
+}
+.footer_contact{
+    color: white;
+    padding-top: 90px;
+}
+.footer_contact_p{
+    font-family: "Bree Serif"; 
+    padding: 2px;
+
+}
+.footer_menu{
+    color: white;
+    padding-top: 90px;
+}
+.footer_menu_p{
+    font-family: "Bree Serif"; 
+    padding: 2px;
+}
+.footer_menu_pp{
+    color: lightgrey;
+}
+.footer_contact_pp{
+    color: lightgrey;
+}
+.footer_end_pp{
+    font-size: 14px;
+    color: lightgrey;
+    margin-top: 150px;
+}

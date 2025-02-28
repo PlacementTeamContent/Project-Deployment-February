@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.top-black {
+    height: 10vh;
+    background-color: #0A1525;
+    width: 100vh;
+}
+.img1{
+    height: 40px;
+    padding: 10px;
+    
+}
+.bg-image{
+    height: 55vh;
+    width: 100vh;
+    background-size: cover;
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+}
+.data{
+    padding-left: 20px;
+    padding: 30px;
+}
+.head1{
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    font-size: 60px;
+}
+.para1{
+    color: #FFFFFF;
+}
+.btnn1{
+    border: none;
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+}
+.data2{
+    text-align: center;
+}
+.image1{
+    border-radius: 30px;
+    height: 20vh;
+    padding: 20px;
+    width: 200px;
+    
+}
+.h11{
+    font-size: 15px;
+    padding-left: 20px;
+}
+.p11{
+    font-size: 10px;
+    padding-left: 20px;
+}
+.bg{
+    background-color:skyblue;
+    width: 100vh;
+}
+.box1{
+   border-style: solid; 
+   height: 20px;
+   width: 300px;
+   border-width: 2px;
+   background-color: white;
+   border-radius: 5px;
+   border:none;
+}
+.box2{
+   border-style: solid; 
+   border:none;
+   height: 20px;
+   width: 200px;
+   border-width: 2px;
+   background-color: white;
+   border-radius: 5px;  
+}
+.heads{
+    font-size: 20px;
+}
+.box3{
+    border-style: solid; 
+   height: 180px;
+   width: 300px;
+   border-width: 2px;
+   background-color: white;
+   border-radius: 5px;  
+   border:none;
+}
+.btnn2{
+    background-color: #FFD700;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border:none;
+}
+.details{
+    padding-left: 300px;
+}
+.contact{
+    text-align: center;
+}
+.pp{
+    text-align: center;
+}
+.bgg{
+    background-color: #1E293B;
+    height: 30vh;
+    width: 100vh;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.paraa1{
+    color: white;
+}
+.ww{
+    height: 40px;
+    width: 30px;
+}
+.bi{
+    padding: 5px;
+    color: white;
+}
+.flex{
+    display:flex;
+    flex-direction:row ;
+}
+.flexx{
+   display:flex;
+    flex-direction:row ; 
+}
+.white{
+    color:#FFFFFF;
+    
+}
+.whitee{
+    padding:20px ;
+    color: #FFFFFF;
+}
+.space{
+    padding: 20px;
+}

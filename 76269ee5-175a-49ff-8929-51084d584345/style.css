@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a1525;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    width: 105vw;
+    height: 60px;
+    font-size: 10px;
+    background-size: cover;
+    /* position:fixed; */
+}
+
+.bar {
+    margin: 30px;
+    height: 100px;
+}
+
+.abc {
+    display: flex;
+    gap: 15px;
+}
+
+.img1 {
+    margin: 10px;
+    height: 25px;
+}
+
+.icon {
+    margin-left: 50px;
+    display: flex;
+}
+
+/* ------------------------------------ */
+.whole {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.xyz {
+    width: 50vh;
+}
+
+.btn1 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+/* ------------------------------------ */
+.servicehd {
+    color: #1E293B;
+    text-align: center;
+    font-family: "Bree Serif";
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; */
+}
+
+.services {
+    margin: 20px;
+    padding: 50px;
+    width: 100vw;
+}
+
+.imgs {
+    border-radius: 10px;
+    height: 150px;
+    width: 250px;
+}
+
+.card {
+    margin: 20px;
+    color: #1E293B;
+    font-family: "Bree Serif";
+    padding: 10px;
+    width: 270px;
+}
+
+.cards {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------ */
+.ep {
+    display: flex;
+}
+
+.e,
+.n,
+.m {
+    margin: 10px;
+}
+
+.name {
+    border: solid grey 1px;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+}
+
+.email,
+.ph {
+    border: solid grey 1px;
+    border-radius: 10px;
+    height: 30px;
+    width: 190px;
+}
+
+.msg {
+    border: solid grey 1px;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+}
+
+.contact {
+    font-family: "Bree Serif";
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.btn2 {
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: "Bree Serif";
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    /* width: 100px; */
+}
+
+/* ------------------------------------ */
+
+.footer {
+    background-color: #1E293B;
+    height: 250px;
+    width: 100vw;
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.fk {
+    display: flex;
+}
+
+.merge {
+    display: flex;
+}
+
+.mj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center
+}
+
+
+.ic {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.one,
+.two,
+.three {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+
+/* ------------------------------------ */
+@media screen and (max-width:576px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .name,
+    .email,
+    .ph {
+        border: solid grey 1px;
+        border-radius: 10px;
+        height: 30px;
+        width: 400px;
+    }
+
+    .msg {
+        border: solid grey 1px;
+        border-radius: 10px;
+        height: 200px;
+        width: 400px;
+    }
+
+    .ep {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .merge {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fk {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one,
+    .two,
+    .three {
+        padding: 10px;
+        margin: 0px;
+        width: 200px;
+    }
+}

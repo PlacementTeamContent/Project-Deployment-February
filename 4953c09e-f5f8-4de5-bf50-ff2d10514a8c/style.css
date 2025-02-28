@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px
+}
+
+.navbar {
+    font-family: Sans-Serif ;
+    display: flex;
+    background-color: #0A1525;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 170px;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: flex-start;
+    color: #FFFFFF;
+    padding-left: 330px;
+    padding-top: 24px;
+    padding-right: 10px;
+}
+
+.navitem-para {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fa {
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+.aboutus-cont {
+    font-family: Sans-Serif ;
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 100vw;
+}
+
+.aboutus-info {
+   padding: 70px;
+
+}
+
+.ab-hd {
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.ab-pa {
+    color: #dfe3eb;
+   font-size: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+.ab-bt {
+    font-family: Bree Serif;
+    background-color: #8B5CF6;
+    color: #FFFFFF;
+    height: 40px;
+    width: 80px;
+    align-items: flex-start;
+    border-radius: 8px;
+    border-width: 0px;
+    margin-left: 10px;
+}
+.our-services-header{
+    text-align: center;
+    padding: 50px;
+    font-family: Sans-Serif ;
+}
+.our-hd{
+    padding: 15px;
+}
+.our-pa{
+    color: #1E293B;
+    font-size: 24px;
+}
+.our-ser-card{
+    display: flex;
+
+    
+}
+.card{
+  padding: 15px;
+   font-family:Sans-Serif;
+  margin: 5px;
+}
+.card-img{
+    height: 250px;
+    width:300px;
+    border-radius: 10px;
+    box-shadow:10 20;
+    
+}
+.card-hd{
+    font-family:Sans-Serif;
+    padding: 15px;
+    
+}
+.card-pa{
+    color: #1E293B;
+    padding: 15px;
+    font-size: 20px;
+}
+.contact-sec{
+    background-color: #dfe3eb;
+    padding: 50px;
+    font-family:  Sans-Serif;
+}
+.cont-header{
+    text-align: center;
+}
+.cont-hd{
+    padding: 10px;
+}
+.cont-pa{
+    font-size: 24px;
+    padding: 10px;
+}
+.boxes{
+    padding: 40px;
+}
+.name-cont{
+    height: 50px;
+    width:400px ;
+    background-color: #FFFFFF;
+    margin:  15px;
+}
+.mail-cont{
+    height: 50px;
+    width:400px ;
+    background-color: #FFFFFF;
+    margin:  15px;
+}
+.phone-cont{
+    height: 50px;
+    width:400px ;
+    background-color: #FFFFFF;
+    margin:  15px;
+}
+.message-cont{
+    height: 200px;
+    width:700px ;
+    background-color: #FFFFFF;
+    margin:  15px;
+}
+.btn{
+    text-align: center;
+}
+.cont-btt{
+    background-color: #8B5CF6;
+    border-width: 0px;
+    border-radius: 7px;
+    height: 40px;
+    width: 800px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.fotter{
+    background-color:#0A1525 ;
+    padding: 50px;
+    display: flex;
+}
+.logoandi{
+    color:#FFFFFF;
+    font-size: 50px;
+    padding: 40px;
+    margin: 15px;
+}
+.cla{
+    padding: 15px;
+}

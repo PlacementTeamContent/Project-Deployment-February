@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #0A1426;
+    /* padding :40px; */
+    display:flex;
+    /* justify-content: space-around; */
+    /* width:100vw; */
+}
+.nav-heading{
+    color:#FFFFFF;
+}
+.box-1-nav{
+    display:flex;
+    flex-direction: row;
+    padding:30px;
+    
+}
+.img-nav{
+    margin:20px;
+}
+.nav-items{
+    color:#FFFFFF;
+    padding:30px;
+    
+}
+.nav-items-holder{
+    display: flex;
+}
+.section-2{
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size:cover;
+    height: 50vh;
+    text-align: center;
+    padding:50px;
+    /* font-family:Bree Serif; */
+   
+    
+    
+}
+.main-box{
+    /* height: 100vh;
+    width:100vw; */
+}
+.heading-2{
+    font-size: 60px;
+    color:#FFFFFF;
+}
+.para-2{
+    font-size: 30px;
+    color:#e0dfdc;
+}
+
+.btn-2{
+    background-color: #4A90E2;
+    height: 40px;
+    color:#FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.section-3-box{
+    display:flex;
+}
+.box-sec-3{
+    margin-right:10px;
+    padding:20px;
+}
+img{
+    border-radius:10px;
+}
+.section-3{
+    padding:40px;
+    text-align: center;
+    /* font-family:Bree Serif; */
+}
+.section-4{
+    /* text-align: center; */
+    background-color: #e0dfdc;
+   
+    
+}
+.s-3-h{
+    text-align: center;
+}
+.s-3-p{
+    text-align: center;
+}
+.btn-4{
+    height: 30px;
+    width:500px;
+}
+.box-sec-4{
+    margin-left:320px;
+}
+.comb-4{
+    display:flex;
+    margin-right:40px;
+    
+}
+.btn-4-1{
+    height: 30px;
+    width:250px;
+}
+.btn-4-sp{
+    height: 60px;
+    width:500px;
+}
+.lst-btn{
+    height: 30px;
+    width:500px;
+    background-color: #4A90E2;
+    border-radius:5px;
+    margin-left:320px;
+    margin-top:30px;
+    margin-bottom:40px
+}
+.footer{
+    display:flex;
+    background-color: #1e293B;
+    color:#FFFFFF;
+}
+.lst-5{
+    margin:70px;
+}

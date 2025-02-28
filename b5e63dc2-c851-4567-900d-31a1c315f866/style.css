@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.div{
+    background-color: #0A1525;
+    height:10vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.div1{
+    color: white;
+    display: flex;
+    gap:10px;
+}
+.maindiv{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size:cover;
+    height:90vh;
+    text-align: center;
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    align-items: center;
+}
+.btn{
+    background-color: #F6B352;
+    color: #ffffff;
+    border-color:#F6B352;
+    font-family: "Bree Serif";
+}
+.head{
+    padding-top: 200px;
+}
+.head1{
+    color: #0A1525;
+}
+.chakri{
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.image{
+    height: 15vh;
+}
+.head11{
+    font-size: 20px;
+}
+.chakrii{
+    display: flex;
+    gap:10px;
+}
+.guna{
+    background-color: #dfe3eb;
+    height: 60vh;
+    
+}
+.hh{
+    text-align: center;
+}
+.pp{
+    text-align:center;
+}
+.ppp{
+    color:#1293B;
+}
+.guna1{
+    display: flex;
+    gap:100px;
+}
+.btmn{
+    text-align: center;
+    margin-top:10px;
+    background-color: #F6B352;
+    color: white;
+    border-color: #F6B352;
+    margin-left:180px;
+}
+.uday{
+    background-color: #0A1525;
+    height:80vh;
+}
+.image1{
+    height:50px;
+}
+.uday{
+    color: white;
+}
+.pink{
+    display: flex;
+}
+.po{
+    text-decoration: underline;
+}

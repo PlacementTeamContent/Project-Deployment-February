@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card{
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+     width: 100vw;
+    height: 10vh;
+    background-color: #0A1525;
+}
+.icon{
+    height: 50px;
+}
+.head1{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Bree Serif;
+    text-align: center;
+}
+.para1{
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    text-align: center
+}
+.button1{
+    background-color: #8B5CF6;
+    color: #FFFFFF;
+    border-radius: 10PX;
+    width: 100PX;
+    height: 30PX;
+    text-align: center;
+}
+
+.head2{
+    color: #1E293B;
+    text-align: center;
+}
+.para2{
+    color: #1E293B;
+    text-align: center;
+}
+.image{
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 30PX;
+    align-content: center;
+    text-align: center;
+}
+.head3{
+    text-align: center;
+    color: #1E293B;
+    font-size: 20PX;
+}
+.para3{
+    text-align: center;
+    color: #1E293B;
+}
+.card3{
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}
+.head4{
+    text-align: center;
+    margin: 30px;
+}
+.para4{
+    text-align: center;
+    margin: 30px;
+}
+.head5{
+    font-size: 20px;
+}
+.footer{
+     width: 100vw;
+    height: 80vh;
+    background-color: #0A1525;
+}
+.icons{
+    color: #FFFFFF;
+    width: 40px;
+    height: 50px;
+}
+.paraa{
+    text-align: center;
+    color: #FFFFFF;
+}
+.head{
+    color: #FFFFFF;
+}

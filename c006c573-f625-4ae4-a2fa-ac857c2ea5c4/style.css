@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+html{
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+*{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+
+.navbar-expand-lg {
+    background-color: #1E293B;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.main-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    background: blur;
+    width: 100vw;
+    height: 50vh;
+    color: white;
+    font-family: Roboto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading {
+    font-size: 50px;
+    width: 300px;
+    text-align: left;
+}
+
+.main-discription {
+    width: 350px;
+    text-align: left;
+}
+
+.btn-main {
+    width: 200px;
+    padding: 10px;
+    background-color: #ffd700;
+    border-radius: 25px;
+    border-width: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.our-services {
+    color: black;
+    font-family: Roboto;
+}
+
+.main-part {
+    text-align: center;
+}
+
+.services-card-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.sub-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.services-card{
+    width: 400px;
+    margin: 30px;
+    height: auto;
+}
+@media  (max-width:798px){
+    .sub-part{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-self: center;
+     }
+}
+
+
+.collecting-information{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50vw;
+    margin: 20px;
+}
+.contact-us{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.lets-talk{
+    background-color: yellow;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-part{
+    font-family: Roboto;
+}
+#user-input{
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+.name-heading{
+    font-size: 20px;
+    font-family: Roboto;
+}
+.star{
+    color: red;
+}
+
+#user-message{
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.footer{
+    background-color:#0a1525 ;
+    color: white;
+    font-family: Roboto;
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    
+}
+.normal-stuff, .contact-stuff, .menu-stuff{
+    background-color:#0a1525 ;
+    color: white;
+    font-family: Roboto;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+
+@media  (max-width:798px){
+    .collecting-information{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 50vw;
+        margin: 20px;
+    }
+    #user-input{
+        width: 350px;
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+    }
+    #user-message{
+        height: 200px;
+        width: 350px;
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    .name-heading{
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    .star{
+        color: red;
+    }
+    .lets-talk{
+        background-color: yellow;
+        width: 350px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        color: gray;
+        font-size: 20px;
+        font-weight: bold;
+}
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-card {
+    display: flex;
+    color: #FFFFFF;
+    background-color: #0A1525;
+    font-family: Bree serif;
+}
+
+.sub-card {
+    display: flex;
+
+}
+
+.para {
+    margin: 10px;
+}
+
+.main-card-2 {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    font-family: Bree serif;
+}
+
+.heading {
+    color: #FFFFFF;
+
+    padding: 20px;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #F6B352;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+}
+
+.button-1 {
+    color: #FFFFFF;
+    background-color: #F6B352;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+    width: 440px;
+}
+
+.sub-card-2 {
+    text-align: center;
+    font-family: Bree serif;
+}
+
+.image {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.sub-card-3 {
+    text-align: center;
+    font-family: Bree serif;
+    padding: 20px;
+}
+
+.main-head {
+    display: flex;
+}
+
+.para-2 {
+    color: #1E293B;
+    text-align: center;
+}
+
+.main-card-3 {
+    background-color: #dfe3eb;
+    font-family: Bree Serif;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.anchor {
+    color: #F6B352;
+}
+
+.box {
+    height: 30px;
+    width: 500px;
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+.box-1 {
+    height: 100px;
+    width: 500px;
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+}
+
+.box-2 {
+    height: 30px;
+    width: 200px;
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+.main-card-5 {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    height: 500px;
+
+}
+
+.par {
+    margin: 20px;
+
+}
+
+.main-card-4 {
+
+    display: flex
+}
+.image-1{
+    height: 60px;
+}

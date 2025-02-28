@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+
+
+    background-color: #0A1525;
+    height: 100px;
+    /*  padding: 20px; */
+    /* margin: 20px; */
+    /* color: white; */
+    /* display: flex;
+     */
+}
+
+.h1 {}
+
+.img {
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-image: cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+
+}
+
+.btn {
+    background-color: #6C63FF;
+    border-radius: 5px;
+    border-color: #6C63FF;
+    color: white;
+}
+
+.header {
+    font-family: Roboto;
+}
+
+.para {
+
+    font-family: Roboto;
+
+}
+
+.card {
+    background-color: #dfe3eb;
+    text-align: center;
+
+
+}
+
+.btn1 {
+    background-color: #6C63FF;
+    border-radius: 5px;
+    border-color: #6C63FF;
+    padding: 5px;
+    margin: 5px;
+}
+
+.fotter {
+    background-color: #1E293B;
+    color: white;
+
+}
+
+.hii {
+    text-align: center;
+}

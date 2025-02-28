@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    background-color: black;
+    height:10vh;
+}
+.img{
+    height:50px;
+    margin:10px;
+    padding:5px;
+    gap:10px;
+    justify-content: space-around;
+}

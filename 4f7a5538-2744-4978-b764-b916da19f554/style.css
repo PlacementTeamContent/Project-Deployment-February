@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.img-nav {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+}
+
+.ul-list {
+    list-style: none;
+    display: flex;
+}
+
+.list-nav {
+    display: flex;
+    /* margin-left: auto; */
+}
+
+@media (max-width:768px) {
+    .list-item {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .list-item {
+        margin-right: 20px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    background-color: #0a1525;
+    padding: 10px;
+}
+
+.banner-section {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 60vh;
+    background-size: cover;
+}
+
+.banner-content {
+    color: white;
+}
+
+.contact-btn {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+
+.banner-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* @media (max-width:768px){
+   .banner-section{
+       
+   } 
+} */
+@media (min-width:768px) {
+    .banner-content {
+        margin-left: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
+    }
+}
+
+.Services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img {
+    width: 270px;
+    border: solid 2px #dfe3eb;
+    border-radius: 10px;
+}
+
+.card {
+    width: 270px;
+    margin-left: 20px;
+}
+
+@media (max-width:768px) {
+    .card {
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+.contact-us {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.input-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+}
+
+.star-text {
+    color: red;
+}
+
+.input-1 {
+    min-width: 400px;
+}
+
+.input-2 {
+    max-width: 210px;
+    margin-right: 20px;
+}
+
+.input-3 {
+    max-width: 210px;
+}
+
+.input-4 {
+    width: 400px;
+    height: 200px;
+}
+
+.footer {
+    background-color: #0a1525;
+    color: #dfe3eb;
+    padding: 20px;
+}
+
+.side-2 {
+    display: flex;
+}
+
+.list-footer {
+    list-style: none;
+}
+
+.img-footer {
+    width: 70px;
+}
+
+.foot-head {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.inside-foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-head {
+    font-size: 20px;
+}

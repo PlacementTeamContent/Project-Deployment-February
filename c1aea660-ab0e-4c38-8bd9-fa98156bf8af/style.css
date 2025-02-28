@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    height: 50px;
+    width: 600px;
+    background-color: #1E293B;
+    background-size: cover;
+}
+
+.head {
+    color: #dfe3eb;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.box1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 430px;
+    width: 600px;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+.invest {
+    color: white;
+    padding-top: 50px;
+    margin: 1px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.explore {
+    color: white;
+    text-align: center;
+}
+
+.contact {
+    background-color: #f6b352;
+    color: white;
+    border-color: #f6b352;
+    border-radius: 5px;
+}
+
+.box2 {
+    background-color: #ffffff;
+    background-size: cover;
+    height: 1250px;
+}
+
+.img {
+    height: 200px;
+    border-radius: 5px;
+    width: 350px;
+    margin: 40px;
+    text-align: center;
+}
+
+.our {
+    text-align: center;
+}
+
+.port {
+    margin: 10px;
+}
+
+.box3 {
+    background-color: #dfe3eb;
+    height: 800px;
+    
+}
+
+.us {
+    padding: 10px;
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.btn {
+    width: 330px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 5px;
+    border-color: #1E293B;
+    margin-left: 50px;
+}
+
+.name {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.span {
+    color: red;
+}
+
+.bigbtn {
+    width: 330px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 500px;
+    margin-left: 50px;
+}
+
+.let {
+    background-color: #f6b352;
+    color: white;
+    border-color: #f6b352;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+.footer {
+    background-color: #0a1525;
+    height: 400px;
+}
+.icon{
+height: 50px;
+padding: 20px;
+}
+.grey{
+    color: #dfe3eb;
+    text-align: center;
+}
+.white{
+    color: #ffffff;
+    margin: 20px;
+}
+.grey1{
+   color: #dfe3eb;
+    margin: 20px;
+}
+.footer2{
+    background-color: #0a1525 ;
+    height: 100px;
+    color:  #dfe3eb;
+    padding: 10px;
+}
+.all{
+    color:#dfe3eb;
+}
+.underline{
+    text-align: underline;
+}

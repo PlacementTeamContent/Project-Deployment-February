@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+    font-family:Bree Serif;
+    margin:0px;
+}
+
+.nav-bar {
+    background-color:#0A1525;
+    height:50px;
+    /* width:100vw; */
+    display:flex;
+    flex-direction:row;
+    color:white;
+    justify-content:space-around;
+    padding:10px;
+}
+
+.logo-icon {
+    height:30px;
+    width:30%;
+    padding-top:15px;
+    padding-right:10px;
+}
+.logo-para {
+    padding-top:14px;
+}
+.logo {
+    display:flex;
+    flex-direction:row;
+}
+
+.nav-items {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+
+.bars {
+    padding-top:20px;
+    
+}
+
+.nav-item {
+  margin-right:50px;
+}
+
+
+.home-page {
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size:cover;
+    height:100vh;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home-button {
+    background-color:#ffd700;
+    border-width:0px;
+    color:white;
+    border-radius:10px;
+    padding:10px;
+    font-size:20px;
+    margin-right:340px;
+}
+
+.home-head {
+    padding-bottom:10px;
+    max-width:190px;
+    font-size:49px;
+    padding-right:290px;
+    font-weight:bold;
+}
+
+.home-para {
+    padding-bottom:16px;
+    max-width:460px;
+}
+
+.services-section {
+    padding:50px;
+    
+}
+.service-head {
+    /* text-align:center; */
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.service-para {
+    max-width:660px;
+     text-align:center;
+    padding-top:20px;
+}
+
+.card-image {
+    height:200px;
+    width:80%;
+    border-radius:20px;
+    padding-bottom:20px; 
+}
+
+.card-containers {
+    padding-top:30px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+   
+} 
+
+.card-para {
+    max-width:300px;
+} 
+
+.card-head {
+    font-size:25px;
+    font-weight:bold;
+    padding-bottom:20px; 
+} 
+
+.card-1 {
+    display:flex;
+    flex-direction:column;
+    margin-bottom:50px;
+}
+
+.contact-us {
+    height:100vh;
+}
+
+.contact-head {
+    text-align:center;
+}
+
+.contact-us-head {
+    padding-bottom:30px;
+} 
+
+.details-container {
+    margin-top:40px;
+    display:flex;
+    flex-direction:column;
+     justify-content:center;
+    align-items:center;
+} 
+
+.detail-name {
+    display:flex;
+    padding-right:5px;
+}
+
+.asterik {
+    color:red;
+}
+
+.button-space {
+    margin-top:10px;
+    height:30px;
+    width:500px;
+    background-color:white;
+    border-radius:10px;
+    border-width:1px;
+    margin-bottom:20px;
+}
+
+.button-space-1 {
+    margin-top:10px;
+    height:30px;
+    width:230px;
+    background-color:white;
+    border-radius:10px;
+    border-width:1px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.con-2 {
+    display: flex;
+    margin-top:10px;
+}
+
+.button-space-2 {
+    margin-top:10px;
+    height:150px;
+    width:500px;
+    background-color:white;
+    border-radius:10px;
+    border-width:1px;
+    margin-bottom:20px;
+}
+
+.button-space-3 {
+    margin-top:10px;
+    height:40px;
+    width:500px;
+    background-color:#ffd700;
+    border-radius:10px;
+    border-width:0px;
+    /* margin-bottom:20px; */
+    color:white;
+    font-size:22px;
+    /* padding:10px; */
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.bottom-section {
+    background-color:#1e293b;
+    height:50vh;
+    display:flex;
+    color:white;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.c-icon {
+    width:10%;
+    height:30px;
+}
+
+.items {
+    padding-bottom:20px;
+}
+
+
+
+@media (max-width:577px) {
+    .nav-bar{
+        justify-content: space-between;
+    } 
+    
+    .nav-items {
+        display:none;
+    } 
+    
+    .logo {
+        padding-left:20px;
+    }
+    
+    .bars {
+        padding-right:20px;
+    }  
+    
+    .card-containers {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .con-2 {
+        display: flex;
+        flex-direction:column;
+        margin-left:12px;
+    }
+    
+    .button-space-1 {
+        width:500px;
+    }
+    
+    .bottom-section {
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+@media (min-width:768px){
+    .bars-1 {
+        display:none;
+    }
+}

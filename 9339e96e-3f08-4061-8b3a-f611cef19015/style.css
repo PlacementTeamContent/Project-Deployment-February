@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif";
+}
+
+.nav-img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-style {
+    list-style-type: none;
+}
+
+.first-pg {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    color: white;
+    text-align: center;
+    height: 80vh;
+    width: 80vh;
+}
+
+.Contact-btn {
+    background-color: #4B84F3;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+.sound-img{
+    height: 300px;
+    border-radius: 10px;
+}
+.talk-btn{
+    background-color: #4B84F3;
+    width: 400px;
+    height: 20px;
+    border: 0px;
+}
+.icons-img{
+    height: 100px;
+    width: 100px;
+}

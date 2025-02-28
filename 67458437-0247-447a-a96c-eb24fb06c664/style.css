@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    height: 5vh;
+    background-color: #0A1525;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.im {
+    height: 50px;
+    width: 50px;
+
+}
+
+.nav-head {
+    color: white;
+    font-weight: bold;
+    font-family: Bree Serif;
+    font-size: 20px;
+
+}
+
+.elements {
+    display: flex;
+    margin: auto;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    background-color: #F6B352;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+a{
+    margin: 10px;
+}
+.bg-head{
+    color: white;
+    font-size: 30px;
+   
+    font-family: Bree Serif;
+}
+.bg-para{
+    color: white;
+    font-family: Bree Serif;
+}
+.container-2{
+    background-color: white;
+    padding: 40px;
+}
+.im1{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.cards{
+    height: 350px;
+    width: 200px;
+    margin: 20px;
+    flex-grow: 1;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+.our-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details-container{
+    background-color: #dfe3eb;
+    height: 100vh;
+    padding: 40px;
+}
+.all-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.message{
+    height: 200px;
+}
+.btn{
+    background-color: #F6B352;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.footer{
+    background-color: #0A1525;
+    padding: 20px;
+}
+.foot-para{
+    color: white;
+}
+.icon-container{
+    display: flex;
+    color: white;
+}
+.foo{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.us{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.foot-head{
+    font-size: 24px;
+    
+}
+.last{
+    color: white;
+}
+i{
+    margin: 10px;
+    color: white !important;
+}
+.email{
+    width: 455px;
+}
+.email1{
+    width: 455px;
+}
+.lla{
+    background-color:#0A1525;
+}
+span{
+    color:pink ;
+}
+.x{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width:768px){
+    .card-container{
+    display: flex;
+    flex-direction: row;
+    }
+    .to-flex{
+    display: flex;
+    }
+    .email{
+    height: 20px;
+    width: 180px;
+    }
+    .email1{
+    height: 20px;
+    width: 180px;
+    margin-left: 80px;
+    }
+    .head4{
+    font-size: 20px;
+    }
+    .head5{
+      font-size: 20px;
+      margin-left: 80px;
+    }
+    .details-container{
+    background-color: #dfe3eb;
+    height: 80vh;
+    padding: 40px;
+    }
+    .footer{
+    background-color: #0A1525;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+    .elements {
+    display: flex;
+    color: white;
+    margin: auto;
+    }
+
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+nav {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+}
+
+.logo {
+    font-family: Roboto;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.lo {
+    height: 55px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-self: auto;
+}
+
+li {
+    margin: 10px;
+}
+
+.banner{
+    background-image:url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg") ;
+    height:100vh;
+    width:100vw;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+    
+}
+
+.text{
+    color:white;
+    width:60%;
+    margin-left:25%;
+}
+
+.head{
+    font-size:50px;
+    text-align: left;
+    font-family: Roboto;
+}
+
+.sub{
+    font-size:15px;
+    text-align: left;
+    font-family:Roboto;
+}
+
+.button{
+    margin-right:100%;
+    background-color: #FFD700;
+    width: 100px;
+    height:45px;
+    border-radius:10px;
+    color: white;
+    border:0px;
+}
+
+.Services{
+    text-align: center;
+    font-family: Roboto;
+    
+}
+.sub1{
+    text-align: center;
+}
+.img{
+    border-radius: 10px;
+}
+
+.ima{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    text-align: left;
+}

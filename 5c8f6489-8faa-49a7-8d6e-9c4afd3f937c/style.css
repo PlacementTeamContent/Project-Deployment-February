@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+.top {
+    height: 50px;
+    background-color: #0a1525;
+    width: 100vw;
+
+}
+
+.middle {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+    justify-content: center;
+    color: white;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.but1 {
+    border-radius: 10px;
+    background-color: #4B9EFF;
+    height: 50px;
+    width: 100px;
+    color: white;
+
+}
+
+.para1 {
+    color: #dfe3eb;
+    font-size: 30px;
+}
+
+.main-h {
+    font-family: "roboto";
+    font-size: 65px;
+    font-style: normal;
+}
+
+.third {
+    text-align: center;
+    color: black;
+    font-family: "roboto";
+
+}
+
+.head2 {
+    font-size: 60px;
+
+}
+
+.para2 {
+    font-size: 30px;
+    color: #1E293B;
+}
+
+.cards {
+    border-radius: 40px;
+    height: 260px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.us {
+    background-color: #dfe3eb;
+    height: 100vh;
+    padding: 50px;
+}
+
+.us1 {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+
+.u2 {
+    border: 2px solid white;
+    background-color: white;
+    height: 50px;
+}
+
+.u3 {
+    height: 40vh;
+
+}
+
+.but2 {
+    font-size: 35px;
+    width: 80vw;
+    height: 50px;
+    color: white;
+    border: none;
+    background-color: #4B9EFF;
+}
+
+.footer {
+    background-color: #1E293B;
+    height: 50vh;
+    padding: 200px;
+    color: white;
+    font-family: "bree serif";
+    font-size: 30px;
+    
+
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    font-size: 40px;
+}

@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    background-color: #0A1220;
+    height: 10vh;
+    width: 120vw;
+    display: flex;
+}
+
+.logo {
+    height: 50px;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.logo-name {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.Options-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 10px;
+    margin-left: 350px;
+    padding: 10px;
+}
+
+.bars {
+    color: #ffffff;
+    margin: 10px;
+    margin-left: 30px;
+    margin-bottom: 13px;
+}
+
+.background-img {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 100vh;
+    width: 120vw;
+    background-size: cover;
+}
+
+.container {
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.container-head {
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.container-para {
+    color: #dfe3eb;
+}
+
+.contact-us-btn {
+    background-color: #00E5BE;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    padding-bottom: 4px;
+}
+
+.Container-Our-Services {
+    text-align: center;
+    width: 120vw;
+}
+
+.Our-Services-heading {
+    color: #0A1220;
+    font-family: "Bree Serif";
+}
+
+.Our-Services-para {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.card-container {
+    display: flex;
+    margin-left: 200px;
+}
+
+.card1 {
+    text-align: start;
+    margin: 20px;
+}
+
+.software-img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-heading {
+    font-family: "Bree Serif";
+}
+
+.card-para {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.Contact-Us-Page {
+    width: 120vw;
+    background-color: #dfe3eb;
+    text-align: center;
+}
+
+.Contact-Us-heading {
+    color: #0A1220;
+    font-family: "Bree Serif";
+}
+
+.Contact-Us-para {
+    color: #1E293B;
+    font-family: "Bree Serif";
+}
+
+.feedback-para {
+    color: #0A1220;
+    font-family: "Bree Serif";
+}
+
+.feedback-name-box {
+    background-color: #ffffff;
+    border-color: #dfe3eb;
+    height: 30px;
+    width: 70vw;
+    border-radius: 5px;
+}
+
+.email-box {
+    background-color: #ffffff;
+    border-color: #dfe3eb;
+    height: 30px;
+    width: 31vw;
+    border-radius: 5px;
+}
+
+.email {
+    margin-left: 300px;
+}
+
+.phone-num {
+    margin-left: 100px;
+}
+
+.comments-box {
+    background-color: #ffffff;
+    border-color: #dfe3eb;
+    height: 200px;
+    width: 70vw;
+    border-radius: 5px;
+}
+
+.lets-talk {
+    background-color: #00E5BE;
+    width: 70vw;
+    height: 30px;
+    border-width: 0px;
+    color: #ffffff;
+}
+.footer {
+    background-color: #1E293B;
+    display: flex;
+}
+.footer-para {
+    color: #dfe3eb;
+    margin-left: 150px;
+    font-family: "Bree Serif";
+    
+}
+.color {
+    color: #dfe3eb;
+    font-size: 42px;
+    margin-left: 150px;
+}
+i {
+    margin:10px;
+}

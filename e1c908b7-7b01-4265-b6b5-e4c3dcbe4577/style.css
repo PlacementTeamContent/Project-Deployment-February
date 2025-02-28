@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.logohead {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+.navbar {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    color: white;
+    font-family: "Bree Serif";
+    margin-right: 20px;
+}
+
+.fa {
+    color: white;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contactButton {
+    color: white;
+    background-color: #6C63FF;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.letstalk{
+    color: white;
+    background-color: #6C63FF;
+    height: 30px;
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 40px;
+}
+
+.main-para {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.header {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    justify-content: start;
+    align-content: center;
+}
+
+.service-section {
+    text-align: center;
+    margin: 50px;
+}
+
+.img1 {
+    width: 250px;
+    border: solid 2px #dfe3eb;
+    border-radius: 10px;
+}
+
+.card1 {
+    width: 250px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.img3 {
+    width: 250px;
+    height: 165px;
+    border: solid 2px #dfe3eb;
+    border-radius: 10px;
+}
+.contactUs{
+    background-color: #dfe3eb;
+    margin-bottom: -17px;
+}
+.halfinputs{
+    width: 90%;
+    height: 20px;
+    border: none;
+    border-radius: 6px;
+}
+.sec-inps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nameinput{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 6px;
+}
+.Commentsinput{
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-radius: 6px;
+}
+
+.first-inp{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: start;
+}
+.details{
+    width: 40%;
+}
+.third-inp{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: start;
+}
+.footer{
+    background-color: #0A1525;
+}
+.bi{
+    color: white;
+    margin: 5px;
+}
+.footerlogo{
+    width: 60px;
+    margin: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.margin{
+    margin-left: 40px;
+    margin-right: 40px;
+}

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar-nav{
+    height: 7vh;
+    width: 100vw;
+    background-color: #0A1525;
+}
+.navbar-nav-logo{
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    padding-left: 15px;
+}
+.navbar-nav-heading{
+/*     color: #FFFFFF;
+ */}
+ .background-container{
+     background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+     height: 80vh;
+     width: 100vw;
+     background-size: cover;
+ }
+ .background-container-heading{
+     color: #FFFFFF;
+     font-family: "Bree Serif";
+     width: 70vw;
+     margin-top: 200px;
+     margin-left: 105px;
+ }
+ .background-container-para{
+     color: #FFFFFF;
+     font-size: 24px;
+     width: 70vw;
+     margin-left: 105px;
+     margin-top: -15px;
+     
+ }
+ .background-container-button{
+     background-color: #FFD700;
+     height: 45px;
+     width: 110px;
+     color: #FFFFFF;
+     font-family:  "Bree Serif";
+     font-size: 18px;
+     border-radius: 10px;
+     border: 0px;
+    /*  margin-left: 105px; */
+/*      margin-top: -15px;
+ */ }
+ .background-container-text{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+ }
+ .our-servise-page{
+     
+ }
+ .our-servise-heading{
+     text-align: center;
+ }
+ .our-servise-para{
+     text-align: center;
+     margin-top: -15px;
+ }
+ .our-servise-images{
+     height: 15vh;
+     width: 25vw;
+     border-radius: 30px;
+     padding: 10px;
+     margin-left: 10px;
+ }
+ .our-servise-img-heading{
+     width: 30vw;
+     margin-top: -1px;
+     margin-left: 10px;
+ }
+ .our-servise-images-box{
+     display: flex;
+ }
+ .contact-us-page{
+/*      background-color: ;
+ */ }
+ .contact-us-page-heading{
+     text-align: center;
+     
+ }
+ .input-box-name{
+     width: 60vw;
+ }
+ .input-box-message{
+     height: 15vh;
+     width: 60vw;
+ }
+ .input-box{
+     margin-left: 40px;
+ }
+ .input-button{
+     height: 5vh;
+     width: 60vw;
+     margin-left: 40px;
+     margin-top: 10px;
+     background-color: #FFD700;
+     font-family:  "Bree Serif";
+     font-size: 20px;
+     border-radius: 10px;
+     border: 0px;
+     margin-bottom: 50px;
+ }
+ .fotter-page{
+     background-color: #1E293B;
+     height: 60vh;
+     width: 100vw;
+ }
+ .fotter-logo{
+     height: 90px;
+     padding-top:40px;
+     padding-left:40px;
+ }
+ .fotter-text{
+      color: #FFFFFF;
+      margin-left: 10px;
+ }
+ .bi{
+     color: #FFFFFF;
+     margin-left: 10px;
+ }
+ .fa{
+     background-color: #FFFFFF;
+ }

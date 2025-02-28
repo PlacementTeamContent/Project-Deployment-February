@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.row1{
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.intro{
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    width: 80%;
+}
+#bar{
+    color: white;
+}
+.nav-a{
+    display: none;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-size: 44px;
+    font-family:Roboto;
+}
+.contact-btn{
+    padding: 10px;
+    background-color: #8b5cf6;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.pic{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+.service{
+    width: 300px;
+    padding: 10px;
+    margin: 15px;
+}
+.align{
+    text-align: center;
+}
+.row2,.row3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 10px;
+}
+.row3{
+    background-color: #dfe3eb;
+    padding: 20px;
+}
+.row4{
+    background-color: #1e293b;
+    color: white;
+    padding:10px ;
+}
+.mail-setting{
+    display: flex;
+    flex-direction: column;
+}
+.mail{
+    margin-right: 10px;
+    width: 450px;
+}
+.phone{
+    width: 450px;
+}
+.name{
+    width: 450px;
+}
+.mess{
+    height: 200px;
+    width: 450px;
+}
+.foot-pic{
+    height: 100px;
+    width: 100px;
+}
+i{
+    margin: 10px;
+    color: white;
+}
+.foot-a{
+    color: white;
+    margin: 5px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.foot-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+.menu{
+    margin: 10px;
+}
+.address{
+    margin: 10px;
+}
+.social-media{
+    margin: 10px;
+}
+.in-row{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.rights{
+    color: white;
+    margin:60px ;
+}
+.talk-btn{
+    background-color: #8b5cf6;
+    color: white;
+    border-radius: 10px;
+    width: 450px;
+    border-width: 0px;
+    margin: 20px;
+    padding: 10px;
+}
+.nav{
+    background-color: #0a1525;
+    padding:10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: white;
+    margin: 15px;
+}
+
+.logo{
+    height: 60px;
+    width: 70px;
+}
+.logo-name{
+    font-family: Roboto;
+    font-size:30px ;
+    margin-left:10px ;
+}
+.set-logo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.services{
+    padding: 10px;
+}
+@media (min-width:768px){
+    .services{
+        display: flex;
+        flex-direction: row;
+    }
+    .mail-setting{
+    display: flex;
+    flex-direction: row;
+}
+    .mail{
+    margin-right: 10px;
+    width: 270px;
+}
+    .phone{
+    width: 270px;
+}
+    .name{
+    width: 560px;
+}
+    .mess{
+    height: 250px;
+    width: 560px;
+}
+    .in-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .talk-btn{
+        width: 550px;
+    }
+    .nav-a{
+        display: inline;
+    }
+}
+@media (max-width:576px){
+   .mail{
+    margin-right: 10px;
+    width: 200px;
+   }
+    .phone{
+    width: 200px;
+    }
+    .name{
+    width: 200px;
+   }
+    .mess{
+    height: 200px;
+    width: 200px;
+    }
+    .talk-btn{
+        width: 200px;
+    }
+    .foot-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+}
+}
+@media (min-width:768px) and (max-width:992px) {
+    .service{
+        width: 200px;
+    }
+    .pic{
+        width: 200px;
+        height: 150px;
+    }
+}

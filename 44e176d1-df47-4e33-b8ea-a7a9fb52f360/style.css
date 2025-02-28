@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    overflow: hidden;
+    font-family: Bree Serif;
+}
+.main-bg{
+    overflow: hidden;
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.main-head{
+    color: #FFFFFF;
+    padding-top: 360px;
+    margin-left: 280px;
+    font-size: 60px;
+}
+
+.main-para{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 280px;
+}
+
+.main-btn{
+    color: #FFFFFF;
+    margin-left: 280px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: #00E5BE;
+    height: 35px;
+    width: 110px;
+}
+.own-nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1220;
+    height: 80px;
+    width: 100vw;
+}
+
+.nav-icon{
+    margin-top: 10px;
+    margin-left: 300px;
+    height: 50px;
+}
+.nav-head{
+    color: white;
+    margin-left: 15px;
+}
+.nav-links{
+    color: white;
+    margin-left: 320px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px
+}
+.nav-link{ 
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+.fa-bars{
+    margin-left: 45px;
+    margin-top: 28px;
+    
+}
+.our-services{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.service-head{
+    font-size: 70px;
+    padding-top: 30px;
+}
+.service-cards{
+    display: flex;
+    flex-direction: row;
+}
+.service-image {
+    margin-right: 50px;
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+}
+.service-card-details{
+    padding-left: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    margin-right: 360px;
+}

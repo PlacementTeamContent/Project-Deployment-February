@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main {
+    background-color: #0A1525;
+    justify-content: flex-start;
+}
+
+.img1 {
+    height: 50px;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.head1 {
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.nav-1 {
+    color: #FFFFFF;
+    display: inline-block;
+
+    padding-left: 10px;
+    flex-direction: column;
+
+}
+
+.main2 {
+    display: flex;
+    padding: 10px;
+}
+.card-2{
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    height: 300px;
+    justify-content: center;
+    padding: 75px;
+  
+   
+}
+.head-2{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: Bree Serif;
+     display: flex;
+   
+    
+}
+.para2{
+    color: #FFFFFF;
+     display: flex;
+   
+}
+
+.button{
+    background-color: #4B84F3;
+    color: white;
+    border-color:#4B84F3 ;
+    border-radius: 7px;
+    height: 30px;
+    
+}
+.card3{
+    padding: 10px;
+    
+    
+}
+.par{
+    padding-left: 330px;
+}
+.img3{
+    height: 170px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.head3{
+    height: 25px;
+}
+.card4{
+    padding: 10px;
+  
+}
+.card-5{
+    background-color: #dfe3eb;
+    padding: 10px;
+}

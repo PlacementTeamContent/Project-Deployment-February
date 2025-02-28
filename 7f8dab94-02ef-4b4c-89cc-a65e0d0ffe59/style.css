@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-color: #0A1525;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    
+}
+.imagee{
+    height:60px;
+}
+.bg-cont{
+    
+}
+.listss{
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.lii{
+  padding:10px;
+}
+.bg-cont{
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height:100vh;
+    width:100vw;
+    background-size: cover;
+}
+.bg-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding:250px;
+}
+.heading{
+    color:#FFFFFF;
+    font-size: 70px;
+    
+}
+.para{
+    color:#FFFFFF;
+    font-size: 25px;
+}
+.buttonn{
+    color:#FFFFFF;
+    background-color: #6C63FF;
+    font-size: 20px;
+    margin:10px;
+    border-radius: 10px;
+    border-block: none;
+}
+.image{
+    border-radius: 10px;
+}
+.nxt-page{
+    background-color: #FFFFFF;
+   
+   
+    
+      
+}
+.nxt-pageee{
+  text-align: center;  
+    
+}
+.image{
+    height:30vh;
+}
+.sec-page{
+    background-color: #0A1525;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec-pageee{
+    
+}
+.imgg{
+    height:70px;
+}

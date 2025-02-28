@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@media (min-width:768px){
+    
+     .bg-container{
+          font-family: Bree Serif;
+          height: 100vh;
+          
+          width: 100vw;
+    }
+    .main-container{
+        background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        align-items: center;
+        font-family: Bree Serif;
+    }
+    .btn{
+        background-color: #00E5BE;
+        color: white;
+        font-weight: bold;
+        padding: 6px;
+        border-radius: 6px;
+    }
+    .conhed{
+        color: #0A1220;
+    }
+    .paras{
+        color: #1E293B;
+    }
+    .con1{
+        text-align: center;
+    }
+  
+    .img-size{
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .parac{
+        color:#1E292B ;
+    }
+    .containers{
+        display: flex;
+        margin: 10px;
+    }
+    .c1{
+        margin: 10px;
+    }
+    .conhead{
+        font-size: 20px;
+    }
+    .inputname{
+        width: 380px;
+    }
+    .contactsection{
+        background-color:#dfe3eb ;
+        width:100%;
+        
+    }
+    .conHead{
+        text-align: center;
+    }
+    .conpara{
+        text-align: center;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .twoinput{
+        display: flex;
+    }
+    .oneinput{
+        margin: 10px;
+    }
+    .name{
+        font-weight: bold;
+        color: #0A1220;
+    }
+    .inputmessage{
+          width: 380px;
+          height: 80px;
+    }
+    .btncont{
+         width: 380px;
+         background-color: #00E5BE;
+         color: white;
+         border-radius: 6px;
+    }
+    .fotter{
+        margin: 10px;
+        background-color: #0A1220;
+    }
+    .fotimg{
+        height: 60px;
+        width: 60px;
+    }
+    .parafot{
+        color: white;
+    }
+    .icons{
+        display: flex;
+    }
+    .ic{
+        color: white;
+        margin: 3px;
+    }
+    .span{
+        text-decoration: underline;
+        color: white;
+    }
+    .lastpara{
+        margin:10px;
+        color: white;
+        padding-top: 130px;
+    }
+    .contacus{
+        color: white;
+        font-weight: bold;
+    }
+     .contacus1{
+        color: white;
+        font-size: 30px;
+    }
+    .paracon{
+        color: white;
+    }
+    .fotcon{
+        display: flex;
+        margin: 10px;
+    }
+    .navhead{
+        color: white;
+    }
+       
+    
+    .nav-bar{
+         background-color: #0A1220 ;
+         display: flex;
+         width: 100vw;
+        
+    }
+    .navhead{
+        margin: 8px;
+         
+    }
+    .iconnav{
+        display:flex;
+         
+    }
+    .aboutus{
+        display: flex;
+       margin-left:  300px;
+    }
+    .marg{
+        display: flex;
+       
+    }
+    .conmenu{
+        display: flex;
+       
+    }
+    
+}
+
+
+
+ @media (max-width:700px){
+    .main-container{
+        background-image:url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+        height: 100vh;
+        min-width: 100%;
+        background-size: cover;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        align-items: center;
+        font-family: Bree Serif;
+    }
+    .btn{
+        background-color: #00E5BE;
+        color: white;
+        font-weight: bold;
+        padding: 6px;
+        border-radius: 6px;
+    }
+    .conhed{
+        color: #0A1220;
+    }
+    .paras{
+        color: #1E293B;
+    }
+    .con1{
+        text-align: center;
+    }
+    .bg-container{
+          font-family: Bree Serif;
+          height: 100vh;
+          width: 100vw;
+    }
+    .img-size{
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .parac{
+        color:#1E292B ;
+    }
+    .containers{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .c1{
+        margin: 10px;
+        text-align: center;
+    }
+    .conhead{
+        font-size: 20px;
+    }
+    .inputname{
+        width: 380px;
+    }
+    .contactsection{
+        background-color:#dfe3eb ;
+        width:100%;
+        
+    }
+    .conHead{
+        text-align: center;
+    }
+    .conpara{
+        text-align: center;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inpute{
+        width: 380px;
+    }
+    .twoinput{
+       width: 380px;
+    }
+    .oneinput{
+        margin: 10px;
+        width: 380px;
+    }
+    .name{
+        font-weight: bold;
+        color: #0A1220;
+    }
+    .inputmessage{
+          width: 380px;
+          height: 80px;
+    }
+    .btncont{
+         width: 380px;
+         background-color: #00E5BE;
+         color: white;
+         border-radius: 6px;
+    }
+    .fotter{
+        margin: 10px;
+        background-color: #0A1220;
+        text-align: center;
+    }
+    .fotimg{
+        height: 60px;
+        width: 60px;
+    }
+    .parafot{
+        color: white;
+    }
+    .icons{
+        display: flex;
+    }
+    .ic{
+        color: white;
+        margin: 3px;
+    }
+    .span{
+        text-decoration: underline;
+        color: white;
+    }
+    .lastpara{
+        margin:10px;
+        color: white;
+        padding-top: 130px;
+    }
+    .contacus{
+        color: white;
+        font-weight: bold;
+    }
+     .contacus1{
+        color: white;
+        font-size: 30px;
+    }
+    .paracon{
+        color: white;
+    }
+    .fotcon{
+        
+        margin: 10px;
+    }
+    .navhead{
+        color: white;
+    }
+       
+    
+    .nav-bar{
+         background-color: #0A1220 ;
+         display: flex;
+         justify-content: space-around;
+        
+    }
+    .navhead{
+        margin: 8px;
+         
+    }
+    .iconnav{
+        display:flex;
+         
+    }
+    .aboutus{
+        display: flex;
+       margin-left:  300px;
+    }
+    .marg{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .conmenu{
+        display: flex;
+    }
+    .cont{
+        margin-left: 90px;
+        
+    }
+    
+}

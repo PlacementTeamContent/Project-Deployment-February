@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav-bar {
+    background-color: #0A1525;
+
+}
+
+.header {
+    color: #FFFFFF;
+}
+
+.total-bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    width: 50vw;
+}
+
+.nav-head {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    position: absolute;
+    left: 90px;
+
+}
+
+.heading1 {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-size: 5px;
+    font-family: "Bree Serif";
+}
+
+button {
+    background-color: #8B5CF6;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.heading2 {
+    color: #0A1525;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+
+.section3 {
+    background-color: #dfe3eb;
+}
+
+.section4 {
+    background-color: #0A1525;
+}
+
+.icons {
+    background-color: #dfe3eb;
+    height: 15px;
+    width: 15px;
+}

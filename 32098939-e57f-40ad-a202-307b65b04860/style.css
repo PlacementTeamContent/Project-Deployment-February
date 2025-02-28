@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.logo{
+    height: 60px;
+    width: 65px;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+    color: white;
+}
+.nav-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+.total-nav{
+    background-color: #0A1426;
+    width: 100vw;
+}
+/* home page section */
+.home-page{
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -8px;
+    display: flex;
+    align-items: flex-end;
+}
+.matter-1{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+    color: white;
+}
+.heading-1{
+    font-weight: bold;
+}
+.head-2{
+    margin-top: -20px;
+}
+.pass-2{
+    margin-top: -20px;
+}
+.but{
+    background-color: #4A90E2;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    border-style: none;
+}
+/* Our services */
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.img{
+    height: 120px;
+    width: 180px;
+    border-radius: 12px;
+    
+}
+.our-services-page{
+    height: 90vh;
+    width: 100vw;
+}
+.items{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 85px;
+}
+.gap-1{
+    margin-top: -12px;
+}
+/* contact us section */
+.contact-us-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e0dfdc;
+}
+.bold-all{
+    font-weight: bold;
+}
+.lets-talk-section{
+    height: 50vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15%;
+}
+.color{
+    color: red;
+}
+.but-1{
+    height: 20px;
+    width: 100%;
+    margin-top: -20px;
+    gap: 0px;
+}
+.but2{
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    border-width: 5px;
+}
+.but-3{
+    height: 120px;
+    width: 100%;
+    margin-top: 10px;
+    gap: 0px;
+}
+.element-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.but-4{
+    margin-top: 20px;
+    height: 25px;
+    width: 100%;
+    background-color: #4A90E2;
+    border-radius: 10px;
+    border-style: none;
+}
+.topless{
+    margin-top: 2px;
+}
+/* footer-section */
+.footer-page{
+    height: 50vh;
+    width: 100vw;
+    background-color: #0A1426;
+}
+.main-box{
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+.col-1{
+    color: white;
+}
+.col-2{
+    color: white;
+}
+.col-3{
+    color: white;
+}
+.line{
+    text-decoration: underline;
+}
+.last-line{
+    color: white;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+.bi{
+    gap: 20px;
+}

@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.pp {
+    background-color: #0A1525;
+    height: 10vh;
+    font-family: "Bree Serif";
+    width: 123vw;
+    display: flex;
+    padding-right: 10px;
+    flex-direction: row;
+    overflow-x: flow;
+}
+
+.oo {
+    height: 50px;
+    width: 50px;
+    padding-top: 25px;
+    padding-left: 200px;
+}
+
+.pan {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.tt {
+    font-size: 30px;
+    color: white;
+    gap: 35px;
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.ww {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 124vw;
+    align-content: center;
+    color: white;
+    overflow-x: scroll;
+    flex-direction: column;
+    font-size: 40px;
+    justify-content: center;
+    font-family: "Bree Serif";
+    align-items: center;
+    display:grid;
+    grid-template-rows: 2fr, 1fr 1fr;
+}
+.oi{
+    padding-left: 250px;
+}
+.io {
+    align-content: center;
+    color: white;
+    display: flex;
+    padding-left: 250px;
+    flex-direction: column;
+    font-size: 40px;
+    justify-content: center;
+    font-family: "Bree Serif";
+    align-items: center;
+}
+
+.qw {
+   
+    color: white;
+    height:90px;
+    width:230px;
+    text-align: center;
+    font-size: 40px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #4B9EFF;
+    font-family: "Bree Serif";
+   
+}
+
+.rr {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.xx {
+    display: grid;
+    text-align: start;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px
+}
+
+.lp {
+    border-radius: 25px;
+}
+
+.uyy {
+    background-color: #dfe3eb;
+    height: 100vh;
+    padding-top: 20px;
+    width: 124vw;
+    font-family: "Bree Serif";
+
+}
+
+.tyty {
+    text-align: center;
+}
+
+.tyu {
+    display: grid;
+    padding-left: 150px;
+    grid-template-rows: 2fr 2fr 3fr 3fr;
+}
+
+.popo {
+    height: 5vh;
+    width: 90vw;
+    padding-left: 50px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+
+.ppo {
+    height: 20vh;
+    width: 90vw;
+    padding-left: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+
+#err {
+    background-color: #4B9EFF;
+    text-align: center;
+    height: 5vh;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    color: white;
+    padding-top: 10px;
+    width: 90vw;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.gggh {
+    background-color: #0A1525;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 110vw;
+    color: white;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.sew {
+    height: 150px;
+    width: 150px;
+
+}
+
+.rew {
+    height: 10vh;
+    flex-direction: row;
+    display: flex;
+    gap: 45px;
+    padding-right: 25px;
+    width: 10vw;
+}

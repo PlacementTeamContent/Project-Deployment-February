@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-back {
+    background-color: #0A1525;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto";
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.image {
+    height: 30px;
+    padding: 10px;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 9px;
+    padding-top: 5px;
+}
+
+.items-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.back-2 {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    height: 40vh;
+}
+
+.back-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+.back-head {
+    font-weight: bold;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    margin: 10px;
+}
+
+.backbtn {
+    border-width: 0px;
+    background-color: #8B5CF6;
+    color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+
+}
+
+.back-para {
+    margin: 10px;
+
+}
+
+.os-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.os-head {
+    color: #1E293B;
+    font-family: "Roboto";
+    margin-bottom: 15px;
+}
+
+.os-para {
+    color: grey;
+    font-family: "Roboto";
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.os-images {
+    height: 100px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.items-head {
+    color: #1E293B;
+    font-family: "Roboto";
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.items-para {
+    color: #1E293B;
+    font-family: "Roboto";
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.information2 {
+    text-align: center;
+}
+
+.flexing {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.items-provided {
+    margin: 20px;
+
+}
+
+.contact-us-section {
+    background-color: #dfe3eb;
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+.contactp {
+    text-align: left;
+    padding-left: 110px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.namebtn {
+    margin-top: 0px;
+    width: 10px;
+    height: 30px;
+}
+
+.div1 {
+    text-align: center;
+
+}
+
+.input {
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.only2 {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.cu-btn {
+    border-width: 0px;
+    background-color: #8B5CF6;
+    color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    height: 30px;
+    width: 63vh;
+}
+
+.footer {
+    background-color: black;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    color: white;
+}
+
+.footerimg {
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.pad1 {
+    margin: 5px;
+}
+
+.conatct-usft {
+    margin: 10px;
+}
+
+.highlight {
+    height: 25px;
+    font-weight: bold;
+}
+
+@media all and (max-width: 576px) {
+    .items-nav {
+        display: none;
+
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .only2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexing {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .os-images {
+        height: 150px;
+        width: 300px;
+    }
+
+}

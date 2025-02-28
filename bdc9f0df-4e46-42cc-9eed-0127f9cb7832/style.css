@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-con1{
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size:cover;
+    height:90vh;
+    font-family: "Bree Serif";
+    color:#FFFFFF;
+}
+.navbar{
+    background-color:#0A1525;
+    height:auto;
+    display: flex;
+    justify-content:space-between;
+    
+     
+}
+.logo-con{
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    height:40px;
+    width:40px;
+    margin:20px;
+}
+.logo-name{
+    margin-bottom:4px;
+}
+.nav-ele-con{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:22px;
+}
+.nav-ele{
+    display: none;
+}
+.ele{
+    margin:6px;
+}
+.bar{
+    display: flex;
+    margin:6px;
+}
+.bg-des-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    height:75vh;
+    margin-left:12px;
+}
+.button1{
+    background-color:#6C63FF;
+    border:0px solid;
+    border-radius:6px;
+    padding:8px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    color:#FFFFFF;
+}
+.our-services-des-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: "Bree Serif";
+}
+.para{
+    color:grey;
+    font-weight:400;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.heading{
+    color:#1E293B;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.image{
+    height:200px;
+    width:300px;
+    border-radius:30px;
+    margin-top:18px;
+}
+.card-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom:18px;
+}
+.card-des{
+    color:grey;
+}
+.contact-us-con{
+    background-color:#dfe3eb;
+    padding:6px;
+    padding-left:12px;
+}
+.message-box-con{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   font-family:"Bree Serif";
+}
+.box-con{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   align-items:center;
+   width:100%;
+}
+.mail-box{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   align-items:center;
+}
+.num-box{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   align-items:center;
+}
+.box1{
+    border:2px solid lightgrey;
+    height:30px;
+    width:80%;
+    border-radius:5px;
+    background-color:#FFFFFF;
+    
+}
+.box2{
+    border:2px solid lightgrey;
+    height:30px;
+    width:80%;
+    border-radius:5px;
+    background-color:#FFFFFF;
+}
+.box3{
+    border:2px solid lightgrey;
+    height:130px;
+    width:80%;
+    border-radius:5px;
+    background-color:#FFFFFF;
+}
+.star{
+    color:red;
+}
+.box-name{
+    margin-right:350px;
+    color:#1E293B;
+    font-weight:500;
+}
+.box-name1{
+    margin-right:305px;
+    color:#1E293B;
+    font-weight:500;
+}
+.box-name2{
+    margin-right:270px;
+    color:#1E293B;
+    font-weight:500;
+}
+.button2{
+    background-color:#6C63FF;
+    border:0px solid;
+    border-radius:6px;
+    padding:8px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    color:#FFFFFF;
+    width:80%;
+    align-items:center;
+    margin:16px;
+    margin-left:50px;
+}
+.footer-con{
+    background-color:#0A1525;
+    display:flex;
+    flex-direction:column;
+    color:#FFFFFF;
+    padding-left:30px;
+    font-family:"Bree Serif";
+}
+.sub-foot-con{
+    display:flex;
+    flex-direction:column;
+}
+.foot-con2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.logo1{
+    height:100px;
+    width:100px;
+    margin:40px;
+}
+.icons-con{
+    display: flex;
+}
+.icon{
+    color:#FFFFFF;
+    font-size:40px;
+    margin:10px;
+}
+@media screen and (min-width:768px){
+    .box-name{
+        margin-right:515px;
+    }
+    .box-name1{
+        margin-right:460px;
+    }
+    .box-name2{
+        margin-right:420px;
+    }
+    .button2{
+        margin-left:70px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .nav-ele{
+        display: flex;
+        font-weight:bold;
+    }
+    .bar{
+        display: none;
+    }
+    .our-services-des-con{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        font-family: "Bree Serif";
+    }
+    .image{
+        height:200px;
+        width:300px;
+        border-radius:30px;
+    }
+    .box-con{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items:center;
+        width:100%;
+    }
+    .box1{
+        width:90%;
+    }
+    .box3{
+        width:90%;
+    }
+    .mail-box{
+        width:50%;
+    }
+    .num-box{
+        width:50%;
+    }
+    .box-name{
+        margin-right:790px;
+    }
+    .box-name1{
+        margin-left:250px;
+        width:156px;
+    }
+    .box-name2{
+        margin-right:695px;
+    }
+    .button2{
+        margin-left:48px;
+        width:90%;
+    }
+    .sub-foot-con{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    }
+    .col{
+        margin-right:28px;
+    }
+    .foot-con2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top:70px;
+}
+}

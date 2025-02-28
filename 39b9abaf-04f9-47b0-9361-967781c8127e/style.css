@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+
+}
+
+}
+.our-services{
+    background-color: white;
+    background-size: cover;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    justify-content: space-between;
+    color: white;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+
+}
+
+.nxt-spark-icon {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+.nxtspark {
+    font-size: 15px;
+    color: white;
+}
+
+.header-page {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.head1 {
+    color: white;
+    font-family: Bree Serif;
+}
+
+.para1 {
+    color: white;
+    font-family: Bree Serif;
+}
+
+.butt {
+    color: white;
+    background-color: #FF7A2E;
+    border-radius: 5px;
+
+}
+.img2{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.serives-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-size: cover;
+}
+
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.servicess{
+    text-align: center;
+}
+.contact-us{
+    text-align: center;
+    background-color: #def3eb;
+}
+spam{
+    color: red;
+}
+.name-space{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    border-width: 2px;
+    border-color: #1E293B;
+    border-style: solid;
+}
+.email-space{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    border-width: 2px;
+    border-color: #1E293B;
+    border-style: solid;
+}
+.phone-space{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    border-width: 2px;
+    border-color: #1E293B;
+    border-style: solid;
+}
+.message-space{
+    padding: 100px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    border-width: 2px;
+    border-color: #1E293B;
+    border-style: solid;
+}
+.but1{
+    color: white;
+    background-color: #FF7A2E;
+    border-radius: 5px;
+    padding: 5px 180px 5px 180px;
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    color: #dfe3eb;
+}
+.footer-page{
+    background-color: #0A1525;
+}
+.icon{
+    color: white;
+}
+.spam1{
+    text-decoration: underline;
+}

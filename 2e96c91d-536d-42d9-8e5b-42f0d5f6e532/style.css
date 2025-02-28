@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    font-family: "Bree Serif";
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #0A1525;
+    color: #FFFFFF;
+    position: fixed;
+    width: 100vw;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    font-size: 23px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+}
+.item {
+    margin-left:16px;
+    font-size: 23px;
+}
+.items {
+    margin-top:23px;
+    margin-left: 20px;
+}
+.img {
+    margin-top:14%;
+    width: 80%;
+    height: 50%;
+}
+.img1 {
+    width: 40%;
+    height: 40%;
+}
+
+.header {
+    color: white;
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    width: 100vw;
+    padding-top: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.header-elements {
+    padding-bottom: 300px;
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: #FFD700;
+    padding: 8px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.heading {
+    font-size: 88px;
+}
+.heading-2 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.para {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.image1 {
+    width: 90%;
+    border-radius: 20px;
+}
+.heading-3 {
+    font-size:30px;
+}
+.image3 {
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.btn-1 {
+    background-color: #FFD700;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 60vw;
+}
+
+section {
+    padding-top: 7%;
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+footer {
+    background-color: #1E293B;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.para2 {
+    color: white;
+}
+
+span {
+    text-decoration: underline;
+}
+#name {
+    width: 50vw;
+    height: 3vh;
+}
+#email {
+    width: 50vw;
+    height: 3vh;
+}
+#number {
+    width: 50vw;
+    height: 3vh;
+}
+#Messages {
+    width: 50vw;
+    height: 20vh;
+}
+
+@media (screen:potrait) and (min-width:800px) {
+    .cards {
+        display:flex ;
+        flex-direction: column;
+    }
+    .image3 {
+        width: 90%;
+        height: 160px;
+    }
+}

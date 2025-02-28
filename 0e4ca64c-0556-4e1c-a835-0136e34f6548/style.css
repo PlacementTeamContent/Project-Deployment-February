@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"); 
+
+    
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+    animation: slide 10s infinite;
+}
+ */ 
+.about-us {
+    background-image:url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg") ;
+    height: 400px;
+    width: 700px; 
+    color:#dfe3eb; 
+    text-align: center; 
+    
+} 
+.button {
+    background-color: #00E5BE;
+    color:white;
+    text-align: right;
+}
+/* @keyframes slide {
+
+    0%,
+    33% {
+        transform: translateX(0);
+    }
+
+    34%,
+    66% {
+        transform: translateX(-100%);
+    }
+
+    67%,
+    100% {
+        transform: translateX(-200%);
+    }
+} */
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+.para1 { 
+    color: grey;
+    
+}
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service1 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    background-image: url("https://img.b2bpic.net/premium-photo/vr-virtual-reality-glasses-metaverse-sports-game_24070-1544.jpg"); 
+    height: 200px;
+    width: 200px; 
+    justify-content:flex-end;
+    
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+} 
+.img1 {
+    height: 200px; 
+    width: 200px;
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav_container {
+    background-color: #1E293B;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head_1 {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.burger {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.nav_link {
+    padding-left: 25px;
+}
+
+.bg_container {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.head_2 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.para_1 {
+    color: #ffffff;
+}
+
+.button_1 {
+    background-color: #4A90E2;
+    color: #ffffff;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.main_content {
+    text-align: center;
+}
+
+.img {
+    border-radius: 30px;
+    width: 30vw;
+}
+
+.img_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* @media screen, (min-width:576px) and (max-width:768px) {
+    .img_content {
+        direction: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        border-radius: 30px;
+        width: 30vw;
+        width:80%;
+    }
+} */
+.bg_container_1{
+    background-color: #e0dfdc;
+    text-align: center;
+    padding: 20px;
+}
+.details{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   justify-content: flex-start;
+}
+.footer_bg{
+    background-color: #1E293B;
+    padding: 20px;
+}

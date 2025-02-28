@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    flex-wrap: wrap;
+    font-weight: 100;
+    background-color: #0A1525;
+    color: white;
+    
+
+}
+.image{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.nav-elements{
+    margin-right:50px ;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.first_page{
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    font-size: 30px;
+    font-family: "Bree Serif";
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.page_elements{
+    width: 50vw;
+    height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+.paragraph{
+    font-size: 2vw;
+    color: lightgrey;
+    font-weight: normal;
+}
+
+.btn_properties{
+    font-size: 2vw;
+    width: 15vw;
+    color: white;
+    background-color: #8b5cf6;
+    height: 5vh;
+    border: 5px solid #8b5cf6;
+    border-radius: 15px;
+}
+button:hover{
+    transform: scale(1.15);
+}
+.card{
+    width: 25vw;
+    height: 20vh;
+}
+.heads{
+    width: 50vw;
+}
+.image_size{
+    width: 25vw;
+    height: 20vh;
+    border-radius: 10px;
+}
+.images_align{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lastpage{
+    padding: 50px;
+    background-color: #0A1525;
+    color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    width: 10vw;
+    height: 10vh;
+}
+h5{
+    color: white;
+    font-size: 2vw;
+}
+p{
+    font-size: 1.5vw;
+    color: grey;
+}

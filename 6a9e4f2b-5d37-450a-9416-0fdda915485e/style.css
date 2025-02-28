@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    color:#FFFFFF;
+    font-family: "Bree Serif";
+    margin: 0px;
+}
+.head{
+    background-color:#0A1525;
+   
+    margin: 0px;
+     padding: 5px;
+     color:#FFFFFF;
+    
+     font-family: "Bree Serif";
+    
+}
+
+.head-flx{
+     display: flex;
+    margin-left: 5px;
+   padding-right: 6px;
+   justify-content: space-around;
+     align-items: center;
+}
+
+
+.head-img{
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+
+
+.description{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 450px;
+    
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white!important;
+}
+
+.cu{
+    background-color: #FFD700;
+    border-width: 0px;
+    
+    border-radius: 4px;
+    color:orange;
+    height: 20px;
+}
+
+.os{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+p{
+    color:grey;
+    font-family: "Roboto";
+    
+}
+
+.card{
+    background-color: white;
+    color:black;
+    height: 200px;
+    width: 230px;
+    flex-wrap:wrap;
+    
+    
+    
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-right:  25px;
+    padding: 2px;
+}
+
+
+
+
+.card-img{
+    height:120px;
+    background-size: cover;
+    border-radius: 13px;
+    width: 230px;
+}
+
+@media  screen and  (min:574){
+    .all{
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+}
+
+.contact-us{
+    color:black;
+    background-color:#cccccc;
+    height: 600px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.both{
+    display: flex;
+    justify-content:space-around;
+    
+    flex-flow: wrap;
+    
+    
+}
+.indi{
+     display: flex;
+    flex-direction:column;
+    
+    
+    
+    
+}
+
+input{
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.inputs{
+    width: 520px;
+    flex-flow: wrap;
+    
+   
+}
+
+.lt{
+    background-color: #FFD700;
+    color:#FFFFFF;
+    border-width: 0px;
+    width: 570px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #0A1525;
+}
+
+.fall{
+    display: flex;
+    justify-content: space-around;
+}

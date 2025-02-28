@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-right: 4px;
+    font-size: 10px;
+
+    /* width:150vw; */
+}
+
+.bg-img {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 150vw;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    padding-right: 4px;
+}
+
+.btn1 {
+    background-color: #ffd700;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 90px;
+    border-color: #ffffff;
+    padding: 10px
+}
+
+.bgimgtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Bree serif;
+    padding-left: 10px;
+}
+
+.mainh1 {
+    color: white;
+}
+
+.mainp {
+    color: #ffffff;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+}
+
+.threecards {
+    display: flex;
+    justify-content: space-between;
+   
+    font-family: Bree serif;
+}
+
+.img1 {
+    height: 300px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+.Ourservice {
+    text-align: center;
+  
+    font-family: Bree serif;
+}
+
+/* .page2{
+    display:flex;
+    justify-content:center;
+} */
+.p2heading {
+    font-size: 40px;
+}
+
+.p2para {
+    font-size: 20px;
+}
+
+
+
+.lastone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /*  margin-left: 220px; */
+   /*  background-color:skyblue; */
+}
+
+/* .adressnum {
+    display: grid;
+   margin-right: 350px;
+    width: 200px;
+
+}
+ */
+.name {
+    display: grid;
+    margin-right: 180px;
+    width: 400px;
+}
+.contactus{
+    font-family:Bree serif;
+}
+.box2 {
+    height: 20px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+span{
+    color:red;
+}
+.box1 {
+    height: 20px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.email {
+    display: grid;
+   /*  margin-right: 80px; */
+    width: 430px;
+}
+
+/* .phone {
+    padding-left: 30px;
+}
+ */
+.msg {
+    display: grid;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+.box3 {
+    height: 300px;
+    width: 550px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+
+@media (min-width:992px) {
+    .bgimgtext {
+        /*  padding-right:80px; */
+        text-align: left;
+    }
+
+    .mainh1 {
+        font-size: 110px;
+    }
+
+    .mainp {
+        font-size: 40px;
+    }
+
+    .btn1 {
+        margin-left: 20px;
+    }
+
+    .adressnum {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+    .Ourservice{
+      padding-left:190px;
+    }
+    .threecards{
+         padding-left: 190px;
+    }
+    .name{
+      margin-right: 180px;
+        }
+    .email{
+         margin-right:80px;
+    }
+    .lastone{
+         margin-left: 220px;
+    }
+   .phone {
+    padding-left: 30px;
+}
+    .contactus {
+    text-align: center;
+    padding-left: 190px;
+    font-family: Bree serif;
+
+}
+    .navsec {
+     display: flex;
+     justify-content: space-around;
+     font-family: Bree serif;
+     background-color: #0a1525;
+     color: white;
+     width: 150vw;
+}
+    .imgtext {
+     display: flex;
+     justify-content:start;
+    }
+    .topnav{
+       display:flex;
+    }
+    .abt{
+        padding-right:10px;
+    }
+    
+}
+
+@media (max-width:768px){
+    .topnav{
+        display:none;
+    }
+    .bg-img{
+        width:90vw;
+    }
+    .navsec{
+        width:93vw;
+        display:flex;
+        background-color:black;
+        color:white
+    }
+    .threecards{
+        display:flex;
+        flex-direction:column;
+       padding-left:50px;
+    }
+    .pg3{
+        display:flex;
+        flex-direction:column;
+    
+    }
+    
+    .lastone{
+        margin-left:60px
+    }
+    .contactus{
+        display:flex;
+        flex-direction:column;
+       align-items:start;
+    }
+    .adressnum{
+        padding-right:150px;
+    }
+    .navsec{
+        display:flex;
+        justify-content:space-between;
+    }
+    .imgtext{
+        display:flex;
+        flex-direction:row;
+        margin-left:2px;
+    }
+    .logo{
+        padding:2px;
+    }
+    }

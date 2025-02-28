@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif";
+}
+
+.navbar {
+    background-color: #0a1525;
+    color: #ffffff;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lines {
+    display: block;
+}
+
+.navbar-loose {
+    display: none;
+}
+
+.logo {
+    height: 40px;
+    margin: 4px;
+}
+
+.section-1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    padding: 100px;
+    color: #ffffff;
+    opacity: 0.999;
+}
+
+.custom-button {
+    background-color: #ff7a2e;
+    color: #ffffff;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.section-2 {
+    padding: 25px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin-bottom: 40px;
+}
+
+.card-image {
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.section-3 {
+    padding: 25px;
+    text-align: center;
+    background-color: #dfe3eb;
+}
+
+input {
+    border: 1px solid #1e293b;
+    border-radius: 5px;
+    align-self: stretch;
+}
+
+.comment {
+    height: 150px;
+}
+
+.both {
+    display: flex;
+    flex-direction: column;
+}
+
+.important {
+    color: red;
+}
+
+.footer {
+    background-color: #0a1525;
+    padding: 25px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-container {
+    color: white;
+    background-color: #0a1525;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: "Times New Roman";
+}
+
+@media (min-width: 992px) {
+    .flexbox {
+        flex-direction: row;
+    }
+
+    .both {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: row;
+        padding: 50px;
+    }
+
+    .navbar-loose {
+        display: flex;
+        flex-direction: row;
+    }
+}

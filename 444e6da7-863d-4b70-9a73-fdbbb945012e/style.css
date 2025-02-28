@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    font-family: "Bree Serif";
+
+}
+
+
+
+.back {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 400px;
+
+}
+
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: #0A1525;
+
+}
+
+.log {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.eee {
+    margin: 10px;
+}
+
+.bar {
+    margin: 20px;
+}
+
+.invest {
+    padding: 40px;
+    text-align: left;
+    color: white;
+    width: 400px;
+}
+
+.btn {
+    background-color: #F6B352;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    border-width: 0px;
+}
+
+.card {
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.img {
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+.cont {
+    text-align: center;
+
+}
+
+.contact {
+    background-color: #dfe3eb;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.red {
+    color: red;
+}
+
+.big {
+    height: 200px;
+    width: 400px;
+}
+
+.det {
+    text-align: left;
+}
+
+.inputs {
+    width: 400px;
+}
+
+
+input {
+    border-radius: 10px;
+    border-width: 1px;
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.btn1 {
+    background-color: #F6B352;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    border-width: 0px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #0A1525;
+    color: white;
+    padding: 20px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foot1 {
+    margin: 20px;
+}
+
+.foot2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.foot21 {
+    margin: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+
+}
+
+.input2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bi {
+    margin: 3px;
+}
+
+.lgrey {
+    color: grey;
+}
+
+.grey {
+    color: lightgrey;
+}
+
+.circle {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 90px;
+    margin-top: 0px;
+    text-align: center;
+
+    font-size: 15px;
+}
+
+
+@media (max-width:768px) {
+    .eee {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px;
+        height: 350px;
+    }
+
+    .img {
+        height: 70%;
+
+    }
+
+    .back {
+        width: 580px;
+        height: 400px;
+    }
+
+    .inputs {
+        margin-left: 10%;
+        width: 400px;
+    }
+
+    .foot {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contact {
+        width: 100%;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .input2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+}

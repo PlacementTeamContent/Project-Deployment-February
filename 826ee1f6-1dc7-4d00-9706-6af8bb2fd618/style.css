@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.na {
+    background-color: #0A1525;
+    background-size: cover;
+    height: 10vh;
+}
+.how {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+.sare {
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    
+}
+.sare1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 24px;
+}
+.why {
+    padding: 24px;
+}
+.ba {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.ha {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: "Bree Serif";
+
+}
+
+.ok {
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: transparent;
+}
+.man {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.mam {
+    color: #1E293B;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.job {
+    height:250px;
+    width: 300px;
+    border-radius: 50px;
+    
+    
+}
+.man1 {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    font-size: 20px;
+    
+}
+.mam1 {
+    color: #1E293B;
+    font-family: "Bree Serif";
+    
+}
+.vid {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.sari {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    
+}
+.pen {
+    background-color: lightgrey;
+    background-size: cover;
+}
+.last {
+    background-color: #1E293B;
+    background-size: cover;
+}
+.dog {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+.dog1 {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+.odhu {
+    display: flex;
+    flex-direction: row;
+    
+}
+.fid {
+    padding: 24px;
+}
+.dud {
+    color: #0A1525;
+    font-family: "Bree Serif";
+
+}
+.yoo {
+
+}

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    background-color: #0A1525;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+.image{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+span{
+    color: white;
+}
+.list-items{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    font-family: "Bree Serif";
+}
+.lis{
+    padding: 8px;
+}
+i{
+    padding: 10px;
+}
+.container1{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    font-family: "Robotoo";
+    font-size: 20px;
+}
+.main{
+    /* text-align: center;
+    margin-top:60px ; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.input{
+    height: 28px;
+    width: 80vw;
+    border-radius: 8px;
+    border-color: white;
+}
+.input1{
+    height: 20vh;
+    width: 80vw;
+    border-radius: 8px;
+    border-color: white;
+}
+.btn{
+    background-color: #FFD700;
+    color: #FFFFFF;
+    padding: 5px;
+    border-color: #FFD700;
+    border-radius: 8px;
+}
+/* .main-container{
+    display: flex;
+    flex-direction: column;
+} */
+.our-Services{
+    background-color: white;
+    text-align: center;
+    font-family: "Robotoo";
+}
+.image1{
+    border-radius: 40px;
+    height: 40vh;
+    width: 60vw;
+}
+.contact-us{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: "Robotoo";
+}
+.contact-para{
+    font-size: 18px;
+}
+.contact{
+    color: #1E293B;
+    font-family: "Robotoo";
+    font-weight: bold;
+}
+.btn1{
+    background-color: #FFD700;
+    color: #FFFFFF;
+    width: 80vw;
+    height: 40px;
+    padding: 5px;
+    border-color: #FFD700;
+    border-radius: 5px;
+    margin: 10px;
+}
+.image-foot{
+     height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.footer{
+    background-color: #1E293B;
+    color: white;
+}
+.footer-para{
+    padding: 10px;
+}
+.h1{
+    font-family: "Robotoo";
+    font-size: 20px;
+    color: lightgrey;
+/*     padding: 10px; */
+}
+.p{
+    color: lightgrey;
+    font-family: "Robotoo";
+/*     padding: 10px; */
+}
+.media1{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+footer{
+    color: lightgrey;
+    font-family: "Robotoo";
+   padding: 10px; 
+}

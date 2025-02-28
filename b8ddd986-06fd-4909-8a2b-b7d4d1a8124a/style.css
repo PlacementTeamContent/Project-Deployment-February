@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header-bg {
+    background-color: #0a1525;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-bg {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 80vh;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 80px;
+    font-family: "Bree Serif";
+    font-size: 16px;
+    justify-content: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.para {
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: normal;
+    color:#ffffff;
+}
+
+.button {
+    border-radius: 2px;
+    border-width: 0px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4b9eff;
+    color: #ffffff;
+}
+
+.image-service {
+    border-radius: 5px;
+    height: 250px;
+    width: 300px;
+}
+
+.fonts {
+    font-family: "Bree Serif";
+}
+
+.contact-bg {
+    background-color: #dfe3eb;
+}
+
+.contact-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-bg{
+    background-color: #0a1525;
+    
+}
+.icon-color{
+    color:white;
+    padding:30px;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-con{
+    padding: 20px;
+}
+.footer-color{
+    color:#dfe3eb;
+}

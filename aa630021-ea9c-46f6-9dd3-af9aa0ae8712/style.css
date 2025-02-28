@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap&family=Bree+Serif");
+
+* {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navbar-container {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar-logo-container {
+    display: flex;
+}
+
+.navbar-image {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+.navbar-logo-name {
+    color: #ffffff;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+    align-self: center;
+}
+
+.list-items-container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style-type: none;
+}
+
+.list-item {
+    padding-left: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.navbar-icon {
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.bg-container1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.cd-transfer-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.cd-transfer-description {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.cd-transfer-button {
+    background-color: #4B84F3;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 0px;
+    border-style: solid;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.bg-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.our-services-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.our-services-description {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    color: #1A2942;
+    text-align: center;
+}
+
+.our-services-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.our-services-items-container {
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: center;
+    align-self: center;
+}
+
+.our-services-image {
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.our-services-item-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.our-services-item-description {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    color: #1A2942;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.contact-us-container {
+    background-color: #dfe3eb;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+}
+
+.label-name {
+    align-self: flex-start;
+    font-family: "Roboto";
+}
+
+.input-name {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: solid;
+    padding-right: 20px;
+}
+
+.contact-us-items-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.email-address-container {
+    margin: 30px;
+    padding-bottom: 15px;
+    margin-left: -5px;
+    width: 50%;
+}
+
+.phone-address-container {
+    margin: 30px;
+    padding-bottom: 15px;
+    width: 50%;
+}
+
+.contact-us-button-us {
+    background-color: #4B84F3;
+    border-radius: 5px;
+    padding: 15px;
+    border-width: 0px;
+    border-style: solid;
+    width: 100%;
+    margin: 10px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    
+}
+
+.footer-container {
+    background-color: #0A1525;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-para {
+    color: #FFFFFF;
+    padding-top: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.icon-footer {
+    color: #dfe3eb;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.footer-contact-us-heading {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer-contact-us-para {
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.copyriht-message {
+        width: 100%;
+        align-self: flex-start;
+        color: #ffffff;
+        padding-top: 30px;
+    }
+
+@media screen and (max-width: 767px) {
+    .list-items-container {
+        display: none;
+    }
+    .cd-transfer-heading {
+        font-size: 36px;
+    }
+    .cd-transfer-description  {
+        font-size: 20px;
+    }
+    .cd-transfer-button {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .our-services-image {
+        width: 100%;
+    }
+    .contact-us-items-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .email-address-container {
+              margin: 10px;
+    width: 100%;
+    }
+    .phone-address-container {
+            margin: 10px;
+    width: 100%;
+    }
+    .label-name {
+          margin-top: 10px;
+    margin-left: -5px;
+    width: 100%;
+    }
+    .input-name {
+          margin: 10px;
+    margin-left: -5px;
+    width: 100%;
+    }
+    .footer-item1-container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .copyriht-message {
+        width: 100%;
+        align-self: flex-start;
+        color: #ffffff;
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-color: #0A1220;
+    color:#ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    height: 50px;
+    width: 50px;
+}
+.nav_item{
+    margin-top: 23px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.nav_item_1{
+    margin-top: 23px;
+    margin-left: 20px;
+    font-size: 15px;
+}

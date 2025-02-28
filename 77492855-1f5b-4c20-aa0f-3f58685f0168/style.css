@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.About {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media screen and (max-width:576px) {
+    .nav-items {
+        display: none;
+    }
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    color: #ffffff;
+
+}
+
+@media screen and (max-width:576px) {
+    .icon {
+        display: block;
+
+    }
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+}
+
+.para {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.container1 {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 600px;
+    text-align: left;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.heading1,
+.para1 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+
+
+}
+
+.contact {
+    height: 35px;
+    width: 80px;
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #4B9EFF;
+
+}
+
+.heading2 {
+    color: #000000;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.para2 {
+    color: #000000;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media screen and (max-width:576px){
+    .image-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+}
+
+.image1 {
+    height: 200px;
+    width: 390px;
+    border-radius: 5px;
+}
+@media screen and (max-width:576px){
+    .image1 {
+    height: 200px;
+    width: 390px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+}
+.heading3, .para3{
+    font-family: "Bree Serif";
+    color: #1E293B;
+    text-align: center;
+}
+.required{
+    color: red;
+}
+.contact-container{
+     display:grid;
+    background-color: #dfe3eb;
+    
+}
+label .form-row{
+    font-weight: bold;
+}
+.contact-us-container{
+    display:flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.button{
+   height: 35px;
+    width: 100vh;
+    background-color: #4B9EFF;
+    color: #ffffff;
+}
+
+.form-row1{
+    width: 700px;
+}
+
+.footer-container{
+    background-color: #0A1525;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icons{
+    color:#1E293B;
+    
+}
+.para4{
+    color: #1E293B;
+}
+.para5{
+    color: #ffffff;
+    font-weight: bold;
+}
+.icon-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container1{
+     background-color: #0A1525;
+    height: 100px;
+    color: #1E293B;
+    display: flex;
+    align-content: flex-end;
+    
+    
+}

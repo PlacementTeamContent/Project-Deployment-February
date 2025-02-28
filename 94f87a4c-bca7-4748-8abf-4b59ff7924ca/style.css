@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-items:space-around;
+    background-color: #0A1426;
+    color:white;
+}
+.nav-link{
+    padding:15px;
+}
+.logo{
+    height:50px;
+    width:70px;
+    
+}
+.bg-text{
+    margin-top:3px;
+}
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size:cover;
+    height:100vh;
+    
+}
+.header-heading{
+    color:#FFFFFF;
+    font-family:"Bree-Serif";
+    font-size:45px;
+    text-align: left;
+    margin-left:20px;
+}
+.header-para{
+    color:#FFFFFF;
+    font-family:"Bree-Serif";
+    font-size:25px;
+    text-align: left;
+    margin-left:25px;
+}
+.btn-header{
+    color:#FFFFFF;
+    font-family:"Bree-Serif";
+    height:35px;
+    width:90px;
+    margin-left:25px;
+    font-size: 15px;
+    background-color: #4A90E2;
+    border: 0;
+    border-radius:10px;
+}
+.our-service{
+    text-align: center;
+}
+.service-head{
+    font-family: "Bree-Serif";
+    font-size: 30px;
+    color:#1E293B;
+}
+.service-para{
+    font-family: "Bree-Serif";
+    font-size: 25px;
+    padding:10px;
+    color:#1E293B;
+}
+.cardimg{
+    height:200px;
+    width:250px;
+    border-radius:10px;
+   align-items: center;
+   margin-left:40px;
+}
+.remote-head{
+     font-family: "Bree-Serif";
+    font-size: 30px;
+    text-align: center;
+    color:#1E293B;
+}
+.remote-para{
+    font-family: "Bree-Serif";
+    font-size: 25px;
+    text-align: center;
+    color:#1E293B;
+}
+.card{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us{
+    background-color: #e0dfdc;
+    height:100vh;
+}
+.contact-head{
+    text-align: center;
+    color:#0A1426;
+    padding:10px;
+    font-family: "Bree-Serif";
+}
+.contact-para{
+     text-align: center;
+    color:#0A1426;
+    padding:10px;
+    font-family: "Bree-Serif";
+    font-size: 25px;
+}
+.box1{
+    height:90px;
+    width:75%;
+   margin:20px;
+   margin-top:0px;
+}
+.contact-para1{
+    text-align: left;
+    padding:15px;
+    font-family: "Bree-Serif";
+    font-size: 25px;
+    font-weight:bold;
+}
+.box2{
+    height:90px;
+    width:55%;
+   margin:20px;
+   margin-top:0px;
+}
+.box3{
+    height:90px;
+    width:55%;
+   margin:20px;
+   margin-top:0px;
+}
+.box4{
+    height:190px;
+    width:85%;
+   margin:20px;
+   margin-top:0px;
+}
+.btn-lets-talk{
+    height:70px;
+    width:75%;
+    color:#FFFFFF;
+    background-color: #4A90E2;
+    margin:20px;
+    border:0px;
+    font-size: 40px;
+    border-radius:10px;
+}
+.footer{
+    background-color: #0A1426;
+    height:100vh;
+    padding:30px;
+    
+}
+.footer-para{
+    color:#FFFFFF;
+    font-size: 30px;
+    
+}
+.bg-icon{
+    background-color:#e0dfdc;
+   height:70px;
+   width:90px;
+    display:flex;
+   flex-grow:3;
+   justify-content: space-around;
+}
+.logo-footer{
+    height:90px;
+   width:70px;
+   display:flex;
+   flex-grow:2;
+   justify-content: space-around;
+
+}
+.para-footer{
+    color:#FFFFFF;
+    font-size:35px;
+}
+.menu{
+    color:#FFFFFF;
+    font-size:25px;
+}
+.txt-nxt{
+    color:#FFFFFF;
+    font-size: 25px;
+}

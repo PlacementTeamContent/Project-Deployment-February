@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+ width:auto;   
+}
+.nav_image {
+    height: 40px;
+    width: 50px;
+    margin-left: 50px;
+}
+
+.nav_log {
+    display: flex;
+    color: white;
+    gap: 10px;
+
+
+}
+
+.nav_bar {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0px;
+
+}
+
+.navlink {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.first_page {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    height: 80vh;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.first_page_head_line {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Bree Serif";
+    margin: 0px;
+
+}
+
+.first_page_tag_line {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0px;
+    font-family: "Bree Serif";
+
+
+}
+
+.first_page_button {
+    color: #ffffff;
+    background-color: #4b9EFF;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: -350px;
+}
+
+.second-page-card_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width:auto;
+
+
+
+}
+
+.Card-images {
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 0px;
+
+
+}
+
+.second-page_text {
+    text-align: center;
+    padding: 20px;
+    ;
+}
+
+.card {
+    padding: 30px;
+    width: 300px;
+
+}
+
+.card-main-line {
+    color: #0A1525;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+
+}
+
+.card-info-line {
+    color: grey;
+    font-size: 16px;
+    width: 380px;
+}
+
+.input_name {
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    border-color: grey;
+    width: 500px;
+}
+
+.Contact_us_section {
+    background-color: #dfe3eb;
+    padding: 50px;
+    width:auto;
+}
+
+.Contact_us_text {
+    text-align: center;
+}
+
+.Contact_us_inputs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contact_button {
+    background-color: #4B9Eff;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    width: 500px;
+}
+
+span {
+    color: red;
+}
+
+.input_mail {
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    border-color: grey;
+    width: 250px;
+    margin: 0px;
+}
+
+.input_mail {
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    border-color: grey;
+    width: 250px;
+}
+
+.input_message {
+    height: 150px;
+    width: 500px;
+}
+
+.sub {
+    display: flex;
+    gap: 10px
+}
+@media screen and (max-width:769px){
+  .navlink{
+      display: none;
+  }
+  
+    
+}
+.nav_bars{
+    color:grey;
+    margin:20px;
+    font-size:20px;
+}
+@media screen and (min-width:992px){
+  .nav_bars{
+      display: none;
+  }
+  
+    
+}
+.last_card{
+    background-color:#0A1525;
+    height:300px;
+}
+.last_page_logo{
+    height:60px;
+    
+}
+.paragraph{
+    color:grey;
+}
+.logos{
+    color:grey;
+    display: flex;
+    list-style-type: none;
+    gap:10px
+}
+.logobox{
+    margin:200px;
+    padding:20px;
+}

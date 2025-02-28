@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.card {
+    background-color: #0A1525;
+    height: 70px;
+    display: flex;
+    color: #FFFFFF;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    height: 80px;
+}
+
+.main-content {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    height: 450px;
+    flex-direction: column;
+    align-content: center;
+    color: #FFFFFF;
+
+}
+
+.btn {
+    background-color: #FF7A2E;
+    border-radius: 7px;
+    border: 1px solid #FF7A2E;
+    color: #FFFFFF;
+}
+
+.context {
+    margin: 20px;
+}
+
+.middle-page {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.image-1 {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+@media (min-width:992px) {}
+
+.image-2 {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.contact-page {
+    background-color: #dfe3eb;
+    height: 770px;
+    text-align: center;
+}
+
+.box-1 {
+    flex-direction: column;
+    align-content: stretch;
+    background-color: #FFFFFF;
+    border-color: black;
+    margin: 10px;
+    width: 930px;
+    height: 100px;
+}
+
+.box-2 {
+    flex-direction: column;
+    align-content: stretch;
+    background-color: #FFFFFF;
+    border-color: black;
+    margin: 10px;
+    width: 930px;
+    height: 100px;
+}
+
+.box-3 {
+    flex-direction: column;
+    align-content: stretch;
+    background-color: #FFFFFF;
+    border-color: black;
+    margin: 10px;
+    width: 930px;
+    height: 100px;
+}
+
+.box-4 {
+    flex-direction: column;
+    align-content: stretch;
+    background-color: #FFFFFF;
+    border-color: black;
+    margin: 10px;
+    height: 150px;
+}
+
+.con {
+    text-align: left;
+    margin: 10px;
+}
+
+.btn-1 {
+    background-color: #FF7A2E;
+    width: 400px;
+    color: #FFFFFF;
+    border-color: #FF7A2E;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.footer {
+    background-color: #0A1525;
+    height: 450px;
+    color: #FFFFFF;
+}
+
+.lol {
+    margin: 20px;
+}
+
+.menu {
+    margin: 20px;
+    align-content: flex-start;
+}
+
+footer {
+    color: #FFFFFF;
+    text-align: center;
+}

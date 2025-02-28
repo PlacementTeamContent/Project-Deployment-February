@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg')
+}
+
+.navbar {
+    background-color:#0A1525;
+    color: white;
+}
+
+button {
+    background-color:#FFD700;
+}
+
+.services-pg {
+    background-color: white;
+
+}
+
+.contact-pg {
+    
+    text-align: center;
+}

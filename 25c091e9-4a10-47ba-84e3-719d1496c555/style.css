@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.main {
+    width: 155%;
+    background-color: #0a1525;
+}
+
+.main-1 {
+    width: 50%;
+    margin: auto;
+}
+
+.hedder {
+    background-color: #0a1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head-1 {
+    align-self: center;
+}
+
+.btn-tags {
+    display: flex;
+    background-color: black;
+
+}
+
+.span {
+    margin-right: auto;
+    align-self: center;
+
+}
+
+.hedder-image {
+    height: 50px;
+}
+
+.hedder-part-2 {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.hedder-part-3 {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.span-1 {
+    color: white;
+}
+
+.img-1 {
+    height: 150%;
+    width: 150%;
+}
+
+.page-1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    width:150vw;
+    height: 80vh;
+    place-items: center;
+    place-content: center;
+}
+
+.page-1-main {
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.part-1 {
+    color: white;
+    font-size: 70px;
+}
+.part-2{
+    color:white;
+    font-size:25px ;
+}
+
+.btn-1 {
+    width: 100px;
+    background-color: #8b5cf6;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.page2-main{
+   display: flex; 
+   
+}
+.main-2{
+    width: 150%;
+    margin-left:20%;
+    justify-self: center;
+    align-self: center;
+}
+.page2-1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+.page-2{
+    display: flex;
+}
+.image-1{
+    width:33vw;
+    margin: 20px;
+    border-radius: 10px;
+}
+.para-1{
+    color:#0a1525;
+    font-weight: bold;
+}
+.para-2{
+    color:#1e293b;
+}
+.page-3{
+    background-color: #dfe3eb;
+    width:150vw;
+    margin:auto;
+}
+.star{
+    color:red;
+}
+.text{
+    border:none;
+    width:80vh;
+}
+.text-1{
+    border:none;
+    width:40vh;
+    margin: 10px;
+}
+.cont-1{
+    text-align: center;
+}
+.main-3{
+    margin-left:25%;
+}
+.text-3{
+    border:none;
+    width:80vw;
+    height: 30vh;
+}
+.p3-p1{
+    display: flex;
+}
+.btn-2{
+    border:none;
+    color:white;
+    background-color: #8b5cf6;
+    width:80vw;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fotter{
+    background-color: #1e293b;
+     width:150vw;
+}
+.f1-p1-2{
+    display: flex;
+}
+.icon-1{
+   color:white; 
+   margin: 5px;
+}
+.fotter-img{
+    height: 60px;
+    
+}
+.fotter-1{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+     padding: 20px;
+    margin-left: 25%;
+}
+.para-3{
+    font-weight: bold;
+}
+.last-para{
+    color:white;
+    font-weight:normal;
+    padding: 10px;
+    margin-left:25%;
+}
+.p3-p{
+    padding: 10px;
+}
+@media (max-width:576px){
+    body{
+        box-sizing: border-box;
+        
+    }
+    .main{
+        width:100vw;
+       
+    }
+    .main-1{
+       margin: 0;
+       width: 90vw;
+    }
+    
+    .hedder-part-2{
+        display: none;
+    }
+    .page-1-main{
+        padding: 10px;
+    }
+    .page-1{
+        width:100vw;
+    }
+    .part-1{
+        font-size: 40px;
+    }
+    .part-2{
+        font-size: 20px;
+    }
+    .page2{
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+    }
+    .main-2{
+        width: 100vw;
+    }
+    .page-3{
+        width: 100vw;
+    }
+    .p3-p1{
+        flex-direction: column;
+    }
+    .main-3{
+        margin: 0;
+    }
+    .fotter{
+        width: 100vw;
+        
+    }
+    .fotter-1{
+        flex-wrap:wrap;
+        margin:0;
+    }
+    .f1-p1{
+        margin-right: 200px;
+    }
+    .f1-p1-3{
+        margin-left: 20%;
+    }
+    .f1-p1-4{
+        margin-right: 40%;
+    }
+    .image-1{
+    width:70vw;
+    
+    }
+    .page-2{
+        flex-direction: column;
+        margin: 0;
+    }
+    .main-2{
+        margin:0;
+    }
+}

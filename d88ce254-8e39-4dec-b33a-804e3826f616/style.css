@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    position: static;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #0A1525;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.fabars{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.mainpage {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 60vh;
+    width: 100vw;
+}
+
+.mainpageheading {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+
+.mainpagepara {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.mainpagebtn {
+    background-color: #FFD700;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 100px;
+    height: 30px;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    padding: 4px;
+}
+
+.mainpageitems {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.secondpageheading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+
+.img1 {
+    border-radius: 15px;
+    width: 80vw;
+}
+
+.para1 {
+    font-family: "Bree Serif";
+    color: grey;
+}
+
+.arranging {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicespage {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.contactuspage {
+    background-color: lightgrey;
+    padding: 15px;
+
+}
+
+.para2 {
+    font-family: "Bree Serif";
+    color: black;
+
+}
+
+.contactuspagehandp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.namediv {
+    height: 40px;
+    width: 80vw;
+    border-radius: 10px;
+    border-color: lightgrey;
+    background-color: #FFFFFF;
+
+}
+
+.commentsdiv {
+    height: 40vh;
+    width: 80vw;
+    border-radius: 10px;
+    border-color: lightgrey;
+    background-color: #FFFFFF;
+}
+
+span {
+    color: red;
+}
+
+.contactusbutton {
+    color: #FFFFFF;
+    background-color: #FFD700;
+    font-family: "Bree Serif";
+    border-color: transparent;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1E293B;
+    padding: 15px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.icons {
+    color: grey;
+    font-size: 25px;
+}
+
+.para3 {
+    font-family: "Bree Serif";
+    color: #FFFFFF;
+}
+
+.sidetoside {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.underline {
+    text-decoration: underline;
+}

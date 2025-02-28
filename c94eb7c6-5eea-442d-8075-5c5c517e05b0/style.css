@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.head {
+    color: white;
+
+}
+
+.para {
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.cont1 {
+    color: white;
+    background-color: black;
+    height: 100px;
+}
+
+.image {
+    height: 50px;
+}
+.web-page-1{
+    background-image:url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size:cover;
+    height:500px;
+    width:500px;
+    text-align:center;
+    font-family:"Bree Serif" ;
+}
+.Head{
+    color:white;
+}
+.para{
+    color:white;
+}
+.btn1{
+    color:white;
+    padding:20px;
+    border-radius:10px;
+}
+.web-page-2-con-main-header {
+    text-align: center;
+    padding: 10px;
+}
+
+.con-2-heading {
+    font-family: "Bree Serif";
+    font-size: 46px;
+    font-weight: 300;
+}
+
+.con-2-para {
+    color: #1E293B;
+}
+
+.card-text-content-para {
+     color: #1E293B;
+     font-size:20px;
+     
+}
+.card-image{
+    border-style:solid;
+    border-color:#dfe3eb;
+    border-width:2px;
+    border-radius:15px;
+    height:300px;
+    width:500px;
+}
+.cards{
+    padding:40px;
+}
+.contact-us-section{
+    background-color: #dfe3eb;
+    text-align: center;
+}
+button{
+    background-color: #4B84F3;
+    color:white;
+    padding:10px;
+    height:25px;
+    width:150px;
+    border-radius:10px;
+}

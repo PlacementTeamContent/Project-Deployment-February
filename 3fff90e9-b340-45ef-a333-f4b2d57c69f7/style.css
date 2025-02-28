@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.img-nav{
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    padding: 5px;
+}
+.nxt{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    
+    align-items:space-between;
+    color: white;
+    padding-left: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+      justify-content:space-between ;
+      width: 100vw;
+    
+    align-items:start;
+}
+.eff{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.bg{
+    background-image:url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    padding: 25px;
+    
+    
+    
+}
+.fp{
+    color: white;
+  
+   display: flex;
+  flex-direction: column;
+   justify-content:center;
+   align-content: center;
+ }
+ .btn{
+     height: 45px;
+     width: 150px;
+     border-radius: 10px;
+     border-color: #8B5CF6;
+     background-color: #8B5CF6;
+ }
+ .f-1{
+     text-align: center;
+     
+     flex-direction: row;
+ }
+ .img-2{
+     height: 150px;
+     border-radius: 10px;
+ }
+ .img-3{
+   display: flex;
+ gap: 10px;
+ }
+ .f-img{
+     display: flex;
+     gap: 10px;
+ }
+ .p{
+     font-size: 20px;
+ }
+ .h{
+     font-size: 27px;
+ }
+ .last-div{
+     background-color:#dfe3eb;
+     height: 100vh;
+     width: 100vw;
+    text-align: center; 
+ }
+ .last-h{
+     text-align: center;
+ }
+ .span{
+     color: red;
+ }
+ .text{
+     height: 30px;
+     width: 500px;
+     text-align: center;
+     border-radius: 5px;
+     border-color: #dfe3eb;
+     padding: px;
+ }
+  .text-9{
+     height: 30px;
+     width: 550px;
+     text-align: center;
+     border-radius: 5px;
+     border-color: #dfe3eb;
+ }
+ .text-1{
+     height: 100px;
+     width: 500px;
+        text-align: center;
+     border-radius: 5px;
+     border-color: #dfe3eb;
+     padding: 10px;
+ }
+  .text-{
+     height: 100px;
+     width: 500px;
+        text-align: center;
+     border-radius: 5px;
+     border-color: #dfe3eb;
+     padding: 10px;
+ }
+ .em{
+     
+     flex-direction: column;
+    
+     gap: 10px;
+ }
+ .text-e{
+   align-content: center;
+     text-align: center;
+     justify-content: center;
+     width: 200px;
+ }
+ footer{
+     background-color: #1E293B;
+     color: white;
+     height: 250px;
+     margin: 2px;
+     padding: 5px;
+     
+    
+ }
+ .foo-img{
+     height: 70px;
+ }
+ .foo-icons{
+     gap: 10px;
+ }
+ .f{
+     display: flex;
+     flex-direction: row;
+ }
+ .bottom{
+     text-decoration: underline;
+ }
+ .f-main{
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between; 
+ }
+ .end{
+     padding-top: 15px;
+ }
+ .bt{
+      height: 45px;
+     width: 500px;
+     border-radius: 10px;
+     border-color: #8B5CF6;
+     background-color: #8B5CF6;
+     padding: 5px;
+     color: white;
+ }
+ #iv{
+     display: flex;
+     align-items: flex-start;
+ }

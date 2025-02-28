@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 120vw;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.H1 {
+    color: white;
+    font-size: 55px;
+    margin: 250px;
+    margin-right: 80vh;
+}
+
+.P1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 120vh;
+
+}
+
+.header {
+    background-color: black;
+    padding: 0px;
+    width: 120vw;
+    display: flex;
+    align-items: row;
+
+
+
+}
+
+.img1 {
+    height: 100px;
+    width: 100px;
+}
+
+.ing {
+    display: flex;
+    align-items: row;
+    position: relative;
+    justify-content: end;
+}
+
+.H2 {
+    color: white;
+    padding: 15px;
+
+}
+
+.ps {
+    display: flex;
+    justify-content: center;
+}
+
+.pps {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    padding: 10px;
+    text-align: center;
+    background-color: #00E5BE;
+    border-radius: 26px;
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+
+.move {
+    text-align: center;
+    padding-right: 870px;
+    margin-bottom: 200px;
+    padding-left: 110px;
+
+}
+
+.ims {
+    height: 250px;
+    width: 300px;
+    border-radius: 36px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.sst {
+    text-align: center;
+    padding: 42px;
+}
+
+.c1 {
+    padding: 20px;
+}
+
+.c2 {
+    padding: 20px;
+}
+
+.c3 {
+    padding: 20px;
+}
+
+.cont-ainer {
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 60px;
+    width: 120vw;
+
+}
+
+.mike {
+    text-align: center;
+}
+
+.j {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.s {
+    font-size: 30px;
+}
+
+.s1 {
+    width: 450px;
+    height: 40px;
+}
+
+.i1 {
+    text-align: center;
+}
+
+.i2 {
+    text-align: center;
+    display: flex;
+    padding: 45px;
+
+}
+
+.s2 {
+
+    width: 450px;
+    height: 40px;
+}
+
+.i3 {
+    text-align: center;
+    display: flex;
+    padding: 45px;
+
+}
+
+.s3 {
+
+    width: 650px;
+    height: 400px;
+}
+
+.talk {
+    width: 650px;
+    text-align: center;
+    height: 50px;
+     background-color:#00E5BE;
+    color:#0A1220;
+    border-radius:12px;
+}
+
+.btnb {
+    display: flex;
+    justify-content: center;
+   
+}
+.bs{
+    background-color:#1E293B;
+    display:flex;
+    flex:row;
+    justify-content:center;
+    height:60vh;
+    
+}
+.l{
+    color:white;
+}
+.bgl{
+    padding:20px;
+}
+.bgl2{
+ padding:35px;
+    
+}
+.bgl3{
+     padding:35px;
+    
+}
+.k{
+    color:white;
+    font-size:40px;
+}
+.best{
+    color:#dfe3eb;
+}

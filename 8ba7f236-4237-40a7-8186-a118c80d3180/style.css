@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.first-img{
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-container{
+    background-color:#0A1525 ;
+    width: 720px;
+}
+.nav-elements{
+    display: flex;
+    flex-direction: row;
+    
+    color: white;
+    font-size: 10px;
+}
+.Nh{
+    
+  
+    margin-bottom: 50px;
+    padding-left: 30px;
+   margin: 5px;
+}
+.box-1{
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 720px;
+}
+.heading{
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    padding: 35px;
+    
+}
+.pra{
+    color: #FFFFFF ;
+    padding: 35px;
+}
+.btn{
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-color:#FFD700 ;
+    padding: 4px;
+    
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.box-2{
+    background-color: white;
+    
+}
+.heading-2{
+    color: black;
+    margin: 10px;
+    padding-left: 60px;
+    
+}
+.pra-2{
+    color: black;
+   padding-left: 20px;
+    margin: 5px;
+}
+.box-3{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.img-1{
+    height: 150px;
+    width: 200px;
+    margin: 4px;
+    border-radius: 20px;
+    
+}
+.heading-3{
+    padding: 5px;
+}
+.sp{
+    color: red;
+}
+.pho{
+    color: black;
+    font-size: 20px;
+}
+.mess{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.box-4{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    
+    background-color: #FFFFFF;
+}
+.last-btn{
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-color:#FFD700 ;
+    width: 500px;
+   
+}
+.last-sp{
+    text-decoration: underline;
+}
+.box-5{
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    width: 720px;
+}
+.box-pra{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.pra-5{
+    color: white;
+    margin: 5px;
+}
+.inst-box{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card{
+    background-image: https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg;
+    height: auto;
+    width: auto;
+}
+.heading{
+    display: flex;
+    flex: row;
+    justify-content: center;
+}

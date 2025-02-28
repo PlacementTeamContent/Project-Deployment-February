@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.image {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    height: 400px;
+    width: 600px;
+
+}
+
+.padding {
+    padding: 30px;
+}
+
+.heading1 {
+    color: white;
+
+}
+
+.heading2 {
+    color: white;
+}
+
+.paragraph1 {
+    color: white;
+}
+
+.button1 {
+    background-color: #8B5CF6;
+    color: white;
+    border-radius: 5px;
+}
+
+.section2 {
+    align-items: center;
+}
+
+.card1 {
+    flex-start: 5px;
+}
+
+.image1 {
+    height: 100px;
+    width: 150px;
+}
+
+.image2 {
+    height: 100px;
+    width: 150px;
+
+}
+
+.image3 {
+    height: 100px;
+    width: 150px;
+}
+
+.section3 {
+    background-color: #dfe3eb;
+    height: 500px;
+    width: 600px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.btn1 {
+    height: 30px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+.btn2 {
+    height: 30px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.btn3 {
+    height: 30px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.btn4 {
+    height: 30px;
+    width: 300px;
+    margin-left: 30px;
+    background-color: #8B5CF6;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+
+.section5 {
+    background-color: #1E293B;
+    height: 500px;
+    width: 600px;
+}
+
+.has {
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.te {
+    color: white;
+}
+
+.bi-facebook {
+    color: white;
+}
+
+.fa-bars {
+    color: white;
+}

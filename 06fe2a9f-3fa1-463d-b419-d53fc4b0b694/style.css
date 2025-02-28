@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.image{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+.container{
+    background-color: #0A1525;
+}
+.image2{
+    height: 90vh;
+    width: 100vw;
+}

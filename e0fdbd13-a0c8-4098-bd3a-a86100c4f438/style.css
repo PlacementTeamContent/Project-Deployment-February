@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #1E293B;
+    height: 100px;
+    background-image: url("https://cdn-icons-png.freepik.com/128/18190/18190817.png");
+    background-size: cover;
+    width: 100px;
+}
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+
+.btn1 {
+    background-color: #FFD700;
+    border-radius: 10px;
+    color: white;
+    height: 35px;
+}
+
+.card1 {
+    text-align: center;
+    font-family: "Bree Serif";
+}
+.card2{
+    font-family: "Bree Serif";
+}
+.card3{
+    font-family: "Bree Serif";
+}
+.card4{
+    font-family: "Bree Serif";
+}
+.maincard{
+    text-align: center;
+    font-weight: bold;
+     font-family: "Bree Serif";
+}
+.crd{
+    background-color: white;
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+}
+.box{
+    background-color: white;
+    height: 450px;
+    margin: 10px;
+    width: 200px;
+}
+.btn2{
+    background-color: yellow;
+    color: white;
+    width: 300px;
+    border-radius: 5px;
+    border: white;
+    height: 20px;
+}
+.maincard2{
+    background-color: #1E293B;
+    height: 80vh;
+   color: white;
+}
+.maincard3{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Menu{
+    padding: 30px;
+    margin: 30px;
+}
+.contact{
+    padding: 30px;
+    margin: 30px;
+}
+span{
+    text-decoration: underline;
+}

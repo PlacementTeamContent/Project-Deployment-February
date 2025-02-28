@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.img-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.header-section{
+    background-color: #1e293b;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 12px;
+    padding: 15px;
+}
+.img-heading {
+    color: white;
+    font-size: 81px;
+    font-family: "Bree Serif";
+}
+
+.bg-info-box {
+    height: 500px;
+    width: 800px;
+    margin-left: 150px;
+}
+
+.img-button {
+    color: white;
+    background-color: #FF7A2E;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+}
+
+.img-para {
+    color: white;
+    font-size: 30px;
+    font-family: "se";
+}
+
+.service-container {
+    width: 500px;
+    text-align: center;
+
+}
+
+.ourservices-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourservices-main {
+    font-size: 50px;
+    font-style: bold;
+    font-family: Monospace;
+}
+
+.ourservices-para {
+    font-size: 13px;
+    font-family: Monospace;
+}
+
+.cardimg-1 {
+    height: 150px;
+    width: 210px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.img1-heading {
+    font-size: 16px;
+}
+
+.card-1 {
+    width: 220px;
+    margin: 18px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ContactUs-section {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.astric {
+    color: red;
+}
+
+.box {
+    background-color: white !important;
+    color: grey;
+    border-radius: 4px;
+    height: 30px;
+}
+.ContactUs-information{
+    text-align: center;
+}
+.details-container{
+    width: 500px;
+}
+.box-1 {
+    background-color: white !important;
+    color: grey;
+    border-radius: 4px;
+    height: 100px;
+}
+.btn{
+    background-color: #FF7A2E;
+    color: white;
+    width: 500px;
+}
+.footer-section{
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.part-1-para{
+    color: #dfe3eb;
+}
+.bi{
+    color: white;
+}
+.part-1{
+    color: white;
+    margin: 18px;
+}
+.logo{
+    height: 80px;
+}
+@media screen{
+    .img-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.header-section{
+    background-color: #1e293b;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 12px;
+    padding: 15px;
+}
+.img-heading {
+    color: white;
+    font-size: 81px;
+    font-family: "Bree Serif";
+}
+
+.bg-info-box {
+    height: 500px;
+    width: 800px;
+    margin-left: 150px;
+}
+
+.img-button {
+    color: white;
+    background-color: #FF7A2E;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+}
+
+.img-para {
+    color: white;
+    font-size: 30px;
+    font-family: "se";
+}
+
+.service-container {
+    width: 500px;
+    text-align: center;
+
+}
+
+.ourservices-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourservices-main {
+    font-size: 50px;
+    font-style: bold;
+    font-family: Monospace;
+}
+
+.ourservices-para {
+    font-size: 13px;
+    font-family: Monospace;
+}
+
+.cardimg-1 {
+    height: 150px;
+    width: 210px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.img1-heading {
+    font-size: 16px;
+}
+
+.card-1 {
+    width: 220px;
+    margin: 18px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ContactUs-section {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.astric {
+    color: red;
+}
+
+.box {
+    background-color: white !important;
+    color: grey;
+    border-radius: 4px;
+    height: 30px;
+}
+.ContactUs-information{
+    text-align: center;
+}
+.details-container{
+    width: 500px;
+}
+.box-1 {
+    background-color: white !important;
+    color: grey;
+    border-radius: 4px;
+    height: 100px;
+}
+.btn{
+    background-color: #FF7A2E;
+    color: white;
+    width: 500px;
+}
+.footer-section{
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.part-1-para{
+    color: #dfe3eb;
+}
+.bi{
+    color: white;
+}
+.part-1{
+    color: white;
+    margin: 18px;
+}
+.logo{
+    height: 80px;
+}
+}

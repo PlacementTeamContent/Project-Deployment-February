@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-color: #ffffff;
+    height: 200vh;
+}
+
+.cont-3 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding-left: 50px;
+
+}
+
+.navbar {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-image {
+    height: 60px;
+    padding: 10px;
+}
+@media (min-width:701px){
+    .nav-item {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px;
+}
+}
+
+@media (max-width: 700px){
+    .logo-image {
+    height: 60px;
+    padding: 10px;
+}
+.navbar {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+}
+.cont-3 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding-left: 50px;
+}
+.nav-logo{
+    color:#ffffff;
+    align-items: flex-start;
+    padding:20px;
+}
+}
+
+.banner-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont2 {
+    padding: 80px;
+}
+
+.banner-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.banner-para {
+    font-family: "Bree Serif";
+
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.banner-button {
+    color: #ffffff;
+    background-color: #8B5CF6;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.cont1 {
+    text-align: center;
+}
+
+.services-head {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 28px;
+    color: #000000;
+}
+
+.services-para {
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #000000;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.services-img {
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+.card-para {
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #000000;
+}
+
+.cont-4 {
+    text-align: center;
+}
+
+.contact-us-container {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contact-us-head {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 10px;
+    color: #000000;
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    height: 10px;
+    width: 380px;
+    border: 2px solid #dfe3eb;
+    background-color: #ffffff;
+    align-self: stretch;
+    border-radius: 5px;
+}
+
+.container1-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box1 {
+    height: 10px;
+    width: 190px;
+    border: 2px solid #dfe3eb;
+    background-color: #ffffff;
+    align-self: stretch;
+    border-radius: 5px;
+}
+
+.box2 {
+
+    height: 100px;
+    width: 380px;
+    border: 2px solid #dfe3eb;
+    background-color: #ffffff;
+    align-self: stretch;
+    border-radius: 5px;
+}
+
+.button-box {
+    height: 20px;
+    width: 380px;
+    border: 2px solid #dfe3eb;
+    background-color: #8B5CF6;
+    align-self: stretch;
+    border-radius: 5px;
+    font-family: "Bree serif";
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+.footer{
+    background-color:#1E293B;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.footer-left-p{
+   padding:20px;
+}
+.f-icon{
+    color:#ffffff;
+}
+.footer-right-p{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:20px;
+    align-content: space-around;
+}
+.f-head{
+     font-family: "Bree Serif";
+    font-size: 12px;
+    font-weight: bold;
+    color: #dfe3eb;
+}
+.f-para{
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #dfe3eb;
+}
+.cont-6{
+    padding:10px;
+}

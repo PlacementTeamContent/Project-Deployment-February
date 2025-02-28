@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: #dfe3eb;
+
+
+}
+
+.head1 {
+    color: #0A1525;
+
+}
+
+.button1 {
+    background-color: #F6B352;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.image1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.head2 {
+    color: #0A1525;
+    text-align: center;
+}
+
+.para1 {
+    text-align: center;
+}
+
+.image {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.head2 {
+    padding: 10px;
+}

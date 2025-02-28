@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    font-family: "Bree Serif";
+    font-size: 11px;
+    justify-content: space-around;
+}
+
+.logoimg {
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+}
+
+.namelogo {
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.head {
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    font-size: 8px;
+}
+
+.row {
+    display: flex;
+}
+
+.top {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 10px;
+    padding: 24px;
+    height: 150px;
+    padding-top: 50px
+}
+
+.btn {
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    border: 0px;
+    border-radius: 6px;
+    margin-right: 170px;
+    font-size: 10px;
+}
+
+.cards {
+    font-family: "Bree Serif";
+    font-size: 9px;
+    text-align: center;
+}
+
+.imgcard1 {
+    height: 130px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.imgcard2 {
+    height: 130px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.imgcard3 {
+    height: 130px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #dfe3eb;
+    font-family: "Bree Serif";
+    font-size: 11px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #0A1525;
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+    padding: 20px;
+    font-size: 11px;
+}
+
+.imgfooter {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.color {
+    color: #dfe3eb;
+    font-size: 20px;
+}
+.cus{
+    font-size: 13px;
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: underline;
+}
+.btn1 {
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    border: 0px;
+    border-radius: 6px;
+    font-size: 10px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}

@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.mainback {
+    background-image: url(https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg
+);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.butt{
+   background-color: #4B9EFF;
+   color: white;
+}

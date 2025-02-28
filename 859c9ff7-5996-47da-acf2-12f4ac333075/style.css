@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    background-color: #0A1525;
+    color: white;
+
+}
+
+.bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #8B5CF6;
+    border-radius: 5px;
+    border-color: #8B5CF6;
+    color: white;
+    height: 4vh;
+    width: 20vw;
+}
+.txt{
+    text-align: center;
+}
+.btn1 {
+    background-color: #8B5CF6;
+    border-radius: 5px;
+    border-color: #8B5CF6;
+    color: white;
+    height: 4vh;
+    width: 90vw;
+    text-align: center;
+}

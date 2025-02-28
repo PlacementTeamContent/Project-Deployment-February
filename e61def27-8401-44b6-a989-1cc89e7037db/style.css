@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar- {
+    height: 7vh;
+    background-color: #1E293B;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+    margin-left: 14px;
+    margin-top: 19px;
+    margin:16px;
+}
+
+.flexx {
+    display: flex;
+    margin-left: 50px;
+}
+.navbar-bs{
+    margin-top: 19px;
+
+}
+.name {
+    color: white;
+    font-family: Bree Serif;
+}
+
+.aboutus {
+    color: white;
+    font-family: Bree Serif;
+    text-decoration: none;
+    margin: 9px;
+    margin-right: 60px;
+
+}
+
+.contactus {
+    color: white;
+    font-family: Bree Serif;
+    text-decoration: none;
+    margin: 9px;
+    margin-right: 60px;
+}
+
+.services {
+    color: white;
+    font-family: Bree Serif;
+    text-decoration: none;
+    margin: 9px;
+    margin-right: 60px;
+}
+
+.bottom_of_nav {
+    background: linear-gradient(to right, #1E293B, #dfe3eb);
+    height: 48vh;
+    display: flex;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: Bree Serif;
+
+}
+
+.para {
+    font-family: Bree Serif;
+    color: #ffffff;
+
+}
+
+.ourservices {
+    color: #1E293B;
+    font-family: Bree Serif;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    font-family: Bree Serif;
+    background-color: #f6b352;
+    height: 50px;
+    width: 140px;
+    border-radius: 9px;
+    border: none;
+
+}
+
+.content {
+    padding: 150px;
+}
+
+.doller {
+    height: 250px;
+    margin: 224px;
+}
+
+.img1 {
+    height: 200px;
+    border-radius: 12px;
+
+}
+
+.headingsbelow {
+    color: #1E293B;
+    font-family: Bree Serif;
+}
+
+.option1 {
+    margin: 60px;
+}
+
+.liningup {
+    display: flex;
+}
+
+.third-part {
+    background-color: #dfe3eb;
+    height: 70vh;
+}
+
+.reach {
+    color: #1E293B;
+    text-align: center;
+}
+
+.thridpartheading {
+    margin: 14px;
+    text-align: center;
+    font-family: Bree Serif;
+    color: #1E293B;
+}
+
+.name- {
+    margin-left: 150px;
+    font-family: Bree Serif;
+    color: #1E293B;
+}
+
+.name-button {
+    background-color: #ffffff;
+    height: 4vh;
+    width: 70vw;
+    border: none;
+    border-radius: 12px;
+}
+
+.email-button {
+    background-color: #ffffff;
+    height: 4vh;
+    width: 30vw;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.name2- {
+    margin-left: 150px;
+    font-family: Bree Serif;
+    color: #1E293B;
+    display: flex;
+}
+
+.phone-button {
+    background-color: #ffffff;
+    height: 4vh;
+    width: 27vw;
+    border: none;
+    border-radius: 12px;
+}
+
+.buttonsline {
+    display: flex;
+}
+
+.messagebutton {
+    background-color: #ffffff;
+    height: 22vh;
+    width: 70vw;
+    border: none;
+    border-radius: 12px;
+    margin-left: 150px;
+}
+
+.talk {
+    border: none;
+    border-radius: 10px;
+    background-color: #f6b352;
+    height: 30px;
+    width: 70vw;
+    font-size: 20px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-family: Bree Serif;
+}
+
+.footer {
+    background-color: #1E293B;
+    height: 60vh;
+}
+
+.footerimage {
+    height: 120px;
+
+}
+
+.paraf {
+    font-family: "Roboto";
+    color: white;
+}
+
+.facebook {
+    color: white;
+    font-size: 50px;
+    margin: 12px;
+}
+
+.firstpart {
+    padding: 140px;
+}
+
+.footer-contact {
+    color: white;
+    font-family: bree Serif;
+
+}
+
+.flexing {
+    display: flex;
+}
+
+.contactf {
+    padding: 140px;
+}
+
+.iconss {
+    display: flex
+}
+
+.bars {
+    height: 120px;
+    color: white;
+    margin-right: 40px;
+
+}
+
+.sites {
+    color: white;
+    text-decoration: underline;
+}
+
+.paraff {
+    padding: 140px;
+    color: white;
+}
+
+.aboutusf {
+    margin-right: 140px;
+    margin-top: 140px;
+}

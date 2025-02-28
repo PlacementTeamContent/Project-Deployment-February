@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg{
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    align-content: center;
+     text-align: center;
+    color: white;
+    height: 400px;
+    background-size: cover;
+    font-family: "Bree Serif";
+    
+}
+
+button{
+    background-color: #FFD700;
+    border-radius: 5px;
+    
+}
+img {
+    border-radius: 18px;
+    
+}
+.back {
+    text-align: center;
+    font-family: "Roboto";
+}
+.high {
+    display: flex;
+    flex-direction: row;
+}
+.high1 {
+    display: flex;
+    flex-direction: column;
+}
+.file{
+    background-color: lightgrey;
+    height: 400px;
+    text-align: center;
+}
+.max {
+    background-color: #1E293B;
+    height: 350px;
+    color: grey;
+    align-content: center;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.button1 {
+    background-color: #00E5BE;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.heading2 {
+    text-align: center;
+}
+
+.card {
+    font-family: bree serif;
+}
+
+.contact-us-page {
+    background-color: #dfe3eb;
+}
+
+.heading6 {
+    text-align: center;
+}
+
+.button2 {
+    background-color: #00E5BE;
+    color: white;
+}
+
+.footer-section-page {
+    background-color: #0A1220;
+}
+.para7{
+    color: white;
+    font-family: roboto;
+}
+.fa fa-bars{
+    color:white ;
+}

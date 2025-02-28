@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+nav {
+    background-color: #0A1220;
+    color: #ffffff;
+    align-content: center;
+    align-items: center;
+}
+
+.card-1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    height: 415px;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 13px;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.card {
+    width: 250px;
+}
+
+button {
+    background-color: #00E5BE;
+    border-radius: 5px;
+}
+
+img {
+    height: 100px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.nav-img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-b {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.navbar{
+    text-align: center;
+    padding: 5px;
+}
+.se-1{
+    padding: 20px;
+    
+}
+
+.card-3{
+    background-color: #dfe3eb;
+    padding: 5px;
+}
+.c-3{
+    text-align: center;
+}
+samp{
+    color: red;
+}
+.p-3{
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.name{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.ep{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.p{
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.mc{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.card-4{
+    background-color: #0A1220;
+    padding: 20px;
+}
+
+i{
+    color: #dfe3eb;
+}
+
+.c-4{
+    color: #dfe3eb;
+}
+
+.uc-4{
+    color: #dfe3eb;
+    list-style-type: none;
+}
+
+.uc{
+    display: flex;
+    flex-direction: row;
+}
+
+.se{
+    display: flex;
+    flex-direction: row;
+}

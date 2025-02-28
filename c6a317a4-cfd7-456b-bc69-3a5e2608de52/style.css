@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.head {
+    background-color: #0A1525;
+    height: 10vh;
+    width: 150vh;
+    margin: 2px;
+
+}
+
+.head-1 {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+
+
+}
+
+.bg-1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 200vh;
+    margin: 2px;
+    padding: 5px;
+
+}
+
+.heading-1 {
+    color: white;
+    font-size: 70px;
+
+
+
+
+
+}
+
+.para {
+    color: white;
+    padding: 3px;
+}
+
+.btn {
+    background-color: #8B5CF6;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.content {
+    padding: 180px;
+}
+
+.services {
+    text-align: center;
+
+
+}
+
+.img-1 {
+    border-radius: 26px;
+    height: 130px;
+
+
+}
+
+.o {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+.container {
+    background-color: #dfe3eb;
+    height: 79vh;
+
+
+
+
+}
+
+.li {
+    height: 30px;
+    width: 600px;
+}
+
+.o-o {
+    text-align: center;
+}
+
+.lli {
+    height: 340px;
+    width: 890px;
+    text-align: center;
+}
+
+.last {
+    background-color: #0A1525;
+    height: 30vh;
+    width: 150vh;
+}
+
+.btn-1 {
+    background-color: #8B5CF6;
+    width: 920px;
+    margin: 25px;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.p2 {
+    color: white;
+}
+.br{
+    color:white;
+    margin:3px;
+    margin:12px;
+}

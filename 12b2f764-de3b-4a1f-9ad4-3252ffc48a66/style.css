@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-container {
+    font-family: Bree Serif;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0A1525;
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.name {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.nav-bar-names {
+    display: flex;
+    gap: 15px;
+}
+.nav-bar-name {
+    color: #FFFFFF;
+}
+.icon {
+    color: #FFFFFF;
+    margin: 15px;
+}
+.About-us-page {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.about-us-heading {
+    color: #FFFFFF;
+}
+.about-us-para {
+    color: #FFFFFF;
+    text-align: center;
+}
+.about-us-button {
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.Our-services-page {
+    padding: 50px;
+    text-align: center;
+}
+.our-sevices-heading {
+    font-weight: bold;
+    text-align: center;
+}
+.our-sevices-para {
+    text-align: center;
+}
+.cards-container {
+    display: flex;
+    gap: 30px;
+}
+.image1 {
+    height: 205px;
+    border-radius: 20px;
+}
+.card-heading {
+    font-size: 18px;
+}
+.card-para {
+    font-size: 12px;
+}
+.Contact-Us-page {
+    padding: 50px;
+    text-align: center;
+    background-color: #dfe3eb;
+}
+.Questions {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.Name-button {
+    height: 25px;
+    width: 500px;
+}
+.Address-button {
+    height: 25px;
+    width: 250px;
+}
+.Phone-button {
+    height: 25px;
+    width: 250px;
+}
+.Messege-button {
+    height: 100px;
+    width: 500px;
+}
+.Address {
+    display: flex;
+    flex-direction: column;
+    flex-column-start: 1;
+    flex-column-end: 2;
+}
+.Phone {
+    display: flex;
+    flex-direction: column;
+    flex-column-start: 2;
+    flex-column-end: 3; 
+}
+.let {
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    width: 500px;
+    text-align: center;
+    padding: 8px;
+}
+.footer-page {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.footer-para {
+    color: #dfe3eb;
+    font-size: 8px;
+}
+.icons-container {
+    display: flex;
+}
+.footer-contact-heading {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+    .nav-bar-name {
+        display: none;
+    }
+    .about-us-heading {
+        text-align: center;
+    }
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

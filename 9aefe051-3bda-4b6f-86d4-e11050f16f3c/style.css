@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.cd {
+    background-color: #0A1525;
+    height: 70px;
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    color: white;
+}
+
+.image {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+.bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 60vh;
+    padding: 150px;
+}
+
+.button {
+    background-color: #F6B352;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.para {
+    color: white;
+    font-size: 20px;
+}
+
+.head {
+    color: white;
+}
+
+.figure {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .cd {
+        display: none;
+    }
+}
+
+.cd2 {
+    background-color: #0A1525;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+i {
+    color: white;
+    padding: 30px;
+}
+
+.header {
+    font-size: 20px;
+    color: white;
+}
+
+@media (min-width:768px) {
+    .cd2 {
+        display: none;
+    }
+}
+
+@media (max-width:575px) {
+    .cd {
+        display: none;
+    }
+}
+
+.cd1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (min-width:768px) {
+    .cd1 {
+        flex-direction: row;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px) {
+    .content {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.param {
+    color: #1E293B;
+}
+
+.mark {
+    background-color: transparent;
+    color: red;
+}
+
+.mc {
+    height: 200px;
+    width: 350px;
+}
+
+.cpage {
+    background-color: #dfe3eb;
+    height: 850px;
+}
+
+.button1 {
+    background-color: #F6B352;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+input {
+    height: 50px;
+    width: 400px;
+}
+
+@media (min-width:768px) {
+    .cpage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.fpage {
+    background-color: #0A1525;
+    height: 800px;
+    width: 1300px;
+}
+
+p1 {
+    color: white;
+    padding: 10px;
+}
+
+.image2 {
+    height: 70px;
+    width: 100px;
+}
+
+.fm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.heading {
+    color: white;
+}
+
+.p {
+    color: white;
+}
+
+.paragraph {
+    color: #dfe3eb;
+    padding: 40px;
+}
+
+.cd3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width:576px) {
+    .fpage {
+        width: 550px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .fpage {
+        width: 750px;
+    }
+}
+
+@media(max-width:576px) {
+    .cd1 {
+        width: 300px;
+    }
+
+    .card {
+        width: 300px;
+    }
+}

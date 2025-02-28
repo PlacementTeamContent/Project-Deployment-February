@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: #0A1525;
+    height: 80px;
+    background-size: cover;
+    width: 100vw;
+}
+.ace{
+    color:#dfe3eb;
+    padding: 5px;
+    font-size: 20px;
+}
+.container_4{
+    background-color: #0A1525;
+    height:100vh;
+    background-size: cover;
+    width: 100vw;
+}
+.main_1 {
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 140px;
+    font-size: 42px;
+}
+
+.main_4 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.card_1 {
+    background-color: #dfe3eb;
+}
+
+.para_4 {
+    padding: 5px;
+}
+
+.card {
+    height: 10vh;
+    width: 50vw;
+    background-color: #dfe3eb;
+}
+.btn{
+    background-color: #8B5CF6;
+    height: 20px;
+    width: 60vw;
+    margin: 10px;
+    border-radius:5px;
+}
+.para_4{
+    color:#1E293B;
+    font-size: 15px;
+}
+.para_2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Contact {
+    color: white;
+    background-color: #8B5CF6;
+    border-radius: 10px;
+    height: 38px;
+    width: 82px;
+    text-align: right;
+    margin: 30px;
+}
+
+.class_1 {
+    text-align: center;
+    margin: 30px;
+
+}
+
+.main_3 {
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.para_3 {
+    text-align: center;
+}
+
+.img_1 {
+    border-radius: 10px;
+    height: 40vh;
+    width: 60vw;
+    text-align: center;
+    margin: 50px;
+}
+
+.image_1 {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 60px;
+}
+.cal{
+    color: #FFFFFF;
+    margin-top:180px ;
+}
+
+.container_1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+    display: flex;
+
+}

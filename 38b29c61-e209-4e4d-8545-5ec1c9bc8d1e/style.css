@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width:680px; */
+    height: 100px;
+    width: 100%;
+}
+
+.services-container {
+    width: 100%;
+}
+
+.man-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicessubcont {
+    margin: 4px;
+
+}
+
+.navimgcont {
+    display: flex;
+}
+
+.navhead {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    margin-left: 4px;
+    font-weight: 300;
+
+}
+
+.name {
+    width: 410px;
+    margin-left: 17px;
+    margin-right: 0px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: gray;
+}
+
+.namein {
+    width: 410px;
+    margin-left: 17px;
+    margin-right: 0px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: gray;
+}
+
+.comments {
+    height: 300px;
+    width: 420px;
+    margin-left: 17px;
+    margin-right: 0px;
+
+    border-radius: 3px;
+    border-color: gray;
+}
+
+.talkbutton {
+    width: 420px;
+    margin-left: 17px;
+    margin-right: 0px;
+    height: 40px;
+    border-radius: 9px;
+    margin-top: 9px;
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-width: 0px;
+}
+
+.footer {
+    background-color: #0A1525;
+    width: 100%;
+}
+
+.navimg {
+    height: 50px;
+    width: 50px;
+    margin-top: 14px;
+}
+
+.fa-bars {
+    color: white;
+    margin-right: 5px;
+    /* margin-left:370px;
+    margin-bottom:8px; */
+}
+
+.manheading {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-left: 20px;
+}
+
+.manpara {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-left: 20px;
+}
+
+.manbutton {
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-width: 0px;
+    padding: 14px;
+    font-family: "Bree Serif";
+    border-radius: 7px;
+    text-align: center;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.ourservicesimage {
+    width: 440px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.servicessubhead {
+    font-family: "Bree Serif";
+    margin-left: 14px;
+}
+
+.servicessubpara {
+
+    margin-left: 14px;
+
+}
+
+.serviceshead {
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.servicespara {
+    text-align: center;
+    margin-left: 14px;
+}
+
+.contact-container {
+    background-color: lightgray;
+    height: 800px;
+    width: 100%;
+}
+
+.contacthead {
+    text-align: center;
+    font-family: "Bree Serif";
+    margin-left: 14px;
+}
+
+.contactpara {
+    margin-left: 14px;
+}
+
+.namepara {
+    margin-left: 14px;
+    font-family: "Bree Serif";
+}
+
+.footer-image {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footerpara {
+    color: #FFFFFF;
+    font-family: "Roboto";
+    margin-left: 14px;
+}
+
+.bi {
+    color: #FFFFFF;
+
+}
+
+.logo {
+    margin-left: 14px;
+}
+
+.footerdetails {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footercontactus {
+    color: #FFFFFF;
+    font-family: "Roboto";
+}
+
+.footermenu {
+    color: #FFFFFF;
+    font-family: "Roboto";
+}
+
+.footercontactusone {
+    font-family: "Bree Serif";
+    color: #FFFFFF;
+}
+
+.footermenuone {
+    font-family: "Bree Serif";
+    color: #FFFFFF;
+}
+
+.footerlast {
+    color: #FFFFFF;
+    font-family: "Roboto";
+    margin-left: 14px;
+}
+
+.lastdecor {
+    text-decoration: underline;
+}
+
+.namepara::after {
+    content: "*";
+    color: red;
+}
+
+
+@media screen and (min-width:992px) {
+    .navpara {
+        color: #FFFFFF;
+        margin: 10px;
+        font-family: "Roboto";
+
+    }
+
+    .navparacont {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 500px;
+    }
+
+    .servicesmainsubcont {
+        display: flex;
+    }
+
+    .ourservicesimage {
+        width: 300px;
+    }
+
+    .man-container {
+        background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+        width: 100%;
+    }
+
+    .emailphonecont {
+        display: flex;
+        justify-content: center;
+    }
+
+    .namecont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .name {
+        width: 580px;
+    }
+
+    .namein {
+        width: 530px;
+        margin-left: 17px;
+        margin-right: 0px;
+        height: 30px;
+        border-radius: 3px;
+        border-color: gray;
+    }
+
+    .comments {
+        width: 880px;
+    }
+
+    .namepara {
+        margin-left: 15px;
+    }
+
+    .talkbutton {
+        width: 1000px;
+        margin-left: 34px;
+        margin-right: 0px;
+        height: 40px;
+        border-radius: 9px;
+        margin-top: 9px;
+        background-color: #FFD700;
+        color: #FFFFFF;
+        border-width: 0px;
+    }
+
+    .manbutton {
+        color: #FFFFFF;
+        background-color: #FFD700;
+        border-width: 0px;
+        padding: 14px;
+        font-family: "Bree Serif";
+        border-radius: 7px;
+        text-align: center;
+        width: 100px;
+        margin-left: 150px;
+    }
+}

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    font-family: "Bree Serif";
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: left;
+    padding: 270px;
+}
+
+.main-heading {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.main-para {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-btn {
+    background-color: #FF7A2E;
+    color: white;
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+    border-width: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.secondary-heading {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.secondary-para {
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+}
+
+.img {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.sec-heading {
+    font-size: 30px;
+}
+
+.sec-para {
+    color: grey;
+}
+
+.con-bg-container {
+    background-color: #dfe3eb;
+    height: 150vh;
+    width: 100vw;
+}
+
+.con-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.box1 {
+    height: 50px;
+    width: 100vh;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.box2 {
+    height: 40vh;
+    width: 100vh;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.btn {
+    color: white;
+    background-color: #FF7A2E;
+    height: 40px;
+    width: 500px;
+    margin: 20px;
+    border-width: 0px;
+    border-radius: 10px;
+
+}
+
+.main-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-container {
+    background-color: #1E293B;
+    width: 100vw;
+    height: 100vh;
+}
+.logo{
+    color:grey;
+    font-size:80px;
+}

@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-content {
+    background-image: url("https://res.cloudinary.com/dg8n2jeur/image/upload/v1739255341/zztzhmafj2crafm4fzby.png");
+    height: 30vh;
+    background-size: cover;
+}
+
+.first-image {
+    color: #0a1525;
+}

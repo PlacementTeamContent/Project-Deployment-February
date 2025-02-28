@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-bar {
+    height: 10vh;
+    background-color:#0A1525; 
+    width: 100vw;
+}
+
+.nav-bar-logo1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-bar-logo-head {
+     font-size: 25px;
+    width: 8vw;
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.nav-bar-nxt-crowd {
+    display: flex;
+}
+
+.nav-bar-logo {
+    height: 45px;
+    padding: 10px;
+    
+}
+.page-1-bg1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    
+}
+@media {
+    
+}
+@media {
+    
+}
+.page-1-bg1-head {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: none;
+    width: 80vw;
+    padding: 10px;
+    margin: 20px 25px 5px 25px;
+}
+.page-1-bg1-para {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: none;
+    width: 80vw;
+    padding: 10px;
+    margin: 20px 25px 5px 25px;
+}
+.page-1-bg1-btn {
+    background-color: #FFD700;
+    color: #FFFFFF;
+    height: 45px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 20px 25px 5px 25px;
+}
+
+.btn1-container {
+    
+}
+.page-2 {
+    
+}
+.page-2-head1 {
+    font-size: 35px;
+    width: 80vw;
+    padding: 10px;
+    margin: 20px 25px 5px 25px;
+    text-align: center;
+    
+}
+.page-2-para1 {
+   
+    font-size: 25px;
+    font-family: none;
+    width: 80vw;
+    padding: 10px;
+    margin: 0px 25px 5px 25px;
+    text-align: center;
+    color: #1E293B;
+}
+.page-2-container-1 {
+    margin: 25px;
+    
+}
+.page-2-container-1-img {
+    height: 30vh;
+    border-radius: 20px;
+    justify-content: center;
+    align-self: center;
+    align-items:center;
+    margin: 25px 35px 5px 25px;
+    width: 80vw;
+}
+.page-2-container-1-head {
+    font-size: 35px;
+    width: 80vw;
+    padding: 10px;
+    margin: 20px 25px 5px 25px;
+    
+}
+.page-2-container-1-para {
+    font-size: 25px;
+    font-family: none;
+    width: 80vw;
+    padding: 10px;
+    margin: 0px 25px 5px 25px;
+    
+}
+.page-3-container-1 {
+    background-color: lightgrey;
+   
+}
+.text-box {
+    font-size: 20px;
+    margin: 25px 25px 5px 25px;
+}
+.box {
+   margin: 0px 25px 5px 25px; 
+   height: 30px;
+   width: 80vw;
+   border-radius: 5px;
+}
+.span-star {
+    color: red;
+}
+.box-end {
+   margin: 0px 25px 5px 25px; 
+   height: 120px;
+   width: 80vw;
+   border-radius: 5px;
+}
+.page-2-btn-end {
+    background-color: #FFD700;
+    color: #FFFFFF;
+    height: 45px;
+    width: 80vw;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 20px 25px 25px 25px;
+    font-weight: bold;
+}
+.page-4-container-1 {
+    background-color: #0A1525;
+    
+}
+.page-4-container-1-img {
+    padding: 0px 25px 0px 25px;
+}
+.page-4-container-1-para {
+    color: #FFFFFF;
+    margin: 0px 25px 25px 25px;
+    font-size: 20px;
+    padding-top: 5px;
+    
+}
+.bi {
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 30px;
+    
+}
+.page-4-container-1-icons {
+    margin: 0px 25px 25px 25px;
+}
+.page-4-container-1-bottom {
+    color: #FFFFFF;
+    margin: 0px 25px 25px 25px;
+    width: 40vw;
+}
+.end-bottom {
+    display: flex;
+}
+.end-of-page {
+     color: #FFFFFF;
+    margin: 25px 25px 0px 25px;
+    font-size: 11px;
+    padding-top: 5px;
+}
+.high-light {
+    color: #FFFFFF;
+}
+.fa {
+    color: #FFFFFF;
+    
+    font-size: 30px;
+    padding: 20px 0px 0px 0px;
+}
+.images {
+    display: flex;
+}

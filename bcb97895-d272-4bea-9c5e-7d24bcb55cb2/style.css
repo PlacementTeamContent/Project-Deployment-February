@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #1E293B;
+    justify-content: flex-end;
+    color: white;
+    font-family: Bree serif;
+    width: 100vw;
+
+}
+
+.body {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 400px;
+    width: 100vw;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 50px;
+    background-size: cover;
+}
+
+.head {
+    font-size: 50px;
+    font-family: Bree serif;
+
+}
+
+.btn {
+    background-color: #8B5CF6;
+    height: 25px;
+    width: 85px;
+    border-radius: 5px;
+    color: white;
+    font-family: Bree serif;
+}
+
+.img1 {
+    height: 80px;
+
+}
+
+.div2 {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100vw;
+    flex-direction: column;
+}
+.div3{
+    height: 200px;
+    width: 200px;
+    flex-basis: 50px;
+    flex-direction: row;
+    
+    
+}
+.sub{
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    flex-direction: row;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: row;
+    grid-auto-columns: auto;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
+    align-items: stretch; 
+    align-items:baseline;
+    
+}
+.sub2{
+   
+}

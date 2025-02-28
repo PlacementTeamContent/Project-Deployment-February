@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+.head{
+    color: #dfe3eb;
+    font-family: "Bree serif";
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 0px;
+}
+.para{
+    color: #dfe3eb;
+    font-family: "Bree serif";
+    text-align: center;
+}
+.button1{
+    text-align: center;
+}
+.button2{
+    font-size: 17px;
+    height: 4vh;
+    width: 20vw;
+    font-family: "Bree serif";
+    color: #dfe3eb;
+    background-color: #4B84F3;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.bg-container1{
+    text-align: center;
+}
+.head1{
+    padding-top: 30px;
+    font-family: "Bree serif";
+    color: #0A1525;
+}
+.para1{
+    font-family: "Bree serif";
+    color: grey;
+    padding-bottom: 20px;
+}
+.img1{
+    height: 30vh;
+    width: 90vw;
+    border-radius: 15px;
+}
+.head2{
+    text-align: left;
+    font-family: "Bree serif";
+    margin: 10px;
+}
+.para2{
+    text-align: left;
+    font-family: "Bree serif";
+    color: grey;
+    margin: 10px;
+    padding-bottom: 40px;
+    width: 85vw;
+}
+.img2{
+    height: 30vh;
+    width: 90vw;
+    border-radius: 15px;
+}
+.head3{
+    text-align: left;
+    font-family: "Bree serif";
+    margin: 10px;
+}
+.para3{
+    text-align: left;
+    font-family: "Bree serif";
+    color: grey;
+    margin: 10px;
+    padding-bottom: 40px;
+    width: 85vw;
+}
+.img3{
+    height: 30vh;
+    width: 90vw;
+    border-radius: 15px;
+}
+.head4{
+    text-align: left;
+    font-family: "Bree serif";
+    margin: 10px;
+}
+.para4{
+    text-align: left;
+    font-family: "Bree serif";
+    color: grey;
+    margin: 10px;
+    padding-bottom: 40px;
+    width: 85vw;
+}
+.bg-container2{
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 105vh;
+}
+.head5{
+    text-align: center;
+    font-family: "Bree serif";
+    padding: 30px;
+}
+.para5{
+    text-align: center;
+    font-family: "Bree serif";
+    color: grey;
+}
+.N{
+    font-family: "Bree serif";
+    font-weight: normal;
+    padding: 10px;
+}
+.space1{
+    height: 3vh;
+    width: 90vw;
+    padding-bottom: 0px;
+}
+.E{
+    font-family: "Bree serif";
+    font-weight: normal;
+}
+.space2{
+    height: 3vh;
+    width: 90vw;
+    padding-bottom: 0px;
+}
+.P{
+    font-family: "Bree serif";
+    font-weight: normal;
+}
+.space3{
+    height: 3vh;
+    width: 90vw;
+    padding-bottom: 0px;
+}
+.M{
+    font-family: "Bree serif";
+    font-weight: normal;
+}
+.space4{
+    height: 20vh;
+    width: 90vw;
+    padding-bottom: 0px;
+}
+.btn1{
+    text-align: center;
+    padding: 30px;
+}
+.btn2{
+    height: 4vh;
+    width: 80vw;
+    font-family: "Bree serif";
+    color: #ffffff;
+    background-color: #4B84F3;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.bg-container3{
+    background-color: #0A1525;
+    background-size: cover;
+    height: 100vh;
+}
+.img4{
+    height: 10vh;
+    padding: 20px;
+}
+.para6{
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    color: grey;
+}

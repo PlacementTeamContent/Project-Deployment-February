@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav {
+    background-color: #0A1525;
+    color: white;
+    font-family: Bree Serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    padding-left: 70px;
+    padding-bottom: 15px;
+}
+.haa{
+    padding-bottom: 18px;
+}
+.sub-names {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 25px;
+    padding-left: 350px;
+}
+.subpage {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 75px;
+    gap: 10px;
+}
+.btn1 {
+    border-radius: 5px;
+    background-color: #4B9EFF;
+    border-color: #4B9EFF;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    height: 5vh;
+    width: 20vw;
+}
+.second-page {
+    background-color: #FFFFFF;
+}
+.head1 {
+    color: black;
+    font-family: Bree Serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.para1 {
+    color: gray;
+    font-family: Bree Serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 15px;
+}
+.sub-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.img1 {
+    height: 35vh;
+    width: 28vw;
+    border-radius: 8px;
+    color: gray;
+    gap: 10px;
+}
+.img2 {
+    height: 35vh;
+    width: 28vw;
+    border-radius: 8px;
+    color: gray;
+    gap: 10px;
+}
+.img3 {
+    height: 35vh;
+    width: 28vw;
+    border-radius: 8px;
+    color: gray;
+}
+.third-page {
+    background-color: #dfe3eb;
+    text-align: center;
+    width: 100%;
+}
+.us {
+    color: black;
+    font-family: Bree Serif;
+}
+.got {
+    color: gray;
+    font-family: Bree Serif;
+}
+.star{
+    color: red;
+}
+.name{
+    text-align:start;
+    font-family: Bree Serif;
+    padding-left: 10px;
+    width: 100%;
+}
+.gap{
+    height: 4vh;
+    width: 75vw;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-color: gray;
+    padding-left: 10px;
+}
+.gap1{
+    height: 14vh;
+    width: 75vw;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-color: gray;
+    max-width: 100%;
+}
+.btn2{
+    border-radius: 5px;
+    background-color: #4B9EFF;
+    border-color: #4B9EFF;
+    height: 5vh;
+    width: 100%;
+    color: white;
+}
+.last-page{
+    background-color: black;
+}
+.last-imag{
+    height: 2vh;
+    width: 4vw;
+    text-align: center;
+}
+.la{
+    color:gray;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

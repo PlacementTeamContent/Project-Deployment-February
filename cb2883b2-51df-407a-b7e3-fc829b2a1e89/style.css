@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif";
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+}
+
+.head {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.head-cont {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+p {
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.bottom-cont {
+    display: flex;
+}
+
+.bottom {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .bottom-cont {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .bottom {
+        display: block;
+    }
+
+    i {
+        color: white;
+    }
+}
+
+.background {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-home {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.contact-us {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.para {
+    font-weight: normal;
+}
+
+.button {
+    background-color: #FFD700;
+    border: #FFD700 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 7px;
+}
+
+.services-page {
+    margin: 10px;
+    text-align: center;
+}
+
+.para-services {
+    color: black;
+}
+
+.para-img {
+    color: #000100;
+}
+
+.service-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .grid-cont {
+        display: grid;
+        gap: 10px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width:769px) {
+    .grid-cont {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}
+
+.contact-para {
+    color: black;
+    text-align: center;
+}
+
+h5 {
+    text-align: left;
+}
+
+span {
+    color: red;
+}
+
+.input {
+    width: 100%;
+    border: #1E293B 2px solid;
+    border-radius: 3px;
+}
+
+.head-contact {
+    text-align: center;
+}
+
+.input-mail {
+    width: 100%;
+    border: #1E293B 2px solid;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.input-box {
+    width: 100%;
+    border: #1E293B 2px solid;
+    border-radius: 3px;
+    height: 150px;
+}
+
+@media (min-width:768px) {
+    .input-mail {
+        width: 50%;
+        border: #1E293B 2px solid;
+        border-radius: 3px;
+        text-align: left;
+    }
+
+    .inputs {
+        display: flex;
+        align-items: stretch;
+        flex-grow: 1;
+        justify-content: stretch;
+    }
+}
+
+.button1 {
+    background-color: #FFD700;
+    border: #FFD700 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 7px;
+    width: 100%;
+    margin: 9px;
+}
+
+footer {
+    background-color: #0A1525;
+    padding: 40px;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+}
+
+.contact-head {
+    color: #FFFFFF;
+}
+
+.cont-foot {
+    display: flex;
+
+}
+
+.cont {
+    margin: 40px;
+}
+
+@media (min-width:768px) {
+    .main-cont-foot {
+        display: flex;
+    }
+}
+
+.span1 {
+    border: #FFFFFF 2px solid;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.span2 {
+    color: white;
+    text-decoration: underline;
+}

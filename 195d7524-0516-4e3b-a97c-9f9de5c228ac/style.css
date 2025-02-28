@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #1e293b;
+    font-family: "Roboto";
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.options {
+    margin-left: auto;
+    align-self: center;
+    display: flex;
+    gap: 15px;
+}
+
+.main-bg {
+    margin: 0px;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #ffffff;
+    padding: 20px;
+    font-family: "roboto";
+    margin-top: 60px;
+
+}
+
+.ig {
+    align-self: center;
+    justify-self: center;
+}
+
+.d {
+    width: 400px;
+}
+
+.button {
+    color: white;
+    font-family: "Bree Serif";
+    background-color: #4a90e2;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.col-1 {
+    padding: 10px;
+    font-family: "Bree Serif";
+    align-self: center;
+    padding: 20px;
+}
+
+p {
+    color: #1e293b;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+
+.img1 {
+    border-radius: 25px;
+}
+
+.Contact-Us {
+    background-color: #e0dfdc;
+
+    padding: 20px;
+}
+
+input {
+    width: 65vh;
+    height: 50px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 30px;
+}
+
+.lobs {
+    font-weight: bold;
+}
+
+.msg {
+    height: 30vh;
+}
+
+.b {
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.last{
+    background-color: #1e293b;
+    padding: 30px;
+    
+}
+i{
+    margin:10px;
+}
+@media screen and (min-width:768px) {
+    .details {
+        display: grid;
+        grid-auto-columns: 4;
+    }
+
+    .e {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .last{
+        display: flex;
+    }
+}
+.mh{
+    color:white;
+}
+li{
+    margin-top: 10px;
+}
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.home_section {
+    font-family: "Bree Serif";
+}
+
+.nav {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    font-family: "Bree Serif";
+    background-color: #0A1525;
+    color: #FFFFFF;
+}
+
+.lines {
+    padding: 20px;
+}
+
+.navimg {
+    padding: 9px;
+
+}
+
+/* nav_1{
+    text-align: left;
+    
+} */
+/* .nav_2{
+    text-align: right;
+} */
+.text_right {
+    text-align: right;
+    padding: 9px;
+}
+
+.card_img {
+    height: 400px;
+}
+
+.main_page {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+/* #section_home{
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 100vh;
+    background-size:cover ;
+        display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+} */
+.main_heading {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.main_para {
+    color: #FFFFFF;
+}
+
+.home_button {
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+    height: 50px;
+    width: 150px;
+    font-family: "Bree Serif";
+}
+
+#section_ourservices {
+    height: 500px;
+    margin: 20px;
+    font-family: "Bree Serif";
+
+}
+
+.os {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.all_cards {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+}
+
+.card_1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 250px;
+    display: flex;
+    height: 200px;
+}
+
+/* .card_2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+} */
+
+.card {
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.contact_us {
+    text-align: center;
+    font-family: "Bree Serif";
+    background-color: lightgrey;
+    height: 730px;
+    text-align: center;
+
+}
+
+/* .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+} */
+.button_letstalk {
+    background-color: #FFD700;
+    height: 50px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border-width: 0px;
+    width: 850px;
+    font-family: "Bree Serif";
+}
+
+.important {
+    color: red;
+}
+
+.name {
+    text-align: left;
+    margin: 20px;
+}
+
+.enter_name {
+    height: 50px;
+    border-style: solid;
+    /* width: 800px; */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-width: 0px;
+    margin: 20px;
+}
+
+.enter_mail {
+    height: 50px;
+    border-style: solid;
+    width: 50vw;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-width: 0px;
+    margin: 20px;
+}
+
+.enter_comments {
+    height: 150px;
+    border-style: solid;
+    /* width: 800px; */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-width: 0px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #0A1525;
+}
+
+.end_section {
+
+    height: 40vh;
+    /* width: 103vw; */
+    font-family: "Bree Serif";
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .icons{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+} */
+.info_1 {
+    text-align: left;
+}
+
+.info_2 {
+    text-align: right;
+}
+
+.copy_right {
+    color: white;
+}

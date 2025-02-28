@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.mnb {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.mnj {
+    color: white;
+}
+
+.mnk {
+    background-color: #FFD700;
+}
+
+.mnm {
+    text-align: center;
+}
+
+.mnv {
+    border-radius: 10px;
+}

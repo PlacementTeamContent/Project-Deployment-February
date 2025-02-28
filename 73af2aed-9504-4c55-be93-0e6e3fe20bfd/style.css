@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav-bar {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    justify-content: flex-start;
+    background-size: cover;
+    padding-left: 15px;
+}
+
+.logo-heading {
+    font-size: 22px;
+}
+
+.Buliding {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+.menu {
+    color: white;
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-left: auto;
+
+}
+
+.btn,
+.btn-2 {
+    height: 36px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: #4B9EFF;
+    border-width: 0px;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.img {
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.card {
+    height: 300px;
+    width: 350px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+.contact {
+    background-color: #Dfe3eb;
+
+}
+
+.footer {
+    background-color: #1E293B;
+    color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    font-family: Bree Serif;
+}
+
+.start {
+    color: red;
+}
+
+.name-box {
+    height: 20px;
+    width: 350px;
+    border-width: 0px;
+
+
+}
+
+.name-box-1 {
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    border-width: 0px;
+
+}
+
+.text-3xl {
+
+    margin: 5px;
+
+}
+
+.logo-1 {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-self: flex-start;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    align-content: flex-start;
+}
+
+.contact-us {
+    align-self: flex-start;
+    padding: 20px;
+}
+
+.Menu {
+    align-self: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.btn-2 {
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (min-width:776px) {
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

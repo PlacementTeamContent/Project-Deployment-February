@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+* {
+    margin: 0px;
+}
+
+.nav-bar {
+    background-color: #0A1525;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+}
+
+.nav-icon {
+    height: 30px;
+}
+
+.logo-container {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Bree Serif";
+}
+
+.ham-menu {
+    color: #ffffff;
+    margin:10px;
+}
+.section-container{
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+.sub-sec-names{
+    display: none;
+}
+.anchor-el{
+    color:#ffffff;
+    font-family: "Bree Serif";
+    text-decoration: none;
+    padding:5px;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size:cover;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    margin: 10vw;
+    width:70vw;
+}
+.title-container>h1{
+    font-size: 40px;
+    margin:5px;
+}
+.title-container>p{
+    font-size: 13px;
+    margin:5px;
+}
+.title-container>button{
+    background-color: #4B9EFF;
+    color:#ffffff;
+    border-width:0px;
+    border-radius:10px;
+    padding:10px;
+    font-family: "Bree Serif";
+    margin:5px;
+}
+.our-services{
+    font-family: "Bree Serif";
+}
+.our-services>h1{
+    text-align: center;
+    font-size:30px;
+    margin:20px;
+}
+.our-services>p{
+    text-align: center;
+    font-size:15px;
+    margin:20px;
+    color:gray;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.card{
+    margin:30px;
+    width:300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+}
+.card-img{
+    height:250px;
+    border-radius:20px;
+}
+.card>h1{
+    font-size: 20px;
+    margin:10px;
+}
+.card>p{
+    font-size: 13px;
+    margin:10px;
+    color:gray;
+}
+.contact-us{
+    background-color: #dfe3eb;
+    font-family: "Bree Serif";
+}
+.contact-us>h1{
+    text-align: center;
+    font-size: 30px;
+    padding:30px;
+}
+.contact-us>p{
+    color:gray;
+    text-align: center;
+    font-size: 15px;
+    padding:20px;
+}
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+.required-input{
+    font-size: 15px;
+}
+.input-items-container{
+    font-family: "Arial";
+    display: flex;
+    margin:10px;
+    flex-direction: column;
+    align-items: stretch;
+}
+input{
+    width:80vw;
+    border-radius:5px;
+    padding:5px;
+    border-color:#dfe3eb;
+    border-width:1px;
+}
+.asterik{
+    color:red;
+}
+.msg-content{
+    min-height:100px;
+}
+.contact-us-let-btn{
+    background-color: #4B9EFF;
+    color:#ffffff;
+    border-width:0px;
+    border-radius:10px;
+    padding:10px;
+    font-family: "Bree Serif";
+    margin:5px;
+    width:80vw;
+}
+.footer-container{
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo-container{
+    color:#ffffff;
+    padding:30px;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+.footer-logo{
+    height:70px;
+}
+.socail-handles{
+    margin-top:20px;
+}
+.icons{
+    margin:5px;
+    font-size: 30px;
+}
+.footer-cards{
+    display: flex;
+    justify-content: space-between;
+    margin:30px;
+}
+.footer-contact-us{
+    color:#ffffff;
+    font-family: "Bree Serif";
+}
+.head-footer{
+    font-size: 30px;
+    font-weight:bold;
+}
+.footer-contact-us li{
+    font-size: 10px;
+    list-style-type: none;
+    padding:10px;
+}
+.footer-text{
+    color:#ffffff;
+    font-size: 10px;
+    font-family: "Bree serif";
+    padding:30px;
+}
+.sites-gpt{
+    text-decoration:underline;
+}
+@media (min-width:576px){
+    .card{
+        width:400px;
+    }
+    .footer-logo-container{
+        font-size: 10px;
+    }
+}
+@media (min-width:768px){
+    .sub-sec-names{
+        display:flex;
+    }
+    .email-num{
+     display: flex;
+     justify-content: center;
+    }
+    .email-num input{
+        width:38vw;
+    }
+    .footer-section-cards{
+    display: flex;
+    flex-direction: row;
+    }
+    .nav-bar{
+        padding-left:10vw;
+        padding-right:10vw;
+    }
+}
+@media (min-width:992px){
+    .cards-container{
+       flex-direction: row; 
+    }
+    .card{
+        width:250px;
+    }
+}
