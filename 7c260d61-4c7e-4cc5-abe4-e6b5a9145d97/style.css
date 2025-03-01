@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+.nav {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image {
+    width: 50px;
+    margin-right: 6px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    margin: 10px;
+}
+
+.burger {
+    display: none;
+}
+
+.hero {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.text {
+    width: 60%;
+}
+
+.btn {
+    background-color: #FFD700;
+    border: 0px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    color: white;
+}
+
+.gallery {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.g-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 30vw;
+    margin: 4px;
+    text-align: left;
+}
+.ContactUs{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: red;
+}
+.detail{
+    width: 70%;
+}
+.name-space,.phn,.mail{
+    background-color: white;
+    color: white;
+    border: 1px;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    border-color: #FFFFF3;
+}
+.pm{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.m,.p{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+.ct{
+    background-color: white;
+    color: white;
+    border: 1px;
+    border-radius: 2px;
+    width: 100%;
+    height: 80px;
+    border-color: #FFFFF3;
+}
+.c-btn{
+    background-color: #FFD700;
+    border: 0px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: #0A1525;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+i{
+    margin: 2px;
+}
+.t{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    display:none;
+}
+h{
+    color: #1E293B;
+}
+.d{
+    text-align: center;
+}
+@media screen and (max-width:789px)  {
+    h{
+    color: #1E293B;
+    }
+   .pm{
+    display: flex;
+    flex-direction: column;
+    } 
+    .navlinks{
+        display: none;
+    }
+    .burger{
+        display: block
+    }
+    .burger{
+        margin: 15px;
+    }
+    .nav {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .imgtext {
+    display: flex;
+    flex-direction: column;
+    }
+    .menu{
+        display: block;
+    }
+    .menu{
+        margin-left: 20%;
+    }
+    .s
+}

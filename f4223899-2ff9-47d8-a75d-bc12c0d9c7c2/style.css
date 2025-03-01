@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    position:static;
+    background-color:#0A1525;
+    display:flex;
+    color:#FFFFFF;
+    
+}
+.nav-head{
+    display:flex;
+    font-size:25px;
+    margin-right:10px;
+    margin-top:0px;
+}
+.nav-para{
+    padding-left:20px;
+}
+.fa{
+    padding-top:30px;
+    padding-left:15px;
+}
+.nav-h1{
+    color:white;
+    padding-right:200px;
+}
+.first-page{
+    background-image:url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size:cover;
+    height:80vh;
+    width:100vw;
+    color:#FFFFFF;
+    justify-content:center;
+    padding-left:25px;
+}
+.first-page-head{
+    padding-top:25vh;
+    font-style:italic;
+    
+}
+.btn{
+    color:#FFFFFF;
+    background-color:skyblue;
+    border-radius:10px;
+    height:5vh;
+    width:20vw;
+    
+}
+.second-page>h1{
+    padding-left:40vw;
+}
+.second-page>p{
+    padding-left:25vw;
+}
+.second-para{
+    padding-left:40vw;
+}
+.services-container{
+    width:33vw;
+    font-size:25px;
+    padding-left:10px;
+    margin-right:15px;
+}
+.second-img{
+    width:33vw;
+    height:25vh;
+    border-radius:15px;
+}
+.different-services{
+    display:flex;
+}
+.contactus-section>h1{
+    padding-left:40vw;
+}
+.contactus-section>p{
+     padding-left:32vw;
+     color:grey;
+}
+.footersection{
+    background-color:#1E293B;
+    color:white;
+    display:flex;
+    
+}
+.bi{
+    margin:8px;
+    padding-bottom:15px;
+}
+.first-col{
+    margin:30px;
+}

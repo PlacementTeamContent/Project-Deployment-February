@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    font-family: "Bree Serif";
+    margin: 0px;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+}
+
+.navlinks {
+    color: white;
+    margin: 10px;
+}
+
+.navbarlinks {
+    display: none;
+}
+
+.navbar {
+    background-color: #0A1525;
+    height: 10vh;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logoname {
+    color: #FFFFFF;
+}
+
+.navlogo {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.page1text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    height: 90vh;
+    padding: 20px;
+}
+
+.page1h {
+    color: #FFFFFF;
+    width: 270px;
+}
+
+.page1p {
+    color: #FFFFFF;
+    width: 500px;
+}
+
+.page1b {
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFD700;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*page2*/
+.page2 {
+    padding: 20px;
+    font-family: "Bree Serif";
+    box-sizing: border-box;
+}
+
+.page2h {
+    text-align: center;
+}
+
+.page2p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cards {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cardimg {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.page2p2 {
+    margin-bottom: 40px;
+}
+
+/*page3*/
+.page3 {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    background-color: #1E293B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input1 {
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.page3h {
+    text-align: center;
+}
+
+.page3p {
+    text-align: center;
+}
+
+.input3 {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.page3b {
+    background-color: #FFD700;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+
+}
+
+/*footer*/
+.span {
+    text-decoration: underline;
+}
+
+.page4 {
+    padding: 20px;
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img2 {
+    border-radius: 50%;
+}
+
+.ficon {
+    color: white;
+}
+
+.page4sec2 {
+    display: flex;
+}
+
+.page4sec12 {
+    margin-right: 20px;
+}
+
+.page4h {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.page4p2 {
+    font-weight: lighter;
+}
+
+@media (min-width:768px) {
+    .navbarlinks {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navlogo {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .page1text {
+        align-items: center;
+    }
+
+    .cardsec {
+        display: flex;
+    }
+
+    .cards {
+        margin: 30px;
+    }
+
+    .pagesec {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .inputboxes {
+        width: 100%;
+        margin: 10px;
+    }
+    .p4{
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    font-family: "Bree Serif";
+}
+header{
+    padding: 10px;
+    background-color:#0A1525;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin: 8px;
+}
+.logoname{
+  display: flex;  
+  padding: 10px;
+}
+.main{
+    color:white;
+    align-self: center;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    
+    display: none;
+}
+.nav-item{
+    margin-right: 20px;
+    font-size:20px;
+    align-self: center;
+}
+#i{
+    font-size: 20px;
+    color: white;
+}
+i{
+    align-self: center;
+    margin:10px;
+    display: block;
+}
+.bg-container{
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.content{
+   color: white;
+   padding: 30px;
+}
+.heading{
+    font-size: 50px;
+    font-family: "Bree Serif";
+}
+.btn{
+    background-color: #FFD700;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    border-width: 0px;
+}
+.servhead{
+    padding: 20px;
+    text-align: center;
+    color:#1E293B ;
+}
+.img1{
+    border-radius: 15px;
+    width: 80%;
+}
+.img2{
+    border-radius: 15px;
+     width: 80%;
+}
+.serv-container{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.serv1{
+    padding: 30px;
+}
+.p1{
+    color: grey;
+}
+.container{
+    background-color: lightgrey;
+    padding: 20px;
+}
+.content1{
+    text-align: center;
+    padding: 10px;
+}
+span{
+    color: red;
+}
+.inputbox{
+    padding: 20px;
+}
+.in{
+    width: 380px;
+    border-radius: 10px;
+    height: 38px;
+}
+.box{
+    height: 300px;
+}
+.talk{
+    text-align: center;
+}
+.btn1{
+    text-align: center;
+    width: 380px;
+}
+footer{
+    background-color:#0A1525;
+    padding: 30px;
+}
+.logo1{
+    width: 18%;
+}
+.p2{
+    color:lightgrey;
+}
+.icons{
+    display: flex;
+}
+.bi{
+    color: white;
+}
+h3{
+    color: white;
+}
+.side1{
+    display: flex;
+}
+.contactinfo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.line{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+@media all and (min-width:576px){
+    .nav-items{
+        display: none;
+        
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+@media all and (min-width:768px){
+    .nav-items{
+        display:block;
+        display: flex;
+    justify-content: space-around;
+    color: white;
+    }
+    #i{
+        display: none;
+    }
+    .serv-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .img1{
+        width:95%
+    }
+    .img2{
+        width: 95%;
+        height: 40%;
+        border-radius: 15px;
+    }
+    .side{
+        display: flex;
+    }
+    .in{
+        width: 580px;
+    }
+    .in1{
+        width: 328px;
+}
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}

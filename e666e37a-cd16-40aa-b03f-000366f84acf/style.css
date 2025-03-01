@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    padding: 0px;
+}
+li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.h1{
+    font-weight: bold;
+    color: #FFFFFF;
+    align-self: center;
+}
+.p1{
+    color: #FFFFFF;
+    align-self: center;
+}
+.b1{
+    background-color: #4A90E2;
+    align-self: center;
+    color: #FFFFFF;
+    width: 100px;
+    border-radius: 5px;
+}
+.logo{
+    height: 40px;
+    margin-right: 10px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    align-items: center;
+    justify-content: center;
+}
+.img1{
+    height: 30vh;
+    width: 70vw;
+    border-radius: 10px;
+}
+.main3{
+    display: flex;
+    flex-direction: column;
+}
+.p3{
+    align-self: center;
+}
+.h3{
+    align-self: center;
+}
+.main4{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: #e0dfdc;
+  background-size: cover;
+  padding: 10px;
+}
+.c1{
+    width: 400px;
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #e0dfdc;
+}
+.c2{
+    width: 400px;
+    height: 90px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #e0dfdc;
+}
+.b3{
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    border-color: #4A90E2;
+    padding: 6px;
+    width: 250px;
+    align-self: center;
+    margin-top: 5px;
+}
+.main5{
+    background-color: #0A1426;
+    padding: 5px;
+}
+.items{
+    color: white;
+    margin: 6px;
+}

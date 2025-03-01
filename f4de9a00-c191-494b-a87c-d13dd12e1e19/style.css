@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+    justify-content: space-around;
+}
+
+.logo-image {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.footer-image {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.logo-name {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.fa-bars {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 12px;
+    align-items: flex-end;
+}
+
+.nav-b {
+    display: none;
+    flex-direction: row;
+}
+
+.nav-icons {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 12px;
+    margin-right: 15px;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 80vh;
+    opacity: 0.9;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.landing-page-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+.landing-page-head {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.landing-page-para {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.custom-button {
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    background-color: #8B5CF6;
+    font-size: 16px;
+}
+
+.services-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.service-page-head {
+    font-family: "Bree Serif";
+    color: black;
+    font-size: 30px;
+}
+
+.service-page-para {
+    font-family: "Bree Serif";
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px
+}
+
+.service-image {
+    border-radius: 10px;
+    height: 200px;
+    width: 75vw;
+}
+
+.card-head {
+    font-family: "Bree Serif";
+    color: black;
+    font-size: 20px;
+}
+
+.card-para {
+    font-family: "Bree Serif";
+    color: black;
+    font-size: 15px;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 100%;
+}
+
+.contact-page-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.name {
+    font-family: "Bree Serif";
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.email-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-box {
+    width: 75vw;
+    height: 3vh;
+}
+
+.name-box-e {
+    width: 75vw;
+    height: 3vh;
+}
+
+.name-box-p {
+    width: 75vw;
+    height: 3vh;
+}
+
+.name-box-m {
+    width: 75vw;
+    height: 20vh;
+}
+
+.custom-button-contact {
+    height: 5vh;
+    width: 75vw;
+    border-radius: 10px;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    background-color: #8B5CF6;
+    font-size: 16px;
+    margin-top: 20px;
+    MARGIN-BOTTOM: 50PX;
+}
+
+.footer-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #0A1525;
+    background-size: cover;
+    height: 100%;
+}
+
+.footer-para {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.bi {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.contact-head {
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.copyright {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-page-c {
+    display: flex;
+    flex-direction: column;
+    background-color: #0A1525;
+    background-size: cover;
+    height: 100%;
+}
+
+@media (min-width:992px) {
+    .nav-b {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .landing-page {
+        height: 80vh;
+        padding-left: 140px;
+        padding-top: 40px;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .service-image {
+        border-radius: 10px;
+        height: 200px;
+        width: 25vw;
+
+    }
+
+    .service-page-head {
+        font-size: 50px;
+    }
+
+    .cards {
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+
+    .input-boxes {
+        padding-left: 100px;
+    }
+
+    .email-number {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .name-box-e {
+        width: 40vw;
+        height: 3vh;
+        margin-right: 10px;
+    }
+
+    .name-box-p {
+        width: 33vw;
+        height: 3vh;
+        margin-right: 10px;
+    }
+
+    .footer-page {
+        flex-direction: row;
+    }
+}

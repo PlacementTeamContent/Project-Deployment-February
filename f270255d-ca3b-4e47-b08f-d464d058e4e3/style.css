@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+*{
+    margin: 0px;
+    font-family: Bree Serif;
+}
+span{
+    color: red;
+}
+
+.nav{
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+.icon{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.opt{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.opt>*{
+    margin: 10px;
+}
+
+.opt2{
+    display: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+@media (max-width:767px){
+    .opt{
+        display: none;
+    }
+    .opt2{
+        display: block;
+    }
+}
+
+@media (min-width:768px){
+    .opt2{
+        display: none;
+    }
+}
+
+.homepage{
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: start;
+    padding: 10px;
+}
+
+.homecon{
+    text-align: start;
+    width: 400px;
+}
+
+.head{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.para{
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.btn{
+    height: 50px;
+    width: 125px;
+    border-radius: 10px;
+    border-width: 0px;
+    color: white;
+    font-size:15px;
+    padding: 5px;
+}
+
+.btnpri{
+    background-color: #4B84F3;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sercon{
+    margin: 60px;
+    text-align: center;
+
+}
+
+.sercon>h1{
+    margin-bottom: 10px;
+    font-size:30px;
+}
+
+.prov{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:768px){
+    .prov{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+.prov1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prov1>*{
+    margin-bottom: 10px;
+}
+
+.prov1>b{
+    font-size:20px;
+}
+
+.serimg{
+    height: 50%;
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.concon{
+    width: 70%;
+}
+
+.labin{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.cons{
+    display: flex;
+    flex-direction: row;
+}
+
+.iname{
+    margin: 20px;
+}
+
+input{
+    height: 30px;
+}
+
+.namin{
+    width: 100%;
+    height: 30px;
+}
+
+.iemail{
+    margin: 0px 20px 20px 20px;
+    margin-right: 150px;
+}
+
+#email{
+    width: 170%;
+}
+
+#phone{
+    width: 170%;
+}
+
+.textar{
+    margin-left: 20px;
+}
+
+#message{
+    width: 97%;
+}
+
+.btnpp{
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    background-color: #4B84F3;
+    border-width: 0px;
+    margin: 20px;
+}
+
+@media (max-width:768px){
+    .cons{
+        display: flex;
+        flex-direction: column;
+    }
+    #email{
+        width: 145%;
+    }
+    .inum{
+        margin: 20px;
+    }
+    #phone{
+        width: 100%;
+    }
+
+}
+
+.footer{
+    background-color: #1A2942;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rowp{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.soma{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.soma>*{
+    margin: 10px;
+}
+
+.soc>*{
+    margin: 5px;
+}
+b{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.fotcon{
+    margin-right: 20px;
+}
+
+.fotcon>*{
+    margin-bottom: 10px;
+}
+
+.menu>*{
+    margin-bottom: 10px;
+}
+
+.boom{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+@media (max-width:768px){
+    .rowp{
+        display: flex;
+        flex-direction: column;
+    }
+    .boom{
+        margin:10px 0px 10px 10px;
+    }
+}

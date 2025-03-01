@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0A1525;
+    color: white;
+    padding: 10px;
+    width: 89vw;
+}
+
+#bars_button {
+    margin: 30px 30px 0px 10px;
+}
+
+.navv {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.bars_button {
+    margin: 30px 30px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+}
+
+.first_page {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+
+    height: 90vh;
+    width: 92vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.padding {
+    padding: 10px;
+}
+
+.contact_Us {
+    background-color: #F6B352;
+    padding: 8px 7px;
+    color: white;
+    border: solid 1px transparent;
+    border-radius: 5px;
+}
+
+
+.second_page_our_services {
+    text-align: center;
+}
+
+.second_page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 97vw;
+}
+
+.container_images {
+    height: 30vh;
+    width: 70vw;
+    border-radius: 15px;
+
+}
+
+.the_containers {
+    /* padding: 15px; */
+    margin: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no_center {
+    max-width: 70vw;
+    margin: auto;
+}
+
+.contact_us_section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #dfe3eb;
+}
+
+.contact_us_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dfe3eb;
+    font-size: 12px;
+}
+
+span {
+    color: red;
+}
+
+.margin_contact_us {
+    margin: 20px 0px 5px 15vw;
+}
+
+.input_type1 {
+    width: 60vw;
+    height: 30px;
+}
+
+.input_type2 {
+    width: 60vw;
+    height: 30vh;
+}
+
+.lets_talk {
+    background-color: #F6B352;
+    padding: 8px 7px;
+    color: white;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    width: 60vw;
+}
+
+.height {
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    background-color: #0A1525;
+    color: white;
+    padding: 20px;
+}
+
+.alining {
+    display: flex;
+
+}
+
+.footer_image {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.space {
+    margin-left: 20vw;
+}
+@media screen and (min-width:10px){
+    .large_nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #0A1525;
+        color: white;
+        padding: 10px;
+        width: 89vw;
+    }
+    
+}
+@media screen and (min-width:991px) {
+    #bars_button{
+        display: none;
+        
+    }
+    .hidden{
+        display:inline;
+    }
+    #nav_elements{
+        display: inline;
+    }
+    .large_nav{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    .second_page_large{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .the_containers {
+        /* padding: 15px; */
+        margin: 20px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_images {
+        height: 14vh;
+        width: 23vw;
+        border-radius: 15px;
+    
+    }
+    .no_center {
+        max-width: 23vw;
+        margin: auto;
+    }
+    .contact_us_large{
+        display: flex;
+    }
+    .input_large{
+        width: 20vw;
+        height: 30px;
+    }
+    .footer_large{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer{
+        padding: 50px;
+    }
+    
+}

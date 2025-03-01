@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Bree Serif";
+    margin: 0px;
+}
+
+.navbar {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.navbar-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bars-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-p {
+    margin-left: 10px;
+}
+
+.nav-bars-cont-p {
+    display: none;
+}
+
+.nav-bars {
+    font-size: 30px;
+}
+
+.intro-page {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-page-h1 {
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.intro-page-p {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.intro-page-btn {
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-radius: 7px;
+    border-width: 0px;
+    padding: 10px;
+}
+
+.services-page-h1 {
+    text-align: center;
+}
+
+.services-page {
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services-page-p {
+    text-align: center;
+}
+
+.services-card-1 {
+    margin-top: 80px;
+}
+
+.services-card-1-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contact-page {
+    background-color: #f4f4f4;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.input-elt-cont {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-elt {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.contact-btn {
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-radius: 7px;
+    border-width: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-card-h4 {
+    margin-bottom: 10px;
+}
+
+.footer-card-p {
+    margin-bottom: 5px;
+}
+
+.footer-page {
+    background-color: #0A1525;
+    color: white;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-img {
+    height: 50px;
+}
+
+.footer-icon {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.footer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-span {
+    text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+    .intro-page {
+        padding: 40px;
+    }
+
+    .intro-page-h1 {
+        font-size: 50px;
+    }
+
+    .intro-page-p {
+        font-size: 25px;
+    }
+
+    .intro-page-btn {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .nav-p {
+        font-size: 20px;
+    }
+
+    .nav-bars-cont-p {
+        display: inline;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+
+    .intro-page {
+        padding: 150px;
+    }
+
+    .intro-page-h1 {
+        font-size: 60px;
+        width: 500px;
+    }
+
+    .intro-page-p {
+        font-size: 30px;
+    }
+
+    .intro-page-btn {
+        font-size: 30px;
+        padding: 20px;
+        margin-top: 15px;
+    }
+
+    .services-page {
+        padding: 100px;
+        padding-bottom: 150px;
+    }
+
+    .services-page-h1 {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    .services-page-p {
+        font-size: 30px;
+    }
+
+    .services-card-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .services-card-1 {
+        margin: 20px;
+        margin-top: 80px;
+    }
+
+    .services-card-1-img {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .services-card-1-h2 {
+        margin-bottom: 20px;
+    }
+
+    .services-card-1-p {
+        font-size: 20px;
+    }
+
+    .contact-page {
+        padding: 100px;
+        padding-bottom: 150px;
+    }
+
+    .input-elt-cont {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .label-elt {
+        font-size: 25px;
+    }
+
+    .input-elt {
+        height: 50px;
+        border: 1px solid grey;
+    }
+
+    .two-input-cont {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .two-input {
+        width: 45%;
+    }
+
+    .input-elt-2 {
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+        border: 1px solid grey;
+    }
+
+    .footer-page {
+        padding: 100px 100px 50px 100px;
+    }
+
+    .contact-btn {
+        font-size: 25px;
+    }
+
+    .footer-page-1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-card {
+        display: flex;
+        width: 65%;
+        justify-content: space-around;
+    }
+
+    .copyright-para {
+        margin-top: 60px;
+        font-size: 20px;
+    }
+
+    .footer-img {
+        height: 80px;
+    }
+
+    .footer-icon {
+        font-size: 35px;
+        margin-right: 10px;
+    }
+
+    .footer-card-h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer-card-p {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .footer-page-1-p {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+}

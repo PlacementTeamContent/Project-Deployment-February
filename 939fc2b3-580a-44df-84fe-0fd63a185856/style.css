@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.nav-container {
+    background-color: #0a1220;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-name {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Bree Serif";
+    margin-left: 12px;
+}
+
+.list-item-container {
+    display: none;
+}
+
+.fa-bars {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 14px 0px 0px 12px;
+}
+
+@media (min-width: 768px) {
+    .elements-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .list-item-container {
+        display: inline;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: #dfe3eb;
+    }
+
+    li {
+        margin: 0px 6px 0px 6px;
+    }
+
+    .section-item-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .item-card {
+        padding: 10px;
+    }
+    .phone1{
+        margin-left: 40px;
+    }
+    .sub-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .footer-page1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 26px;
+    }
+    .last{
+        text-align: center;
+        margin-top: 12px;
+    }
+    .first-1{
+        margin-right:12px;
+    }
+    .foot-cont{
+        margin-left: 12px;
+    }
+    .second-1{
+        margin-right:12px;
+    }
+    .third-1{
+        margin-left: 12px;
+    }
+
+}
+
+.home-page {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    margin: 10px 0px 10px 0px;
+}
+
+.para1 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    margin: 10px 0px 10px 0px;
+}
+
+.button {
+    height: 40px;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #00e5be;
+}
+
+.section-page {
+    padding: 10px;
+}
+
+.section-main-content {
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.section-heading {
+    margin: 12px 0px 12px 0px;
+}
+
+.section-para {
+    margin: 12px 0px 12px 0px;
+    font-family: "Bree Serif";
+}
+
+.item-image {
+    height: 40vh;
+    width: 100%;
+    border-radius: 12px;
+    margin: 10px 0px 10px 0px;
+}
+
+.service-name {
+    font-size: 22px;
+    margin: 12px 0px 12px 6px;
+    font-family: "Bree Serif";
+}
+
+.service-para {
+    font-size: 16px;
+    margin: 12px 0px 12px 6px;
+    font-family: "Bree Serif";
+    font-weight: normal;
+}
+
+.contact-page {
+    background-color: #dfe3eb;
+    padding: 12px;
+}
+
+.input-type {
+    font-family: "Bree Serif";
+    margin: 10px 0px 10px 0px;
+}
+
+.span-element {
+    color: red;
+}
+
+.nameBox {
+    height: 40px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+.nameBox1 {
+    height: 100px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+.button1{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer-page{
+    background-color: #1e293b;
+    padding: 12px;
+    padding-top: 20px;
+}
+
+.icon-img{
+    color: white;
+    font-size: 28px;
+    margin: 16px 6px 10px 6px;
+}
+
+.foot-cont{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.para3{
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 12px;
+    margin: 6px 0px 6px 0px;
+}
+
+.span2{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.span3{
+    margin-top: 6px;
+    text-decoration: underline;
+}
+
+.last{
+    text-align: center;
+}

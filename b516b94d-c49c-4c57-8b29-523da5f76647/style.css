@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0;
+    font-family: "Bree Serif" !important;
+}
+
+.bg {
+    height: 100vh;
+}
+
+.nav {
+    background-color: #0A1525;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoimg {
+    height: 50px;
+    width: 50px;
+}
+
+.navigations {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* font-size:10px; */
+}
+
+.lines {
+    color: white;
+}
+
+.homepage {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 95vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homecard {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.homehead {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.homepara {
+    font-size: 20px;
+}
+
+.contact-but {
+    background-color: #4B9EFF;
+    border: 0;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+}
+.ourpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.ourpage>h1 {
+    margin-top: 30px;
+}
+
+.ourpage>p {
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.servicecards {
+    padding: 5% 10% 0px 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: space-around;
+}
+
+.scard {
+    width: 35%;
+    text-align: left;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shead {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.simg {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contactpage {
+    /* height: 70vh; */
+    padding-top: 40px;
+    padding-bottom:50px;
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactpage>h1 {
+    margin-top: 20px;
+}
+
+span {
+    color: red;
+}
+
+.in {
+    width: 99%;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.inn {
+    width: 99%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 40px;
+}
+
+.mail {
+    width: 45%;
+}
+
+.phone {
+    width: 48%;
+}
+
+.ctn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    padding: 10% 10% 10% 10%;
+    background-color: #1E293B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extbox {
+    height: 30vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social {
+    margin-right: 10px;
+    color: #dfe3eb;
+    font-size: 30px;
+}
+
+.rights {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.fhead {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.footimg {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .nav {
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .homecard {
+        width: 90vw;
+    }
+
+    .ourpage {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    .servicecards {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .scard {
+        width: 80%;
+    }
+
+    .ctn {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .mail {
+        width: 100%;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .in {
+        width: 99%
+    }
+
+    .contactpage {
+        padding-bottom: 50px;
+    }
+
+    .foot {
+        height: 70vh;
+        display: flex;
+        padding-top: 50px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .extbox {
+        gap: 60px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo{
+    width: 10vw;
+    padding: 10px;
+    margin-left:10px;
+    order: 0;
+}
+.navbar{
+    background-color: #1A2942;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 95vw;
+    
+}
+.navelement{
+    display: flex;
+    justify-content: flex-start;
+    
+    order: 1;
+}
+.about{
+    margin: 10px;
+    padding: 10px;
+}
+.our{
+    margin: 10px;
+    padding: 10px;
+}
+.contact{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.ham{
+    margin: 10px;
+    padding: 10px;    
+}
+.fulllogo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.logoname{
+    margin: 10px;
+    padding: 10px;        
+    
+}
+.home{
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    
+    
+    
+    
+}
+.hometext{
+    text-align: left;
+    color: white;
+}
+.homebtn{
+    border-radius:10px;
+    color: white;
+    background-color: #4B84F3;
+    padding: 10px;
+    border-color: #4B84F3;
+}
+.enginering{
+    height: 20vh;
+    border-radius: 10px;
+}
+.ourservisessection{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.col-4{
+    padding: 10px;
+}
+.col-5{
+    padding: 10px;
+}
+.col-6{
+    padding: 10px;
+}
+.nameinput{
+    width: 90vw;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.email{
+    display: flex;
+    justify-content: flex-start;
+    flex: none;
+    
+}
+.emailinput{
+    height: 20px;
+    margin-top:20px;
+    border-radius: 5px;
+    border-width: 1px;
+    
+}
+.phoneinput{
+    height: 20px;
+    margin-top:20px;
+    border-radius: 5px;
+    border-width: 1px;
+    
+}
+.queriesinput{
+    height: 20vh;
+    width: 90vw;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.contactpage{
+    background-color: #dfe3eb;
+    height:90vh;
+}
+.footer{
+    background-color: #0A1525;
+    height: 50vh;
+}
+
+.bi{
+    color: white;
+}
+.footer{
+    color: white;
+    
+}
+.footer1{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+.us{
+    margin-left: 30vw;
+    font-size: 30px;
+    margin-top:-150px;
+}
+.us1{
+    font-size: 30px;
+    margin-top:-150px;    
+}
+.hyderbad{
+    font-size: 20px;
+    color: #dfe3eb;
+}
+@media (max-width:515px){
+    .about{
+        display: none;
+    }
+    .our{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .logoname{
+        display: none;
+    }
+    .container{
+         text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column; 
+    }
+    .email{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: none;
+    }
+    .navbar{
+        width: 90vw;
+    }
+    .home{
+        width: 90vw;
+    }
+    .nameinput{
+        width: 90vw;
+    }
+    .queriesinput{
+        width: 90vw;
+        
+    }
+    .footer1{
+            text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    }
+    .us{
+    margin-left: -15vw;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+   .us1{
+    margin-left: 10vw;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+.hyderbad{
+    font-size: 15px;
+    color: #dfe3eb;
+}
+}

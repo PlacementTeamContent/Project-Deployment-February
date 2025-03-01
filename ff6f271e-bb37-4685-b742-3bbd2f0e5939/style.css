@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0A1525;
+    padding: 20px 0px 20px 0px;
+}
+
+.icon {
+    display: flex;
+    color: #ffffff;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.navigation-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.navigation-link-container {
+    display: flex;
+    gap: 15px;
+}
+
+.navigation-links {
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.hamburger-button {
+    padding: 10px 0px 0px 0px;
+}
+
+.line {
+    background-color: #ffffff;
+    height: 1px;
+    width: 20px;
+    margin: 7px;
+}
+
+@media screen and (max-width:576px) {
+    .navigation-link-container {
+        display: none;
+    }
+}
+
+.first-div {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 50vh;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.heading-Element {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px 0px -20px 0px;
+}
+
+.heading-Element1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: -2px;
+}
+
+.paragraph-Element {
+    color: #dfe3eb;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.contactbutton {
+    color: #ffffff;
+    padding: 10px;
+    background-color: #6C63FF;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.second-div-heading {
+    text-align: center;
+    gap: 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.card {
+    width: 25vw;
+}
+
+@media screen and (max-width:576px) {
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card {
+        width: 50vw;
+    }
+}
+
+.Contact {
+    background-color: #dfe3eb;
+    padding-bottom: 30px;
+}
+
+.Contact-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 50vw;
+}
+
+.name-area {
+    width: 100%;
+    border: 3px solid #dfe3eb;
+}
+
+.Contact-details {
+    display: flex;
+    width: 50vw;
+    gap: 10px;
+}
+
+.email-area {
+    width: 24vw;
+    border: 3px solid #dfe3eb;
+}
+
+.phone-area {
+    width: 24vw;
+    border: 3px solid #dfe3eb;
+}
+
+.input3 {
+    width: 50vw;
+}
+
+.message-area {
+    width: 100%;
+    height: 20vh;
+    border: 3px solid #dfe3eb;
+}
+
+.button {
+    width: 51vw;
+    margin: 10px 0px 0px 0px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #6C63FF;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+}
+
+span {
+    color: red;
+}
+
+.footer {
+    background-color: #0A1525;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px 30px 20px;
+}
+
+.icons {
+    gap: 30px;
+}
+
+.para-elements {
+    color: #dfe3eb;
+}
+
+.ancor-element {
+    color: #dfe3eb;
+}
+
+.last-div {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.copy1 {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .footer {
+        background-color: #0A1525;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .last-div {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .copy {
+        display: none;
+    }
+
+    .copy1 {
+        display: block;
+    }
+}

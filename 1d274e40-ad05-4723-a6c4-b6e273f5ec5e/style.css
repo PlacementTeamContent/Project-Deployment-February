@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.web {
+    height:100vh;
+    width:100vh;
+    font-family: "Bree Serif";
+}
+logo {
+    display: flex;
+    flex-direction:row;
+    height:100px;
+}
+.logo-image {
+    height:50px;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+nav {
+    background-color:#0A1525;
+    color:white;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:20px;
+    width:100%;
+}
+.nav-links {
+    padding-top:10px;
+    list-style-type: none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.banner {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size:cover;
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding:30px;
+    font-family:"Bree Serif";
+}
+.banner-button {
+    background-color : #F6B352;
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    font-weight:bold;
+}
+.our-services {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.service-card {
+    background-color:white;
+    border-radius:10px;
+    width:200px;
+    font-family:"Roboto";
+    margin:10px;
+}
+.service-image {
+    width:200px;
+    border-radius:10px;
+}
+.service-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px;
+}
+@media (min-width:578px) {
+    .service-cards {
+        flex-direction: row;
+    }
+}
+@media (max-width:577px) {
+    .service-cards {
+        flex-direction: column;
+    }
+}
+.contact-us-section {
+    background-color:#dfe3eb;
+    width:100%;
+}
+.input-elements {
+    width:100%;
+    
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    height:200px;
+}
+.contact-us-btn {
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    background-color: #F6B352;
+    color:white;
+    margin:5px;
+}
+
+@media (min-width:1200px) {
+    input {
+        width:50%;
+    }
+    .details {
+        width:50%;
+        flex-direction: row;
+        margin-left:237px;
+        text-align: left;
+    }
+    .email-input {
+        width:240px;
+        margin:5px;
+    }
+    .name {
+        text-align:left;
+        margin-left:237px;
+        width:100%;
+    }
+    .message-name {
+        text-align:left;
+        margin-left:237px;
+        width:100%;
+    }
+    .contact-us-btn {
+        width:52%;
+    }
+}
+@media (min-width:992px) and (max-width:1199px) {
+    input {
+        width:50%;
+    }
+    .details {
+        width:50%;
+        flex-direction: row;
+        margin-left:289px;
+        text-align: left;
+    }
+    .name {
+        text-align:left;
+        margin-left:290px;
+        width:100%;
+    }
+    .message-name {
+        text-align:left;
+        margin-left:290px;
+        width:100%;
+    }
+    .email-input {
+        width:290px;
+        margin:5px;
+    }
+    .contact-us-btn {
+        width:50%;
+    }
+}
+@media (min-width:578px) and (max-width:991px) {
+    input {
+        width:50%;
+    }
+    .details {
+        width:50%;
+        flex-direction: row;
+        margin-left:240px;
+        text-align: left;
+    }
+    .name {
+        text-align:left;
+        margin-left:242px;
+        width:100%;
+    }
+    .message-name {
+        text-align:left;
+        margin-left:242px;
+        width:100%;
+    }
+    .email-input {
+        width:239px;
+        margin:5px;
+    }
+    .contact-us-btn {
+        width:50%;
+    }
+}
+@media (max-width:578px) {
+    input {
+        width:70%;
+    }
+    .details {
+        width:88%;
+        margin-left:45px;
+        text-align: left;
+    }
+    .name {
+        text-align:left;
+        margin-left:45px;
+        width:100%;
+    }
+    .message-name {
+        text-align:left;
+        margin-left:45px;
+        width:100%;
+    }
+    .email-input {
+        width:80%;
+    }
+    .talk-btn {
+        width:70%;
+        margin-right:140px;
+    }
+}
+
+.mandatory {
+    color:red;
+}
+footer {
+    background-color:#1E293B;
+    color:white;
+}
+.footer-image {
+    height:70px;
+}
+.footer-items {
+    display:flex;
+    flex-direction: column;
+}
+.contact-menu {
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+    padding:5px;
+    justify-content: space-around;
+    text-align: left;
+}
+li {
+    padding:5px;
+}
+@media (min-width:578px) {
+    .footer-items {
+       flex-direction:row;
+       justify-content: space-around;
+    }
+}
+.rights {
+    text-align:center;
+}
+.source {
+    text-decoration: underline;
+}

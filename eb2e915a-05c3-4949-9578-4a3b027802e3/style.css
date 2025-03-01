@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+nav {
+    background-color: #0a1426;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Bree Serif";
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-family: "Bree Serif";
+}
+
+.hero {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.content>button {
+    border: 0;
+    background-color: #4a90e2;
+    color: white;
+    font-family: "Bree Serif";
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.big {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 280px;
+    margin-right: 60px;
+}
+
+.box>img {
+    border-radius: 20px;
+}
+
+.contact {
+    background-color: #e0dfdc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Bree Serif";
+    padding: 30px;
+}
+
+span {
+    color: red;
+}
+
+.style {
+    display: flex;
+    width: 500px;
+}
+
+.each {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+form>button {
+    border: 0;
+    background-color: #4a90e2;
+    color: white;
+    font-family: "Bree Serif";
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #0a1426;
+    font-family: "Bree Serif";
+    padding: 50px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.logo>i {
+    margin-right: 8px;
+    color: white;
+}
+
+.next {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.three a {
+    text-decoration: none;
+    color: #e0dfdc;
+}
+
+h4 {
+    color: white;
+}
+
+.ham {
+    display: none;
+}
+
+h6 {
+    color: #e0dfdc;
+}
+
+p {
+    color: #1e293b;
+}
+
+.ul {
+    text-decoration: underline;
+    color: #e0dfdc;
+    text-decoration-color: #e0dfdc;
+}
+
+@media screen and (max-width:991px) {
+    .hero {
+        height: 80vh;
+    }
+
+    .big {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        margin-bottom: 40px;
+    }
+
+    .h6 {
+        color: #e0dfdc;
+    }
+
+    .content {
+        width: 400px;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .next {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .ham a {
+        color: white;
+    }
+
+    .style {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .each {
+        width: 500px;
+    }
+}

@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+li {
+    list-style-type: none;
+}
+* {
+    font-family: "Bree Serif";
+}
+.list-item {
+    display: flex;
+    
+    
+    
+}
+.list-item2 {
+    display: flex;
+}
+.item {
+     margin-top: 40px;
+     margin-left: 20px;
+     
+     
+}
+.img {
+    height: 80px;
+    width: 80px;
+}
+.icon {
+    display: flex;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0A1525;
+    color: #FFFFFF;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   
+}
+.nxt-header {
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 100vh;
+    background-size: cover;
+   
+} 
+.header {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+}
+.paragraph {
+    color: #FFFFFF;
+}
+.button {
+   color: #FFFFFF;
+   background-color: #FFD700;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 18px;
+   border-width: 0px;
+   border-radius: 8px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 20px;
+    
+}
+.card {
+    text-align: center;
+}
+.img1 {
+    height:250px;
+    width: 430px;
+    border-radius: 10px;
+}
+.cards {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-section {
+    background-color:#F0F5F9 ;
+    margin-top: 30px;
+    
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.formsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+label,input,textarea {
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.red {
+    color: red;
+}
+
+textarea {
+    resize: none;
+}
+.button1 {
+    width: 420px;
+     margin-left: 30px;
+    margin-top: 10px;
+     color: #FFFFFF;
+   background-color: #FFD700;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 18px;
+   border-width: 0px;
+   border-radius: 8px;
+}
+.footer-section {
+    background-color:#1E293B ;
+    
+    color: #FFFFFF;
+}
+.footer {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.icon {
+    margin: 10px;
+}
+.icon-container {
+    display: flex;
+    
+}
+.section1 {
+    margin: 20px;
+}
+.card-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.underline {
+    text-decoration: underline;
+    
+}
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:768px){
+    .list-item {
+        display: none;
+    }
+    .list-item2 {
+        display: block;
+    }
+    .section2 {
+        display: none;
+    }
+}
+@media screen and (min-width:768px){
+    .list-item2 {
+        display: none;
+    }
+   .wrap {
+       display: flex;
+       flex-direction: row;
+       
+   }
+   .cards {
+       max-width: 300px;
+   }
+   .img1 {
+       width: 250px;
+       height: 250px;
+   }
+   .former {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+   }
+   
+   .id {
+       display: flex;
+   }
+   .name {
+       width: 700px;
+   }
+   .email {
+       width: 330px;
+   }
+   .flex {
+       display: flex;
+       flex-direction: column;
+   }
+   .button1 {
+       width: 700px;
+   }
+   .wrap2 {
+       display: flex;
+       justify-content: space-around;
+   }
+   .card-section {
+       display: none;
+   }
+   .section2 {
+    margin: 20px;
+   }
+   
+
+   
+  
+   
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0;
+    font-family: "Bree Serif";
+}
+
+i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #0a1525;
+    color: #fff2ff;
+    margin: 0px;
+    text-align: center;
+}
+
+.foo>* {
+    padding: 20px;
+    text-align: left;
+}
+
+.more {
+    display: flex;
+    justify-content: space-around;
+}
+
+.more>* {
+    margin: 10px;
+}
+
+.contact {
+    padding: 20%;
+    background-color: #fff2ff;
+    margin: 0px;
+}
+
+.form * {
+    margin: 4px;
+    padding: 4px;
+    width: 100%;
+}
+
+.form>button {
+    background-color: #ffd700;
+    border-radius: 7px;
+    border: none;
+    color: white;
+}
+
+.services {
+    text-align: center;
+    margin: auto;
+}
+
+.card>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+header {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+}
+
+.opp {
+    background-color: #1e293ba1;
+}
+
+.hero {
+    margin: 0;
+    height: 80vh;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero>* {
+    margin: 5px;
+    color: white;
+}
+
+.hero>button {
+    width: 120px;
+    background-color: #ffd700;
+    border-radius: 7px;
+    border: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: #0a1525;
+    color: #ffffff;
+    padding: 10px;
+}
+
+nav>img {
+    width: 8%;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.items>ul {
+    display: none;
+}
+
+.items>ul>li {
+    margin: 7px;
+}
+
+@media screen and (min-width:768px) {
+    .disflx {
+        display: flex;
+    }
+
+    .items>ul {
+        display: flex;
+    }
+
+    .foo {
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 1px;
+}
+
+.navbar {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.brand-logo {
+    height: 75px;
+    width: 75px;
+}
+
+.brand-name {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.buttons {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-page {
+    color: white;
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.con-btn {
+    background-color: #8B5CF6;
+    border-width: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home-head {
+    font-weight: bolder;
+}
+
+.home-para {
+    font-weight: lighter;
+}
+
+.Our-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagesize {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.Footer {
+    background-color: #0A1525;
+    color: white;
+}
+
+.Contact-us {
+    background-color: #dfe3eb;
+}
+
+h2,
+p {
+    padding: 3px;
+}

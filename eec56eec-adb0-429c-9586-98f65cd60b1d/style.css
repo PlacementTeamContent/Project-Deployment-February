@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header{
+    display: flex;
+    height: 15vh;
+    background-color: #0A1525;
+}
+.logo-bar{
+    display: flex;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.hero-section{
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    background-size: cover;
+    height: 85vh;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+    .nav-items{
+        display: none;
+    }
+}
+@media (min-width:768px){
+    
+}

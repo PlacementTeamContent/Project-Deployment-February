@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_image {
+    height: 70px;
+    width: 70px;
+}
+
+.Home_section_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list_item {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.Home_section_2 {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 90px;
+}
+
+.Home_heading {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.Home_para {
+    color: white;
+}
+
+.Home_button {
+    background-color: #FFD700;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 15px;
+}
+
+.Service_Page {
+    height: 70vh;
+    width: 100vw;
+}
+
+.service_image {
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.our_service_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.service_heading {
+    text-align: center;
+}
+
+.service_para {
+    text-align: center;
+}
+
+.Contact_Page {
+    height: 80vh;
+    width: 100vw;
+    background-color: grey;
+    padding-left: 25px;
+    
+}
+
+.contact_heading {
+    text-align: center;
+}
+
+.contact_para {
+    text-align: center;
+}
+
+.Name_box {
+    height: 30px;
+    width: 400px;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+.Email_box {
+    height: 30px;
+    width: 400px;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+.Phone_box {
+    height: 30px;
+    width: 270px;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+.Message_box {
+    height: 100px;
+    width: 400px;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+.service_button {
+    background-color: #FFD700;
+    color: white;
+    height: 30px;
+    width: 400px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.combine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.About_Page {
+    height: 50vh;
+    width: 100vw;
+    background-color: #1E293B;
+    padding-top: 50px;
+}
+
+.About_us_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.About_us_sub {
+    color: white;
+}
+
+.About_us_logo {
+    font-size: 25px;
+}
+
+.pom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .our_service_flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Service_Page {
+        height: 130vh;
+        width: 100vw;
+    }
+
+    .combine {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About_us_main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .Phone_box {
+    height: 30px;
+    width: 400px;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+
+}
+}

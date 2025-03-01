@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    text-align: left;
+}
+
+.home-page {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bree Serif";
+    padding: 20px;
+}
+
+.home-page-button {
+    background-color: #8B5CF6;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.page1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.image {
+    height: 250px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-context {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    padding: 20px;
+}
+
+.form-page {
+    background-color: #dfe3eb;
+    padding: 10px;
+}
+
+.btn-2 {
+    background-color: #8B5CF6;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 90%;
+    margin: 10px;
+}
+
+.last-section {
+    background-color: #0A1525;
+    color: white;
+    padding: 20px 20px 20px 30px;
+}
+
+.image2 {
+    height: 50px;
+}
+
+.icons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.last-section-inner-bg {
+    display: flex;
+}
+
+.inside-bg {
+    padding-left: 150px;
+}
+
+@media (min-width: 768px) {
+    .image-text-page {
+        display: flex;
+    }
+
+    .image {
+        padding: 10px;
+    }
+
+    .email-phone {
+        display: flex;
+        align-items: center;
+    }
+
+    .input1 {
+        width: 50%;
+    }
+
+    .last-section2 {
+        display: flex;
+    }
+
+    .Contact {
+        padding-left: 20px;
+    }
+}

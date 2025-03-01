@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bree Serif";
+}
+.navy-blue-color{
+    color: #0A1525;
+}
+.navy-blue-bg-color{
+    background-color: #0A1525;
+}
+.white-color{
+    color: #ffffff;
+}
+.white-bg-color{
+    background-color: #ffffff;
+}
+.blue-color{
+    color: #8B5CF6;
+}
+.blue-bg-color{
+    background-color: #8B5CF6;
+}
+.slate-blue-color{
+    color: #1E293B;
+}
+.slate-blue-bg-color{
+    background-color: #1E293B;
+}
+.other-color{
+    color: #dfe3eb;
+}
+.other-bg-color{
+    background-color: #dfe3eb;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A1525;
+    padding: 10px 15px;
+}
+.hero{
+    height: 500px;
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 30px;
+    text-align: left;
+}
+.hero-h1{
+    font-size: 40px;
+    max-width: 543px;
+}
+.hero-p{
+    font-size: 25px;
+    max-width: 560px;
+}
+.contact-btn{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 0;
+}
+.services-crds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services > *{
+    margin: 25px 0;
+}
+.services-crd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 15px 0;
+}
+.services-h1{
+    text-align: center;
+}
+.services-p{
+    text-align: center;
+    max-width: 543px;
+}
+.services-crd-img{
+    width: 390px;
+    border-radius: 20px;
+}
+.services-crd-h1{
+    align-self: flex-start;
+}
+input, textarea{
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 400px;
+}
+textarea{
+    height: 200px;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social-icon{
+    font-size: 30px;
+}
+.footer-contact{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30%;
+}
+.email-number{
+    display: flex;
+    flex-direction: column;
+}
+.form-btn{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 0;
+    width: 400px;
+}
+li{
+    list-style-type: none;
+}
+.nav-items{
+    display: none;
+}
+.x{
+    display: flex;
+    flex-direction: column;
+}
+.n{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px){
+    .nav-items{
+        display: flex;
+    }
+    .email-number{
+        flex-direction: row;
+        width: 400px;
+    }
+    .email-number input{
+        width: 100%;
+    }
+    .x{
+        flex-direction: column;
+        width: 50%;
+        margin-right: 10px;
+    }
+    .n{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

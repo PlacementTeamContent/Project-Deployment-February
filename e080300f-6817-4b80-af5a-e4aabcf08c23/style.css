@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: Bree Serif;
+}
+
+.navbar {
+    background-color: #0A1220;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    height: 7vh;
+}
+
+.nav-logo {
+    height: 40px;
+    align-self: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.items-nav {
+    display: flex;
+    text-align: center;
+}
+
+.navi-item {
+    margin: 10px;
+    align-self: center;
+}
+
+@media screen and (max-width:577px) {
+    .items-nav {
+        display: none;
+    }
+
+    .navi-head {
+        font-size: 10px;
+    }
+
+    .nav-logo {
+        height: 30px;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .main-bar {
+        display: none;
+    }
+}
+
+/* hero part */
+.hero {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+}
+
+.hero-content {
+    align-self: center;
+    margin-left: 50px;
+    color: #FFFFFF;
+    width: 30%;
+}
+
+.hero-btn {
+    background-color: #00E5BE;
+    border-width: 0px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+@media screen and (max-width:577px) {
+    .hero-head {
+        font-size: 10px;
+    }
+
+    .hero-p {
+        font-size: 10px;
+    }
+
+    .hero-btn {
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+        border-radius: 5px;
+    }
+}
+
+/* service-section*/
+.service-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.serv-img {
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-serv {
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+}
+
+.serv-card-h {
+    font-weight: bold;
+}
+
+.serv-card-p {
+    color: gray;
+    font-size: 10px;
+}
+
+.head-service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.serv-para{
+    font-size: 15px;
+    color: grey;
+}
+@media screen and (min-width:767px) {
+    .serv-card-cont {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        align-self: center;
+    }
+
+    .card-serv {
+        width: 30%;
+    }
+}
+
+/* contact-section*/
+.head-contact {
+    text-align: center;
+}
+
+.contact-section {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.inner {
+    width: 100%;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 8px;
+}
+
+.em-num {
+    width: 70%;
+}
+
+.in-item {
+    justify-self: center;
+    width: 70%;
+}
+
+.inner-low {
+    width: 100%;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 8px;
+    height: 80px;
+}
+
+.in1 {
+    width: 100%;
+}
+
+.cont-btn {
+    background-color: #00E5BE;
+    border-width: 0px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 30px;
+    width: 101%;
+}
+
+.em-num {
+    justify-self: center;
+}
+
+.btn-container {
+    width: 70%;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+.red-ast {
+    color: red;
+}
+
+.cont1::after {
+    content: "*";
+    color: red;
+}
+.inputtext{
+    font-size: 10px;
+}
+.cont-para{
+    font-size: 15px;
+    color: grey;
+}
+
+@media screen and (min-width:767px) {
+    .em-num {
+        display: flex;
+        justify-self: center;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    .in1 {
+        width: 47%;
+    }
+    .inputtext{
+        font-size: 15px;
+    }
+}
+
+/* footer */
+.foot {
+    background-color: #0A1220;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #0A1220;
+    color: grey;
+}
+
+.logo-img {
+    height: 60px;
+}
+
+.imp-foot {
+    color: #FFFFFF;
+}
+
+.sub-foot1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-foot2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    justify-self: center;
+}
+
+.icon-foot {
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+@media screen and (max-width:577px) {
+    .footer {
+        font-size: 10px;
+    }
+
+    .last {
+        color: grey;
+        font-size: 6px;
+    }
+
+    span {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .footer {
+        background-color: #0A1220;
+        color: grey;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .sub-foot1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-foot2 {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .icon-foot {
+        color: #FFFFFF;
+        margin: 5px;
+    }
+
+    .last {
+        color: grey;
+        font-size: 10px;
+    }
+}

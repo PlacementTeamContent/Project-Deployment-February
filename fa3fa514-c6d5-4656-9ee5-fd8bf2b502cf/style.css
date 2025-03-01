@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "ree Serif";
+}
+
+.nav{
+    background-color: #0a1525;
+    height: 70px;
+    width: 100vw;
+    color: #ffffff;
+}
+.nav-image{
+    height: 40px;
+    width: 40px;
+}
+.d-flex{
+    display: flex;
+}
+.elements{
+    display: flex;
+    margin-left: auto;
+}
+.gap{
+    padding-right: 20px;
+}
+.fa{
+    padding-top: 18px;
+    margin-right: 10px;
+}
+.display{
+    display: none;
+}
+@media screen and (max-width:766px) {
+    .elements{
+    display: none;
+}
+.display{
+    margin-left: auto;
+    display: block;
+    margin-right: 10px;
+}
+}
+.bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 400px;
+    width: 100vw;
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+   background-size: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.btn{
+   align-self: flex-start;
+    color: white;
+    background-color: #8b5cf6;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px;
+}
+.service-section{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.card{
+    height: auto;
+    width: 300px;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+.service-image{
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+}
+@media screen and (max-width:766px) {
+    .flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-image{
+    height: 250px;
+    width: auto;
+    border-radius: 5px;
+}
+.card{
+    height: auto;
+    width: auto;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+}
+.text-align{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfe3eb;
+    height: 530px;
+    width: 97vw;
+    color: black;
+    padding: 10px;
+}
+.content-contact{
+    width: 600px;
+}
+.box{
+    width: 500px;
+    padding: 5px;
+}
+.box1{
+    width: 230px;
+   height: 20px;
+   margin: 10px;
+}
+.one{
+    display: flex;
+}
+.talk{
+    color: #ffffff;
+    background-color: #8b5cf6;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 5px;
+    width: 485px;
+}
+.red{
+    color: red;
+}
+@media screen and (max-width:766px){
+    .one{
+    display: grid;
+    text-align: left;
+    padding-left: 40px;
+    }
+    .name{
+        text-align: left;
+        padding-left: 40px;
+    }
+    .meassage{
+       text-align: left;
+        padding-left: 33px;
+    }
+    .contact{
+        height: auto;
+        padding: 10px;
+    }
+    .box1{
+        width: 500px;
+        padding: 5px;
+    }
+    .box{
+        width: 500px;
+        padding: 5px;
+    }
+}
+.footer{
+    background-color: #0a1525;
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+.bi{
+    padding: 3px;
+}
+.d-flex1{
+    display: flex;
+    justify-content: center;
+}
+.part1{
+    margin: 10px;
+}
+.part2{
+    margin: 10px;
+}
+.part3{
+    margin: 10px;
+}
+@media screen and (max-width: 766px){
+    .d-flex1{
+    display: grid;
+}
+.min-screen{
+    display: flex;
+    justify-content: space-between;
+}
+}
+.last{
+    text-align: center;
+}
+.text{
+    text-decoration: underline;
+}

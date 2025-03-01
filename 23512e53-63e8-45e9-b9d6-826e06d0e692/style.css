@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    margin:0px;
+    border:0;
+}
+@media (max-width:992px){
+    .rownav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color:white;
+    }
+    .logo{
+    height:5vh;
+    }
+    .nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #0A1525;
+    padding:3vw;
+    font-size: 10px;
+}
+.nav-elements button{
+    display: none;
+}
+.banner{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height: 70vh;
+    background-size:cover;
+    padding:3vw;
+}
+.br{
+    display:none;
+}
+.banner-content{
+    margin-top:28vh;
+    margin-left:5vw;
+}
+.banner-content h1{
+    font-size: 24px;
+    color:white;
+    margin-bottom:2vh;
+}
+.banner-content p{
+    color:white;
+    font-size: 10px;
+}
+.banner-content button{
+    background-color: #F6B352;
+    color:white;
+    border: none;
+    border-radius:2px;
+    margin-top:2vh ;
+    font-size: 4px;
+    padding:4px;
+}
+.section1{
+    margin:3vh;
+    text-align:center;
+}
+.div-row{
+    display: flex;
+    flex-direction:column;
+    text-align:start;
+}
+.img1{
+    border-radius: 12px;
+    width:86vw;
+}
+.section1 h1{
+    margin-bottom:3vh;
+}
+.section1 p{
+    margin-bottom: 3vh;
+    color:grey;
+}
+.div-row h1{
+  font-size:24px;  
+}
+.section2{
+    background-color: #dfe3eb;
+    text-align: center;
+}
+.roebut{
+    display:flex;
+    flex-direction:column;
+    gap:1vw;
+}
+.section2content{
+    text-align: start;
+    margin-left:3vw;
+}
+.section2 button{
+  padding:15px;
+  border: lightgrey 1px solid;
+  border-radius:4px;
+  margin-bottom:20px;
+}
+.w100{
+    width:90vw;
+}
+.w50{
+    width:90vw;
+}
+.w1001{
+    width:90vw;
+    padding:10vh !important;
+}
+.talk{
+    font-size:10px;
+    width:90vw;
+    margin-top:10px;
+    text-align: center;
+    background-color: #F6B352;
+    border-radius:6px;
+}
+.section3{
+    background-color: #1E293B;
+}
+.section3 h1{
+    color:white;
+}
+.section3 p{
+    color:lightgrey;
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left:3vw;
+}
+.col{
+    margin:10vh;
+}
+.mobile{
+    display:flex;
+    flex-direction: row;
+}
+.mobile h1{
+    font-size: 22px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:992px){
+   .nav-elements button{
+       border:none;
+       background:transparent;
+       font-family: "Bree Serif";
+       color:white;
+       display:block;
+   }
+   .nav-elements{
+       display:flex;
+       flex-direction:row;
+   }
+   .nav-elements{
+       display: block !important;
+   }
+   .rownav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color:white;
+}
+.logo{
+    height:5vh;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #0A1525;
+    padding:3vw;
+    width:140vw;
+}
+.nav-elements button{
+    display:none;
+}
+.banner{
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    height: 70vh;
+    background-size:cover;
+    width:140vw;
+    padding:3vw;
+}
+.banner-content{
+    margin-top:25vh;
+    margin-left:28vw;
+}
+.banner-content h1{
+    font-size: 62px;
+    color:white;
+    margin-bottom:2vh;
+}
+.banner-content p{
+    color:white;
+    font-size: 24px;
+}
+.banner-content button{
+    background-color: #F6B352;
+    color:white;
+    border: none;
+    border-radius:4px;
+    margin-top:2vh ;
+    font-size: 24px;
+    padding:10px;
+}
+.section1{
+    margin:5vh 0 0 28vw;
+    text-align:center;
+}
+.div-row{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    gap:6%;
+    text-align:start;
+}
+.img1{
+    border-radius: 12px;
+    width:30vw;
+}
+.section1 h1{
+    margin-bottom:3vh;
+}
+.section1 p{
+    margin-bottom: 3vh;
+    color:grey;
+}
+.div-row h1{
+  font-size:24px;  
+}
+.section2{
+    background-color: #dfe3eb;
+    text-align: center;
+    width:150%;
+}
+.roebut{
+    display:flex;
+    flex-direction:row;
+    gap:1vw;
+}
+.section2content{
+    text-align: start;
+    margin-left:28vw;
+}
+.section2 button{
+  padding:15px;
+  border: lightgrey 1px solid;
+  border-radius:4px;
+  margin-bottom:20px;
+}
+.w100{
+    width:100vw;
+}
+.w50{
+    width:49.5vw;
+}
+.w1001{
+    width:100vw;
+    padding:10vh !important;
+}
+.talk{
+    font-size:16px;
+    width:100vw;
+    margin-top:10px;
+    text-align: center;
+    background-color: #F6B352;
+    border-radius:6px;
+}
+.section3{
+    background-color: #1E293B;
+    width:147.5vw;
+}
+.section3 h1{
+    color:white;
+}
+.section3 p{
+    color:lightgrey;
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:28vw;
+    width:120vw;
+}
+.col{
+    margin:10vh;
+}
+}
