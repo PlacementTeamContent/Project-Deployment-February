@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.background {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    height: 50vh;
+    background-size: cover;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+}
+
+.icon-image {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.item {
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.main {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}

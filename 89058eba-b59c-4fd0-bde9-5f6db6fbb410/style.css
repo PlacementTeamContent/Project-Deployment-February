@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #1E293B;
+}
+
+.head {
+    background-color: #0A1525;
+}
+
+.image {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    height: 400px;
+    width: 600px;
+}
+
+.firsttext {
+    text-align: center;
+    align-content: center;
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.but {
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px;
+    font-family: "Bree Serif";
+}
+
+.img2 {
+    height: 250px;
+    width: 370px;
+    border-radius: 10px;
+}
+
+.service {
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.ser {
+    font-family: "Bree Serif";
+}
+
+.contact {
+    background-color: #dfe3eb;
+    height: 640px;
+    width: 600px;
+    font-family: "Bree Serif";
+}
+
+.but1 {
+    border-color: #dfe3eb;
+    padding: 10px;
+    background-color: #FFFFFF;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.but2 {
+    border-color: #dfe3eb;
+    padding: 10px;
+    background-color: #FFFFFF;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.but3 {
+    border-color: #dfe3eb;
+    padding: 60px;
+    background-color: #FFFFFF;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.ok {
+    color: #FFFFFF;
+    border-color: #4B9EFF;
+    padding: 10px;
+    background-color: #4B9EFF;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.foot {
+    background-color: #0A1525;
+    height: 625px;
+    width: 600px;
+}
+
+.color {
+    color: #FFFFFF;
+    font-family: "Roboto";
+}
+
+.last {
+    color: #FFFFFF;
+    font-size: 15px;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.task-nav-img {
+    width: 40px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0A1525;
+    color: white;
+}
+
+.header {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 100vh;
+    wid;
+}

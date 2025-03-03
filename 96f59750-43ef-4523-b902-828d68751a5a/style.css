@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.nav-bg {
+    background-color: #0A1525;
+    position: fixed;
+    height: 40px;
+    width: 100vw;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.nav-logo>h5 {
+    padding: 4px;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-sidebar {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav-sidebar>h5 {
+    padding: 5px;
+}
+
+.nav-sidebar>i {
+    padding: 5px;
+}
+
+.bg {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    width: 100vw;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    font-size: 30px;
+    background-size: cover;
+}
+
+.bg>p {
+    font-size: 25px;
+}
+
+.bg>button {
+    background-color: #4B84F3;
+    height: 40px;
+    width: 90px;
+    border-radius: 3px;
+    border-width: 0px;
+    color: white;
+    margin-top: 10px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.our {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.Contact {
+    background-color: #dfe3eb;
+
+}
+
+.us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.name-class {
+    padding-left: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-class>button {
+    height: 20px;
+    width: 513px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.email-class>button {
+    height: 20px;
+    width: 250px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 7px;
+}
+
+.phone-class>button {
+    height: 20px;
+    width: 250px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.message>button {
+    height: 150px;
+    width: 513px;
+    padding: 10px;
+}
+
+.usl0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bg {
+    padding: 10px;
+    background-color: #1A2942;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.foot {
+    background-color: #1A2942;
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width:768) {
+    .nav-sidebar>h5 {
+        display: none;
+    }
+
+    .our {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email-class>button {
+        height: 20px;
+        width: 250px;
+        border-width: 1px;
+        border-radius: 5px;
+        padding: 10px;
+        margin-right: 7px;
+    }
+
+    .phone-class>button {
+        height: 20px;
+        width: 250px;
+        border-width: 1px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .name-class>button {
+        height: 20px;
+        width: 513px;
+        border-width: 1px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .message>button {
+        height: 150px;
+        width: 513px;
+        padding: 10px;
+    }
+
+    .footer-bg {
+        padding: 10px;
+        background-color: #1A2942;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+}

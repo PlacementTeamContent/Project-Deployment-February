@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-page {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sub-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-head {
+    color: white;
+    font-weight: bold;
+}
+
+.first-button {
+    color: white;
+    background-color: #f6b352;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.sec-sub-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: Bree Serif;
+}
+
+p {
+
+    font-weight: normal;
+}
+
+.image-card-holders {
+    text-align: center;
+}
+
+.first-image {
+    height: 25vh;
+    width: 75vw;
+    border-radius: 15px;
+}
+
+.third-page {
+    background-color: #dfe3eb;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+footer {
+    background-color: #0a1525;
+    height: 55vh;
+}
+
+.f-first-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.footer-image {
+    height: 7vh;
+    width: 12vw;
+
+}
+
+.f-para {
+    color: white;
+}
+
+.f-contact-us {
+    padding: 15px;
+}
+
+.contact-us-para {
+    color: white;
+}
+
+.contact-us-head {
+    color: white;
+
+}

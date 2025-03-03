@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+    margin-bottom: 0px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    justify-content: space-between;
+}
+
+.img-logo {
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+}
+
+.title {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.fa-bars {
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.option1 {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.homepage {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 40vh;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.homepage-content {
+    margin: 20px;
+    padding: 120px;
+}
+
+.homepage-head {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 50px;
+}
+
+.homepage-para {
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+.homepage-button {
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-width: 0px;
+    border-radius: 8px;
+    font-family: "Roboto";
+    height: 40px;
+    width: 80px;
+}
+
+.services-page {
+    background-color: #FFFFFF;
+    height: 45vh;
+}
+
+.services-headpara {
+    padding-left: 20px;
+}
+
+.services-head {
+    text-align: center;
+    font-weight: bold;
+}
+
+.services-para {
+    text-align: center;
+    font-size: 24px;
+}
+
+.services-box {
+    display: flex;
+}
+
+.services-img {
+    height: 200px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.contactus-page {
+    background-color: lightgrey;
+    height: 48vh;
+}
+
+.contactus-page-head {
+    text-align: center;
+}
+
+.contactus-page-para {
+    text-align: center;
+}
+
+.star {
+    color: red;
+}
+
+.name {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.email {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.phone {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.message {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.name-bar {
+    width: 382px;
+    height: 30px;
+}
+
+.name-bar1 {
+    width: 850px;
+    height: 120px;
+}
+
+.name-bar2 {
+    width: 850px;
+    height: 30px;
+}
+
+.contactus-page-button {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 28px;
+}
+
+.talkbutton {
+    border-radius: 6px;
+    width: 400px;
+    height: 35px;
+    background-color: #FFD700;
+    border-width: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.mailandphone {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-page {
+    background-color: #0A1525;
+    height: 40vh;
+}
+
+.last {
+    display: flex;
+}
+
+.footer-page-img {
+    height: 80px;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.footer-page-para {
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.icon {
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 50px;
+}
+
+.icons {
+    padding-left: 20px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.part {
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 150px;
+}
+
+.part-para {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+.last-para {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.gpt {
+    text-decoration: underline;
+}
+
+@media (max-width:768px)
+
+/*  and (min-width:576px) */
+    {
+    .options {
+        display: none;
+    }
+
+    .footer-page {
+        background-color: #0A1525;
+        height: 72vh;
+    }
+
+    .footer-page-img {
+        height: 80px;
+        padding-top: 80px;
+        padding-left: 20px;
+    }
+
+    .footer-page-para {
+        color: #FFFFFF;
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .icon {
+        color: #FFFFFF;
+        font-size: 40px;
+        width: 50px;
+    }
+
+    .icons {
+        padding-left: 20px;
+        display: flex;
+        padding-top: 10px;
+    }
+
+    .part {
+        display: flex;
+        padding-left: 20px;
+        justify-content: space-between;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .part-para {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .gpt {
+        text-decoration: underline;
+    }
+
+    .star {
+        color: red;
+    }
+
+    .contactus-page {
+        background-color: lightgrey;
+        height: 82vh;
+    }
+
+    .name {
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+
+    .email {
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+
+    .phone {
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+
+    .message {
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+
+    .name-bar {
+        width: 400px;
+        height: 30px;
+    }
+
+    .name-bar1 {
+        width: 400px;
+        height: 120px;
+    }
+
+    .name-bar2 {
+        width: 400px;
+        height: 120px;
+    }
+
+    .services-para {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .services-page {
+        background-color: #FFFFFF;
+        height: 145vh;
+    }
+
+    .services-img {
+        height: 200px;
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    .services-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-boxs {
+        padding-left: 60px;
+    }
+
+    .fa-bars {
+        padding-left: 300px;
+        color: #FFFFFF;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        padding-left: 40px;
+    }
+
+    .homepage-content {
+        margin: 20px;
+        padding: 40px;
+    }
+
+    .homepage-head {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-family: "Roboto";
+        font-size: 40px;
+    }
+
+    .homepage-para {
+        color: #FFFFFF;
+        font-family: "Roboto";
+        font-size: 20px;
+    }
+
+    .homepage-button {
+        color: #FFFFFF;
+        background-color: #FFD700;
+        border-width: 0px;
+        border-radius: 8px;
+        font-family: "Roboto";
+
+    }
+}
+
+/* @media (max-width:768px){
+    .options{
+        display: none;
+    }
+    .fa-bars{
+    padding-left: 88px;
+    color:#FFFFFF;
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        padding-left:30px;
+    }
+} */

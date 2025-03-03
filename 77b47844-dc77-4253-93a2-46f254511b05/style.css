@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: 'Bree Serif';
+}
+
+.head {
+    background-color: #0a1220;
+    /* text-align: center */
+    ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-text {
+    color: #ffffff;
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    /* flex-wrap: wrap; */
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .nav-items-hide {
+        display: none;
+    }
+}
+
+.home {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.home-text {
+    color: #ffffff;
+}
+
+.home-btn {
+    background-color: #00e5be;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+
+}

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+/* * {
+    font-family: Bree Serif;
+} */
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 60vh;
+    background-size: cover;
+    color: white;
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+@media (max-width :576px) {
+    .text-container {
+        width: 70%;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+@media (min-width :577px) {
+    .text-container {
+        width: 35%;
+    }
+}
+
+button {
+    background-color: #6c63FF;
+    border-width: 0px;
+    color: white;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.text-container-1 {
+    text-align: center;
+    padding: 22px;
+    margin: 10px;
+}
+
+.text-card-container {
+    text-align: left;
+}
+
+card img {
+    text-align: center;
+}

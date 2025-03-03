@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+.container {
+    font-family: Bree Serif;
+    color: #FFFFFF;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: #0A1426;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    font-family: Bree Serif;
+}
+
+.logo {
+    display: flex;
+    flex: row;
+}
+
+.top-logo {
+    height: 60px;
+}
+
+.name {
+    margin: 10px;
+}
+
+.tools {
+    display: flex;
+    flex: row;
+}
+
+.tool {
+    margin: 9px;
+}
+
+.menu {
+    margin: 8px;
+}
+
+@media screen and (max-width:767px) {
+    .tool {
+        display: none;
+    }
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+}
+
+.button {
+    border-width: 0px;
+    background-color: #4A90E2;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 120px;
+
+}
+
+.

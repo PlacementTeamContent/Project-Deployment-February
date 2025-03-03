@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    /*font-size: 2vh;*/
+    margin: 0px;
+    font-family: "Bree Serif";
+}
+
+#nav-img {
+    height: 20px;
+    margin-right: 8px;
+}
+
+.nav-elements-2 {
+    color: #0a1525;
+}
+
+.nav-elements-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a1525;
+    color: white;
+    height: 64px;
+}
+
+.backimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    height: 40vh;
+    background-size: cover;
+}
+
+.hero {
+    color: white;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.hero-element {
+    margin-bottom: 16px;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    width: 64px;
+    height: 30px;
+    color: white;
+    background-color: #6c63ff;
+    border: 0px solid black;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 1.5vh;
+    font-family: "";
+    /*color: rgba(0,0,0,0.3);*/
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 2vh;
+}
+
+.services-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-size: 2vh;
+}
+
+.services-img {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 90vw;
+    height: 32vh;
+}
+
+.services-1 {
+    width: 90vw;
+    font-size: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.services-1 h1 {
+    align-self: start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    padding: 20px;
+    background-color: #dfe3eb;
+}
+
+.contact h1 {
+    margin-bottom: 10px;
+}
+
+.contact-span {
+    color: red;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vh;
+}
+
+.form-ele {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.inp {
+    height: 16px;
+    width: 37vh;
+}
+
+.inp-field {
+    height: 80px;
+    width: 37vh;
+}
+
+.form-button {
+    margin-top: 10px;
+    align-self: center;
+    text-align: center;
+    width: 37vh;
+
+}
+
+.footer {
+    background-color: #0a1525;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.foot-icons {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.foot-ico {
+    margin-left: 2px;
+}
+
+.foot-heading {
+    color: white;
+    font-size: 1.7vh;
+}
+
+.foot-cont-ele {
+    margin-bottom: 2px;
+}
+
+.foot-contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    display: block;
+    font-size: 1.5vh;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (min-width:576px) {
+    .hero-button {
+        font-size: 1.2vh;
+    }
+}
+
+@media (min-width:768px) {
+    .nav-elements-2 {
+        color: white;
+    }
+
+    .nav-pad {
+        margin-left: 6px;
+    }
+
+    .hero-button {
+        font-size: 0.5rem;
+    }
+
+    .services-md {
+        width: 25vw;
+    }
+
+    .services-img {
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .services-cont-md {
+        padding: 20px;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .form-md {
+        display: flex;
+    }
+}

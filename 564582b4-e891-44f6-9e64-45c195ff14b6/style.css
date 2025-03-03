@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #1E293B;
+    height: 70px;
+    font-family: "Bree Serif";
+    color: #FFFFFF;
+
+
+
+}
+
+.container {
+
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    font-family: "Bree Serif";
+
+    padding: 200px;
+
+
+
+
+}
+
+.btn1 {
+    background-color: #FFD700;
+    color: #FFFFFF;
+    border-color: #FFD700;
+    align-content: center;
+    font-family: "Bree Serif";
+
+}
+
+.container1 {
+    color: #0A1525;
+    text-align: center;
+    font-family: "Bree Serif";
+    flex-direction: column;
+}
+
+.last1 {}

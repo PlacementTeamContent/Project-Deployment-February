@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    overflow: scroll;
+    flex-wrap: wrap;
+    max-width: 3000px;
+    height: 2800px;
+}
+
+.navbar {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    border-radius: 28px;
+    height: 50px;
+    margin-left: 150px;
+    padding-top: 15px;
+}
+
+.company {
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.big-image {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+}
+
+.heading {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.button {
+    background-color: #FFD700;
+    color: white;
+    /* padding: 25px; */
+    border-radius: 10px;
+    height: 60px;
+    width: 170px;
+    margin-left: 400px;
+    border-color: transparent;
+    font-size: 25px;
+}
+
+.sub-para {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-left: 400px;
+    padding-top: 0px;
+}
+
+.our-services {
+    /* display: flex;
+    align-content: center;
+    flex-direction:column;
+    justify-content:center; */
+    text-align: center;
+    font-size: ;
+}
+
+.subcontainers {
+    display: flex;
+    flex-direction: row;
+}
+
+.images {
+    border-radius: 10px;
+    margin: 20px;
+    height: 170px;
+    width: 230px;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.contact-us {
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.talk {
+    background-color: #FFD700;
+    width: 680px;
+    text-align: center;
+    margin-left: 300px;
+    padding: 18px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+}
+
+._1 {
+    color: #FFFFFF;
+    margin-left: 120px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+._2 {
+    color: white;
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+._3 {
+    color: white;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.icons {
+    border-radius: 18px;
+    margin: 30px;
+
+    font-size: 30px;
+}
+
+.last {
+    height: 80px;
+
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar-sec {
+    background-color: #0A1525;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navbar-sec>i {
+    color: #ffffff;
+    font-size: 20px;
+    place-self: center;
+    margin: 10px;
+}
+
+.navbar-sub-sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-sub-sec>p {
+    place-self: center;
+    color: #ffffff;
+}
+
+.navbar-sub-sec>img {
+    height: 50px;
+    place-self: center;
+    margin: 10px;
+}
+
+.page-1 {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    height: 100%;
+    margin: 0px;
+    padding: 40px;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.page-1>button {
+    width: 100px;
+    background-color: #8B5CF6;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.top {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 80px
+}
+
+.card-1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-1>img {
+    border-radius: 20px;
+    height: 300px;
+    width: 500px;
+    align-self: center;
+}
+
+.card-1>h1 {
+    font-weight: bold;
+    height: 10px;
+    font-size: 20px;
+    padding: 0px 20px;
+    font-family: "Bree Serif";
+}
+
+.card-1>p {
+    padding: 0px 20px;
+
+}

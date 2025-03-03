@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Bree Serif;
+}
+
+.main-bg {
+    background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-sec {
+    margin-left: 70px;
+}
+
+.main-section-head {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: flex-start;
+    margin: 16px;
+    margin-left: 70px;
+}
+
+.main-section-h3 {
+    color: #333;
+    font-size: 18px;
+    max-width: 400px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.main-section-button {
+    background-color: #F6B352;
+    border: 0;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width:768px) {
+    .main-section-head {
+        font-size: 52px;
+        max-width: 300px;
+    }
+
+    .main-section-h3 {
+        max-width: 500px;
+        font-weight: 200;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .main-sec {
+        margin-left: 20%;
+    }
+
+    .main-btn {
+        margin-left: 20%;
+    }
+}
+
+.our-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.our-servies-head {
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.our-servies-para {
+    color: grey;
+    font-size: 18px;
+    max-width: 600px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+.card {
+    width: 300px;
+    margin: 15px;
+}
+
+.card-container {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-service {
+    width: 300px;
+}
+
+img {
+    width: 300px;
+    border-radius: 24px;
+}
+
+.card-head {
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 8px;
+}
+
+.card-para {
+    font-size: 14px;
+    color: grey;
+    padding: 8px;
+}
+
+@media screen and (min-width:576px) {
+    .img-service {
+        width: 400px;
+    }
+
+    img {
+        width: 400px;
+    }
+
+    .card {
+        width: 400px;
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        flex-shrink: 1;
+        overflow-x: auto;
+    }
+
+    .card {
+        margin-left: 70%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        flex-shrink: 1;
+        overflow-x: auto;
+    }
+
+    .card {
+        margin-left: 40%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        flex-shrink: 1;
+        overflow-x: auto;
+    }
+
+    .card {
+        margin-left: 19%;
+    }
+}
+
+.contact-div {
+    background-color: #dfe3eb;
+    height: 850px;
+}
+
+.input-name {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 12px;
+    font-family: roboto;
+}
+
+span {
+    color: red;
+}
+
+.input {
+    margin: 12px;
+}
+
+.input-text {
+    width: 270px;
+    padding: 12px;
+    font-weight: 100;
+    font-family: roboto;
+    border: 0;
+    height: 38px !important;
+    border-radius: 12px;
+}
+
+.input-text-m {
+    height: 300px !important;
+    width: 400px;
+    border-radius: 12px;
+    border: 0;
+}
+
+@media screen and (max-width:575px) {
+    .input-text-m {
+        width: 240px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .contact-div {
+        height: 960px;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-name {
+        font-size: 32px;
+    }
+
+    .input-text {
+        height: 50px !important;
+        width: 400px;
+        font-size: 22px;
+    }
+}
+
+.talk-btn {
+    background-color: #F6B352;
+    border: 0;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.let-btn {
+    margin: 12px;
+}
+
+@media screen and (min-width:556px) {
+    .talk-btn {
+        width: 450px;
+    }
+}
+
+.footer-div {
+    background-color: #0A1525;
+    height: 400px;
+}
+
+.icon {
+    width: 40px;
+    margin: 19px;
+    margin-top: 29px;
+    margin-bottom: 5px;
+}
+
+.footer-para {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 18px;
+    padding-top: 2px;
+    max-width: 700px;
+}
+
+.icons {
+    display: flex;
+    color: white;
+    margin: 18px;
+}
+
+i {
+    margin-right: 8px;
+    font-size: 22px;
+}
+
+.social-cont {
+    display: flex;
+    margin-left: 18px;
+}
+
+.cont-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.pra {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: roboto;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: roboto;
+    padding: 8px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.foo-head {
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+
+.x {
+    text-decoration: underline;
+    font-weight: 400;
+    letter-spacing: 1;
+    font-family: roboto;
+    color: white;
+    font-size: 12px;
+}
+
+.copyright {
+    color: white;
+    padding: 12px;
+    font-family: roboto;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+@media screen and (min-width:768px) {
+
+    .social-cont {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .x {
+        font-size: 22px;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .footer-para {
+        text-align: center;
+        font-size: 22px;
+        max-width: 900px;
+    }
+
+    i {
+        font-size: 30px;
+        padding-right: 32px;
+    }
+
+    .icon {
+        width: 90px;
+    }
+
+    .footer-div {
+        height: 500px;
+    }
+}

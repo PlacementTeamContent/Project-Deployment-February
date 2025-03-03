@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    overflow: auto;
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+
+.Header {
+    background-color: #0A1220;
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon-image {
+    height: 6vw;
+    margin: 2px 20px;
+}
+
+.Name {
+    color: #ffffff;
+    margin: auto;
+}
+
+.Hamburgur_section {
+    display: flex;
+    color: #ffffff;
+}
+
+.details {
+    margin: auto 30px auto 16px;
+}
+
+.main_page {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main_heading {
+    font-size: 6vw;
+    width: 50%;
+}
+
+.main_para {
+    font-size: 2vh;
+    width: 50%;
+}
+
+.main_page_contact_btn {
+    width: 25%;
+    height: 5%;
+    color: #ffffff;
+    background-color: #00E5BE;
+    border-radius: 16px;
+}
+
+.Our_service_section {
+    background-color: #ffffff;
+    height: 80vh;
+}

@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif";
+}
+
+.navbar-bg {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.logo {
+
+    width: 40px;
+}
+
+.navbar-logo {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.nav-logo-layout {
+    display: flex;
+
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.nav-items {
+    display: none;
+}
+
+.banner-bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 400px;
+
+
+}
+
+.banner-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.banner-des {
+    color: #dfe3eb;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.banner-button {
+    background-color: #6C63FF;
+    height: 20px;
+    width: 80px;
+    border: 0px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.services-bg {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Services-heading,
+.services-card-heading,
+.contact-us-heading {
+    color: #1E293B;
+
+}
+
+.services-des {
+    color: black;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.services-card-img,
+.services-card-img-1 {
+    width: 320px;
+    border-radius: 10px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.services-card-heading {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.services-card-des {
+    color: #000000;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.img-layout {
+    text-align: center;
+}
+
+.contact-us-bg {
+    background-color: #dfe3eb;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-heading {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-us-des {
+    font-size: 18px;
+    text-align: center;
+}
+
+.name {
+    margin-left: 3px;
+    font-size: 18px;
+    color: #1E293B;
+}
+
+.input,
+.input-1 {
+    height: 40px;
+    width: 350px;
+    box-shadow: 100;
+    border: 0px;
+    border-radius: 10px;
+
+}
+
+.input-message {
+    height: 140px;
+    width: 350px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.contact-us-button {
+    background-color: #6C63FF;
+    color: #ffffff;
+    height: 40px;
+    width: 250px;
+    border-radius: 15px;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.footer-bg {
+    background-color: #0A1525;
+    padding: 10px;
+
+}
+
+.footer-des {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.footer-icon {
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.footer-contactus-heading {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footer-contactus-details {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.items {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.footer-layout-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+@media (min-width:768px) {
+    .icon-1 {
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .nav-items {
+        display: inline-block;
+        display: flex;
+    }
+
+    .items {
+        color: #ffffff;
+        margin-left: 20px;
+    }
+
+    .cards-container {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .services-card-img-1 {
+        width: 200px;
+    }
+
+    .banner-bg {
+        height: 600px;
+    }
+
+    .entries-layout {
+        display: flex;
+    }
+
+    .input-1 {
+        width: 175px;
+        margin-right: 5px;
+    }
+
+    .footer-bg {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .items-container {
+        margin-left: 50px;
+    }
+
+    .icon {
+        display: none;
+    }
+}

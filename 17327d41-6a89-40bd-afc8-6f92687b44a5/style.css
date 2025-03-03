@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+}
+
+.h1 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.p1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+
+
+}
+
+.b1 {
+    background-color: #ffd700;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.bg2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.h2 {
+    color: #0a1525;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+
+.p2 {
+    color: #1e293b;
+    font-family: "Bree Serif";
+}
+
+.bg22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card {
+    box-sizing: border-box;
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.bg3 {
+    background-color: #ffffff;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.bg3 {
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.span {
+    color: red;
+}
+
+.input-box {
+    width: 90vw;
+    height: 60px;
+}
+
+.bg4 {
+    background-color: #1e293b;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px;
+}
+
+.foot-image {
+    height: 60px;
+
+}
+
+.p4 {
+    color: lightgrey;
+    font-size: 20px;
+}
+
+.p44 {
+    color: lightgrey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon {
+    color: lightgrey;
+    font-size: 24px;
+}
+
+.bg5 {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: flex-start;
+    background-color: #0a1525;
+}
+
+.bg444 {
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+.bg441 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bg442 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

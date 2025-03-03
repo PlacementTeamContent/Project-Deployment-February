@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: Bree serif;
+    color: #FFFFFF;
+}
+
+.nav_container {
+    background-color: #0A1525;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav-logo {
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+
+.nav-cunt {
+    display: flex;
+}
+
+.nav-image {
+    height: 30px;
+    padding: 5px;
+}
+
+.nav-serives {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navvu {
+    padding: 10px;
+}
+
+.banner-image {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-para {
+    color: lightgrey;
+}
+
+.banner-matter {
+    width: 50vw;
+}
+
+.banner-buttu {
+    background-color: #8B5CF6;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.services-heading {
+    color: #1E293B;
+    text-align: center;
+}
+
+.services-headings {
+    color: grey;
+    text-align: center;
+}
+
+.services-headingss {
+    color: #1E293B;
+}
+
+.services-para {
+    color: grey;
+}
+
+.services-head {
+    color: #1E293B;
+}
+
+.services-image {
+    height: 15vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+
+.services-column {
+    height: 10vh;
+    width: 30vw;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 40vh;
+}
+
+.Contact-cunt {
+    background-color: #dfe3eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-input {
+    border-radius: 10px;
+    border-color: grey;
+    width: 40vw;
+}
+
+.dbjj {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-inputs {
+    border-radius: 10px;
+    border-color: grey;
+    width: 20vw;
+    margin: 5px;
+}
+
+.asta {
+    color: red;
+}
+
+.contact-inputss {
+    border-radius: 10px;
+    border-color: grey;
+    width: 40vw;
+    height: 15vh;
+    margin: 5px;
+}
+
+.banner-buttus {
+    background-color: #8B5CF6;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: transparent;
+}

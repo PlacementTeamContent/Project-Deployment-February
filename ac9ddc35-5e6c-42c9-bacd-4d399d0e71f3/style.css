@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.card-1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1 {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.p1 {
+    font-family: "Bree Serif";
+    color: #dfe3eb;
+    text-align: center;
+}
+
+.p4 {
+    font-family: "Bree Serif";
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.btn1 {
+    justify-content: center;
+    font-family: "Bree Serif";
+    background-color: #8B5CF6;
+    color: #ffffff;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.card-2 {
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.h2 {
+    font-family: "Bree Serif";
+    color: #0A1525;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p2 {
+    font-family: "Bree Serif";
+    text-align: center;
+    color: #1E293B;
+}
+
+.img1 {
+    height: 30vh;
+    width: 50vw;
+}
+
+.h3 {
+    font-family: "Bree Serif";
+    color: #0A1525;
+    font-size: 18px;
+}
+
+.p3 {
+    font-family: "Bree Serif";
+    color: #1E293B;
+    font-size: 14px;
+}
+
+.card {
+    flex-direction: column;
+}
+
+.card-3 {
+    background-color: #dfe3eb;
+    background-size: cover;
+    height: 100vh;
+}
+
+.h4 {
+    font-family: "Bree Serif";
+    color: #0A1525;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.mini {
+    height: 10px;
+    width: 85vw;
+    border-width: 2px;
+    border-color: #dfe3eb;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.max {
+    height: 40vh;
+    width: 85vw;
+    border-width: 2px;
+    border-color: #dfe3eb;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn2 {
+    justify-content: center;
+    font-family: "Bree Serif";
+    background-color: #8B5CF6;
+    color: #ffffff;
+    height: 30px;
+    width: 90vw;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 10px;
+}
+
+.card-4 {
+    background-color: #1E293B;
+    height: 100vh;
+}
+
+.img2 {
+    height: 10vh;
+    width: 15vw;
+    margin: 10px;
+}
+
+.p5 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.pic {
+    color: #ffffff;
+    padding: 5px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h6 {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.p6 {
+    color: #dfe3eb;
+    margin: 10px;
+    direction: flex;
+}
+
+.card6 {
+    justify-content: center;
+    flex-direction: column;
+}

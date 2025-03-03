@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    text-align: center;
+    font-family: "Bree Serif";
+    width: auto;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    width: 100vh;
+}
+
+.nav-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.section {
+    color: white;
+    text-align: left;
+    height: 400px;
+    width: 100vh;
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.c-btn {
+    color: white;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.service {
+    width: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {}
+
+.card-img {
+    border-radius: 30px;
+    height: 360px;
+    width: 500px;
+    padding: 10px;
+}
+
+.contact {
+    background-color: lightgray;
+    padding: 100px;
+    width: 100vh;
+
+}
+
+.contact-sec {
+    display: flex;
+    padding: 30px;
+    justify-content: flex-start;
+
+}
+
+.m-input {
+    height: 50px;
+    width: auto;
+
+}
+
+footer {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vh;
+
+}
+
+.surway {
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    margin: 10px;
+}

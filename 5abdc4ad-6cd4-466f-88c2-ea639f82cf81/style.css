@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg1 {
+    background-color: #0A1220;
+
+}
+
+.img1 {
+    height: 50px;
+}
+
+.h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Bree Serif;
+}
+
+.cont1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    color: white;
+}
+
+.item {
+    align-self: center
+}
+
+.bg2 {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    background-size: cover;
+    padding: 20px;
+}
+
+.main {
+    color: white;
+    font-size: 25px;
+    font-family: Bree Serif;
+}
+
+.mainp {
+    color: white;
+    font-size: 15px;
+    font-family: Bree Serif;
+}
+
+.button {
+    background-color: #00E5BE;
+    color: white;
+    border-width: 0px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.cont3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bg3 {
+    background-color: white;
+}
+
+.our {
+    color: black;
+    font-size: 30px;
+    font-family: Bree Serif;
+    text-align: center;
+}
+
+.ourp {
+    color: grey;
+    font-size: 15px;
+    font-family: Bree Serif;
+    text-align: center;
+}
+
+.img2 {
+    border-radius: 10px;
+    width: 80%;
+    height: 250px
+}
+
+.subh1 {
+    color: black;
+    font-size: 25px;
+    font-family: Bree Serif;
+}
+
+.subp {
+    color: grey;
+    font-size: 15px;
+    font-family: Bree Serif;
+}
+
+.bg4 {
+    background-color: #dfe3eb;
+    padding: 10px;
+}
+
+.contact {
+    color: black;
+    font-size: 30px;
+    font-family: Bree Serif;
+    text-align: center;
+}
+
+.contactp {
+    color: grey;
+    font-size: 15px;
+    font-family: Bree Serif;
+    text-align: center;
+}
+
+.name {
+    color: black;
+    font-size: 12px;
+    font-family: Bree Serif;
+}
+
+.span {
+    color: red;
+}
+
+.input {
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    width: 90%;
+}
+
+.inputsize {
+    height: 200px;
+}
+
+.button1 {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.bg5 {
+    background-color: #1E293B;
+    padding: 10px;
+}
+
+.footerp {
+    color: grey;
+    font-size: 15px;
+    font-family: Bree Serif;
+}
+
+.foot {
+    color: grey;
+    font-size: 15px;
+    font-family: Bree Serif;
+}
+
+.foot1 {
+    color: white;
+    font-size: 15px;
+    font-family: Bree Serif;
+    font-weight: bold;
+}
+
+.end {
+    color: grey;
+    font-size: 12px;
+    font-family: Bree Serif;
+}
+
+.span1 {
+    text-decoration: underline;
+    color: white;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+}
+
+.sublast {
+    margin-right: 20px;
+}
+
+.maincont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: Bree Serif;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.icon1 {
+    align-self: center;
+}
+
+.combine {
+    display: flex;
+    flex-direction: column;
+}
+
+.subcont {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:768px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media (min-width:769px) {
+    .item {
+        display: none;
+    }
+
+    .maincont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .combine {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .input1 {
+        width: 240px;
+    }
+
+    .center1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .color {
+        border-radius: 5px;
+        border-color: grey;
+        border-style: solid;
+        border-width: 2px;
+        margin-right: 5px;
+    }
+
+    .button1 {
+        min-width: 500px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last {
+        margin-left: 20px;
+    }
+
+    .img2 {
+        width: 300px;
+        height: 200px;
+    }
+
+    .subcont {
+        margin-right: 20px;
+    }
+
+    .end {
+        text-align: center;
+    }
+
+    .input {
+        display: none;
+    }
+}

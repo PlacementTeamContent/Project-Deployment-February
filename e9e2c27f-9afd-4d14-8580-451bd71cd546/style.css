@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif";
+}
+
+.mainpart {
+    background-image: url('https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg');
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    align-content: center;
+
+    justify-content: center;
+
+
+}
+
+.third {
+    width: 100vh;
+}
+
+.firsthead {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    margin: 10px;
+}
+
+.firstpara {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    margin: 10px;
+}
+
+.firstbut {
+    color: #ffffff;
+    background-color: #ffd700;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 1px #ffd700;
+    font-family: "Bree Serif";
+    margin: 10px;
+}
+
+.secondhead {
+    font-family: "Bree Serif";
+}
+
+.secondpara {
+    font-family: "Bree Serif";
+
+}
+
+.secondfirst {
+    text-align: center;
+}
+
+.secondimage {
+
+    width: 80%;
+    border-radius: 20px;
+}
+
+.sb {
+    font-weight: bold;
+}
+
+.sp {
+    color: grey;
+}
+
+span {
+    color: red;
+}
+
+.down {
+    background-color: #0a1525;
+    color: grey;
+    width: 100vh;
+
+}
+
+.contactus {
+    text-align: center;
+}
+
+.second {
+    width: 100vh;
+}
+
+.downimage {
+    height: 50px;
+    width: 50px;
+}
+
+.ic {
+    height: 50px;
+    color: white;
+
+    margin-right: 5px;
+}
+
+
+.imageitems {
+    display: flex;
+    flex-direction: row;
+    ;
+}
+
+
+
+
+.secondcard {
+    display: flex;
+    flex: row;
+}
+
+.con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.second {
+    width: 100vh;
+}
+
+.cbut {
+    color: #ffffff;
+    background-color: #ffd700;
+
+
+}
+
+.names {}
+
+.allitems {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+@media (max-width:800px) {
+    .container {
+        background-color: green;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+    }
+}

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    background-color: #0A1525;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hhd {
+    display: flex;
+    flex-direction: row;
+}
+
+.h-2 {
+    color: #ffffff;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.hhd {
+    color: #ffffff;
+}
+
+.homepage {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    padding: 20px;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1 {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.para1 {
+    color: #ffffff;
+}
+
+.bth1 {
+    background-color: #6c63ff;
+    color: #ffffff;
+    border-width: 0;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.ourservices {
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hh1 {
+    color: #0a1525;
+}
+
+.pp1 {
+    color: #0a1525;
+}
+
+.box-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    /* height: 80px; */
+}
+
+.imi {
+    border-radius: 20px;
+    height: 450px;
+
+}
+
+.contact-us {
+    background-color: #dfe3eb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hhhh {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.hhhhh {
+    height: 150px;
+    border-radius: 5px;
+}

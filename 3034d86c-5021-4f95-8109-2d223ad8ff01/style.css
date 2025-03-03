@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    font-family: "Bree Serif";
+    background-color: #0A1220;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.lastpage {
+    background-color: #0A1220;
+}
+
+.but2 {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    background-color: #00E5BE;
+    color: white;
+    margin: 15px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.image1 {
+    display: flex;
+}
+
+.contactuspage {
+    background-color: #dfe3eb;
+    padding: 20px;
+}
+
+.redmark {
+    color: red;
+}
+
+.image2 {
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.button1 {
+    background-color: #00E5BE;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.navimage {
+    height: 50px;
+    width: 50px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.ll {
+    margin: 4px;
+}
+
+.ll1 {
+    position: relative;
+    right: 900%;
+}
+
+.box {
+    width: 220px;
+}
+
+.imghimep {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin: 0px;
+    font-family: "Bree Serif";
+    color: white;
+}
+
+.textbox {
+    color: grey;
+}
+
+.headingbox {
+    color: black;
+    font-weight: bold;
+}
+
+.spage {
+    text-align: center;
+}
+
+@media screen and (max-width:767px) {
+    .list {
+        display: none;
+        align-items: center;
+    }
+
+    .ll1 {
+        position: relative;
+        right: 0%;
+    }
+
+    .biddgbox {
+        height: 100px;
+        width: 50%;
+        border-style: solid;
+        border-color: silver;
+        border-width: 1px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .emptboxsm {
+        height: 20px;
+        border-width: 1px;
+        border-radius: 5px;
+        background-color: white;
+        width: 50%;
+        border-style: solid;
+        border-color: silver;
+    }
+
+    .swbemptboxsm {
+        height: 20px;
+        border-width: 1px;
+        border-radius: 5px;
+        width: 50%;
+        background-color: white;
+        border-style: solid;
+        border-color: silver;
+    }
+
+    .imghimep {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .tagline {
+        font-size: 12px;
+    }
+
+    .notb {
+        display: none;
+    }
+
+    .tagline23 {
+        font-size: 15px;
+    }
+
+    .heading23 {
+        font-size: 20px;
+    }
+
+    .bigbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .imghimep {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .bigbox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline {
+        font-size: 22px;
+    }
+
+    .emptboxsm {
+        height: 20px;
+        border-width: 1px;
+        border-radius: 5px;
+        width: 50%;
+        border-style: solid;
+        border-color: silver;
+        background-color: white;
+    }
+
+    .biddgbox {
+        height: 100px;
+        width: 80%;
+        border-style: solid;
+        border-color: silver;
+        border-width: 1px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .swbemptboxsm {
+        height: 20px;
+        border-width: 1px;
+        border-radius: 5px;
+        width: 50%;
+        background-color: white;
+        border-style: solid;
+        border-color: silver;
+    }
+
+    .heading {
+        font-size: 70px;
+    }
+
+    .contactuspage {
+        background-color: #dfe3eb;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bocoafmakl {
+        display: flex;
+        width: 500px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

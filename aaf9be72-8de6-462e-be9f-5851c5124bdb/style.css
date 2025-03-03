@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    font-family: "Bree Serif";
+
+}
+
+@media(min-width:768px) {
+    .nav-bar {
+        height: 80px;
+        background-color: #0A1525;
+        width: 100vw;
+    }
+
+    .nav-num1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .space-image-1 {
+        height: 28px;
+    }
+
+    .space-1 {
+        color: #FFFFFF;
+        font-size: 25px;
+    }
+
+    .list-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 25px;
+    }
+
+    .space {
+        color: #FFFFFF;
+        padding: 20px;
+        font-size: 18px;
+        font-family: "Bree Serif";
+    }
+
+    .bg-container {
+        background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+        height: 540px;
+
+        background-size: cover;
+    }
+
+    .content-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 130px;
+    }
+
+    .content-head-1 {
+        color: #FFFFFF;
+        width: 10px;
+        padding-right: 440px;
+
+    }
+
+    .content-para-1 {
+        color: #FFFFFF;
+        width: 450px;
+    }
+
+    .content-button {
+        background-color: #F6B352;
+        color: #FFFFFF;
+        border-radius: 3px;
+        height: 30px;
+
+    }
+
+    .button-1 {
+        padding-right: 360px;
+        padding-top: 20px;
+
+    }
+
+    .service-head-head-1 {
+        color: #0A1525;
+        padding-top: 10px;
+    }
+
+    .service-para-head-1 {
+        color: #0A1525;
+        padding-top: 0px;
+        font-size: 17px;
+    }
+
+    .service-sub-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .service-sub-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 75px;
+    }
+
+    .service-image {
+        height: 250px;
+        padding: 5px;
+
+    }
+
+    .service-para-1 {
+        width: 100px;
+    }
+
+    .image-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 200px;
+        flex-shrink: 5;
+    }
+
+    .contact-num-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        padding-right: 500px;
+        text-align: center;
+
+    }
+
+    .box1 {
+        padding-left: 500px;
+        padding-bottom: 100px;
+    }
+
+    .lebel-box {
+        padding-left: 300px;
+    }
+
+    .contact-page {
+        padding-bottom: 150px;
+    }
+
+    .contact-page {
+        background-color: #dfe3eb;
+    }
+
+    .end {
+        background-color: #0A1525;
+        height: 320px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .icons {
+        color: white;
+        font-size: 50px;
+    }
+
+    .end-para-num-1 {
+        color: white;
+    }
+
+    .end-num-1 {
+        color: white;
+    }
+
+    .contact-button {
+        width: 100vw;
+        background-color: #F6B352;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    .nav-bar {
+        height: 80px;
+        background-color: #0A1525;
+        width: 100vw;
+    }
+
+    .nav-num1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .space-image-1 {
+        height: 28px;
+    }
+
+    .space-1 {
+        color: #FFFFFF;
+        font-size: 25px;
+    }
+
+    .list-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 25px;
+    }
+
+    .space {
+        color: #FFFFFF;
+        padding: 0px;
+        font-size: 18px;
+        font-family: "Bree Serif";
+        display: none;
+    }
+
+    .bg-container {
+        background-image: url('https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg');
+        height: 540px;
+        width: 100vw;
+        background-size: cover;
+    }
+
+    .content-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 130px;
+    }
+
+    .content-head-1 {
+        color: #FFFFFF;
+        width: 10px;
+        padding-right: 440px;
+
+    }
+
+    .content-para-1 {
+        color: #FFFFFF;
+        width: 450px;
+    }
+
+    .content-button {
+        background-color: #F6B352;
+        color: #FFFFFF;
+        border-radius: 8px;
+        height: 45px;
+        width: 100px;
+
+    }
+
+    .button-1 {
+        padding-right: 360px;
+        padding-top: 20px;
+
+    }
+
+    .service-head-head-1 {
+        color: #0A1525;
+        padding-top: 10px;
+
+    }
+
+    .service-para-head-1 {
+        color: #0A1525;
+        padding-top: 0px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .service-sub-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .service-sub-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 75px;
+    }
+
+    .service-image {
+        height: 250px;
+        padding: 5px;
+
+    }
+
+    .service-para-1 {
+        width: 100px;
+    }
+
+    .image-2 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+        align-items: center;
+        padding-bottom: 200px;
+        flex-shrink: 5;
+
+    }
+
+    .contact-num-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        padding-left: 450px;
+        text-align: center;
+
+    }
+
+    .box1 {
+        padding-left: 400px;
+        padding-bottom: 100px;
+    }
+
+    .lebel-box {
+        padding-left: 100px;
+    }
+
+    .contact-page {
+        padding-bottom: 150px;
+    }
+
+    .contact-page {
+        background-color: #dfe3eb;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .end {
+        background-color: #0A1525;
+        height: 320px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .icons {
+        color: white;
+        font-size: 50px;
+    }
+
+    .end-para-num-1 {
+        color: white;
+    }
+
+    .end-num-1 {
+        color: white;
+    }
+
+
+    .end-head {
+        font-size: 17px;
+    }
+
+    .end-para {
+        padding: 5px;
+    }
+
+    .contact-button {
+        width: 100vw;
+        background-color: #F6B352;
+        font-size: 20px;
+    }
+}

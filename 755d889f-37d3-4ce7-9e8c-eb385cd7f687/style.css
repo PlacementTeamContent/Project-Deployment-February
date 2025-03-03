@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.navbar {
+    background-color: #0A1525;
+    height: 65px;
+    padding: 10px;
+    display: flex;
+    color: #0A1525;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Bree Serif";
+
+}
+
+.color {
+    color: white;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    margin-left: 9px;
+
+
+}
+
+.content {
+    display: flex;
+    /*  margin-left: 200px; */
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.bar {
+    color: white;
+    margin-right: 18px;
+    width: 40px;
+}
+
+.background {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.h1 {
+    font-family: "Bree Serif";
+    font-size: 40px;
+    color: white;
+
+
+
+}
+
+.p1 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+
+.button {
+    background-color: #4B9EFF;
+    width: 140px;
+    height: 50px;
+    border-radius: 12px;
+    border-width: 0px;
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 18px;
+
+
+
+}
+
+.padding {
+    padding-top: 20px;
+}
+
+.c-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.margin {
+    margin-left: 30px;
+}
+
+.section-2 {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.h2 {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 42px;
+}
+
+.p2 {
+    color: black;
+    font-family: "Roboto";
+
+
+    font-size: 20px;
+
+
+}
+
+.card1 {
+    width: 500px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+
+
+
+}
+
+.img1 {
+    width: 500px;
+    height: 250px;
+    border-radius: 14px;
+}
+
+.h3 {
+    color: #0A1525;
+    font-family: "Bree Serif";
+
+
+}
+
+.p3 {
+    color: black;
+    font-family: "Roboto";
+
+
+    font-size: 23px;
+}
+
+.section3 {
+    background-color: #dfe3eb;
+    width: 100vw;
+    height: 120vh;
+
+
+}
+
+.p4 {
+    color: black;
+    font-family: "Roboto";
+    text-align: center;
+
+    font-size: 23px;
+}
+
+.box1 {
+    width: 85vw;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 2px;
+
+
+}
+
+span {
+    color: red;
+}
+
+.h4 {
+    font-size: 22px;
+    margin-bottom: 3px;
+    font-family: "Roboto";
+
+}
+
+.box2 {
+    width: 85vw;
+    height: 230px;
+    background-color: white;
+    border-radius: 8px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.button2 {
+    width: 85vw;
+    height: 50px;
+    background-color: #4B9EFF;
+
+    border-radius: 8px;
+
+    border-width: 0px;
+    margin-top: 6px;
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.final {
+    padding: 40px;
+}
+
+.section4 {
+    background-color: #1E293B;
+    width: 100vw;
+    height: 100%;
+
+}
+
+.logo2 {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.contain {}
+
+.p5 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 23px;
+
+}
+
+.bi {
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.heading {
+    font-family: "Bree Serif";
+    font-size: 28px;
+    color: white;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    padding: 20px;
+}
+
+.last {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: "Sans-Serif";
+
+
+}
+
+.ha {
+    color: white;
+    text-decoration: underline;
+}

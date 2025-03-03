@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif"
+}
+
+.navbar {
+    background-color: #0A1525;
+    padding: 15px;
+    display: flex;
+}
+
+.nav-img {
+    height: 60px;
+}
+
+.nav-heading {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.nav-icon {
+    color: white;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+.info-section {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    padding: 70px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.info-section-heading {
+    font-size: 35px;
+}
+
+.info-section-para {
+    font-size: 14px;
+    color: #1E293B;
+    font-weight: 100;
+    padding-bottom: 10px;
+
+}
+
+.info-section-button {
+    background-color: #FF7A2E;
+    width: 100px;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    padding: 8px;
+}
+
+.services-section {
+    padding: 45px;
+}
+
+.services-section-heading {
+    font-size: 20px;
+}
+
+.services-section-para {
+    font-size: 14px;
+    color: #1E293B;
+    padding-bottom: 10px;
+}
+
+.services-section-heading-os {
+    text-align: center;
+    font-size: 30px;
+}
+
+.services-section-para-os {
+    text-align: center;
+    font-size: 17px;
+}
+
+.services-section-img {
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+
+.Contact-us-section {
+    padding: 50px;
+}
+
+.-color {
+    color: red;
+}
+
+.n-input {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}

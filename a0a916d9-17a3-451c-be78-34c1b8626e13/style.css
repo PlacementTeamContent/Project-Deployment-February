@@ -1,0 +1,73 @@
+* {
+    font-family: "Bree Serif";
+}
+
+.Home {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    font-family: "Bree-Serif";
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ContactUs {
+    background-color: #00E5BE;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px #00E5BE;
+}
+
+.OurServices {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.OurServicesHeading {
+    margin-bottom: 5px;
+    font-family: "Bree Serif";
+}
+
+.OurServicesPara {
+    margin-bottom: 20px;
+}
+
+.SoftwareDevelopment {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.SoftwareDevelopmentImg {
+    border: 0px solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.CloudComputing {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.CloudComputingImg {
+    border: 0px solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.CyberSecurity {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.CyberSecurityImg {
+    border: 0px solid;
+    border-radius: 10px;
+    width: 100%;
+}

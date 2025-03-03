@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+@media screen,
+(min-width:768px) {
+    .orderfirst {
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+
+    .img {
+        height: 8vh;
+        width: 10vw;
+    }
+
+    .icon {
+        margin: 15px;
+    }
+
+    .icon-text {
+        font-family: "Bree Serif";
+        font-size: 20px;
+        color: white;
+    }
+
+    .back {
+        background-color: #0A1525;
+        padding: 20px;
+        width: 100vw;
+    }
+
+    .orderfirst1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .orderfirst2 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+
+    .para {
+        margin: 20px;
+    }
+
+    .background {
+        background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 80vh;
+        width: 100vw;
+        color: white;
+    }
+
+    .background1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text {
+        color: #0A1525;
+        font-family: "Roboto";
+        font-weight: bold;
+    }
+
+    .head {
+        font-size: 70px;
+        color: white;
+    }
+
+    .para1 {
+        font-size: 26px;
+        color: white;
+    }
+
+    .back1 {
+        background-color: #dfe3eb;
+        padding: 30px;
+        width: 100vw;
+    }
+
+    .but {
+        background-color: #4B9EFF;
+        color: white;
+        padding: 10px;
+        border-color: #4B9EFF;
+        width: 15vw;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .img1 {
+        height: 25vh;
+        width: 30vw;
+        border-radius: 10px;
+    }
+
+    .par {
+        margin: 50px;
+        margin-right: 100px;
+    }
+
+    .para2 {
+        font-size: 20px;
+        width: 30vw;
+        color: #1E293B;
+        font-family: "Roboto";
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex1 {
+        display: flex;
+        flex-direction: row;
+        background-color: #1E293B;
+        color: #dfe3eb;
+    }
+
+    .work {
+        margin: 20px;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        height: 50px;
+        width: 800px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .box1 {
+        height: 50px;
+        width: 400px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .box2 {
+        height: 300px;
+        width: 800px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .ma {
+        margin: 10px;
+    }
+
+    .box3 {
+        height: 50px;
+        width: 800px;
+        border-radius: 10px;
+        background-color: #4B9EFF;
+        border-color: #4B9EFF;
+        color: white;
+        font-size: 20px;
+    }
+
+    .col {
+        color: white;
+    }
+}
+
+@media screen,
+(max-width:767px) {
+    .orderfirst {
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+
+    .img {
+        height: 8vh;
+        width: 10vw;
+    }
+
+    .icon {
+        margin: 15px;
+    }
+
+    .icon-text {
+        font-family: "Bree Serif";
+        font-size: 20px;
+        color: white;
+    }
+
+    .back {
+        background-color: #0A1525;
+        padding: 20px;
+        width: 100vw;
+    }
+
+    .orderfirst1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .orderfirst2 {
+        display: flex;
+    }
+
+    .para {
+        margin: 20px;
+    }
+
+    .background {
+        background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 80vh;
+        width: 100vw;
+        color: white;
+    }
+
+    .background1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text {
+        color: #0A1525;
+        font-family: "Roboto";
+        font-weight: bold;
+    }
+
+    .head {
+        font-size: 40px;
+        color: white;
+    }
+
+    .para1 {
+        font-size: 26px;
+        color: white;
+    }
+
+    .back1 {
+        background-color: #dfe3eb;
+        padding: 30px;
+        width: 100vw;
+    }
+
+    .but {
+        background-color: #4B9EFF;
+        color: white;
+        padding: 10px;
+        border-color: #4B9EFF;
+        width: 15vw;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .img1 {
+        height: 25vh;
+        width: 30vw;
+        border-radius: 10px;
+    }
+
+    .par {
+        margin: 50px;
+        margin-right: 100px;
+    }
+
+    .para2 {
+        font-size: 20px;
+        width: 30vw;
+        color: #1E293B;
+        font-family: "Roboto";
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex1 {
+        display: flex;
+        flex-direction: row;
+        background-color: #1E293B;
+        color: #dfe3eb;
+    }
+
+    .work {
+        margin: 20px;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        height: 50px;
+        width: 800px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .box1 {
+        height: 50px;
+        width: 400px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .box2 {
+        height: 300px;
+        width: 800px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .ma {
+        margin: 10px;
+    }
+
+    .box3 {
+        height: 50px;
+        width: 800px;
+        border-radius: 10px;
+        background-color: #4B9EFF;
+        border-color: #4B9EFF;
+        color: white;
+        font-size: 20px;
+    }
+
+    .col {
+        color: white;
+    }
+}
