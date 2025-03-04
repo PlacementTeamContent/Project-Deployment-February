@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+    height: 100vh;
+}
+
+.image {
+    height: 40px;
+    background-color: #0a1525;
+}
+
+.head {
+    font-family: Bree Serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #ff7a2e;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 5px;
+    font-family: Bree serif;
+    height: 40px;
+    width: 72px;
+}

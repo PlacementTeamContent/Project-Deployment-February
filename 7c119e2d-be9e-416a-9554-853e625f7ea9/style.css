@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "poppins";
+}
+
+.bg-img {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    background-size: cover;
+    height: 400px;
+    color: white;
+    padding: 100px;
+
+}
+
+.contact-us-btn {
+    background-color: #6c63ff;
+    border-width: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.our-services {
+    text-align: center;
+}
+
+.imgs {
+    display: flex;
+    padding: 20px;
+}
+
+.img-1 {
+    border-radius: 25px;
+    height: 150px;
+    border-width: 3px;
+    margin: 40px;
+    border-color: black;
+}
+
+.img-2 {
+    border-radius: 25px;
+    height: 150px;
+    border-width: 3px;
+    margin: 40px;
+    border-color: black;
+}
+
+.img-3 {
+    border-radius: 25px;
+    height: 150px;
+    border-width: 3px;
+    margin: 40px;
+    border-color: black;
+}
+
+
+.contact-us {
+    background-color: #dfe3eb;
+    text-align: center;
+
+}
+
+.contact-us-heading {}
+
+.boxes {
+    display: flex;
+    align-content: center;
+}
+
+.box-1 {
+    height: 30px;
+    background-color: white;
+    width: 200px;
+}
+
+
+.about-us {
+    background-color: #1e293b;
+
+}

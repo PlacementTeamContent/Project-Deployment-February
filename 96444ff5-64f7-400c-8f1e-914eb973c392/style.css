@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.image {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.first {
+    background-color: #0A1426;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1 {
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+}
+
+.nav-items {
+    color: white;
+    display: flex;
+    padding: 10px;
+    font-family: Brre Serif;
+}
+
+.abt {
+    padding-right: 15px;
+}
+
+.head {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #4A90E2;
+    border-color: #4A90E2;
+    color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+.white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.small {
+    border-radius: 10px;
+}
+
+.box {
+    height: 50px;
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.box2 {
+    height: 150px;
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    background-color: #e0dfdc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.butn {
+    padding-top: 20px;
+}
+
+.button2 {
+    background-color: #4A90E2;
+    border-color: #4A90E2;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.footer {
+    background-color: #0A1426;
+    color: white;
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.fp {
+    padding-left: 50px;
+}
+
+.pa {
+    padding-top: 60px;
+}
+
+@media screen and (max-width:576px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .image1 {
+        height: 60px;
+        width: 60px;
+        padding-left: 60px;
+    }
+}

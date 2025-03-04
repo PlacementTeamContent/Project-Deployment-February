@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+
+    font-family: Bree Serif;
+
+}
+
+.logo {}
+
+.head1 {
+    background-image: src="https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg";
+
+
+}
+
+.ourservives {
+    display: flex;
+    justify-content: center;
+}

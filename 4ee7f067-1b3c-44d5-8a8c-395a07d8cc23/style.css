@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+/* navbar navbar-expand-lg navbar-light bg-white navbar-toggler-icon @media screen and (max-width:576px) */
+
+.section_nav {
+    background-color: #0A1525;
+    color: #ffffff;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+}
+
+.imgae_navbar {
+    height: 40px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}

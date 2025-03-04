@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+@media (max-width:768px) {
+    .nav {
+        background-color: #0A1426;
+        height: 11vh;
+
+    }
+
+    .white {
+        color: #FFFFFF;
+    }
+
+    .headimg {
+        height: 60px;
+    }
+
+    .head {
+        color: #FFFFFF;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navleft {
+        padding-right: 30px;
+        padding-top: 40px;
+        height: 500px;
+    }
+
+    .navright {
+        display: flex;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .bar {
+        color: white;
+    }
+
+    .second {
+        background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+        height: 70vh;
+        background-size: cover;
+        padding-top: 170px;
+        padding-left: 30px;
+
+    }
+
+    .hing {
+        font-size: 60px;
+    }
+
+    .psec {
+        font-size: 30px;
+    }
+
+    .fourth {
+        background-color: #e0dfdc;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+
+    span {
+        color: red;
+    }
+
+    .btn {
+        color: white;
+        background-color: #4A90E2;
+        border-style: none;
+        height: auto;
+        width: auto;
+        font-size: 35px;
+        border-radius: 5px;
+
+    }
+
+    .last {
+        padding-top: 25px;
+        background-color: #0A1426;
+    }
+
+    .foo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ourservices {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .mn {
+        border-radius: 30px;
+        height: 400px;
+        margin-left: 30px;
+    }
+
+    .pd {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .ce {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .cs {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .df {
+        margin-left: 190px;
+        font-size: 25px;
+    }
+
+    .text {
+        height: 20px;
+        margin-left: 190px;
+        width: 380px;
+        padding-top: 20px;
+    }
+
+    .btnt {
+        color: white;
+        background-color: #4A90E2;
+        width: 90vw;
+        margin-left: 13px;
+        margin-top: 10px;
+        font-size: 20px;
+        height: auto;
+    }
+
+    .cv {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .of {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width:992px) {
+    .nav {
+        background-color: #0A1426;
+        height: 11vh;
+    }
+
+    .navleft {
+        padding-right: 30px;
+        padding-top: 40px;
+        height: 500px;
+    }
+
+    .navright {
+        display: flex;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .white {
+        color: #FFFFFF;
+    }
+
+    .headimg {
+        height: 60px;
+    }
+
+    .head {
+        color: #FFFFFF;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navright {
+        display: flex;
+    }
+
+    .bar {
+        color: white;
+    }
+
+    .second {
+        background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+        height: 70vh;
+        background-size: cover;
+        padding-top: 170px;
+        padding-left: 30px;
+        width: 100%;
+
+    }
+
+    .hing {
+        font-size: 60px;
+    }
+
+    .psec {
+        font-size: 30px;
+    }
+
+    .fourth {
+        background-color: #e0dfdc;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+
+    span {
+        color: red;
+    }
+
+    .btn {
+        color: white;
+        background-color: #4A90E2;
+        border-style: none;
+        height: auto;
+        width: auto;
+        font-size: 35px;
+        border-radius: 5px;
+
+    }
+
+    .last {
+        padding-top: 25px;
+        background-color: #0A1426;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foo {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .ourservices {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .mn {
+        border-radius: 30px;
+        height: 199px;
+        margin-left: 30px;
+    }
+
+    .pd {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .ce {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .cs {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .df {
+        margin-left: 190px;
+        font-size: 25px;
+    }
+
+    .text {
+        height: 20px;
+        margin-left: 190px;
+        width: 380px;
+        padding-top: 20px;
+    }
+
+    .btnt {
+        color: white;
+        background-color: #4A90E2;
+        width: 40vw;
+        margin-left: 120px;
+        margin-top: 10px;
+        font-size: 20px;
+        height: 40px;
+        border: none;
+    }
+
+    .cv {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .lgmd {
+        display: flex;
+
+    }
+
+}

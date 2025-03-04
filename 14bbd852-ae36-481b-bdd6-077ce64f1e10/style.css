@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-container {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nava-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.links {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.image {
+    margin-right: auto;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.matter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 9px;
+    margin: 10px;
+}
+
+.text-button {
+    font-family: Bree Serif;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #ffffff;
+    border-width: 0px;
+    background-color: #4B9EFF;
+}
+
+.heading-card {
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-size: 55px;
+}
+
+.page {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.rules-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.content-rules {
+    margin-top: 30px;
+}
+
+.images {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.items-header {
+    margin: 10px;
+}
+
+.page-items {
+    margin: 10px;
+}

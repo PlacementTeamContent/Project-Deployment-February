@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav-bar {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.para {
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+}
+
+.nav-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-img {
+    height: 35px;
+
+}
+
+.fa-bars {
+    color: white;
+    font-size: 24px;
+}
+
+.bg-container {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.heading {
+    font-size: 28px;
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.cont-para {
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.button {
+    background-color: #4B9EFF;
+    color: white;
+    height: 35px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    margin: 10px;
+}
+
+.img-2 {
+    height: 145px;
+    width: 250px;
+    border-radius: 7px;
+}
+
+.heading-2 {
+    color: black;
+    font-family: "Bree Serif";
+}
+
+.para-2 {
+    color: black;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.head {
+    text-align: center;
+}
+
+.para-3 {
+    color: #dfe3eb;
+    font-family: "Bree Serif";
+    font-size: 15px;
+
+}
+
+.heading-3 {
+    color: black;
+    font-family: "Bree Serif";
+    font-size: 22px;
+}
+
+.main-cont-card {
+    width: 250px;
+
+}
+
+.cards {
+    margin: 15px;
+
+
+}
+
+.hello {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head-4 {
+    color: black;
+    font-family: "Bree Serif";
+    font-size: 22px;
+}
+
+.para-4 {
+    color: black;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.contact-us-section {
+    background-color: #dfe3eb;
+    height: 100vh;
+}
+
+.para-5 {
+    color: black;
+
+}
+
+.input-1 {
+    width: 300px;
+    margin: auto;
+
+}
+
+.one-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.in {
+    margin: 10px;
+}
+
+.inn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para-6 {
+    color: black;
+    text-align: center;
+}
+
+.input-4 {
+    height: 300px;
+    width: 350px;
+}
+
+.int {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-4 {
+    margin: auto;
+}
+
+.last-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

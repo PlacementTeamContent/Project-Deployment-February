@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    height: 30px;
+    width: 30px;
+    background-color: #0A1525;
+}
+
+.container {
+    background-image: url("https://img.b2bpic.net/premium-photo/social-distance-concept-with-3d-rendering-human-keep-space-each-other_493806-7770.jpg");
+    height: 50vh;
+    width: 100vw;
+}
+
+.head {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.para {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    color: white;
+    background-color: #FFD700;
+    border-radius: 10px;
+    margin: 10px;
+    height: 30px;
+    border-color: #FFD700;
+}
+
+.heading {
+    color: black;
+    font-family: "Bree Serif";
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.photo {
+    height: 50vh;
+    width: 100vw;
+}
+
+.heading {
+    color: #1E293B;
+    height: 20px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+
+.devi {
+    color: #1E293B;
+    height: 10px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+
+}
+
+.contact {
+    background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
+    color: #1E293B;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    margin: 30px;
+}
+
+.param {
+    font-size: 20px;
+    color: #1E293B;
+}

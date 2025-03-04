@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    background-color: #0a1525;
+}
+
+.image {
+    height: 50px;
+}
+
+.mainheading {
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.mainheading2 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.main {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.head {
+    color: white;
+    margin-top: 250px;
+}
+
+.head2 {
+    color: white;
+}
+
+.heading {
+    padding-top: 20px;
+    height: 200px;
+    width: 400px;
+    margin-left: 250px;
+}
+
+.buttu {
+    background-color: #4B9EFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.ourservices {
+    text-align: center;
+}
+
+.nigga {
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.ourservicesimages {
+    display: flex;
+    flex-direction: row;
+}
+
+.niggesh {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    margin-left: 75px;
+
+}
+
+.line2 {
+    margin-left: 200px;
+}
+
+.line3 {
+    margin-left: 150px;
+}
+
+.lin {
+    margin-left: 150px;
+}
+
+.contactus {
+    text-align: center;
+    background-color: #dfe3eb;
+}
+
+.name {
+    height: 50px;
+    width: 250px;
+}

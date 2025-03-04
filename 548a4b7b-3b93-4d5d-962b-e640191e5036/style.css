@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: #0A1220;
+    height: 10vh;
+    background-size: cover;
+
+}
+
+.img4 {
+    height: 50px;
+}
+
+.img {
+    height: 48px;
+    padding: 10px;
+}
+
+.container1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 40vh;
+
+    background-size: cover;
+
+}
+
+.heading {
+    font-family: "Bree serif";
+    color: #ffffff;
+    justify-content: center;
+
+
+}
+
+.para {
+    color: #dfe3eb;
+    justify-content: center;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #00E5BE;
+    border-radius: 5px;
+    border-color: #dfe3eb;
+    padding: 2px;
+}
+
+.container2 {}
+
+.head1 {
+    font-family: "bree-serif";
+    text-align: center;
+    color: #0A1220;
+}
+
+.para1 {
+    font-family: "bree-serif";
+    text-align: center;
+    color: #dfe3eb;
+}
+
+.container3 {
+    text-align: center;
+}
+
+.img1 {
+    height: 28vh;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    margin-left: 60px;
+
+}
+
+.container4 {
+    background-color: #dfe3eb;
+    height: 100vh;
+}
+
+.para5 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.head4 {
+    padding: 10px;
+}
+
+.card {
+    height: 5vh;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-color: #dfe3eb;
+    border-right-width: 2px;
+}
+
+.btn1 {
+    background-color: #00E5BE;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px;
+    width: 90vw;
+    color: #ffffff;
+    border-color: #dfe3eb;
+}
+
+.container5 {
+    background-color: #1E293b;
+    height: 50vh;
+}
+
+.head9 {
+    color: #dfe3eb;
+    padding: 5px;
+    font-family: "Bree-serif";
+}
+
+.para9 {
+    text-align: left;
+    color: #dfe3eb;
+    padding: 5px;
+}
+
+.para10 {
+    text-align: left;
+    margin-top: 50px;
+    color: #dfe3eb;
+    padding: 5px;
+}

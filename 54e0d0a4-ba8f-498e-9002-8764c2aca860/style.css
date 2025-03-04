@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+
+.bg-content {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 60vh;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.ion {
+
+    align-self: center;
+}
+
+.bg-cont {
+    padding-left: 80px;
+
+}
+
+.nav {
+    background-color: #0A1525;
+    color: white;
+    display: flex;
+    flex: row;
+    padding-left: 80px;
+}
+
+i {
+    padding: 10px;
+}
+
+.heading {
+    align-self: center;
+
+}
+
+.bg-heading {
+    font-size: 56px;
+    font-family: Bree Serif;
+    width: 20vw;
+}
+
+.bg-button {
+    background-color: #F6B352;
+    color: #ffffff;
+    border-color: #F6B352;
+    height: 50px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.guna {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.bg-content02 {
+    background-color: #dfe3eb;
+}
+
+.bg-abhi {
+    width: 28vw;
+}
+
+.bg-para {
+    font-size: 20px;
+    font-family: Bree Serif;
+    width: 40vw;
+
+}
+
+.para01 {
+    align-self: center;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+
+
+
+.para {
+
+    padding-left: 40px;
+}
+
+.bg-heading01 {
+    text-align: center;
+}
+
+.bg-image {
+    height: 20vh;
+    border-radius: 20px;
+}
+
+.bg-para01 {
+    text-align: center;
+}
+
+.bg-content01 {
+    padding-left: 80px;
+}
+
+.bg-content02 {
+    padding-left: 80px;
+}
+
+.bg-button01 {
+    background-color: white;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+    height: 4vh;
+    width: 50vw
+}
+
+.bg-button02 {
+    background-color: white;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+    height: 4vh;
+    width: 30vw
+}
+
+.guna02 {
+    padding: 40px;
+}
+
+.guna03 {
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+    text-align: center;
+}
+
+.para02 {
+    text-align: center;
+}
+
+
+
+.bg-button04 {
+    height: 16vh;
+    background-color: white;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+    width: 80vw;
+    height: 10vh;
+}
+
+.bg-content05 {
+    background-color: #1E293B;
+    padding-left: 80px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sai02 {
+    margin: 30px;
+}
+
+.sai03 {
+    margin: 30px;
+}
+
+
+.button {
+    text-align: center;
+    align-self: center;
+    height: 4vh;
+    width: 50vw;
+    margin: 10px;
+    background-color: #F6B352;
+    border-color: #F6B352;
+    color: white;
+    border-radius: 10px;
+}

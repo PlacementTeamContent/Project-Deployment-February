@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-color: #0A1525;
+    height: 18vh;
+}
+
+.img {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+}
+
+.p {
+    color: white;
+    font-weight: bold;
+    display: flex;
+}
+
+.card {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    background-size: cover;
+    height: 60vh;
+    ;
+}
+
+.head {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.para {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btn {
+    color: white;
+    background-color: #6C63FF;
+    border-radius: 6px;
+    height: 30px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    padding: 7px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.card2 {
+    background-color: #dfe3eb;
+    height: 50px;
+}
+
+.h {
+    text-align: center;
+    font-weight: bold;
+}

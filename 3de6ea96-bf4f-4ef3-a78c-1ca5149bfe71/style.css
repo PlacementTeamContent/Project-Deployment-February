@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.header {
+    font-size: 20px;
+    background-color: #0A1525;
+
+
+}
+
+.img1 {
+    height: 40px;
+    width: 40px;
+}
+
+.bg {
+    background-color: #0A1525;
+    height: 30px;
+    width: 100vw;
+
+}
+
+.spacing {
+    color: #ffffff;
+    padding-top: 100px;
+
+}
+
+
+
+.firstpart {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 600px;
+    width: 100vw;
+    background-size: cover;
+    color: white;
+    font-family: Bree Serif;
+    text-align: center;
+}
+
+.matter {
+    margin-top: -22px;
+
+}
+
+.aa {
+    padding-top: 200px;
+    padding-right: 200px;
+    font-size: 50px;
+}
+
+.b1 {
+    background-color: #6C63FF;
+    height: 40px;
+    width: 90px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.secondpart {
+    text-align: center;
+    font-family: Bree Serif;
+
+}
+
+.img2 {
+    height: 100px;
+    width: 100px;
+}
+
+.images {
+    font-family: Bree Serif;
+}
+
+.Thirdpart {
+    height: 1500px;
+    width: 100vw;
+    background-color: #dfe3eb;
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.ff {
+    padding-top: 100px;
+}
+
+.bg {
+    height: 50px;
+    width: 300px;
+    background-color: white;
+
+}
+
+.hh {
+    padding-right: 1200px;
+}
+
+.bg1 {
+    height: 200px;
+    width: 900px;
+    background-color: white;
+}
+
+.kk {
+    padding-right: 1200px;
+}
+
+.b2 {
+    height: 50px;
+    width: 900px;
+    background-color: #6C63FF;
+    color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.endpart {
+    height: 500px;
+    width: 100vw;
+    background-color: #1E293B;
+    color: white;
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+}

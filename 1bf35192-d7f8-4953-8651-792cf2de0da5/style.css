@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.first-background {
+    background-color: #0A1525;
+    height: 10vh;
+    width: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+.img {
+    height: 6vh;
+    margin: 10px;
+    padding: 6px;
+    align-self: center;
+}
+
+.heading1 {
+    font-family: "Bree Serif";
+    color: white;
+    height: 5vh;
+    font-size: 19px;
+}
+
+.nav-p {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.nav {
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.bg-img {
+    display: flex;
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    height: 80vh;
+    background-size: cover;
+    width: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading2 {
+    margin-top: 150px;
+    font-size: 6vh;
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.para {
+    color: white;
+    margin-right: 50px;
+    font-family: "Bree Serif";
+}
+
+.button {
+    font-family: "Bree Serif";
+    background-color: #6C63FF;
+    color: white;
+    height: 45px;
+    border-radius: 8px;
+    width: 85px;
+}
+
+.second-background {
+    background-color: #FFFFFF;
+    background-size: cover;
+    height: 80vh;
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading3 {
+    margin-top: 20px;
+    font-family: "Bree Serif";
+}
+
+.para2 {
+    font-family: "Bree Serif";
+    margin-left: 60px;
+}
+
+.img2 {
+
+    flex-direction: row;
+    align-self: flex-start;
+    border-radius: 40px;
+    padding: 25px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.heading4 {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg22 {
+    background-color: #dfe3eb;
+    height: 80vh;
+    width: 80vh;
+    background-size: cover;
+}

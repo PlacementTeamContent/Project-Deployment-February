@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.btn {
+    background-color: #6c63ff;
+    border-radius: 5px;
+    color: white;
+}
+
+.first-image {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    color: #ffffff;
+}
+
+p {
+    color: #dfe3eb;
+}
+
+
+.bob {
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: "Bree Serif";
+}
+
+.boo {
+    width: 80vw;
+    height: 120px;
+}
+
+.boom {
+    width: 80vw;
+    height: 20px;
+}
+
+.head {
+    text-align: center;
+
+}
+
+.para {
+    text-align: center;
+}
+
+nav {
+    background-color: #0A1525;
+    color: white;
+    width: 100vw;
+
+}
+
+footer {
+    background-color: #1E293B;
+    width: 100vw;
+}

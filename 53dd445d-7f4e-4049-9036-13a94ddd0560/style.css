@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main_navbar {
+    background-color: #1E293B;
+    height: 150px;
+    width: 600px;
+}
+
+.header {
+    color: white;
+    order: 2;
+    padding-left: 120px;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.img1 {
+    height: 80px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.second_section {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    padding: 30px;
+}
+
+.second_heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 45px;
+    text-align: center;
+}
+
+.second_para {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.second_button {
+    color: white;
+    background-color: #8B5CF6;
+    height: 50px;
+    width: 100px;
+    border-radius: 18px;
+    text-align: center;
+
+
+}
+
+.third_heading {
+    text-align: center;
+    padding-left: 120px;
+    font-family: "Bree Serif";
+}
+
+.third_para {
+    text-align: center;
+    padding-left: 140px;
+    font-family: "Bree Serif";
+    color: gray;
+
+}
+
+.third_img1 {
+    height: 200px;
+    border-radius: 20px;
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.third_img2 {
+    height: 200px;
+    border-radius: 20px;
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.third_img3 {
+    height: 200px;
+    border-radius: 20px;
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.third_img1_head {
+    font-family: "Bree Serif";
+    font-size: 20px;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.third_img2_head {
+    font-family: "Bree Serif";
+    font-size: 20px;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.third_img3_head {
+    font-family: "Bree Serif";
+    font-size: 20px;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.third_img1_para {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.third_img2_para {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.third_img3_para {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.contact_us_page {
+    font-family: "Bree Serif";
+    padding-left: 140px;
+    background-color: #dfe3eb;
+    height: 200px;
+    width: 400px;
+
+}
+
+.contact_us_page_head {
+    font-size: 40px;
+}
+
+.contact_us_page_para {
+    font-size: 12px;
+}
+
+.contact_us_page_button {
+    color: white;
+    background-color: #8B5CF6;
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.last_section {
+    background-color: #0A1525;
+    height: 400px;
+    width: 800px;
+
+}
+
+.img_last_section {
+    height: 100px;
+    padding: 40px;
+
+}
+
+.last_section_para {
+    color: white;
+    padding: 40px;
+
+
+}
+
+.heading001 {
+    color: white;
+    display: flex;
+}

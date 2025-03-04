@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo_img {
+    height: 40px;
+    width: 50px;
+    margin-left: 10%;
+}
+
+.header_sec {
+    background-color: #0A1525;
+    height: 70px;
+    width: 100%;
+}
+
+.h1_logo {
+    font-family: "Bree Serif";
+    height: 10px;
+    color: #FFFFFF;
+}
+
+.content_head {
+    background-image: url('https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg');
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+}
+
+.h1_class_of_content_head {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-size: 50px;
+    height: 80px;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.p_class_of_content_head {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+    font-size: 30px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_content_head {
+    background-color: #4B84F3;
+    border: none;
+    font-family: "Bree Serif";
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 30px;
+    color: #FFFFFF;
+    height: 85px;
+    width: 190px;
+}
+
+.p_class {
+    font-family: "Bree Serif";
+    color: #1A2942;
+    font-size: 25px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.h1_class {
+    font-family: "Bree Serif";
+    font-size: 40px;
+    height: 80px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.imag {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.img_contant {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content_contact {
+    background-color: #dfe3eb;
+    height: 90vh;
+    width: 100vw;
+}
