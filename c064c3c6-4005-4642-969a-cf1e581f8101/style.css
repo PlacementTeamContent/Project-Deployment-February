@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg {
+    background-image: url('https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg');
+    background-size: cover;
+    height: 70vh;
+
+}
+
+.main-h {
+    font-family: "Bree Serif";
+    color: #ffffff;
+}
+
+.button-main {
+    background-color: #FF7A2E;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 33px;
+    width: 80px;
+    color: #ffffff;
+}
+
+.main-text-container {
+    padding: 140px;
+    padding-top: 280px;
+    padding-left: 170px;
+    height: 300px;
+    width: 350px;
+}
+
+.services-section {}
+
+.services-align {
+    text-align: center;
+}
+
+.img-sizes {
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+
+.input-box {
+    height: 30px;
+    width: 200px;
+    border-width: 0px;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+
+.card-container {}
+
+.Contact-us-section {
+    background-color: #dfe3eb;
+    text-align: center;
+}
+
+.last-button {
+    background-color: #FF7A2E;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 4px;
+    height: 25px;
+    width: 60vw;
+
+}
+
+.logo-img {}

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.page {
+    font-family: Bree Serif;
+}
+
+.home {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 40px;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+}
+
+.home-head {
+    font-size: 50px;
+}
+
+.home-para {
+    font-size: 25px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: #00E5BE;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+    color: #dfe3eb;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.box {
+    text-align: left;
+}
+
+.image {
+    height: 40vh;
+    width: 90vw;
+    border-radius: 20px;
+}
+
+.m-head {
+    font-size: 50px;
+}
+
+.contact-us-sec {
+    height: 130vh;
+    background-color: #dfe3eb;
+    text-align: center;
+    font-family: Bree Serif;
+}
+
+.contact-para {
+    color: #1E293B;
+    font-size: 25px;
+}
+
+.final-page {
+    background-color: #0A1220;
+    height: 80vh;
+    padding: 40px;
+    font-family: Bree Serif;
+}
+
+.final-page-img {
+    padding: 10px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.colored {
+    color: #dfe3eb;
+}
+
+.bi {
+    height: 100px;
+}

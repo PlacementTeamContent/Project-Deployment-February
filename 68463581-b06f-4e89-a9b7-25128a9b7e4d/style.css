@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1426;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+
+}
+
+.image {
+    height: 40px;
+    padding: 10px;
+    padding-left: 90px;
+}
+
+.b {
+    padding: 5px;
+    margin-top: 18px;
+
+}
+
+.flexing {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.a {
+    padding: 5px;
+    font-family: "Bree Serif";
+    font-size: 15px;
+
+
+}
+
+.bg-image {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.para {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.padding {
+    padding: 140px;
+}
+
+.buton {
+    background-color: #4A90E2;
+    height: 30px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.bg-container-2 {
+    background-color: #FFFFFF;
+    height: 40vh;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.para2 {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.flexing2 {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.image1 {
+    height: 130px;
+    border-radius: 10px;
+
+}
+
+.contact-us {
+    background-color: #e0dfdc;
+    height: 60vh;
+}
+
+.centering {
+    text-align: center;
+    padding: 10px;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.input1 {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.name {
+    font-size: 12px;
+    font-family: "Bree Serif";
+}
+
+.fotter {
+    background-color: #0A1426;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.monitor {
+    height: 40px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    color: #e0dfdc;
+
+}
+
+.fotter-para {
+    color: #e0dfdc;
+}
+
+.icon1 {
+    padding-right: 8px;
+}
+
+.coluring {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.headn1 {
+    font-family: "Bree Serif";
+    font: bold;
+
+
+
+}
+
+.paraa1 {
+    font-family: "Roboto";
+    color: #e0dfdc;
+
+
+}
+
+.paralast {
+    color: #FFFFFF;
+}

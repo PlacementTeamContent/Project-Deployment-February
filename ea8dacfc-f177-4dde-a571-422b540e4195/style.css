@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 120px;
+    width: 400px;
+    background-color: #0A1525;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.img {
+    width: 5px;
+    height: 5px;
+}
+
+.backgroundimage {
+    height: 10px;
+    width: 500px;
+}
+
+.services {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}

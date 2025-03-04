@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-nav {
+    height: 70px;
+    background-color: #0A1525;
+}
+
+.img-nav {
+    height: 50px;
+    width: 50px;
+    /* padding-top:10px ; */
+}
+
+.h1-nav {
+    color: white;
+    height: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-family: "Bree Serif";
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+i {
+    color: white;
+    background-color: white;
+}
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-texth1 {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.bg-button {
+    background-color: #6c63ff;
+    height: 50px;
+    width: 100px;
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 50%;
+    color: white;
+    text-align: center;
+}
+
+.cart {
+    text-align: center;
+}
+
+.cart-h1 {
+    color: #1E293B;
+}
+
+.cart-p {
+    color: #1E293B;
+}
+
+.cart-img {
+    height: 300px;
+    width: 550px;
+    background-size: cover;
+}
+
+.cart1 {
+    padding: 5px;
+}
+
+.add-container {
+    background-color: #dfe3eb;
+}
+
+.add-h1 {
+    color: #1E293B;
+    text-align: center;
+}
+
+.add-p {
+    color: #1E293B;
+    text-align: center;
+}
+
+mark {
+    color: red;
+    background-color: #dfe3eb;
+    padding-right: 20%;
+}
+
+button {
+    color: white;
+    align-items: center;
+    width: 70%;
+    margin-left: 20%;
+}
+
+/* .address{
+    display: flex;
+    text-align: center;
+} */
+.button {
+    height: 100px;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.button1 {
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 20%;
+    background-color: #6C63FF;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+i {
+    background-color: black;
+    color: white;
+}

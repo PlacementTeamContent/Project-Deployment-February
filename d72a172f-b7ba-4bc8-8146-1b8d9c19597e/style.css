@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: left;
+}
+
+.navbar {
+    background-color: #0A1426;
+}
+
+.portion {
+    text-align: center;
+    color: white;
+}
+
+
+.image {
+    background-size: 20px;
+}
+
+.main-heading {
+    text-align: center;
+    color: white;
+
+}
+
+.paragraph {
+    color: white;
+    text-align: center;
+}
+
+
+
+.section-2 {
+    text-align: left;
+
+}
+
+.section-3 {
+    background-color: #e0dfdc;
+    text-align: center;
+}
+
+.button {
+    color: blue;
+}

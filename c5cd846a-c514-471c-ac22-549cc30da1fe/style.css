@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+}
+
+.span {
+    margin: 20px 20px 40px 0px;
+    font-size: 17px;
+}
+
+.fa {
+    color: white;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.navicon {
+    height: 5vh;
+    width: 8%;
+    padding: 20px 10px 25px 20px;
+}
+
+.navbar {
+    background-color: #0A1525;
+    display: flex;
+    height: 10vh;
+    flex-direction: row;
+}
+
+.btn {
+    background-color: #4B9EFF;
+    color: #ffffff;
+    border: solid #4B9EFF 10px;
+    border-radius: 7px;
+}
+
+.mainele {
+    padding: 200px 30px 20px 30px;
+}
+
+.servicesection {
+    font-family: 'Bree Serif';
+    text-align: center;
+    padding: 20px;
+}
+
+.serviceimage {
+    height: 35vh;
+    width: 100%;
+    border-radius: 30px;
+    margin: 20px 10px 10px 0px;
+}
+
+.services {
+    text-align: left;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.contactsection {
+    background-color: #dfe3eb;
+    text-align: center;
+    font-family: 'Bree Serif';
+}
+
+.subhead {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.box {
+    background-color: #ffffff;
+    height: 6vh;
+    width: 90%;
+    border: solid grey 1px;
+    border-radius: 9px;
+    margin: 0px 0px 0px 27px;
+}
+
+.box1 {
+    background-color: #ffffff;
+    height: 35vh;
+    width: 90%;
+    border: solid grey 1px;
+    border-radius: 9px;
+    margin: 0px 0px 0px 27px;
+}
+
+.star {
+    color: red;
+}
+
+.btn {
+    background-color: #4B9EFF;
+    color: #ffffff;
+    border: solid #4B9EFF 10px;
+    border-radius: 7px;
+}
+
+.contactbtn {
+    background-color: #4B9EFF;
+    color: #ffffff;
+    border: solid #4B9EFF 10px;
+    border-radius: 7px;
+    padding: 0px 190px 0px 190px;
+    margin: 6px 10px 90px 19px;
+}
+
+.footer {
+    background-color: #0A1525;
+    font-family: 'Bree Serif';
+}
+
+.footerimage {
+    height: 6vh;
+    width: 10%;
+    padding: 40px 0px 10px 20px;
+
+}
+
+.footerpara {
+    color: #dfe3eb;
+    padding-left: 14px;
+}
+
+.platforms {
+    padding-left: 14px;
+    color: #dfe3eb;
+    height: 13vh;
+}
+
+.sectiontwo {
+    padding-left: 80px;
+    margin-bottom: 60px;
+}
+
+.section {
+    display: flex;
+    color: #dfe3eb;
+    padding-left: 14px;
+}
+
+.footerhead {
+    color: #ffffff;
+}
+
+.footerspan {
+    text-decoration: underline;
+    color: #dfe3eb;
+}

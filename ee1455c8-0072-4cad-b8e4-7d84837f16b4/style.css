@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navimg {
+    height: 70px;
+    width: 70px;
+    margin: 3px;
+}
+
+.nav_sec-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    padding: 10px;
+    justify-content: space_between;
+}
+
+.firstpage {
+    background-image: url("https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg");
+    height: 100%;
+    width: 100vw;
+    background-size: cover;
+}
+
+.one-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_sec-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    padding: 10px;
+    align-items: space_around;
+    text-align: end;
+    color: #ffffff;
+    margin-left: 200px;
+
+}
+
+.card1 {
+    margin: 10px;
+}
+
+.card2 {
+    margin: 10px;
+}
+
+.card3 {
+    margin: 10px;
+}
+
+.NxtBuildhead {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.inner {
+    padding-left: 10px;
+}
+
+.navbar_section {
+    background-color: #0A1525;
+    background-size: cover;
+    height: 100px;
+}
+
+.firstpage {
+    height: 100vh;
+    width: 100vw
+}
+
+.First-page-conetnt {
+    font-family: "Bree Serif";
+}
+
+.innovativehead {
+    color: #ffffff;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.Explorepara {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.Contactbutton {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.bg-contact {
+    height: 50px;
+    width: 100px;
+    background-color: #4B9EFF;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.First-page-conetnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondpage {
+    height: 100%;
+    width: 100vw;
+    background-color: #ffffff;
+    background-size: cover;
+    font-family: "Bree Serif";
+    margin-bottom: 30px;
+}
+
+.Serviceshead {
+    color: #000000;
+}
+
+.Specialitypara {
+    color: #000000;
+}
+
+.second_sec_1 {
+    text-align: center;
+}
+
+.second_sec_2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.second_page_img {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.projecthead {
+    color: #000000;
+    font-size: 20px;
+}
+
+.imgpara {
+    color: grey;
+    font-size: 10px;
+}
+
+.card1 {
+    padding-left: 10px;
+}
+
+@media (max-width:768px) {
+    .second_sec_2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.thirdpage {
+    height: 100%;
+    width: 100vw;
+    background-color: #dfe3eb;
+    font-family: "Bree Serif";
+    padding-bottom: 40px;
+}
+
+.namap {
+    color: #000000;
+    margin-left: 10px;
+}
+
+.star {
+    color: red;
+}
+
+.name {
+    height: 40px;
+    width: 90vw;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 2px;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.emailp {
+    color: #000000;
+    margin-left: 10px;
+}
+
+.phonep {
+    color: #000000;
+    margin-left: 10px;
+}
+
+.email {
+    height: 40px;
+    width: 40vw;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 2px;
+}
+
+.phone {
+    height: 40px;
+    width: 40vw;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 2px;
+
+}
+
+.messagecommenst {
+    height: 120px;
+    width: 90vw;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 2px;
+}
+
+.secondpagebutton {
+    background-color: #4B9EFF;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.letstalkbutton {
+    background-color: #4B9EFF;
+    border-width: 0px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Bree Serif"
+}
+
+.fourthpage {
+    height: 100%;
+    width: 100vw;
+    background-color: #1E293B;
+    font-family: "Bree Serif";
+    padding-bottom: 40px;
+
+}
+
+.capimg {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.bpara {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+
+
+}
+
+.iconsrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.sizeicon {
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.fourth_page_sec_1 {
+    padding: 40px;
+}
+
+.fourth_page_sec_2 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    padding: 40px;
+    margin: 10px;
+
+
+
+}
+
+.fourth_page_sec_3 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    margin: 10px;
+    padding: 40px;
+
+}
+
+.section_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.webpara {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+@media (max-width:768px) {
+    .section_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-by-side {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_page_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav_sec-2 {
+        display: none;
+    }
+
+    .innovativehead {
+        font-size: 30px;
+    }
+
+    .Explorepara {
+        font-size: 20px;
+    }
+
+    .iconmain2 {
+        margin-left: 10px;
+    }
+}
+
+.two-in-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconmain {
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+
+/* .inner1{
+   margin:10px;
+   padding:10px;
+    font-size:20px;
+}
+.inner2{
+    margin:10px;
+     font-size:20px;
+}
+.inner3{
+    margin:10px;
+     font-size:20px;
+}
+.inner4{
+    margin:10px;
+     font-size:20px;
+}
+@media (min-width:769px){
+    .iconmain2{
+        display: none;
+    }
+    
+} */
+.iconmain2 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: end;
+    align-self: end;
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    margin-left: 400px;
+}

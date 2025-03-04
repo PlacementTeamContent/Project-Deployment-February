@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-bg {
+    height: 100vh;
+    width: 200vh;
+    background-size: cover;
+    background-image: url("https://img.b2bpic.net/premium-photo/laptop-with-business-sketch_700248-24882.jpg");
+}
+
+.navbar {
+    background-color: #0A1525;
+    height: 55px;
+    width: 1450px;
+    display: flex;
+
+}
+
+.logo {
+    height: 50px;
+}
+
+.logohead {
+    color: #ffffff;
+    flex-direction: column;
+    align-self: center;
+    font-family: Bree Serif;
+    font-size: 20px;
+
+}
+
+
+.picturecontent {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: Bree Serif;
+
+    padding: 100px;
+}
+
+.mainheading {
+    flex-direction: column;
+    color: #ffffff;
+    font-family: Bree Serif;
+
+    font-size: 50px;
+
+}
+
+.picpara {
+    flex-direction: column;
+    color: #ffffff;
+    font-family: Bree Serif;
+
+}
+
+.picbtn {
+    color: #ffffff;
+    background-color: #FF7A2E;
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: Bree Serif;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 200vh;
+    padding: 20px;
+}
+
+.heading2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.our {
+    font-family: Bree Serif;
+}
+
+.para2 {
+    font-family: Bree Serif;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.image21 {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    order: 0;
+}
+
+.imagehead {
+    font-family: Bree Serif;
+}
+
+.image22 {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+.image23 {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.section3 {
+    background-color: #dfe3eb;
+    height: 100vh;
+    width: 200vh;
+
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.firstcard {
+    background-color: #0A1525;
+    height: 8vh;
+    width: 200vw;
+}
+
+.maincard {
+    height: 200vh;
+    width: 200vw;
+}
+
+.firstimage {
+    width: 1000px;
+    height: 600px;
+}

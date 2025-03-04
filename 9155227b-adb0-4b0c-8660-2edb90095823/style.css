@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+
+.nav-link {
+    padding: 2.5px;
+}
+
+.div {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 45vh;
+    color: #FFFFFF;
+    font-family: Bree Serif;
+}
+
+.para {
+    color: lightgrey;
+}
+
+.button {
+    background-color: #4B9EFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+}
+
+.div1 {
+    font-family: Bree Serif;
+}
+
+.para1 {
+    color: #dfe3eb;
+}
+
+.img1 {
+    height: 250px;
+    width: 450px;
+    border-radius: 7px;
+}
+
+.div2 {
+    background-color: #dfe3eb;
+    font-family: Bree Serif;
+}
+
+.para3 {
+    text-align: center;
+}

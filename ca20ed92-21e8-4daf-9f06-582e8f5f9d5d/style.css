@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/cd-transfer-graphic-background-3d-rendering_924688-379.jpg");
+    background-size: cover;
+    height: 70vh;
+    width: 140vw;
+}
+
+.head1 {
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+    padding: 30px;
+    padding-top: 100px;
+    font-family: "Bree Serif";
+
+}
+
+.para1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 39px;
+}
+
+.btn1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #4B84f3;
+    border-radius: 8px;
+    padding: 10px;
+    border-color: #4B84f3;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.head2 {
+    color: #0A1525;
+    font-family: "Bree Serif";
+    font-size: 53px;
+    text-align: center;
+}
+
+.para2 {
+    color: grey;
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 23px;
+}
+
+.img {
+    border-radius: 8px;
+    height: 350px;
+}
+
+.row {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1;
+    grid-columns: 3;
+
+}
+
+.head3 {
+    color: #0A1525;
+    font-family: "Bree Serif";
+}
+
+.btn2 {
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    border-color: gray;
+    background-color: white;
+}
+
+.Containr .btn3 {}

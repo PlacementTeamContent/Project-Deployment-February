@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.b1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+.b2 {
+    display: Flex;
+    justify-content: space-around;
+}
+
+.b3 {
+    background-image: url("https://img.b2bpic.net/premium-photo/dollar-icon-plant-business-concept-3d-rendering_35719-17146.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: White;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.btn {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.b4 {
+    text-align: Center;
+}

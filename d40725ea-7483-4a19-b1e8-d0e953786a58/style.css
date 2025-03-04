@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    margin: 0px;
+    font-family: "Bree Serif";
+}
+
+.nav_bar {
+    background-color: #0A1426;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav_p {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.nav_p_each {
+    margin: 20px;
+}
+
+.main_p1 {
+    background-image: url("https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    font-family: "Bree Serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 120px;
+    flex-wrap: wrap;
+}
+
+.button_main_p1 {
+    background-color: #4A90E2;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    border-width: 0px;
+    margin: 10px;
+}
+
+.our_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.cont_our_services {
+    display: flex;
+    margin: 20px;
+}
+
+.card_our_services {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.our_services_p {
+    color: ;
+}
+
+
+.contact_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #e0dfdc;
+}
+
+.footer {
+    background-color: #1E293B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.foot_img_p {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input {
+    width: 600px;
+}
+
+.contact_us_p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.msg {
+    height: 70px;
+}
+
+.let_talk {
+    background-color: #4A90E2;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    border-width: 0px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+i {
+    margin: 10px;
+}
+
+.line {
+    font-style: underline;
+}
+
+@media (max-width:768px) {
+    .hid {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .hid {
+        display: flex;
+        flex-direction: row;
+    }
+}

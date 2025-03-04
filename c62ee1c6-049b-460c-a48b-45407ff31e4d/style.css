@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif";
+    color: white;
+}
+
+.nav {
+    background-color: #0a1525;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-icon {
+    border-radius: 40px;
+    width: 40px;
+    padding-top: 15px;
+}
+
+.nav-heading {
+    font-size: 24px;
+    padding-left: 10px;
+}

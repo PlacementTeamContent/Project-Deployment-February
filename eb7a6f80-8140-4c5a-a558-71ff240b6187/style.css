@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: Bree Serif;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1525;
+    color: white;
+    padding: 5px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-part {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-content: flex-start;
+    margin-right: 100px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.fa {
+    color: white;
+}
+
+.header {
+    background-image: url("https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg");
+    height: 80vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    text-align: left;
+    font-size: 50px;
+}
+
+.logo-text {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+}
+
+.btn-1 {
+    background-color: #6c63ff;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.middle-text {
+    text-align: center;
+
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-img {
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px;
+}
+
+.feedback {
+    background-color: #dfe3eb;
+}
+
+.feedback-head {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.star {
+    color: red;
+}
+
+.box {
+    height: 40px;
+    width: 750px;
+    background-color: white;
+    border: solid;
+    border-radius: 7px;
+    border-color: grey;
+}
+
+.feedback {
+    height: 70vh;
+}
+
+.text-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.idk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.box-2 {
+    height: 40px;
+    width: 350px;
+    background-color: white;
+    border: solid;
+    border-radius: 7px;
+    border-color: grey;
+}
+
+.idk-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.box-3 {
+    height: 200px;
+    width: 750px;
+    background-color: white;
+    border: solid;
+    border-radius: 7px;
+    border-color: grey;
+    margin-bottom: 20px;
+}
+
+.talk-btn {
+    background-color: #6c63ff;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.logo-part {
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-para {
+    color: #dfe3eb;
+}
+
+.icons {
+    color: white;
+}

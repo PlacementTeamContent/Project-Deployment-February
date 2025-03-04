@@ -1,0 +1,176 @@
+.bg_container {
+    background-color: #0A1220;
+    height: 70px;
+    width: 150%;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.head1 {
+    color: #FFFFFF;
+}
+
+.imgnav {
+    margin-top: 10px;
+}
+
+.main1 {
+    display: flex;
+}
+
+.main2 {
+    color: #FFFFFF;
+    display: flex;
+    padding: 15px;
+    /* justify-content: space-around; */
+}
+
+.para1 {
+    padding: 5px;
+
+}
+
+.bg_container2 {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 500px;
+    width: 150%;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.headtech {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.paratech {
+    color: #FFFFFF;
+    font-family: "Bree Serif";
+}
+
+.techmain {
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 50%;
+
+}
+
+.btntech {
+    background-color: #00E5BE;
+    color: #FFFFFF;
+    border-color: #00E5BE;
+    border-radius: 20px;
+}
+
+.head_ourservices {
+    color: #0A1220;
+}
+
+.Software_Development {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.para_ourservices {
+    color: #1E293B;
+}
+
+.ourservices {
+    text-align: center;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+.image_oursercives {
+    border-radius: 25px;
+
+}
+
+.contactus {
+    background-color: #dfe3eb;
+    height: 900px;
+    width: 150%;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.btny {
+    height: 50px;
+    width: 80%;
+    margin-left: 80px;
+
+}
+
+.btny1 {
+    height: 200px;
+    width: 80%;
+    margin-left: 80px;
+}
+
+.dd {
+    color: red;
+}
+
+.rt {
+    margin-left: -1050px;
+}
+
+.rt1 {
+    margin-left: -1200px;
+}
+
+.rt3 {
+    margin-left: -1000px;
+}
+
+.contact_us2 {
+    text-align: center;
+    /* margin-left:100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn_contat_us5 {
+    background-color: #00E5BE;
+    border-color: #00E5BE;
+    color: #FFFFFF;
+    height: 50px;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+.end_of_the_page {
+    background-color: #0A1220;
+    height: 500px;
+    width: 150%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para_end {
+    color: #FFFFFF;
+}
+
+.face_book {
+    color: #FFFFFF;
+}
+
+.end_of_the_page1 {
+    padding: 130px;
+}
+
+.end_of_the_page2 {
+    color: #FFFFFF;
+    padding: 130px;
+}
+
+.end_of_the_page3 {
+    color: #FFFFFF;
+    padding: 130px;
+}
