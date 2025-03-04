@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+
+body {
+    font-family: Bree Serif, sans-serif;
+}
+
+.hero {
+    background: url('https://img.b2bpic.net/premium-photo/creative-visual-technology-network_31965-16945.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #FFD700;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 30%;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.logo {
+    height: 10%;
+    width: 5%;
+}
+
+.foot_para {
+    color: white;
+    text-align: center;
+}

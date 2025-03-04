@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #0A1220;
+    color: #FFFFFF;
+    padding: 40px;
+    padding-left: 30px;
+    height: 40px;
+    width: 200px;
+
+}
+
+.img1 {
+    height: 5px;
+    width: 5px;
+}
+
+.card2 {
+    background-size: cover;
+
+}

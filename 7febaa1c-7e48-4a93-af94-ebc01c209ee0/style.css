@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    height: 1000px;
+    background-size: cover;
+}
+
+.text {
+    text-align: center;
+
+}

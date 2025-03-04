@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+CSS (styles.css) css Copy
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#home,
+#info,
+#contact {
+    padding: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 21px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .menu-icon .line {
+        background-color: white;
+        height: 3px;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    nav.active ul {
+        display: flex;
+    }
+
+    #home,
+    #info,
+    #contact {
+        padding: 20px;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    .2nd-image {
+        size-adjust: 30px;
+    }
+}

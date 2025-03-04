@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.d {
+    display: flex;
+    list-style-type: none;
+    color: ;
+}
+
+.li {
+    height: 40px;
+    width: 60px;
+}
+
+.n {
+    background-color: #0A1426;
+}
