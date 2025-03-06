@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    font-family: "Bree Serif";
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0a1525;
+    color: white;
+    padding: 10px 20% 10px 20%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-image {
+    width: 25%;
+    padding-right: 10px;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-element {
+    color: white;
+    margin-right: 10px;
+}
+
+.hero {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    color: white;
+}
+
+.hero-heading {
+    font-size: 48px;
+}
+
+.hero-button {
+    background-color: #6c63ff;
+    color: white;
+    font-family: "Bree Serif";
+    padding: 10px 5% 10px 5%;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.our-services {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+}
+
+.services-heading {
+    font-size: 32px;
+}
+
+.services-cardholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.services-card {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.services-card-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.contact-us-section {
+    text-align: center;    
+    background-color: #dfe3eb;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.contact-us-heading {
+    font-size: 32px;
+}
+
+.asterisk {
+    color: red;
+}
+
+.form {
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+}
+
+.form-input {
+    width: 95%;
+    border-width: 0px;
+}
+
+.form-doubleline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widthmonitor {
+    width: 100%;
+}
+
+.contact-button {
+     background-color: #6c63ff;
+    color: white;
+    font-family: "Bree Serif";
+    padding: 10px 5% 10px 5%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #0a1525;
+    padding: 30px 15% 30px 15%;
+}
+
+.footer-logo-image {
+    width: 75px;
+}
+
+.footer-miniheading {
+    font-weight: bold;
+}
+
+.icons {
+    font-size: 32px;
+}
+
+.bi {
+    margin-right: 10px !important;
+}
+
+.text-area {
+    height: 200px;
+    border-width: 0px;
+}
+
+
+@media not (min-width:768px) {
+    .nav-element {
+        display: none;
+    }
+    
+    .services-cardholder {
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .footer {
+        flex-direction: column;
+    }
+}

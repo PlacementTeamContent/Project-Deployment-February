@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.logo{
+    height: 35px;
+    margin: auto;
+}
+.nav-bar{
+    display: flex;
+    background-color: #0A1426;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    
+    
+    
+}
+.nav-links p{
+    margin: 15px;
+}
+.nav-links{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.hero-sec{
+    background-image: url('https://img.b2bpic.net/premium-photo/african-american-doctor-showing-medical-expertise-elderly-patient-discussing-medication-treatment-hospital-waiting-area-receptionist-standing-reception-counter-checking-report-computer_482257-64469.jpg');
+    height: 100vh;
+    background-size: cover;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding: 30px;
+  
+}
+.ent{
+    text-align: center;
+    font-family: 'Roboto';
+}
+.btn{
+    background-color:#4A90E2 ;
+    border: 0px;
+    border-radius: 7px;
+    padding: 12px;
+    color: white;
+}
+.text p{
+    font-size: 25px;
+   
+}
+.cardpara{
+    font-family: 'Roboto';
+    text-align: left;
+    margin-bottom: 150px;
+    
+   
+}
+.talk-btn{
+    background-color:#4A90E2 ;
+    border: 0px;
+    border-radius: 7px;
+    padding: 12px;
+    color: white;
+    width: 95vw;
+    margin: auto;
+    
+    
+}
+.star{
+    color: red;
+    font-size: 17px;
+}
+@media screen and (max-width:768px ){
+    .card-img{
+    border-radius: 15px;
+    height: 300px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       
+    
+    
+}
+input{
+    width: 90vw;
+    border-color: #0A1426;
+    border-radius: 5px;
+    border-width: 0.5px;
+}
+textarea{
+   width: 90vw; 
+    border-color: #0A1426;
+    border-radius: 5px;
+    border-width: 0.5px;
+   
+}
+.text-card{
+    text-align: left;
+    padding-left: 40px;
+}
+.card h1{
+    font-family: 'Roboto';
+}
+.contact-page{
+    background-color: #e0dfdc;
+    font-family: 'Roboto';
+}
+.h{
+    font-family: 'Roboto';
+    text-align: center;
+}
+.last-page{
+    background-color: #0A1426;
+    padding: 30px;
+}
+.c{
+    color: #e0dfdc;
+    font-family: 'Roboto';
+}
+.last-page p{
+    color: #e0dfdc;
+    font-family: 'Roboto';
+}
+.mob{
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+}
+}
+@media screen and (min-width:993px){
+    .card-img{
+        height: 20vh;
+    
+        border-radius: 15px;
+    }
+    .cards{
+        display: flex;
+        padding: 30px;
+    }
+    
+    .contact-page{
+    background-color: #e0dfdc;
+    font-family: 'Roboto';
+}
+.h{
+    font-family: 'Roboto';
+    text-align: center;
+}
+.last-page{
+    background-color: #0A1426;
+    padding: 30px;
+}
+.kk{
+    display: flex;
+}
+.c{
+    color: #e0dfdc;
+    font-family: 'Roboto';
+}
+.last-page p{
+    color: #e0dfdc;
+    font-family: 'Roboto';
+}
+.mob{
+    display: flex;
+}
+.name{
+    width:100vw;
+}
+.v{
+    padding: 150px;
+}
+.email{
+   padding-left: 15px;
+}
+}

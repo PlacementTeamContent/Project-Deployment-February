@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar {
+    width: 100vw;
+    height: 9vh;
+    background-color: #0A1525;
+    display:flex;
+}
+.logo {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+#logo-image {
+    margin-top: 20px;
+    margin-right: 10px ;
+    height: 50px;
+    width: 50px;
+}
+.heading-logo {
+    color: white;
+    font-family: "Bree Serif";
+    margin-right: 90px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.titles{
+   display: flex;
+   justify-content: flex-end;
+   margin-left: 180px;
+ }
+@media (max-width: 576px) {
+    .navbar {
+        width: 100vw;
+    }
+}
+
+.main-bg {
+    background-image: url("https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg");
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+}
+@media (max-width: 576px) {
+    .main-bg {
+        width: 100vw;
+    }
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Bree Serif";
+   
+}
+
+.main-heading {
+    color: white;
+    margin-top: 200px;
+    font-size: 40px;
+    width: 400px;
+    
+}
+.main-para {
+    color: white;
+    width: 400px;
+    font-size: 15px;
+    
+}
+button {
+    background-color: #8B5CF6;
+    border-radius: 10px;
+    color: white;
+    margin-right: 330px;
+    height: 35px;
+    border-color: #8B5CF6;
+}
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 20px;
+}
+#header {
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+#header2 {
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 17px;
+    width: 700px;
+    
+}
+@media (max-width: 576px) {
+    .Content {
+        width: 100vw;
+    }
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+}
+.image{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+h1 {
+    font-size: 25px;
+}
+p {
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+@media (max-width: 576px) {
+    .card-container {
+        width: 100vw;
+    }
+}
+.Contact-us {
+    background-color: #dfe3eb;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 330px;
+    font-size: 20px;
+}
+.btn {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 400px;
+    margin-left: 310px;
+    margin-top: 0px;
+}
+.message {
+    width: 400px;
+    margin-left: 310px;
+    margin-top: 0px;
+    height: 200px;
+}
+.blue-btn{
+   width: 400px;
+   color: white;
+   background-color: #8B5CF6;
+   margin-left: 310px;
+   margin-top: 15px;
+   border-color: #8B5CF6;
+}
+
+.footer {
+    width: 100vw;
+    background-color: #0A1525;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width: 576px) {
+    .footer {
+        width: 100vw;
+    }
+}
+.container {
+    margin-top: 40px;
+    color: white;
+}
+.head {
+    font-size: 10px;
+    font-family: "Roboto";
+    padding: 10px;
+}
+.Logos {
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+}
+#headingg {
+    margin-top: 30px;
+    font-size: 15px;
+}
+#paraa{
+    font-size: 12px;
+}
+.Allrights {
+    color: white;
+}

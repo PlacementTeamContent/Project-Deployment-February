@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.maincontainer {
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo {
+    height: 40px;
+    padding: 10px;
+}
+
+.brandname {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+}
+
+.fa-bars {
+    color: white;
+    margin: 15px;
+}
+
+.mainheads {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div a {
+    margin: 15px;
+    font-family: "Bree Serif";
+
+}
+
+section {
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mh {
+    font-size: 40px;
+}
+
+.mp {
+    font-size: 20px;
+    font-family: "Bree Serif";
+    margin-top: 10px;
+}
+
+.mb {
+    background-color: #8B5CF6;
+    border: 0px;
+    border-radius: 8px;
+    font-family: "Bree Serif";
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.mdiv {
+    color: white;
+    width: 50vw;
+}
+
+.services {
+    padding: 20px;
+}
+
+.Sh {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+
+.Sp {
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 15px;
+}
+
+.subs {
+    width: 250px;
+    padding: 20px;
+}
+
+.subsimg {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.subh1 {
+    font-family: "Bree Serif";
+    margin: 20px !important;
+
+
+}
+
+.subsp {
+    font-family: "Bree Serif";
+    margin-top: 20px;
+
+}
+
+.mainsub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #dfe3eb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: red;
+}
+
+.cn {
+    text-align: left;
+    width: 80vw;
+    margin: 20px;
+}
+
+input {
+    width: 80vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: 0px solid;
+    margin: 3px;
+}
+
+.contact h1 {
+    font-size: 20px;
+}
+
+.cm {
+    height: 15vh;
+}
+
+.cep {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:765px) {
+    div a {
+        display: none;
+    }
+
+    .mdiv {
+        width: 82vw !important;
+        margin-left: 40px;
+    }
+
+    section {
+        align-items: flex-start !important;
+
+    }
+
+    .cep {
+
+        flex-direction: row !important;
+    }
+
+    .ce {
+        flex-grow: 1;
+    }
+
+    .cp {
+        flex-grow: 1;
+    }
+}

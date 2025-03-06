@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    width: 100vw;
+    font-family: "Roboto";
+}
+.iconn{
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+}
+.navbkgmain{
+    background-color: #0A1525;
+    color: white;
+    width: 100vw;
+}
+.herobkg{
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    color: white;
+    width: 100vw;
+    padding-top: 200px;
+    padding-left: 20px;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.cardd{
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+.contactussec{
+    background-color: #dfe3eb;
+    padding: 30px;
+}
+.contactbox{
+    border: 1px solid grey;
+    background-color: white;
+    height: 30px;
+    width: 390px;
+    border-radius: 7px;
+}
+.asterik{
+    color: red;
+}
+.footerr{
+    background-color: #0A1525;
+    color: #dfe3eb;
+}
+.herobutton{
+    background-color: #6C63FF;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    border-width: 0px;
+    color: white;
+}
+.contactboxx{
+    border: 1px solid grey;
+    background-color: white;
+    height: 70px;
+    width: 390px;
+    border-radius: 7px;
+}
+.contactbutton{
+    margin-top: 20px;
+    background-color: #6C63FF;
+    border: 1px solid grey;
+    border-radius: 7px;
+    height: 30px;
+    color: white;
+    width: 390px;
+}
+.footercopy{
+    text-decoration: underline;
+}
+.ourservices{
+    text-align: center;
+}
+.servicescard{
+    width: 150px;
+}

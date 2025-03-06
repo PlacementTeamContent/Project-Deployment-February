@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1220;
+    padding: 40px;
+    height: 30px;
+    display: flex;
+    gap: 500px;
+
+}
+.navbar{
+    display: flex;
+}
+
+.navbar-page {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+.fa{
+    padding-top: 18px;
+}
+
+.page-heading {
+    color: #ffffff;
+    gap: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.header {
+    background-image: url('https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.card {
+    text-align: left;
+    padding: 40px;
+    height: 50px;
+
+}
+
+.heading {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.head-para {
+    font-size: 11px;
+    color: lightgrey;
+}
+
+.head-button {
+    color: #ffffff;
+    background-color: #00E5BE;
+    border-width: 0px;
+    border-radius: 20px;
+    height: 30px;
+
+}
+
+.services {
+    text-align: center;
+    font-family: Bree Serif;
+
+}
+
+.Our-services {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Bree Serif;
+}
+
+.services-para {
+    color: grey;
+}
+
+.card-img {
+    height: 130px;
+    border-radius: 30px;
+}
+
+.card1 {
+    text-align: left;
+}
+
+.para-services {
+    color: grey;
+    font-size: 10px;
+
+}
+
+.services-cards {
+    display: flex;
+    gap: 10px
+}
+
+.contact-page {
+    background-color: #dfe3eb;
+    text-align: center;
+}
+
+.contact {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #0A1220;
+    color: #ffffff;
+    display: flex;
+    gap: 40px;
+}
+.carda{
+    padding: 40px;
+}
+.foot-img{
+    height: 40px;
+}
+p{
+    color: grey;
+}
+@media screen and   (min-width = 600px){
+    .nav{
+        order: 1;
+    }
+    .header{
+        order: 2;
+        
+    }
+    .services{
+        order:3;
+        
+    }
+    .card1{
+        order: 4;
+    }
+    .contact-page{
+        order:5;
+    }
+    .carda{
+        order:6;
+    }
+    
+}

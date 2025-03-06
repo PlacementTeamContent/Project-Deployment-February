@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.background_header {
+    background-color: #0A1525;
+    color: white;
+    width: 100vw;
+    font-family: "Bree Serif";
+
+}
+
+.background_image {
+    background-image: url('https://img.b2bpic.net/free-photo/construction-site-silhouettes_1127-3253.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.main_head {
+
+    color: white;
+    font-family: "Bree Serif";
+
+}
+
+.para_main {
+    color: white;
+    font-family: "Roboto";
+
+
+
+}
+
+.button_main {
+    background-color: #4B9EFF;
+    border-style: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.ser {
+    text-align: center;
+}
+
+.text_head {
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.text_para {
+
+    color: grey;
+    font-family: Roboto;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+    border-radius: 7px;
+}
+
+.our_ser {
+    display: flex;
+    justify-content: center;
+
+}
+
+.our_ser_div {
+    margin-left: 40px;
+}
+
+.contact_us {
+    background-color: #dfe3eb;
+    padding: 7px;
+}
+
+.contact_head {
+    text-align: center;
+
+
+}
+
+.contact_para {
+    text-align: center;
+}
+
+.color {
+    color: red;
+}
+
+.name {
+    text-align: center;
+}
+
+.two {
+    display: flex;
+
+}
+
+.phone {
+    margin-left: 5px;
+}
+
+.bu {
+    color: white;
+    background-color: #4B9EFF;
+    border-style: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+
+}
+
+.fotter {
+    background-color: #0A1525;
+
+}
+
+.icons {
+    display: flex;
+    color: white;
+}
+
+.para_footer {
+    color: grey;
+    font-family: "Roboto";
+}
+
+.icon_image {
+    height: 50px;
+}
+
+.icon2 {
+    margin-left: 10px;
+}
+
+.foot_head {
+    color: white;
+}
+
+.para_foot {
+    color: grey;
+}
+
+.m {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+
+.one {
+    margin-left: 50px;
+}
+
+.bottom {
+    color: grey;
+    text-align: center;
+}
+
+.site {
+    text-decoration: underline;
+}
+
+.icon_small {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 7px;
+
+
+}
+
+.up {
+    display: flex;
+}
+
+.do {
+    display: flex;
+    margin-left: 400px;
+
+}
+
+.up1 {
+    display: flex;
+}
+
+.s1 {
+    margin-left: 10px;
+}
+
+.form {
+    margin-left: 60px;
+}
+
+.nxt {
+    margin-left: 10px;
+}

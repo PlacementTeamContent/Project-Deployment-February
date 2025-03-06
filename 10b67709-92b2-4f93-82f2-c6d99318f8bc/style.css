@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: Consolas;
+
+}
+
+nav {
+
+    position: relative;
+    padding: 10px;
+    background-color: #0A1525;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    margin-top: 10px;
+    width: 20%;
+    cursor: pointer;
+
+}
+
+.logopng {
+    width: 50px;
+    height: 50px;
+}
+
+.nxt {
+    height: 100;
+    color: white;
+    margin: 10px;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: white;
+}
+
+.elements>h2:hover {
+    cursor: pointer;
+}
+
+@media (max-width : 1000px) {
+    .elements {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .items {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 20px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .font-size {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+}
+
+.three {
+    color: white;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (min-width : 1000px) {
+    nav {
+        margin: 0px;
+        padding: 10px;
+        background-color: #0A1525;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .items {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 100px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .font-size {
+        font-size: 60px;
+        font-weight: bold;
+    }
+}
+
+.curosal {
+    height: 80vh;
+    background-size: cover;
+    background-image: url('https://img.b2bpic.net/premium-photo/workflow-teamwork-concepts-with-colorful-gears-different-gadgets_870072-3686.jpg');
+
+    width: 100%;
+    text-shadow: black;
+}
+
+.items {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+
+}
+
+.buttons {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #8B5CF6;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.para {
+    font-style: normal;
+}
+
+.our {
+    color: black;
+}
+
+.main {
+    margin-top: 3vh;
+}
+
+.text {
+    text-align: center;
+}
+@media (min-width : 850px) {
+    
+.elements {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+
+    }
+     .items {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 60px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .font-size {
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+.paras{
+    color: #1E293B;
+}
+@media(min-width: 768px){
+    .container{
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card{
+        width: 30%;
+        margin: 10px;
+    }
+    .image{
+        width: 100%;
+        border-radius: 10px ;
+    }
+}
+
+@media(max-width: 768px){
+    .container{
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card{
+        width: 100%;
+        margin: 10px;
+    }
+    .image{
+        width: 100%;
+        border-radius: 10px ;
+    }
+}
+.mains{
+    font-size:25px;
+}
+.contact{
+    background-color: #dfe3eb;
+    padding: 10px;
+}
+.requires{
+    color: red;
+}
+.carde{
+    display:flex;
+    flex-direction: column;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius:5px;
+    border-style: double;
+    border-color: #1E293B;
+    border: 20px;
+}
+.comments{
+    height: 200px;
+}
+@media(min-width: 768px){
+    .email{
+        width: 50%;
+    }
+    .phone{
+        width: 50%;
+    }
+    .hi{
+        display:flex;
+    }
+}
+.letstalk{
+    width:90%;
+    margin-left: 5%;
+    height: 30px;
+    font-size: 20px;
+    background-color: #8B5CF6;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #0A1525;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+.itags{
+    color: white;
+}
+.params{
+    color: white;
+}
+.logoing{
+    height: 90%;
+}
+.logopngs{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.menu{
+    color: white;
+}

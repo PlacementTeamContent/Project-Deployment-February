@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Bree Serif";
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: #0A1220;
+}
+
+
+.logo {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+.list {
+    display: flex;
+    color: #ffffff;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.hero {
+    background-image: url("https://img.b2bpic.net/premium-photo/future-innovation-concept_700248-23746.jpg");
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 50px;
+}
+
+.button1 {
+    background-color: #00eebe;
+    padding: 5px;
+    width: 100px;
+    border-style: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.services {
+    text-align: center;
+}
+
+.contactus {
+    text-align: center;
+    background-color: #dfe3eb;
+
+}
+
+form {
+    margin: 30px;
+}
+
+.star {
+    colour: red;
+}
+
+.Contact {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+.ContactUs {
+    background-colour: #dfe3eb;
+}
+
+.email {
+    width: 130%;
+    height: 30px;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+}
+
+.name {
+    width: 60%;
+    height: 30px;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+}
+
+.message {
+    width: 60%;
+    height: 150px;
+    border-color: #dfe3eb;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #0a1220;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+@media (min-width:768px) {
+    .footer-part {
+        display: flex;
+        justify-content: space-around;
+        background-color: #0a1220;
+    }
+
+    .services2 {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .button2 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: #00eebe;
+        padding: 5px;
+        width: 60%;
+        border-style: none;
+        color: #ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.text1 {
+    color: #ffffff;
+}
+
+.text2 {
+    color: #dfe3eb;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.text-link {
+    display: block;
+}
+
+.social-icons {
+    color: #dfe3eb;
+    font-size: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.text3 {
+    margin-left: 30px;
+}
