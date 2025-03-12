@@ -1,0 +1,82 @@
+.card1{
+    background-color: #f8dcbf;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+}
+.card2{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.head2{
+    font-size: 50px;
+}
+.pass2{
+    font-size: 20px;
+}
+.card3{
+    background-color:#f8dcbf ;
+   height: 750px;
+   text-align: center;
+   
+    
+}
+.cards{
+     display: flex;
+    flex-direction: row;
+}
+.img1{
+    height: 80px;
+    border-radius: 60px;
+    padding: 20px;
+    text-align: center;
+}
+.card{
+    background-color: white;
+    margin: 20px;
+    height: 270px;
+    width: 250px;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom-color: black;
+}
+.card5{
+   background-color: white;
+    margin: 20px;
+    height: 270px;
+    width: 200px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 140px;
+}
+.footer2{
+    display:flex;
+    flex-direction: row;
+     gap: 10px;
+}
+.footer{
+    background-color: #1b262c;
+    color:white;
+   display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+}
+.footer1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#service{
+    font-size: 40px;
+    font-style: Roboto;
+    padding-top: 30px;
+}

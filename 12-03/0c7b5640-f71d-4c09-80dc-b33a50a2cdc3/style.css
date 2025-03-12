@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.head1{
+     
+    margin:12px;
+    padding:12px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    font-family: "Roboto";
+    margin:12px;
+    padding:12px;
+}
+.head2{
+    padding:12px;
+    margin:12px;
+}
+.whole2{
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height: 100vh;
+    background-size:cover;
+    
+}

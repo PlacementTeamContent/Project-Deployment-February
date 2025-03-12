@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    margin: 0;
+}
+.section{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navroo{
+    background-color: #008080;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+}
+.kk{
+    display: flex;
+}
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.services{
+    background-color: #ccffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.m2{
+    text-align: center;
+}
+.m1{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

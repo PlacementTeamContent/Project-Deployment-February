@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: #87ceeb;
+    padding: 5px;
+    font-family: "Roboto";
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    background-size:cover;
+    display:grid;
+    justify-content: center;
+    color:#FFFFFF;
+    padding: 10px;
+    font-family: "Roboto";
+}
+.hori{
+    width:100px;
+    background-color:#87ceeb;
+    height:2px;
+}
+.service{
+    display: grid;
+    justify-content: center;
+    padding: 5px;
+    background-color:#FFFFFF ;
+    color:#000000;
+    font-family: "Roboto";
+}
+.hori2{
+    width:100px;
+    height:2px;
+    background-color: #87ceeb;
+}
+.card{
+    margin: 10px;
+    padding: 5px;
+}
+.img{
+    border-radius:60px;
+    height:50px;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1b262c;
+    color:#FFFFFF;
+    font-family: "Roboto";
+    font-size:10px;
+}
+@media (min-height:556px ){
+    .containers{
+        display:grid;
+        grid-template-columns: auto ;
+        align-self: center;
+    }
+    a{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-self:center;
+}
+.b{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-self:center;
+}
+.icon:hover{
+    text-decoration: underline;
+    
+}
+}
+@media(max-height:556px){
+    .container{
+        display:grid;
+        grid-template-columns: 3fr;
+        padding: 5px;
+        background-color:#FFFFFF ;
+        color:#000000;
+    }
+    a{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-self:center;
+}
+.b{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-self:center;
+}
+.icon:hover{
+    text-decoration: underline;
+    
+}
+}
+.a{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-self:center;
+}
+.b{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-self:center;
+}
+.icon:hover{
+    text-decoration: underline;
+}
+.s{
+    display: flex;
+    justify-content:flex-start;
+    margin: 10px;
+    padding: 20px;
+}

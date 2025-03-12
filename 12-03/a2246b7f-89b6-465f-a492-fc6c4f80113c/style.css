@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    margin: 0px;
+    font-family:Roboto;
+}
+@media (min-height:0px) and (max-height:768px){
+    .nav-bar{
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+        background-color: #f8dcbf;
+    }
+    .bars{
+       align-self: flex-start;
+       justify-content: center;
+       margin-left:10px;
+    }
+    .in-desktop{
+        display: none;
+    }
+    .head-center{
+        align-self: center;
+    }
+}
+@media (min-height:768px) and (max-height:1200px){
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #f8dcbf;
+    }
+    .head-center{
+        align-self: center;
+    }
+    .bars{
+        display:none;
+    }
+    .in-desktop{
+        align-self:flex-end;
+    }
+    .cards{
+        display: grid;
+        grid-template-rows:repeat(2,3fr);
+        grid-template-columns:repeat(2,3fr);
+    }
+}
+.Services{
+        background-color:#f8dcbf;
+        display:flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+    }
+.line{
+    height: 7px;
+    width: 100px;
+    background-color:#f8dcbf;
+}
+.bg-container{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    height: 50vh;
+    background-size:cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.black-line{
+    height: 5px;
+    width: 75px;
+    background-color:black;
+}
+.sm-img{
+    height: 200px;
+    width: 200px;
+    border-radius:100px;
+}
+.card{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius:10px;
+    margin:30px 20px 30px 20px;
+}
+.footer{
+    background-color: #1b262c;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.inner-div-footer{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}

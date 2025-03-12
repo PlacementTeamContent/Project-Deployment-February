@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.venu{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size:cover;
+    background-color:#e5e5e5 ;
+}
+.main_heading{
+    text-align: center;
+    padding:30px;
+   font-size: 50px;
+}
+.head{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.gopal{
+    background-color:#e5e5e5 ;
+}
+.heading{
+    text-align: center;
+}
+.ra{
+    background-color: white;
+    margin:20px;
+}
+.images{
+    border-radius: 100px;
+    height:150px;
+    width:150px;
+    margin-left:110px;
+    padding: 10px;
+    text-align: center;
+}
+.he{
+    text-align: center;
+}
+.para{
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar {
+    display: flex;
+    flex: row;
+}
+
+.nav2 {
+    display: flex;
+    flex: row;
+    padding: 25px;
+
+}
+
+.pp {
+    margin-bottom: 100px;
+    padding-right: 25px;
+    padding-left: 85px;
+}
+
+.bg {
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    padding-bottom: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hh {
+    color: white;
+    padding:20px;
+    
+    text-decoration:underline;
+    
+
+
+}
+
+.po {
+    color: white;
+    padding-bottom: 50px;
+
+
+}
+
+.arrange {
+    text-align: center;
+}
+.container{
+    background-color:#d1e5f9;
+    height:80vh;
+    background-size:cover;
+    width:120vh;
+    align-items:center;
+    justify-content:center;
+}
+.service{
+    color:black;
+    text-align:center;
+    text-decoration:underline;
+}
+.img{
+    height:100px;
+    width:100px;
+    border-radius:56px;
+    text-align:center;
+}
+.foot{
+    background-color:#1b262c;
+    height:30vh;
+    width:120vh;
+    
+}
+.new{
+    color:white;
+    padding:54px;
+    
+}
+.new2{
+    color:white;
+    padding:54px;
+    
+}
+.adjust{
+    display:flex;
+    flex:row;
+    padding:25px;
+}
+.container{
+    display:flex;
+    flex:row;
+}

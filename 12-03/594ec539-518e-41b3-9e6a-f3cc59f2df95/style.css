@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar {
+    background-color: #008080;
+    color: #f9f9f9;
+    margin: 0px;
+    width: 100%;
+    padding: 25px;
+    font-family: Roboto;
+
+
+}
+
+.main {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    color: #f9f9f9;
+    margin-bottom: 0px;
+
+}
+
+.firstpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+
+}
+
+.image {
+    border-radius: 100%;
+    height: 150px;
+
+
+
+
+}
+
+.secondpage {
+    background-color: #ccffff;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Roboto;
+    padding: 30px;
+
+
+
+
+}
+
+@media(min-width:992px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 20px;
+
+
+    }
+}
+
+.class {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: end;
+
+    padding: 10px;
+    margin: 0px
+}
+
+.title {
+    font-size: 300%;
+    margin: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}

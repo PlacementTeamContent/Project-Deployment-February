@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar {
+    background-color: #f9f9f9;
+    height: 90px;
+    display: flex;
+    padding: 5px;
+    font-family: "Roboto";
+    justify-content: space-between;
+}
+
+.abc {
+    display: flex;
+}
+
+/*---------------------------------*/
+.line {
+    color: #1976d2;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+    color: white;
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+/*---------------------------------*/
+.services {
+    background-color: #d1e5f9;
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    margin: 40px;
+    width: 500px;
+}
+
+.cards {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.c1 {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+/*---------------------------------*/
+.footer {
+    background-color: #1b262c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.f2 {
+    display: flex;
+    font-size: 10px;
+}
+
+.icon{
+    display:none;
+}
+/*---------------------------------*/
+@media screen and (max-height:576px){
+    .abc{
+        display:none;
+    }
+    .cards{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        width: 200px;
+        margin:0px;
+        margin-top:50px;
+    }
+    .icon{
+        display:block;
+        margin:30px;
+    
+    }
+    .services{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .footer{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .f1{
+        /* display:flex; */
+        order:2;
+    }
+    .f2{
+        order:1;
+    }
+    .whole{
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        /* font-size:16px; */
+    }
+    
+    .hd{
+        text-align: center;
+    }
+}

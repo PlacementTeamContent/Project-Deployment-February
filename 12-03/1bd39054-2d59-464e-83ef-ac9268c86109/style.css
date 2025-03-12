@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card1{
+  background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 400px
+}
+.head1{
+    color: white;
+    font-weight: bold;
+    padding-top: 70px;
+    padding: 5px;
+    font-family: "Roboto";
+    
+}
+.head11{
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.text1{
+    color: white;
+    padding: 5px;
+    font-family: "Roboto";
+}
+.inimg{
+    height: 150px;
+    border-radius: 70%;
+    width: 150px;
+    padding: 10px;
+}
+.card2{
+    background-color: #9f5353;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+}
+.incard{
+    text-align: center;
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    border-bottom-width: 10px;
+    border-color: #0a1525;
+    
+}
+.inhead{
+    font-weight: bold;
+    font-family: "Roboto";
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.ft{
+    padding-left: 20px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:#9f5353 ;
+    color: white;
+}
+span{
+    color: #9f5353;
+}

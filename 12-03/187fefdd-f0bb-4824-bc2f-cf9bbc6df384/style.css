@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main {
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    width: 350px;
+    height: 300px;
+}
+
+.h1 {
+    color: white;
+}
+
+.p1 {
+    color: white;
+}
+
+.sub {
+    background-color: #d1e5f9;
+}
+
+.para1 {
+    font-weight: bold;
+}
+.para2 {
+    font-weight: bold;
+}
+.para3 {
+    font-weight: bold;
+}

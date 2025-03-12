@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    display:grid;
+    grid-template-rows:1fr 1fr 2fr 1fr;
+    grid-area: repaeat(auto-fit,minmax(100px));
+    
+}
+.headerContainer{
+    display:flex;
+    background-color:#000000;
+    color:#FFFFFF;
+    font-family: "Roboto";
+    padding:30px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+}
+@media screen and (min-width:992px){
+    .bars{
+        display:none;
+    }
+    .headerContainer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .home{
+        text-decoration:underline;
+        
+    }
+}
+@media screen and (max-width:991px){
+    .navbar{
+        display:none;
+    }
+    .header{
+        text-align:center;
+    }
+}
+.header{
+    text-align: center;
+}
+.content{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size:cover;
+    height:65vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: "Roboto";
+}
+.section{
+    background-color:#d4ffcc;
+    padding:40px;
+    gap:20px;
+}
+.image{
+    border-radius:80px;
+    width:150px;
+}
+.small{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.color{
+    color:#39ff14;
+}
+.sectionContainer{
+    background-color:white;
+    display:flex;
+    width:300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    border-radius:15px;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    color:#000000;
+    font-family: "Roboto";
+    padding:30px;
+}
+.hello{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+}
+@media screen and (min-width:992px){
+    .footer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

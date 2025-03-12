@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.h{
+    text-decoration: underline;
+}
+.bg{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    color: #ffffff;
+}
+.div2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.hr{
+    height: 10px;
+    width: 100px;
+    background-color: #39ff14;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 1000px;
+}
+.h2{
+    background-color: #d4ffcc;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    color: #000000;
+    padding: 20px;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.card{
+    background-color: #ffffff;
+    width: 300px;
+    height: 400px;
+    border-bottom-width: 7px;
+    border-color: #39ff14;
+    border-radius: 10px;
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+}
+.card2{
+    margin-left: 450px;
+}
+.footer{
+    margin-top: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    display: flex;
+    direction: rtl;
+    padding: 20px;
+}
+@media screen(min-width:576px){
+    .div1
+}

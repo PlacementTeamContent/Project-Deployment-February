@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    margin:0;
+    font-family:'Roboto';
+}
+.container{
+    height:100vh;
+}
+.navbar{
+    background-color:#1b262c;
+    height:10vh;
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+    padding-top:12px;
+    display:flex;
+    flex-direction:column;
+}
+.fa{
+    color:white;
+    align-self:flex-start;
+    margin-bottom:30px;
+    margin-left:20px;
+}
+.h1{
+    font-size:22px;
+    display:block;
+}
+.forcar{
+    background-image:url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+    background-size:cover;
+    height:50vh;
+    width:100%;
+    color:#ffffff;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    padding-top:40px;
+}
+.hr{
+    border-color:#bf00ff;
+    height:4px;
+    width:30%;
+    background-color:#bf00ff;
+    align-self:center;
+    margin:7px;
+}
+.forcarhead{
+    font-size:60px;
+    margin-top:40px;
+}
+.forcarpara{
+    font-size:20px;
+}
+.services{
+    height:190vh;
+    width:100%;
+    background-color:#f2ccff;
+    display:flex;
+    flex-direction:column;
+}
+.servicehead{
+    text-align:center;
+    padding:30px;
+    font-size:20px;
+}
+.servicehr{
+    border-color:#bf00ff;
+    height:2px;
+    width:13%;
+    background-color:#bf00ff;
+    align-self:center;
+    margin:7px 7px 30px 7px;
+}
+.serviceimg1{
+    border-radius:20px;
+    margin:13px;
+}
+.service1head{
+    margin-left:20px;
+    font-size:25px;
+    font-weight:900;
+}
+.service1para{
+    margin-left:20px;
+    font-weight:500;
+}
+.footer{
+    background-color:#ffffff;
+}
+.footele{
+    display:flex;
+    margin:20px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.footerpara{
+
+    margin-left:15px;
+}
+.footele2{
+    margin-top:60px;
+    text-align:center;
+    padding-bottom:130px;
+}
+.footh{
+    font-size:20px;
+}

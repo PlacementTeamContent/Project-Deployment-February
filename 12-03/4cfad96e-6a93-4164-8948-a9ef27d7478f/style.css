@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.bg-container{
+    height: 100%;
+    background-size: cover;
+}
+.body{
+    background-color: #808080;
+    color:White;
+    font-family: Caladea;
+    background-size: cover;
+    padding:7px;
+    text-align: center;
+    padding:3px;
+}
+.fa{
+    display: flex;
+    align-items: flex-start;
+    color:black;
+}
+.img-1{
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+.heading{
+    text-align: center;
+    color:black;
+}
+.serives{
+    background-color: #f7c1c1;
+    background-size: cover;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.img-2{
+    height:150px;
+    width:150px;
+    border-radius: 15px;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer{
+    padding:10px;
+}

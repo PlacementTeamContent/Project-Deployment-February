@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    margin:0px;
+}
+
+@media screen and (min-width:768px) {
+.main-container{
+   
+}
+.navbar{
+    height:10vh;
+    background-color:#008080;
+    display:flex;
+}
+.navitem1{
+    
+    font-family:"Roboto";
+   
+    align-self:center;
+}
+.item1{
+    display:flex;
+    margin-left:auto;
+    align-self:center;
+    gap:10px;
+    font-family:"Roboto";
+    color:white;
+    font-size:20px;
+}
+.navitem2{
+    display:flex;
+    color:white;
+    font-family:"Roboto";
+    font-size:40px;
+    align-self:center;
+    margin:10px;
+}
+.homehead{
+    text-decoration:underline;
+}
+.bg-container{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    height:80vh;
+    background-size:cover;
+}
+.line{
+    height:10px;
+    width:40%;
+    background-color:#008080;
+}
+.card{
+    height:60vh;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+.heading1{
+    font-size:60px;
+    font-family:'Roboto';
+}
+.para1{
+    font-size:25px;
+}
+.services{
+    height:80vh;
+    background-color:#ccffff;
+}
+.line2{
+    height:6px;
+    width:30%;
+    background-color:#008080;
+    
+    
+}
+.heading2{
+    font-size:50px;
+    font-family:"Roboto";
+}
+.servheading{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.card2{
+    height:40vh;
+    text-align:center;
+    font-family:"Roboto";
+}
+.image1{
+    height:200px;
+    width:200px;
+    border-radius:300px;
+}
+.big-card{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:30px;
+}
+.footer{
+    height:10vh;
+    background-color:#f9f9f9;
+    display:flex;
+}
+.navitem1{
+    font-family:"Roboto";
+   
+}
+.item1{
+    display:flex;
+    margin-left:auto;
+    align-self:center;
+    gap:10px;
+    font-family:"Roboto";
+    color:black;
+    font-size:20px;
+}
+.navitem2{
+    display:flex;
+    color:black;
+    flex-direction:column;
+    font-family:"Roboto";
+    font-size:20px;
+    justify-content:flex-start;
+    align-self:center;
+}
+}
+@media screen and (max-width:576px){
+    .main-container{
+   
+}
+.navbar{
+    height:10vh;
+    background-color:#008080;
+    display:flex;
+}
+.navitem1{
+    
+    font-family:"Roboto";
+   
+    align-self:center;
+}
+.item1{
+    display:flex;
+    margin-left:auto;
+    align-self:center;
+    gap:10px;
+    font-family:"Roboto";
+    color:white;
+    font-size:20px;
+}
+.navitem2{
+    display:flex;
+    color:white;
+    font-family:"Roboto";
+    font-size:10px;
+    align-self:center;
+    margin:10px;
+}
+.homehead{
+    text-decoration:underline;
+}
+.bg-container{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    height:80vh;
+    background-size:cover;
+}
+.line{
+    height:10px;
+    width:40%;
+    background-color:#008080;
+}
+.card{
+    height:20vh;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+.heading1{
+    font-size:60px;
+    font-family:'Roboto';
+}
+.para1{
+    font-size:25px;
+}
+.services{
+    height:120vh;
+    background-color:#ccffff;
+}
+.line2{
+    height:6px;
+    width:30%;
+    background-color:#008080;
+    
+    
+}
+.heading2{
+    font-size:50px;
+    font-family:"Roboto";
+}
+.servheading{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.card2{
+    height:30vh;
+    text-align:center;
+    font-family:"Roboto";
+    font-size:10px;
+}
+.image1{
+    height:100px;
+    width:100px;
+    border-radius:300px;
+}
+.big-card{
+
+    justify-content:center;
+    gap:50px;
+    margin-top:20px;
+}
+.footer{
+    height:10vh;
+    background-color:#f9f9f9;
+    display:flex;
+}
+.navitem1{
+    font-family:"Roboto";
+   
+}
+.item1{
+    display:flex;
+    margin-left:auto;
+    align-self:center;
+    gap:10px;
+    font-family:"Roboto";
+    color:black;
+    font-size:10px;
+}
+.navitem2{
+    display:flex;
+    color:black;
+    flex-direction:column;
+    font-family:"Roboto";
+    font-size:7px;
+    justify-content:flex-start;
+    align-self:center;
+}
+}

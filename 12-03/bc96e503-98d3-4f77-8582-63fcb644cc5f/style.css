@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar{
+    background-color: #1b262c;
+    height: 60px;
+    width: 140vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+    justify-content: flex-end;
+     display: flex;
+ gap: 5%;
+
+}
+.main-container{
+    color: white;
+     font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  
+}
+.body_1{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    height: 70vh;
+      width: 140vw;
+        text-align: center;
+        color: white;
+        
+    
+}
+.head_1{
+    color: white;
+     margin: auto;
+     text-align: center;
+     padding-top: 30vh;
+}
+.head_2{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    flex-wrap: wrap;
+    
+}
+.count{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.foot{
+   background-color: White;
+    height: 20vh;
+    width: 140vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+} 
+.serives{
+    background-color: #f2ccff;
+    height: 50vh;
+     width: 140vw;
+     padding-top: 7vh;
+}
+.container_1{
+    color: black;
+    font-size:18px;
+    font-weight: bold;
+    justify-content: flex-end;
+     display: flex;
+     gap: 10px;
+ padding-bottom: 30vh;
+  
+}
+.main-container_1{
+    color: black;
+     font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 30vh;
+  padding-bottom: 30vh;
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.head {
+    background-color: #3d3d3d;
+    width: 100vh;
+    height: 10vh;
+}
+
+i {
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.art {
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 30vh;
+}
+
+.con {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    height: 70vh;
+    margin-top: -2vh;
+}
+
+.ex {
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+.dis {
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.ser {
+    background-color: #e5e5e5;
+    height: 240vh;
+    margin-top: -6vh;
+}
+
+.er {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.div {
+    background-color: #FFFFFF;
+    height: 70vh;
+    width: 70vh;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+img {
+    border-radius: round;
+    height: 30vh;
+    padding-top: 10px;
+    padding-left: 10vh;
+}
+
+.artt {
+    text-align: center;
+    font-size: 30px;
+}
+
+.ou {
+    text-align: center;
+}
+
+.ho {
+    background-color: #3d3d3d;
+    height:20vh;
+}
+
+.hi {
+    color: #FFFFFF;
+    font-size:18px;
+    padding-top:10px;
+    text-align:center;
+}
+.ga {
+    color:#FFFFFF;
+    text-align:center;
+}

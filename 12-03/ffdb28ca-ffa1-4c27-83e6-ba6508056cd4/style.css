@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.nav-container {
+    background-color: #f9f9f9;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+.headd {
+    color: #f9f9f9;
+}
+
+.li {
+    color: #f9f9f9;
+    list-style-type: none;
+}
+
+@media screen and (max-width:576px) {
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+
+    .icon-container {
+        margin: 27px;
+        font-size: 25px;
+    }
+
+    .list-item {
+        display: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .background-image-container {
+        background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-container {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    hr {
+        height: 4px;
+        background-color: #1976d2;
+        width: 70px;
+    }
+
+    .foot-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mid-head {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "Roboto";
+    }
+
+    .mid-para {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Roboto";
+    }
+
+    .section2 {
+        background-color: #d1e5f9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .section-2 {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-head {
+        font-weight: bold;
+        font-family: "Roboto";
+        font-size: 25px;
+    }
+
+    .inner-para {
+        max-width: 460px;
+        font-family: "Roboto";
+    }
+
+    .footer {
+        background-color: #1b262c;
+    }
+
+}
+
+@media screen and (min-width:578px) {
+    .nav-container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .brand-name-container {
+        margin-bottom: 10px;
+    }
+
+    .icon-container {
+        display: none;
+        margin: 20px;
+        font-size: 25px;
+    }
+
+    .list-item {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    li {
+        margin: 10px;
+        font-family: "Roboto";
+
+    }
+
+    .footer {
+        background-color: #1b262c;
+    }
+
+    .background-image-container {
+        background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-container {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    hr {
+        height: 4px;
+        background-color: #1976d2;
+        width: 90px;
+    }
+
+    .mid-head {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "Roboto";
+    }
+
+    .mid-para {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Roboto";
+    }
+
+    .section2 {
+        background-color: #d1e5f9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .foot-container {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .section-2 {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .images {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-head {
+        font-weight: bold;
+        font-family: "Roboto";
+        font-size: 25px;
+    }
+
+    .inner-para {
+        max-width: 400px;
+        font-family: "Roboto";
+    }
+}

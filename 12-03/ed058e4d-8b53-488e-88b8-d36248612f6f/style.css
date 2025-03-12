@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg{
+    background-image:url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    height:100vh;
+    width:100vh;
+    background-size:cover;
+     padding: 20PX;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.bg-h1{
+    color:white;
+    margin-left:90px;
+
+}
+.bg>p{
+    margin-left:90px;
+}
+.bg-p{
+     color:white;
+     margin-left:90px;
+}
+.p{
+    height:10px;
+    width:100px;
+    background-color:#0A1525;
+}
+.service-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    background-color:#9F5353;
+    text-align:center;
+    height:200vh;
+    width:100vh;
+    padding:10px;
+}
+.card-h1{
+    font-weight: bold;
+    font-size:20px;
+}
+.card-p{
+    font-weight:bold;
+}
+.img{
+    height:150px;
+    width: 150px;
+    border-radius:75px;
+}
+.card{
+    background-color:#FFFFFF;
+    height:400px;
+    width:300px;
+    padding:30px;
+    margin:50px;
+}
+.footer{
+    text-align: center;
+    padding:20px;
+    width:100vh;
+}
+@media (min-width:768px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.a{
+    font-size:30px;
+    margin-left:5px;
+}
+.header{
+    background-color:#9F5353;
+    width:100vh;
+    color:white;
+    padding: 10px;
+}
+.head{
+    background-color:#9F5353;
+    width:100vh;
+    padding: 10px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width:786px){
+    .header{
+        display: none;
+    }
+}
+@media (max-width: 786px ){
+    .head{
+        display: none;
+    }
+    .bg{
+        filter:brightness(0.5);
+    }
+    .bg-h1{
+        color:white;
+
+    }
+    .bg-p{
+        color:white;
+    }
+}
+@media (max-width:786px){
+    .bg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        height:400vh;
+    }
+}

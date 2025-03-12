@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.main-container{
+    
+}
+.container{
+    text-align: center;
+    align-content: flex-start;
+}
+.heading{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    font-size: 20px;
+}
+.heaven{
+    
+}
+.image1{
+    height: 60vh;
+    width: 80vw;
+    text-align: center;
+    background-size: cover;
+}
+.head{
+    color: #f9f9f9;
+    font-family: "Roboto";
+}
+.services{
+    background-color: #d1e5f9;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.serv{
+    text-align: center;
+    padding: 25px;
+}
+.line{
+    background-color: #1976d2;
+    width: 15vw;
+    height: 5px;
+    
+}
+.image2{
+    border-radius: 30px;
+    width: 20vw;
+    height: 12vh;
+}
+.image3{
+    border-radius: 30px;
+    width: 20vw;
+    height: 12vh;
+}
+.image4{
+    border-radius: 30px;
+    width: 20vw;
+    height: 12vh;
+}
+.clothing-store{
+    background-color: #1b262c;
+    height: 100vh;
+    width: 100vw;
+}

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.navlink{
+    display:flex;
+    justify-content:space-between;
+    font-weight:bold;
+    background-color:white;
+}
+
+.navitems{
+    display:flex;
+    
+}
+
+.navitem{
+    margin-left:10px;
+    font-weight:bold;
+}
+
+.bgcontainer{
+    background-image:url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height:100vh;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+    color:white;
+    text-align:center;
+}
+
+.rod{
+    height:10px;
+    width:200px;
+    background-color:#1976d2;
+    align-self:center;
+    margin-bottom:10px;
+}
+
+.content1{
+    display:flex;
+}
+
+.cont{
+   display:flex;
+   flex-direction:column;
+   height:400px;
+   width:300px;
+   text-align:center;
+   margin-right:20px;
+   
+}
+
+.img{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    text-align:center;
+    align-self: center;
+}
+
+.contentsec{
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+}
+
+.cont2{
+    align-self: center;
+}
+
+.servicesection{
+    display:flex;
+    flex-direction: column;
+    background-color: #d1e5f9;
+}
+
+.heading2{
+    align-self:center;
+    margin-bottom:40px;
+}
+
+.fsec{
+    background-color:#1b262c;
+    color:white;
+    padding:20px;
+    
+}
+
+.navlink2{
+    background-color:#1b262c;
+}
+
+.

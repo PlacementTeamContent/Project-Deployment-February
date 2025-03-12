@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.nav{
+    background-color: #3d3d3d;
+    color: white;
+    font:"Times New Roman";
+    height:90px;
+    width:100vw;
+    font-size: 50px;
+    padding:20px;
+    background-size: cover;
+    
+}
+.artgallery{
+    font-family: "Times New Roman";
+    color: black;
+    font-size: 30px;
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg');
+    height:800px;
+    width:100vw;
+    padding: 500px;
+    
+}
+.ser{
+    background-color: #e5e5e5;
+    font-family: "serif";
+    
+}
+.card{
+    
+    font-family: "Sans-Serif";
+    background-color: white;
+    font-style: bold;
+    flex-column: 2fr 2fr;
+
+    
+}
+.foot{
+    background-color: #3d3d3d;
+    padding:50px;
+    color:white;
+}

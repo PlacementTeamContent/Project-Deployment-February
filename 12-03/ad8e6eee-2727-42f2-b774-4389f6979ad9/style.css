@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-bar-header{
+    background-color: #0A1525;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-heading{
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.paragraph{
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "Roboto";
+}
+.home-page-bg-cntainer{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-heading{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.home-paragraph{
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "Roboto";
+}
+.inbetween-container{
+    width: 130px;
+    height: 5px;
+    background-color: brown;
+    margin-left: 20px;
+}
+.Servicer-container{
+    background-color: pink;
+    height: 70vh;
+}
+.Servicer-container-heading{
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto";
+   text-align: center;
+   margin-top: 80px;
+}
+.inbetween-container2{
+    width: 130px;
+    height: 5px;
+    background-color: brown;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.card{
+    background-color: #ffffff;
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+    padding: 20px;
+    margin: 28px;
+}
+.Servicer-container-heading2{
+    color: black;
+    font-size: 22px;
+    font-family: "Roboto";
+}
+.Servicer-container-para{
+    color: black;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    background-color: #ffffff;
+    height: 20vh;
+}
+.heading{
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto";
+}
+.para{
+    color: black;
+}

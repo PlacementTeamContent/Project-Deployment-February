@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: Roboto;
+}
+.nav-b{
+    background-color:#000000 ;
+    color: white;
+    padding-left:20px;
+}
+.section-1{
+    background-image:url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg') ;
+    background-size:cover ;
+  
+   
+}
+#head1{
+     color: white;
+     padding: 100px;
+}
+.section-2{
+    background-color: #d4ffcc;
+    padding: 40px;
+}
+.card1{
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    padding-bottom:20px ;
+    margin: 20px;
+    
+}
+.imgee1{
+    
+    border-radius:10000px;
+    height: 200px;
+    width: 200px;
+}
+.foot{
+    background-color:#FFFFFF ;
+    padding: 50px;
+}
+.order-3{
+    text-align: right;
+}

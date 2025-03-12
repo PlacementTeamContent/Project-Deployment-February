@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.image-section{
+ background-image:url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+ height:100vh;
+ width:100vw;
+}
+.card-heading{
+    color:#f9f9f9;
+    font-family:roboto;
+    font-size:60px;
+    font-weight:900;
+}
+
+.card-button{
+    height:5px;
+    width:140px;
+    background-color:#1976d2;
+    border-width:0px;
+}
+.card-para{
+    color:#f9f9f9;
+    font-size:20px;
+}
+.page-2{
+    background-color:#d1e5f9;
+    height:100vh;
+    width:100vw;
+}
+.page-image{
+    border-radius:50%;
+    height:120px;
+}
+.header-2{
+    font-family:roboto;
+    color:#000000;
+}
+.para-2{
+    color:#000000;
+    font-size:30px;
+    font-weight:500;
+}
+.heading-3{
+    font-size:50px;
+    margin:29px;
+    text-align:center;
+    font-family:roboto;
+}

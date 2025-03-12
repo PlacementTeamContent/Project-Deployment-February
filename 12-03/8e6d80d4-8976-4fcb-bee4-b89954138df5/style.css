@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+header{
+    background-color:#87ceeb ;
+    display:grid;
+    grid-template-columns: 3fr 1fr
+}
+h4{
+    position: relative;
+    left:40px;
+}
+.h-div{
+    justify-content: end;
+    position:relative;
+    top:20px;
+    
+}
+.banner{
+    text-align:center;
+    padding:70px;
+    color:white;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    background-size:cover;
+    
+}
+.banner-p{
+    position: relative;
+    bottom:180px;
+}
+.line{
+    font-weight:bold;
+    color:#87ceeb;
+    font-size:100px;
+    position:relative;
+    bottom:130px;
+}
+.text-box{
+    position: relative;
+    top:40px;
+}
+.s-head{
+    text-align:center;
+}
+.sec-l{
+    position:relative;
+    bottom:35px;
+    font-weight:bold;
+    color:#87ceeb;
+}
+.card{
+    text-align:center;
+    margin:50px;
+    
+   
+}
+.services{
+
+}
+.s-card1{
+    display: flex;
+    padding:50px;
+}
+.tp{
+    position:relative;
+    bottom:15px;
+}
+img{
+    height:150px;
+    width:150px;
+    border-radius: 80px;
+    
+}
+footer{
+    background-color:#1b262c ;
+    color:white;
+}
+.cardsp{
+    position: relative;
+    bottom:20px;
+}
+a{
+    color:white;
+    margin:10px;
+}
+.f-b2{
+    display: flex;
+    justify-content: end;
+    position:relative;
+    bottom:50px;
+}
+.f-text{
+    margin:20px;
+    margin-top:20px;
+}
+.f-head{
+    position:relative;
+    top:20px;
+    
+}
+.f-p{
+    position:relative;
+    left:35px;
+}

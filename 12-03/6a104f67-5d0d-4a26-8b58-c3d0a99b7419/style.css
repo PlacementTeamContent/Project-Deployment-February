@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar{
+    justify-content: space-around;
+    background-color: #008080;
+    color: white;
+    display: flex;
+    font-family: "Roboto";
+}
+.nav-links{
+    text-decoration: underline;
+    
+}
+.main{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.main{
+    align-content: center;
+    text-align: center;
+}
+.main-head{
+    color: white;
+    font-family: "Roboto";
+}
+.hr{
+    height: 10px;
+    width: 120px;
+    border:solid;
+    background-color:#008080 ;
+    border-color: #008080;
+}
+.main-para{
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    font-family: "Roboto";
+}
+.services{
+    background-color: #ccffff;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    font-family: "Roboto";
+}
+.img{
+    border-radius: 50%;
+    height: 100px;
+}
+.hr2{
+    height: 1px;
+    width: 50px;
+    border:solid;
+    background-color:#008080 ;
+    border-color: #008080;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto";
+}
+.card-1{
+    margin: 20px ;
+    font-family: "Roboto";
+}
+.card-2{
+    margin: 20px ;
+    font-family: "Roboto";
+}
+.card-3{
+    margin: 20px ;
+    font-family: "Roboto";
+    justify-content: space-around;
+}
+.footer{
+    background-color: #f9f9f9;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto";
+}

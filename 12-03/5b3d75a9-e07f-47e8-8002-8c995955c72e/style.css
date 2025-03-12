@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #000000;
+    width: 100vh;
+    height: 10vh;
+}
+
+.navbarhead {
+    color: white;
+    font-size: 3vh;
+    display: flex;
+    justify-content: flex-start;
+    padding: 3vh;
+}
+
+.frontpage {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg');
+    width: 100vh;
+    height: 80vh;
+}
+
+.para {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 3vh;
+}
+
+.fpheading {
+    color: white;
+    font-size: 7vh;
+    display: flex;
+    justify-content: center;
+}

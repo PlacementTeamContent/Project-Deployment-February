@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    font-family: Roboto;
+    margin: 0;
+}
+.icon{
+    display: none;
+}
+.nav {
+    background-color: #008080;
+    padding: 10px;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-2 {
+    display: flex;
+    padding: 10px;
+}
+
+.head-1 {
+    color: white;
+    margin-left: 20px;
+}
+
+.p-1 {
+    color: white;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.p-2 {
+    color: white;
+}
+
+.page-1 {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1-1 {
+    padding: 20px;
+}
+
+.head-2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.hr-1 {
+    width: 30%;
+    background-color: #008080;
+    height: 15px;
+    border: none;
+    margin-left: 35%;
+
+}
+
+.head-3 {
+    color: white;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.page-2 {
+    background-color: #ccffff;
+    padding: 30px;
+}
+
+.p2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hr-2 {
+    border: none;
+    width: 20%;
+    height: 10px;
+    background-color: #008080;
+}
+
+.p2-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+}
+
+.img-1 {
+    border-radius: 1000px;
+    height: 70%;
+
+}
+
+.img-2 {
+    border-radius: 600px;
+    height: 70%;
+}
+
+.img-3 {
+    border-radius: 600px;
+    height: 70%;
+}
+
+.page-3{
+    display: flex;
+    justify-content: space-between;
+}
+.p3-1{
+    display: flex;
+    padding: 20px;
+}
+
+
+@media (max-width:768px){
+    .nav-2{
+        display: none;
+        
+    }
+    .nav-main{
+        justify-content: start;
+    }
+    .icon{
+        display: contents;
+        background-color: white;
+    }
+    .nav-logo{
+        margin-left:40%;
+    }
+    .p1-1{
+        margin-left:20%;
+    }
+    .page-3{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .p3-1{
+        order:0;
+    }
+    
+    
+}

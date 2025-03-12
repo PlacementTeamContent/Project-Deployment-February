@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: brown;
+}
+.nav-h{
+    color: #ffffff;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: "Roboto";
+}
+.fa{
+    font-size: 20px;
+    display: flex;
+    /* color: #ffffff; */
+}
+.background-img{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.head{
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    display: flex;
+    margin: 50px;
+    padding-top: 250px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.hr{
+    color: red;
+    width: 50vw;
+}
+.para{
+    color: #ffffff;
+    font-size: 45px;
+    padding-left: 30px;
+    margin: 20px;
+}
+.service-head{
+    color: #111111;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    /* text-align: center; */
+    margin: 20px;
+    padding-top: 140px;
+}
+.container{
+    background-color: pink;
+    height: 150vh;
+    width: 100vw;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    padding-top: 20px;
+    
+}
+.card{
+    background-color: #ffffff;
+    height: 500px;
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-heading{
+    color: #111111;
+    font-size: 39px;
+    min-width: 20px;
+    text-align: center;
+    font-family: "Roboto";
+    margin-left: 50px;
+}
+.paraing{
+    color: #111111;
+    font-size: 29px;
+    min-width: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.vag{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.home{
+    display: flex;
+    padding: 20px;
+}

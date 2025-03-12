@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+.flex{
+    display: flex;
+    background-color: #808080;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+.head{
+    color: white;
+    font-family: Caladea;
+}
+.div3{
+    display: flex;
+    gap: 15px;
+   
+}
+.lokesh{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style:  solid;
+    color: white;
+}
+.para{
+   color: white;
+}
+.div4{
+    padding: 90px;
+    text-align: center;
+    
+}
+.lokesh1{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    color: black;
+}
+.service{
+   padding: 10px;
+   
+}
+.bob1{
+    border-radius: 10px;
+    width: 100%;
+}
+.div5{
+     background-color: #f7c1c1;
+     text-align: center;
+     padding: 20px;
+     
+}
+.div7{
+    
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+.div8{
+    text-align: center;
+}
+.h1{
+    text-align: center;
+}
+
+@media (min-width:768px){
+    .service{
+        display: flex;
+        gap: 10px;
+    }
+     .div7{
+        justify-content: flex-end;
+    }
+    .div8{
+        justify-content: flex-start;
+        
+    }
+    
+   
+    
+}
+@media (max-width:576px){
+    .flex{
+        background-color: darkblue;
+    }
+}

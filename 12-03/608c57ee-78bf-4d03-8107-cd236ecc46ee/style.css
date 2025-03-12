@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.head{
+    background-color: #87ceeb;
+    height: 80px;
+}
+.head1{
+    text-align: center;
+    margin-bottom:20px;
+}
+.head2{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    height: 200px;
+    background-size:cover ;
+}
+.varun{
+    text-align: center;
+    padding: 30px;
+}
+.rohit{
+    text-align: center;
+    background-color: #FFFFFF
+}
+.roko{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.air{
+    background-color: #1b262c;
+    height: 200px;
+    text-align: center;
+}
+.water{
+    color: #ffffff;
+    padding: 13px;
+}
+.water1{
+    color: #ffffff;
+}

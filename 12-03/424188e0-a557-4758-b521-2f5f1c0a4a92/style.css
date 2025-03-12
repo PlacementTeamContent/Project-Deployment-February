@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.nav {
+    background-color: #87ceeb;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+a {
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media (min-width:992px) {
+    .main-con {
+        background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+        height: 100vh;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .head {
+        display: grid;
+        flex-direction: row;
+        place-items: center;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .degin {
+        margin: 30px;
+    }
+
+    .img {
+        height: 290px;
+        width: 290px;
+        border-radius: 200px;
+    }
+
+    .h1 {
+        font-weight: bold;
+    }
+
+    .p {
+        font-size: 20px;
+    }
+
+    footer {
+        background-color: #1b262c;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foot1 {
+        margin: 30px;
+    }
+
+    .foot2 {
+        margin: 50px;
+    }
+}
+
+@media (max-width:991px) {
+    .main-con {
+        background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+        height: 100vh;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .head {
+        display: grid;
+        flex-direction: row;
+        place-items: center;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .degin {
+        margin: 30px;
+        place-items: center;
+        text-align: center;
+    }
+
+    .img {
+        height: 290px;
+        width: 290px;
+        border-radius: 200px;
+    }
+
+    .h1 {
+        font-weight: bold;
+    }
+
+    .p {
+        font-size: 20px;
+    }
+
+    footer {
+        background-color: #1b262c;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foot1 {
+        margin: 30px;
+    }
+
+    .foot2 {
+        margin: 50px;
+    }
+}

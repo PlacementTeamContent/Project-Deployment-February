@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar,
+.footer {
+    display: flex;
+    background-color: #808080;
+    color: #FFFFFF;
+    font-family: "Caladea";
+}
+
+.nav-sections {
+    display: flex;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.front-page {
+    color: #FFFFFF;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Caladea";
+}
+
+.red-line {
+    background-color: red;
+    border-width: 0px;
+    width: 70px;
+    height: 3px;
+}
+
+.Services-section {
+    background-color: #f7c1c1;
+
+
+}
+
+.image-1 {
+    padding: 15px;
+    width: 30vw;
+}
+
+.img-1 {
+    width: 26vw;
+    border-radius: 10px;
+}
+
+.images-container {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .img-1 {
+        width: 90vw;
+    }
+
+    .image-1 {
+        padding: 15px;
+        width: 90vw;
+    }
+
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .Rights {
+        order: 1;
+    }
+
+    .footer-sections {
+        display: flex;
+
+    }
+}
+
+.footer {
+    background-color: white;
+    color: black;
+}

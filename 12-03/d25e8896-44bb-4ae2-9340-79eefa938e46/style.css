@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.top-container {
+    background-color: brown;
+    height: 10vh;
+}
+
+.head {
+    color: #ffffff;
+    font-family: "Caveat";
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.na {
+    color: #ffffff;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 10px;;
+}
+.ima{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    height: 40vh;
+    background-size: cover;
+    text-align: center;
+    background-color: transparent;
+}
+.heade{
+    color: white;
+    font-size: 50px;
+    margin: 1px;
+}
+.line{
+    color: brown;
+    margin: 16px;
+    font-size: 55px;
+}
+.para{
+    color: white;
+    margin: 16px;
+    font-size: 20px;
+}
+.card{
+    background-color: pink;
+    height: 170vh;
+    text-align: center;
+}
+.mai{
+    color: brown;
+}
+.laine{
+    color: brown;
+    margin: 6px;
+    font-size: 25px;
+}
+.cards{
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    height: 400px;
+    border-radius: 12px;
+}
+.photo{
+    height: 140px;
+    border-radius: 120px;
+    margin: 20px;
+}
+.hea{
+    font-family: "Roboto";
+}
+.last{
+    text-align: center;
+}

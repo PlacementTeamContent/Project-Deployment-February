@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar{
+    background-color: #1b262c;
+    height: 57px;
+    width: 180vw;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+}
+.nav-links{
+    gap: 40px;
+    padding: 12px;
+    text-decoration: none;
+    margin-right: 150px;
+}
+.Services{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.home{
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-right: 40px;
+}
+.car{
+    margin: 12px;
+}
+
+
+
+.section-1{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+    height: 100vh;
+    width: 180vw;
+    background-size: cover;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1-heading{
+    color: white;
+    font-family: Roboto;
+    font-size: 80px;
+}
+.line{
+    height: 1.5vh;
+    background-color: #bf00ff;
+    width: 25vw;
+}
+.dr{
+    color: white;
+    font-family: Roboto;
+    font-size: 40px;
+    
+}
+
+
+.section-2{
+    background-color: #f2ccff;
+    height: 48vh;
+    width: 180vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2-services{
+    padding-top: 19px;
+    text-align: center;
+}
+.line2{
+    height: 0.5vh;
+    background-color: #bf00ff;
+    width: 9vw;
+}
+.oil-change{
+    height: 190px;
+    border-radius: 12px;
+}
+.s1{
+    margin: 12px;
+}
+.lining{
+    display: flex;
+    
+}
+.head{
+    font-weight: bold;
+    font-family: Roboto;
+}
+.para{
+    font-family: Roboto;
+}.footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 12px;
+}
+.footers{
+    display: flex;
+    gap: 12px;
+    margin-right: 40px;
+}

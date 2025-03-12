@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.card-1{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg');
+    background-size:cover;
+    width:600px;
+    height: 300px;
+    padding:50px 60px;
+}
+.h1{
+  
+    font-size: 30px;
+   font-family: bold;
+}
+.p{
+    font-family: bold;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Serif ;
+}
+.card-2{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/108671/400_5ce853bd4d60a.jpg');
+    width: 150px;
+    height: 150px;
+    border-radius: 600px;
+}
+.h3{
+  
+}

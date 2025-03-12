@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.bg-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: #1b262c;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:576px){
+   .nav-items{
+       display: none;
+   }
+}
+.tt{
+    color:white;
+    margin: 50px;
+}
+.navhed{
+    color:#ffffff;
+    font-family:Roboto;
+    padding:15px 20px;
+}
+.nav-items{
+    display: flex;
+    margin:20px;
+}
+.nav-items li{
+    color: #ffffff;
+    list-style: none;
+    padding:20px;
+}
+.home{
+    text-decoration: underline;
+}
+.car-page{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    text-align: center;
+}
+.blue{
+    background-color:#f2ccff;
+    display: flex;
+    flex-direction:row;
+    padding:15px 20px;
+    gap:10px;
+}
+@media (max-width:576px){
+    .blue{
+        flex-direction: column;
+        
+    }
+  
+}
+
+.img{
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+}
+.head{
+    color:#000000;
+    font-family: Roboto;
+    font-weight: bold;
+   
+}
+.para{
+     color:#000000;
+    font-family: Roboto;
+  width: 70%;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foothed{
+    color:#000000;
+    font-family: Roboto;
+}
+.footpara{
+    color:#000000;
+    font-family: Roboto;
+}
+@media (max-width:576px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-items{
+        order:1;
+    }
+}

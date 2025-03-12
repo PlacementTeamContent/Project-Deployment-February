@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    padding: 150px;
+    font-family: "Roboto";
+}
+
+.head {
+    color: #FFFFFF;
+    padding: 50px;
+
+}
+
+.para1 {
+    color: #FFFFFF;
+    margin: 11px;
+}
+
+.bg1 {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 60vh;
+}
+.container1 {
+    text-align: center;
+}
+.bg2 {
+    background-color: #FFFFFF;
+}
+.container2 {
+    background-color: #1b262c;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: cover;
+    height: 50vh;
+    width: 99vh;
+    padding: 100px;
+}
+.btn {
+   color: #FFFFFF;
+   background-color: #1b262c;
+}
+.head1 {
+    color: black;
+}

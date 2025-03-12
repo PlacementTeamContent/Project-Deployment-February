@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header {
+    background-color: #f8dcbf;
+    height: 10vh;
+
+}
+
+.head1 {
+    color: white;
+    padding: 19px;
+}
+
+.cont_1 {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.cont_text {
+    color: white;
+    text-align: center;
+    font-family: "Roboto";
+}
+.brown_line{
+    text-align: center;
+}
+.page_2{
+    background-color: #f8dcbf;
+    height: 150vh;
+}
+.text_1{
+    color: black;
+    text-align: center;
+}
+.underline{
+    text-align: center;
+}
+.card_1{
+   background-color: white;
+   height: 260px;
+   width: 195px;
+   border-radius: 5px;
+   margin: 10px;
+}
+.img_c_1{
+    height: 140px;
+    width: 195px;
+}
+.text_2{
+    color: grey;
+    text-align: center;
+}

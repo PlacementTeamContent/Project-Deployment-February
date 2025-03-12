@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navcont {
+    background-color: #0A1525;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+
+}
+.servicemhead{
+    font-weight:200;
+}
+.headimgcont{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    height:400px;
+    background-size:cover;
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#FFFFFF;
+    font-family:"Roboto";
+    
+}
+.navhead {
+    color: #FFFFFF;
+    font-family:"Roboto";
+}
+.bg-container{
+    display:flex;
+    flex-direction:column;
+}
+.fa {
+    color: white;
+    display:flex;
+    align-items:center;
+    margin-right:150px;
+}
+.headimg{
+    height:500px;
+    width:100%;
+    font-family:"Roboto";
+}
+.servicescont{
+    background-color:#4B84F3;
+    height:100%;
+    display:grid;
+    /* grid-template-areas: repeat(auto-fit,minmax(300px,3fr)); */
+    
+    
+    
+}
+.servicemheadcont{
+    background-color: #4B84F3;
+}
+.bg-container{
+    display:flex;
+    flex-direction:column;
+}
+.servicemhead{
+    background-color:#4B84F3;
+    font-family:"Roboto";
+}
+@media screen and (min-width:992px){
+    .servicescont{
+        display:grid;
+        grid-template-areas: repeat(auto-fit,minmax(300px,3fr));
+    }
+    .headtext{
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        text-align:start;
+        font-family:"Roboto";
+        
+    }
+    .footer{
+        display:flex;
+        justify-content:space-between;
+        font-family:"Roboto";
+    }
+    .fh{
+        text-align: right;
+        margin-left:400px;
+        font-family:"Roboto";
+    }
+    .foot3{
+        display:flex;
+        flex-direction:column;
+    }
+    .servicescont{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+    
+    }
+    
+.servicessub{
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+    width:400px;
+    margin:30px;
+    border-radius:10px;
+    
+    
+}
+.subimg{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+}
+.para{
+    text-align:center;
+    font-family:"Roboto";
+}
+.servicemhead{
+    text-align:center;
+    font-family:"Roboto";
+}
+.footer2{
+    display:flex;
+    
+    justify-content:center;
+}
+.pf{
+    margin-right:7px;
+    font-family:"Roboto";
+}
+.fh{
+    text-align:center;
+    font-family:"Roboto";
+}
+.fpc{
+    text-align:center;
+    font-family:"Roboto";
+    
+}
+.footer{
+    background-color:#FFFFFF;
+}

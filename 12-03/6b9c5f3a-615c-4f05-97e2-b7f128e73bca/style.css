@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar1 {
+    background-color: white;
+    height: 10vh;
+}
+
+.c1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pot {
+    margin: 10px;
+}
+
+.pot1 {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.home {
+    display: flex;
+    padding: 20px;
+}
+
+.bck {
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    background-size: cover;
+    height: 500px;
+    /* font-family: Roboto; */
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clr {
+    color: #1976d2;
+    background-color: #1976d2;
+    height: 10px;
+    width: 150px;
+}
+
+.main2 {
+    background-color: #d1e5f9;
+    height: 990px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image12 {
+    border-radius: 80px;
+    height: 160px;
+    width: 150px;
+
+}
+
+.what {
+    font-size: 21px;
+
+}
+
+.personal1 {
+    background-color: #d1e5f9;
+    height: 30vh;
+    width: 40vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    font-family: Roboto;
+
+}
+
+.services1 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+}
+
+.main_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last {
+    background-color: #1b262c;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:10px) and (max-width:576px) {
+    .bck {
+        font-size: 10px;
+    }
+
+    .clr {
+        height: 4px;
+        width: 150px;
+        margin-bottom: 10px;
+        color:#d1e5f9;
+    }
+
+    .main2 {
+        height: 1230px;
+    }
+
+    .services1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .what {
+    font-size: 18px;
+    
+    
+}
+.personal1 {
+    height:40vh;
+}
+}

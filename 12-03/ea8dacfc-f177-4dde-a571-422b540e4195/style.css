@@ -1,0 +1,31 @@
+.background{
+    background-color: brown;
+    height: 80px;
+    padding: 10px;
+
+}
+.heading{
+    color: #FFFFFF;
+    
+}
+.heading1{
+    color: #FFFFFF;
+    text-align: right;
+}
+.backgroundimage{
+    
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height: 400px;
+    color: #FFFFFF;
+}
+.background1{
+    background-color: pink;
+    height: 1300px;
+}
+.text{
+    text-align: center;
+}
+.text1{
+    text-align: center;
+}

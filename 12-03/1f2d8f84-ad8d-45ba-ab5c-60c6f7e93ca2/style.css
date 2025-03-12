@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+}
+.home{
+    padding-right: 25px;
+}
+.serv{
+    padding-right: 25px;
+}
+.icon{
+    font-size: 30px;
+    padding-top: 20px!important;
+    padding-right: 5px ;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+    color: white;
+    font-family: "Roboto";
+    height: 700px;
+    background-size: cover;
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+.h11{
+    font-family: "Roboto";
+    font-size: 50px;
+}
+.h12{
+    font-size: 20px;
+}
+.line{
+    background: #1976d2;
+    height: 10px;
+    width: 90px;
+}
+.line1{
+    height: 7px;
+}
+.img1{
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.service{
+    background-color: #d1e5f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.new{
+    display: flex;
+}
+
+
+.service2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 70%;
+}
+.footer{
+    padding: 25px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.p111{
+    width: 80%;
+    align-items: center;
+}
+.foot1{
+    display: flex;
+}
+ .main{
+     align-content: center;
+        margin: 10px;
+    }
+.main1{
+        margin: 10px;
+    }
+@media (max-width:767px){
+    .hero{
+        height: 500px;
+        padding: 30px;
+    }
+    .navbar{
+        height: 65px;
+    }
+    .h11{
+        font-size: 40px;
+    }
+    .main{
+        margin: 10px;
+    }
+    .main1{
+        margin: 10px;
+        width: 85%;
+    }
+    .new{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .foot1{
+        order: 1;
+    }
+    .foot2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 2;
+    }
+    .para{
+        margin-top: -10px;
+    }
+}

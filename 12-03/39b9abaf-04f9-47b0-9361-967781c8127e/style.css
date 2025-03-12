@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #87ceeb;
+}
+
+.divv {
+    display: flex;
+    flex-direction: row;
+    
+
+
+
+}
+
+.mid-page {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.img1{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+.footer{
+    background-color: #1b262c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

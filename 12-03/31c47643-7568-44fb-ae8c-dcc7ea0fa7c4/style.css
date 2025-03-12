@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.nav{
+    background-color: #808080;
+    background-size: cover;
+    height: 15vh;
+    width: 100vw;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p{
+    margin-right: 10px;
+    font-family:Caladea;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.head{
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.bg{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    color: transparent;
+    text-decoration: underline #9f5353 5px;
+}
+.bg2{
+    background-color: #f7c1c1;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+.line2{
+    color: transparent;
+    text-decoration: underline #9f5353 3px;
+    text-align: center;
+}
+.p2{
+    font-size:40px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+.flex-items{
+    background-color: #f7c1c1;
+    background-size: cover;
+    height: 40vh;
+    width: 30vw;
+
+    
+}
+.img{
+    height: 20vh;
+    width:25vw;
+    border-radius: 20px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bg3{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.copy{
+    border: 1px solid black;
+    border-radius: 90px;
+}
+.footerp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p4{
+    margin-right: 5px;
+}
+.toggler{
+    margin-bottom: 10px;
+}
+.head1{
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+@media minwidth:576px and max-width: 767px{
+    .head{
+        text-align: center;
+    }
+    .toggler{
+        text-align: left;
+    }
+    .p{
+        display: none;
+    }
+    .bg2{
+    background-color: #f7c1c1;
+    background-size: cover;
+    height: 150vh;
+    width: 100vw;
+    }
+    .flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .bg3{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.mobile-view-nav {
+    background-color: #87ceeb;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-icon {
+    color: #000000;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.nav-heading {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin-left: 95px;
+    padding: 10px;
+}
+
+.about {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+.about-heading {
+    color: #FFFFFF;
+    text-shadow: 400px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.about-dash {
+    color: #87ceeb;
+    margin: 0px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-para {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 400px;
+}
+
+.services {
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.services-card {
+    text-align: center;
+    padding: 120px 30px;
+}
+
+.services-card-img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.services-card-para {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #1b262c;
+    padding: 50px 30px 90px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navigatio {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-navigation {
+    color: #FFFFFF;
+    margin: 8px;
+}
+
+.footer-heading {
+    color: #FFFFFF;
+}
+
+.Copywright {
+    color: #FFFFFF;
+}

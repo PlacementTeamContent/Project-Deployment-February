@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar {
+    display: flex;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+
+}
+
+@media (min-width:768px) {
+    .btns {
+        margin-left: auto;
+    }
+
+    .li {
+
+        font-family: Roboto;
+        color: #1b262c;
+        margin-right: 10px;
+    }
+
+    .hambmenu {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .list {
+        display: none;
+    }
+
+    .logo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+.bg-container {
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height: 60vh;
+    background-size: cover;
+    color: white;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    width: 300px;
+    height: 10px;
+    background-color: #1976d2;
+    border-radius: 10px;
+}
+
+.services {
+    background-color: #d1e5f9;
+}
+
+.bar1 {
+    width: 120px;
+    height: 10px;
+    background-color: #1976d2;
+    border-radius: 10px;
+}
+
+.img {
+    border-radius: 150px;
+    width: 150px;
+    height:150px;
+}
+
+.footer {
+    background-color: #1b262c;
+    color: white;
+    font-family: Roboto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.list1 {
+    list-style: none;
+    display: flex;
+}
+.card-cont{
+    margin-top: 50px;
+}
+@media (min-width:768px) {
+    .card-cont {
+        display: flex;
+        /* grid-template-columns: repeat(3, minmax(250px, 1fr)); */
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
+@media(max-width:768px){
+    .services{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+.head-s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-head{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card{
+    width: 500px;
+}
+
+.li1{
+    color: white;
+    margin-right: 10px;
+}

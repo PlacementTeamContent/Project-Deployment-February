@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #87ceeb;
+    color: #1b262c;
+    font-family: "Roboto";
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.card-container {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.container-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    color: #FFFFFF;
+    font-style: bold;
+}
+
+.service-container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.service-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    color: #1b262c;
+    font-style: bold;
+    border: 40px;
+}
+
+.foot-container {
+    background-color: #1b262c;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.foot-elements {
+    color: #FFFFFF;
+
+}

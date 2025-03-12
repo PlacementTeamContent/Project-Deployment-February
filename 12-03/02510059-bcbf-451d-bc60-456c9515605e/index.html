@@ -1,0 +1,82 @@
+<!--   build a cleen, responsive landing page inspired by the output. use HTML,CSS to replicate the design layout, sections, Ensure responsiveness across desktop and mobile views.
+  
+  output:
+  desktop view:https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/placement-happenings/webcodingLink/carservices-desktop.png
+  
+  mobile view:https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/placement-happenings/webcodingLink/carservices-mobile.png
+  
+  use the image URLs given below.
+  https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg
+  https://images.cdn-files-a.com/ready_uploads/media/92445/400_5ce7bf35c3835.jpg
+  https://images.cdn-files-a.com/ready_uploads/media/7820187/400_6008bb55b5f04.jpg
+  https://images.cdn-files-a.com/ready_uploads/media/11356724/400_64246ad1527f5.jpg
+  
+  try to achive the design as per the output.
+  design specificaiton
+  1 color palette #1b262c dark grey(header background
+  #FFFFFF WHITE (CARD AND FOOTER BACKGROUND)
+  #bf00ff purple (secondary color)
+  font "Roboto
+  font colors: white(#FFFFFF),black(#000000)
+  copy Rights (hexvalue): &#x00a9
+  
+  technologies: HTML,CSS 
+  
+  use thislinks in your Html header <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <i class="fa fa-bars"></i>
+  you can achive the design usegung only HTML and CSS.
+  Utilize CSS Grid media queries for responsive design.
+   -->
+    
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Car Services</h1>
+            <i class="fa fa-bars"></i>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Reliable Car Repair & Maintenance</h2>
+        <p>Get your car serviced by professionals with top-notch quality.</p>
+    </section>
+    
+    <section class="services">
+        <div class="service-card">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg" alt="Service 1">
+            <h3>Engine Repair</h3>
+        </div>
+        <div class="service-card">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/92445/400_5ce7bf35c3835.jpg" alt="Service 2">
+            <h3>Oil Change</h3>
+        </div>
+        <div class="service-card">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/7820187/400_6008bb55b5f04.jpg" alt="Service 3">
+            <h3>Brake Service</h3>
+        </div>
+        <div class="service-card">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/11356724/400_64246ad1527f5.jpg" alt="Service 4">
+            <h3>Battery Replacement</h3>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&#x00a9; 2025 Car Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>

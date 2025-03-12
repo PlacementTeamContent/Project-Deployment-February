@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.header{
+    background-color:#ffffff;
+    height:5vh;
+    width:50vh;
+    
+}
+.brandlogo{
+    display:flex;
+    flex-direction:row;
+    margin-top:22px;
+   
+}
+.heading{
+    font-size:22px;
+    padding:5px;
+    margin-top:10px;
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+    justify-content:center;
+}
+.container{
+    background-image:url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    background-size:cover;
+    height:40vh;
+    width:50vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:0px;
+   
+}
+.head1{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:28px;
+}
+.head2{
+    background-color:#1976d2;
+    height:3px;
+    width:70px;
+}
+.para1{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:15px;
+}
+.cardssection{
+    background-color:#d1e5f9;
+    height:115vh;
+    width:50vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.img1{
+    height:10vh;
+    width:10vh;
+    border-radius:50px;
+   
+}
+.section3{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+.head3{
+    font-family:"Roboto";
+    color:#000000;
+    font-style:normal;
+    font-weight:200;
+}
+.head4{
+    font-size:22px;
+}
+.para4{
+    margin:10px;
+}
+.section4{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+.section5{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+.footer{
+    background-color:#1b262c;
+    height:30vh;
+    width:50vh;
+    display:flex;
+    flex-direction:column;
+     justify-content:center;
+    align-items:center;
+}
+.fot{
+    color:#ffffff;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+}
+.fot1{
+    color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+@media (min-height:992px){
+   .brandlogo{
+       display:flex;
+       flex-direction:column;
+       margin-top:22px;
+}
+    .cardssection{
+    background-color:#d1e5f9;
+    height:115vh;
+    width:50vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.img1{
+    height:10vh;
+    width:10vh;
+    border-radius:50px;
+   
+}
+.section3{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+.head3{
+    font-family:"Roboto";
+    color:#000000;
+    font-style:normal;
+    font-weight:200;
+}
+.head4{
+    font-size:22px;
+}
+.para4{
+    margin:10px;
+}
+.section4{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+.section5{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+}

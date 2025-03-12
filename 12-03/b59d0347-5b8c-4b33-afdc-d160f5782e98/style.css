@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+    margin: 0px;
+}
+
+
+.navbar {
+    background-color: #000000;
+    height: 90px;
+}
+.nav-heading {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 30px;
+}
+.background {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    height: 70vh;
+    background-size: cover;
+}
+.text1 {
+    color: white;
+   
+    
+}
+.textn {
+    color: white;
+    font-size: 19px;
+}
+.line-g{
+    color: #39ff14;
+}
+.img-text {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    color: white;
+}
+.main-body{
+    background-color: #d4ffcc;
+}
+.body-heading {
+    text-align: center;
+    padding: 30px;
+}
+.card1 {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 50px;
+    gap: 20px;
+}
+.img-card-1{
+    border-radius: 60px;
+}
+.page-end {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+}

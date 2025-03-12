@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.bg-content {
+    background-color: #008080;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.para {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bg-para {
+    text-decoration: underline;
+}
+
+.bg-content01 {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    padding: 10px;
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-head {
+    font-size: 44px;
+
+    text-align: center;
+}
+@media (max-width:576px){
+      .guna{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+}
+
+.para {
+
+    font-size: 18px;
+}
+
+
+.image {
+    height: 24vh;
+    width: 20vw;
+    border-radius: 88px;
+     text-align: center;
+}
+.image01{
+    height: 24vh;
+    width: 20vw;
+    border-radius: 88px;
+   
+}
+.bg-content04{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ram{
+       display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.p{
+    padding-right: 10px;
+}
+.bg-content03{
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.bg-content02{
+    background-color: #ccffff;
+    padding: 10px;
+}
+.bg-heading01{
+    text-align: center;
+    font-family: Roboto;
+}
+
+.guna {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bg-heading02{
+    font-size: 18px;
+     text-align: center;
+}
+.bg-para02{
+   text-align: center;
+}

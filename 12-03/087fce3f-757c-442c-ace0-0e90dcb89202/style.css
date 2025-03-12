@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.nav {
+    background-color: #0A1525;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+
+}
+
+.head {
+    color: #ffffff;
+}
+.bar {
+    color: white;
+   align-items: center;
+}
+.head2 {
+     color: #ffffff;
+     display: none;
+     
+}
+.home {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.home_ser {
+    color: #ffffff;
+}
+
+.h_s {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.head1 {
+    color: #ffffff;
+
+    font-family: "Roboto";
+
+}
+
+.para {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.Serivices {
+    background-color: lightpink;
+
+    padding: 20px;
+}
+
+.ser_head {
+    text-align: center;
+    font-family: "Roboto";
+
+}
+
+.card {
+    background-color: white;
+
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.img {
+    height: 150px;
+    border-radius: 100px;
+
+}
+
+.card_head {
+    font-family: "Roboto";
+
+}
+
+.card1 {
+    background-color: white;
+
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.para_head {
+    font-family: "Roboto";
+}
+.footer{
+    background-color:white;
+    text-align: center;
+}
+.home_footer {
+    font-family: "Roboto";
+    text-align: center;
+}
+.f_hs {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.com_name {
+    font-family: "Roboto";
+}
+@media screen and (min-width:600px) {
+    .nav {
+       background-color: #0A1525;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between; 
+    }
+    .bar {
+    color: #ffffff;
+    display: none;
+    
+    }
+    .head2 {
+         color: #ffffff;
+         display: flex;
+          
+         
+    }
+    .header {
+        background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+
+        background-size: cover;
+        display: grid;
+        justify-content: center;
+        justify-items: start;
+        align-items: center;
+
+    }
+
+    .total_cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .card1 {
+        /* align-self: center; */
+        justify-self: center;
+        align-self: center;
+
+    }
+    .footer {
+        background-color:white;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .f_hs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+    }
+    .c_c {
+        order:-1;
+    }
+}

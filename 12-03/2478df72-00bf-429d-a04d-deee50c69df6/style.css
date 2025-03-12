@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    margin: 0;
+    font-family: "Roboto";
+}
+.navbar, .items, .footer{
+    display: flex;
+    justify-content:space-between;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    background-size: cover;
+    color: white;
+    padding: 70px;
+}
+.hero-container h4{
+    display: grid;
+    place-self: center;
+}
+.styling-line{
+    display: grid;
+    place-self: center;
+    width: 130px;
+    height: 7px;
+    background-color: #1976d2;
+}
+
+.content-container{
+    background-color: #d1e5f9;
+    width: 99.85vw;
+}
+.content-container, .services{
+    display:grid;
+    justify-self: center;
+}
+.styling-line2{
+    display: grid;
+    place-self: center;
+    width: 60px;
+    height: 4px;
+    background-color: #1976d2;
+}
+.image-styling{
+    height: 100px;
+    border-radius: 50px;
+    width: 100px;
+}
+.card-grid{
+    display:grid;
+    justify-items: center;
+    padding:30px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #008080;
+            padding: 15px 50px;
+            height: 100px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 34px;
+            font-weight: bold;
+            
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 28px;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            /* color: #f4a261; */
+            text-decoration: underline;
+        }
+        .container{
+            /* display: flex; */
+            /* justify-content: center;
+            align-items:; */
+            background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+            background-size: cover;
+            
+            height: 100vh;
+            font-family: "Roboto";
+        }
+        .con-h1{
+            text-align: center;
+            margin: auto;
+            text-shadow: 5px;
+            font-size: 70px;
+            color: #FFFFFF;
+            padding-top: 25% ;
+        }
+        .con-p{
+            text-align: center;
+            margin: auto;
+            text-shadow: 5px;
+            font-size: 30px;
+            color: #FFFFFF;
+            padding-top: 15% ;
+        }
+        .empty-line{
+            border-width: 5px;
+            width: 30px;
+            height: 0px;
+            border-color:#008080 ;
+        }
+        .services{
+            background-color: #ccffff;
+            height:85vh;
+            text-align: center;
+        }
+        .services-pro{
+            display: flex;
+        }
+        .ser-img{
+            border-radius: 100px;
+            padding-top: 20px;
+            width: 200px;
+        }
+        .ser-h1{
+            font-weight: bold;
+            padding-top: 15px;
+        }
+        .ser-p{
+            font-size: 25px;
+            padding-top: 15px;
+        }
+        .pro-last{
+            padding: 60px;
+        }
+        .foot-last{
+            display: flex;
+            font-size: 20px;
+        }
+        footer{
+           height: 15vh; 
+        }
+        .foot-first{
+            padding: 30px;
+        }
+        .foot-first h1{
+            padding-bottom: 20px;
+        }
+        .foot-first p{
+            font-size: 20px;
+        }
+        .foot-last p {
+            padding-top: 30px;
+            padding-right: 20px;
+        }

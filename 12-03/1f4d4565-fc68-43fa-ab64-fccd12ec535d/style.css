@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    background-color: #000000;
+    color: white;
+    height: 100px;
+}
+.home{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.main{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size: cover;
+    color: white;
+    padding: 190px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto";
+}
+.green-line{
+    width: 200px;
+    height: 10px;
+    background-color: #39ff14;
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+.bg{
+    background-color: #d4ffcc;
+    text-align: center;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.card-1{
+    width: 200px;
+    height: 300px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    border-bottom:  solid #39ff14 5px;
+}
+.footer{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}

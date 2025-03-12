@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size: cover;
+}
+
+.main-heading {
+    color: white;
+    padding-left: 100px;
+    padding-top: 150px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.para1 {
+    color: white;
+    padding-left: 120px;
+    padding-top: 150px;
+    font-size: 20px;
+}
+
+
+
+
+.bg2 {
+    height: 180vh;
+    width: 100vw;
+    background-color: #d4ffcc;
+}
+
+.main-heading2 {
+    text-align: center;
+    font-family: "Roboto";
+}
+
+
+.card {
+    height: 400px;
+    width: 250px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 40px;
+    margin: 20px;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.main-heading3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.para2{
+    font-size: 15px;
+    text-align: center;
+}

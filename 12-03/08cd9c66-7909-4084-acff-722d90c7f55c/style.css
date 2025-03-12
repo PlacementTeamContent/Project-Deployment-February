@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.nav{
+    background-color:#808080;
+    display:flex;
+    align-items: center;
+    padding:10px;
+}
+.nav-head{
+    color:#FFFFFF;
+    font-family: "Caladea";
+}
+.items{
+    color:#FFFFFF;
+    font-family: "Caladea";
+    margin:10px;
+}
+.fa{
+    color:#FFFFFF;
+    font-size:30px;
+}
+.page1{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    background-size:cover;
+    height:50vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.page1-head{
+    color:#FFFFFF;
+    font-family: "Caladea";
+    font-size:50px;
+}
+.page1-para{
+    color:#FFFFFF;
+    font-family: "Caladea";
+    font-size:20px;
+}
+hr{
+    color:red;
+}
+.page3{
+    background-color:#f7c1c1;
+    padding:10px;
+}
+.page3-head{
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+    font-family: "Caladea";
+    text-align: center;
+}
+.card-head{
+    color:black;
+    font-size:25px;
+    font-family: "Caladea";
+}
+.card-para{
+    color:black;
+    font-size:19px;
+    font-family: "Caladea";
+}
+.footer{
+    background-color:#FFFFFF;
+}
+.content{
+    display:flex;
+    font-family: "Caladea";
+}
+.footer-head{
+    font-size: 30px;
+    text-align: center;
+}
+.footer-para{
+    font-size:20px;
+    margin:10px;
+}
+@media screen and (max-Width:768px){
+    .items{
+        display:none;
+    }
+    .fa{
+        margin:20px;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .img{
+        width:80vw;
+        height:300px;
+        border-radius:10px;
+    }
+    .card-items{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+      padding:10px;  
+    }
+    .footer{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        padding:50px;
+    }
+}   
+@media screen and (min-Width:769px){
+    .nav-bar{
+        display:none;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .nav-icons{
+        margin:10px;
+        display:flex;
+    }
+    .nav-head{
+        margin:20px;
+    }
+    .card-items{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:15px;
+        justify-content:center;
+        align-content:center;
+        padding:20px;
+    }
+    .img{
+      width:300px;
+      border-radius:10px;
+    }
+    .footer{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding:50px;
+    }
+    .content{
+        order:2;
+    }
+    .footer-head{
+        text-align: start;
+        margin:12px;
+    }
+}

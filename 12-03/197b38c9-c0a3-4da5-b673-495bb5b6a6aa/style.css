@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.head {
+    text-align: center;
+    align-content: flex-start;
+    color: white;
+}
+.bg-container {
+    background-color: #3d3d3d;
+}
+.fa {
+    color: white;
+}
+.container {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    height:50vh;
+}
+.h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    padding-top:30px;
+}
+.para{
+    font-weight: bold;
+    text-align: center;
+}
+.card{
+    background-color: #e5e5e5;
+}
+.h2{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.card2{
+    background-color: white;
+    height: 43vh;
+    width:300px;
+    margin:10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    display:grid;
+}
+.img{
+    width:150px;
+    margin:10px;
+    border-radius: 100px;
+}
+.card3{
+    background-color: white;
+    height: 43vh;
+    width:300px;
+    margin:10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+}
+.card4{
+    background-color: white;
+    height: 43vh;
+    width:300px;
+    margin:10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    display:grid;
+}
+.card5{
+    background-color: #3d3d3d;
+    color:white;
+}
+.p2{
+    color:white;
+    text-align: center;
+    align-content: space-around;
+}
+.p3{
+    color:white;
+    text-align: center;
+    align-content: space-around;
+}
+.p4{
+    color:white;
+    text-align: center;
+    align-content: space-around;
+}

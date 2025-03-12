@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.bg-container {
+    background-color: #f8dcbf;
+    height: 300vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.heading {
+    color: #ffffff;
+
+}
+
+.card {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+}
+
+.para {
+    color: #ffffff;
+
+}
+
+.heading2 {
+    text-align: center;
+    font-family: roboto;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.card2 {
+    background-color: white;
+    margin: 20px;
+    width: 70vw;
+    background-size: cover;
+
+}
+
+.card3 {
+    background-color: white;
+    margin: 20px;
+    width: 70vw;
+    background-size: cover;
+}
+
+.card4 {
+    background-color: white;
+    margin: 20px;
+    width: 70vw;
+    background-size: cover;
+}
+
+.heading3 {
+    text-align: center;
+
+}
+
+.para2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+    border-radius: 150px;
+}
+.container2{
+    background-color: #000000;
+    background-size:cover;
+    
+}
+.h1{
+    padding:20px;
+}

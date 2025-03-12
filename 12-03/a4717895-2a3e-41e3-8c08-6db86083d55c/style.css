@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* .in{
+    font-family: Roboto;
+}
+.Home{
+    text-decoration: underline;
+    align-content: space-between;
+}
+.clothing{
+    display: flex;
+    
+    align-content: space-between;
+}
+.ground{
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    height: 50vh;
+    background-size: cover;
+}
+.welcome{
+    color: white;
+     font-family: "Roboto";
+    font-weight: Bold;
+}
+.li{
+    color: #1976d2;
+    
+}
+.Fashion{
+    color: white;
+   
+}
+.ground{
+ text-align:  center;   
+ border: 200px;
+ padding-top: 350px;
+}
+.cloth{
+    background-color: #d1e5f9;
+    background-size: cover;
+    height: 100vh;
+}
+.img1{
+    border-radius: 1000px;
+    height: 200px;
+    width: 200px;
+}
+.pp{
+    text-align: center;
+}
+.cloth{
+    border: 0px;
+    display: flex-wrap;
+}
+.p11{
+     font-family: "Roboto";
+    font-weight: Bold;
+}
+.p1{
+     font-family: "Roboto";
+    font-weight: Bold;
+}
+.bottom{
+    background-color: #1b262c;
+    background-size: cover;
+    height: 150px;
+}.copy{
+    color: white;
+} */
+
+.mm{
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/placement-happenings/webcodingLink/clothingStore-desktop.png');
+    background-size: cover;
+    height: 100vh;
+}

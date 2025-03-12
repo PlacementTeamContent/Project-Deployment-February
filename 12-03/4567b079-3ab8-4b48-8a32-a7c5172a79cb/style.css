@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media(max-width:767px){
+    .navbar{
+    background-color:#87ceeb ;
+    height: 8vh;
+    }
+    .icon{
+     padding-left: 10px;
+     padding-top: 10px;
+    }
+    .furn{
+        text-align: center;
+        margin-bottom:  20px;
+    }
+    .imgpad{
+        padding: 15px;
+    }
+    .second{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    height: 35vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    }
+    .img{
+    height: 150px;
+    border-radius: 100px;
+    width: 150px;
+    }
+    .third{
+  text-align: center;
+    }
+    .foot{
+    color: white;
+    background-color: black;
+    text-align: center;
+    }
+    hr{
+    width: 30vw;
+    font-weight: bold;
+    background-color:#87ceeb ;
+    }
+    .homser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2px;
+    }
+    .rit{
+        display: none;
+    }
+    .ll{
+        margin-left: 10px;
+        padding-right: 20px;
+    }
+}
+@media(min-width:768px){
+    .navbar{
+    background-color:#87ceeb ;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    }
+    .rit{
+        display: flex;
+    }
+    .hh{
+        padding-right: 15px;
+    }
+    .icon{
+     padding-left: 10px;
+     padding-top: 10px;
+     display: none;
+    }
+    .furn{
+        text-align: left;
+    }
+   
+    .imgpad{
+        padding: 15px;
+    }
+    .second{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    height: 35vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    }
+    .img{
+    height: 150px;
+    border-radius: 100px;
+    width: 150px;
+    }
+    .third{
+      text-align: center;
+    } 
+    .thirdd{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .homstag{
+        grid-column: 1/3;
+    }
+    .foot{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    }
+    hr{
+    width: 30vw;
+    font-weight: bold;
+    background-color:#87ceeb ;
+    }
+    .homser{
+    display: flex;
+    margin: 2px;
+    }
+    .ll{
+        margin-left: 10px;
+        padding-right: 20px;
+    }
+}

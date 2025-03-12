@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #008080;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.heading {
+    color: #FFFFFF;
+    font-family: "Roboto";
+    margin-top: 10px;
+}
+
+.para {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: bold;
+}
+
+.container {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+
+.heading-1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: bold;
+    font-family: "Roboto";
+    padding-top: 180px;
+}
+
+.para-1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: bold;
+    font-family: "Roboto";
+    padding-top: 20px;
+}
+
+hr {
+    height: 1vh;
+    width: 20vw;
+    text-align: center;
+    margin-left: 460px;
+    margin-top: 20px;
+    background-color: #008080;
+    border-color: #008080;
+}
+
+.container-1 {
+    background-color: #ccffff;
+    background-size: cover;
+    height: 100%;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: black;
+    font-family: "Roboto";
+    font-size: bold;
+}
+
+.para-2 {
+    font-family: "Roboto";
+    font-size: bold;
+}
+
+.con {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading-2 {
+    text-align: center;
+    color: black;
+}
+
+.card {
+    background-color: #f9f9f9;
+    background-size: cover;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: black;
+    font-family: "Roboto";
+    margin-top: 10px;
+}
+
+.par {
+    margin-top: 20px;
+    color: black;
+    font-family: "Roboto";
+    font-size: bold;
+}
+
+@media(max-width:768px) {
+    .container-2 {
+        flex-direction: column;
+        align-items: space-around;
+    }
+
+    hr {
+        margin-left: 300px;
+    }
+
+    .image {
+        width: 40vw;
+    }
+}

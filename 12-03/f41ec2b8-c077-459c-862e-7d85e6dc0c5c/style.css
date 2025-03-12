@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+header{
+    background-color:brown;
+     display:flex;
+     justify-content: space-between;
+     
+}
+.h{
+    color:white;
+    font-family:"Roboto";
+    font-size:17px;
+}
+.icon{
+    color:white;
+    font-size:30px;
+    margin-top:18px;
+    margin-left:10px;
+    
+}
+.heading{
+   color:white;
+   font-weight: bold;
+   font-size:23px;
+   font-family: "Roboto";
+  
+   
+}
+.sub-container{
+    background-image:url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    background-size:cover;
+    height:70vh;
+   
+}
+.line{
+    border:solid 6px brown;
+    width:80px;
+}
+.skyward-heading{
+    color:white;
+    font-family:"Roboto";
+    font-size:50px;
+    font-weight:bold;
+}
+.sky-para{
+    color:white;
+    font-size:30px;
+}
+.sub-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.cards-container{
+    background-color:lightpink;
+    height:150vh;
+    
+}
+.grid-con{
+    display:grid;
+    grid-template-columns:1fr;
+    
+    gap:30px;
+}
+.card1{
+    background-color: white;
+    border-radius:5px;
+    margin:10px;
+   /*  height:300px;
+   width:260px; */
+    text-align:center;
+    justify-content:center;
+    align-content:center;
+    border-bottom:solid 3px brown;
+}
+.image{
+    height:150px;
+    width:150px;
+    border-radius:90px;
+    margin-top:20px;
+}
+.text{
+    color:white;
+    text-align:center;
+    
+}
+.j{
+    display:flex;
+   justify-content:center;
+   align-items:center;
+   gap:15px;
+}
+.aero{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+     align-items:center;
+}
+@media screen and (min-width:768px){
+    .grid-con{
+        display:grid;
+        grid-template-columns:1fr 1fr ;
+        grid-template-rows:1fr 1fr;
+        place-content:center;
+    }
+    .cards-container{
+        height:80vh;
+    }
+    
+   .footer{
+        display:flex;
+        justify-content:space-between;
+        
+    }
+}

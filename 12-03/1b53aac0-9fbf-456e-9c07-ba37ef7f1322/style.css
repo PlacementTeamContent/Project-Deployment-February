@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: Brown;
+    
+}
+.Aerospace{
+    font-family: Roboto;
+    font-size: 25px;
+    
+}
+.list{
+      display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.main-container {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    background-size: cover;
+    height: 450px;
+    width: 550px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.Skyward {
+    width: 6px;
+}
+
+.line {
+    height: 5px;
+    width: 75px;
+    background-color: Brown;
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header{
+    background-color: #008080;
+}
+.home{
+    text-align: end;
+}
+.services{
+    text-align: end;
+}
+.landing{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    text-align: center;
+    color: white;
+    font: Roboto;
+}
+.servicez{
+    background-color: #ccffff;
+}
+
+.service{
+    border-radius: 120px;
+    height: 150px;
+    width: 150px;
+}

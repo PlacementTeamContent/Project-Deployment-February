@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav{
+    background-color:#87ceeb ;
+    margin:0px;
+    height:100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+.h{
+ font-weight: bold;
+ text-decoration: underline;
+}
+.container{
+   background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+   background-size: cover;
+   height:500px;
+   margin:0px;
+   color:#FFFFFF;
+   display:flex;
+   align-items:  center;
+   flex-direction: column;
+   justify-content: center;
+   
+   font-weight: bold;
+    
+}
+.heading{
+    font-size: 60px;
+  
+}
+hr{
+    height:10px;
+    width:150px;
+    background-color:#87ceeb;
+  
+    
+}
+.paragraph{
+    font-size: 20px;
+}
+@media screen and (max-width:576px){
+    .nav{
+    background-color:#87ceeb ;
+    margin:0px;
+    height:100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+    .h{
+       display: none; 
+    }
+    .para{
+       display:none; 
+    }
+    i{
+      font-size: 30px;
+    }
+    .container{
+   background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+   background-size: cover;
+   height:200px;
+   margin:0px;
+   color:#FFFFFF;
+   display:flex;
+   align-items:  center;
+   flex-direction: column;
+   justify-content: center;
+   
+   font-weight: bold;
+    
+}
+.heading{
+    font-size: 40px;
+  
+}
+hr{
+    height:5px;
+    width:150px;
+    background-color:#87ceeb;
+  
+    
+}
+.paragraph{
+    font-size: 15px;
+    text-align: center;
+}
+   
+    
+}
+@media screen and (min-width:768px){
+    .nav{
+    background-color:#87ceeb ;
+    margin:0px;
+    height:100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Roboto";
+ 
+}
+    
+     .fa{
+      display: none;
+     }
+     
+    
+}

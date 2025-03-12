@@ -1,0 +1,64 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.mainheading {
+    display: flex;
+    background-color: #3d3d3d;
+    height: 40px;
+    padding: 10px;
+    color: #e5e5e5;
+}
+
+
+.sides {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.sides1 {
+    text-align: left;
+    margin-left: 60px;
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    background-color: #3d3d3d;
+    color: #e5e5e5;
+    text-align: right;
+}
+
+.container {
+    text-align: left;
+}
+
+.container{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size:cover ;
+    width: 100vw;
+    height: 100vh;
+   
+}
+.text{
+    text-align: left;
+    padding: 80px;
+}
+.text1{
+    text-align: left;
+    size: 15px;
+}
+
+.img1{
+    height: 40px;
+    padding: 40px;
+}
+
+.card{
+    background-color:white;
+    height: 60px;
+    width: 30px;
+    
+}
+.card-cover{
+    background-color:#e5e5e5;
+    height: 300px;
+} */

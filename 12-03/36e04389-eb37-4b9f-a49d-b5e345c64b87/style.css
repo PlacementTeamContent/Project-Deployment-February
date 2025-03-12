@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+ font-family: "Roboto";    
+}
+body{
+    margin:0px;
+}
+.h1{
+    color:black;
+    font-family: "Roboto";
+    font-weight:bold;
+}
+.header{
+    padding:2px;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+nav{
+    margin-top:30px;
+}
+a{
+    color:black;
+    font-weight:bold;
+    margin-right:5px;
+}
+.cont{
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height:90vh;
+    padding:3px;
+    background-size:cover ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+h1{
+    color:white;
+    font-size: 40px;
+    font-weight:bold;
+    
+}
+p:empty{
+    height:5px;
+    width:100px;
+    background-color:blue ;
+    
+}
+.p1{
+    color:#f9f9f9;
+    font-size: 20px;
+}
+i{
+    display:none;
+}
+.card1{
+    background-color: #d1e5f9;
+   
+    text-align: center;
+    padding:2px;
+}
+.h12{
+    color:black;
+    font-size: 25px;
+    
+}
+.min{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+}
+.head{
+    color:black;
+    font-size: 19px;
+    font-weight:bold;
+}
+@media screen and (min-width:768px){
+    .mincard{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    header{
+        display:flex;
+    }
+    .i1{
+        margin-top:35px;
+        margin-right:18px;
+    }
+    
+    
+}
+@media screen and (max-width:767px){
+    .i1{
+        display:none;
+    }
+    nav{
+        display: none;
+    }
+    
+}
+.card2{
+    background-color: black;
+    /* height:60vh; */
+    color:#f9f9f9;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.a{
+    color:#f9f9f9;
+}
+.h3{
+    font-size: 19px;
+     color:#f9f9f9;
+}
+@media screen and (min-width:768px){
+    .card2{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:20px;
+    }
+    .foot{
+        order:-1;
+    }
+}

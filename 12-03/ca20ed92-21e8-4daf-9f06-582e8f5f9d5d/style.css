@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.container {
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 150vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+
+}
+
+.head3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    margin: 20px;
+}
+
+.head {
+
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 38px;
+    font-style: normal;
+    text-shadow: 40px;
+
+}
+
+.head1 {
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 38px;
+    font-style: normal;
+    text-shadow: 40px;
+
+
+}
+
+.head4 {
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 28px;
+    font-style: normal;
+    text-shadow: 40px;
+    padding: 20px;
+
+
+}
+
+.para1 {
+    color: #f9f9f9;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.para4 {
+    color: #f9f9f9;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 20px;
+}
+
+.bg-container {
+    background-color: #d1e5f9;
+    background-size: cover;
+    height: 100vh;
+    width: 150vw;
+    text-align: center;
+}
+
+.head3 {
+    font-family: "Roboto";
+}
+
+.img1 {
+    border-radius: 200px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.para2 {
+
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.bg-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bg-container2 {
+    background-color: #1b262c;
+    background-size: cover;
+    height: 20vh;
+}

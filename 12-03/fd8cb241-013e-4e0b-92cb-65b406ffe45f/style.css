@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.navbar{
+    background-color:#3d3d3d;
+    color:#FFFFFF;
+    font-family:"Times New Roman";
+    padding:10px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+.last{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.footer{
+    background-color:#3d3d3d;
+    color:#FFFFFF;
+    font-family:"Times New Roman";
+    padding:10px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+}
+a{
+    font-size:20px;
+    display:flex;
+    justify-content: flex-end;
+    margin:3px;
+}
+.heading1{
+    display:flex;
+    justify-content: flex-start;
+    
+}
+.bg{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size:cover;
+    height:100vh;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.image{
+    border-radius:400px;
+    width:150px;
+    height:150px;
+}
+
+.heading2{
+    font-weight:bold;
+    padding:10px;
+    
+}
+.heading3{
+    font-weight:bold;
+    padding:10px;
+}
+.card1{
+    background-color:#FFFFFF;
+    border-radius:10px;
+    height:auto;
+    margin:20px;
+    padding:10px;
+    text-align:center;
+    
+}
+.card2{
+    background-color:#FFFFFF;
+    border-radius:10px;
+    height:auto;
+    margin:20px;
+    padding:10px;
+    text-align:center;
+
+}
+.card3{
+   background-color:#FFFFFF;
+    border-radius:10px;
+    height:auto;
+    margin:20px;
+    padding:10px;
+    text-align:center;
+}
+.serivices-bg{
+    background-color:#e5e5e5;
+    background-size:cover;
+    margin-bottom:0px;
+    text-align:center;
+    
+}
+.serivices-bg{
+    margin-bottom:0px;
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    
+}
+.paragraph2{
+    font-weight:bold;
+    padding:10px;
+}
+.paragraph1{
+    font-weight:bold;
+    padding:10px;
+    
+}
+@media (max-width:576px){
+
+    .serivices-bg{
+    background-color:#e5e5e5;
+    background-size:cover;
+    margin-bottom:0px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    
+    
+}
+@media (min-width:992px){
+    .serivices-bg{
+    background-color:#e5e5e5;
+    background-size:cover;
+    margin-bottom:0px;
+    display:flex;
+    flex-direction:row;
+    
+}
+}}

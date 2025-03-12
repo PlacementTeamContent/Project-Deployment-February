@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.bg-img {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+    align-content: center;
+    /*  padding-left:10px; */
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+
+.bg-main {
+    color: #ffffff;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+}
+
+.line {
+    color: #e5e5e5;
+    width: 90px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    min-height: 200px;
+    padding:10px;
+    border-radius:10px;
+}
+
+.paras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    background-color: white;
+    min-height: 300px;
+    margin: 30px;
+    border-radius: 15px;
+    padding:10px;
+    padding-bottom:20px;
+}
+
+img {
+    height: 140px;
+    width: 140px;
+    border-radius: 90px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paras2 {
+    text-align: center;
+}
+
+.p2 {
+    background-color: #e5e5e5;
+}
+
+.last-page {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.last-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.last-right {
+    display: flex;
+
+}
+.icon{
+    display:none;
+}
+.art{
+    padding:10px;
+}
+@media (max-width:576px){
+    .icon{
+        display:block;
+        justify-content:end;
+        padding-top:40px;
+        padding-left:80px;
+    }
+    .icons{
+        display:flex;
+        justify-content:center;
+        
+    }
+    .art{
+        padding-left:80px;
+    }
+    .nav{
+        display:none;
+    }
+    .cards{
+       display:flex;
+       flex-direction:column;
+    }
+}

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.page {
+    height: 250vh;
+    width: 130vw;
+}
+
+.sec1 {
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.head1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-top: 130px;
+
+
+}
+
+.blank1 {
+    height: 0.7vh;
+    width: 25vw;
+    background-color: #1976d2;
+}
+
+.h4 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.sec2 {
+    background-color: #d1e5f9;
+    height: 130vh;
+    
+}
+
+.head2 {
+    font-family: "Roboto";
+}
+
+.blank2 {
+    height: 0.7vh;
+    width: 12vw;
+    background-color: #1976d2;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img1{
+    height: 15vh;
+    width: 20vw;
+    border-radius: 50px;
+}
+.head5{
+    font-family: "Roboto";
+    
+}
+.para{
+    font-family: "Roboto";
+}
+.card{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #1b262c;
+    height: 60vh;
+}

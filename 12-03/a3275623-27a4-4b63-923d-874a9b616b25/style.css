@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.h1{
+    color: white;
+    font-family: "Roboto";
+}
+.p{
+    color: white;
+    font-family: "Roboto";
+}
+.i{
+    color: white;
+}
+.home{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 40px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 10px;
+    width: 200px;
+    background-color: #39ff14;
+}
+.service{
+    background-color: #d4ffcc;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.im{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.f2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

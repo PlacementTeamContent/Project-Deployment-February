@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.top {
+    background-color: #1b262c;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.home1{
+    padding-left:270px ;
+    color: white;
+}
+.services1{
+    padding-left:30px;
+    color: white;
+}
+
+.head1 {
+    color: #FFFFFF;
+    padding: 2px;
+}
+@media  screens and (max-width:576px){
+    .head1{
+        text-align: center;
+    }
+}
+.carbg {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+    background-size: cover;
+    height: 60vh;
+
+}
+
+.head2 {
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+.data {
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.para1 {
+    color: #FFFFFF;
+}
+
+.background {
+    background-color: #f2ccff;
+    height: 40vh;
+}
+
+.head3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+@media screen and (max-width:576px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.img1 {
+    height: 90px;
+    background-size: cover;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.home {
+    padding-left: 340px;
+    padding-top: 40px;
+}
+
+.para {
+    padding-left: 570px;
+}
+
+.img1 {
+    border-radius: 9px;
+}

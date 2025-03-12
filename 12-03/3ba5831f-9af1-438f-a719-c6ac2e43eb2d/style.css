@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body{
+    font-family:Monospace;
+}
+
+.nav{
+    background-color: brown;
+    height:69px;
+    display: flex;
+    gap: 160px;
+    color: white;
+}
+.fa{
+    padding-top: 22px;
+    padding-left: 16px;
+}
+.cloth{
+    background: rgba(0,0,0,0.5);
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 60px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.line{
+    text-align: center;
+    background-color: brown;
+    height: 8px;
+    /* margin: 100px; */
+    margin-bottom: 190px;
+    margin-right: 100px;
+    margin-left: 160px;
+}
+.e{
+    font-size: 20px;
+    padding-bottom: 220px;
+    text-align: center;
+    margin-top: -130px;
+    color: white;
+}
+.items{
+    text-align: center;
+    background-color: LIGHTPINK;
+    margin-top: -30px;
+    height: 185vh;
+}
+.line1{
+    text-align: center;
+    background-color: brown;
+    height: 5px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.box{
+    border-radius: 6px;
+    background-color: white;
+    margin: 55px;
+    height: 385px;
+    
+}
+.s-i{
+    border-radius: 500px;
+    height: 225px;
+    margin-top: 60px;
+}
+.end{
+    text-align: center;
+    font-family: Trebuchet MS;
+}

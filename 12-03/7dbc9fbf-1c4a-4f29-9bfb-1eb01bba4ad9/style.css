@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar {
+    background-color: #1b262c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+@media (min-height:768px) {
+    .car-services {
+        display: flex;
+        gap: 10px;
+    }
+    footer {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    
+
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+.heading {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.bg-container {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.services {
+    background-color: #f2ccff;
+    margin: 0;
+}
+
+.services-heading {
+    font-family: "Roboto";
+    color: #000000;
+    text-align: center;
+
+}
+
+
+
+
+.image {
+    border-radius: 10px;
+}
+
+
+
+.footer1 {
+    background-color: lightgrey;
+    
+}
+
+.footer-heading {
+    font-family: "Roboto";
+    color: #000000;
+}
+
+.links {
+    text-decoration: none;
+    color: #000000;
+}

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.bg-container {
+    height: 100vh;
+
+}
+
+.nav-bar {
+
+    background-color: #87ceeb;
+
+}
+
+.nav-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    margin-left: 20px;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+    width: 20px;
+
+}
+
+.nav-para {
+    margin-left: 20px;
+}
+
+.bg1 {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    height: 50vh;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bgh1 {
+    color: white;
+    font-size: 55px;
+
+
+}
+
+.hr1 {
+    background-color: #87ceeb;
+    height: 8px;
+    width: 130px;
+}
+
+.bgpara {
+    color: white;
+    font-size: 15px;
+}
+
+.serh {
+    margin-left: 280px;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.hr2 {
+    background-color: #87ceeb;
+    height: 4px;
+    width: 130px;
+}
+
+.img1 {
+    height: 80px;
+    border-radius: 100%;
+}
+
+.h1p {
+    font-size: 15px;
+}
+
+.p1p {
+    font-size: 15px;
+}
+
+.pics {
+    display: flex;
+
+}
+
+.pic1 {
+    align-items: center;
+    display: flex;
+ 
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.endsec {
+    background-color: #1b262c;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 5px;
+    height: 100px;
+}
+
+.ends1 {}
+
+.endh1 {
+    font-size: 15px;
+}
+
+@media screen and (max-width:576px) {
+    .pics {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .pic1 {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-start;
+        align-items: center;
+
+
+    }
+
+    .endsec {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 250px;
+
+    }
+    .serh {
+    margin-left: 200px;}
+
+}

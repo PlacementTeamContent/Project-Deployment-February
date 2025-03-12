@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+nav {
+    font-family: "Roboto";
+    color: white;
+    background-color: #000000;
+    height: 10vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 30vw;
+}
+
+.home {
+    text-decoration: underline;
+}
+
+.home-page {
+    color: white;
+    text-align: center;
+    align-content: center;
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg');
+    height: 90vh;
+    background-size: cover;
+}
+
+.green-box {
+    height: 5px;
+    width: 100px;
+    background-color: #39ff14;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.services-page{
+    background-color: #d4ffcc;
+    text-align: center;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.context{
+    text-align: left;
+}
+.boxes2{
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.container {
+    font-family: Caladea;
+    font-size: 15px;
+    background-color: white;
+}
+
+.container1 {
+    background-color: #f7c1c1;
+}
+
+.heading {
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: Roboto;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+.navbarr{
+    display: flex;
+    flex-direction: row;
+    background-color: #0000000;
+}
+.homep{
+    padding: 12px;
+    text-decoration: underline;
+}
+.servp{
+    padding: 12px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.page_1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg');
+}
+.hpage1{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.line{
+    color: #39ff14;
+    font-style: bold;
+}
+.ppage1{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sec2p1{
+    color: black;
+}
+.sectiontwo{
+    background-color: #d4ffcc;
+}

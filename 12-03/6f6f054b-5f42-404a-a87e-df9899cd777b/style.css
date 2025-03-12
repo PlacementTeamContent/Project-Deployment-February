@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.abcdline{
+    color: #f8dcbf;
+}
+.nav{
+    background-color: #f8dcbf;
+    height: 15vh;
+    width: 220vw;
+}
+.main_body{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg');
+    margin-top: -21px;
+    height: 170vh;
+    width: 220vw;
+    background-size: cover;
+    
+}
+.neethu{
+   color: #ffffff;
+  padding: 120px;
+}
+.buddy{
+    padding: 120px;
+    height: 120px;
+    color: #f8dcbf;
+    font-weight: 420px;
+}
+.abcde{
+    margin-left: 350px;
+    margin-top: 120px;
+    background-color: white;
+    
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.fdh {
+    background-color: #87ceeb;
+    height: 70px;
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.bg-container {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    align-items: center;
+}
+
+.homecom {
+    padding-top: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bar {
+    color: #87ceeb;
+    font-size: 50px;
+    padding-left: 190px;
+}
+
+.trans {
+    color: #ffffff;
+    padding-left: 120px;
+}
+
+.services-container {
+    align-items: center;
+    background-color:#FFFFFF;
+}
+
+.services {
+    color: #1b262c;
+    text-align: center;
+}
+
+.image1 {
+    border-radius: 1000px;
+    width: 100px;
+    align-items: center;
+
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.description {
+    font-size: 15px;
+}
+
+.foot {
+    background-color: #1b262c;
+    height: 250px;
+}
+
+.fs {
+    color: #ffffff;
+}
+
+.copy {
+    color: #ffffff;
+}
+
+.ho {
+    color: #ffffff;
+    text-align: right;
+}
+
+.ser {
+    color: #ffffff;
+    text-align: right;
+}

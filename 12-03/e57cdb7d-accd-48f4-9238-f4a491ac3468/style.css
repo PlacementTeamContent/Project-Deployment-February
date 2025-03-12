@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.black {
+    background-color: #3d3d3d;
+    height: 30px;
+    width: 600px;
+}
+
+.b {
+    color: #FFFFFF;
+    padding: 3px;
+}
+
+.art {
+    color: #FFFFFF;
+    font-family: "Times New Roman";
+    font-size: 9px;
+    text-align: center;
+}
+
+.back {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    height: 400px;
+    width: 700px;
+    background-size: cover;
+    padding: 30px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin: 1px;
+    text-align: center;
+}
+
+.head {
+    font-family: " Times serif";
+}
+
+.color {
+    background-color: #e5e5e5;
+    height: 300px;
+    width: 510px;
+}
+
+.services {
+    font-family: "Sans-Serif";
+    text-align: center;
+}
+
+.empty {
+    color: #3d3d3d;
+    height: 3px;
+    width: 6px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100px;
+}
+
+.image {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/108671/400_5ce853bd4d60a.jpg");
+    border-radius: 70px;
+    height: 70px;
+    width: 80px;
+}
+
+.art {
+    color: #3d3d3d;
+}
+
+.image1 {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/81190/400_5ce57c2238d2a.jpg");
+    border-radius: 70px;
+    height: 70px;
+    width: 80px;
+}
+
+.image2 {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/22529/400_5cdc123a6f5c1.jpg");
+    border-radius: 70px;
+    height: 70px;
+    width: 80px;
+}

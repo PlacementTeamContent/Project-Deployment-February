@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.bg-container {
+    background-color: #f8dcbf;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    color: #FFFFFF;
+    font-family: Roboto;
+    padding: 20px;
+}
+
+.nav {
+    padding: 20px;
+
+}
+
+.logo {
+    font-size: 55px;
+    padding-left: 100px;
+
+}
+
+.nav-items {
+    display: flex;
+    font-size: 30px;
+    padding: 24px;
+    padding-left: 300px;
+}
+
+.item {
+    padding-right: 100px;
+}
+
+.fa {
+    color: black;
+}
+
+.home-banner {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg');
+    text-align: center;
+    color: white;
+    padding: 150px;
+    font-family: Roboto;
+}
+
+.ban-head {
+    font-size: 100px;
+    /* padding: 40px; */
+}
+
+.ban-para {
+    font-size: 50px;
+    padding-top: 70px;
+}
+
+.services- {
+    padding: 100px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 80px;
+}
+
+.card- {
+    display: flex;
+    padding: 40px;
+}
+
+.card {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.card-- {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 10px;
+    border-bottom-color: black;
+}
+
+.card--- {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    /* margin-left: 40px;
+    margin-right: 10px; */
+    border-bottom-color: black;
+    pa
+}
+
+.card-img {
+    height: 350px;
+    margin-top: 35px;
+    border-radius: 200px;
+}
+
+.card-para {
+    padding: 25px;
+}
+
+.last-card {
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 30px;
+    font-size: 35px;
+}
+.hoe{
+    padding-left: 700px;
+}

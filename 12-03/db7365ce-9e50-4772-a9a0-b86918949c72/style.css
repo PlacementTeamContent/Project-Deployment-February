@@ -1,0 +1,74 @@
+.dark {
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.img {
+    height: 80vh;
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+
+}
+
+.head {
+    color: white;
+    text-align: center;
+    padding-top: 330px;
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 60px;
+}
+
+.head2 {
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: roboto;
+    color: white;
+}
+
+.page2 {
+    background-color: #d1e5f9;
+    height: 200vh;
+}
+
+.head3 {
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.cim {
+    margin-left: 240px;
+    border-radius: 290px;
+    width: 50vw;
+    height: 42vh;
+}
+
+.cam {
+    margin-left: 240px;
+    border-radius: 290px;
+    width: 50vw;
+    height: 40vh;
+
+}
+
+.shead {
+    text-align: center;
+    padding: 20px;
+}
+
+.hhead {
+    text-align: center;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.page3 {
+    background-color: black;
+    height: 60vh;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}

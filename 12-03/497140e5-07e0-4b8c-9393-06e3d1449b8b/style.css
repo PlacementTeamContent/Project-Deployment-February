@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar {
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+.first {
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line {
+    background-color: #1976d2;
+    width: 50px;
+    border: solid #1976d2;
+}
+
+.footer{
+    background-color: #1b262c;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle{
+    background-color: #d1e5f9;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:576px) {
+    .navlinks {
+        display: none;
+    }
+
+    .tougle {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .navhead {
+        padding-left: 35%;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fs{
+        display: flex;
+        gap: 20px;
+        position: relative;
+        top: -60%;
+        padding-left: 40%;
+    }
+    .ff{
+        position: relative;
+        top: 40%;
+    }
+}
+
+@media screen and (min-width:578px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navhead {
+        font-family: Roboto;
+        padding-left: 20px;
+        font-weight: bold;
+    }
+
+    .navlinks {
+        display: flex;
+        padding-right: 30px;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+
+    .home {
+        text-decoration: underline;
+        padding-right: 30px;
+    }
+
+    .tougle {
+        display: none;
+    }
+    .ff{
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    .fs{
+        display: flex;
+        padding-top: 30px;
+        padding-right: 40px;
+        gap: 20px;
+    }
+    .imag{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

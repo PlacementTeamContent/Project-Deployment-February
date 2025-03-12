@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.page1{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+}
+@media (max-width:770px){
+    nav{
+    background-color: #3d3d3d;
+    color: #ffffff;
+    display: flex;
+    font-size: 24px;
+    
+}
+ul{
+    color: #3d3d3d;
+}
+.head{
+    margin-left:183px;
+    text-align: center;
+    
+}
+i{
+    padding-left: 55px;
+    padding-top: 34px;
+    font-size: 40px;
+}
+li{
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.page1{
+    
+    padding: 120px;
+    font-size: 12px;
+}
+.page2{
+    background-color: #e5e5e5;
+    text-align: center;
+    margin: 25px;
+    padding: 20px;
+}
+.box{
+    background-color: #ffffff;
+    margin: 55px;
+    padding: 35px;
+}
+.boxx{
+    background-color: #ffffff;
+    margin: 50px;
+    padding: 35px;
+}
+.img{
+    border-radius:1050px;
+    height: 150px;
+    width: 150px;
+}
+
+.footer{
+    background-color: #3d3d3d;
+    color: #ffffff;
+    
+    font-size: 20px;
+    padding: 40px;
+}
+.section{
+    display: flex;
+    
+}
+.p{
+    margin-right: 45px;
+    font-size: 28px;
+}
+}
+@media (min-width: 990px){
+    nav{
+    background-color: #3d3d3d;
+    color: #ffffff;
+    display: flex;
+    font-size: 24px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px
+    
+}
+.head{
+    margin-left:13px;
+}
+i{
+    padding-left: 25px;
+    padding-top: 34px;
+    font-size: 30px;
+}
+li{
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.page1{
+    
+    background-size: cover;
+    padding: 90px;
+    font-size: 12px;
+}
+.page2{
+    background-color: #e5e5e5;
+    text-align: center;
+    margin: 25px;
+    padding: 20px;
+}
+.box{
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 35px;
+}
+.boxx{
+    background-color: #ffffff;
+    margin: 50px;
+    padding: 35px;
+}
+.img{
+    border-radius:1050px;
+    height: 150px;
+    width: 150px;
+}
+.flexer{
+    display: flex;
+    margin: 15px;
+}
+.footer{
+    background-color: #3d3d3d;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 40px;
+}
+.section{
+    display: flex;
+    
+}
+.p{
+    margin-left: 45px;
+    font-size: 28px;
+}
+}

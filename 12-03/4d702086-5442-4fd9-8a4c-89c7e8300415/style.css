@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.welcome{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    color: #f9f9f9;
+    font: "Roboto";
+}
+.para{
+     text-align: center;
+     color: #f9f9f9;
+     font: "Roboto";
+}
+.section{
+    text-align: center;
+    background-color: #ccffff;
+    font: "Roboto";
+    
+    
+}
+.image{
+    border-radius: 750px;
+    width: 20vh;
+    height: 20vh;
+    
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container{
+    background-color: #87ceeb;
+}
+.Home{
+    text-align-last: right;
+}
+.Services{
+    text-align: right;
+}
+.img{
+    height:96vh;
+    width:96vw;
+    background-size: cover;
+}
+.height{
+    display: flex;
+    justify-content: center;
+    
+}
+.jiga{
+    height:30vh;
+    width:30vw;
+    display:flex;
+    justify-content: center;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+     border-bottom-right-radius: 150px;
+     scale: circle;
+}
+.footer{
+    background-color: #1b262c;
+    color:#ffffff;
+}

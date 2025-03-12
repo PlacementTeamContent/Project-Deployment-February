@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.frstpart{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+    
+}
+
+.headpart2{
+    margin-bottom: 20px;
+}
+
+.heading{
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.parah{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.underlinecard{
+    height: 10px;
+    width: 100px;
+    background-color: #4B84F3;
+    
+}
+
+.card2{
+    
+    text-align: center;
+    background-color: #4B84F3;
+    height: 100vh;
+    text-decoration: underline;
+    
+}
+
+.card3{
+    background-color: #ffffff;
+    height: 220px;
+    width: 300px;
+    margin: 10px;
+    
+    font-size: 10px;
+    
+    
+    
+    
+}
+
+.image{
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 140px;
+}

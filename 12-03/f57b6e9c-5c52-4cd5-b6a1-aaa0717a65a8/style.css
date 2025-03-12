@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    background-color: #f8dcbf;
+    font-family: "Roboto"
+}
+.titleimage{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    background-size: cover;
+    color:#ffffff;
+    padding:100px;
+}
+.image{
+    border-radius:1000px;
+    height:200px;
+    width:200px;
+    padding-left:20px;
+    padding-top:10px;
+}
+.services{
+    background-color:#ffffff;
+    padding:20px;
+    border-radius:20px;
+    margin:30px;
+}
+.personalcoach{
+    padding-left:50px;
+}
+ 
+.footer{
+    background-color: #1b262c;
+    color:white;
+    padding:100px;
+}
+.padding{
+    padding-left:60px;
+}
+a{
+    padding:20px;
+}
+.heading{
+    padding-left:150px;
+}

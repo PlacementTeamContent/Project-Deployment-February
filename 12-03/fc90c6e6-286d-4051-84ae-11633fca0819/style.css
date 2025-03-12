@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.a {
+    background-color: #9F5353;
+    height: 100px;
+    color: #FFFFFF;
+    padding: 5px;
+    font-family: "Roboto";
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: sapce-between;
+    align-items: center;
+}
+
+.aa {
+    padding-left: 150px;
+}
+.aab{
+    padding-left: 50px;
+}
+.b{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    font-family: "Roboto";
+}
+.bb{
+    color: #FFFFFF;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.bbb{
+    background-color: #9F5353;
+    height: 10px;
+    width: 70px;
+    margin-left: 50px;
+}
+.bbbb{
+    color: #FFFFFF;
+    padding-left: 50px;
+}
+.ab{
+    background-color: pink;
+    height: 70vh;
+    width: 100vw;
+    color: white;
+}
+.ba{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    /* align-items: center; */
+}
+.b1{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    background-color: #9F5353;
+    margin-left: 45%;
+    height: 5px;
+    width: 70px;
+}
+.k{
+    background-color: white;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 10vh;
+    width: 17vw;
+    border-radius: 25px;
+}
+.h{
+    color: black;
+    font-size: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    color: black;
+    font-size: 10px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* @media screen (min-width: 576;){ */
+    .va{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+/* } */
+/* .co{
+    background-color: #9F5353;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: bottom;
+    height: 10px;
+    width: 30px;
+} */

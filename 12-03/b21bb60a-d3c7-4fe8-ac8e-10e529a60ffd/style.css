@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.page1{
+    height: 115vh;
+    background-size: cover;
+}
+.art{
+    background-color: #3d3d3d;
+    height:15vh;
+    background-size:cover ;
+}
+.head{
+    color:#ffffff;
+    font-size: 50px;
+    margin-left: 20px;
+    padding:12px;
+}
+.image{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.h1{
+    font-size: 100px;
+    margin: 20px;
+    padding:20px ;
+    padding-top: 250px;
+}
+.line{
+    color:#ffffff;
+    height:20px;
+    width: 100px;
+    font-weight: bold;
+    padding-left:50px;
+}
+.discover{
+    font-size: 40px;
+    margin: 20px;
+    padding:20px ;
+}
+
+
+
+.page2{
+    height: 110vh;
+    background-size: cover;
+    background-color: #e5e5e5;
+}
+.sevices{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.card1{
+    height:90vh;
+    width:60vh;
+    background-color:#ffffff;
+    margin: 50px;
+}
+.img1{
+    margin: 140px;
+    height: 30vh;
+    width: 25vw;
+    border-radius:150px;
+}
+.consult{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.our{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page3{
+    height: 50vh;
+    background-size: cover;
+    color: #3d3d3d;
+}

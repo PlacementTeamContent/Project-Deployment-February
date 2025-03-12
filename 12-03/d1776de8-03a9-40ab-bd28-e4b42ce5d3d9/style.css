@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav{
+    display:flex;
+    flex-direction: row;
+    background-color: #1b262c;
+    color:#ffffff;
+}
+.f{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    background-size:cover ;
+    height:60vh;
+    text-align: center;
+    color: #ffffff;
+  
+}
+.s{
+    background-color: #f2ccff;
+}
+.im{
+    height:15vh;
+}
+.h{
+    background-color: #ffffff;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}

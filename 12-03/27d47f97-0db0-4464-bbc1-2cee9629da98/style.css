@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    background-color: brown;
+}
+
+.head {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.ino {
+    text-decoration: underline;
+    text-decoration-color: brown;
+    color: #FFFFFF;
+}
+
+.sky {
+    color: #FFFFFF;
+
+}
+.ser{
+    text-align: center;
+    
+}
+.last{
+    background-color:pink;
+    background-size: cover;
+}
+.head2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.headp{
+    margin:20px;
+}
+.kabe1{
+    border-radius:80px;
+    height:150px;
+    width:150px;
+    margin:20px;
+}
+
+.head3 {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.para{
+    margin: 20px;
+}
+.back {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height:300px;
+    padding: 18px;
+}
+.card {
+    background-color: white;
+}

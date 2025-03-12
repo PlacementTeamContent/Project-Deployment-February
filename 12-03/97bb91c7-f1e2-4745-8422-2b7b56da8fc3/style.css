@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header{
+    background-color: #008080;
+    color: #ffffff;
+    font-family: "Roboto";
+    padding:10px;
+}
+.logo{
+    font-size: 35px;
+    padding: 12px;
+}
+.left-nav{
+    text-align: end;
+}
+.home{
+    padding: 12px;
+    text-decoration: underline;
+    justify-content: left;
+}
+.service{
+    
+}
+.cours{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: "Roboto";
+    background-color: transparent;
+}
+.btn{
+    background-color: #008080;
+    width: 90px;
+    height: 10px;
+}
+
+.ser-section{
+    background-color: #ccffff;
+    height: 100vh;
+}
+.seeeee{
+    text-align: center;
+}
+.serr{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+.btn-2{
+    background-color: #008080;
+    width: 50px;
+    height: 8px;
+    margin: 1px;
+}
+
+.img-info-1{
+    padding-top: 50px;
+    padding-left: 30px;
+    text-align: center;
+}
+.img-1{
+    height: 50px;
+    border-radius: 80px;
+}
+.img-info-head-1{
+    font-size: 20px;
+}
+.img-info-para-1{
+    
+}
+.img-info-2{
+    padding-top: 50px;
+    padding-left: 30px;
+    text-align: center;
+}
+.img-2{
+    height: 50px;
+    border-radius: 80px;
+}
+.img-info-head-2{
+    font-size: 20px;
+}
+.img-info-3{
+    padding-top: 50px;
+    padding-left: 30px;
+    text-align: center;
+}
+.img-3{
+    height: 50px;
+    border-radius: 80px;
+}
+.img-info-head-3{
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Roboto";
+}
+.last-head{
+    margin-top: 3px;
+    margin-bottom: 2px;
+}

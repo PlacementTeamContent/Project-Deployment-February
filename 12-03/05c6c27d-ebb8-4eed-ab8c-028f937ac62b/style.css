@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.navbar{
+    background-color:  navy ;
+    height: 10vh;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.fa{
+    color: white;
+    
+}
+.brand{
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    margin-left: 170px;
+    
+}
+.homepage{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    background-size: cover;
+    height: 45vh;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.main-heading{
+    color: white;
+    font-family: roboto;
+    font-size: 50px;
+    
+}
+.red{
+    height: 10px;
+    width: 100px;
+    background-color: darkred;
+    margin: auto;
+}
+.main-para{
+    color: white;
+    font-family: roboto;
+    font-size: 30px;
+}
+.services-page{
+    background-color: #f7c1c1;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+.services-head{
+    font-family: roboto;
+    text-shadow: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.red_{
+    height: 5px;
+    width: 50px;
+    background-color: darkred;
+    margin-left:250px ;
+}
+.serve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.services{
+    margin: auto;
+    
+    
+}
+.imgs{
+    height: 40vh;
+    border-radius: 20px;
+    
+    
+}
+.services-heading{
+    text-align: left;
+    font-family: roboto;
+    
+}
+.services-para{
+    text-align: left;
+    font-family: roboto;
+}
+.last_page{
+    background-color: #ffffff;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.home_services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+@media (min-width:768px){
+    .navbar{
+    background-color:  #808080 ;
+    height: 10vh;
+    padding: 10px;
+    }
+    .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .serve{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.imgs{
+    height: 15vh;
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+.services-heading{
+    text-align: left;
+    font-family: roboto;
+    
+}
+.services-para{
+    text-align: left;
+    font-family: roboto;
+}
+}

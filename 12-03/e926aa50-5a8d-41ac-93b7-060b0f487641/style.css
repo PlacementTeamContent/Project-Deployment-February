@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.head{
+    background-color: #1b262c;
+    font-family: Roboto;
+    color:#FFFFFF;
+}
+.maincard{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+
+}
+.cards{
+    background-color: #f2ccff;
+}
+.img{
+    padding-left: 40px;
+    border-radius:20px;
+}

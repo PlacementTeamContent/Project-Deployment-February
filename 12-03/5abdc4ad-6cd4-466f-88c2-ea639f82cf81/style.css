@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav1{
+    background-color: #008080;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+}
+.navcont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+}
+.icon{
+    color:white;
+    align-self: center;
+}
+.h1{
+    color:white;
+    font-size:20px;
+    font-family: Roboto;
+}
+.bg1{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h2{
+    color:white;
+    font-size:30px;
+    font-family: Roboto;
+}
+.empty1{
+    background-color:#008080;
+    width:100px;
+    height:5px;
+    border-width:0px;
+}
+.p{
+    color:white;
+    font-size:18px;
+    font-family: Roboto; 
+}
+.bg2{
+    background-color: #ccffff;
+}
+.main{
+     display:grid;
+    justify-content: center;
+    align-items:center;
+    padding:10px;
+}
+.subh1{
+    color:black;
+    font-size:25px;
+    font-family: Roboto; 
+    text-align:center;
+}
+.line{
+     background-color:#008080;
+     width:50px;
+     height:2px;
+     border-width:0px;
+}
+.img1{
+    border-radius:40px;
+    height:100px;
+    width:100px;
+}
+.imgh{
+    color:black;
+    font-size:25px;
+    font-family: Roboto;
+    font-weight:bold;
+}
+.imgsub{
+      color:black;
+    font-size:15px;
+    font-family: Roboto;
+}
+.bg3{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerp{
+     color:black;
+    font-size:15px;
+    font-family: Roboto;
+    margin:5px;
+}
+.footersubh{
+    color:black;
+    font-size:20px;
+    font-family: Roboto;
+    font-weight:bold;
+}
+.footer{
+     color:black;
+    font-size:12px;
+    font-family: Roboto;
+}
+.first{
+    display:flex;
+    flex-direction: row;
+}
+.small{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navcont2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subcont1{
+    display:flex;
+    flex-direction: row;
+}
+.navitem{
+    color:white;
+    font-size:20px;
+    font-family: Roboto;
+    margin-right:5px;
+}
+.navmain{
+    color:white;
+    font-size:20px;
+    font-family: Roboto;
+}
+
+@media(max-width:767px){
+    .navcont2{
+        display:none;
+    }
+}
+@media (min-width:768px){
+    .navcont{
+        display:none;
+    }
+}
+@media(min-width:768px){
+    
+}

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+body{
+    font-family: "Caladea";
+    margin: 0px;
+}
+#main{
+    font-family: "Roboto";
+}
+.main-cont{
+    font-family: "Roboto";
+}
+.nav-cont{
+    background-color: #808080;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.in-cont{
+    display: flex;
+}
+.in-contt{
+    display: flex;
+}
+.pp{
+   padding:  10px;
+}
+.main-page{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    height: 100vh;
+    background-size:cover ;
+    color: #ffffff;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    background-color:/* #9f5353 */ darkred;
+    font-size: 20px;
+    padding: 6px;
+    width:150px;
+   
+}
+.Ser-cont{
+    background-color: #f7c1c1;
+    height: 50vh;
+}
+.ser-cont{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height:500px;
+    width:250px;
+    margin: 20px;
+}
+.img{
+    border-radius: 20px;
+    margin: 15px;
+    width:250px ;
+}
+.hh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cc{
+    border-style: solid;
+    border-radius:40px;
+    padding: 3px;
+    margin: 10px;
+}
+.end-cont{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    padding:50px ;
+}
+.logo{
+    color:white;
+    padding:20px;
+    font-size: 40px;
+}
+@media screen and (max-width:768px){
+    .in-cont{
+        display: none;
+    }
+    .Ser-cont{
+        height: 200vh;
+    }
+    .ser-cont{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card{
+        height: 400px;
+        padding: 20px;
+        margin: 0px;
+        width:500px ;
+    }
+    .img{
+        width:400px ;
+    }
+    .end-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+    .in-cot{
+        display: none;
+    }
+    .he{
+        text-align: center;
+    }
+}
+@media screen and (min-width:768px){
+    .logo{
+        display: none;
+    }
+    .in-contt{
+        display: none;
+    }
+    .in-cot{
+        display: flex;
+    }
+}

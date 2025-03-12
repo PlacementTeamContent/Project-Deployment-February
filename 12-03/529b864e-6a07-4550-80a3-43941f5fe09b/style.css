@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+*{
+    font-family: "Roboto";
+}
+.header{
+    background-color:grey;
+    display:flex;
+    justify-content: space-between;
+}
+.header h1{
+    color:white;
+    font-family: "Caladea";
+    text-align: center;
+    padding:10px;
+}
+.nav{
+    list-style-type: none;
+    color:white;
+    display:flex;
+    flex-direction: row;
+}
+li{
+    margin:5px;
+    margin-top:35px;
+}
+@media screen and (max-width:767px){
+    .nav{
+        display:none;
+    }
+    .header h1{
+        text-align: center;
+    }
+    i{
+    color:white;
+    font-size:40px;
+    margin:15px;
+}
+}
+.lp{
+    background-image:url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    background-size:cover;
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    filter:grayscale(20%);
+    
+}
+span{
+    color:maroon
+}
+
+.bg{
+    background-color:#f7c1c1;
+    text-align: center;
+    padding:6px;
+}
+.footer{
+    background-color:white;
+    list-style-type: none;
+    text-align: center;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card img{
+    height:250px;
+    width:350px;
+    border-radius:15px;
+}
+.card{
+    background-color:#f7c1c1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:11px;
+    text-align:left;
+}
+.sc1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sc1 p{
+    margin:10px;
+} 
+@media screen and (min-width:768px){
+    .card{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+    }
+    .card img{
+    height:150px;
+    width:200px;
+    border-radius:15px;
+}
+
+@media screen and (min-width:768px){
+    .footer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    .row{
+         order:-1;
+    }
+}
+}

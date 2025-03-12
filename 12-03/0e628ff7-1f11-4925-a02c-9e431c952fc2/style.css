@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    font-family:Roboto;
+    margin:0px;
+}
+
+.nav-section {
+    display:flex;
+    justify-content:space-between;
+    background-color:#f9f9f9;
+    padding:10px;
+}
+
+.home-item {
+    text-decoration: underline;
+    margin-right:20px;
+} 
+
+.nav-items {
+    display:flex;
+}
+
+.brand-name {
+    font-size:45px;
+    margin-bottom:17px;
+}
+
+.home-section {
+    background-image:url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    background-size:cover;
+    height:100vh;
+}
+
+.home-section {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align:center;
+}
+
+.lines {
+    height:10px;
+    width:120px;
+    background-color:#1976d2;
+    margin-bottom:27px;
+}
+
+.home-head {
+    font-size:60px;
+    font-weight:bold;
+    padding-bottom:25px;
+}
+
+.home-para {
+    font-size:30px;
+    
+}
+
+.services-section {
+    background-color:#d1e5f9;
+    min-height:100vh;
+    /* text-align: center; */
+    padding-top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
+}
+
+.services-top {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.ser-head {
+    padding-bottom:30px;
+    
+}
+
+.flex-container {
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+}
+
+.service-image {
+    border-radius:1050px;
+    height:200px;
+    width:50%;
+}
+
+.ser-para {
+   /*  text-align:center; */
+}
+
+.services {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(290px,1fr))
+    /* display:flex; 
+    flex-direction:row;
+    flex-wrap:wrap; */
+}
+
+.footer {
+    background-color:#1b262c;
+    height:30vh;
+}
+
+@media (min-width:768px) {
+    .nav-bar {
+        display:none;
+        /* margin-bottom:20px; */
+    }
+    
+    .brand-name{
+        padding-bottom:16px;
+    }
+    
+    .service-image {
+        width:80%;
+    }
+} 
+
+@media  (max-width:767px) {
+    .nav-items {
+        display:none;
+    }
+    
+    .brand-name {
+        font-size:30px;
+        margin-left:120px;
+    }
+    
+    .nav-section {
+        justify-content:start;
+        align-items:center;
+    }
+    
+    .nav-bar {
+        font-size:35px;
+    }
+    
+    .services {
+        display:flex;
+        flex-direction:column;
+        
+    }
+    
+     
+    
+}

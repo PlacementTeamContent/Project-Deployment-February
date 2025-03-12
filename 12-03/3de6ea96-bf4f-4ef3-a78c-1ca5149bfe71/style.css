@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bar{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Roboto;
+    
+}
+.page2{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100vw;
+}
+.q{
+    color: #ffffff;
+    font-family: Roboto;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+.h{
+    color: #ffffff;
+    font-family: Roboto;
+    padding-left: 20px;
+ 
+    
+}
+.bar22{
+    height: 5px;
+    width: 200px;
+    background-color: #39ff14;
+    margin-left: 100px;
+}
+.s{
+    font-size: 20px;
+}
+.page3{
+    height: 1130px;
+    width: 100vw;
+    background-color: #d4ffcc;
+}
+.k{
+    color: #000000;
+    text-align: center;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 40px;
+    margin-top: 10px;
+    
+}
+.img1{
+    height: 120px;
+    width: 140px;
+    
+    border-radius: 1000px;
+    padding-top: 10px;
+}
+.page4{
+    background-color: grey;
+    font-size: 10px;
+    text-align: center;
+    
+}
+.smallbar{
+    height: 2px;
+    width: 300px;
+    background-color: #39ff14;
+    margin-top: 30px;
+}
+.smallbar2{
+    height: 2px;
+    width: 300px;
+    background-color: #39ff14;
+    margin-top: 50px;
+}
+.smallbar3{
+    height: 2px;
+    width: 300px;
+    background-color: #39ff14;
+    margin-top: 50px;
+}

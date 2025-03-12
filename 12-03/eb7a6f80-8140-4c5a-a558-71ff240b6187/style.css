@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: Roboto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #008080;
+}
+
+.logo{
+    color: white;
+    margin-left: auto;
+}
+.head{
+    color: white;
+    font-size: 60px;
+}
+.bar{
+    height: 8px;
+    width: 200px;
+    background-color: #008080;
+    border: none;
+}
+.para{
+    color: white ;
+    font-size: 30px;
+}
+.top-section{
+    display: flex;
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+    background-size:cover;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.img{
+    height: 160px;
+    width: 160px;
+    border-radius: 120px;
+}
+.card-head{
+    font-size: 25px;
+}
+.card-para{
+    font-size: 15px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.mid-section{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #ccffff;
+    padding-top: 0px;
+    justify-content: center;
+    
+}
+.head-1{
+    text-align: center;
+}
+.bar-1{
+    height: 8px;
+    width: 180px;
+    background-color: #008080;
+    border: none;
+    margin-bottom: 50px;
+}
+.info{
+    margin-top: 34px;
+    margin-left: 20px;
+}
+
+.hed{
+    font-size: 30px;
+}
+.par{
+    
+}
+
+.right{
+    display:flex;
+    gap: 10px;
+}
+
+
+
+@media screen and (min-width:601px){
+    .navbar-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.fa-bars{
+    color: white;
+    display: none;
+}
+.navbar{
+    padding: 15px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    margin-left: 100px;
+}
+.footer{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    height: 30vh;
+    margin-top: 30px;
+}
+.left{
+    
+}
+}
+@media screen and (max-width:601px){
+    .navbar-links{
+        display: flex;
+        display: none;
+        gap: 20px;
+        justify-content: center;
+    }
+    .info{
+        color: white;
+        
+    }
+    .logo{
+        display: flex;
+        color: white;
+        justify-content: center;
+        margin-right: 170px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .bruh{
+         margin-left: 180px;  
+    }
+    .footer{
+    display: column;
+    flex-direction:row ;
+    text-align: center;
+    height: 30vh;
+    margin-top: 30px;
+}
+.right{
+    margin-left: 200px;
+}
+}

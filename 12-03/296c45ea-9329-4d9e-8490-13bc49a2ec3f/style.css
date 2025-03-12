@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    width: 130vw;
+}
+
+#herosection {
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    height: 90vh;
+    /* width: 100vw; */
+    color: white;
+    place-items: center;
+    place-content: center;
+}
+
+.main {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#home {
+    text-decoration: underline;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: flex-end;
+}
+
+.navlinks {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    place-content: center;
+    justify-content: flex-end;
+}
+
+.line {
+    background-color: #1976d2;
+    height: 5px;
+    width: 100px;
+}
+
+#Services {
+    background-color: #d1e5f9;
+    display: grid;
+    /* width: 130vw; */
+    text-align: center;
+    justify-content: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.card-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
+
+.card {
+    width: 300px;
+}
+
+.footer {
+    background-color: #1b262c;
+    color: white;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    justify-content: flex-start;
+    place-content: center;
+    align-content: cenater;
+}
+
+@media screen and (max-width:768px) {
+    .content {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-around;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        background-color: #1b262c;
+        color: white;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: flex-start;
+        place-content: center;
+        align-content: cenater;
+        text-align: center;
+    }
+}

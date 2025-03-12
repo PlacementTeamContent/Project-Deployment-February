@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #87ceeb;
+    color: #000000;
+}
+.he{
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Roboto;
+    
+}
+.pr{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.Home{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    background-size: cover;
+    text-align: center;
+    margin-top: -21px;
+    padding: 200px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+.box{
+    color: #87ceeb;
+    background-color: #87ceeb;
+    font-size: 5px;
+}
+.Services{
+    text-align: center;
+    font-family: Roboto;
+}
+.car{
+}

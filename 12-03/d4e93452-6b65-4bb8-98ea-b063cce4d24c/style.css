@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+.head{
+    text-align: center;
+    display: flex;
+    align-self: center;
+    
+}
+.first{
+    display: none;
+}
+.icon{
+    display: flex;
+    align-self: flex-start;
+    
+}
+.con-1{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+   background-size: cover;
+   height: 100vh;
+    color:#FFFFFF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: #39ff14;
+    height: 5px;
+    width: 65%;
+    display: flex;
+    align-self: center;
+}
+.con-2{
+    background-color: #d4ffcc;
+    height: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+.services{
+    text-align: center;
+}
+.box-ser{
+    height: 6px;
+    width: 20%;
+    background-color: #39ff14;
+    display: flex;
+    align-self: center;
+}
+.ser-div{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.card{
+    margin:25px ;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom-color:#39ff14 ;
+}
+.last{
+    display: flex;
+    gap: 10px;
+}
+.footer{
+    background-color:#FFFFFF ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.las{
+    text-align: center;
+}
+@media (orentation:landscape),(min-width:768px){
+  .icon{
+     display: none; 
+  }  
+  .first{
+      display: flex;
+      gap: 20px;
+  }
+  .nav{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.ser-div{
+     display: flex;
+     
+    justify-content: center;
+    align-items: center;
+}
+.mmm{
+    display: flex;
+}
+.lll{
+    display: flex;
+}
+.footer{
+    background-color:#FFFFFF ;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.las{
+    order: 1;
+}
+.last{
+    order: 2;
+}
+}

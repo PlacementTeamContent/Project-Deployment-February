@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Navbar Styling
+.navbar-container {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between; Distribute items evenly
+  align-items: center;           Vertically center items
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none; Remove bullet points from the list
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin-left: 20px; Spacing between menu items
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px; Optional: Rounded corners
+}
+
+.navbar-menu a:hover {
+  background-color: #555; Hover effect
+}
+
+For smaller screens (optional)
+@media (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column; Stack items vertically
+    align-items: flex-start;   Align to the left
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .navbar-menu li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  } */
+ .navbar-items{
+     display:flex;
+     flex-direction:row;
+     justify-content:flex-end;
+     justify-content:space-arounf;
+     background-color:#808080;
+     color:white;
+ }
+ .trans{
+     background-image:url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+     background-size:cover;
+     height:80vh;
+     color:white;
+     
+ .transs{
+     background-color:rgba(0,0,0,0.3);
+     height:80vh;
+   /*   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   font-size:39px; */
+   display:flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     font-size:39px;
+    
+     
+ }
+ .main-heading{
+    /*  position:relative;
+    bottom:120px;
+    left:370px;
+    font-size:50px; */
+    display:flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     font-size:50px;
+ }
+ .underline{
+     color:#985353;
+     height:18px;
+     width:200px;
+     position:relative ;
+}
+.another-heading{
+    font-size:35px;!important
+}
+.anotherpage{
+    background-color:#f7c1c1;
+    background-size:cover;
+    height:100vh;
+    
+}
+.another-page{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.lastpage{
+    display:flex;
+
+    flex-direction:column;
+    justify-content:flex-end;
+}

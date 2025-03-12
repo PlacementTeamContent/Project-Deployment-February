@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: #f8dcbf;
+            color: white;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: white;
+            margin: 4px 0;
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 768px) {
+            .con{
+                display: flex;
+                flex-direction:column;
+                    }
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                background: #f8dcbf;
+                width: 100%;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                text-align: center;
+                padding: 10px 0;
+                color: black;
+                order: 1;
+            }
+
+            .nav-links a {
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                margin: 10px 0;
+            }
+
+            .hamburger {
+                display: flex;
+                color: black;
+                order: 3;
+            }
+
+            span {
+                color: black;
+            }
+
+            .logo {
+                color: black;
+                order: 2;
+            }
+            .three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8dcbf;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+}
+        
+    </style>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Tennis Club</div>
+        <ul class="nav-links">
+            <li><a href="#sectw">Home</a></li>
+
+            <li><a href="#sect">Services</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="two" id="sectw">
+        <h1>Ace Tennis Club</h1>
+        <h1 class="mama">__________</h1>
+        <p>Where passion meets precision</p>
+    </div>
+    <div class="three" id="sect">
+        <div class="ino">
+        <h1 class="ee">Services</h1>
+        <h1 class="ma">________</h1>
+         </div>
+         <div class="int"> 
+        <div class="con">
+            <div class="in">
+                <img class="img" src="https://images.cdn-files-a.com/ready_uploads/media/18461/400_5cdb9f94c5fbf.jpg">
+                <h1>Personal Coaching</h1>
+                <p>We provide you with the best Personal Coaching.</p>
+            </div>
+            <div class="in">
+                <img class="img" src="https://images.cdn-files-a.com/ready_uploads/media/5986808/400_5f1d693a96207.jpg">
+                <h1>Personal Coaching</h1>
+                <p>We provide you with the best Personal Coaching.</p>
+            </div>
+        </div>
+        <div class="in">
+            <img class="img" src="https://images.cdn-files-a.com/ready_uploads/media/14198813/400_6644b21404f81.jpg">
+            <h1>Personal Coaching</h1>
+            <p>We provide you with the best Personal Coaching.</p>
+        </div>
+         </div>
+    </div>
+    <div class="foot">
+        <div class="cc"> 
+        <h1>Tennis Club</h1>
+        <p>Copyrights@2025 All rights reserved.</p>
+        </div>
+        <div class="cd">
+            <ul class="nav-links" id="er">
+            <li><a href="#sectw">Home</a></li>
+            <li><a href="#sect">Services</a></li>
+             </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+*{
+    margin: 0px;
+}
+navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3d3d3d;
+    color: white;
+}
+.header-right{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+a{
+    color: white;
+}
+.top{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+@media all and (max-width:992px){
+    .header-right{
+        display: none;
+    }
+    .bars{
+        justify-content: center;
+    }
+    navbar{
+        justify-content: center;
+    }
+    .top{
+        align-items: center;
+    }
+    
+}
+@media all and (min-width:992px){
+    .header-right{
+        display: block;
+    }
+    .bars{
+        display: none;
+    }
+    navbar{
+        justify-content: space-between;
+    }
+    .top{
+        align-items: start;
+    }
+    .ser
+}
+.line{
+    border: 3px solid #e5e5e5;
+    width:20%;
+}
+.services{
+    background-color: #e5e5e5;
+    padding:  10px;
+}
+h2{
+    text-align: center;
+}
+.line1{
+    border: 2px solid black;
+    width: 10%;
+    justify-content: center;
+}
+.services-head{
+    justify-content: center;
+}
+.cards{
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    margin: 40px;
+    padding: 10px;
+}
+.cards img{
+    height: 50%;
+    border-radius: 50%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.f1{
+    padding: 40px;
+}
+.f2{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}

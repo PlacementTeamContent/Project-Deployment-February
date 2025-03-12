@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav-bg{
+    background-color: #3d3d3d;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+@media all and (min-width:500px){
+    .nav-btn{
+        display:block;
+        color:white;
+}
+.footer-links{
+    
+    font-size: 20px;
+}
+.main-heading-nav{
+    color:white;
+    text-align: center;
+    display: inline;
+    margin-right: auto;
+}
+.main-section{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+}
+
+.main-heading-nav{
+    color:white;
+    text-align: center;
+    display: inline;
+    margin-right: 150px;
+}
+.main-section{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-section-heading{
+    color:#3d3d3d;
+    text-align: center;
+    font-size: 50px;
+    font-family: Serif;
+    margin:0px;
+}
+.break{
+    background-color:#e5e5e5;
+    text-align: center;
+    height:5px;
+    width: 200px;
+}
+.break2{
+    background-color:black;
+    text-align: center;
+    height:5px;
+    width: 80px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.flex-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.services-section{
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.services-section-heading{
+    padding: 10px;
+}
+.services-section-card{
+    background-color: white;
+    margin: 0px 30px 30px 30px;
+    border-radius: 8px;
+    padding: 1px;
+    max-width:300px;
+}
+.margin{
+    margin: 30px;
+}
+.service-card-img{
+    width: 200px;
+    height:200px;
+    border-radius: 190px;
+    margin:30px 0px 5px 0px;
+}
+.services-section-card-main{
+    margin:10px;
+}
+.services-section-card-main-descp{
+    margin:10px;
+}
+.footer-card{
+    background-color: black;
+    height:4px;
+    padding: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer-bg{
+    background-color: #3d3d3d;
+    height:50vh;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+.footer-links{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.footer-name{
+    margin-top: 30px;
+}

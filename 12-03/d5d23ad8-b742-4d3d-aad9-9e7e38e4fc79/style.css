@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.card1{
+    background-color: #f8dcbf;
+    
+}
+.head{
+    text-align: start;
+    padding: 15px;
+    color: #FFFFFF;
+}
+.para{
+    text-align: end;
+    grid-template-rows: 10px 10px;
+    color: #FFFFFF;
+}
+.card2{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg');
+    padding: 40px;
+    text-align: center;
+    background-size: cover;
+    height:300px;
+    
+}
+.head2{
+    color: #FFFFFF;
+    font-family: Roboto;
+    text-decoration:underline ;
+    padding: 40px;
+    
+}
+.para2{
+    color: #FFFFFF;
+}
+.head3{
+    text-align: center;
+    color: #1b262c;
+}
+.card3{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 50px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    gap: 10px;
+    
+    
+}
+.img1{
+    border-radius: 800px;
+    height: 200px;
+    padding: 20px;
+   
+}
+.card4{
+    display: grid;
+  
+}
+.card5{
+    background-color: #1b262c;
+    color: #FFFFFF;
+}

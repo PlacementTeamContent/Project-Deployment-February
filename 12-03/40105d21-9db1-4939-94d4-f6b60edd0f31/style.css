@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    margin: 0px;
+}
+body{
+    margin:0px;
+}
+.nav{
+    background-color:brown ;
+    color:white;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+.nav_items{
+   
+}
+.nav_logo{
+    margin:10px;
+}
+.frist_card{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    height:80vh;
+    background-size: cover;
+}
+.line{
+    border: solid 3px brown;
+    width:120px;
+}
+.heading_content{
+ display: flex;
+ flex-direction:column;
+ align-content: center;
+ gap:20px;
+ color:white;
+ justify-content: center;
+padding:200px;
+}
+ul{
+    list-style-type: none;
+     display: flex;
+    gap:10px;
+    margin:20px;
+    
+}
+.container-2{
+    background-color: lightpink;
+    
+    
+    
+}
+.line2{
+    width:100px;
+    border: solid 2px brown;
+    margin:auto;
+    
+}
+.second_card_heading{
+    color:black;
+    text-align: center;
+    padding:20px 20px 10px 0px;
+    font-weight: 100;
+   
+}
+.cards{
+    background-color:white;
+    width:350px;
+    height:400px;
+    text-align: center;
+    border-bottom: solid 3px brown;
+    border-radius: 20px;
+    
+    
+}
+.images{
+    height: 200px;
+    width:200px;
+    border-radius: 100px;
+    margin:30px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin-top:50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:50px;
+ 
+}
+footer{
+     display: flex;
+    flex: row;
+    justify-content: space-between;
+    padding:40px 0px 40px 20px;
+    
+    
+}

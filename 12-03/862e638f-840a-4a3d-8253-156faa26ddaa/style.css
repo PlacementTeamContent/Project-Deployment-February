@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+.items{
+    display: flex;
+}
+.item{
+    list-style-type: none;
+    margin: 10px;
+}
+.mobile-icon{
+    font-size: 30px;
+    margin-top:20px ;
+}
+@media(max-width:768px){
+    .items{
+    display: flex;
+}
+}
+@media(min-width:768px){
+    .mobile-icon{
+        display: none;
+    }
+}
+.mainpage{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg');
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    padding: 80px;
+    
+}
+.services{
+    background-color: #d4ffcc;
+    background-size: cover;
+    padding: 20px;
+}
+.card{
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 14px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+.footerpage{
+    background-color: #FFFFFF;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

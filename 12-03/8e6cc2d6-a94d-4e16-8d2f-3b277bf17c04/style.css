@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.background{
+    background-color: #1b262c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background-color: #bf00ff;
+    width: 80px;
+    height: 10px;
+}
+.heading, .para{
+    color: #ffffff;
+}
+.background-image{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.heading-services{
+    text-align: center;
+}
+.card_items{
+    background-color: #f2ccff;
+    font-family: Roboto;
+}
+.box1{
+    background-color: #bf00ff;
+    width: 40px;
+    height: 5px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.card1{
+    margin: 10px;
+    color: #000000;
+}
+.footer{
+    color: #000000;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

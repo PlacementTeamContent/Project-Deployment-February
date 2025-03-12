@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.nav{
+    display:flex;
+    align-items: flex-end;
+    background-color: #3d3d3d;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+}
+.main{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px ;
+    text-align: start;
+    font-size: 40px;
+    padding-top: 30px;
+
+}
+.line{
+    background-color: white;
+    width: 220px;
+    height: 10px;
+}
+
+body{
+    background-color: rgb(0.5,0.5,0.5,0.2);
+    text-align: center;
+}
+.hehe{
+    font-size: 30px;
+    font-family: Sans-Serif;
+    
+}
+
+.content{
+    text-align: center;
+    padding: 40px;
+   
+}
+.sww{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.img{
+    border-radius: 190px;
+    height: 250px;
+    width: 250px;
+   
+}
+.card{
+    background-color: white;
+    padding: 30px;
+    height: 350px;
+   
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+      background-color: #3d3d3d;
+   
+    color: white;
+    font-size: 20px;
+}
+.ff{
+    padding-left: 640px;
+    
+    display: flex;
+    flex-direction: row;
+}

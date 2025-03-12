@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.navbar {
+    background-color: #3d3d3d;
+    height: 5vh;
+    padding: 3vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.navbar_heading {
+    margin-left: 15vh;
+    font-size: 4vh;
+    margin-top: 0vh;
+}
+
+.background_image {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
+.text_content {
+    padding: 6vh;
+}
+
+.background_image_heading {
+    color: #3d3d3d;
+    font-size: 6vh;
+    text-align: center;
+}
+
+.background_image_para {
+    font-size: 2vh;
+    text-align: center;
+}
+
+.services_section {
+    background-color: #e5e5e5;
+    padding: 2vh;
+}
+
+.services_section_mainheading {
+    font-family: "Times New Roman";
+}
+
+.box1 {
+    background-color: #ffffff;
+    padding: 4vh;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.image1 {
+    height: 20vh;
+    border-radius: 15vh;
+}
+
+.box1_heading {
+    font-size: 4vh;
+    margin-top: 8vh;
+}
+
+.bottom_content{
+    background-color: #3d3d3d;
+}
+
+.para{
+    color: #ffffff;
+}

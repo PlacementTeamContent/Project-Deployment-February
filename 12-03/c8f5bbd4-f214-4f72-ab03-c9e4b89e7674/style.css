@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.main-div-for-all {
+    background-color: brown;
+    height: 100px;
+    width: 110vh;
+    background-size: cover;
+}
+
+.nav-links {
+    padding-right: 20px;
+}
+
+.main-para-1 {
+    color: white;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 30px;
+    padding: 32px;
+}
+
+.nav-links {
+    padding: 10px;
+    font-size: 25px;
+}
+.seettings{
+    padding-top: 20px;
+}
+.nav1 {
+    padding-right: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+    color: black;
+}
+
+.nav1 {
+    padding-right: 20px;
+    font-size: 25px;
+    margin: 10px;
+    color: black;
+}
+
+.nav1:hover {
+    padding-right: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+    color: black;
+}
+
+.nav2:hover {
+    padding-right: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+    color: black;
+}
+
+.first-image-1 {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    height: 70vh;
+    width: 110vh;
+    background-size: cover;
+}
+
+.para-setting-1 {
+    text-align: center;
+    padding-top: 15vh;
+    color: white;
+}
+
+.para-line-color {
+    background-color: brown;
+    height: 10px;
+    width: 110vh;
+    background-size: cover;
+
+}
+
+.para-to-center {
+    text-align: center;
+}
+
+.para-to-color {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.second-bg-color-2 {
+    background-color: lightpink;
+    height: 160vh;
+    width: 110vh;
+    text-align: center;
+}
+
+.LAST-heading {
+    padding-top: 50px;
+    color: white;
+    font-size: 35px;
+}
+
+.card-settings {
+    padding: 50px;
+}
+
+.card1 {
+    background-color: white;
+    height: 350px;
+    width: 290px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.img-1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    padding-top: 10px;
+}
+
+.LAST-heading-1 {
+    font-size: 20px;
+    color: black;
+}
+
+.lasst-para-1 {
+    font-size: 20px;
+    color: black;
+}
+
+.card2 {
+    background-color: white;
+    height: 350px;
+    width: 290px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card2 {
+    background-color: white;
+    height: 350px;
+    width: 290px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.img-2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    padding-top: 10px;
+}
+
+.LAST-heading-2 {
+    font-size: 20px;
+    color: black;
+}
+
+.lasst-para-2 {
+    font-size: 20px;
+    color: black;
+}

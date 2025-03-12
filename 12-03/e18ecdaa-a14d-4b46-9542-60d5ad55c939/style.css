@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color: #000000;
+    height: 10vh;
+    width: 800px;
+    font-family: roboto;
+    color: white;
+    
+}
+.navbarhead{
+    padding: 10px;
+    padding-left: 40px;
+}
+.mid-container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 800px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.head{
+    color: white;
+
+}
+.para{
+    background-color:#39ff14 ;
+    height: 7px;
+    width: 140px;
+}
+.para1{
+    color: white;
+}
+.main-container{
+    background-color: #d4ffcc;
+    height: 250vh;
+    width: 800px;
+display: grid;
+padding-left: 50px;
+
+}
+.head1{
+    color: black;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+/* .para2{
+    background-color:#39ff14 ;
+    height: 7px;
+    width: 140px;
+} */
+
+.img{
+    background-color: white;
+    height: 70vh;
+    width: 60vw;
+}
+.image1{
+ height: 25vh;  
+ border-radius: 150px;
+ width: 40vw;
+ padding: 20px;
+}
+.container1{
+    display: grid;
+    justify-content:start;
+ padding-bottom: 5px;  
+}
+.container2{
+    display: grid;
+    justify-content: end;
+}
+.container3{
+    display: grid;
+ padding-bottom: 5px;  
+ justify-content: center;
+
+}
+.footer{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    height: 30vh;
+    width: 800px;
+    color: black;
+}

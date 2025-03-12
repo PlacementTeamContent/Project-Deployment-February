@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.title2 {
+    font-size: 25px;
+    font-family: Roboto;
+    padding: 10px;
+    padding-left: 90px;
+}
+
+.title2:hover {
+    text-decoration: underline;
+}
+
+.title1 {
+    font-size: 30px;
+    font-family: Roboto;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    background-color: #f9f9f9;
+    height: 80px;
+}
+
+.bg {
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height: 100vh;
+    background-size: cover;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.h1 {
+    font-size: 50px;
+}
+
+.hr {
+    color: blue;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.p1 {
+    font-size: 24px;
+}
+
+.bg1 {
+    background-color: #d1e5f9;
+    /* height: 100vh; */
+    font-family: Roboto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.para {
+    width: 300px;
+    text-align: center;
+}
+
+.bg2 {
+    background-color: #1b262c;
+    height: 200px;
+    font-family: Roboto;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.div1 {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.div2 {
+    color: white;
+    padding: 30px;
+}
+
+.div3 {
+    color: white;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+}
+
+.img1 {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

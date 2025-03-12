@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    font-family:"Roboto";
+}
+.nav-con{
+    display:flex;
+    flex-direction:row;
+    background-color:#87ceeb;
+    height:auto;
+    justify-content: space-between;
+}
+.head{
+    margin-right:90px;
+}
+.nav-ele{
+    display:none;
+}
+.icon{
+    margin-top:28px;
+    margin-left:26px ;
+    font-size:22px;
+}
+.ele{
+    margin-right:8px;
+    margin-top:28px;
+}
+
+.bg-con{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    background-size:cover;
+    filter:brightness(80%);
+    color:#FFFFFF;
+    height:70vh;
+    text-align: center;
+    font-weight: bold;
+}
+.main-head{
+    font-size:28px;
+}
+.line{
+    height:9px;
+    width:120px;
+    background-color: #87ceeb;
+    margin-left:200px;
+}
+
+.service-con{
+    background-color:lightgray;
+    display: grid;
+    place-content:center;
+    text-align: center;
+}
+.image{
+    height:150px;
+    width:150px;
+    border-radius:75px;
+    margin-left:20px;
+}
+.line1{
+    height:7px;
+    width:140px;
+    background-color: #87ceeb;
+    margin-left:80px;
+}
+
+.footer{
+    background-color: #1b262c;
+    height:auto;
+    color:#FFFFFF;
+    text-align: center;
+}
+.para1{
+    display: none;
+}
+@media screen and (min-width:992px){
+    .nav-ele{
+    display:flex;
+    flex-direction:row;
+    }
+    .icon{
+        display:none;
+    }
+    .head{
+    margin-left:290px;
+    font-size:42px;
+    }
+    .ele{
+    margin-right:18px;
+    margin-top:32px;
+    font-size:30px;
+    }
+    .main-head{
+    font-size:41px;
+    }
+    .line{
+    height:11px;
+    width:180px;
+    margin-left:350px;
+    }
+    .card-con{
+    background-color:lightgray;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    place-items:center;
+    }
+    .line1{
+        margin-left:240px;
+    }
+    .card{
+      margin:8px;
+  }
+    .card3{
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+    .footer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    background-color: #1b262c;
+    height:auto;
+    color:#FFFFFF;
+    text-align: center;
+}
+.para{
+    display: none;
+}
+.para1{
+    display: flex;
+}
+}

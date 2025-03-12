@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card-container {
+    background-color: #9f5353;
+    height: 90px;
+}
+.aerospace-heading {
+    color: white;
+    padding: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.main-card {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.main-card-heading {
+    font-size: 60px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.services-card {
+    background-color: pink;
+    height: 70vh;
+    text-align: center;
+    padding: 15px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+.services-card-one {
+    background-color: white;
+}
+.image{
+    border-radius: 100px;
+}

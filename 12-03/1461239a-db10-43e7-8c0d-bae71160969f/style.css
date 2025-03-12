@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.blue {
+    background-color: #87ceeb;
+    margin-top: 3px;
+}
+
+.left {
+    text-align: right;
+}
+
+.line {
+    color: blue;
+}
+
+.background {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    background-size: cover;
+}
+
+.home {
+    text-align: center;
+}
+
+.background_2 {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8728981/400_60d201f2b5b1f.jpg');
+    border-radius: 10px;
+    width: 3vw;
+    height: 30vh;
+
+}

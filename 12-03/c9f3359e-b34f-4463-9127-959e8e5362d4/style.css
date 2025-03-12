@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+    background-image: ("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg"
+        );
+}
+
+.nav-bar {
+    background-color: #f8dcbf;
+    height: 10vh;
+    font-family: "Roboto";
+    font-size: 30px;
+    color: white;
+}
+.main-image{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg") ;
+   height: 40vh;
+    background-size: cover;
+    text-decoration: underline;
+    color:#f8dcbf;
+    
+}
+.heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: "Roboto";
+}
+.para{
+    color: white;
+    font-family:"Roboto";
+    text-align: center;
+}

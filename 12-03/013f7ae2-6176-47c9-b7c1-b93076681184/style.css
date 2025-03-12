@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.nav_container{
+    background-color:#808080 ;
+    height: 50px;
+    /* justify-content: space-between; */
+}
+.nav_elements{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction:row;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+    
+}
+.head1{
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+.back_ground_container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    height: 35vh;
+    background-size: cover;
+    
+}
+.back_ground_container-discripion{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-content: center;
+    
+    padding: 20px;
+    
+   
+}
+.rrrrrrr{
+   display: flex; 
+   flex-wrap: wrap;
+}
+.small_line{
+    background-color: red;
+    width: 150px;
+    height: 5px;
+    align-self: center;
+    /* margin-right:30px ; */
+    align-content: center;
+}
+.back3img{
+    background-color: #f7c1c1;
+   flex-wrap: wrap;
+}
+.img1-discripion{
+    width: 50vw;
+    text-align: center;
+   padding: 10px;
+   color: white;
+   
+}
+.img12{
+    border-radius: 10px;
+}
+.head1_and_div1{
+    text-align: center;
+     display: flex;
+    flex-direction:column;
+    align-content: center;
+    margin: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}

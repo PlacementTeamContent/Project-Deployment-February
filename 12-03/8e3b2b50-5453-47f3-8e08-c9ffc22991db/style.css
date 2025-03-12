@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    font-family: "Roboto";
+}
+
+.nav {
+    background-color: #000000;
+    opacity: 0.80;
+    padding: 10px;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    margin: 35px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.head {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.list {
+    display: none;
+}
+
+.home {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    padding: 100px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+.line {
+    height: 8px;
+    background-color: #39ff14;
+    width: 120px;
+    margin: 15px;
+}
+
+.services {
+    background-color: #d4ffcc;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    background-color: #ffffff;
+    border-bottom: 5px solid #39ff14;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width: 768px) {
+    .list {
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+    }
+    .menu-icon {
+        display: none;
+    }
+    .head {
+        font-size: 30px;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+    }
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-list {
+        order: 1;
+    }
+}

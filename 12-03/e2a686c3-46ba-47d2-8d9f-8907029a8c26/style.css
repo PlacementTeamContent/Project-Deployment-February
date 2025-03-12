@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+#sectionhome{
+    font-family: "Roboto";
+}
+.nav{
+    background-color: Brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto";
+    color:white;
+    height: 100px;
+}
+.nav_heading{
+    padding-left:  20px;
+}
+.memu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-family: "Roboto";
+    color:white;
+    font-weight: bold;
+}
+.home{
+    padding-right: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.main_page{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+.main_heading{
+    font-family: "Roboto";
+    color:white;
+    font-weight: bold;
+    font-size: 70px;
+    padding-left: 40px;
+}
+.side_heading{
+    padding-left: 40px;
+    color:white;
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+button{
+    background-color: #0A1525;
+    width: 350px;
+    margin-left:50px;
+}
+.qwer{
+    background-color: #0A1525;
+    width: 100px;
+    padding-right: 100px ;
+}
+#sectionservices{
+    background-color: #4B84F3;
+    background-color: pink;
+    height: 100vh;
+}
+.services2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size:40px;
+}
+.cards{
+    height: 700px;
+    width: 350px;
+    font-size: 30px;
+    font-family: "Roboto";
+    border-width: 0px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+.img_card{
+    border-radius:40px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.full_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.footer{
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen (width:767px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.background-image1{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size:cover;
+    min-height:40vh;
+    min-width:150vw;
+}
+.heading1{
+    color:#ffffff;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top:120px;
+}
+.greenbar{
+    background-color:#39ff14;
+    height:10px;
+    width:130px;
+    display:grid;
+    
+    align-content: center;
+    align-items: center;
+    
+}
+.para1{
+    color: #ffffff;
+   /*  margin-left:130px; */
+    text-align:center;
+    padding:3px;
+}
+
+.backgroundcolor{
+    background-color:#d4ffcc;
+    height:100vh;
+    width:150vw;
+}
+.heading2{
+    text-align: center;
+    padding:10px;
+    font-size:30px;
+    
+}
+.greenbar2{
+    height:5px;
+    background-color:#39ff14;
+    width:50px;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.card1{
+    background-color: #ffffff;
+    height:350px;
+    width:300px;
+    margin:10px;
+    
+}
+.image1{
+    height:150px;
+    width:150px;
+    border-radius:90px;
+    margin-left:60px;
+    margin-top:20px;
+    display:grid;
+    align-content: center;
+    margin-bottom:20px;
+}
+.img1-head{
+    font-size:20px;
+    text-align: center;
+}
+.img1-para{
+    margin:5px;
+}
+.middletotal{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1px;
+}
+.footer{
+    background-color:lightgrey;
+    height:30vh;
+    width:150vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr;
+    
+}
+.footerhead{
+    font-size:20px;
+    margin-left:35px;
+    margin-top:35px;
+}
+.homefooter{
+    font-size:20px;
+    
+    margin-top:35px;
+}
+.servicefooter{
+    font-size:20px;
+   
+}
+.footerpara{
+     margin-left:35px;
+/*      margin-top:35px;
+ */}
+ .card2{
+    background-color: #ffffff;
+    height:350px;
+    width:300px;
+    margin-right:300px; 
+ }

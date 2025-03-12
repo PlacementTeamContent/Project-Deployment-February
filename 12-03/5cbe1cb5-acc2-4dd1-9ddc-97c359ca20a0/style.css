@@ -1,0 +1,51 @@
+.homepage {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    background-size: cover;
+    height: 1000px;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicespage {
+    background-color: #f2ccff;
+    padding: 10px;
+    background-size: cover;
+    width:1400px;
+}
+
+.heading {
+    color: white;
+    font-size: 40px;
+}
+
+.para {
+    color: white;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2ccff;
+}
+.card1{
+    background-color: #f2ccff;
+    padding: 10px;
+    margin: 10px;
+}
+.card2{
+    background-color: #f2ccff;
+    padding: 10px;
+    margin: 10px;
+}
+.card3{
+    background-color: #f2ccff;
+    padding: 10px;
+    margin: 10px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

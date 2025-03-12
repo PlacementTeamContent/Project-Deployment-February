@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    margin: 10px;
+}
+
+.head {
+    color: #1b262c;
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+.main-heading {
+    color: #1b262c;
+    font-weight: bold;
+    font-family: "Roboto";
+    padding-left: 15px 20px 15px 20px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+span {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.img1 {
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height: 60vh;
+    width: 100vw;
+    margin: 10px;
+    background-size: cover;
+}
+
+.head {
+    color: #f9f9f9;
+    font-family: "Roboto";
+}
+
+.para {
+    text-decoration: underline;
+    color: #1976d2;
+    text-align: center;
+}
+
+hr {
+    background-color: #1976d2;
+    font-style: solid;
+    width: 60px;
+
+}
+
+.c1 {
+    color: #f9f9f9;
+}
+
+.card1 {
+    background-color: #d1e5f9;
+    height: 150vh;
+    width: 100vw;
+    margin: 10px;
+}
+.card-container{
+    text-align:center;
+    padding: 20px;
+}
+.m1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.img11{
+    height: 20vh;
+    margin: 10px;
+    border-radius: 150px;
+    background-size: cover;
+}
+.bob1{
+    text-align: center;
+}
+.last-main{
+    background-color: #1b262c;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}

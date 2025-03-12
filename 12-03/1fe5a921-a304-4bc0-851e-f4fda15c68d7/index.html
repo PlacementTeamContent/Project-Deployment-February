@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: grid;
+            grid-template-rows: auto 1fr;
+            height: 100vh;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #ffffff;
+        }
+
+        .header a {
+            color: #5d4534;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            padding: 60px;
+        }
+
+        .hero-text {
+           
+            padding: 20px;
+           
+            text-align: center;
+            color: white;
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero-text p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background-color:#d1e5f9 ;
+        }
+
+        .service-item {
+            text-align: center;
+        }
+
+        .service-item img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .service-item h3 {
+            margin: 15px 0 5px;
+            font-size: 1.5rem;
+        }
+
+        .service-item p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 2rem;
+            }
+
+            .hero-text p {
+                font-size: 1rem;
+            }
+
+            .header {
+                flex-direction: column;
+            }
+        }
+.heading {
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 20px 40px;
+   
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left h2 {
+    margin-bottom: 5px;
+}
+
+.footer-left p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.footer-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+.head{
+    color:black;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-right {
+        margin-top: 10px;
+    }
+}
+.black {
+    background-color:black;
+    height:100px;
+    color:#ffffff;
+    
+}
+.back{
+    background-color:#d1e5f9;
+}
+.line{
+     padding-left:40px;
+     padding-right:40px;
+     color:#1976d2;
+}
+    </style>
+    <div class="header">
+        <div><h1>Clothing Store</h1></div>
+        <div >
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Style Heaven</h1>
+            <hr class="line">
+            <p>Where the fashion Dreams Come True</p>
+        </div>
+    </div>
+    <div class="back"> 
+    <h1 class = "heading head">Services</h1>
+    <hr class="line">
+    <div class="services">
+        <div class="service-item">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/7879661/400_6012e34359d6b.jpg" alt="Custom Interiors">
+            <h3>Personal styling<h3>
+            <p>Personalize your car with premium interior accessories designed for comfort and style.</p>
+        </div>
+        <div class="service-item">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/7198690/400_5fb0e7fd2cb70.jpg" alt="Exterior Styling">
+            <h3>Custom Tailor</h3>
+            <p>Give your car a makeover with our selection of exterior accessories, from spoilers to custom wheels.</p>
+        </div>
+        <div class="service-item">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/8198/400_5cda760a31226.jpg">
+            <h3>Exclusive Collection</h3>
+            <p>Enhance your driving experience with our wide range of car electronics, including GPS, audio systems, and more.</p>
+        </div>
+        
+    </div>
+   
+        <div class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h2>Clothing Store</h2>
+                <p>Copyright © 2025 All rights reserved</p>
+            </div>
+            <div class="footer-right">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+            </div>
+        </div>
+    </div>
+   
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nava {
+    background-color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.logo-head {
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.blog {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg');
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-main {
+    color: #FFFFFF;
+    font-family: Roboto;
+    margin-bottom: 9px;
+}
+
+.hr {
+    margin-left: 80px;
+    font-size: 5px;
+    width: 140px;
+    background-color: #39ff14;
+    border-width: 0px;
+}
+
+.page {
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.body {
+    background-color: #d4ffcc;
+}
+
+.blog1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards1 {
+    text-align: center;
+}
+
+.hs {
+    background-color: #39ff14;
+    border-width: 0px;
+    font-size: 4px;
+    width: 90px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.heading-image {
+    margin-top: 14px;
+}
+
+.matter-bolg1 {
+    margin-top: 11px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.haeding1 {
+    margin-top: 10px;
+}
+
+.page-footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .main-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+}

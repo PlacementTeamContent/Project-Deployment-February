@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: "Roboto";
+    box-sizing:border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0A1525;
+    color: white;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    margin-top: 18px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: "Sans-Serif";
+}
+
+.home-page {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.home-heading {
+    color: white;
+    font-size: 30px;
+
+}
+.homePage-des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-des {
+    color: white;
+}
+
+.hr {
+    font-weight: bold;
+    width: 100px;
+}
+
+.hr hr {
+    background-color: #0A1525;
+    border: 1.5px solid #0A1525;
+}
+.services-page{
+    background-color: #4B84F3;
+    padding: 19px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.home-page {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #4B84F3;
+    padding: 18px;
+}
+
+.services-page {
+    text-align: center;
+}
+
+.card img {
+    border-radius: 80%;
+    height: 250px;
+    width: 275px;
+}
+
+.hr2 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 19px;
+    font-size: 24px;
+}
+
+footer .f1 {
+    padding: 9px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+    font-size: 20px;
+    color: black;
+}

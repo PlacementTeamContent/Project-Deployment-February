@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #008080;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    color: #f9f9f9;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bg-img {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    color: #f9f9f9;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.services {
+    background-color: #ccffff;
+    color: black;
+    padding: 8px;
+}
+
+@media screen and (min-width:576px) {
+    .card {
+        background-color: #ccffff;
+        display: grid;
+        grid-template-columns: row;
+        grid-auto-columns: 2;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .card {
+        background-color: #ccffff;
+        display: grid;
+        grid-template-columns: row;
+        grid-auto-columns: 2;
+    }
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 200px;
+}

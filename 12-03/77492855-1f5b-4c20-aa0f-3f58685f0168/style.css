@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.container {
+    height: 100vh;
+    width: 150vh;
+}
+
+.content-container {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+.head{
+    font-size: 50px;
+}
+.line{
+    width: 100px;
+    height: 10px;
+    color: #39ff14;
+}
+.section-container{
+    background-color: #d4ffcc;
+    height: 1000vh;
+}
+.head1{
+    text-align: center;
+    font-family: "Roboto";
+}
+.card{
+    height: 450px;
+    width: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 50px;
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width:576px){
+    .card-container{
+        display: flex;
+    flex-direction: column;
+   
+    }
+    .card{
+        margin: 20px;
+    }
+    
+    
+}
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.para{
+    text-align: center;
+}
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width:576px) {
+    .header-container {
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+        
+    }
+}
+
+.icon {
+    height: 20px;
+    color: #ffffff;
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .icon {
+        display: block;
+    }
+}
+
+.nav-items {
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width:576px) {
+    .nav-items {
+        display: none;
+    }
+}
+
+.home {
+    margin-right: 10px;
+}

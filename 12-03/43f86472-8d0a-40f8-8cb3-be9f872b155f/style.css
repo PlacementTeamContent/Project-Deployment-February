@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.nav-heading{
+    font-weight: bold;
+    color:black;
+    font-family: Roboto;
+    font-size: 40px;
+}
+.nav{
+    display: flex;
+    background-color: #f9f9f9;
+    width:auto;
+    justify-content: space-between;
+}
+.nav-home{
+    margin-left: 390px;
+    margin-top:40px;
+    text-decoration: underline;
+    font-size:28px;
+    font-weight: bold;
+}
+.nav-service{
+    margin-left: 20px;
+    margin-top:40px;
+    font-size:28px;
+    font-weight: bold;
+    margin-right:10px;
+}
+.home{
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height:50vh;
+    width:99vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.home-text{
+    color:white;
+    font-size:50px;
+    margin-top:135px;
+}
+.line{
+    background-color:#1976d2;
+    height:10px;
+    width:140px;
+}
+.line-btn{
+    text-align: center;
+}
+.home-para{
+    color:white;
+    font-size:40px;
+}
+.services{
+    background-color:#d1e5f9;
+    width:99vw;
+    height:auto;
+}
+.ser-text{
+    color:black;
+    font-weight:normal;
+    text-align: center;
+    margin-top:0px;
+    font-size:40px;
+}
+.linee{
+    background-color:#1976d2;
+    height:5px;
+    width:140px;
+}
+.line-btnn{
+    text-align: center;
+}
+.img1{
+    border-radius:40px;
+    margin-right:20px;
+}
+.images{
+    text-align: center;
+    margin-top:50px;
+}
+.img2{
+    border-radius:40px;
+}
+.img3{
+    border-radius:40px;
+    margin-top:40px;
+}
+.img-div{
+    text-align: center;
+}
+.footer-heading{
+    font-weight: bold;
+    color:white;
+    font-family: Roboto;
+    font-size: 40px;
+}
+.footer{
+    display: flex;
+    background-color: #1b262c;
+    width:auto;
+    justify-content: space-between;
+    color:white;
+}
+.footer-home{
+    margin-left: 390px;
+    margin-top:40px;
+    
+    font-size:28px;
+    font-weight: bold;
+}
+.footer-service{
+    margin-left: 20px;
+    margin-top:40px;
+    font-size:28px;
+    font-weight: bold;
+    margin-right:10px;
+}

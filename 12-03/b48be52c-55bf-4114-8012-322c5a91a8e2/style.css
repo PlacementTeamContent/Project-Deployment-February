@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.section-part{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#000000;
+    color:#ffffff;
+    font-family:"Roboto";
+}
+.section{
+    margin:10px;
+}
+.toggle-button{
+    background-color:black;
+}
+.navbar-heading{
+    margin-left:20px;
+}
+
+.interface-description{
+    display: flex;
+    font-size:15px;
+    flex-direction: column;
+    color:#ffffff;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    width:100%;
+    background-size:cover;
+    height:400px;
+}
+.color-box{
+    height:5px;
+    width:80px;
+    background-color:#39ff14;
+}
+.image1{
+    height:250px;
+    width:250px;
+    border-radius:150px;
+}
+.services-section{
+    background-color:#d4ffcc;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.section:hover{
+}
+.colorbox{
+    height:5px;
+    width:100%;
+    background-color:#39ff14;
+}
+.service1{
+    background-color:#ffffff;
+    text-align: center;
+    height:410px;
+    width:400px;
+    margin:10px;
+    border-radius:10px;
+}
+.bg-container{
+    font-family:"Roboto";
+}
+.footer-part{
+    list-style-type: none;
+    margin:20px;
+}
+.footer2{
+    display:flex;
+    flex-direction:column;
+    align-self: center;
+}
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width:768px){
+    .section-part{
+        display:none;
+    }
+    .navbar-heading{
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        order:2;
+        margin:10px;
+    }
+    .toggle-button{
+        order:1;
+        margin:20px;
+        font-size:30px;
+    }
+    .interface-description{
+        height:50vh;
+    }
+
+}
+@media (min-width:769px){
+    .toggle-button{
+        display:none;
+    }
+}

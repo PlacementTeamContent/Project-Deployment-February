@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    background-color:#f8dcbf ;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    color: #FFFFFF;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.Tennis{
+    font-size: 36px;
+}
+.arrange{
+    display: grid;
+    align-content: center;
+}
+.content{
+    font-size: 22px;
+    background-image:url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg') ;
+    color: white;
+    background-size: cover;
+    width: 100vw;
+    height:60vh;
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+}
+.card1{
+    background-color: white;
+    width: 40vw;
+    height: 50vh;
+    display: grid;
+    justify-content: center;
+    border-radius: 5px;
+    border-bottom: 5px solid black;
+}
+.imgs{
+    margin-top: 20px;
+    width: 25vw;
+    height: 30vh;
+    border-radius: 50%;
+  
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card_last{
+    display: grid;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.last{
+    background-color: #1b262c;
+    color: white;
+    width: 100vw;
+    height: 30vh;
+}
+.ender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}

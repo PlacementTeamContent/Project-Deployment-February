@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+* {
+    margin: px;
+}
+
+.fa fa-bars {
+    text-align: center;
+    font-family: Caladea;
+
+}
+
+.what {
+
+    border: solid, white;
+    background-color: #808080;
+
+
+
+}
+
+.hii {
+    background-size: cover;
+
+}
+
+.continer {
+    background-color: #FFFFFF;
+}

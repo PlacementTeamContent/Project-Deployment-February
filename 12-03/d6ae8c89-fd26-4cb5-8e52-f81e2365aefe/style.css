@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.BACK {
+    background-color: #0A1525;
+}
+
+.img {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-1 {
+    background-color: #4B84F3;
+    background-color: pink;
+    height: 100%;
+    padding:20px;
+}
+.img-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.img-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imgp-1{
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-1{
+    display: flex;
+    flex-direction: row;
+}
+.font{
+    font-weight: bold;
+}

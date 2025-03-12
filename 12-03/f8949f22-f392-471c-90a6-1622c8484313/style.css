@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.card1 {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    font-family: Caladea;
+}
+
+.heading1 {
+    color: white;
+}
+
+.para1 {
+    color: white;
+}
+
+.container {
+    background-color: #f7c1c1;
+    font-family: Caladea;
+}
+
+.heading2 {
+    text-align: center;
+}
+.container1{
+    background-color:#FFFFFF;
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body{
+    margin:0px;
+}
+*{
+    font-family:"Roboto";
+   
+}
+.centering{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+nav{
+    background-color:rgb(200,100,100);
+    color:white;
+    padding:20px 15px;
+    display:flex;
+}
+nav div{
+    flex-grow:1;
+}
+nav p{
+    margin:0;
+    text-align:center;
+    font-weight:600;
+    letter-spacing:1.5px;
+}
+.aero-home-bg{
+    height:55vh;
+    background-image:url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    background-size:cover;
+    width:100vw;
+    text-align:center;
+    
+    margin:0px;
+    color:white;
+}
+.aero-home-bg-text{
+    width:90%;
+    max-width:900px;
+}
+.aero-home-bg h1{
+    font-size:35px;
+}
+.line-divide-1{
+    width:20vw;
+    height:5px;
+    border:0;
+    background-color:rgb(200,100,100);
+}
+.line-divide-2{
+    width:10vw;
+    height:2px;
+    border:0;
+    background-color:rgb(200,100,100);
+    margin-bottom:20px;
+}
+.aero-services-section{
+    background-color:rgb(255,180,180);
+    margin:0px;
+    text-align:center;
+    padding:40px 10px;
+}
+.aero-services-section p{
+    margin:0;
+}
+.aero-services-section-card{
+    text-align:center;
+    background-color:white;
+    border-bottom:solid 3.6px rgb(200,100,100);
+    border-radius:4px;
+    padding:40px 10px;
+    font-size:70%;
+    margin:10px;
+    width:280px;
+    
+}
+.aero-services-section-card img{
+    border-radius:120%;
+    width:100px;
+    height:100px;
+    
+}
+
+footer{
+    padding:20px;
+    background-color:white;
+    
+}
+a{
+    color:black;
+    text-decoration:none;
+    font-size:80%;
+}
+
+@media all and (min-width:768px){
+    .aero-home-bg-text{
+        text-align: left;
+        align-items: flex-start;
+    }
+    .aero-services-section-cards{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    footer{
+        flex-direction:row;
+        
+    }
+    .copyright{
+        order:-1;
+    }
+}

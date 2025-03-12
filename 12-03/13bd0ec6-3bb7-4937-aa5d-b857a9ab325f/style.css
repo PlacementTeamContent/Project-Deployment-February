@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.containerimg{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size: cover;
+    height:100vh;
+}
+.ser{
+    background-color: #d4ffcc;
+    margin: 10px;
+}
+.imgs{
+    border-radius: 70px;
+    width: 70px;
+    height: 70px;
+}
+.para{
+    color: #39ff14;
+}
+.cont{
+    text-align: center;
+    color: white;
+    align-content: center;
+    padding-top: 150px;
+    font-family: "Roboto";
+}
+.imgcont{
+   text-align: center;
+}
+.navs{
+    background-color: #000000;
+    color: white;
+}
+.koko{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.footer{
+    margin: 10px;
+}

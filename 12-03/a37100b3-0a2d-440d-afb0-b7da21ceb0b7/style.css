@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar{
+    background-color: #1b262c;
+    color: #ffffff;
+    font-family: Roboto;
+    width: 100vw;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.bars{
+    display: none;
+}
+.CarServices{
+    display: flex;
+}
+.home{
+    display: flex;
+
+}
+.main{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+    height: 100vh;
+    background-size: cover;
+    font-family: Roboto;
+    color: white;
+
+    
+}
+.top{
+    color: white;
+    text-align: center;
+    margin-top: 180px;
+    font-family: Roboto;
+    border: 10px;
+    border-color: black;
+    font-size: 40px;
+}
+.bar22{
+    border: 10px;
+    background-color: #bf00ff;
+}
+.driving{
+    text-align: center;
+}
+
+.service{
+    background-color: #f2ccff;
+
+    
+    
+}
+.img-service{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
+.each-service{
+    margin-top: 10px;
+    padding: 60px;
+}
+.service-head{
+    text-align: center;
+    font-family: Roboto;
+}
+.img-head{
+    font-style: bold;
+    font-family: Roboto;
+    
+}
+.img-para{
+    font-family: Roboto;
+}
+.footer{
+    font-family: Roboto;
+
+}
+
+@media screen and (max-width: 768px){
+.bars{
+    display: flex;
+    font-size: 20px;
+}
+.navbar{
+    background-color: #1b262c;
+    color: #ffffff;
+    font-family: Roboto;
+    width: 100vw;
+    padding: 10px;
+}
+.CarServices{
+    text-align: center;
+}
+.home{
+    display: none;
+}
+.services{
+    display: none;
+}
+.main{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+    height: 100vh;
+    background-size: cover;
+    font-family: Roboto;
+    color: white;
+
+    
+}
+.top{
+    color: white;
+    text-align: center;
+    margin-top: 180px;
+    font-family: Roboto;
+    border: 10px;
+    border-color: black;
+    font-size: 40px;
+}
+.bar22{
+    border: 10px;
+    background-color: #bf00ff;
+}
+.driving{
+    text-align: center;
+}
+
+.service{
+    background-color: #f2ccff;
+    text-align: center;
+    
+    
+}
+.img-service{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
+.each-service{
+    margin-top: 10px;
+    padding: 60px;
+
+}
+.service-head{
+    text-align: center;
+    font-family: Roboto;
+}
+.img-head{
+    font-style: bold;
+    font-family: Roboto;
+    
+}
+.img-para{
+    font-family: Roboto;
+}
+.footer{
+    font-family: Roboto;
+    text-align: center;
+}
+}

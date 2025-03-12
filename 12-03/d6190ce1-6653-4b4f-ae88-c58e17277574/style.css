@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: Roboto;
+}
+.bg{
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height:700px;
+    background-size:cover;
+     width:100%;
+}
+.each{
+    text-align: center;
+}
+.icon{
+    display: none;
+}
+.nav{
+    background-color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.spec {
+    text-decoration: underline;
+    color:black;
+    margin-right:3px;
+}
+.head{
+    text-align: center;
+}
+.hero{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    text-align: center;
+    width:100%;
+}
+.line{
+    width:100px;
+    height:5px;
+    background-color:#1976d2 ;
+    justify-content: center;
+   margin-left: 150px;
+    
+}
+.sec{width:100%;
+    background-color:#d1e5f9 ;
+}
+.head .line{
+    width:100px;
+    height:5px;
+    background-color:#1976d2 ;
+    justify-content: center;
+    margin-left: 435px;
+    
+
+    
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section img{
+    margin-top: 12px;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+.sep{
+    display: flex;
+    justify-content: center;
+}
+.sep img{
+    margin-top: 12px;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+.footer{
+    background-color:#1b262c ;
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.right1{
+    display:none;
+}
+@media (max-width:576px){
+    .items{
+        display: none;
+    }
+    .icon{
+        display: block;
+        margin:10px;
+        margin-top:30px;
+    }
+    .left-top{
+        display: flex;
+    }
+    .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color:#1b262c ;
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+.head .line{
+    width:100px;
+    height:5px;
+    background-color:#1976d2 ;
+    justify-content: center;
+    margin-left: 210px;
+    
+
+    
+}
+.right{
+    display:none;
+}
+.right1{
+    display:block;
+}
+}

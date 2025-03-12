@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+*{
+    font-family: "Caladea";
+}
+.headerr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #808080;
+    color: white;
+}
+.headmin{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    padding: 15px;
+}
+.herosec{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    opacity: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.heroredbar{
+    height: 5px;
+    width: 130px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    margin-left: 430px;
+    margin-top: 10px;
+}
+.servicessec{
+    background-color: #f7c1c1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.cardssec{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+@media screens [max-width:567px] {
+    .servicessec{
+        display: grid;
+        grid-column:1/3;
+    }
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar {
+    background-color: #000000;
+    color: white;
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.bar-container {
+    display: none;
+}
+
+.nav-items-container {
+    display: flex;
+}
+
+.nav-items {
+    margin: 20px;
+    align-self: center;
+}
+
+@media screen and (max-width:576px) {
+    .nav-items-container {
+        display: none;
+    }
+
+    .bar-container {
+        display: flex;
+        align-self: center;
+    }
+}
+
+.home {
+    height: 60vh;
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: Roboto;
+    display: grid;
+    place-content: center;
+}
+
+.line {
+    border-width: 5px;
+    width: 100px;
+    border-color: #39ff14;
+}
+
+.home-head {
+    font-size: 50px;
+}
+
+.home-para {
+    font-size: 25px;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    gap: 20px;
+
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.card-3 {
+    place-self: center;
+}
+
+@media screen and (max-width:576px) {
+    .services {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.card-img {
+    border-radius: 200px;
+    height: 150px;
+    width: 150px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.bg-service {
+    background-color: #d4ffcc;
+    padding: 20px;
+}
+
+.ser-name {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #39ff14;
+    text-decoration-thickness: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.footer-nav-items {
+    display: flex;
+}
+
+@media screen and (max-width:576px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-head {
+        text-align: center;
+    }
+
+}

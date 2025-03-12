@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav-bar{
+    background-color: #f8dcbf;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    text-align: center;
+}
+i{
+    margin: 20px;
+}
+
+.Tennis{
+  /*   padding-left: 150px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bg-container{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg');
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Services{
+    background-color:#f8dcbf;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    color: black;
+    background-color: black;
+    width:70px;
+}
+
+.whitecontainer{
+    background-color: white;
+    width: 70vw;
+    border-radius: 10px;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.img{
+    height:200px;
+    width: 200px;
+    border-radius: 190px;
+    padding: 10px;
+}
+
+.whitecontainer1{
+    background-color: white;
+    width: 70vw;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.grid{
+    display: grid;
+}
+
+.last-page{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   justify-content: center;
+   
+}
+.nav{
+    display: none;
+}
+@media (min-width:786px){
+    .nav{
+    background-color: #f8dcbf;
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    text-align: center;
+    justify-content: space-between;
+  padding: 10px;
+    }
+    .p{
+        display: flex;
+        gap: 10px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .gridcol{
+        display:flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    .whitecontainer{
+    background-color: white;
+    border-radius: 10px;
+    width: 50vw;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.whitecontainer1{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 50vw;
+}
+}

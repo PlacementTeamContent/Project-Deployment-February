@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-color:  brown;
+    height:10vh;
+}
+.heading{
+    color:white;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    height:60vh;
+    
+    background-size:cover;
+}
+.head{
+    color:white;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 50px;
+}
+.line{
+    border:5px solid;
+    color: brown;
+    width:50px;
+    margin:50px;
+    margin-left:170px;
+    justify-content: center;
+    align-content: center;
+    }
+.paragraph{
+    color:white;
+    text-align: center;
+}
+.container1{
+    background-color: pink;
+    height:180vh;
+    background-size:cover;
+}
+.h{
+    color:white;
+    text-align: center;
+    font-family: "Roboto";
+    padding:20px;
+}
+.card1{
+    background-color: white;
+    background-size:color;
+}
+.card2{
+    background-color: white;
+    background-size:color;
+}
+.card1{
+    background-color: white;
+    background-size:color;
+    
+.img{
+    border-radius:400px;
+   height:100px;
+   margin-left: 100px;
+   padding:10px;
+   
+}
+.a{
+    text-align: center;
+    font-size: 30px;
+}
+.p{
+    text-align: center;
+    font-size: 10px;
+}

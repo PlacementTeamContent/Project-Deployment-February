@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav-bar{
+    
+    justify-content: space-between;
+ }
+ .bg-1{
+     background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+ }
+ .head{
+    color: #f9f9f9;
+    flex-direction: row;
+ }
+ .head-1{
+     color: white;
+     height: 60px;
+ }
+ .bg-2{
+     background-color:#1976d2 ;
+
+     
+ }
+ .head-3{
+    text-decoration: underline;
+    text-align: center;
+    
+ }
+ .image{
+     height: 150px;
+     
+ }
+ .space{
+     display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+ }
+ .nav{
+   background-color: #1b262c;
+  color: white;
+     
+ }
+ .na{
+    justify-content: space-between; 
+    display: flex;
+   flex-direction: column;
+ }

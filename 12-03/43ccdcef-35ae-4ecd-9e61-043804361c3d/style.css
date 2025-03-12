@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header {
+    background-color: #87ceeb;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-heading {
+    font-family: "Roboto";
+}
+
+.header-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto";
+}
+
+.one {
+    color: white;
+    font-family: "Roboto";
+}
+
+.three {
+    color: white;
+    font-family: "Roboto";
+}
+
+.section {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.services-section {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.services-heading {
+    font-family: "Roboto";
+    color: #1b262c;
+    text-align: center;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px
+}
+
+@media screen and (min-width:576px) {
+    .sevices-one {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .screen-one {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    .section-two {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .im1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+.footer {
+    background-color: #1b262c;
+    height: 300px;
+}
+
+.footer-h {
+    color: white;
+    font-family: "Roboto";
+}
+
+.footer-p {
+    color: white;
+    font-family: "Roboto";
+}
+
+@media screen and (min-width:992px) {
+    .foo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

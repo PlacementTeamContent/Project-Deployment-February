@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.navbar-container {
+    background-color: #808080;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.icon {
+    display: none;
+}
+
+.navbar-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.unordered-conntainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.list-item {
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.header-section-container {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section-heading {
+    font-family: "Roboto";
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hr-line {
+    background-color: red;
+    width: 85px;
+    height: 5px;
+    border-width: 0px;
+    border-style: solid;
+    margin: 30px;
+}
+
+.header-section-para {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.section-container {
+    background-color: #f7c1c1;
+    text-align: center;
+    padding: 30px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container-heading {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.hr-section-line {
+    background-color: red;
+    width: 80px;
+    height: 5px;
+    border-width: 0px;
+    border-style: solid;
+    margin: 30px;
+    align-self: center;
+}
+
+.section-cards-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section-card-container {
+    padding: 15px;
+    width: 100%;
+}
+
+.image {
+    border-radius: 15px;
+}
+
+.section-card-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.section-card-para {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-container {
+    margin: 30px;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-side-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-side-home-para {
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-container {
+        flex-wrap: wrap;
+    }
+    .image {
+        width: 300px;
+        height: 200px;
+    }
+    .section-cards-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .section-card-container {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .unordered-conntainer {
+        display: none;
+    }
+    .icon {
+        display: grid;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-container {
+        justify-content: space-around;
+    }
+}

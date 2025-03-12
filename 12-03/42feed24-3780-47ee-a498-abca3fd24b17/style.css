@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-container{
+    background-color: brown;
+    flex-direction: row;
+    color: white;
+    padding: 10px;
+    height: 50px;
+}
+.head{
+    text-align: center;
+    font-size:25px;
+    font-family: Roboto;
+
+}
+.ham{
+    padding-bottom: 20px;
+}
+.first_page_bg{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 470px;
+}
+.head1{
+    font-size: 80px;
+    font-family: Roboto;
+    color: #ffffff;
+    text-align: center;
+    padding-top:60px;
+     font-weight: bold;
+}
+.para1{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+.head2{
+    text-align: center;
+    font-size:45px;
+    font-family: Roboto;
+}
+.bg-2{
+    background-color: #4B84F3;
+    height: 200vh;
+}
+.card{
+    height: 500px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 20px;
+}
+.img{
+    height: 200px;
+    border-radius: 250px;
+    padding: 60px;
+}
+.head3{
+        font-size: 25px;
+    font-family: Roboto;
+    text-align: center;
+     font-weight: bold;
+}
+.para2{
+    font-size: 15px;
+    font-family: Roboto;
+    text-align: center;
+     font-weight: bold;
+    
+}
+.bg-3{
+    background-color: #ffffff;
+    height: 250px;
+}
+.para{
+    flex-direction: row;
+    text-align: center;
+}

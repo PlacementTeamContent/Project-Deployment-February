@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.logo {
+    height: 10vh;
+    width: 100vw;
+    background-color: #0A1525;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img {
+    height: 300vh;
+}

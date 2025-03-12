@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.card-1{
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.head-1{
+    font-family: "Roboto";
+    font-size: 44px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.para-1{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card-2{
+    background-color: #d1e5f9;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}
+.main-head{
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.img{
+    border-radius: 50%;
+    height: 25vh;
+    width: 40vw;
+    grid-template-columns: 33% 33% 33%;
+}
+.head-2{
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.para-2{
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.card-3{
+    background-color: #1b262c;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}
+.para{
+    font-family: "Roboto";
+    color:#ffffff;
+}
+.head{
+     font-family: "Roboto";
+    color:#ffffff;
+    font-size: 20px;
+    
+}
+.para-4{
+     font-family: "Roboto";
+    color:#ffffff;
+}
+.card{
+    justify-content: center;
+    text-align: center;
+}
+@media{
+}

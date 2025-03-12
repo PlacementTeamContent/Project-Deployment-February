@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.box-1{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    background-color:#000000 ;
+}
+.nav{
+    background-color: #000000;
+    color: white;
+    height: 90px;
+    width: 500px;
+    
+    
+    
+}
+.heading{
+    display: grid;
+    place-content: center;
+}   
+.triple{
+    padding: 5px;
+    
+} 
+.heading-1{
+    color: white;
+    display: grid;
+     place-content: center;
+     font-family: "Roboto";
+    
+}
+
+.pra{
+    display: grid;
+     place-content: center;
+    color: white;
+    font-size: bold;
+}
+.content{
+    background-color: #39ff14;
+    width: 500px;
+    
+}
+.heading-2{
+    color: black;
+}
+.first-box{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Roboto";
+    
+}
+.img-1{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    
+}
+.pra-1{
+    color: black;
+}
+.second-box{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Roboto";
+    
+}
+.third-box{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Roboto";
+   
+    
+}
+.footer{
+    background-color: #FFFFFF;
+    justify-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    
+}
+.s-box{
+    justify-items: center;
+    font-size: 10px;
+}
+@media screen and (min-width:576px){
+    .box{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 50% 25%;
+    }
+   
+    .content{
+        display: grid;
+        gap: 10px;
+        grid-row: 2/4;
+        place-content: center;
+    }
+    .footer{
+        display: grid;
+        grid-row: 4/4;
+    }
+}

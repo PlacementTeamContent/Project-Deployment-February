@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@media (min-width:990px){
+    .navbar{
+        background-color: #9f5353;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+    }
+    .rightside{
+        display: flex;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .banner{
+        background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 100px;
+        color: #ffffff;
+        font-family: "Roboto";
+        
+    }
+    .colorline{
+        border: #9f5353 5px solid;
+    }
+    .services{
+        background-color: #9f5353;
+        width: 700px;
+        height: 500px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 10px;
+        padding: 20px;
+    }
+    .card{
+        background-color: #ffffff;
+        width: 320px;
+        height: 100px;
+    }
+    img{
+        border-radius: 400px;
+    }
+    .footer{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:660px){
+    .navbar{
+        background-color: #9f5353;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+    }
+    .rightside{
+        display: block;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .banner{
+        background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 100px;
+        color: #ffffff;
+        font-family: "Roboto";
+        
+    }
+    .colorline{
+        border: #9f5353 5px solid;
+    }
+    .services{
+        background-color: #9f5353;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;
+        margin: 10px;
+        padding: 20px;
+    }
+    .card{
+        background-color: #ffffff;
+        width: 320px;
+        height: 100px;
+    }
+    img{
+        border-radius: 200px;
+    }
+    .footer{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

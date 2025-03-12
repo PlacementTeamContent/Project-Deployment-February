@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.bg-container {
+    background-color: #f8dcbf;
+    height: 50px;
+}
+
+.bg-container1 {
+    background-color: #f8dcbf;
+    height: 700px;
+}
+
+.line1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card {
+    background-color: white;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.line2 {
+    text-align: center;
+}
+.container{
+    background-color: #1b262c;
+    height: 100px;
+}
+.line4{
+    color: white;
+}

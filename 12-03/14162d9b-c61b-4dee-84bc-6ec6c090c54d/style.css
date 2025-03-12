@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.back{
+    background-color:#f8dcbf ;
+    height: 150vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8dcbf;
+    font-family: Roboto;
+    height: 50px;
+    text-align: center;
+} 
+.subnav{
+    display: flex;
+    margin: 10px;
+    
+}
+.section_{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    font-family: Roboto;
+    color:#FFFFFF;
+    font-size: 30px;
+    height: 50vh;
+    background-size: cover;
+    background-color: #f8dcbf;
+    
+}
+.section{
+    text-align: center;
+}
+.mainhead{
+    text-decoration: underline;
+    text-decoration-color:#f8dcbf;
+    padding-top: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: roboto;
+}
+.slogan{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    font-family: roboto;
+}
+.img1{
+    display: flex;
+    height: 20px;
+    width:50px ;
+    border-bottom: 2px solid black;
+}
+.tennis_image{
+    height: 20vh;
+    width:40vh;
+    margin: 10px;
+}
+.woman_image{
+    height: 25vh;
+    width:40vh;
+}
+.img2{
+    height: 40vh;
+    width:50vh ;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    align-content: center;
+}
+.home{
+    margin-left:40px;
+    margin-right: 20px;
+}
+.footer{
+    display: flex;
+    background-color: #000000;
+    color:#FFFFFF;
+    margin-right: 20px;
+}
+@media screen

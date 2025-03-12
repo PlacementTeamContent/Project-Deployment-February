@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+    background-color: #f8dcbf;
+}
+
+.main-con {
+    background-color: #f8dcbf;
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+
+}
+
+.home-service {
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+
+}
+
+.image {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.div-class {
+
+    color: white;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.ser {
+    text-align: center;
+}
+
+.card {
+    height: 200px;
+    width: 100vw;
+    background-color: white;
+}
+
+.card {
+    background-color: #f8dcbf;
+    height: 50vh;
+}
+
+.card1 {
+    height: 270px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.bat {
+    height: 80px;
+    border-radius: 50px;
+}
+
+.div-card {
+    display: flex;
+}
+
+.card1-last {
+    text-align: center;
+
+}
+
+.foot {
+    background-color: black;
+    height: 40px;
+    color: white;
+}
+
+.foot {}

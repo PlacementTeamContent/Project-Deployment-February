@@ -1,0 +1,54 @@
+.mainpage {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    height: 1000px;
+    width: 1000px;
+}
+
+.text-1 {
+    color: #FFFFFF;
+    height: 100px;
+    width: 980px;
+    padding: 10px;
+    font-family: Roboto;
+    background-color: #008080;
+}
+
+.span {
+    text-align: center;
+}
+
+.text-2 {
+    color: #FFFFFF;
+    font-family: Roboto;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+}
+
+.line {
+    background-color: #008080;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    margin: 180px;
+}
+
+.page-2 {
+    background-color: #ccffff;
+}
+
+.images {
+    border-radius: 100%;
+}
+
+.imagepart {
+    text-align: center;
+
+}
+
+.div-2 {
+    background-color: #f9f9f9;
+}
+
+.symbol {}

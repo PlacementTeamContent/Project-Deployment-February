@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.bg-container{
+    font-family: "Roboto";
+     color: #FFFFFF;
+}
+nav{
+    background-color: #008080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: #FFFFFF;
+    
+}
+
+.nav-content{
+      display: flex;
+     margin-bottom: 0px;
+}
+.nav-content p{
+     margin-right: 20px;
+     margin-bottom: 0px;
+}
+.bg-image{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    height: 600px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+.line{
+    height: 6px;
+    width: 100px;
+     background-color: #008080;
+     
+     
+}
+.Services{
+    background-color: #ccffff;
+    text-align: center;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Services>h1{
+  color: #000000;
+  font-size: 50px;
+}
+.card1 img{
+    border-radius: 100%;
+     height: 300px;
+  width: 300px;
+  margin-bottom: 3px;
+}
+.card1 {
+   width: 450px;
+   text-align: center;
+   align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.card1 h1{
+   color: #000000;
+}
+.card1 p{
+  color: black;
+}
+.card-container{
+      display: flex;
+  justify-content: around;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+}
+.footer{
+    color:  #000000;
+    display: flex;
+     justify-content: space-between;
+     padding: 20px;
+}
+.footer .content{ 
+    display: flex;
+    align-items: center;
+}
+.content p{ 
+    margin-right: 10px;
+}
+@media screen and (max-width:576px){
+    .bg-image h1{
+        font-size: 60px;
+}
+  .bg-image p{
+        font-size: 26px;
+}
+  .nav-content{
+      display: none;
+     
+}
+nav i{
+   
+   font-size: 30px;
+    color: #FFFFFF;
+  
+}
+.content{
+    order: 1;
+}
+.e{
+    order: 2;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+}
+@media screen and (min-width:767px){
+    .icon{
+        display: none;
+    }
+    nav i{
+  display: none;
+  
+}
+.card-container{
+      display: flex;
+  justify-content: around;
+  flex-wrap: wrap;
+}
+}

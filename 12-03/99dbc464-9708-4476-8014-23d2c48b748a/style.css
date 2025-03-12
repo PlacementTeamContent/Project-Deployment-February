@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar{
+    background-color: #87ceeb;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   text-align: center;
+   justify-content: space-around;
+}
+.h{
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.icon{
+    align-items: flex-start;
+    font-weight: bold;
+}
+.image{
+    height: 300px;
+    width: 560px;
+}
+.card{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    background-size:cover ;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+.line{
+    background-color: #87ceeb;
+    height: 10px;
+    width: 80px;
+}
+.p{
+    color: white;
+    font-family: "Roboto"; 
+}
+.cont{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    color: #000000;
+}
+.i{
+    height: 140px;
+    width: 150px;
+    border-radius: 250px;
+}
+.h2{
+    color: #000000;
+    font-family: "Roboto";
+    text-align: center;
+}
+.card1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.footer{
+    background-color: #1b262c;
+    display: flex;
+    flex-direction: column;
+   height: 50vh;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #ffffff;
+    font-family: "Roboto";
+}    
+.column{
+    display: flex;
+    flex-direction: column;
+   
+    color: #ffffff;
+    font-family: "Roboto";
+}.pp{
+    font-size: 20px;
+}
+.o{
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    gap:10px;
+    font-family: "Roboto";
+}
+@media screen and (min-width:1025px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 30vh;
+        
+    }
+    .row{
+        order: 1;
+    }
+    .cards{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .icon{
+        display: none;
+    }
+
+}
+@media screen and (max-width:767px){
+    .o{
+        display: none;
+    }
+}

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.bg-container{
+    background-color: #f8dcbf;
+    background-size: cover;
+    width:120vw;
+    font-family: "Roboto";
+}
+.cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#ff{
+    display: none;
+    color: #1b262c;
+}
+.contt{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+.cont-1{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+}
+button{
+    background-color: #f8dcbf;
+    border-color: transparent;
+    width: 20vw;
+    margin-left: 120px;
+}
+.s-cont{
+    text-align: center;
+    
+}
+.btn{
+    background-color: #1b262c;
+    margin-left: 150px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-style: solid;
+    border-color:#1b262c;
+    border-width: 10px;
+    width: 100vw;
+    color: #000000;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+.img{
+    height: 60vh;
+    width: 100vw;
+}
+footer{
+    background-size: cover;
+    width: 120vw;
+    background-color: #1b262c;
+    color: #ffffff;
+    padding: 10px;
+}
+.p{
+    color:&#x00A9;
+}
+.contt{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    #ff{
+        display: block;
+        height:10vh;
+    }
+    .head{
+        text-align: center;
+    }
+    .contt{
+    display: none;
+    text-align: center;
+    padding: 10px;
+    }
+    footer{
+        background-size: cover;
+        width: 120vw;
+        background-color: #1b262c;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+    }
+    .conttt{
+        text-align: center;
+        display:flex;
+        flex-direction: row;
+        gap:10px;
+        order: 1;
+    }
+    .ed{
+        order: 2;
+    }
+}

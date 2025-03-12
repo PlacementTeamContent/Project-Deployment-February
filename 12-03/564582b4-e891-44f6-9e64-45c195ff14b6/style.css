@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.header {
+    background-color: #808080;
+    color: white;
+    font-family: Caladea;
+    padding: 10px;
+}
+.head{
+    color: white;
+    font-family: Caladea;
+    text-align: right;
+    background-color: #808080;
+    padding: 10px;
+}
+
+.player {
+    font-family: Caladea;
+    color: white;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    padding: 250px;
+    text-align: center;
+    font-size:50px ;
+}
+.sport{
+    background-color:#f7c1c1 ;
+    text-align: center;
+    
+    color: black;
+    font-family: Caladea;
+   
+}
+.foot{
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: Caladea;
+    color: black;
+    
+}

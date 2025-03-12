@@ -1,0 +1,110 @@
+.container {
+    background-color: #f8dcbf;
+    height: 280vh;
+    background-size: cover;
+}
+
+i {
+    height: 40px;
+    padding: 35px;
+
+}
+
+.heading {}
+
+.c {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg');
+    height: 300px;
+    background-size: cover;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+
+}
+
+hr {
+    width: 200px;
+    height: 5px;
+    background-color: #f8dcbf;
+}
+
+.card2 {
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    margin: 35px;
+    text-align: center;
+
+}
+
+.card3 {
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    margin: 35px;
+    text-align: center;
+
+}
+
+.card4 {
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    margin: 35px;
+    text-align: center;
+
+}
+
+.imgg {
+    height: 200px;
+    border-radius: 500px;
+}
+
+.imgg1 {
+    height: 200px;
+    border-radius: 900px;
+}
+
+.imgg2 {
+    height: 200px;
+    border-radius: 900px;
+}
+
+.l {
+    color: black;
+}
+
+.cl {
+    background-color: #1b262c;
+    height: 300px;
+    text-align: center;
+}
+
+.g {
+    text-align: center;
+    margin: 5px;
+    padding: 40px;
+}
+
+.hhead {
+    color: white;
+    text-align: center;
+}

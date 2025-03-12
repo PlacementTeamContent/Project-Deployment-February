@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.bg-container{
+    background-color:#f8dcbf;
+    height:230vh;
+    font-family:"Roboto";
+    text-align: center;
+}
+.nav-bar{
+    display:flex;
+    text-align: center;
+}
+.icon{
+    margin:5px;
+    padding-top:15px;
+}
+.text{
+    padding-left:170px;
+    font-weight:bold;
+    font-size:20px;
+}
+.imge{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    background-size:cover;
+    height:45vh;
+    margin:5px;
+    color:#ffffff;
+    text-align: center;
+}
+.head1{
+    padding:90px;
+    font-weight:bold;
+}
+.font{
+    font-weight:bold;
+    font-size:20px;
+}
+.line{
+    color:#1b262c;
+    border-width:2px;
+    width:50px;
+}
+.card{
+    height:50vh;
+    background-color: #ffffff;
+    text-align:center;
+    margin:10px;
+    padding:5px;
+}
+.image1{
+    height:20vh;
+    border-radius:50%;
+    margin-top:40px;
+}
+.image2{
+    height:18vh;
+    width:25vw;
+    border-radius:50%;
+    margin-top:40px;
+}
+.image3{
+    height:18vh;
+    width:25vw;
+    border-radius:50%;
+    margin-top:40px;
+}
+.head2{
+    font-size:20px;
+}
+.line1{
+    width:430px;
+    color:black;
+    margin-top:80px;
+}
+.value{
+    display:flex;
+    justify-content: center;
+}
+.p{
+    padding-top:5px;
+    margin:5px;
+}
+.footer{
+    background-color:#1b262c;
+    height:20vh;
+    color:#ffffff;
+    text-align:center;
+}
+@media screen and (max-width:767px){
+    .val{
+        display:none;
+    }
+}
+@media screen and (min-width:768px){
+    .icon{
+        display:none;
+    }
+    .val{
+        display:flex;
+        justify-content: end;
+        padding-bottom:0px;
+    }
+    .nav-bar{
+        display:grid;
+        align-content: space-evenly;
+    }
+    .pa{
+        margin:5px;
+        color:#ffffff;
+        font-weight:bold;
+    }
+    .text{
+        text-align: start;
+        color:#ffffff;
+        font-weight:bold;
+        padding-bottom:0px;
+    }
+    .cards{
+        display:grid;
+    }
+}

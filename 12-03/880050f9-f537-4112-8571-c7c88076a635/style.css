@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.bg-heading{
+    text-align: center;
+    font-family: "Roboto";
+}
+.image1{
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+.card-heading{
+    text-align: center;
+    justify-content: center;
+}
+.card-bg-container{
+    background-color: #d1e5f9;
+}
+.card-heading1{
+    text-align: center;
+    font-family: "Roboto";
+}
+.card-para1{
+    text-align: center;
+    font-family: "Roboto";
+    padding: 20px;;
+}
+.image2{
+    border-radius: 400px;
+    display: flex;
+    height: 20vh;
+    width: 45vw;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+.bg-container{
+    overflow-x: scroll;
+}
+.fa-bars{
+    text-align: center;
+}
+.bottom-card{
+    background-color: #1b262c;
+}
+.home{
+    color: #f9f9f9;
+    text-align: center;
+    padding:20px;
+    margin: 20px;
+}

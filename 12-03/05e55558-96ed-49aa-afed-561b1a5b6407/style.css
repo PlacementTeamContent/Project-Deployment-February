@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.home{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg');
+    background-size: cover;
+    height:80vh;
+}
+.nav{
+    background-color:#3d3d3d ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.head{
+    color:white;
+    padding:10px ;
+}
+.para1{
+    color:white;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 20px;
+}
+.para2{
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+}
+.strike{
+    color:white;
+    text-decoration-line:line-through;
+    text-decoration-style: double;
+}
+.homehead{
+    font-family: Times ;
+    font-size: 45px;
+}
+.homepara{
+    font-size: 20px;
+}
+.home{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top:70px;
+    padding-left:30px;
+    
+}
+.card{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px;
+    align-items: center;
+    padding: 20px;
+}
+.img{
+    height:25vh;
+    width:35vw;
+    border-radius:80px;
+    justify-content: center;
+}
+.services{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#e5e5e5 ;
+}
+.card1{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    padding: 20px;
+    
+}
+.footer{
+    background-color:#3d3d3d ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:40vh;
+}
+.para{
+    color:white;
+    padding-left: 10px;
+}

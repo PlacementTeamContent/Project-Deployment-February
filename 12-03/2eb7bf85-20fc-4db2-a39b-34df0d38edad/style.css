@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.card{
+    background-size: cover;
+   
+}
+.po{
+    text-align: center;
+}
+nav{
+    background-color: #f9f9f9;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    /* height: ; */
+}
+
+.Home{
+    text-decoration:underline;
+    margin: 20px;
+}
+
+.d1{
+    color:#000000;
+     flex-direction: row;
+    justify-content: space-between;
+   font-weight: bold;
+    display: flex;
+}
+
+
+
+.heading{
+    color: #FFFFFF;
+    
+}

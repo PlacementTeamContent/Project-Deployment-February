@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.navv {
+    background-color: #808080;
+    color: white;
+    font-family: Caladea;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.para {
+    font-size: 25px;
+    padding-left: 350px;
+    padding-right: 10px;
+}
+
+.para1 {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.first {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    text-align: center;
+    color: white;
+    font-family: Caladea;
+    padding: 100px;
+    background-size: cover;
+}
+
+.fh {
+    color: #9f5353;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.second {
+    background-color: #f7c1c1;
+    font-family: Caladea;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+.last{
+    background-color: #FFFFFF;
+    font-family: Caladea;
+    text-align: center;
+}

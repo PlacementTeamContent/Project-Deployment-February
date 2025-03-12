@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav{
+    background-color: #008080;
+    height: 50px;
+}
+.h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+.background{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+   height: 40vh;
+    background-size: cover;
+}
+.hr{
+    background-color: #008080;
+    width: 65px;
+    height: 5px;
+    border: 0px;
+}
+.main_heading{
+    color: #f9f9f9;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+.para{
+    color: #f9f9f9;
+    text-align: center;
+    font-size: 18px;
+}
+.container2{
+    background-color: #ccffff;
+    height: 900px;
+}
+.servies_heading{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Roboto";
+    padding-top: 30PX;
+}
+.hr2{
+    height: 3px;
+    width: 60px;
+    background-color: #008080;
+}
+.img1{
+    border-radius: 100px;
+    align-items: center;
+}
+.img_heading{
+    font-size: 25px;
+    text-align: center;
+}
+.img_para{
+    text-align: center;
+}
+.p{
+    text-align: center;
+}
+@media  (min-width:992){
+   .nav{
+    background-color: #008080;
+    height: 50px;
+}
+.h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+.background{
+   background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+   height: 40vh;
+    background-size: cover;
+}
+.hr{
+    background-color: #008080;
+    width: 65px;
+    height: 5px;
+    border: 0px;
+}
+.main_heading{
+    color: #f9f9f9;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+.para{
+    color: #f9f9f9;
+    text-align: center;
+    font-size: 18px;
+}
+.container2{
+    background-color: #ccffff;
+    height: 900px;
+}
+.servies_heading{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Roboto";
+    padding-top: 30PX;
+}
+.hr2{
+    height: 3px;
+    width: 60px;
+    background-color: #008080;
+}
+.img1{
+    border-radius: 100px;
+    align-items: center;
+}
+.img_heading{
+    font-size: 25px;
+    text-align: center;
+}
+.img_para{
+    text-align: center;
+}
+.p{
+    text-align: center;
+} 
+    
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container1 {
+    height: 70vh;
+    width: 50vh;
+    background-size: cover;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+}
+
+.container2 {
+    height: 70vh;
+    width: 50vh;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 90px;
+
+
+}

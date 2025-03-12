@@ -1,0 +1,28 @@
+.hello{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+.k{
+    text-align: left;
+}
+.s{
+   height: 50vh;
+   width: 50vh;
+    background-size: cover;
+    
+}
+.m{
+   height: 100px;
+   width: 100px;
+   background-color: white;
+   
+}
+.set{
+    background-color: black;
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    color:white;
+    
+}

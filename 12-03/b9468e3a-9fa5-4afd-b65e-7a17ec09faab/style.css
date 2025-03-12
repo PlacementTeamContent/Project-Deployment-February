@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.divider {
+    width: 80px;
+    height: 3px;
+    background-color: #9f5353;
+    margin: 15px auto;
+}
+
+
+header {
+    background-color: #0A1525;
+}
+
+.main-nav {
+    background-color: #9f5353;
+    padding: 20px 0;
+}
+
+.main-nav .container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500; 
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.8;
+}
+
+.hero {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+.services {
+    padding: 60px 0;
+    background-color: pink;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.service-card {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+.service-image {
+    width: 180px;
+    height: 200px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #666;
+}
+
+
+footer {
+    background-color: white;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo p {
+    font-size: 20px;
+    color:black;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.footer-nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-nav a {
+    color: black;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #e0c8a0;
+}
+
+@media (max-width: 768px) {
+    .main-nav .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-links {
+        margin-top: 20px;
+    }
+    
+    .hero-content h2 {
+        font-size: 36px;
+    }
+    
+    .hero-content p {
+        font-size: 18px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-nav {
+        margin-top: 20px;
+    }
+    
+    .footer-nav ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 60px 0;
+    }
+    
+    .hero-content h2 {
+        font-size: 28px;
+    }
+    
+    .section-title {
+        font-size: 24px;
+    }
+    
+    .service-card {
+        padding: 15px;
+    }
+    
+    .service-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .nav-links {
+        gap: 15px;
+    }
+    
+    .footer-nav ul {
+        gap: 15px;
+    }
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:20px;
+}
+.mainbg{
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height:90vh;
+    width:100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    font-size:50px;
+}
+.head2{
+    color:white;
+}
+/* button{
+    background-color: blue;
+    height:10px;
+    width:170px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+} */
+.para2{
+    color:white;
+}
+.servicespage{
+    background-color: #d1e5f9;
+    height:120vh;
+    width:100vw;
+}
+.img1{
+    height:250px;
+    width:250px;
+    border-radius:150px;
+    padding:20px;
+    margin:20px;
+}
+.head3{
+    text-align:center;
+}
+.onetwo{
+    padding:20px;
+    margin:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.two{
+    padding:20px;
+    margin:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.lastpage{
+    background-color: black;
+    width:100vw;
+    height:60vh;
+}
+.lastpage{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+     font-family: Roboto;
+    font-weight:bold;
+    font-size:20px;
+}

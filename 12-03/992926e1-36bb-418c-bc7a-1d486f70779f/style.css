@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav_bar{
+    background-color: #008080;
+    color: #FFFFFF;
+    display: flex;
+}
+.nav_h{
+    margin-left: auto;
+    padding: 5px;
+    margin-right: 20px;
+}
+.nav_lh{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.welcome_pg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+    width:100%;
+    height: 70vh;
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+.services_pg{
+    text-align: center;
+    background-color: #ccffff;
+    font-family: Roboto;
+    margin-bottom: 0px;
+    
+}
+.card{
+    margin:30px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.imgs{
+    border-radius:990%;
+    width:40%;
+    
+}
+
+.btn_1{
+    background-color: #008080;
+    width:140px;
+    height:5px;
+    border-width:0px;
+}
+
+.footer_pg{
+    margin-top:0px!important;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.s_head{
+    margin-top:0px;
+    padding: 30px;
+    padding-bottom: 0px;
+    font-size: 40px;
+    font-family: Roboto;
+    font-style: italic;
+}
+
+@media screen and (min-width:768px;){
+    font-size:10px;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media(min-width:767px){
+    .nav{
+        display: flex;
+        background-color:#008080;
+        height: 10vh;
+        width: 100vw;
+        font-size: 2.5vh;
+        padding: 10px;
+        align-content: flex-end;
+        flex-direction: row;
+    }
+    .head1{
+        color: #f9f9f9;
+        padding-left: 85px;
+        padding-top:40px ;
+        font-size: 3.5vh;
+    }
+    .h{
+        color: #f9f9f9;
+        font-family: "Roboto";
+         font-size: 60px;
+         text-align: center;
+         padding-top:250px ;
+    }
+    .p{
+        color: #f9f9f9;
+         font-family: "Roboto";
+          font-size:25px;
+           text-align: center;
+    }
+  
+   
+}
+
+@media(max-width:767px){
+    .nav{
+        display: flex;
+        background-color:#008080;
+        height: 10vh;
+        width: 100vw;
+        font-size: 2.5vh;
+        padding: 10px;
+    }
+    .head1{
+        color: #f9f9f9;
+        padding-left: 5vh;
+        padding-top:5.5vh ;
+        font-size: 2.5vh;
+        
+    }
+     .h{
+        color: #f9f9f9;
+        font-family: "Roboto";
+        font-size: 60px;
+    }
+    .p{
+        color: #f9f9f9;
+         font-family: "Roboto";
+  
+    }
+    
+    
+}
+ .head{
+        color: #f9f9f9;
+        font-family: "Roboto";
+    }
+.back{
+    height: 100vh;
+    width: 100vw;
+    margin-top:-40px ;
+    background-size: cover;
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+}

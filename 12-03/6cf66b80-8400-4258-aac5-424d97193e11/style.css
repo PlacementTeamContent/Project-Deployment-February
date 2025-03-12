@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.containerr {
+    background-color: #f8dcbf;
+    background-size: cover;
+}
+
+.tennis {
+    color: white;
+    padding: 10px;
+}
+
+.tenniss {
+    color: white;
+
+}
+
+.home {
+    color: white;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contain2 {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    height: 70vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.ace {
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    padding-top: 50px;
+}
+
+.ace1 {
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.but {
+    color: white;
+    background-color: #f8dcbf;
+    height: 15px;
+    width: 90px;
+    border-color: #f8dcbf;
+    margin-left: 40%;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.ser {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainbox {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    width: 50vw;
+}
+
+.mainbox1 {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    width: 50vw;
+    margin-left: 100px;
+}
+
+.contain4 {
+    background-color: black;
+    height: 25vh;
+    padding: 10px;
+    margin: 10px;
+}

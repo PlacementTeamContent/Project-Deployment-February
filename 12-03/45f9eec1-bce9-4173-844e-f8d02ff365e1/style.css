@@ -1,0 +1,54 @@
+.color {
+    color: #ffffff;
+
+
+}
+
+.containter {
+    background-color: #f8dcbf;
+    height: 2000px;
+    width: 900px;
+
+}
+
+.service {
+    text-align: end;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.rr {
+    width: 600px;
+}
+
+.pp {
+    text-align: center;
+    color: #000000;
+    font-family: roboto;
+}
+
+.ppp {
+    text-align: center;
+    color: #000000;
+    padding-bottom: 1000px;
+}
+
+
+.op{
+    width: 900px;
+}
+.ll{
+    height: 400px;
+    width: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    
+    
+}
+.g{
+    text-align: center;
+}
+.j{
+    align-items: center;
+    padding-left:230px;
+}

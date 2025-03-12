@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.nav{
+    background-color: #3d3d3d;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#ffffff;
+}
+.ham{
+    align-content: center;
+}
+.home{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home-p{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    font-size: 30px;
+}
+.cc{
+    display:flex;
+    flex-direction: row;
+}
+.services{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+}
+.card{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+.img{
+    border-radius:100%;
+}
+footer{
+    background-color: #3d3d3d;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#ffffff;
+}
+.h{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p{
+    margin: 20px;
+}
+
+.ho{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media all and (max-width: 768px){
+    .home{
+        display:none;
+    }
+    .cc{
+        flex-direction: column;
+        align-items: center;
+    }
+    .f{
+        text-align: center;
+    }
+    .h{
+        display:none;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media all and (min-width: 992px){
+    .ham{
+        display:none;
+    }
+    .ho{
+        display:none;
+    }
+    
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.bg-header{
+    background-color: #f9f9f9;
+}
+
+@media screen and (min-width:991px){
+    #bar{
+    display: none;
+  }
+}
+.flex{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.laptop1{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.margon{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:991px){
+    .laptop1{
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px){
+    .flex{
+        justify-content: center;
+    }
+}
+
+.bg-container{
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
+.container{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

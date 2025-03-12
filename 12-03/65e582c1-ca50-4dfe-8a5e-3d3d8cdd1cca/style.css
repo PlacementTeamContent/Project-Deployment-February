@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.bg-container{
+    background-color: #f8dcbf;
+    height:150vh;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.banner-section{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    background-size:cover;
+    height:300px;
+    
+}
+.banner-head{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight:bold;
+    color:#ffffff;
+    margin-top: 10px;
+}
+.banner-para{
+    text-align: center;
+    font-family: "Roboto";
+     color:#ffffff;
+     padding:10px;
+}
+.ser-sec{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    gap:10px;
+}
+.ser-head{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight:bold;
+    color:#000000;
+}
+.ser-card{
+    background-color: #ffffff;
+    border-radius:10px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:10px;
+    
+}
+.card-img{
+    border-radius:50px;
+    height:100px;
+    width:100px;
+    align-self: center;
+    
+}
+.card-head{
+     text-align: center;
+    font-family: "Roboto";
+    font-weight:bold;
+    color:#000000;
+}
+.card-para{
+     text-align: center;
+    font-family: "Roboto";
+    color:#000000;
+}
+.footer-container{
+    background-color: #1b262c;
+    display:grid;
+    height:40vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
+}
+.footer-head{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight:bold;
+    color:#ffffff;
+    font-size:24px;
+}
+.footer-para{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight:bold;
+    color:#ffffff;
+}
+@media (max-width:700px){
+    .ser-sec{
+    display:grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: repeat(3,1fr);
+    gap:10px;
+}
+.bg-container{
+    background-color: #f8dcbf;
+    height:350vh;
+}
+.footer-container{
+    background-color: #1b262c;
+    display:grid;
+    height:40vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
+}
+.nav-head{
+    font-family: "Roboto";
+    font-weight:bold;
+    color:#000000;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+}
+@media (min-width:701px){
+    .nav-head{
+    font-family: "Roboto";
+    font-weight:bold;
+    color:#ffffff;
+    margin:10px;
+}
+.nav-para{
+     color:#ffffff;
+     font-family: "Roboto";
+     font-weight:bold;
+}
+.cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+}

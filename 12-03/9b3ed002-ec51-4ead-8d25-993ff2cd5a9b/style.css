@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.container-nav{
+    background-color: #808080;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.hh{
+    margin: 40px;
+    color: #FFFFFF;
+    font-family: Caladea;;
+}
+.pp{
+    color: #FFFFFF;
+    font-family: Caladea;
+}
+.c-1{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hh1{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Caladea;
+    font-size: 60px;
+}
+.hhh{
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    
+}
+.pp1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+}
+.c2{
+    background-color: #f7c1c1;
+}
+.hh2{
+    text-align: center;
+    font-family: Caladea;
+      
+}
+.img1{
+    border-radius: 20px;
+    margin: 10px;
+    width: 300px;
+}
+.h{
+    margin-left: 30px;
+    font-family: Caladea;
+}
+.p{
+    margin-left: 30px;
+    font-family: Caladea;
+
+}
+.cc{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.cc1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+        justify-content: space-between;
+
+    
+}
+.cc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    
+}
+.c-2{
+    background-color: #FFFFFF;
+}
+.h11{
+    margin: 20px;
+}
+.c-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h111{
+    background-color: #FFFFFF;
+}
+.container22{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    
+}
+.container121{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    box-sizing: content-box;
+}
+.footer{
+   background-color: #f7c1c1; 
+}
+@media screen{
+    .container22{
+        display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 3fr;
+        
+    }
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: "Roboto";
+}
+
+.edho{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.HomePage{
+    background-size: cover;
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sepbox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.stylebox{
+    width: 100px;
+    height: 10px;
+    background-color: #1976d2;
+}
+
+.ServicesPage{
+    background-color: #d1e5f9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.SubCard{
+    padding: 10px;
+}
+
+.SubCardImg{
+    border-radius: 600px;
+    width: 200px;
+    height: 200px;
+}
+
+.FooterSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #1b262c;
+    color: white;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.HomeLink{
+    margin-right: 15px;
+}

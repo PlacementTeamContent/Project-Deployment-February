@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+}
+
+.font_assw {
+    padding-top: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.home-1 {
+    text-decoration: underline;
+}
+
+.bg-container {
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    height: 40vh;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.sub_bg_container {
+    padding-top: 20px;
+    /* justify-content: center; */
+}
+
+.main_container {
+    height: 100vh;
+    background-color: #d1e5f9;
+
+
+}
+
+.main_container_heading {
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+
+
+}
+
+.image-1 {
+    height: 100px;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub_main{
+    text-align: center;
+}
+.footer{
+    height: 10vh; 
+    background-color: #1b262c;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer_sub{
+    display: flex;
+    gap: 10px;
+    padding-top:20px ;
+    
+    
+}
+@media  screen and ( min-width:576){
+.nav-bar{
+    display: none;
+}   
+.font_assw{
+    display: block;
+}
+}

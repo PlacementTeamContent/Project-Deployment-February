@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.top {
+    background-color: #008080;
+    color: White;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topRight {
+    display: flex;
+}
+
+.page1 {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: White;
+}
+
+.page1button {
+    background-color: #008080;
+    height: 10px;
+    width: 120px;
+    border-width: 0px;
+}
+
+.page2{
+    text-align: center;
+    background-color: #ccffff;
+    padding:10px;
+}
+
+.page2img{
+    height:130px;
+    width:130px;
+    border-radius:70px;
+}
+
+.cards{
+    margin-top:20px;
+}
+
+@media screen and (min-width:992px){
+    .descriptionpage2{
+        display:flex;
+}
+}
+
+.page3{
+    text-align: center;
+}
+
+.bottomRight{
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (max-width:991px){
+    .onlg{
+        color:#f9f9f9;
+    }
+    .onlgsmall{
+        color:black;
+    }
+}
+
+@media screen and (min-width:992px){
+    .onsmall{
+        color:#f9f9f9;
+    }
+    .onlg{
+        color:black;
+        display:flex;
+        justify-content: space-between;
+    }
+    
+}

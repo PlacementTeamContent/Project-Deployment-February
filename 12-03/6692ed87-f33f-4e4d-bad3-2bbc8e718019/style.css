@@ -1,0 +1,120 @@
+.minusone{
+    width: 1500px;
+}
+
+.zero{
+    background-color: #808080;
+}
+.one{
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    font-family:Caladea;
+}
+.two{
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+.three{
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+.four{
+    text-align:top;
+    
+}
+.five{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    background-size: cover;
+    height: 1500px;
+    width: 1500px;
+    
+}
+.six{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.seven{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-items: bottom;
+    justify-content: center;
+    
+}
+.eight{
+    background-color: #f7c1c1;
+    height: 1500px;
+    width: 1500px;
+    font-weight: normal;
+}
+.nine{
+    text-align: center;
+}
+.ten{
+   justify-content: center; 
+   
+   padding: 75px;
+}
+.eleven{
+    width: 225px;
+    height: 225px;
+    border-radius: 5px;
+}
+.twelve{
+   font-size: 30px; 
+}
+.thirteen{
+    
+    font-size: 20px;
+}
+.fifteen{
+    width: 225px;
+    height: 225px;
+    border-radius: 5px;
+}
+.sixteen{
+   font-size: 30px; 
+}
+.seventeen{
+    
+    font-size: 20px;
+}
+.forteen{
+    justify-content: center;
+    justify-items: center;
+    padding: 75px;
+}
+
+.nineteen{
+    width: 225px;
+    height: 225px;
+    border-radius: 5px;
+}
+.twenty{
+   font-size: 30px; 
+}
+.twenty-one{
+    
+    font-size: 20px;
+    text-align: right;
+}
+.eighteen{
+    justify-content: center;
+    justify-items: right;
+    padding: 75px;
+}
+.mass{
+  font-size: 16px;  
+  padding:bottom 5px;
+}
+.made{
+    font-size: 27px;
+    font-weight: normal;
+}

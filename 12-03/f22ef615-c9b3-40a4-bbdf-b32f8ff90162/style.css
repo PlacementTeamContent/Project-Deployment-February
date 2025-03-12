@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    color: white;
+}
+
+.mama {
+    color: #f8dcbf;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8dcbf;
+    height:80vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.ee {
+    margin-top: 10px;
+}
+
+.in {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    align-self: center;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.img {
+    border-radius: 150px;
+    height: 150px;
+    width: 150px;
+    
+}
+.con{
+    display: flex;
+    flex-direction: row;
+} 
+
+.foot{
+    background-color: black;
+    color: white;
+    width:100vw;
+    height:20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cc{
+    margin: 30px;
+} 
+.cd{
+    margin: 30px;
+    color: white !important;
+}

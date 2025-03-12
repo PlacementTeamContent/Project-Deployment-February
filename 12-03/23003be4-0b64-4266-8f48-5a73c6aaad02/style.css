@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.head{
+    background-color: #808080;
+    height:60px;
+    font-size:30px;
+    width:100vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    
+    padding: 20px;
+}
+h1 {
+    color:#FFFFFF;
+    font-size: 20px;
+}
+.heading{
+    margin-right:360px;
+}
+.back{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    background-size: cover;
+    height: 300px;
+    width:365px;
+    padding:200px;
+    font-size: 50px;
+}
+.headd{
+    font-size:50px;
+    color:#FFFFFF;
+}
+.headdd{
+    margin-left:120px;
+    font-size:50px;
+    font-weight: bold;
+    color:#f7c1c1;
+}
+p{
+    font-size:20px;
+    color:white;
+    margin-left:80px;
+}
+.background{
+    background-color: #f7c1c1;
+    height: 100vh;
+    width:765px;
+    align-items: middle;
+
+    display: grid;
+    grid-template-columns:2fr 1fr 2fr ;
+}
+/* .img{
+    border-radius:10px;
+    margin-left:100px;
+    margin-top:200px;
+    height:200px;
+    width:200px;
+    
+}
+.headddd{
+
+    margin-top:420px;
+}
+.para{
+    margin-top:450px; 
+} */

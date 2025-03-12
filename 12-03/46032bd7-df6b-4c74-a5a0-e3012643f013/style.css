@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media (min-width:768px){
+    .hamb{
+    margin-right: 20px;
+    display: none;
+}
+}
+.nav{
+    background-color:#87ceeb ;
+    font-family: Roboto;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.top{
+     display:flex;
+     padding-top: 10px;
+}
+.home{
+    margin-right:8px;
+    
+    text-decoration: underline;
+}
+.back{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+ height: 80vh;
+ background-size: cover;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+.backcontent{
+    color:white;
+    font-family: Roboto;
+}
+.line{
+   background-color: #87ceeb;
+    width:180px;
+    height:5px;
+   
+}
+.services{
+    text-align: center;
+    font-family: Roboto;
+}
+.img1{
+    height:250px;
+    width: 250px;
+    border-radius: 125px;
+}
+.servicescontent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #1b262c;
+    color:white;
+    font-family: Roboto;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 40px;
+}
+.foothome{
+    display: flex;
+}
+.footerhead{
+    margin-right: 10px;
+}
+.hamb{
+    margin-right: 20px;
+}
+@media (max-width:768px){
+    .top{
+        display: none;
+       
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .foothome{
+         display: flex;
+         justify-content: center;
+         order:0;
+    }
+    .foot{
+        order:1;
+    }
+}

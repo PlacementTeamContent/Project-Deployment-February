@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.head {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+}
+.fa{
+    padding-top: 30px;
+}
+.underline {
+    text-decoration: underline;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.body {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    background-size: cover;
+    height: auto;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line {
+    width: 30%;
+    height: 5px;
+    background-color: brown;
+    margin-left: 0px;
+}
+
+.body-head {
+    font-size: 40px;
+    width: 20%;
+}
+
+.body-para {
+    font-size: 25px;
+}
+
+.service-card {
+    background-color: lightpink;
+    text-align: center;
+}
+
+.service-head {
+    font-size: 40px;
+}
+
+.services {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.service-line {
+    width: 20%;
+    height: 5px;
+    background-color: brown;
+
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.space {
+    margin-right: 10px;
+}

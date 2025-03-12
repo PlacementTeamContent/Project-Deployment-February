@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: "Roboto";
+}
+
+.header{
+    background-color: #f8dcbf;
+    font-weight: bold;
+}
+.header-desk{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+     color: white;
+}
+.header-sub-div{
+    display: flex;
+    align-items:  center;
+    width: 25%;
+    justify-content: space-between;
+}
+.header-mobile{
+    color:#000000;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-head-para{
+    text-align: left;
+    width: 70%;
+}
+.mobile-head-bar{
+    align-self: center;
+}
+@media screen and (max-width:767px){
+    .header-desk{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .header-mobile{
+        display: none;
+    }
+    
+}
+
+
+.home{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+}
+.home-head{
+    font-size: 55px;
+}
+.home-line{
+     background-color: #f8dcbf;
+     height: 7px;
+     width: 120px;
+}
+.services-page{
+    background-color: #f8dcbf;
+    text-align: center;
+    padding: 10px;
+}
+.services-top-head{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.service-card{
+    background-color: white;
+    margin-left:20px ;
+    margin-right: 20px;
+    font-weight: bold;
+    text-align: center ;
+}
+.service-card-image{
+    width:250px;
+    border-radius: 1000px ;
+    padding: 10px;
+    height: 250px;
+}
+@media screen and (min-width:768px){
+    .desk-service{
+        display: flex;
+    }
+    .desk-card{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 50px;
+    }
+}
+.footer{
+    background-color: #1b262c;
+    color: white;
+    text-align: center;
+}
+.footer-flex{
+    display: flex;
+    justify-content: center;
+}
+.pl{
+    margin-left: 10px;
+}
+@media screen and (min-width:768px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}

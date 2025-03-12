@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.navbar {
+    height: 80px;
+    width: 100vw;
+    background-color: #3d3d3d;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.fa{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+h1{
+    padding-left:30px;
+    font-family:"Times";
+    display:flex;
+    flex-direction:column;
+    align-self: center;
+}
+
+.nav-elements {
+    display: none;
+}
+
+@media screen and (min-width:992px) {
+    .nav-elements {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+
+    }
+    .fa{
+        display: none;
+    }
+
+    .nav-elements-heading {
+        margin: 10px;
+        padding: 10px;
+        text-decoration: underline;
+    }
+    .bg-container{
+    height:50vh;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+.card{
+    height:150vh;
+    background-color:#e5e5e5 ;
+    display:flex;
+    flex-direction:column;
+    
+    display:grid;
+    grid-template-columns:2 ;
+}
+.image-card{
+    height:300px;
+    width:300px;
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    margin:20px;
+}
+.image{
+    height:180px;
+    width:220px;
+    border-radius:90px;
+}
+
+}
+.bg-container{
+    height:50vh;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading{
+    font-family:"Times New Roman";
+    font-weight:bold;
+    
+}
+.para{
+    font-size:20px;
+    font-family:"Times New Roman";
+    font-weight:bold;
+}
+.line{
+    height:5px;
+    width:80px;
+    background-color:#FFFFFF;
+}
+.card{
+    height:150vh;
+    background-color:#e5e5e5 ;
+}
+.image-card{
+    height:300px;
+    width:300px;
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    margin:20px;
+}
+.image{
+    height:180px;
+    width:220px;
+    border-radius:90px;
+}
+.nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:50vh;
+    
+}

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+body{
+    margin:0px;
+}
+.header{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg") ;
+    background-size:cover;
+    height:50vh;
+}
+.navbar{
+    background-color:#808080;
+    color:white;
+    font-family:"Caladea";
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.li{
+    display:flex;
+    gap:20px;
+    margin-top:12px;
+}
+.hr{
+    border-color:none;
+    border-style:none;
+    background-color:red;
+    height:5px;
+    width:100px;
+   
+}
+ 
+
+.main-txt{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+}
+.card-pg{
+    background-color:#f7c1c1;
+    /* text-align:center; */
+    color:black;
+    padding:10px;
+}
+.card-box{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    gap:10px;
+}
+.card{
+ font-family: "Caladea";
+ padding:10px;
+ font-size:12px;
+}
+.img{
+    text-align: center;
+    height:100px;
+    width:150px;
+    border-radius:10px;
+}
+.card-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
+@media (max-width:767px){
+    .card-box{
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+}
+.card{
+ font-family: "Caladea";
+ padding:10px;
+ font-size:16px;
+ 
+}
+.img{
+    text-align: center;
+    height:200px;
+    width:auto;
+    border-radius:10px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:auto;
+}
+}

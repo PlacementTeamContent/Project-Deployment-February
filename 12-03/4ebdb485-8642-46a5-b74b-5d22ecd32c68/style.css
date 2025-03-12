@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.nav-bar {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #87ceeb;
+    font-family: "Roboto";
+}
+
+.hamburger {
+    align-self: center;
+    font-size: 30px;
+    display: none;
+}
+
+.nav-items {
+    display: block;
+}
+
+.bg-container {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    font-family: "Roboto";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-bar {
+    height: 15px;
+    width: 130px;
+    background-color: #87ceeb;
+}
+
+.bg-heading {
+    font-size: 100px;
+}
+
+.bg-para {
+    font-size: 50px;
+    align-self: center;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    border-radius: 220px;
+    display: grid;
+    justify-self: center;
+    margin-left: 20px;
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-head {
+    font-size: 40px;
+}
+
+.footer {
+    background-color: #1b262c;
+    height: 100%;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foot-item {
+    padding-left: 10px;
+}
+
+@media (maxwidth: 576px) and (oriantaion: portrait) {
+    .nav-bar {
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #87ceeb;
+        font-family: "Roboto";
+    }
+
+    .hamburger {
+        align-self: center;
+        font-size: 30px;
+        display: block;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .bg-container {
+        background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+        font-family: "Roboto";
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .space-bar {
+        height: 18px;
+        width: 200px;
+        background-color: #87ceeb;
+    }
+
+    .bg-heading {
+        font-size: 60px;
+    }
+
+    .bg-para {
+        font-size: 30px;
+        align-self: center;
+    }
+
+    .items-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        height: 300px;
+        width: 300px;
+        border-radius: 220px;
+        display: grid;
+        justify-self: center;
+        margin-left: 20px;
+    }
+
+    .item-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-head {
+        font-size: 40px;
+    }
+}

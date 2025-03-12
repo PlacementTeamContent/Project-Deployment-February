@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.card1{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg');
+    height:80vh;
+    width:100vw;
+    background-size: cover;
+}
+.card2{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    text-align: center;
+    color:#FFFFFF;
+    font-family: Roboth;
+}
+.heading{
+    font-weight:bold;
+    font-size: 60px;
+}
+.passage{
+    font-size: 30px;
+}
+.card3{
+    background-color: #d4ffcc;
+    background-size: cover;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.card4{
+ 
+    background-color:#FFFFFF;
+    text-align: center;
+    margin: 20px;
+    height:30%;
+    border-bottom-color:#39ff14;
+    font-family: Roboth;
+    font-size: 20px;
+    
+
+}
+.image{
+    
+   height:30vh;
+   width: 30vh;
+   border-radius: 50%;
+}
+.card5{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.card6{
+    display: flex;
+    flex-direction:column;
+    align-items:  center;
+}
+.card7{
+    background-color:lightgray ;
+}

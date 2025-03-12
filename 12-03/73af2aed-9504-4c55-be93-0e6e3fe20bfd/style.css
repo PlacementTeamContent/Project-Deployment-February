@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.card{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size:cover;
+    height:50vh;
+    width:100vw;
+}
+.card2{
+    height:100vh;
+    width:100vw;
+    
+    display:flex;
+    justify-content: center;
+}
+.image1,.image2,.image3{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    white-space:pre;
+    align-content:space-between;
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.header{
+    background-color: #808080;
+    background-size: cover;
+    color: white;
+    font-family: Sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.redline{
+    background-color: red;
+    height: 3px;
+    width: 150px;
+}
+.intro{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    background-size: cover;
+    height: 50vh;
+    align-content: center;
+    justify-items: center;
+}
+.introHeading{
+    color: white;
+    font-family: Sans-serif;
+    font-size: 30px;
+}
+.introPara{
+    color: white;
+    font-family: Sans-serif;
+    font-size: 20px;
+}
+.blog{
+    background-color: #f7c1c1;
+    background-size: cover;
+    text-align: center;
+}
+.blogHeading{
+    color: white;
+    font-family: Sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+.redline2{
+    background-color: red;
+    height: 3px;
+    width: 50px;
+}
+.img1{
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 33%, 33%, 33%;
+    grid-template-rows: 1;
+    padding: 40px;
+}
+.card1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.card2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.card3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.footer{
+    background-color: #FFFFFF;
+    background-size: cover;
+    font-family: Sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.fa{
+    color: black;
+    background-color: white;
+}
+.straight{
+    display: flex;
+    padding: 10px;
+}

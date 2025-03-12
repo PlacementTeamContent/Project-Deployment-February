@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.bar{
+    display: none;
+}
+.head{
+    color: white;
+}
+.head1{
+    text-align: center;
+}
+.navbar{
+    background-color: #f8dcbf;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.list-items{
+    display: flex;
+    gap: 10px;
+}
+.bg-container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.para{
+    background-color: #f8dcbf;
+    height: 4px;
+    width: 50px;
+    justify-self: center;
+    text-align: center;
+}
+.para1{
+    background-color: #1b262c;
+    height: 4px;
+    width: 50px;
+    justify-self: center;
+    text-align: center;
+}
+.container{
+    background-color: #f8dcbf;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.content{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+    border-bottom-color: #1b262c;
+}
+.image{
+    border-radius: 100px;
+}
+footer{
+    background-color: #1b262c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    display: flex;
+    gap: 10px;
+}
+@media (min-width:576px) and (max-width:767px){
+    .container{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .list-items{
+    display: none;
+    gap: 10px;
+} */
+/* .head{
+    color: #1b262c;
+    text-align: center;
+    justify-content: center;
+}
+.bar{
+    display: block;
+   text-align: start;
+}
+.navbar{
+    justify-content: center;
+} */
+.one{
+    order: 2;
+}
+.two{
+    order: 1;
+}
+}

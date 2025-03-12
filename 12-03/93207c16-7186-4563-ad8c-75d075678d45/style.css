@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.main_card{
+    display: grid;
+    grid-template-columns:  2fr 4fr 2fr ;
+    grid-template-rows: 1fr ;
+    background-color: #f9f9f9;
+    height: 90px;
+}
+.clothingstore{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.nav_p{
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.nav_p1{
+    grid-template-columns: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+.nav_p2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+.back_image{
+    background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+    background-size:cover;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+}
+.back_matter{
+    text-align: center;
+   color:white;
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-end: 3;
+   grid-row-start: 2;
+}
+.services_h1{
+    text-align: center;
+    background-color: #d1e5f9;
+}
+.services{
+    background-color: #d1e5f9;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr ;
+}   
+.services_image{
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+     
+}
+.services_image1{
+    
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center; 
+}
+.image{
+    height: 330px;
+    width: 360px;
+    border-radius:50% ;
+    
+}
+.image1{
+    height: 330px;
+    width: 360px;
+    border-radius:50% ;
+   
+}
+.k{
+    text-align: center;
+    background-color: #d1e5f9;
+}
+.footer{
+    display: grid;
+    color:white;
+    grid-template-columns:  2fr 4fr 2fr ;
+    grid-template-rows: 1fr ;
+    background-color: #1d262c;
+    height: 15vh;
+}
+.footer1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.footer2{
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+}

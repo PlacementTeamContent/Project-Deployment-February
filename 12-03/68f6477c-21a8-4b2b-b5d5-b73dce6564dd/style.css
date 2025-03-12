@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.navbar{
+    height: 60px;
+    background-color: #0A1525;
+    font-family: "Roboto";
+}
+.nav-head{
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: left;
+    margin-left: 20px;
+    margin: 10px;
+}
+.nav-subhead{
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: right;
+    margin-right: 20px;
+    margin: 10px;
+}
+.special{
+    text-decoration: underline;
+}
+.section1{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height: 360px;
+}
+.section1-head{
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 48px;
+}
+.headspecial{
+    margin-bottom: 15px;
+}
+.section1-para-empty{
+    height: 10px;
+    width: 240px;
+    background-color: #0A1525;
+    align-items: center;
+    margin-left: 33px;
+}
+.section1-para{
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    text-align: left;
+}
+.section2{
+    height: 480px;
+    background-color: #4B84F3;
+    display: flex;
+}
+.section2-head{
+    color: Black;
+    text-decoration: underline;
+    text-decoration-color: #0A1525;
+    text-align: center;
+}
+.top-layer{
+    display: flex;
+    align-items: center;
+}
+.box{
+    background-color: #FFFFFF;
+    height: 280px;
+    width: 150px;
+    margin: 30px;
+}
+.img{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    align-items: center;
+}
+.section2-box-head{
+    color: Black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.section2-box-para{
+    color: Black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.lastsection{
+    background-color: #FFFFFF;
+    height: 120px;
+}
+.lastsection-div{
+    text-align: left;
+    margin: 5px;
+}
+.head{
+    color: Black;
+    text-align: center;
+    font-weight: 200;
+    font-size: 24px;
+    margin: 10px;
+}
+.para{
+    color: Black;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 10px;
+}
+.head2{
+    color: Black;
+    text-align: right;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 10px;
+}

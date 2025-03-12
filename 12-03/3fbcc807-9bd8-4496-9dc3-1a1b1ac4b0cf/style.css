@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header{
+    background-color:#000000 ;
+    color: white;
+    display: flex;
+    text-align: center;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Roboto";
+}
+.header2{
+    padding: 10px;
+    
+}
+.header2:hover{
+    text-decoration:underline ;
+}
+.image1{
+    height: 50vh;
+}
+.cycle1{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg');
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+ 
+}
+hr{
+    background-color: #39ff14;
+    height: 5px;
+    width: 80px;
+    border-width: 0px;
+    
+}
+.service{
+    text-align: center;
+    background-color: #d4ffcc;
+   
+    margin-top: 0px;
+    
+}
+.cards{
+    background-color: #ffffff;
+    
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+.image2{
+   height: 150px;
+   width:150px;
+   border-radius: 75px;
+   
+   
+   
+}
+.footer{
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    
+}
+.headfoot{
+    font-size: 20px;
+    margin-bottom: 0px;
+    
+}
+.copyright{
+    padding-top: 0px;
+}
+@media all and (min-width: 1200px ){
+    .service{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 5px;
+        text-align: center;
+        
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    
+    }
+    .order{
+        order: 1;
+    }
+}

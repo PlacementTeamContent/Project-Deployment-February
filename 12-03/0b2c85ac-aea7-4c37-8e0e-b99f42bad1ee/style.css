@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+#car-text{
+    color:white;
+    font-ssize:30px
+}
+.n{
+    color:white;
+}
+.container-one{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+background-size:cover;
+height:100vh;
+width:100vw;
+
+text-align:center;
+    
+}
+.hrr{
+    color:#bf00ff;
+}
+.top{
+    color:white;
+    font-size:45px;
+    font-weight:bold;
+}
+.drive{
+    color:white;
+    font-weight:400;
+    font-size:25px;
+}
+.bg{
+    background-color:#f2ccff;
+    text-align:center;
+    padding:15px;
+}
+/* .imgg{
+    height:40vh;
+    width:80vw;
+} */
+.oil{
+    text-align:left;
+    font-weight:bold;
+    padding:8px;
+}
+.imgg{
+    margin:5px;
+}
+.fi{
+    background-color:#f2ccff;
+}
+#n{
+    color:white;
+}
+.regular{
+    font-weight:bold;
+    text-align:left;
+}
+.mm{
+    height:100px;
+}
+.down{
+    background-color:#FFFFFF;
+    text-align:center;
+    padding:9px;
+   
+}
+
+.home{ 
+    font-weight:400;
+    color:black;
+    
+}
+.copy{
+    color:black;
+    font-weight:400;
+}
+.sp{
+    color:black;
+    font-family:bold;
+}

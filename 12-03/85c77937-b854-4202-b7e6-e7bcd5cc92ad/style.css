@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: #ffffff;
+    margin: 20px;
+    
+}
+.mainhead{
+   color: #1b262c;
+   font-family: "Roboto";
+   font-size: 40px;
+   font-weight: 800;
+ 
+   
+}
+nav ul li{
+    color: #1b262c;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+
+}
+.navlink{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-end; 
+}
+.image1{
+    max-width: 900px;
+    width: 100%;
+    
+}
+.card1{
+   background-color: #d1e5f9;
+   height: 190vh;
+   background-image: url(https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg); 
+    
+    max-height: 450px;
+    max-width: 900px;
+    width: 100%;
+    background-size: cover;
+}
+.incard-details{
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    margin-top: 1px;
+    padding: 10px;
+}
+.incard-head{
+    font-family: "Roboto";
+    font-size: 35px;
+}
+.incardpara{
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.card2{
+    background-color: #d1e5f9;
+    height:250vh;
+    
+}
+.flexcard{
+    text-align: center;
+     padding: 30px;
+}
+.flexcard-head{
+    font-family: "Roboto";
+    color: #1b262c;
+}
+.flexcard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fleximg{
+    height: 200px;
+    border-radius: 50%;
+    width: 50%;
+   
+}
+.inflexhead{
+    background-color: transparent;
+    max-width: 300px;
+    width: 100%;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.inflexpara{
+    max-width: 200px;
+     
+    
+}
+.footer{
+    background-color: #1b262c;
+    color: #ffffff;
+    
+}

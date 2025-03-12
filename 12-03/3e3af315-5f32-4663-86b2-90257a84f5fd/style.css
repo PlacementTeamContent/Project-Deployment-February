@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.foot{
+    background-color: #008080;
+    background-size: cover;
+    height: 10vh;
+    width: 100vw;
+}
+.containers {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}
+
+.welcome {
+    color: #ffffff;
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.your {
+    color: #ffffff;
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.thin {
+    background-color: #008080;
+    width: 150px;
+    height: 8px;
+    border: none;
+}
+
+.second {
+    background-color: #ccffff;
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+}
+
+.atom {
+    display: flex;
+    justify-content: center;
+}
+
+.our {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+.web {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.service {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.expert{
+    font-size: 25px;
+    font-family: Roboto;
+}
+.ours{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+.services{
+    padding-left: 400px;
+    padding-top: 30px;
+}
+.can{
+    font-size: 20px;
+    font-family: Roboto;
+}
+.all{
+    display: flex;
+}
+.third{
+    background-color: #f9f9f9;
+    background-size: cover;
+    height: 20vh;
+    width: 100vw;
+}
+.electronic{
+    padding: 50px;
+}
+.electronics{
+    padding-top: 50px;
+    padding-left: 400px;
+}
+.electronicss{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.aa{
+    color: #000000;
+    font-family: Roboto;
+}
+.bb{
+    color: #000000;
+    font-family: Roboto;
+}
+.see{
+    display: flex;
+}
+.sto{
+    padding: 20px;
+}
+.stos{
+    padding-left:450px ;
+    padding-top: 20px;
+}
+.stoss{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.cc{
+    color: #ffffff;
+    font-family: Roboto;
+}

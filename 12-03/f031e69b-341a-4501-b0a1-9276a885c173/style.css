@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+body{
+    margin: 0px;
+}
+@media screen and (min-width : 768px){
+    .fl{
+    display: flex;
+    flex-direction: row;
+    background-color: #808080;
+    justify-content: space-between;
+    color: white;
+    font-family: "Caladea";
+    margin: 0px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+     font-family: "Caladea";
+}
+.head{
+     margin-left: 10px;
+}
+.fla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.back{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    background-size: cover;
+    margin: 0px;
+    height: 50vh;
+  color: white;
+  font-family: "Caladea";
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.p{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ 
+}
+.h{
+      display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.para{
+    text-align: start;
+    padding: 20px;
+}
+.img{
+    height: 25vh;
+    width: 30vw;
+    border-radius:10px;
+    margin: 6px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+}
+.back1{
+    background-color: #f7c1c1;
+    color: black;
+    font-family: "Consolas";
+}
+.he{
+    text-align: center;
+    color: black;
+    font-family: "Consolas";
+}
+.fl1{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: space-between;
+    color: black;
+    font-family: "Caladea";
+    margin: 0px;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+     font-family: "Caladea";
+}
+.head1{
+     margin-left: 10px;
+}
+.fla1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.mar{
+    margin: 30px;
+}
+}
+.fl{
+    display: flex;
+    flex-direction: row;
+    background-color: #808080;
+    justify-content: space-between;
+    color: white;
+    font-family: "Caladea";
+    margin: 0px;
+}
+.ord{
+    order: 1;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+     font-family: "Caladea";
+     order: 0;
+}
+.head{
+     margin-left: 10px;
+}
+.fla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.back{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    background-size: cover;
+    margin: 0px;
+    height: 50vh;
+  color: white;
+  font-family: "Caladea";
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.p{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ 
+}
+.h{
+      display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.para{
+    text-align: start;
+    padding: 20px;
+    font-weight: bold;
+}
+.img{
+    height: 50vh;
+    width: 90vw;
+    border-radius:10px;
+    margin: 6px;
+}
+.center{
+    font-size: 15px;
+}
+.back1{
+    background-color: #f7c1c1;
+    color: black;
+    font-family: "Consolas";
+}
+.he{
+    text-align: center;
+    color: black;
+    font-family: "Consolas";
+}
+.fl1{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: space-between;
+    color: black;
+    font-family: "Caladea";
+    margin: 0px;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+     font-family: "Caladea";
+     order: 0;
+}
+.head1{
+     margin-left: 10px;
+}
+.fla1{
+    text-align: center;
+    margin: 10px;
+}
+
+.mar{
+    margin: 30px;
+    order: 1;
+}

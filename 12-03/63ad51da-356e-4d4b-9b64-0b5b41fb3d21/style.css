@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.navbar {
+    background-color: #808080;
+    height: 90px;
+    padding: 5px;
+}
+
+h1 {
+    color: white;
+    font-family: Caladea;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-family: Caladea;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.elite {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-family: Caladea;
+    font-weight: bold;
+    margin-left: 120px;
+}
+
+.p2 {
+    color: white;
+    font-family: Caladea;
+    font-weight: bold;
+    margin-left: 120px;
+}
+
+hr {
+    height: 5px;
+    width: 300px;
+    background-color: orange;
+}
+
+.hr {
+    height: 5px;
+    width: 100px;
+    background-color: orange;
+}
+
+.servieces {
+    background-color: #f7c1c1;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    color: black;
+    font-family: roboto;
+}
+
+.p3 {
+    color: black;
+    font-family: roboto;
+    font-weight: normal;
+}
+
+.image {
+    height: 220px;
+    width: 420px;
+    border-radius: 6px;
+}
+
+.imagecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 25px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    color: black;
+    font-family: roboto;
+    font-weight: normal;
+}
+
+.para {
+    color: black;
+    font-weight: normal;
+    font-family: roboto;
+    font-size: 12px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+
+}
+
+.club {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media (min-width:990px) {
+    .servieces {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .img {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image {
+        height: 220px;
+        width: 220px;
+        border-radius: 6px;
+    }
+
+    h2 {
+        color: white;
+        font-family: Caladea;
+        font-weight: bold;
+        margin-left: 320px;
+    }
+
+    .p2 {
+        color: white;
+        font-family: Caladea;
+        font-weight: bold;
+        margin-left: 320px;
+    }
+
+    .hr {
+        height: 5px;
+        width: 100px;
+        background-color: orange;
+        margin-left: 450px;
+    }
+
+    h3 {
+        color: black;
+        font-family: roboto;
+        margin-left: 450px;
+    }
+}

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+*{
+    
+    font-family: "Roboto";
+}
+.ht{
+    align-content:center ;
+   justify-content:space-between;
+   display: flex;
+   flex-direction:row;
+   background-color:#000000;
+   color:#FFFFFF;
+   margin: 0px;
+}
+
+
+.other{
+   display: flex;
+    justify-content:space-between;
+  
+   align-items: center;
+   color:#FFFFFF;
+   
+   
+   
+}
+
+.bg-1{
+    margin-top: 0px;
+    background-image:url('https://images.cdn-files-a.com/ready_uploads/media/9724/2000_5cda7f0650a69.jpg') ;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#FFFFFF;
+    text-align: center;
+    
+    
+}
+
+.green{
+    height: 900px;
+    background-color:#d4ffcc;
+    color:black!important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card{
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 400px;
+    padding: 5px;
+    margin:17px;
+    color:black!important;
+      width: 300px;
+    border-color:green;
+    border-width: 2px;
+    border-bottom: solid 7px green;
+    border-radius: 5px;
+}
+
+
+img{
+    border-radius: 50px;
+    height: 90px;
+    width:90px;
+    background-size: cover;
+    margin-top:35px;
+  
+}
+
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.all{
+    display: flex;
+}

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.header-bg-container{
+    background-color: #3d3d3d;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+}
+.header-bg-container-laptop{
+    background-color: #3d3d3d;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width:768px){
+    .header-bg-container-laptop{
+        display: none;
+    }
+}
+@media screen and (min-width:786px){
+    .header-bg-container{
+        display: none;
+    }
+}
+i{
+    color: #ffffff;
+    margin:20px ;
+    width: 10vh;
+}
+.nav-heading{
+    justify-content: center;
+    color:#ffffff ;
+    padding-bottom:200px ;
+    font-size: 20px;
+    margin-left: 60px;
+    font-family: "Times New Roman";
+}
+@media screen and (min-width:576px){
+    .nav-heading{
+        margin-left: 180px;
+        font-size: 30px;
+    }
+}
+
+
+.nav-heading-o1{
+    color:#ffffff ;
+    padding-bottom:200px ;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: "Times New Roman";
+}
+
+.nav-items{
+    flex-direction: row;
+    color: #ffffff;
+    margin: 20px;
+}
+.nav-items-01{
+    color: white;
+    font-family: "Times New Roman";
+    list-style-type: none;
+    font-size:40px;
+    text-decoration: underline;
+}
+.nav-items-02{
+    color: white;
+    font-family: "Times New Roman";
+    list-style-type: none;
+    font-size:40px;
+}
+
+
+.bg-container-section{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg');
+    height: 80vh;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.g-heading{
+    color: black;
+    font-family: "serif";
+    font-size: 40px;
+    font-weight: bold;
+}
+@media screen and (min-width:768px){
+    .g-heading{
+        font-size: 60px;
+    }
+}
+
+.aside-bg-container{
+    background-color: #e5e5e5;
+    min-height:100vh;
+}
+@media screen and (min-width:768px){
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.aside-heading{
+    text-align: center;
+    color: black;
+    font-family: "Times New Roman";
+    padding: 20px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.card-container{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    flex-direction: column;
+}
+
+
+.aside-image{
+    height:30vh;
+    width: 30vh;
+    border-radius: 180px;
+    justify-content: center;
+}
+
+.footer-bg-container{
+    background-color: #3d3d3d;
+    min-width: 400px;
+}
+
+.footer-bg-container{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}

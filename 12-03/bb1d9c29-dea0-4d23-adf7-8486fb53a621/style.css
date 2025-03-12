@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+@media scree and (max-width:768px){
+    nav{
+        background-color: black;
+        height:20%;
+        width: 100%;
+        display: flex;
+    }
+    .nave-items{
+        color: white;
+        
+    }
+}
+.middle-section {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: black;
+}
+
+.bottom-sec {
+    text-align: center;
+}
+
+.mid-line {
+    font-size: 66px;
+    color: white;
+}
+
+.black-line {
+    height: 6px;
+    width: 86px;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    direction: column;
+    justify-content: center;
+}
+
+.final-section {
+    text-align: center;
+    border-width: 8px;
+    border-bottom-color: black;
+    height: 80%;
+    width: 80%;
+    margin: 40px;
+
+}
+
+.images-con {
+    border-radius: 50%;
+    background-size: cover;
+}
+h1{
+    font-style: bold;
+}

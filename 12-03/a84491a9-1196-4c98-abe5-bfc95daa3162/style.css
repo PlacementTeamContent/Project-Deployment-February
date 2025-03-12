@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.background{
+    display:none;
+}
+
+
+@media (min-width:768px){
+.background{
+    display: block;
+}
+.background2{
+    display:none;
+}
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.nav-bar{
+    background-color:#0A1525;
+    height:5vh;
+}
+.aero-main-heading{
+    color:white;
+    font-size:20px;
+    text-align:center;
+
+}
+.top-image-card{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size:cover;
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.top-card-image-content{
+    text-align:center;
+    font-size:28px;
+    color:#ffffff;
+}
+.horizontal_line{
+    border-width:4px;
+    width:20vw;
+    border-color:#4B8473;
+}

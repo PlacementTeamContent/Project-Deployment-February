@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0px;
+}
+
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b262c;
+    color: #FFFFFF;
+    padding: 20px;
+    font-family: "Roboto";
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+.bg-cont1 {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Roboto";
+}
+
+.border {
+    border: 3px solid #bf00ff;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.bg-cont2 {
+    background-color: #f2ccff;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+    font-family: "Roboto";
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card1 {
+    margin: 10px;
+    font-family: "Roboto";
+}
+
+.card2 {
+    margin: 10px;
+    font-family: "Roboto";
+}
+
+.card3 {
+    margin: 10px;
+    font-family: "Roboto";
+}
+
+footer {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-family: "Roboto";
+}
+
+.small {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    order: 1;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 768px) {
+    .card-cont {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+
+    .img {
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .small {
+        order: -1;
+    }
+
+    .big {
+        order: 2;
+    }
+
+    footer {}
+}

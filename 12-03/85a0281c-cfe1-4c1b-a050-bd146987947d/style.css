@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.bg_container{
+    background-color:#008080;
+    color:#ffffff;
+    height:60px;
+    padding-left:5px;
+}
+
+span{
+    font-size:20px;
+    padding-left:60px;
+}
+
+
+.body_container{
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size:cover;
+    height:300px;
+    color:#ffffff;
+    text-align: center;
+    padding-top:100px;
+}
+h1{
+    font-size:40px;
+    font-weight:bold;
+    font-family:Roboto;
+}
+.Service_container{
+    background-color:#ccffff;
+    height:550px;
+    display:grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 3fr;
+}
+.image{
+    height:100px;
+    padding-top:40px;
+    padding-left:40px;
+}
+.servicedetails{
+    text-align:center;
+}
+.footer_container{
+    background-color:#f9f9f9;
+    height:100px;
+}
+h4{
+    font-size:30px;
+}

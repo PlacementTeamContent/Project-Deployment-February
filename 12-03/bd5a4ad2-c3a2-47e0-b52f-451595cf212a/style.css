@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.main-1{
+    background-color: #0A1525;
+    color:#FFFFFF;
+    display: flex
+    
+}
+.second-main-2{
+    font-size: 10px;
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.seond-main{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height:70vh;
+    width:100vw;
+    
+}
+.second-main-head{
+    color:#FFFFFF;
+    padding:100px;
+    font-family: "Roboto";
+}
+.para{
+    color:#FFFFFF;
+    padding-bottom:50px;
+    padding-left:30px;
+    font-family: "Roboto";
+}
+.third-main{
+    background-color:#4B84F3;
+    color:#FFFFFF;
+    height:254vh;
+    width:100vw;
+    
+}
+.third-main-head{
+    text-align: center;
+    padding-top:50px ;
+}
+.third-main-3{
+    background-color: #FFFFFF;
+    color:Black;
+    margin:30px;
+    width:90vw;
+    height:500px;
+    
+}
+.main-image{
+    height:250px;
+    width:250px;
+    border-radius:180px;
+    padding:30px;
+    
+}
+.fourth-main{
+    color:black;
+}
+.fourth-main-head{
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.fourth-main-para{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+.third-main-3-head{
+    font-family: "Roboto";
+}
+.third-main-3-para{
+    font-family: "Roboto";
+}
+.second-main-1{
+    font-size: 10px;
+    display: flex;
+    justify-content:flex-end;
+    justify-content: space-between;
+}

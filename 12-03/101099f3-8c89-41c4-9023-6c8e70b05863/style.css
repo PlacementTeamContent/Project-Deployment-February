@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+*{
+    margin: 0px;
+    font-family: "Times New Roman",Times, serif;
+}
+.nav{
+    background-color: #3d3d3d;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+}
+.fa{
+    color: #FFFFFF;
+    font-size:30px;
+    margin-top:8px;
+    margin-left:20px;
+}
+.head{
+    color: #FFFFFF;
+    font-family: "Times New Roman";
+    align-self: center;
+    margin-left:150px;
+    margin-top:10px;
+}
+.links{
+    color: white;
+    margin-right:30px;
+    margin-top:10px;
+}
+.a{
+    margin-left:10px;
+    color: white;
+    text-decoration: none;
+}
+.bg-container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    height:700px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.bg-head{
+    font-size:60px;
+     margin-top:150px;
+}
+.line{
+    height:5px;
+    width:90px;
+    background-color: white;
+    align-self: center;
+    border-width: 0px;
+}
+.bg-para{
+    margin-top:20px;
+    font-size:25px;
+}
+.services{
+    background-color: #e5e5e5;
+    text-align: center;
+}
+.services-head{
+    padding-top:50px;
+    text-align: center;
+    text-decoration: underline;
+}
+.l{
+    height:5px;
+    width:20%;
+    display: flex;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    margin:30px;
+    height:420px;
+    border-radius: 10px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+.i{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+.card-head{
+    
+}
+.card-para{
+    margin:20px;
+}
+@media all and (max-width:767px){
+    .links{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+@media all and (min-width:768px){
+    .fa{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head{
+        margin-left:10px;
+        margin-top:10px;
+    }
+    .bg-container{
+     background-image: url("https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg");
+    height:700px;
+    background-size: cover;
+    padding-top:30px;
+    justify-content: start;
+    }
+    .bg-head{
+        width:500px;
+    }
+    .line{
+        align-self:start;
+        margin-left:200px;
+    }
+    .bg-para{
+        width:500px;
+    }
+    .card-container{
+    display: flex;
+}
+   .card{
+       width:500px;
+   }
+}

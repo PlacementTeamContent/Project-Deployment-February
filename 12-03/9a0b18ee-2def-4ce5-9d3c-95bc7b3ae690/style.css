@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media(min-width: 577px)
+{
+    .nav-bar
+    {
+        background-color: #1b262c;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        align-items: center;
+    }
+    .bar
+    {
+        display: none;
+    }
+    .list
+    {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .li
+    {
+        margin: 5px;
+        font-size: 20px;
+    }
+    .bg
+    {
+        background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .hero-content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-heading
+    {
+        font-size: 70px;
+        color: white;
+    }
+    .pink-bar
+    {
+        background-color: #bf00ff;
+        color: #bf00ff;
+        width: 30%;
+    }
+    .hero-para
+    {
+        color: white;
+        font-size: 50px;
+    }
+    .services
+    {
+        background-color: #f2ccff;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+}
+@media(max-width: 576px)
+{
+    .nav-bar
+    {
+        background-color: #1b262c;
+        /* display: flex; */
+        /* justify-content: center; */
+        color: white;
+       /*  align-items: center; */
+    }
+    .min-bar
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .brand-name
+    {
+        
+    }
+    .bar
+    {
+        font-size: 30px;
+        
+    }
+    .list
+    {
+        display: none;
+        /* list-style-type: none; */
+    }
+    .li
+    {
+        margin: 5px;
+        font-size: 20px;
+    }
+     .bg
+    {
+        background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .hero-content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-heading
+    {
+        font-size: 40px;
+        color: white;
+    }
+    .pink-bar
+    {
+        background-color: #bf00ff;
+        color: #bf00ff;
+        width: 30%;
+    }
+    .hero-para
+    {
+        color: white;
+        font-size: 20px;
+    }
+    .services
+    {
+        background-color: #f2ccff;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}

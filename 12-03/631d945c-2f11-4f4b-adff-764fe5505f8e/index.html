@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <div>ClothingStore</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+    </nav>
+</header>
+    <div id="header"></div>
+
+    <section class="hero">
+        <h1>Welcome to Style Haven</h1>
+        <p>Where Your Fashion Dreams Come True</p>
+    </section>
+
+    <section class="services">
+        <h2>SERVICES</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="https://images.cdn-files-a.com/ready_uploads/media/8198/400_5cda760a31226.jpg" alt="Personal Styling">
+                <h3>Personal Styling</h3>
+                <p>Our expert stylists help you find the perfect look for any occasion.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.cdn-files-a.com/ready_uploads/media/7879661/400_6012e34359d6b.jpg" alt="Custom Tailoring">
+                <h3>Custom Tailoring</h3>
+                <p>We offer custom tailoring to ensure a perfect fit for your clothes.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.cdn-files-a.com/ready_uploads/media/7198690/400_5fb0e7fd2cb70.jpg" alt="Exclusive Collections">
+                <h3>Exclusive Collections</h3>
+                <p>Explore limited-edition fashion pieces you won't find elsewhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>ClothingStore<br>Copyright &copy; 2025 All rights reserved</p>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">SERVICES</a>
+        </nav>
+    </footer>
+
+    <script>
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => document.getElementById("header").innerHTML = data);
+    </script>
+
+</body>
+</html>

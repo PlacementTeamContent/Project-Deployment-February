@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nav-container{
+    display:flex;
+    flex-direction: row;
+    background-color: #008080;
+    color:#ffffff;
+    font-family: Roboto;
+    
+}
+.para{
+    padding-left:80px;
+    padding-top:10px;
+}
+.main-heading{
+    padding-left:10px;
+}
+.image-container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    color:#ffffff;
+    font-family: Roboto;
+    
+}
+.paragraph{
+    color:#ffffff;
+    font-family: Roboto;
+}
+.para1{
+    font-size:20px;
+    color:#008080;
+    text-align: center;
+}
+.service-container{
+    background-color: #ccffff;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto;
+    color:#000000;
+    
+    
+    
+}
+.header{
+    text-align: center;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.container2{
+    height: 20vh;
+    text-align: center;
+    padding:10px;
+    
+
+}
+.image{
+    height: 100px;
+    border-radius: 80px;
+    padding:20px;
+}
+.heading1{
+    font-size: 15px;
+}
+.para2{
+    font-size: 10px;
+}
+.image2{
+    height: 100px;
+    border-radius: 80px;
+    margin-top:50px;
+}
+.footer-container{
+    background-color:#f9f9f9 ;
+    height: 60vh;
+    
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+@media  (max-width:576px){
+    .container{
+        display:block;
+    }
+    .container{
+        display:none;
+    }
+    .nav-container{
+        text-align: center;
+    }
+    .main-heading{
+        text-align: center;
+    }
+}
+@media (max-width:576px){
+    .service-container{
+    display:flex;
+    flex-direction: column;
+    height: 90vh;
+        
+    }
+}
+@media (max-width:576px){
+    .footer-container{
+        display:flex;
+        align-items:flex-end;
+        justify-content: center;
+    }
+}
+
+.fo-container{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.p2{
+    padding:2px;
+}

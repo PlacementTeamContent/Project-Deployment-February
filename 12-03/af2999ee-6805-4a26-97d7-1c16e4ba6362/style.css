@@ -1,0 +1,104 @@
+.bg-container{
+    background-color: white;
+    height: 100vh;
+}
+
+.navbar-container{
+    background-color: #3d3d3d;
+    height: 20vh;
+    width: 100vh;
+}
+
+.navbar-title{
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    padding: 14px;
+    text-align: center;
+}
+
+.home{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/209470/2000_5ceee0706a4bc.jpg');
+    height: 100vh;
+    background-size: cover;
+    padding: 16px;
+}
+
+.home-title{
+    color: black;
+    font-family: "Times";
+    font-size: 38px;
+}
+
+.home-para{
+    color: black;
+    font-family: "Times";
+    font-size: 18px;
+}
+
+.services{
+    background-color: #e5e5e5;
+    height: 100vh;
+}
+
+.services-title{
+    color: black;
+    font-family: "Times";
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.Services-card{
+    background-color: white;
+    border-radius: 12px;
+    height: 355px;
+    width: 255px;
+    border-bottom-color: #3d3d3d;
+    padding: 16px;
+    display: grid;
+    gap: 4;
+}
+
+.services-heading{
+    color: black;
+    font-family: "Times";
+    font-size: 25px;
+}
+
+.services-para{
+    color: black;
+    font-family: "Times";
+    font-size: 16px;
+}
+
+.image{
+    width: 164px;
+    height: 164px;
+    border-radius: 100px;
+}
+
+.footer{
+  background-color: #3d3d3d;
+    height: 40vh;
+    width: 100vh;  
+}
+
+.footer-para{
+    color: white;
+    font-family: "Times";
+    font-size: 16px;
+}
+
+.footer-title{
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 26px;
+}
+
+.footer-cp{
+    color: white;
+    font-family: "Times";
+    font-size: 12px;
+}

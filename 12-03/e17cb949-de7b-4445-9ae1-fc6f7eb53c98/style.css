@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container{
+   
+    height: 200vh;
+}
+
+.card1{
+    background-color: #87ceeb;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    
+}
+.head1{
+    font-family: "Roboto";
+    font-size: 25px;
+    padding-top: 20px;
+}
+.card2{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    height: 50vh;
+    background-size: cover;
+ text-align: center;
+      align-items: center;
+}
+.head2{
+    color: white;font-family: "Roboto";
+    padding-top:15vh;
+}
+.head3{
+    color: white;font-family: "Roboto"; font-size: 20px; padding-top:5vh;
+    width: 400px;margin-left:10vh ;
+}
+.a{
+    background-color: #87ceeb ;
+    height: 8px;
+    width: 150px;margin-left:25vh ;
+    margin-top: 50px;
+}
+.card5{
+    padding-top: 80px;
+}
+.head4{
+    color: black;font-family: "Roboto";margin-left:25vh ;
+}
+.b{
+    background-color: #87ceeb ;
+    height: 5px;
+    width: 100px;margin-left:26vh ;
+    margin-top: 50px;
+}
+.image1{
+    border-radius: 1000px;
+    height: 100px;
+    width: 100px;
+}
+.card3{
+    align-items: center;
+    text-align: center;
+      margin-top: 50px;
+}
+.car1{
+    text-align: center;
+}
+.head5{
+    font-family: "Roboto";font-size: 20px;
+}
+.para1{
+     font-family: "Roboto";
+}
+.card4{
+    background-color: black;
+    height: 400px;
+    
+}
+
+.head6{
+    color: white;
+    font-size: 20px;
+}
+.para2{
+     font-family: "Roboto";color: white;
+     font-size: 23px;margin-left:20vh ;
+     
+}
+.para3{
+     font-family: "Roboto";color: white;margin-left:14vh ;
+}
+.mahi{
+    display: flex;
+    flex-direction: row;
+}
+.head11{
+     margin-left: 150px;  color: white;
+    font-size: 20px;
+    padding-top:50px ;
+}
+.head22{
+     margin-left: 150px;  color: white;
+    font-size: 20px;  padding-top:50px ;
+}

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container {
+   /* display: grid;
+   grid-template-rows: 1fr 3fr 5fr 2fr;*/
+}
+.navbar {
+    height: 13vh;
+    width: 100vw;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+ }
+ #nrheading {
+     color: #000000;
+     font-family: "Roboto";
+     font-size: 25px;
+     margin-top: 27px;
+     margin-left: 150px;
+ }
+ .bars {
+    font-size: 27px;
+    margin-top: 27px;
+   margin-left: 20px;
+ }
+ 
+ .hero-section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-image: url("https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg");
+     width: 100vw;
+     height: 50vh;
+     background-size: cover;
+ }
+ .heroheader {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 110px;
+    
+ }
+ .line{
+     height: 10px;
+     width: 150px;
+    background-color: #1976d2;
+    margin-top: 0px;
+ }
+ .heropara {
+    color: white;
+    text-align: center; 
+    font-size: 23px;
+    font-weight: bold;
+ }
+ .services {
+     background-color: #d1e5f9;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .servicesh {
+     margin-top: 30px;
+     color: #000000;
+     font-size: 20px;
+ }
+ .small-line {
+    height: 5px;
+    width: 70px;
+    background-color: #1976d2;
+    margin-top: 10px;
+ }
+ 
+ .card {
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+ }
+ img {
+     border-radius: 100px;
+     height: 150px;
+     width: 150px;
+ }
+ h1 {
+     color: #000000;
+     font-size: 20px;
+     margin-bottom: 0px;
+ }
+ 
+ p {
+     padding: 10px;
+     margin-top: 0px;
+     font-weight: 200;
+ }
+ 
+ .footer {
+     background-color: #1b262c;
+     width: 100vw;
+     height: 40vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ #footer-h {
+     color: white;
+     margin-top: 25px;
+ }
+ #footer-h1 {
+     color: white;
+     margin-top: 30px;
+     font-size: 25px;
+     margin-bottom: 0px;
+ }
+ #footer-h2 {
+     color: white;
+     margin-top: 0px;
+ }

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+    background-color: red;
+    font-family: Caladea;
+    padding: 0px;
+}
+
+.Welcome{
+   
+    color: white;
+    
+    font-family: Caladea;
+    padding: 170px;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg")
+}
+.card{
+    background-color:#f7c1c1 ;
+    justify-content: center;
+    margin: 0px;
+}
+.g3{
+    text-align: center;
+}
+.g1{
+    display: flex;
+    justify-content: stretch;
+    border-radius: 20px;
+    
+}
+.g2{
+    background-color:#f7c1c1 ;
+}
+
+.g4{
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: Caladea;
+}
+
+@media (width:992px){
+    .navbar{
+        background-color: #808080;
+        
+    }
+}

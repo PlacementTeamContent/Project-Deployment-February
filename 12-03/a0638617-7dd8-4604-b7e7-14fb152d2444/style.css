@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.navbar{
+    height: 10vh;
+    width: auto;
+    background-color: #4B84f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} */

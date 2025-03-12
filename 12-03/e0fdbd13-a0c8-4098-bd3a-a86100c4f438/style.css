@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+    background-color: #1b262c;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.mainhead {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg");
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+
+hr {
+    height: 10px;
+    width: 150px;
+    background-color: #bf00ff;
+    border: none;
+    align-items: center;
+}
+
+.card2 {
+    background-color: #f2ccff;
+    background-size: cover;
+    height: 1400px;
+    width: 450px;
+    text-align: center;
+    padding: 10px;
+}
+
+hr {
+    height: 5px;
+    width: 100px;
+    background-color: #bf00ff;
+    border: none;
+    align-items: center;
+
+}
+
+.head2 {
+    text-align: left;
+}

@@ -1,0 +1,31 @@
+.IMG-1 {
+    text-align: center;
+    background-size: cover;
+    align-content: center;
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+}
+
+.id{
+    background-size:cover;
+    border-image-width: 87px;
+}
+.head {
+    color: #ffffff;
+    text-shadow: 12;
+}
+
+.para {
+    color: #ffffff;
+}
+
+.imp {
+    text-align: center;
+    background-color: #d1e5f9;
+}
+
+.ASA {
+    text-decoration: underline;
+}
+
+.fa_fa-bars::hover{
+}

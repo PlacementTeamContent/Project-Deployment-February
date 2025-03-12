@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@media (max-width:1024px) {}
+
+.bg-container {
+    background-color: #008080;
+    color: #f9f9f9;
+    font-family: "Roboto";
+
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.all-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.two-elements {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+}
+
+
+
+.home {
+    text-decoration: underline;
+
+}
+
+
+
+.welcome {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    background-color: #008080;
+    height: 5px;
+    width: 50px;
+}
+
+.icons {
+    background-color: #ccffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.icon-3 {
+    background-color: #ccffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.ring {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-1 {
+    border-radius: 200px;
+}
+
+.logo- {
+    border-radius: 200px;
+}
+
+.logo-3 {
+    border-radius: 200px;
+}
+
+
+@media (min-width:768px) {}
+
+.bg-container {
+    background-color: #008080;
+    color: #f9f9f9;
+    font-family: "Roboto";
+
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.all-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo-1 {
+    border-radius: 200px;
+}
+
+.logo- {
+    border-radius: 200px;
+}
+
+.logo-3 {
+    border-radius: 200px;
+}
+
+.two-elements {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+}
+
+
+
+.home {
+    text-decoration: underline;
+
+}
+
+
+
+.welcome {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    background-color: #008080;
+    height: 5px;
+    width: 50px;
+}
+
+.icons {
+    background-color: #ccffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.icon-3 {
+    background-color: #ccffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.ring {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar{
+    background-color: #008080;
+    display:flex;
+    gap: 30px;
+    font-family: Roboto;
+    
+}
+
+.navbarelements{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 70px;
+    text-align: center;
+    color: white;
+}
+.fa{
+    padding-top: 20px;
+}
+.pagehead{
+    color: #ffffff;
+}
+.home{
+    text-decoration: underline;
+}
+.welcome-page{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg');
+    background-size: cover;
+    height: 400px;
+
+}
+.card{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-family: Roboto;
+}
+.welcome{
+    
+    padding-bottom: 20px;
+}
+.welcome-para{
+    font-size: 15px;
+}
+.Services-page{
+    background-color: #ccffff;
+    font-family: Roboto;
+    gap: 20px;
+    padding: 30px;
+}
+.services-head{
+    text-align: center;
+    color:black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-size: cover;
+    
+}
+.card1{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.card2{
+    text-align: center;
+    padding: 40px;
+}
+.card-image{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.carda{
+    
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.cardb{
+    padding-top: 20px;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    text-align: right;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    gap: 10px;
+    font-size: 10px;
+}
+.foo-para{
+    font-size: 10px;
+}
+.footer{
+    display: flex;
+    font-family: Roboto;
+    gap: 40px;
+}
+
+@media  not(screen width:400px;){
+    
+}

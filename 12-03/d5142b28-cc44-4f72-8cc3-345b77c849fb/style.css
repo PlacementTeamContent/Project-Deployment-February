@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+* {
+   font-family: Caladea;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    display: none;
+    
+}
+.icon {
+    display: block;
+}
+@media screen and (max-width:768px){
+.icon {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+}
+
+.item {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#808080 ;
+    color: white;
+    font-weight: bold;
+    
+}
+.card {
+    background-image:url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg") ;
+    height: 100vh;
+    background-size: cover;
+    
+    
+}
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.divider {
+    background-color: red;
+    height: 5px;
+    width: 100px;
+    border-style: none;
+}
+.para {
+    color: white;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+.cards-container {
+    background-color: #f7c1c1;
+    
+    background-size: cover;
+    
+}
+.cards {
+    
+    height: 400px;
+    width:500px;
+}
+.align {
+    text-align: center;
+}
+.items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.order {
+    order: 1;
+    
+}
+.hero {
+    order: 2;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .items-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    overflow-x: auto;
+    
+  }
+  .cards {
+     height: 400px;
+    width: 300px;
+      margin-left: 10px;
+      padding: 20px;
+  }
+  .icon {
+    display: none;
+}
+  .cards-container {
+      height: 50vh;
+  }
+  .hero {
+      display: flex;
+      flex-direction: column;
+      order: 1;
+      
+  }
+  .foot {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .order {
+    order: 2;
+    
+}
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+  
+  
+  
+}

@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main_page {
+    background-color: #f8dcbf;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading {
+    color: white;
+
+}
+
+.momo {
+    font-size: 30px;
+    margin-top: 15px;
+    visibility: hidden;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg');
+    text-align: center;
+    background-size: cover;
+    color: white;
+    height: 250px;
+    padding: 50px;
+}
+
+.sub {
+    background-color: #ffffff;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 170px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.main_sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main_sub2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.don {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mon {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+
+.lon {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+@media (max-width:768px) {
+    .flex {
+        display: flex;
+        flex-direction: row;
+        visibility: hidden;
+    }
+
+    .heading {
+        color: black;
+    }
+
+    .momo {
+        visibility: visible;
+    }
+
+    .main_sub {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_sub2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .don {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .mon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 2;
+    }
+
+    .lon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        order: 1;
+    }
+
+    .sub {
+        background-color: #ffffff;
+        background-size: cover;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 300px;
+        width: 250px;
+        margin: 15px;
+        padding: 20px;
+    }
+}

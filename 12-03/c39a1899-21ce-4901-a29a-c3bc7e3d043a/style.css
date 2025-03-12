@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbarbg {
+    background-color: #87ceeb;
+    height: 100px;
+    margin: 0px;
+}
+.main-heading {
+    font-family: "Roboto";
+    padding-left: 30px;
+    font-size: 30px;
+}
+@media (max-width:768px){
+    .main-heading {
+        font-family: "Roboto";
+        text-align: center;
+        font-size: 30px;
+    }
+}
+.card1 {
+    height: 50vh;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text-1 {
+    color: #ffffff;
+}
+.text-2 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 10px;
+    text-shadow: 10px;
+}
+.box {
+    background-color: #87ceeb;
+    height: 3px;
+    width: 60px;
+}
+.card2 {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.image1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.order2 {
+    text-align: center;
+}
+.align1 {
+    text-align: center;
+}
+.box1 {
+    background-color: #87ceeb;
+    height: 3px;
+    width: 100px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 769px){
+    .order1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.footer1 {
+    background-color: #1b262c;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

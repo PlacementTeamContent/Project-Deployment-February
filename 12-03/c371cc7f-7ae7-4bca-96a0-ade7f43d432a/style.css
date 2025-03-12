@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media (max-width: 799px){
+    
+}
+@media (max-width: 800px){
+    
+}
+.main{
+    height: 100vh;
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Roboto";
+}
+.s{
+    width:100vw;
+    text-align: center;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width:50vw;
+}
+.section{
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d1e5f9;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.foot{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:#f9f9f9;
+    background-color: #1b262c;
+}
+.footr{
+    display: flex;
+    justify-content: space-between;
+}
+.footnav{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+}

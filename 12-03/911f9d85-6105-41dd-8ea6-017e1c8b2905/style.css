@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    width: 100vw;
+    margin: 0px;
+}
+.navbar{
+    background-color: #9f5353;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    padding: 20px;
+    height: 10vh;
+}
+.services{
+    display: flex;
+    margin-left: auto;
+}
+.item2{
+    margin-right: 20px;
+    justify-content: space-around;
+}
+.item1{
+    margin-right: 20px;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+.name{
+    font-size: 30px;
+}
+.bars-icon{
+    font-size: 30px;
+    margin-top: 20px;
+}
+@media screen and (min-width:768px){
+    .bars-icon{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .name{
+   margin-left: 180px;
+}
+    .services{
+        display: none;
+    }
+    .home-content{
+        padding: 60px;
+         
+        text-align: center;
+       
+        justify-content: center;
+    }
+    .line-1{
+        margin-left: 190px;
+        
+    }
+    .line-2{
+        margin-left: 50px;
+    }
+    .f-i{
+        order: 1;
+        
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.home-content{
+    height: 80vh;
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    padding: 30px;
+    align-items: center;
+
+}
+.Heading{
+    font-size: 50px;
+}
+.line-1{
+    height: 5px;
+    width: 100px;
+    background-color: #9f5353;
+   
+}
+.line-2{
+    height: 10px;
+    width: 150px;
+    background-color: #9f5353;
+    margin-left: 420px;
+}
+.card-2{
+    background-color: #4B84F3;
+}
+.serice-h{
+    align-items: center;
+    text-align: center;
+    
+}
+.service-items{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.card-image{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.card-items{
+    background-color: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.f-i{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.f-li{
+    margin-left: 15px;
+}

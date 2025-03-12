@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.navbar{
+    background-color:#0A1525;
+    color: white;
+    font-family: "roboto";
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin: 0px;
+}
+.section1{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    height: 50vh;
+    background-size: cover;
+    margin: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    font-family: "roboto";
+    font-weight: bold;
+}
+.hr{
+    height: 2px;
+    width: 50vw;
+    border-style: solid;
+    color: #0A1525;
+    background-color: #0A1525 ;
+    border-width: 3px;
+}
+.section2{
+    background-color: #4B84f3;
+    margin: 0px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    font-family: "roboto";
+    font-weight: bold;
+    padding: 10px;
+}
+.cardcontainer{
+    background-color: white;
+    color: black;
+   padding: 15px;
+
+    font-weight: bold;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #0A1525;
+    margin: 10px;
+    
+}
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+.cardscontainers{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  
+}

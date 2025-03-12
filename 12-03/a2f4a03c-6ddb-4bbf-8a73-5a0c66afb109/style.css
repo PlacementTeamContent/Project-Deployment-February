@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar-section {
+    background-color: #f8dcbf;
+}
+
+.navbar-section-bars {
+    color: #1b262c;
+}
+
+.navbar-section-logo {
+    text-align: center;
+    padding: 15px;
+}
+
+.landing-page {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+.landing-page-container {
+    text-align: center;
+    padding: 45px;
+}
+
+.landing-page-container-heading {
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+.landing-page-container-line {
+    width: 75px;
+    background-color: #f8dcbf;
+    height: 4.15px;
+    border-color: #f8dcbf;
+    border-style: solid;
+}
+
+.landing-page-container-para {
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+.services-page {
+    background-color: #f8dcbf;
+    text-align: center;
+    padding: 40px;
+}
+
+.services-page-heading {
+    color: #1b262c;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.services-page-line {
+    width: 50px;
+    height: 2.5px;
+    background-color: #1b262c;
+}
+
+
+.services-page-box {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.services-page-box-image {
+    height: 160px;
+    border-radius: 8700px;
+}
+
+.services-page-box-heading {
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+.services-page-box-para {
+    /* font-weight: bold; */
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+.last-section {
+    background-color: #1b262c;
+}
+
+.last-section-left-side {
+    color: #FFFFFF;
+    text-align: left;
+    margin: 30px;
+}
+
+.last-section-right-side {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: end;
+}

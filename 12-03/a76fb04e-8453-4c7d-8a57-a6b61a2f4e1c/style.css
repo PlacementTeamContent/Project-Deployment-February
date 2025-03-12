@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    .ham {
+        color: #ffffff;
+        align-self: center;
+        margin-right: 50px;
+    }
+
+    .new {
+        display: none;
+    }
+
+    .header {
+        background-color: #0A1525;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .header-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-heading {
+        color: #ffffff;
+        font-family: "Caveat";
+    }
+
+    .img1 {
+        height: 200px;
+    }
+
+    .landing {
+        height: 40vh;
+        background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+        background-size: cover;
+        background-color: transparent;
+        padding: 1px;
+
+
+    }
+
+    .landing-head {
+        color: #ffffff;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .landing-para {
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .services-section {
+        background-color: #4B84F3;
+        height: 150vh;
+        padding: 1px;
+    }
+
+    .services-head {
+        text-align: center;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff;
+        height: 40vh;
+        margin: 20px;
+        border-radius: 12px;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 2px;
+        border-style: solid;
+        border-color: #0A1525;
+    }
+
+    .services-head {
+        color: #ffffff;
+    }
+
+    .service-img {
+        height: 150px;
+        border-radius: 100px;
+        width: 150px;
+
+
+    }
+
+    footer {
+        text-align: center;
+        font-family: "Roboto";
+
+    }
+}
+
+@media (min-width: 769px) {
+    .ham {
+        display: none;
+    }
+
+    .new {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        color: #ffffff;
+        margin-left: 450px;
+    }
+
+    .header {
+        background-color: #0A1525;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .header-div {
+        display: flex;
+        flex-direction: row;
+
+
+
+    }
+
+    .header-heading {
+        color: #ffffff;
+        font-family: "Caveat";
+    }
+
+    .img1 {
+        height: 200px;
+    }
+
+    .landing {
+        height: 40vh;
+        background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+        background-size: cover;
+        background-color: transparent;
+        padding: 1px;
+
+
+    }
+
+    .landing-head {
+        color: #ffffff;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .landing-para {
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .services-section {
+        background-color: #4B84F3;
+        height: 110vh;
+        padding: 1px;
+    }
+
+    .services-head {
+        text-align: center;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff;
+        height: 30vh;
+        margin: 20px;
+        border-radius: 12px;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 2px;
+        border-style: solid;
+        border-color: #0A1525;
+        grid-template-columns: 1/4;
+    }
+
+    .services-head {
+        color: #ffffff;
+    }
+
+    .service-img {
+        height: 150px;
+        border-radius: 100px;
+        width: 150px;
+
+
+    }
+
+    footer {
+        text-align: center;
+        font-family: "Roboto";
+
+    }
+}

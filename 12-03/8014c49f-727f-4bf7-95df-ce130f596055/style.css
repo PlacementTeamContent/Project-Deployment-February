@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.page {
+    background-color: #f8dcbf;
+}
+
+.nav_lg {
+    background-color: #f8dcbf;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hlg {
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.as {
+    margin-top: 30px;
+
+}
+
+.nav_mob {
+    background-color: #f8dcbf;
+    padding: 20px;
+    display: flex;
+}
+
+.fa {
+    font-size: 25px;
+    padding-top: 33px;
+}
+
+.hmob {
+    color: white;
+    font-weight: bold;
+    padding-left: 40%;
+}
+
+@media (min-width:991px) {
+    .nav_mob {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .nav_lg {
+        display: none;
+    }
+}
+
+.bg-img {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg');
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s1 {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+
+}
+
+.img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+@media (max-width:991px) {
+    .s1 {
+        width: 45%;
+    }
+}
+
+@media (min-width:991px) {
+    .footer {
+        background-color: #1b262c;
+        height: 15vh;
+        color: white;
+        padding: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.two {
+    padding-top: 10%;
+}
+
+@media (max-width:991px) {
+    .footer {
+        background-color: #1b262c;
+        height: 30vh;
+        color: white;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .two {
+        order: -1;
+    }
+
+    .one {
+        margin-right: 10%;
+    }
+}

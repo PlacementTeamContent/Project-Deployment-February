@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+    font-family: Roboto;
+    color: white;
+}
+
+.op{
+    display: flex;
+    margin-left:10px ;
+}
+
+.nav-item{
+    background-color: #008080;
+    width: 100%;
+    margin: 0px;
+    height: 60px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.h1{
+    margin: 0px;
+    color: white;
+    margin-left: 10px;
+}
+.h4{
+    margin: 0px;
+    color: white;
+    
+    
+}
+.h2{
+    text-decoration: underline;
+}
+.h3{
+    margin-left: 10px ;
+    margin-right:10px ;
+}
+.h5{
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+.color-line{
+    background-color: #008080;
+    height: 6px;
+    width: 80px;
+    justify-content: center;
+    margin-left: 130px;
+    margin-top:20px ;
+    margin-bottom: 30px;
+   
+}
+
+.cont{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/8694926/2000_60d29a34c3df8.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-section{
+    background-color: #ccffff;
+    height: 400px;
+   margin: 0px;
+}
+.img{
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+}
+.h6{
+    color: black;
+    margin: 0px;
+}
+.cards{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.card-main{
+    display: flex;
+  text-align: center;
+  margin: 0px;
+}
+.card-2{
+    margin-top:10px ;
+    text-align: center;
+    margin-left: 50px;
+    margin: 40px;
+    }
+.footer{
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+}
+.h7{
+    color: black;
+}
+.para-foot{
+    color: black;
+}
+.gooo{
+    display: flex;
+     justify-content: space-between;
+}
+.op-ft{
+    color: black;
+   margin-left: 260px;
+   display: flex;
+}
+.i{
+    display: none;
+}
+@media (max-width:768px){
+    .h1{
+       text-align: center; 
+     margin: 180px;
+    }
+    .op{
+        display: none;
+    }
+    .nav-item{
+    background-color: #008080;
+    width: 100%;
+    margin: 0px;
+    height: 60px;
+    display: flex;
+  
+}
+.i{
+  height: 210px;
+  width: 120px;
+  display: block;
+}
+.card-main{
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+  margin: 0px;
+}
+.cards-section{
+    background-color: #ccffff;
+    height: 600px;
+   margin: 0px;
+}
+.cards{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.gooo{
+    display: flex;
+    flex-direction: column;
+     
+}
+.h7{
+    text-align: center;
+    margin-left:  120px;
+}
+.op-ft{
+    color: black;
+   margin-left: 260px;
+   display: flex;
+}
+.op-ft{
+    color: black;
+   margin-left: 240px;
+   display: flex;
+}
+}

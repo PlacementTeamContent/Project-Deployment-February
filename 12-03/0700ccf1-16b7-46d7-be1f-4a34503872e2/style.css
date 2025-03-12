@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+    background-color: #f8dcbf;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    color: white;
+}
+
+.services-1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.para-1 {
+    margin-right: 10px;
+    margin-top: 35px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.img-1 {
+    width: 100%;
+    height: 50%;
+}
+
+.service-heading {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.img-service {
+    width: 150px;
+    height: 150px;
+    margin-top: 20%;
+    border-radius: 50%;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+.para {
+    color: black;
+    text-align: center;
+
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-3 {
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: #1b262c;
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-section {
+    color: white;
+    margin-left: 10px;
+
+}

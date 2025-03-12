@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbartop{
+    background-color: #1b262c;
+    display: flex;
+}
+@media (max-width:576px){
+    .iconcolor{
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+        display: block;
+    }
+    .headingcarsevices{
+    color: white;
+    padding: 20px;
+    font-family: "Roboto";
+    padding-left: 30vw;
+    font-size: 20px;
+    }
+    .navbaritems{
+        display: none;
+    }
+    .headingtopconainer1{
+       text-align: center;
+    }
+    .img1{
+        border-radius: 20px;
+        width: 80vw;
+    }
+}
+
+@media (min-width:577px){
+    .headingcarsevices{
+        color: white;
+        padding: 30px;
+        font-family: "Roboto";
+        font-size: 45px;
+    }
+    .iconcolor{
+        display: none;
+    }
+    .navbartop{
+        background-color: #1b262c;
+        display: flex;
+        justify-content: space-between;
+    }
+    .textnavbar{
+        color: white;
+        padding: 1vh;
+        font-size: 20px;
+        font-family: "Roboto";
+        font-weight: bold;
+    }
+    .textnavbar:hover{
+        text-decoration: underline;
+    }
+    .navbaritems{
+        padding: 5vh;
+    }
+   
+}
+
+@media (min-width:768px){
+    .subcontainer{
+        display: flex;
+    }
+}
+
+.topcontainer1{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+    background-size: cover;
+    height: 55vh;
+    background-color: rgba(0,0,0,0.5);
+    opacity:  0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.headingtopconainer1{
+    color: white;
+    font-family: "Roboto";
+    font-size: 70px;
+}
+
+.pinkline{
+    background-color: #bf00ff;
+    width: 30vw;
+    height: 1vh;
+    margin: 10px;
+}
+.pinkline2{
+    background-color: #bf00ff;
+    width: 15vw;
+    height: 1vh;
+    margin-left: 41vw;
+}
+
+.paratopconainer1{
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contianerservices{
+    background-color: #f2ccff;
+    text-align: center;
+}
+
+.headingcontainerservice{
+    padding: 30px;
+    font-family: "Roboto";
+    font-weight: none;
+}
+
+.img1{
+    border-radius: 20px;
+}
+
+.containerservice1{
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+}
+
+.headingcontainer1{
+    text-align: left;
+    padding-left: 7vw;
+    font-family: "Roboto";
+}
+
+.paracontainer1{
+    text-align: left;
+    padding-left: 7vw;
+    font-family: "Roboto";
+    margin: 2px;
+}

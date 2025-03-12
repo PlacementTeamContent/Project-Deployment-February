@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container{
+    background-color:#f8dcbf;
+    display:flex;
+    flex-direction: row;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.two{
+    order:0;
+}
+.img{
+    height:160px;
+    width:160px;
+    border-radius: 90px;
+    justify-content: center;
+    
+}
+.bg {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+height:400px;
+    width:700px;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.sec1{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    justify-content: center;
+    text-align: center;
+}
+.oo{
+ justify-content: center;   
+}
+.footer{
+    background-color: #1b262c;
+    color:white;
+}
+@media (min-width:768px){
+.footer{
+   display:flex; 
+   justify-content: space-between;
+}
+.last{
+    order:1;
+     justify-content: space-between;
+    display: flex;
+    padding:20px;
+    
+}
+.last2{
+    justify-content: space-around;
+    padding:20px;
+   
+}
+    
+}

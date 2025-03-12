@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.club {
+    color: white;
+}
+.bg {
+    background-color: #f8dcbf;
+}
+.bg-img {
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/12981094/2000_653fa82068a69.jpg");
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+}
+.ace {
+    color: white;
+    text-align: center;
+}
+.ser {
+    background-color: #f8dcbf;
+    /* background-size: cover; */
+    height: 1000px;
+    width: 600px;
+} 
+.p {
+    font-family: "Robodo";
+    text-align: center;
+}
+.card {
+    background-color: white;
+    height: 250px;
+    width: 200px;
+    padding: 16px; 
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    gap: 10px;
+}
+.img-1 {
+    height: 100px;
+    width: 100px;
+}
+.personal {
+    color: black;
+    text-align: center;
+}
+.end {
+    background-color: #1b262c;
+    height: 200px;
+    width: 600px;
+}
+.club {
+    color: white;
+    margin-left: 30px;
+}

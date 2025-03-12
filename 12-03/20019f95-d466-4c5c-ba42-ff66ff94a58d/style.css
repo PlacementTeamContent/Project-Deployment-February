@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: #808080;
+    padding: 15px;
+    color: white;
+}
+
+.icon-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.brand-name {
+    margin: auto;
+}
+.nav{
+    display: none;
+}
+.home {
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.text-home {
+    text-align: center;
+    color: white;
+    font-family: 'Caladea';
+}
+
+.line {
+    border: 3px solid red;
+    width: 150px;
+    margin: auto;
+}
+
+.services {
+    height: 100%;
+    background-color: #f7c1c1;
+    padding: 30px 15px 30px 15px;
+}
+
+.H-2 {
+    text-align: center;
+}
+
+.line1 {
+    border: 1px solid red;
+    width: 80px;
+    margin: auto;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 25px;
+    /* margin: 10px; */
+    padding: 10px 10px 0px 10px;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+.H-3 {
+    margin: 2px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.link{
+    list-style-type: none;
+}
+
+.nav-links,.t{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-footer{
+    text-align: center;
+}
+@media (min-width:767px){
+    .nav{
+        display: flex;
+        font-size: 24px;
+    }
+    .k{
+        display: none;
+    }
+    .icon-name{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .brand-name {
+    margin: 20px;
+    font-size: 46px;
+}
+.H-1,.H-2,.H-3{
+    font-size: 50px;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+}

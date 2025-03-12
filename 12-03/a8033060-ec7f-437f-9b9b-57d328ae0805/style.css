@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+    background-image: url('https://files.cdn-files-a.com/ready_uploads/media/15288910/2000_67c579a9dfe7e.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}
+
+.main-heading {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30%;
+    margin: 10px;
+}
+
+.para {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.style {
+    border-bottom: solid 4px;
+    border-color: #1976d2;
+}
+
+.second-page {
+    background-color: #d1e5f9;
+    height: 200vh;
+    width: 100vw;
+    text-align: center;
+}
+
+
+.paragraph {
+    color: black;
+    text-align: center;
+    border-bottom: solid 3px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+img {
+    border-radius: 400px;
+    height: 28vh;
+    width: 50vw;
+    margin-left: 10%;
+}
+
+
+.last-page {
+    background-color: #1b262c;
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+
+.heading {
+    color: white;
+    padding: 20%;
+    font-size: 20px;
+}
+
+.page {
+    padding: 20px;
+}

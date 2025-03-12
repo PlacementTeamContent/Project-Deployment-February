@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.bg-container{
+    background-color: #0A1525;
+    background-size: cover;
+    height: 55px;
+    color: #FFFFFF;
+}
+.par1{
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: end;
+    font-size: 10px;
+    font-family: "Roboto";
+}
+.img{
+    height: 90vh;
+    width: 500px;
+    flex-direction: column;
+}
+.container{
+    background-color: #4B84F3;
+    height: 155vh;
+}
+.hand{
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+    text-decoration: underline;
+}
+.service{
+    background-color: white;
+    height: 20vh;
+    width: 155px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.got{
+    background-color: white;
+    height: 40vh;
+    width: 210px;
+    margin: 20px;
+}

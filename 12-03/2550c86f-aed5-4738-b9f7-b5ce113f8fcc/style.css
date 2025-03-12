@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.card{
+    background-color: Brown;
+    background-size: cover;
+    display: flex;
+    font-family: "Roboto";
+    color: #FFFFFF;
+}
+.carding{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    color: #FFFFFF;
+    
+}
+.line{
+    background-color: Brown;
+    height: 20px;
+    width: 80px;
+}
+
+.header{
+    text-align: center;
+}
+
+.arrow{
+    height: 10px;
+    width: 50px;
+    background-color: Brown;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+}
+
+.image{
+    /* height: 100px;
+    width: 100px; */
+    border-color: Brown;
+    flex-direction: row;
+}
+
+.content{
+    background-color: pink;
+}
+
+.heading5{
+    text-align: center;
+    border-color: brown;
+    color: #FFFFFF;
+}
+.para{
+    text-align: center;
+    border-color: brown;
+}
+
+
+@media screen and (min-width:560px){
+    .heading{
+        text-align: center;
+    }
+}
+
+/* .heading6{
+    color: #FFFFFF;
+} */
+/* .nav-baer{
+   display: flex;
+    display: grid;
+}
+ */

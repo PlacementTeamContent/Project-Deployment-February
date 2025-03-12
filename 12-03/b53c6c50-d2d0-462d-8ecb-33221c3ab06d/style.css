@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.container{
+    background-color: #808080;
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+     
+    
+}
+.header{
+    text-align: center;
+    color: white;
+    font-family:Roboto;
+    padding-top: 35px;
+    font-size: 24px;
+    
+    
+}.heading{
+    color: white;
+    text-align: center;
+}
+.image-container{
+    background-image: yrl("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    height: 300px;
+    width: 100vw;
+    background-size: cover;
+    margin-top: 0px;
+}
+.para{
+    color: white;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    
+}
+.hlo{
+    background-color: #f7c1c1;
+}
+.SERVICES{
+    text-align: center;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}

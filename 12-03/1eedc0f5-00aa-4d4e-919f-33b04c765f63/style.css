@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header{
+    background-color: #1b262c;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: bold;
+}
+.h-elements{
+    display: flex;
+    justify-content: space-between;
+}
+.selected{
+    text-decoration: underline;
+    font-family: Roboto;
+    margin-right: 10px;
+}
+.sub-h-elements{
+    display: flex;
+    margin: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+   
+}
+.homePage{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/8501790/2000_608d22a928dfd.jpg');
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-style: normal;
+}
+.heading-home{
+    font-family: Roboto;
+ 
+    color: #ffffff;
+}
+.bar-para{
+    background-color: #bf00ff;
+    height: 5px;
+    width: 40%;
+}
+.ServicesPage{
+    background-color: #f2ccff;
+    height: 80vh;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+.heading-services{
+    font-family: Roboto;
+    
+ 
+}
+.service-imgs{
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    
+}
+.sectionImgs{
+    height: 80px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.footer{
+ 
+    background-color: #ffffff;
+    color: #1b262c;
+    padding: 15px;
+    font-weight: bold;
+
+}

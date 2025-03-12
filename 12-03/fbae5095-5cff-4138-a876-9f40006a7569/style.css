@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+body{
+    margin:0px;
+}
+.nav{
+    height:100px;
+    padding:10px;
+    background-color:#808080;
+}
+.one{
+    font-family:Caladea;
+    color:white;
+    font-size:40px;
+    margin-top: 10px;
+}
+.home{
+    color:white;
+    font-family:Caladea;
+}
+.serive{
+    color:white;
+    font-family:Caladea;
+}
+.s{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.n{
+    flex-direction:row;
+    display:flex;
+    gap:40px;
+}
+.d{
+display:flex;
+flex-direction:column;
+}
+.one_container{
+   background-image:url('https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg'); 
+   background-size:cover;
+   height:100vh;
+   
+}
+.heading_1{
+    color:white;
+    font-family:Caladea;
+    justify-content:center;
+    text-align:center;
+    padding-top:70px;
+}
+.para{
+    text-align:center;
+    color:white;
+    font-family: Caladea;
+    font-size:20px;
+    padding-top:20px;
+}
+hr{
+    width:120px;
+    height:3px;
+    background-color:red;
+    border-width:0px;
+}
+.two_container{
+    height:100vh;
+    background-color:#f7c1c1;
+}
+.p{
+    text-align:center;
+    color:black;
+    font-family:Caladea;
+    font-size:32px;
+}
+.v{
+    width:50px;
+    height:5px;
+    background-color:red;
+    border-width:0px;
+}
+.image_2{
+    height:150px;
+    border-radius:10px;
+}
+.s1{
+    width:180px;
+    padding:50px;
+}
+.s7{
+    display:flex;
+    justify-content:space-evenly;
+}
+.b{
+    font-family:Caladea;
+}
+.q{
+    font-family:Caladea;
+}
+.amaresh{
+    display:flex;
+    justify-content:space-between;
+    font-family:Caladea;
+}
+.fotter{
+    height:50vh;
+    background-color:white;
+}
+.s2{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    padding:15px;
+}
+.s3{
+    padding:15px;
+}
+.jj{
+    margin:130px;
+}
+@media screen and (max-width:768px){
+    .two_container{
+        display:grid;
+        height:200vh;
+    }
+   .s7{
+       display:grid;
+   }
+}
+@media screen and (max-width:576px){
+    .two_container{
+        height:200vh;
+    }
+}

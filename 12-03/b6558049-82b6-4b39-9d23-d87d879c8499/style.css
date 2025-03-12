@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
+.nav-items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: auto;
+    padding: 5px;
+}
+
+@media (max-width:767px) {
+    
+}
+.navbar{
+    display:flex;
+    background-color: #808080;
+    height: 15%;
+    font-family: Caladea;
+}
+.nav-icon{
+    color: white;
+    margin-left: 10px;
+    font-size: 32px;
+}
+
+li{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: Caladea;
+}
+
+.first-page{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3268938/2000_5e26bbfd63b60.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    color: white;
+    font-family: Caladea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.first-page-heading{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.first-page-line{
+    height: 8px;
+    width: 100px;
+    background-color:red ;
+    text-align: center;
+    margin-left: 50vh;
+    margin-top: -10px;
+    
+    
+}
+
+.second-page{
+    background-color: #f7c1c1;
+    height: 80vh;
+    text-align: center;
+    padding: 10px;
+
+    
+}
+
+.second-page-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-image{
+    height: 40%;
+    width: 110%;
+    
+}
+
+.card-content{
+    text-align: left;
+   
+}
+
+.card{
+    margin: 20px;
+}
+
+footer{
+     display:flex;
+     flex-direction: row;
+    background-color: white;
+    height: 20vh;
+    font-family: Caladea;
+    padding: 20px;
+}
+
+.foot{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 5px;
+    color: black;
+
+}
+.content{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.items{
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+    font-family: Caladea;
+}

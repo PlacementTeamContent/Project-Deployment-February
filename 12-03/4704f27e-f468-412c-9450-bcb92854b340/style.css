@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.bg-1{
+    background-color: #0A1525;
+    height: 10vh;
+    width: 100%;
+}
+.cl{
+    color: #FFFFFF;
+}
+.bg-2{
+    
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg');
+    background-size:cover;
+    height: 75vh;
+    width: 75vh;
+    padding: 10px;
+    
+}
+h1{
+    color: white;
+}
+.bgg-3{
+    background-color: #4B84F3;
+    height: 100%;
+    width: 100%;
+    
+}
+.style{
+    color: red;
+    font-size: 20px;
+    padding-bottom:20px ;
+}
+.style2{
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+}
+.text{
+    text-align: center;
+}
+.bgg-4{
+    display: flex;
+    flex-direction: row;
+}
+.bgg-5{
+    display: flex;
+    flex-direction:column;
+    
+}
+.card{
+    background-color: white;
+    width:30vh;
+    height: 40vh;
+    flex-shrink:2 ;
+    margin: 10px;
+    border-radius: 10px;
+}
+.bgg-6{
+    display: flex;
+    flex-direction: row;
+    
+}
+img{
+    height: 60px;
+    width: 70px;
+    padding: 20px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+.bgg-10{
+    display: flex;
+    flex-direction: row;
+}
+i{
+    height: 20px;
+    width: 40px;
+}

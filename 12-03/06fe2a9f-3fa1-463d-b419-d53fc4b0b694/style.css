@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.container{
+    background-image: url("https://images.cdn-files-a.com/ready_uploads/media/3847776/2000_5e4c4f2aaf657.jpg");
+    background-size: cover;
+    height: 90vh;
+    width: 90vw;
+    padding: 0px;
+}
+.d1{
+    
+    text-align: center;
+    
+}
+.h1{
+    color: white;
+    font-family: "Roboto";
+    background-color: #0A1525;
+    
+}
+.h2{
+    color: white;
+    font-size: 30px;
+    justify-content: between;
+}
+.d3{
+    background-color: #4B84F3;
+    text-align: center;
+}
+.h3{
+    color: black;
+    text-align: center;
+}  
+.d4{
+    background-color: white;
+    border-left: 60px;
+    margin: 20px;
+}
+.image1{
+    height: 20vh;
+    width: 30vh;
+    border-radius: 360px;
+    margin-top: 20px;
+}
